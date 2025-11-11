@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2025-11-10",
+    "title": "Chatbot Framework for Power Quality Measurement Data and Documentation Using LLM and RAG",
+    "authors": "Aadharsh Aadhithya A, Surya Santoso",
+    "publish": "2025 IEEE Power &amp;amp; Energy Society General Meeting (PESGM)",
+    "url": "https://doi.org/10.1109/pesgm52009.2025.11225681",
+    "source": "IEEE",
+    "abstract": "Analyzing three-phase voltage and current waveforms to identify the root causes of power quality disturbances is a complex task. It requires expert knowledge and often involves referencing external resources. Recent advances in large language models (LLMs) and retrieval-augmented generation (RAG) offer a promising solution for enhancing this process. This paper proposes and implements a framework for developing a domain-specific chatbot enabled by LLMs and RAG models to analyze power quality disturbance waveforms. The experimental bot, demonstrated and tailored for incipient cable faults, can detect and analyze fault events while facilitating user interaction with datasets and discussions on user-specified documentation. This proof-of-concept framework can be generalized to other power quality disturbance data and documentation, paving the way for more efficient and enhanced analysis of power quality disturbances."
+  }
+]
