@@ -18,3 +18,5 @@ jobs:
 
       - name: Run test.py
         run: python test.py
+
+        env: USERNAME: ${{secrets.USERNAME}}
