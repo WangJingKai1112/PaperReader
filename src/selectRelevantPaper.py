@@ -90,7 +90,7 @@ def llm_translate_to_zh(text):
 def select_translate_and_save(file_path):
     """筛选相关论文并翻译标题和摘要"""
     dir_name, base_name = os.path.split(file_path)
-    out_path = f"../papers/select_{base_name}"
+    out_path = f"papers/select_{base_name}"
 
 
     with open(file_path, 'r', encoding='utf-8') as f:
@@ -338,3 +338,4 @@ def select_error_message_email(ErrorMessage):
 # ========== 使用示例 ==========
 # Paperpath = "../papers/paper2025-11-08.json"
 # select_translate_and_email(Paperpath)
+
