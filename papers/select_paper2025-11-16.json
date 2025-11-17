@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "date": "2025-11-17",
+    "title": "Above the Clouds: New Software Challenges in Space Computing",
+    "authors": "Haoda Wang, Robert Leo Pendergrast, Kristófer Fannar Björnsson, Anika Somaia, Ezra Landa, Junfeng Yang, Asaf Cidon",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772396",
+    "source": "ACM",
+    "abstract": "Satellite-backed services have become an essential component of everyday life, in areas such as navigation, Internet connectivity and imaging. The collapsing cost of launching to space has disrupted the way satellites are deployed, shifting the industry from a model of few expensive fault-tolerant high-orbit satellites to arrays of commodity low-cost SmallSats in low-Earth orbit. However, satellite software hasn't kept up with the hardware trends, and missions are still using the ad-hoc flight software infrastructure built for expensive one-off missions in high-altitude orbits, wherein operators manually deploy software to each satellite individually. This approach is woefully inadequate in the new emerging SmallSat operational model, where an operator needs to manage hundreds of \"wimpy\" satellites with varying hardware capabilities under intermittent communication. Furthermore, SmallSat operators increasingly \"rent out\" their infrastructure to third parties, and need to support the workloads of multiple different tenants on the same satellites, which raises the classic problems of isolation and security similar to cloud computing, but in the much more constrained hardware environment of space. In this paper, we describe the new research questions introduced by this operational model. We also sketch the design of a novel lightweight eBPF-based runtime for fleets of multi-tenant, heterogeneous and intermittently-connected satellites.",
+    "title_zh": "云端之上：空间计算领域的新软件挑战",
+    "abstract_zh": "卫星支持的服务已成为日常生活中不可或缺的组成部分，涵盖导航、互联网连接和成像等领域。发射成本的急剧下降彻底改变了卫星的部署方式，使行业从以往少数昂贵、具备容错能力的高轨道卫星模式，转向由大量低成本、通用型小卫星组成的低地球轨道阵列。然而，卫星软件的发展却未能跟上硬件的变革步伐，目前的任务仍依赖于为高轨道中单次任务设计的临时性飞行软件架构，即操作员需手动逐个向每颗卫星部署软件。这种做法在新兴的小卫星运营模式下已显得严重不足：运营商需要管理数百颗性能各异、资源受限的“弱小”卫星，且通信时断时续。此外，小卫星运营商正越来越多地将自身基础设施租借给第三方，需在同一颗卫星上支持多个不同租户的工作负载，这带来了与云计算类似的隔离与安全问题，但其面临的硬件环境更为严苛。本文阐述了这一新型运营模式所引出的新研究问题，并初步设计了一种基于轻量级eBPF技术的运行时系统，以支持多租户、异构且间歇性连接的卫星群组。"
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Programmable and Adaptive Scheduling for Distributed Systems",
+    "authors": "Yuyao Wang, Xiangfeng Zhu, Ratul Mahajan, Stephanie Wang",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772391",
+    "source": "ACM",
+    "abstract": "Existing frameworks for managing distributed systems hard-code scheduling policies and their implementations (e.g., centralized vs. decentralized), limiting customization and hurting performance across diverse applications and workloads. We argue for an adaptive scheduling approach, where developers express policies in a high-level, framework-agnostic DSL, and a compiler generates optimized implementations based on policy semantics, workload characteristics, and execution environments. We demonstrate that our compiler-guided approach can significantly improve both scheduling quality and performance.",
+    "title_zh": "可编程且自适应的分布式系统调度",
+    "abstract_zh": "现有分布式系统管理框架将调度策略及其具体实现（如集中式与去中心化）硬编码，限制了定制能力，并在不同应用和工作负载下影响性能。我们主张采用一种自适应的调度方法：开发者使用高层次、与框架无关的领域特定语言（DSL）表达调度策略，而编译器则根据策略语义、工作负载特征及运行环境生成优化的实现代码。我们证明，这种由编译器引导的方法能够显著提升调度质量与系统性能。"
+  }
+]

@@ -1,10 +1,70 @@
-[2025-11-17 12:11:17] 开始执行论文搜索任务
+[2025-11-17 12:23:02] 开始执行论文搜索任务
 搜索关键词: verilog
 搜索日期范围: 2025-11-16
 正在获取论文...
-共写入 0 条记录，保存到 papers/paper2025-11-16.json。
+[ACM] 2025-11-17 | Understanding Users' Privacy Perceptions Towards LLM's RAG-based Memory
+[ACM] 2025-11-17 | Optimal Strategy in the Werewolf Game: A Theoretical Study
+[ACM] 2025-11-17 | FlexSFP: Rethinking Network Intelligence Inside the Cable
+[ACM] 2025-11-17 | Rethinking Geolocalization on the Internet
+[ACM] 2025-11-17 | "I Apologize For Not Understanding Your Policy": Exploring the Evaluation of User-Managed Access Control Policies by AI Virtual Assistants
+[ACM] 2025-11-17 | The Case for Crowd-Sourcing Communication to BLE-Only Devices
+[ACM] 2025-11-17 | Faster-than-light coordination for networked systems with quantum non-local games
+[ACM] 2025-11-17 | Unambiguous, Randomized, and Symmetric Catalytic Computation
+[ACM] 2025-11-17 | One to Many: Closing the Bandwidth Gap in AI Datacenters with Scalable Multicast
+[ACM] 2025-11-17 | Above the Clouds: New Software Challenges in Space Computing
+[ACM] 2025-11-17 | Photonic Rails in ML Datacenters
+[ACM] 2025-11-17 | Rethinking the Cost of Distributed Caches for Datacenter Services
+[ACM] 2025-11-17 | A Modern Edge-based Design for Cellular Roaming
+[ACM] 2025-11-17 | Towards Accessible Model-Free Verification
+[ACM] 2025-11-17 | Beyond Lamport, Towards Probabilistic Fair Ordering
+[ACM] 2025-11-17 | Automatically Surfacing Opportunities for Improvements In Internet-Scale Applications
+[ACM] 2025-11-17 | Server Chiplet Networking
+[ACM] 2025-11-17 | Unveiling and Engaging with the Humans of Networking Research
+[ACM] 2025-11-17 | Software Managed Networks via Coarsening
+[ACM] 2025-11-17 | Programmable and Adaptive Scheduling for Distributed Systems
+共写入 20 条记录，保存到 papers/paper2025-11-16.json。
 论文获取成功，文件路径: papers/paper2025-11-16.json
 正在筛选、翻译并发送邮件...
-筛选完成：共 0 篇；Yes = 0 篇；已保存到 papers/select_paper2025-11-16.json。
+res= No
+[NO] 1/20 | Understanding Users' Privacy Perceptions Towards LLM's RAG-based Memory
+res= No
+[NO] 2/20 | Optimal Strategy in the Werewolf Game: A Theoretical Study
+res= No
+[NO] 3/20 | FlexSFP: Rethinking Network Intelligence Inside the Cable
+res= No
+[NO] 4/20 | Rethinking Geolocalization on the Internet
+res= No
+[NO] 5/20 | "I Apologize For Not Understanding Your Policy": Exploring the Evaluation of User-Managed Access Control Policies by AI Virtual Assistants
+res= No
+[NO] 6/20 | The Case for Crowd-Sourcing Communication to BLE-Only Devices
+res= No
+[NO] 7/20 | Faster-than-light coordination for networked systems with quantum non-local games
+res= No
+[NO] 8/20 | Unambiguous, Randomized, and Symmetric Catalytic Computation
+res= No
+[NO] 9/20 | One to Many: Closing the Bandwidth Gap in AI Datacenters with Scalable Multicast
+res= Yes
+[YES] 10/20 | Above the Clouds: New Software Challenges in Space Computing
+res= No
+[NO] 11/20 | Photonic Rails in ML Datacenters
+res= No
+[NO] 12/20 | Rethinking the Cost of Distributed Caches for Datacenter Services
+res= No
+[NO] 13/20 | A Modern Edge-based Design for Cellular Roaming
+res= No
+[NO] 14/20 | Towards Accessible Model-Free Verification
+res= No
+[NO] 15/20 | Beyond Lamport, Towards Probabilistic Fair Ordering
+res= No
+[NO] 16/20 | Automatically Surfacing Opportunities for Improvements In Internet-Scale Applications
+res= No
+[NO] 17/20 | Server Chiplet Networking
+res= No
+[NO] 18/20 | Unveiling and Engaging with the Humans of Networking Research
+res= No
+[NO] 19/20 | Software Managed Networks via Coarsening
+res= Yes
+[YES] 20/20 | Programmable and Adaptive Scheduling for Distributed Systems
+筛选完成：共 20 篇；Yes = 2 篇；已保存到 papers/select_paper2025-11-16.json。
 邮件发送成功！
-[2025-11-17 12:11:21] 任务执行成功！
+[2025-11-17 12:25:25] 任务执行成功！

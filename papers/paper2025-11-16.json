@@ -1,1 +1,182 @@
-[]
+[
+  {
+    "date": "2025-11-17",
+    "title": "Understanding Users' Privacy Perceptions Towards LLM's RAG-based Memory",
+    "authors": "Shuning Zhang, Rongjun Ma, Ying Ma, Shixuan Li, Yiqun Xu, Xin Yi, Hewu Li",
+    "publish": "Proceedings of the 2025 Workshop on Human-Centered AI Privacy and Security",
+    "url": "https://doi.org/10.1145/3733816.3760750",
+    "source": "ACM",
+    "abstract": "Large Language Models (LLMs) are increasingly integrating memory functionalities to provide personalized and context-aware interactions. However, user understanding, practices and expectations regarding these memory systems are not yet well understood. This paper presents a thematic analysis of semi-structured interviews with 18 users to explore their mental models of LLM’s Retrieval Augmented Generation (RAG)-based memory, current usage practices, perceived benefits and drawbacks, privacy concerns and expectations for future memory systems. Our findings reveal diverse and often incomplete mental models of how memory operates. While users appreciate the potential for enhanced personalization and efficiency, significant concerns exist regarding privacy, control and the accuracy of remembered information. Users express a desire for granular control over memory generation, management, usage and updating, including clear mechanisms for reviewing, editing, deleting and categorizing memories, as well as transparent insight into how memories and inferred information are used. We discuss design implications for creating more user-centric, transparent, and trustworthy LLM memory systems."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Optimal Strategy in the Werewolf Game: A Theoretical Study",
+    "authors": "Shitong Wang",
+    "publish": "Games: Research and Practice",
+    "url": "https://doi.org/10.1145/3774646",
+    "source": "ACM",
+    "abstract": "In this paper, we investigate the optimal strategies in the Werewolf Game—a widely played strategic social deduction game involving two opposing factions—from a game-theoretic perspective. We consider two scenarios: the game without a prophet and the game with a prophet. In the scenario without a prophet, we propose an enhanced strategy called “random strategy+” that significantly improves the werewolf group’s winning probability over conventional random strategies. In the scenario with a prophet, we reformulate the game as an extensive-form Bayesian game under a specific constraint, and derive the prophet’s optimal strategy that induces a Perfect Bayesian Equilibrium (PBE). This study provides a rigorous analytical framework for modeling the Werewolf Game and offers broader insights into strategic decision-making under asymmetric and incomplete information."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "FlexSFP: Rethinking Network Intelligence Inside the Cable",
+    "authors": "Angelo Tulumello, Alessandro Rivitti, Giacomo Belocchi, Giuseppe Bianchi, Luka Perkov",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772427",
+    "source": "ACM",
+    "abstract": "As network programmability promotes increasingly intelligent hosts, NICs, and switches, we argue that the next frontier lies in making the cables themselves smarter. By embedding lightweight, wire-speed processing directly within transceivers, we enable precise, low-latency, and energy-efficient network functions, providing a modular and cost-effective path to extend the life of legacy infrastructure and to fundamentally rethink where intelligence belongs in the data plane. To concretize such vision, this paper introduces FlexSFP, a programmable variant of the standard SFP+ transceiver, embedding lightweight FPGA-based logic for in-line packet processing. Driven by both technical and economic considerations, FlexSFP offers a compelling \"cheap path\" alongside host CPUs and SmartNICs, enabling targeted acceleration where cost, power, and deployment flexibility are critical. We explore practical use cases, such as per-port firewalling, in-line telemetry, and retrofitting legacy switches, and outline a feasible architecture and programming model."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Rethinking Geolocalization on the Internet",
+    "authors": "Augustin Laouar, Loic Desgeorges, Paul Schmitt, Franceso Bronzino",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772421",
+    "source": "ACM",
+    "abstract": "Location underpins critical Internet services, yet our primary mechanism for Internet localization, IP-based geolocation, fails to meet the needs of all stakeholders. User location is conflated with network location, leading to a fundamental mismatch between the goals of content providers, infrastructure operators, and regulators. As users increasingly adopt privacy-preserving technologies that obscure their network identity, this mismatch becomes more pronounced, making localization even more challenging. This paper argues that the problem cannot be solved by simply improving the accuracy of incumbent mechanisms that are inappropriately applied today to solve multiple, unrelated problems. Instead, we require a new approach for localization on the Internet."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "\"I Apologize For Not Understanding Your Policy\": Exploring the Evaluation of User-Managed Access Control Policies by AI Virtual Assistants",
+    "authors": "Jennifer Mondragon, Gael Cruz, Carlos Rubio-Medrano, Dvijesh Shastri",
+    "publish": "Proceedings of the 2025 Workshop on Human-Centered AI Privacy and Security",
+    "url": "https://doi.org/10.1145/3733816.3760753",
+    "source": "ACM",
+    "abstract": "The rapid evolution of Artificial Intelligence (AI)-based Virtual Assistants (VAs), e.g., Google Gemini, ChatGPT, Microsoft Copilot, and High-Flyer Deepseek, has turned them into convenient interfaces for managing emerging technologies such as Smart Homes, Smart Cars, and Electronic Health Records. By leveraging explicit commands, e.g., prompts, which can be even launched via voice, VAs provide a very natural interface for end-users. However, the proper specification and evaluation of User-Managed Access Control Policies (U-MAPs), the rules issued and managed by end-users to govern access to sensitive data and device functionality within these VAs, presents significant challenges as this process is crucial for preventing security vulnerabilities and privacy leaks without impacting user experience. This work-in-progress study provides an initial exploratory investigation on whether current publicly-available VAs can manage U-MAPs effectively across differing scenarios. By conducting unstructured to structured tests, we evaluated the comprehension of such VAs, revealing a lack of understanding in varying U-MAP approaches. Our research not only identifies key limitations, but offers valuable insights into how VAs can be further improved to manage complex authorization rules and adapt to dynamic changes."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "The Case for Crowd-Sourcing Communication to BLE-Only Devices",
+    "authors": "Alex Bellon, Tess Despres, Prabal Dutta, Pat Pannuto, Sylvia Ratnasamy",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772394",
+    "source": "ACM",
+    "abstract": "With the widespread deployment of Bluetooth Low Energy (BLE) enabled devices, we are moving towards a world full of distributed, resource-constrained devices. With this growth comes the challenge of maintaining and communicating with millions of intermittently connected low-power BLE devices. While sending data from these BLE devices back to central servers has successfully been realized at scale (e.g. Apple AirTags), downlink communication is more difficult. Given the common usage of BLE-only devices in public infrastructure and other safety-critical environments, this inability to communicate with devices in a timely manner poses a barrier to realizing safe and secure ubiquitous computing. We explore the design space of providing downlink connectivity to BLE-only devices, give an overview of the challenges, and propose a system to enable downlink BLE communication."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Faster-than-light coordination for networked systems with quantum non-local games",
+    "authors": "Venkat Arun, Vijay Chidambaram, Scott Aaronson",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772419",
+    "source": "ACM",
+    "abstract": "Many networked systems rely on hashing and randomized algorithms for tasks such as load balancing, thereby avoiding the need for coordination or communication among participants on each request. However, purely random routing can lead to collisions and missed opportunities for beneficial colocation. Quantum entanglement enables participants to instantly make correlated decisions without communicating. We explore how this capability can expand the Pareto frontier of achievable performance in networked systems, presenting both positive and negative results. Notably, many of these advantages can be realized using small, currently available quantum devices that can often operate at room temperature."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Unambiguous, Randomized, and Symmetric Catalytic Computation",
+    "authors": "Samir Datta, Chetan Gupta, Rahul Jain, Vimal Sharma, Raghunath Tewari",
+    "publish": "ACM Transactions on Computation Theory",
+    "url": "https://doi.org/10.1145/3774644",
+    "source": "ACM",
+    "abstract": "A catalytic Turing machine is a model of computation that is created by equipping a Turing machine with an additional auxiliary tape, which is initially filled with arbitrary content; the machine can read or write on the auxiliary tape during the computation, but it is constrained to halt with the same content in the auxiliary tape as it initially had. This paper, studies the power of some natural variants of catalytic Turing machines with O(log n)-size work tape and a polynomial-size auxiliary tape."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "One to Many: Closing the Bandwidth Gap in AI Datacenters with Scalable Multicast",
+    "authors": "Sepehr Abdous, Jinqi Lu, Jiacheng Wan, Erfan Sharafzadeh, Ying Zhang, Soudeh Ghorbani",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772425",
+    "source": "ACM",
+    "abstract": "AI training now floods datacenter fabrics with thousands of simultaneous collectives, yet most frameworks still move data the hard way: O(N) unicasts for a group of N processors. Classic multicast could slash those bytes but has long been deemed unscalable: computing an optimal tree in an asymmetric Clos is NP-hard and group-specific rules quickly exhaust switch TCAM."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Above the Clouds: New Software Challenges in Space Computing",
+    "authors": "Haoda Wang, Robert Leo Pendergrast, Kristófer Fannar Björnsson, Anika Somaia, Ezra Landa, Junfeng Yang, Asaf Cidon",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772396",
+    "source": "ACM",
+    "abstract": "Satellite-backed services have become an essential component of everyday life, in areas such as navigation, Internet connectivity and imaging. The collapsing cost of launching to space has disrupted the way satellites are deployed, shifting the industry from a model of few expensive fault-tolerant high-orbit satellites to arrays of commodity low-cost SmallSats in low-Earth orbit. However, satellite software hasn't kept up with the hardware trends, and missions are still using the ad-hoc flight software infrastructure built for expensive one-off missions in high-altitude orbits, wherein operators manually deploy software to each satellite individually. This approach is woefully inadequate in the new emerging SmallSat operational model, where an operator needs to manage hundreds of \"wimpy\" satellites with varying hardware capabilities under intermittent communication. Furthermore, SmallSat operators increasingly \"rent out\" their infrastructure to third parties, and need to support the workloads of multiple different tenants on the same satellites, which raises the classic problems of isolation and security similar to cloud computing, but in the much more constrained hardware environment of space. In this paper, we describe the new research questions introduced by this operational model. We also sketch the design of a novel lightweight eBPF-based runtime for fleets of multi-tenant, heterogeneous and intermittently-connected satellites."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Photonic Rails in ML Datacenters",
+    "authors": "Eric Ding, Chuhan Ouyang, Rachee Singh",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772414",
+    "source": "ACM",
+    "abstract": "Rail-optimized network fabrics have become the de facto datacenter scale-out fabric for large-scale ML training. However, the use of high-radix electrical switches to provide all-to-all connectivity in rails imposes massive power, cost, and complexity overheads. We propose a rethinking of the rail abstraction by retaining its communication semantics, but realizing it using optical circuit switches. The key challenge is that optical switches support only one-to-one connectivity at a time, limiting the fan-out of traffic in ML workloads using hybrid parallelisms. We introduce parallelism-driven rail reconfiguration as a solution that leverages the sequential ordering between traffic from different parallelisms. We design a control plane, Opus, to enable time-multiplexed emulation of electrical rail switches using optical switches. More broadly, our work discusses a new research agenda: datacenter fabrics that co-evolve with the model parallelism dimensions within each job, as opposed to the prevailing mindset of reconfiguring networks before a job begins."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Rethinking the Cost of Distributed Caches for Datacenter Services",
+    "authors": "Ziming Mao, Jonathan Ellithorpe, Atul Adya, Rishabh Iyer, Matei Zaharia, Scott Shenker, Ion Stoica",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772388",
+    "source": "ACM",
+    "abstract": "This paper systematically studies the cost impact of distributed in-memory caches on datacenter services. While memory used for these caches is often perceived to be expensive, we find that the resulting CPU savings from these in-memory caches far outweigh the cost of added memory. In fact, across a variety of both synthetic and production workloads, we find that adding distributed in-memory caches can lower total operating costs by 3 – 4×, even without considering their latency benefits. These cost savings can vary significantly across various architectures, such as storage layer caches, remote lookaside caches, and in-memory linked caches. We additionally evaluate cost for two emerging scenarios: caching rich application objects and strongly consistent cache. For the former, we find that caching application objects provides outsized benefits compared to their denormalized, key-value-style variants, up to 8× compared to reading from storage. For the latter, we observe that even a minimal version check for consistency can eliminate most of the cost benefits, calling for new designs for cost-effective consistent cache."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "A Modern Edge-based Design for Cellular Roaming",
+    "authors": "Tenzin Samten Ukyab, Shaddi Hasan, Sylvia Ratnasamy, Scott Shenker",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772381",
+    "source": "ACM",
+    "abstract": "Support for roaming in today's cellular architecture involves operating a private network that sits right next to the mainstream Internet. This network is called the IP Exchange Network (IPX) and it provides Mobile Network Operators (MNOs) with a mechanism to form roaming partnerships, resolve billing and QoS, and set up tunnels as necessary. We propose a design which we call the CPX (Consolidated IPX/IXP) where the roaming network converges with the Internet by leveraging existing edge providers to provide all the benefits that the IPX network provides. In addition to convergence, the CPX architecture provides lower latency for roaming users; in our simulation of a global CPX deployment, we demonstrate an average of 318% improvement in roaming connection latency."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Towards Accessible Model-Free Verification",
+    "authors": "Alexander Krentsel, Oliver Ye, Anthony Tafoya, Xuqian Ma, Sylvia Ratnasamy, Anees Shaikh",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772380",
+    "source": "ACM",
+    "abstract": "Despite coming up on two decades of network verification research, verification tooling continues to see limited real-world adoption and outages continue to occur. Relying on interviews with network engineers and our own experience as a large network operator, we ask why. These conversations reveal that the culprit is traditional verification's reliance on hand-crafted network models, which leads to issues with coverage, correctness, maintainability, and fidelity, ultimately hindering practical applicability and adoption."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Beyond Lamport, Towards Probabilistic Fair Ordering",
+    "authors": "Muhammad Haseeb, Jinkun Geng, Radhika Mittal, Aurojit Panda, Srinivas Narayana, Anirudh Sivaraman",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772401",
+    "source": "ACM",
+    "abstract": "A growing class of applications demands fair ordering of events, which ensures that events generated earlier are processed before later events. However, achieving such sequencing is challenging due to the inherent errors in clock synchronization: two events at two clients generated close together may have timestamps that cannot be compared confidently. We advocate for an approach that embraces, rather than eliminates, clock synchronization errors. Instead of attempting to remove the error from a timestamp, Tommy, our proposed system, leverages a statistical model to compare two noisy timestamps probabilistically by learning per-clock synchronization error distributions. Our preliminary statistical model computes the probability that one event precedes another by only relying on local clocks of clients. This serves as a foundation for a new relation: likely-happened-before denoted by →p where p represents the probability that an event happened before another. The →p relation provides a basis for ordering multiple events which are otherwise considered concurrent by Lamport's happened-before (→) relation. We highlight various related challenges including the intransitivity of the →p relation as opposed to the transitive → relation. We outline several research directions: online fair sequencing, stochastically fair total ordering, and handling byzantine clients."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Automatically Surfacing Opportunities for Improvements In Internet-Scale Applications",
+    "authors": "Vipul Harsh, Sayan Sinha, Henry Milner, Haijie Wu, B. Aditya Prakash, Vyas Sekar, Hui Zhang",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772423",
+    "source": "ACM",
+    "abstract": "Modern Internet services generate massive volumes of observability data, yet identifying opportunities for business performance improvements remains elusive. In many cases, such insights manifest only within sub-populations defined by derived attributes that cannot be predefined, might evolve over time, and often cannot be exhaustively enumerated ahead of time. Unfortunately, existing commercial and research systems fall short in one or more aspects of generating such improvement opportunities: expressiveness, automation, and scalability. We present a vision for automatically surfacing opportunities for improvements to tackle these seemingly conflicting and intractable requirements. We highlight the early promise from a proof-of-concept system, showing evaluation on three real-world services and discuss open challenges for future work."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Server Chiplet Networking",
+    "authors": "Seunghyun An, Joontaek Oh, Ming Liu",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772389",
+    "source": "ACM",
+    "abstract": "Emerging chiplet-based server platforms and the resulting server chiplet networking present a fundamental shift in the (intra-)host network. Unlike conventional monolithic servers, compute chiplets, I/O chiplets, off-chip memory, and peripheral devices communicate through a collection of heterogeneous interconnects and links, formalizing a new server chiplet network substrate that has not been explored before. This paper makes an initial step by characterizing two generations of AMD EPYC chiplet servers, identifying four communication idiosyncrasies, and summarizing the design implications. We outline some future directions under server chiplet networking and discuss how to build next-generation server systems and applications."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Unveiling and Engaging with the Humans of Networking Research",
+    "authors": "Nova Ahmed, Laura Gazda, Eric Greenlee, Shelby Hagemann, Kurtis Heimerl, Esther Jang, Fernanda R. Rosa, Loqman Salamatian, Jason Young",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772400",
+    "source": "ACM",
+    "abstract": "Networking research often abstracts away the people who build, operate, and experience the Internet. Yet, human decisions shape what gets measured, which problems are prioritized, and how solutions are deployed. This paper argues that such human influence is foundational and deserves methodological attention. To do so, we discuss three well-known qualitative methods and approaches: participatory action research, ethnographic methods, and positionality as concrete ways of engaging with the social and operational realities that underlie technical systems. These approaches formalize processes that are commonly implicit in networking research, help surface questions that cannot be answered with traces alone, and make space for voices often left out of the research pipeline or are inadvertently concealed due to the lack of formal procedures to include them in our research methods. Ultimately, we argue for a broader understanding of legitimate, and sometimes informal, contributions to networking research—one that better reflects the human element of how the Internet is structured and is experienced."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Software Managed Networks via Coarsening",
+    "authors": "Pradeep Dogga, Rachee Singh, Suman Nath, Ravi Netravali, Jens Palsberg, George Varghese",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772393",
+    "source": "ACM",
+    "abstract": "We propose moving from Software Defined Networks (SDN) to Software Managed Networks (SMN) where all information for managing the life cycle of a network (from deployment to operations to upgrades), across all layers (from Layer 1 through 7) is stored in a central repository. Crucially, a SMN also has a generalized control plane that, unlike SDN, controls all aspects of the cloud including traffic management (e.g., capacity planning) and reliability (e.g., incident routing) at both short (minutes) and large (years) time scales. Just as SDN allows better routing, a SMN improves visibility and enables cross-layer optimizations for faster response to failures and better network planning and operations. Implemented naively, SMN for planetary sc6ale networks requires orders of magnitude larger and more heterogeneous data (e.g., alerts, logs) than SDN. We address this using coarsening — mapping complex data to a more compact abstract representation that has approximately the same effect, and is more scalable, maintainable, and learnable. We show examples including Coarse Bandwidth Logs for capacity planning and Coarse Dependency Graphs for incident routing. Coarse Dependency Graphs improve an incident routing metric from 45% to 78% while for a distributed approach like Scouts the same metric was 22%. We end by discussing how to realize SMN, and suggest cross-layer optimizations and coarsenings for other operational and planning problems in networks."
+  },
+  {
+    "date": "2025-11-17",
+    "title": "Programmable and Adaptive Scheduling for Distributed Systems",
+    "authors": "Yuyao Wang, Xiangfeng Zhu, Ratul Mahajan, Stephanie Wang",
+    "publish": "Proceedings of the 24th ACM Workshop on Hot Topics in Networks",
+    "url": "https://doi.org/10.1145/3772356.3772391",
+    "source": "ACM",
+    "abstract": "Existing frameworks for managing distributed systems hard-code scheduling policies and their implementations (e.g., centralized vs. decentralized), limiting customization and hurting performance across diverse applications and workloads. We argue for an adaptive scheduling approach, where developers express policies in a high-level, framework-agnostic DSL, and a compiler generates optimized implementations based on policy semantics, workload characteristics, and execution environments. We demonstrate that our compiler-guided approach can significantly improve both scheduling quality and performance."
+  }
+]
