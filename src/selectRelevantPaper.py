@@ -55,9 +55,10 @@ def llm_is_relevant(title, abstract):
 
     output_parser = StrOutputParser()
     chain = prompt_template | ChatModel | output_parser
-
+    
     try:
         res = chain.invoke({"title": title or "No Title", "abstract": abstract or "No Abstract"})
+        print("res= "+res)
         return res.strip().upper().startswith("YES")
     except Exception as e:
         print("判定相关性时出错：", e)
@@ -338,6 +339,7 @@ def select_error_message_email(ErrorMessage):
 # ========== 使用示例 ==========
 # Paperpath = "../papers/paper2025-11-08.json"
 # select_translate_and_email(Paperpath)
+
 
 
 
