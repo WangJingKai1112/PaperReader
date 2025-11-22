@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2025-11-21",
+    "title": "Hardening DLT-Daemon against TOCTOU Vulnerabilities: A Study on Atomic Mutex Locking for Critical State Resilience",
+    "authors": "Minh Luu Quang, Ngoc Hong Tran",
+    "publish": "2025 2nd International Conference On Cryptography And Information Security (VCRIS)",
+    "url": "https://doi.org/10.1109/vcris68011.2025.11250548",
+    "source": "IEEE",
+    "abstract": "We propose a synchronization framework that eliminates Time-of-Check-to-Time-of-Use (TOCTOU) vulnerabilities in automotive logging systems by replacing error-prone semaphores with error-checking mutexes. The solution enforces thread-specific critical section ownership, atomic check-use sequences, and priority inheritance to prevent access to freed buffers while bounding inversion delays. Runtime assertions detect double-locking and orphaned synchronization states, stabilizing shared resource management in resource-constrained environments. Validation through adversarial fault injection and stress testing confirms the elimination of race-induced crashes, advancing reliability in safety-critical automotive middleware without requiring architectural overhauls of legacy components.",
+    "title_zh": "防止DLT-Daemon遭受TOCTOU漏洞攻击：基于原子互斥锁的关键状态容错性研究",
+    "abstract_zh": "我们提出了一种同步框架，通过用错误检查型互斥锁替代易出错的信号量，消除了汽车日志系统中的“检查-使用时间差”（TOCTOU）漏洞。该方案强制线程特定的临界区所有权，实现原子化的检查-使用操作序列，并采用优先级继承机制，防止对已释放缓冲区的访问，同时限制优先级反转延迟。运行时断言可检测双重加锁和孤立同步状态，从而在资源受限环境中稳定共享资源管理。通过对抗性故障注入和压力测试验证，确认了该方法彻底消除了竞争引发的崩溃问题，显著提升了安全关键型汽车中间件的可靠性，且无需对遗留组件进行架构层面的改造。"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "RTL Design and Implementation of the TWINE-80 Lightweight Block Cipher",
+    "authors": "Linh Nguyen Thi Thuy, Thanh-Ngoc Nguyen, Bui Duc Trinh, Duc-Tho Mai",
+    "publish": "2025 2nd International Conference On Cryptography And Information Security (VCRIS)",
+    "url": "https://doi.org/10.1109/vcris68011.2025.11250572",
+    "source": "IEEE",
+    "abstract": "This study explores the design and implementation of the TWINE-80 lightweight cryptographic algorithm, employing a Register-Transfer-Level (RTL) design on a Field-Programmable Gate Array (FPGA) to meet security needs in resource-constrained Internet of Things (IoT) and embedded systems. The overall method includes building two separate parts for encryption and decryption, which are designed to use resources efficiently, consume less power, and have low delays by using specific RTL coding and synthesis methods. The proposed design was validated via simulation in the Vivado design suite on a Xilinx Artix-7 FPGA, with the preliminary results indicating substantial reductions in resource usage and power consumption while maintaining low latency, confirming TWINE-80’s suitability for energy-efficient IoT applications. Experimental results show that the design achieved a throughput of 470 Mbps for encryption and 396 Mbps for decryption, all while consuming less than 0.1W of power and utilizing under 5% of logic resources. These findings underscore TWINE-80’s practical applicability for energy-efficient, resource-constrained systems.",
+    "title_zh": "TWINE-80轻量级分组密码的RTL设计与实现",
+    "abstract_zh": "本研究探讨了TWINE-80轻量级密码算法的设计与实现，采用现场可编程门阵列（FPGA）上的寄存器传输级（RTL）设计方法，以满足资源受限的物联网（IoT）及嵌入式系统中的安全需求。整体设计方法包括分别构建加密和解密两个独立模块，通过特定的RTL编码与综合技术，实现了高效利用资源、低功耗消耗以及低延迟特性。所提出的方案在Xilinx Artix-7 FPGA上通过Vivado设计套件进行仿真验证，初步结果表明，该设计在保持低延迟的同时显著降低了资源占用与功耗，充分证明了TWINE-80在节能型物联网应用中的适用性。实验结果显示，该设计在加密时达到470 Mbps的吞吐率，解密时达到396 Mbps，且功耗低于0.1W，逻辑资源使用率不足5%。这些成果凸显了TWINE-80在能源效率高、资源受限系统中的实际应用价值。"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "Poster: Measuring Algorithmic Systems' Resilience Against Generative AI-Powered Attacks -- Case Study on Exploiting a Code Search Platform",
+    "authors": "Nathaniel Hahn, Tu Ouyang, An Wang",
+    "publish": "Proceedings of the 2025 ACM Internet Measurement Conference",
+    "url": "https://doi.org/10.1145/3730567.3768590",
+    "source": "ACM",
+    "abstract": "Generative AI applications have boomed since the GPT-3-powered ChatGPT release in 2022. Miscreants also see the opportunities of leveraging these frontier GenAI technologies to facilitate cyberattacks, from planning to execution.",
+    "title_zh": "海报：衡量算法系统在生成式人工智能攻击下的韧性——以代码搜索平台漏洞利用为例",
+    "abstract_zh": "自2022年基于GPT-3的ChatGPT发布以来，生成式人工智能应用迅猛发展。不法分子也看到了利用这些前沿生成式AI技术来辅助网络攻击（从策划到实施）的机遇。"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "Protocol Compliance in Popular RTC Applications",
+    "authors": "Peiqing Chen, Peng Qiu, Lambda, Zaoxing Liu",
+    "publish": "Proceedings of the 2025 ACM Internet Measurement Conference",
+    "url": "https://doi.org/10.1145/3730567.3764438",
+    "source": "ACM",
+    "abstract": "Real-time communication (RTC) has been prevalent since COVID-19, supporting billions of video calls and voice chat interactions. Protocols such as STUN, TURN, RTP, RTCP, and QUIC play a critical role in transmitting RTC media in various applications. Based on standardized protocol specifications, in this paper, we investigate the extent of protocol compliance by analyzing the network traffic in real-world one-on-one calls. We capture and filter RTC traffic, design a Deep Packet Inspection framework to identify all messages for RTC media transmission, and systematically evaluate each message's compliance against protocol specifications. Our analysis of six popular RTC applications—Zoom, FaceTime, WhatsApp, Facebook Messenger (i.e., Messenger), Discord and Google Meet—reveals that: 1) None of the studied applications strictly follow all RTC protocol specifications, and existing protocol implementations, except for QUIC, have some level of non-compliance; 2) Existing applications either implement proprietary protocols or modify existing message types to achieve the desired protocol functionality.",
+    "title_zh": "流行实时通信应用中的协议合规性",
+    "abstract_zh": "自新冠疫情以来，实时通信（RTC）技术已广泛普及，支撑了数十亿次视频通话和语音聊天互动。STUN、TURN、RTP、RTCP 和 QUIC 等协议在各类 RTC 应用中发挥着关键作用，确保媒体数据的高效传输。基于标准化的协议规范，本文通过分析真实世界中的一对一通话网络流量，研究了各应用在实际实现中对协议规范的符合程度。我们捕获并过滤了 RTC 通信流量，设计了一种深度包检测（Deep Packet Inspection）框架，用于识别所有与 RTC 媒体传输相关的消息，并系统性地评估每条消息对协议规范的合规性。针对六款主流 RTC 应用——Zoom、FaceTime、WhatsApp、Facebook Messenger（即 Messenger）、Discord 和 Google Meet 的分析结果表明：1）所研究的应用均未严格遵循所有 RTC 协议规范，除 QUIC 外，现有协议实现均存在一定程度的不合规现象；2）现有应用要么采用专有协议，要么对现有消息类型进行修改，以实现期望的协议功能。"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "Automated Model-Based Fuzzing for 5G O-RAN",
+    "authors": "Sixu Tan, Zeyu Li, Zhutian Liu, Harsh Patel, Zhaowei Tan",
+    "publish": "Proceedings of the 31st Annual International Conference on Mobile Computing and Networking",
+    "url": "https://doi.org/10.1145/3680207.3723469",
+    "source": "ACM",
+    "abstract": "The evolution of 5G and future-G technologies has led to the development of an open, distributed, and multi-vendor architecture known as Open Radio Access Network (O-RAN). While O-RAN offers greater flexibility and stimulates innovation, it also introduces potential issues such as bugs, inconsistencies, and vulnerabilities. In this paper, we present a novel model-based fuzzing system, ARCANE, to address these challenges. Unlike existing fuzzing techniques that struggle with the complexity and dynamism of O-RAN, ARCANE distinguishes itself by employing a smart, model-based approach. It first analyzes O-RAN specifications using a Large Language Model (LLM) and incorporates a unique method that integrates passive model learning to refine the model. With this refined model, ARCANE designs an O-RAN-aware, model-based fuzzing scheme that maintains high efficiency by adhering to O-RAN's specific semantics and syntax. We implement ARCANE and evaluate it on the OAI5G. It finds 9 root bugs from three categories, all having serious security implications. ARCANE has shown superior efficiency and coverage compared to state-of-the-arts.",
+    "title_zh": "5G O-RAN 的自动化模型驱动模糊测试",
+    "abstract_zh": "5G及未来通信技术的演进催生了一种开放、分布式且支持多供应商的架构，即开放无线接入网（O-RAN）。尽管O-RAN带来了更高的灵活性并推动了创新，但也引入了潜在问题，如软件缺陷、不一致性以及安全漏洞。本文提出了一种新型基于模型的模糊测试系统ARCANE，以应对这些挑战。与现有模糊测试技术在处理O-RAN复杂性和动态性方面表现不足不同，ARCANE采用智能的、基于模型的方法脱颖而出。它首先利用大语言模型（LLM）分析O-RAN规范，并结合一种独特的被动模型学习机制对模型进行优化和精炼。基于这一优化后的模型，ARCANE设计了一种面向O-RAN的、基于模型的模糊测试方案，在严格遵循O-RAN特定语义与语法的前提下，保持了极高的测试效率。我们实现了ARCANE系统，并在OAI5G平台上进行了评估，成功发现了来自三个类别的9个根本性漏洞，均具有严重的安全影响。实验结果表明，ARCANE在测试效率和代码覆盖率方面均显著优于当前最先进的方法。"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "Poster: MoE\n                    <sup>2</sup>\n                    : Optimizing Collaborative Inference for Edge Large Language Models",
+    "authors": "Lyudong Jin, Yanning Zhang, Yanhan Li, Shurong Wang, Howard H. Yang, Jian Wu, Meng Zhang",
+    "publish": "Proceedings of the 31st Annual International Conference on Mobile Computing and Networking",
+    "url": "https://doi.org/10.1145/3680207.3765696",
+    "source": "ACM",
+    "abstract": "Large language models (LLMs) have demonstrated remarkable capabilities across various natural language processing tasks. Exploiting the heterogeneous capabilities of edge LLMs is crucial for emerging applications, enabling greater cost-effectiveness and reduced latency. In this work, we introduce Mixture-of-Edge-Experts (MoE2), a collaborative inference framework for edge LLMs. We formulate the joint gating and expert selection problem to optimize inference under energy and latency constraints. Unlike conventional MoE problems, expert selection here is more challenging due to the combinatorial nature and heterogeneity of edge LLMs. To address this, we propose a two-level expert selection mechanism and uncover an optimality-preserving property of gating parameters that decouples training and selection, reducing complexity. We further leverage the objective's monotonicity and design a discrete monotonic optimization algorithm. Implemented on Jetson Orin and RTX 4090 platforms, MoE2 achieves optimal trade-offs across delay and energy budgets, outperforming baselines under various resource constraints.",
+    "title_zh": "海报：MoE²  \n基于协作推理优化的边缘大语言模型",
+    "abstract_zh": "大型语言模型（LLMs）在各种自然语言处理任务中展现了卓越的能力。充分利用边缘端LLM的异构能力对于新兴应用至关重要，能够实现更高的成本效益并降低延迟。本文提出了一种面向边缘LLM的协作推理框架——Mixture-of-Edge-Experts（MoE2）。我们构建了联合门控与专家选择的优化问题，以在能量和延迟约束下实现高效推理。与传统的MoE问题不同，由于边缘LLM具有组合性与异构性的特点，专家选择更具挑战性。为此，我们设计了一种两级专家选择机制，并揭示了门控参数的一个保优性质，该性质实现了训练与选择的解耦，显著降低了复杂度。此外，我们利用目标函数的单调性，设计了一种离散单调优化算法。在Jetson Orin和RTX 4090平台上的实验结果表明，MoE2能够在延迟与能耗预算之间实现最优权衡，在多种资源约束条件下均优于现有基线方法。"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "A Graph Isomorphism Network-Based Deep Learning Approach to Mitigate Smart Contract Vulnerabilities in Smart Grids",
+    "authors": "Lahcen Hassine, Hasna Chaibi, Nordine Quadar, Rachid Saadane, Abdeslam Jakimi",
+    "publish": "IEEE Network",
+    "url": "https://doi.org/10.1109/mnet.2025.3631390",
+    "source": "IEEE",
+    "abstract": "Smart contracts suffer from critical vulnerabilities such as reentrancy attacks, delegate call misuse, and timestamp dependencies, posing significant risks when deployed in smart grids. This paper proposes a solution that integrates deep learning techniques based on the Graph Isomorphism Network (GIN) to analyze Solidity code and detect vulnerabilities before deployment. This model was trained on a dataset of vulnerable contracts, leveraging automated hyperparameter optimization via Optuna to fine-tune the model’s performance. Performance evaluations supported by visual analysis of the model’s pre- and post-training weights provide essential insights into the behavior of the proposed approach. The experimental results demonstrated the effectiveness of GIN in identifying vulnerabilities with an accuracy of 95.26%, outperforming previous studies by more than 2%. These new findings highlight the potential of deep learning to secure and develop resilient smart grid infrastructures.",
+    "title_zh": "基于图同构网络的深度学习方法以缓解智能电网中智能合约的漏洞",
+    "abstract_zh": "智能合约存在诸如重入攻击、delegate call滥用以及时间戳依赖等关键漏洞，在部署至智能电网时带来重大风险。本文提出一种解决方案，通过基于图同构网络（GIN）的深度学习技术分析Solidity代码，在部署前检测潜在漏洞。该模型在包含漏洞合约的数据集上进行训练，并利用Optuna实现自动化超参数优化，以精细调优模型性能。通过模型训练前后权重的可视化分析，性能评估提供了对所提方法行为的重要洞察。实验结果表明，GIN在识别漏洞方面表现出色，准确率达到95.26%，较以往研究提升超过2%。这些新发现凸显了深度学习在保障和构建稳健智能电网基础设施方面的巨大潜力。"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "AutoIOT: LLM-Driven Automated Natural Language Programming for AIoT Applications",
+    "authors": "Leming Shen, Qiang Yang, Yuanqing Zheng, Mo Li",
+    "publish": "Proceedings of the 31st Annual International Conference on Mobile Computing and Networking",
+    "url": "https://doi.org/10.1145/3680207.3723486",
+    "source": "ACM",
+    "abstract": "The advent of Large Language Models (LLMs) has profoundly transformed our lives, revolutionizing interactions with AI and lowering the barrier to AI usage. While LLMs are primarily designed for natural language interaction, the extensive embedded knowledge empowers them to comprehend digital sensor data. This capability enables LLMs to engage with the physical world through IoT sensors and actuators, performing a myriad of AIoT tasks. Consequently, this evolution triggers a paradigm shift in conventional AIoT application development, democratizing its accessibility to all by facilitating the design and development of AIoT applications via natural language. However, some limitations need to be addressed to unlock the full potential of LLMs in AIoT application development. First, existing solutions often require transferring raw sensor data to LLM servers, which raises privacy concerns, incurs high query fees, and is limited by token size. Moreover, the reasoning processes of LLMs are opaque to users, making it difficult to verify the robustness and correctness of inference results. This paper introduces AutoIOT, an LLM-based automated program generator for AIoT applications. AutoIOT enables users to specify their requirements using natural language (input) and automatically synthesizes interpretable programs with documentation (output). AutoIOT automates the iterative optimization to enhance the quality of generated code with minimum user involvement. AutoIOT not only makes the execution of AIoT tasks more explainable but also mitigates privacy concerns and reduces token costs with local execution of synthesized programs. Extensive experiments and user studies demonstrate AutoIOT's remarkable capability in program synthesis for various AIoT tasks. The synthesized programs can match and even outperform some representative baselines.",
+    "title_zh": "AutoIOT：基于大语言模型的AIoT应用自然语言编程自动化",
+    "abstract_zh": "大型语言模型（LLMs）的出现深刻地改变了我们的生活，彻底革新了人与人工智能的交互方式，并降低了人工智能的使用门槛。尽管LLMs主要设计用于自然语言交互，但其内部嵌入的丰富知识使其能够理解数字传感器数据。这一能力使LLMs能够通过物联网（IoT）传感器和执行器与物理世界进行互动，从而完成多种AIoT任务。因此，这一演进推动了传统AIoT应用开发范式的转变，使得AIoT开发不再局限于专业开发者，而是通过自然语言即可实现应用的设计与构建，真正实现了全民可及。然而，要充分发挥LLMs在AIoT应用开发中的潜力，仍需解决一些关键局限性。首先，现有方案通常需要将原始传感器数据传输至LLM服务器，这不仅引发隐私安全问题，还带来高昂的查询费用，并受限于令牌（token）长度。此外，LLMs的推理过程对用户而言是“黑箱”式的，难以验证其推断结果的鲁棒性与正确性。\n\n本文提出AutoIOT——一种基于大语言模型的AIoT应用自动化程序生成系统。AutoIOT允许用户通过自然语言描述需求（输入），并自动生成可解释、带有文档说明的程序代码（输出）。该系统自动执行迭代优化过程，在最小化用户干预的前提下，持续提升生成代码的质量。AutoIOT不仅使AIoT任务的执行更加透明可解释，还通过本地运行合成程序有效缓解了隐私泄露风险，并显著降低令牌使用成本。大量实验与用户研究证明，AutoIOT在多种AIoT任务的程序合成方面表现出卓越能力，生成的程序不仅能媲美甚至超越部分代表性基线方法。"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "UniFuzz: A Unified Fuzzing Framework for Smart Contract Vulnerability Detection with LLMs and Audit Reports",
+    "authors": "Le Quoc Ngo, Tran Tien Nhat, Nguyen Huu Quyen, Van-Hau Pham, Phan The Duy",
+    "publish": "2025 2nd International Conference On Cryptography And Information Security (VCRIS)",
+    "url": "https://doi.org/10.1109/vcris68011.2025.11250519",
+    "source": "IEEE",
+    "abstract": "The increasing complexity and immutable nature of smart contracts (SC) present significant challenges for blockchain security, as vulnerabilities can lead to major financial losses and systemic risks. Existing fuzzing solutions remain fragmented: tools specializing in cross-contract analysis often perform poorly on single-contract scenarios, while contract-focused tools lack robustness for interconnected protocols. Most prior fuzzers also depend on shallow heuristics or fixed mutation logic, hindering their adaptability and effectiveness across diverse contract systems. We introduce UniFuzz, a unified framework that integrates multilayer static and semantic analysis, Retrieval-Augmented Generation (RAG) leveraging audit-driven knowledge, and orchestrated multi-agent collaboration. UniFuzz employs Large Language Models (LLMs) for deep semantic analysis and targeted test input generation, guided by insights from real-world audit reports and coordinated through specialized agents. This design enables UniFuzz to bridge the gap between single-contract and cross-contract testing and adapt dynamically to varied SC structures and deployment patterns. Extensive evaluations using standard benchmarks and production-scale contract datasets demonstrate that UniFuzz consistently delivers high code coverage and identifies a broad spectrum of vulnerabilities. Notably, UniFuzz achieves up to 90.99% code coverage and outperforms state-of-the-art tools by up to 6.6 percentage points in branch coverage. These results position UniFuzz as an advanced, practical solution for automated SC security validation, paving the way for more resilient blockchain ecosystems.",
+    "title_zh": "UniFuzz：一种结合大语言模型与审计报告的智能合约漏洞检测统一模糊测试框架",
+    "abstract_zh": "智能合约（SC）日益复杂的结构及其不可变的特性，给区块链安全带来了重大挑战，因为其中的漏洞可能导致巨额财务损失和系统性风险。现有的模糊测试解决方案仍处于碎片化状态：专注于跨合约分析的工具在单合约场景下表现不佳，而以合约为中心的工具则难以应对相互关联的协议。大多数先前的模糊测试工具还依赖于浅层启发式规则或固定的变异逻辑，限制了其在不同合约系统中的适应性和有效性。为此，我们提出了UniFuzz——一个统一的框架，整合了多层静态与语义分析、基于审计驱动知识的检索增强生成（RAG），以及协同运作的多智能体协作机制。UniFuzz利用大语言模型（LLMs）进行深度语义分析和有针对性的测试输入生成，其决策依据来自真实世界审计报告，并通过专用智能体进行协调。这一设计使UniFuzz能够弥合单合约与跨合约测试之间的差距，并动态适应各种智能合约结构和部署模式。通过标准基准和生产规模合约数据集的广泛评估，结果表明，UniFuzz始终能实现高代码覆盖率，并识别出多种类型的漏洞。尤为突出的是，UniFuzz最高可达到90.99%的代码覆盖率，在分支覆盖率上相比业界领先工具最高提升6.6个百分点。这些成果使UniFuzz成为一项先进且实用的自动化智能合约安全验证方案，为构建更加稳健的区块链生态系统铺平了道路。"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "SageCopilot: an LLM-empowered Autonomous Agent for Data Science as a Service",
+    "authors": "Yuan Liao, Jiang Bian, Yuhui Yun, Shuo Wang, Yubo Zhang, Jiaming Chu, Tao Wang, Yuchen Li, Xuhong Li, Shilei Ji, Haoyi Xiong",
+    "publish": "IEEE Transactions on Services Computing",
+    "url": "https://doi.org/10.1109/tsc.2025.3635384",
+    "source": "IEEE",
+    "abstract": "While the field of natural language to SQL(NL2SQL) has made significant advancements in translating natural language instructions into executable SQL scripts for data querying and processing, achieving full automation within the broader data science pipeline–encompassing data querying, analysis, visualization, and reporting–remains a complex challenge. This study introduces SageCopilot, an advanced, industry-grade system that automates the data science pipeline by integrating Large Language Models (LLMs), Autonomous Agents (AutoAgents), and Language User Interfaces (LUIs). Designed with a two-phase architecture, SageCopilot uses an offline phase to generate high-quality demonstrations supporting In-Context Learning (ICL), which powers the online phase to transform user inputs into executable scripts for database queries, analysis, and visualization tasks. Leveraging specialized components such as NL2SQL, Text2Analyze, and Text2Viz, as well as chain-of-thought prompting for multi-turn interactions, SageCopilot achieves superior end-to-end automation. Rigorous experimentation with real-world datasets demonstrates the system's ability to minimize human intervention while ensuring correctness and user-friendly operation.",
+    "title_zh": "SageCopilot：一种由大语言模型驱动的面向数据科学即服务的自主代理",
+    "abstract_zh": "尽管自然语言转SQL（NL2SQL）领域在将自然语言指令转化为可执行的SQL脚本以实现数据查询与处理方面取得了显著进展，但在更广泛的科学数据流程中实现完全自动化——涵盖数据查询、分析、可视化和报告等环节——仍然是一个复杂的挑战。本研究提出了一种先进的、面向工业应用的系统——SageCopilot，该系统通过整合大型语言模型（LLMs）、自主智能体（AutoAgents）以及语言用户界面（LUIs），实现了数据科学全流程的自动化。SageCopilot采用两阶段架构：第一阶段为离线阶段，用于生成高质量的示范样本，支持上下文学习（ICL）；第二阶段为在线阶段，利用这些示范将用户输入转化为数据库查询、分析及可视化任务的可执行脚本。系统集成了专门的组件，如NL2SQL、Text2Analyze和Text2Viz，并采用思维链提示（chain-of-thought prompting）技术以支持多轮交互。实验结果表明，SageCopilot在真实世界数据集上表现出色，能够最大限度减少人工干预，同时保证任务的准确性与用户友好的操作体验。"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "Poster: An LLM-Assisted IoT Agent System for Heterogeneous User Tasks",
+    "authors": "Yang Zhang, Kaijie Xiao, Yi Gao, Wei Dong",
+    "publish": "Proceedings of the 31st Annual International Conference on Mobile Computing and Networking",
+    "url": "https://doi.org/10.1145/3680207.3765689",
+    "source": "ACM",
+    "abstract": "Internet of Things (IoT) systems fundamentally rely on sensing, planning, and execution capabilities. Although existing systems excel at sensing, they often lack advanced abilities of reasoning and planning to generalize across user's diverse and open-ended requests. To address this, we propose IoTAgent, a hierarchical multi-agent system empowered by large language models (LLMs) to enhance intelligence in IoT environments. IoTAgent interprets user's natural language requests to perform heterogeneous tasks such as complex question answering and real-time event triggering, by coordinating high-level task planning and low-level execution and memory management. It integrates sensor data and domain-specific expert knowledge to achieve deeper understanding of the IoT environment. Evaluations on real-world datasets demonstrate that IoTAgent enhances the quality of question answering, and reduces the latency of rule execution by up to 84.3% while balancing energy consumption.",
+    "title_zh": "海报标题：一种用于异构用户任务的LLM辅助物联网代理系统",
+    "abstract_zh": "物联网（IoT）系统在本质上依赖于感知、规划与执行能力。尽管现有系统在感知方面表现优异，但在推理和规划方面往往能力不足，难以应对用户多样化且开放式的请求。为解决这一问题，我们提出了IoTAgent——一种基于大语言模型（LLM）的分层多智能体系统，旨在提升物联网环境中的智能化水平。IoTAgent能够理解用户的自然语言请求，通过协调高层任务规划与底层执行及记忆管理，完成包括复杂问答和实时事件触发在内的异构任务。该系统融合传感器数据与领域专家知识，实现对物联网环境更深层次的理解。在真实世界数据集上的评估表明，IoTAgent显著提升了问答质量，并将规则执行延迟降低高达84.3%，同时有效平衡了能耗。"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "An Interface Modeling Method for Avionics Software Based on Open System Architecture",
+    "authors": "Suo Zhao, Chenliang Xin, Yiming Shan",
+    "publish": "2025 International Conference of Mechanical Engineering on Aerospace (CoMEA)",
+    "url": "https://doi.org/10.1109/comea66280.2025.11241486",
+    "source": "IEEE",
+    "abstract": "In response to exponential growth in software complexity, the industry has been actively exploring open system architecture and model-based development approaches separately with demonstrable success. This paper introduces model-based approach into the open avionics software architectures, proposing a model based open avionics software interface modeling method. By extending the SysML modeling language, this paper proposes a modeling framework for software interface definition within hierarchical open architectures compliant with the Future Airborne Capability Environment open architecture. Also, an engineering practice optimized modeling process is proposed to enable consistent implementation of software interface modeling activities. Leveraging the widely adopted industry-standard modeling languages, the proposed approach mitigates practitioner's learning costs and streamlines software integration and reuse under open architecture through model reusability, ultimately enhancing software interface design efficiency. Furtherly, practical engineering application have demonstrated that the proposed method improves the interface definition efficiency and reduce interface definition errors with standardized and reusable data models.",
+    "title_zh": "基于开放系统架构的航空电子软件接口建模方法",
+    "abstract_zh": "针对软件复杂性呈指数级增长的挑战，业界已分别在开放系统架构和基于模型的开发方法方面进行了积极探索，并取得了显著成效。本文将基于模型的方法引入开放航空电子软件架构中，提出一种基于模型的开放航空电子软件接口建模方法。通过扩展SysML建模语言，本文构建了一个符合未来机载能力环境（Future Airborne Capability Environment, FACE）开放架构的分层开放架构中软件接口定义的建模框架。同时，提出了一种优化的工程实践建模流程，以确保软件接口建模活动的一致性实施。借助广泛采用的行业标准建模语言，所提出的方案降低了从业者的学习成本，通过模型的可重用性，简化了开放架构下的软件集成与复用，从而有效提升了软件接口设计的效率。此外，实际工程应用表明，该方法显著提高了接口定义的效率，减少了接口定义错误，实现了基于标准化和可复用数据模型的高效接口定义。"
+  },
+  {
+    "date": "2025-11-21",
+    "title": "VeriBridge: Real-Time Cross-Chain Bridge Attack Detection through Static-Informed Graph Anomaly Learning",
+    "authors": "Tuan-Dung Tran, Dinh Khang Nguyen, Quang Trung Do, Van-Hau Pham",
+    "publish": "2025 2nd International Conference On Cryptography And Information Security (VCRIS)",
+    "url": "https://doi.org/10.1109/vcris68011.2025.11250562",
+    "source": "IEEE",
+    "abstract": "Cross-chain bridges, while critical for interoperability in the Web3 ecosystem, have become a primary target for exploits, accounting for over $4.3 billion in losses—nearly 40% of all value stolen in recent years. Existing security paradigms fail to address this threat adequately due to a fundamental trade-off between pre-deployment static analysis and real-time dynamic monitoring. Current security paradigms are trapped in a critical trade-off: pre-deployment static analysis lacks runtime context and suffers from high false-positives, while real-time dynamic monitoring is blind to the underlying source-code vulnerabilities that enable sophisticated attacks. This paper introduces VeriBridge, a novel framework that breaks this impasse. VeriBridge pioneers a synergistic fusion of static intelligence and dynamic graph learning. It enriches real-time transaction graphs with fine-grained vulnerability data extracted from static analysis, providing crucial security context to an unsupervised Graph Autoencoder. By learning a high-fidelity model of normal behavior, VeriBridge detects malicious transactions, including zero-day exploits, as significant deviations from this learned norm, identified by high reconstruction error. Evaluated on a comprehensive dataset of real-world attacks, including the Poly Network and THORchain exploits, VeriBridge achieves a 96% F1-score, demonstrating a new frontier in robust, real-time security for critical blockchain infrastructure.",
+    "title_zh": "VeriBridge：通过静态信息引导的图异常学习实现实时跨链桥攻击检测",
+    "abstract_zh": "跨链桥虽然在Web3生态系统中对于实现互操作性至关重要，却已成为攻击者的主要目标，导致超过43亿美元的损失——占近年来被盗总价值的近40%。现有的安全范式由于在部署前的静态分析与实时动态监控之间存在根本性权衡，无法有效应对这一威胁。当前的安全机制陷入一个关键困境：部署前的静态分析缺乏运行时上下文，且误报率高；而实时动态监控则难以发现导致复杂攻击的根本源代码漏洞。本文提出VeriBridge，一种突破这一僵局的新框架。VeriBridge开创性地融合了静态智能与动态图学习技术，将来自静态分析的细粒度漏洞信息注入实时交易图中，为无监督图自编码器提供关键的安全上下文。通过学习正常行为的高保真模型，VeriBridge能够将恶意交易（包括零日漏洞攻击）识别为与该正常模式显著偏离的异常，其特征表现为高重建误差。在涵盖Poly Network和THORchain等真实世界攻击事件的全面数据集上进行评估，VeriBridge实现了96%的F1分数，标志着区块链关键基础设施实时、稳健安全防护的新前沿。"
+  }
+]
