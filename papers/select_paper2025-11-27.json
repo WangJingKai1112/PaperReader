@@ -1,0 +1,156 @@
+[
+  {
+    "date": "2025-11-27",
+    "title": "Triple-S: A Collaborative Multi-LLM Framework for Solving Long-Horizon Implicative Tasks in Robotics",
+    "authors": "Zixi Jia, Hongbin Gao, Fashe Li, Jiqiang Liu, Hexiao Li, Qinghua Liu",
+    "publish": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "url": "https://doi.org/10.1109/iros60139.2025.11246810",
+    "source": "IEEE",
+    "abstract": "Leveraging Large Language Models (LLMs) to write policy code for controlling robots has gained significant attention. However, in long-horizon implicative tasks, this approach often results in API parameter, comments and sequencing errors, leading to task failure. To address this problem, we propose a collaborative Triple-S framework that involves multiple LLMs. Through In-Context Learning, different LLMs assume specific roles in a closed-loop Simplification-Solution-Summary process, effectively improving success rates and robustness in long-horizon implicative tasks. Additionally, a novel demonstration library update mechanism which learned from success allows it to generalize to previously failed tasks. We validate the framework in the Long-horizon Desktop Implicative Placement (LDIP) dataset across various baseline models, where Triple-S successfully executes 89% of tasks in both observable and partially observable scenarios. Experiments in both simulation and real-world robot settings further validated the effectiveness of Triple-S. Our code and dataset is available at: https://github.com/Ghbbbbb/Triple-S.",
+    "title_zh": "三重S：一种用于解决机器人领域长时序隐含任务的协作式多大语言模型框架",
+    "abstract_zh": "利用大型语言模型（LLMs）编写用于控制机器人的策略代码已受到广泛关注。然而，在长时程推理任务中，该方法常因API参数错误、注释不当以及执行顺序错误而导致任务失败。为解决这一问题，我们提出了一种由多个LLM协作的Triple-S框架。通过上下文学习（In-Context Learning），不同的LLM在闭环的“简化-求解-总结”流程中承担特定角色，显著提升了长时程推理任务的成功率与鲁棒性。此外，我们设计了一种新颖的示范库更新机制，该机制基于成功案例进行学习，能够使系统泛化到此前失败的任务。我们在Long-horizon Desktop Implicative Placement（LDIP）数据集上对多种基线模型进行了验证，结果显示Triple-S在可观测和部分可观测场景下均成功执行了89%的任务。仿真环境与真实机器人实验进一步验证了Triple-S的有效性。我们的代码与数据集已公开，地址为：https://github.com/Ghbbbbb/Triple-S。"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "Lightweight FPGA Classifiers using Tangled Program Graphs",
+    "authors": "Jarlath Warner, John McAllister, Karol Desnos",
+    "publish": "2025 IEEE Workshop on Signal Processing Systems (SiPS)",
+    "url": "https://doi.org/10.1109/sips66314.2025.11261235",
+    "source": "IEEE",
+    "abstract": "As hosts to accelerators for Artificial Intelligence (AI), FPGA have shown great potential, supported by a burgeoning suite of accelerator synthesis tools. However, these tools currently target Deep Neural Networks (DNNs), which are known to be non-ideal for certain kinds of systems. Alternatives exist, such as Tangled Program Graphs (TPG), which are capable of adapting to the complexity of tasks including those where DNNs struggle. Even though TPGs have shown success on conventional sequential processing hardware, their synthesis onto FPGA remains unexplored. Therefore, we propose a new synthesis toolkit for automatically generating lightweight TPG classifiers which reformulate the TPG execution paradigm to enable streaming data and high levels of parallelism. When applied to practical classification problems including ECG arrhythmia classification and network intrusion detection, we enable classifiers which are $16.9 \\%$ more accurate, incur substantially lower resource costs and experience increased throughputs as high as $79.58 \\%$ in comparison to DNN implementations created using alternative synthesis toolkits. This realises an effective alternative to DNNs for deriving lightweight FPGA classifiers which are more accurate, cost less and deliver orders of magnitudes greater performance than current DNN-based alternatives.",
+    "title_zh": "使用纠缠程序图的轻量级FPGA分类器",
+    "abstract_zh": "作为人工智能（AI）加速器的载体，现场可编程门阵列（FPGA）展现出巨大潜力，这得益于日益丰富的加速器综合工具套件的支持。然而，这些工具目前主要针对深度神经网络（DNN），而DNN在某些系统中表现并不理想。相比之下，纠缠程序图（TPG）等替代方案能够适应包括DNN难以应对的任务在内的复杂任务需求。尽管TPG已在传统顺序处理硬件上取得成功，但其在FPGA上的综合仍鲜有研究。因此，我们提出了一种新的综合工具包，可自动生成轻量级TPG分类器，并重构TPG的执行范式，以支持数据流处理和高度并行性。在实际分类问题中的应用，如心电图心律失常分类和网络入侵检测，所生成的分类器相比使用其他综合工具包构建的DNN实现，准确率提高了16.9%，资源开销显著降低，吞吐量最高提升达79.58%。这一成果为FPGA上构建轻量级分类器提供了一种高效替代方案，相较于当前基于DNN的实现，不仅更准确、成本更低，且性能提升达数个数量级。"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "Towards Secure and Efficient Blockchain-Enabled IoT: A Hardware-Centric Perspective Using RISC-V Co-Design",
+    "authors": "Fatemeh Amirabadi, Kaebeh Yaeghoobi, Omid Mahdi Ebadati E.",
+    "publish": "2025 12th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)",
+    "url": "https://doi.org/10.1109/icrito66076.2025.11241360",
+    "source": "IEEE",
+    "abstract": "Securing billions of resource-constrained IoT devices demands decentralized trust and energy-efficient computation. While blockchain offers robust data integrity and identity management, its resource demands challenge embedded deployment. This paper presents a hardware/software co-design framework using customized RISC-V cores to accelerate key blockchain operations (SHA-256, ECDSA, AES, and Keccak) under typical IoT constraints. Application-specific instruction sets and in-memory computing (IMC) are integrated to reduce latency, energy, and memory overhead. Cycle-accurate simulations on Xilinx FPGA platforms confirm feasibility and efficiency. The framework embeds modular security features including autonomous identity verification, lightweight authentication, and tamper-evident data integrity. Protocol-level enhancements support smart contracts and cross-chain communication, enabling interoperability across heterogeneous blockchain ecosystems. Quantitative analysis demonstrates low authentication latency and scalable throughput, validating suitability for smart cities, industrial automation, and biomedical sensing. This work establishes a practical foundation for secure, decentralized IoT systems through architectural innovation, hardware acceleration, and protocol optimization.",
+    "title_zh": "面向安全与高效的区块链赋能物联网：基于RISC-V协同设计的硬件中心视角",
+    "abstract_zh": "数以十亿计的资源受限物联网设备的安全部署，亟需去中心化的信任机制与节能高效的计算能力。尽管区块链在数据完整性保障和身份管理方面具有强大优势，但其对资源的高需求限制了其在嵌入式系统中的应用。本文提出一种软硬件协同设计框架，采用定制化RISC-V核心加速关键区块链操作（SHA-256、ECDSA、AES和Keccak），在典型物联网约束条件下实现高效运行。通过集成专用指令集与内存内计算（IMC）技术，显著降低延迟、能耗及内存开销。基于Xilinx FPGA平台的周期级精确仿真验证了该方案的可行性与高效性。该框架集成了模块化安全特性，包括自主身份验证、轻量级认证以及防篡改的数据完整性机制。协议层面的优化支持智能合约与跨链通信，实现了异构区块链生态系统的互操作性。定量分析表明，该方案具备低认证延迟与可扩展吞吐量，适用于智慧城市、工业自动化及生物医学传感等场景。本研究通过架构创新、硬件加速与协议优化，为构建安全、去中心化的物联网系统奠定了实用基础。"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "Semantic-Geometric-Physical-Driven Robot Manipulation Skill Transfer via Skill Library and Tactile Representation",
+    "authors": "Mingchao Qi, Yuanjin Li, Xing Liu, Zhengxiong Liu, Panfeng Huang",
+    "publish": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "url": "https://doi.org/10.1109/iros60139.2025.11246218",
+    "source": "IEEE",
+    "abstract": "Developing general robotic systems capable of manipulating in unstructured environments is a significant challenge, particularly as the tasks involved are typically long-horizon and rich-contact, requiring efficient skill transfer across different task scenarios. To address these challenges, we propose knowledge graph-based skill library construction method. This method hierarchically organizes manipulation knowledge using \"task graph\" and \"scene graph\" to represent task-specific and scene-specific information, respectively. Additionally, we introduce \"state graph\" to facilitate the interaction between high-level task planning and low-level scene information. Building upon this foundation, we further propose a novel hierarchical skill transfer framework based on the skill library and tactile representation, which integrates high-level reasoning for skill transfer and low-level precision for execution. At the task level, we utilize large language models (LLMs) and combine contextual learning with a four-stage chain-of-thought prompting paradigm to achieve subtask sequence transfer. At the motion level, we develop an adaptive trajectory transfer method based on the skill library and the heuristic path planning algorithm. At the physical level, we propose an adaptive contour extraction and posture perception method based on tactile representation. This method dynamically acquires high-precision contour and posture information from visual-tactile images, adjusting parameters such as contact position and posture to ensure the effectiveness of transferred skills in new environments. Experiments demonstrate the skill transfer and adaptability capabilities of the proposed methods across different task scenarios. Project website: https://github.com/MingchaoQi/skill_transfer",
+    "title_zh": "基于技能库与触觉表征的语义-几何-物理驱动机器人操作技能迁移",
+    "abstract_zh": "开发能够在非结构化环境中进行操作的通用机器人系统是一项重大挑战，尤其因为这些任务通常具有长时程、高接触性特点，需要在不同任务场景间实现高效的技能迁移。为应对这些挑战，我们提出了一种基于知识图谱的技能库构建方法。该方法通过“任务图”（task graph）和“场景图”（scene graph）对操作知识进行分层组织，分别表征任务特异性和场景特异性信息。此外，我们引入“状态图”（state graph），以促进高层任务规划与底层场景信息之间的交互。在此基础上，我们进一步提出一种基于技能库与触觉表征的新型分层技能迁移框架，该框架融合了高层推理能力以实现技能迁移，同时保证低层执行的精确性。\n\n在任务层面，我们利用大语言模型（LLMs），结合上下文学习与四阶段思维链（chain-of-thought）提示范式，实现子任务序列的高效迁移。在运动层面，我们设计了一种基于技能库与启发式路径规划算法的自适应轨迹迁移方法。在物理层面，我们提出了基于触觉表征的自适应轮廓提取与姿态感知方法。该方法能够从视觉-触觉图像中动态获取高精度的轮廓与姿态信息，并自适应调整接触位置、姿态等参数，从而确保迁移技能在新环境中的有效性。\n\n实验结果表明，所提出的框架在多种任务场景下均展现出优异的技能迁移能力与环境适应性。项目主页：https://github.com/MingchaoQi/skill_transfer"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "An Empirical Study of Parameter-Efficient Fine-Tuning in Code Change Learning and Beyond",
+    "authors": "Shuo Liu, Jacky Keung, Zhi Jin, Zhen Yang, Fang Liu, Hao Zhang",
+    "publish": "IEEE Transactions on Software Engineering",
+    "url": "https://doi.org/10.1109/tse.2025.3637335",
+    "source": "IEEE",
+    "abstract": "Compared to Full-Model Fine-Tuning (FMFT), Parameter-Efficient Fine-Tuning (PEFT) has demonstrated superior efficacy and efficiency in several code understanding tasks, owing to PEFT’s ability to alleviate the catastrophic forgetting issue of Pre-trained Language Models (PLMs) by updating only a small number of parameters. However, existing studies primarily involve static code comprehension, aligning with the pre-training paradigm of recent PLMs and facilitating knowledge transfer, but they do not account for dynamic code changes. Thus, it remains unclear whether PEFT outperforms FMFT in task-specific adaptation for code-change-related tasks. <p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">To address this question, we examine four prevalent PEFT methods (i.e., AT, LoRA, PT, and PreT) and compare their performance with FMFT across seven popular PLMs. In experiments, two widely studied code-change-related tasks, i.e., Just-In-Time Defect Prediction (JIT-DP) and Commit Message Generation (CMG) are involved, demonstrating that the four PEFT methods can surpass FMFT on JIT-DP but only exhibit comparable performances at best on CMG in common scenarios. While in cross-lingual and low-resource scenarios, they exhibit relative superiority. Afterward, a series of probing tasks from both static and dynamic perspectives are conducted in this paper, offering detailed explanations for the efficacy of PEFT and FMFT. Inspired by the distinctive advantages of PEFT and FMFT in their layer-wise probing results, we propose Pasta<inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math></inline-formula>, a self-adaPtive efficient layer-specific tuning framework for PLMs in code change learning, which combines FMFT and PEFT during the domain adaptation according to the guidance of probing results. Experiments in the CMG task demonstrate that Pasta<inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math></inline-formula> surpasses diverse PEFT methods in effectiveness. Even, Pasta<inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math></inline-formula> outperforms FMFT by 1.48%, 3.21%, and 1.87% at most in terms of BLEU, Meteor, and Rouge-L, while saving 26.26% and 20.65% in terms of training time and computational memory compared with FMFT.</p>",
+    "title_zh": "代码变更学习及更广泛领域的参数高效微调的实证研究",
+    "abstract_zh": "与全模型微调（FMFT）相比，参数高效微调（PEFT）在多个代码理解任务中展现出更优的性能和效率，这得益于PEFT仅更新少量参数，从而有效缓解了预训练语言模型（PLMs）面临的灾难性遗忘问题。然而，现有研究主要聚焦于静态代码理解，契合近期PLMs的预训练范式并促进知识迁移，却未充分考虑动态代码变更的影响。因此，尚不清楚PEFT在与代码变更相关的任务中是否仍优于FMFT进行特定任务适应。\n\n为回答这一问题，本文系统考察了四种主流的PEFT方法（即AT、LoRA、PT和PreT），并将其在七种流行的PLM上的表现与FMFT进行了对比。实验涉及两种广泛研究的代码变更相关任务：即时缺陷预测（JIT-DP）和提交信息生成（CMG）。结果表明，在常规场景下，四种PEFT方法在JIT-DP任务上均显著超越FMFT，但在CMG任务上仅能达到与FMFT相当的水平；而在跨语言及低资源场景下，PEFT则表现出相对优势。\n\n随后，本文从静态与动态两个视角设计了一系列探针任务，深入剖析了PEFT与FMFT在不同情境下的有效性差异。受层间探针结果中PEFT与FMFT各自优势的启发，我们提出Pasta<inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math></inline-formula>——一种面向代码变更学习的自适应高效层特定微调框架。该框架在领域适配过程中，依据探针分析结果智能融合FMFT与PEFT的优势，实现动态优化。在CMG任务上的实验验证表明，Pasta<inline-formula><tex-math notation=\"LaTeX\">$k$</tex-math></inline-formula>在效果上超越了多种主流PEFT方法。尤其值得注意的是，其在BLEU、Meteor和Rouge-L指标上分别较FMFT最高提升1.48%、3.21%和1.87%，同时在训练时间与计算内存消耗方面分别节省了26.26%和20.65%，显著提升了效率与性能的平衡。"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "Linux SPI Device Driver for a Smart Temperature and Pressure Sensor",
+    "authors": "Daniil Shaposhnikov, Dmitry O. Budanov",
+    "publish": "2025 International Conference on Electrical Engineering and Photonics (EExPolytech)",
+    "url": "https://doi.org/10.1109/eexpolytech66949.2025.11252286",
+    "source": "IEEE",
+    "abstract": "This paper presents the development of a microcontroller firmware and a Linux device driver enabling communication with a BMP180 temperature and pressure sensor via an ESP32-S3 acting as an SPI slave bridge. The system is based on the ESP32-S3 microcontroller, which collects data from the BMP180 via I2C bus and provides it to an SPI master device. On the host side, a Linux kernel driver for Raspberry $\\mathrm{Pi} 3 \\mathrm{~B}+$ was implemented to interact with the microcontroller. The driver supports exclusive access, implements standard file operations, and provides an IOCTL interface for retrieving temperature, pressure, altitude, calibration coefficients, and additional student information. A test application was also developed to validate system functionality. Experimental evaluation confirmed the correct operation of the driver and the complete workflow from sensor to application.",
+    "title_zh": "用于智能温压传感器的Linux SPI设备驱动程序",
+    "abstract_zh": "本文介绍了基于ESP32-S3作为SPI从机桥接器，实现与BMP180温压传感器通信的微控制器固件及Linux设备驱动程序的开发。该系统以ESP32-S3微控制器为核心，通过I2C总线采集BMP180传感器的数据，并将其提供给SPI主设备。在主机端，为Raspberry Pi 3 B+开发了Linux内核驱动程序，用于与微控制器进行交互。该驱动程序支持独占访问，实现了标准文件操作接口，并提供了IOCTL接口，用于获取温度、压力、海拔、校准系数以及额外的学生信息。同时，还开发了一款测试应用程序以验证系统的功能。实验评估结果证实了驱动程序运行正确，且从传感器到应用层的完整数据处理流程均能正常工作。"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "Automated Test Case Generation from Unstructured Software Requirements Using Advanced NLP Techniques",
+    "authors": "Nidhi Bhatia, Jitendra Singh, Vandana",
+    "publish": "2025 12th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)",
+    "url": "https://doi.org/10.1109/icrito66076.2025.11241453",
+    "source": "IEEE",
+    "abstract": "Natural Language Processing (NLP) has emerged as a transformative tool in software engineering, particularly in automating test case generation (ATCG). Traditional ATCG approaches are limited to structured requirements (e.g., Cause-Condition-Effect formats), leaving unstructured, real-world specifications unaddressed. This paper proposes a novel NLP-based methodology to extract test cases from unrestricted software requirement documents (SRS) using a hybrid pipeline of language models (BERT, GPT) and rule-based techniques (NER, dependency parsing). Our approach addresses ambiguity and domain variability by integrating semantic analysis, constraint extraction, and machine learning-based validation. Experimental results across three domains (University, HR, and Coal Mine Management Systems) demonstrate 85-87% accuracy and <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$30-40 \\%$</tex> effort reduction compared to manual generation, while identifying key challenges like implicit requirements and contextual gaps. This work bridges the critical gap between unstructured client inputs and actionable test cases, enabling early-stage testing in Agile workflows.",
+    "title_zh": "基于先进自然语言处理技术的非结构化软件需求自动化测试用例生成",
+    "abstract_zh": "自然语言处理（NLP）已成为软件工程中一项变革性工具，尤其在自动化测试用例生成（ATCG）方面表现突出。传统的ATCG方法仅适用于结构化需求（如因果-条件-结果格式），而无法处理非结构化、现实世界中的需求文档。本文提出了一种基于NLP的创新方法，通过结合语言模型（BERT、GPT）与基于规则的技术（命名实体识别NER、依存句法分析）的混合式流水线，从无限制的软件需求文档（SRS）中提取测试用例。该方法通过引入语义分析、约束提取以及基于机器学习的验证机制，有效应对了需求中的歧义性和领域差异性问题。在三个不同领域（大学管理、人力资源及煤矿管理系统）的实验结果表明，该方法实现了85%-87%的准确率，并较人工生成减少了30%-40%的工作量；同时，也揭示了隐含需求和上下文缺失等关键挑战。本研究弥合了非结构化客户需求与可执行测试用例之间的关键鸿沟，支持敏捷开发流程中的早期测试实践。"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "Poster: Multi-Agent LLM System for Cisco Router Configuration",
+    "authors": "Michal Rozsíval, Petr Matoušek, Jaromír Kotala",
+    "publish": "2025 23rd International Symposium on Network Computing and Applications (NCA)",
+    "url": "https://doi.org/10.1109/nca67271.2025.00055",
+    "source": "IEEE",
+    "abstract": "Every network device has a configuration file containing the current settings and operational functionality such as IP addresses, running routing processes, and filtering rules. When new functionality is requested, the network administrator updates the configuration file by adding new commands. This process can be automated using an LLM model that understands the configuration language and can generate the relevant configuration commands. This paper presents a multi-agent LLM system that generates network configurations. Our approach uses a sequence of LLM-based agents to decompose the original configuration task, expressed in natural language, into logical subtasks, which are then translated into configuration commands. The proposed LLM-based configuration generation process includes validation and suggests sanity tests to eliminate potential errors. We demonstrate our approach by generating Cisco IOS configuration files for multiple devices. We also propose a dataset of non-trivial reference configurations for evaluating generation accuracy.",
+    "title_zh": "海报：用于思科路由器配置的多智能体大语言模型系统",
+    "abstract_zh": "每个网络设备都包含一个配置文件，其中保存了当前的设置和操作功能，例如IP地址、正在运行的路由进程以及过滤规则。当需要新增功能时，网络管理员通过向配置文件中添加新的命令来更新配置。这一过程可以通过理解配置语言的大型语言模型（LLM）实现自动化，从而生成相应的配置命令。本文提出了一种基于多智能体的LLM系统，用于生成网络配置。我们的方法利用一系列基于LLM的智能体，将用自然语言表达的原始配置任务分解为逻辑子任务，并将其转化为具体的配置命令。所提出的基于LLM的配置生成流程还包括验证环节，并建议进行合理性测试，以消除潜在错误。我们通过生成多个设备的Cisco IOS配置文件来演示该方法的有效性。此外，我们还提出了一个包含非平凡参考配置的数据集，用于评估生成配置的准确性。"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "Supporting Agile Roles and Practices with GAI",
+    "authors": "Paolo Ciancarini",
+    "publish": "2025 12th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)",
+    "url": "https://doi.org/10.1109/icrito66076.2025.11241628",
+    "source": "IEEE",
+    "abstract": "Generative Artificial Intelligence (GAI) is reshaping how software development is learned and practiced. In the last two years, our research has focused on integrating agile roles and practices with GAI in both educational and professional contexts. This work investigates how a Large Language Model (LLM) can support not only core development activities but also agile practices such as test-driven development, refactoring, and retrospectives, as well as roles like the Product Owner and Scrum Master. By treating LLMs as linguistic collaborators, we explore their potential to enhance efficiency, collaboration, and decisionmaking while also highlighting challenges related to prompt engineering, rhetoric, and responsible use. The resulting insights lead to recommendations for training future software professionals to work effectively with GAI, leveraging its strengths while critically addressing its limitations.",
+    "title_zh": "利用生成式人工智能支持敏捷角色与实践",
+    "abstract_zh": "生成式人工智能（GAI）正在重塑软件开发的学习与实践方式。在过去两年中，我们的研究聚焦于将敏捷角色与实践融入生成式人工智能在教育和职业场景中的应用。这项工作探讨了大型语言模型（LLM）不仅能够支持核心开发活动，还能辅助测试驱动开发、重构以及回顾会议等敏捷实践，同时协助产品负责人和Scrum主管等角色。通过将LLM视为语言协作伙伴，我们探索其在提升效率、促进协作与决策方面的潜力，同时也指出了提示工程、修辞表达以及负责任使用等方面所面临的挑战。由此得出的洞察为未来软件专业人才的培养提供了建议：应有效利用GAI的优势，同时以批判性思维应对其局限性。"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "AutoMisty: A Multi-Agent LLM Framework for Automated Code Generation in the Misty Social Robot",
+    "authors": "Xiao Wang, Lu Dong, Sahana Rangasrinivasan, Ifeoma Nwogu, Srirangaraj Setlur, Venugopal Govindaraju",
+    "publish": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "url": "https://doi.org/10.1109/iros60139.2025.11247695",
+    "source": "IEEE",
+    "abstract": "The social robot’s open API allows users to customize open-domain interactions. However, it remains inaccessible to those without programming experience. We introduce AutoMisty, the first LLM-powered multi-agent framework that converts natural-language commands into executable Misty robot code by decomposing high-level instructions, generating sub-task code, and integrating everything into a deployable program. Each agent employs a two-layer optimization mechanism: first, a self-reflective loop that instantly validates and automatically executes the generated code, regenerating whenever errors emerge; second, human review for refinement and final approval, ensuring alignment with user preferences and preventing error propagation. To evaluate AutoMisty’s effectiveness, we designed a benchmark task set spanning four levels of complexity and conducted experiments in a real Misty robot environment. Extensive evaluations demonstrate that AutoMisty not only consistently generates high-quality code but also enables precise code control, significantly outperforming direct reasoning with ChatGPT-4o and ChatGPT-o1. All code, optimized APIs, and experimental videos will be publicly released through the webpage: AutoMisty.",
+    "title_zh": "AutoMisty：一种用于Misty社交机器人自动化代码生成的多智能体大语言模型框架",
+    "abstract_zh": "该社交机器人开放的API允许用户自定义开放域交互，但对无编程经验的用户仍难以使用。我们提出了AutoMisty——首个由大语言模型驱动的多智能体框架，能够将自然语言指令分解为可执行的Misty机器人代码，通过生成子任务代码并整合成可部署程序，实现从指令到代码的自动化转换。每个智能体采用双层优化机制：首先，通过自我反思循环即时验证并自动执行生成的代码，一旦发现错误即重新生成；其次，经过人工审查进行优化与最终确认，确保代码符合用户偏好并防止错误传播。为评估AutoMisty的有效性，我们设计了一套涵盖四个复杂度层级的基准任务，并在真实的Misty机器人环境中进行了实验。大量评估结果表明，AutoMisty不仅能持续生成高质量代码，还实现了精准的代码控制，显著优于直接使用ChatGPT-4o和ChatGPT-o1进行推理的方法。所有代码、优化后的API以及实验视频将通过网页平台公开发布：AutoMisty。"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "Machine Learning-Based Vulnerability Detection in Medical Healthcare Devices",
+    "authors": "Shruti Mahajan, Rupinder Singh, Priya Dhir, Rajesh Kaushal",
+    "publish": "2025 12th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)",
+    "url": "https://doi.org/10.1109/icrito66076.2025.11241323",
+    "source": "IEEE",
+    "abstract": "This paper proposes a comprehensive machine learning model for identifying cybersecurity vulnerabilities in healthcare technologies. We utilized a synthetic dataset comprising 2,500 medical device records, each characterized by ten security-relevant attributes. Among the three well-known machine learning algorithms, Random Forest, Support Vector machine (SVM), and Neural Networks were used and their performances compared in detecting vulnerabilities. Random Forest classifier yielded the most accurate results with an accuracy of 93.60 percent, AUC score of 98.27 percent, and F1-score of 90.04 percent. True conclusions may be drawn with regard to feature importance analysis, with network traffic anomalies (r=0.6426) and failed login attempts (r=0.4501) proving to be the strongest factors to calculate the vulnerability of a particular device. The second significant security factors that were ascertained after this analysis are the age of a device, the level of its encryption, and its level of authentication. The implementation of machine learning to detect proactive vulnerabilities in medical devices is possible and the paper records a precision of 89.30% accuracy. The results contained in the given publication also supply evidence-based practice relative to the implementation of automated vulnerability scanning systems, as well as the improved cybersecurity postures in the context of healthcare facilities.",
+    "title_zh": "基于机器学习的医疗健康设备漏洞检测",
+    "abstract_zh": "本文提出了一种综合性的机器学习模型，用于识别医疗技术中的网络安全漏洞。研究采用了一个包含2,500条医疗设备记录的合成数据集，每条记录均具有十个与安全相关的属性。在三种著名的机器学习算法——随机森林（Random Forest）、支持向量机（SVM）和神经网络中，对它们在漏洞检测方面的性能进行了比较。其中，随机森林分类器表现最佳，准确率达到93.60%，AUC得分为98.27%，F1分数为90.04%。通过特征重要性分析可得出可靠结论：网络流量异常（r=0.6426）和失败的登录尝试（r=0.4501）是评估特定设备漏洞程度最强的两个因素。在该分析之后，确定的另外两个重要的安全因素为设备年龄、加密级别以及认证水平。研究表明，利用机器学习技术实现对医疗设备潜在漏洞的主动检测是可行的，本文记录的检测精度达到89.30%。此外，本研究结果还为自动化漏洞扫描系统的实施提供了循证依据，并支持医疗机构提升整体网络安全防护能力。"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "Robot Active Task Cognition: Situation-Aware Task Planning with Large Language Models_supp1-3637229.pdf",
+    "authors": "Ying Zhang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tcsvt.2025.3637229/mm1",
+    "source": "IEEE",
+    "abstract": "This paper introduces a robot active task cognition framework for Situation-Aware Task Planning (SATP), leveraging visual scene understanding to generate action sequences. By integrating object knowledge, user preferences, and Large Language Models (LLMs), SATP interprets the robot’s current visual perception, and creates procedural actions that align with what the robot “sees”. Diverging from conventional methods requiring explicit verbal commands, our SATP framework autonomously performs task cognition, actively formulating robot-executable action sequences directly from visual input. Initially, a novel approach for describing the visual scene is presented, enabling the robot to grasp detailed object-level properties and inter-object relationships based on its observations. Building on this, a knowledge base for active task cognition is constructed using ontology technology. Furthermore, we develop a two-stage dual-feedback task planner, ReProg+, powered by LLMs, specifically designed for situation-aware task planning grounded in visual data. The efficacy, reliability, and advantages of our solution are thoroughly validated in real-world visual scenarios. Additionally, SATP has been tested with a real robot, with results confirming the feasibility and effectiveness of our approach.",
+    "title_zh": "机器人主动任务认知：基于大语言模型的情境感知任务规划_补充材料1-3637229.pdf",
+    "abstract_zh": "本文提出了一种面向情境感知任务规划（Situation-Aware Task Planning, SATP）的机器人主动任务认知框架，该框架利用视觉场景理解生成动作序列。通过融合物体知识、用户偏好以及大语言模型（LLMs），SATP能够解析机器人当前的视觉感知信息，并生成与机器人“所见”相一致的程序化动作。与传统方法依赖明确语音指令不同，我们的SATP框架可自主完成任务认知，直接从视觉输入中主动生成机器人可执行的动作序列。首先，本文提出一种描述视觉场景的新方法，使机器人能够基于自身观察掌握详细的物体级属性及物体之间的相互关系。在此基础上，我们采用本体技术构建了用于主动任务认知的知识库。此外，我们设计了一种基于大语言模型的两阶段双反馈任务规划器——ReProg+，专门针对基于视觉数据的情境感知任务规划。我们的方案在真实视觉场景中的有效性、可靠性和优势得到了充分验证。同时，SATP已在实际机器人平台上进行了测试，实验结果证实了该方法的可行性与高效性。"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "A Signal-Path Recognition Approach to Multi-Stage Op-Amp Pole-Zero Extraction with Applications",
+    "authors": "Mingzhen Li, Guoyong Shi",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2025.3638265",
+    "source": "IEEE",
+    "abstract": "In the design of multi-stage operational amplifiers (Op-Amps), pole-zero (PZ) analysis lies at the core of whole design innovation for compensation. This paper proposes a signal-path recognition method to help with the auto-generation of readable analytical PZ expressions from a circuit netlist. Prior symbolic PZ extraction methods have limitations in either requiring numerical references or yielding insufficiently compactness after simplification. The proposed method circumvents these limitations via a two-phase process: a topology simplification phase and a term simplification phase. In the topology simplification phase, signal paths of a multi-stage Op-Amp are detected via programmable routines, capturing the main amplification stages and frequency compensation paths, based on which the transfer function and PZs can be generated. In the term simplification phase, we propose a method that only makes reference to the magnitude orders of terms by assuming elementary device parameter orders based on a technology file. Sixteen test cases featuring varied compensation strategies are employed to demonstrate the applicability of this research. Our implementation delivers a fully automated netlist-to-PZ workflow, which can generate informative PZ expressions in compact and readable forms within minutes, offering useful insights to the circuit designer.",
+    "title_zh": "一种用于多级运算放大器极点-零点提取的信号路径识别方法及其应用",
+    "abstract_zh": "在多级运算放大器（Op-Amps）的设计中，极点-零点（PZ）分析是实现补偿设计创新的核心。本文提出了一种信号路径识别方法，旨在帮助从电路网表自动生成可读性强的解析式极点-零点表达式。以往的符号化PZ提取方法要么需要依赖数值参考，要么在简化后仍无法达到足够紧凑的形式。所提出的方案通过两阶段流程克服了这些局限：第一阶段为拓扑简化，第二阶段为项简化。在拓扑简化阶段，通过可编程算法检测多级Op-Amp中的信号路径，识别出主要放大级和频率补偿路径，从而据此生成传递函数及相应的极点与零点。在项简化阶段，我们提出一种仅依据元件参数数量级进行简化的方法，该方法基于技术文件中设定的基本器件参数数量级假设。为验证本研究的适用性，选取了十六个采用不同补偿策略的测试案例进行验证。我们的实现构建了一个完全自动化的从网表到PZ表达式的流程，能够在数分钟内生成简洁且易于理解的PZ表达式，为电路设计者提供有价值的洞察。"
+  },
+  {
+    "date": "2025-11-27",
+    "title": "LTLCodeGen: Code Generation of Syntactically Correct Temporal Logic for Robot Task Planning",
+    "authors": "Behrad Rabiei, Mahesh Kumar A R, Zhirui Dai, Surya L.S.R. Pilla, Qiyue Dong, Nikolay Atanasov",
+    "publish": "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    "url": "https://doi.org/10.1109/iros60139.2025.11246351",
+    "source": "IEEE",
+    "abstract": "This paper focuses on planning robot navigation tasks from natural language specifications. We develop a modular approach, where a large language model (LLM) translates the natural language instructions into a linear temporal logic (LTL) formula with propositions defined by object classes in a semantic occupancy map. The LTL formula and the semantic occupancy map are provided to a motion planning algorithm to generate a collision-free robot path that satisfies the natural language instructions. Our main contribution is LTLCodeGen, a method to translate natural language to syntactically correct LTL using code generation. We demonstrate the complete task planning method in real-world experiments involving human speech to provide navigation instructions to a mobile robot. We also thoroughly evaluate our approach in simulated and real-world experiments in comparison to end-to-end LLM task planning and state-of-the-art LLM-to-LTL translation methods.",
+    "title_zh": "LTLCodeGen：用于机器人任务规划的语法正确时序逻辑代码生成",
+    "abstract_zh": "本文聚焦于从自然语言规范中规划机器人导航任务。我们提出了一种模块化方法，其中大型语言模型（LLM）将自然语言指令转换为线性时序逻辑（LTL）公式，该公式的命题由语义占据图中的物体类别定义。随后，将生成的LTL公式与语义占据图提供给运动规划算法，以生成满足自然语言指令且无碰撞的机器人路径。我们的主要贡献是LTLCodeGen，一种通过代码生成实现自然语言到语法正确LTL转换的方法。我们在真实世界实验中展示了完整的任务规划方法，通过人类语音向移动机器人提供导航指令。此外，我们还在模拟和真实世界实验中对本方法进行了全面评估，并与端到端LLM任务规划方法以及当前最先进的LLM到LTL转换方法进行了对比。"
+  }
+]
