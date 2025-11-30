@@ -1,0 +1,614 @@
+[
+  {
+    "date": "2025-11-29",
+    "title": "Maxwellium VR: Immersive Learning of Electromagnetic Field through Interactive Simulation",
+    "authors": "Wojciech Walczak, Anna Walczak, Julia Dominiak, Krzysztof Grudzień",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3774254",
+    "source": "ACM",
+    "abstract": "Traditional methods for teaching electromagnetism often fall short, constrained by complex math and static 2D diagrams that fail to convey the dynamic, 3D nature of Electromagnetic fields. Even modern interactive tools frequently offer only scripted experiences, limiting exploration. This work presents a novel VR application designed to overcome these challenges by providing an interactive, real-time simulation of fundamental electromagnetic phenomena."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Internet of Legacy Devices (I-oLD): Harnessing the Potential of Outdated Mobile Devices",
+    "authors": "Salvatore Sorce, Sofia Marilina Glorioso",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773954",
+    "source": "ACM",
+    "abstract": "The rapid turnover of mobile devices, driven by social pressure and frequent market releases, leads to large numbers of smartphones becoming outdated yet still technically capable, retaining considerable computational power, memory, and sensing capabilities. We propose the Internet of Legacy Devices (I-oLD), an open framework designed to abstract the heterogeneity of old hardware, aiming to recycle and repurpose these devices, leveraging their residual computing power, sensors, and displays for distributed computing, modular interfaces, and pervasive sensing. This approach reduces electronic waste, promoting sustainable \"green\" computing, and provides low-cost hardware solutions for researchers, developers, and users worldwide."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Human Control of Privacy and Security Aspects in IoT Settings",
+    "authors": "Arianna Di Serio, Fabio Paternò",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771909",
+    "source": "ACM",
+    "abstract": "The digital technological evolution is driving exponential growth in connected sensors and objects within smart environments such as homes, workplaces, and social spaces. While automations bring new opportunities, they also introduce risks and challenges. It is essential to provide users with End-User Development (EUD) approaches and tools that let them create, modify, and control automations. In this perspective, a key challenge is enabling non-professional developers to understand and manage security and privacy risks. This paper presents a Systematic Literature Review analysing the intersection of EUD, the Internet of Things, and security and privacy issues, with particular attention to automations and trigger-action programming. We examined the research to identify major risks in smart environments, their sources, and consequences. We analysed approaches and tools designed to mitigate these risks, their user presentation, validation methods, user control levels, and application domains. Our findings offer an overview of current solutions and highlight opportunities for future research into tools that help non-professional developers understand IoT security, usability, and privacy."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Design of High-voltage Stator with Ring-type Air-core Armature for Direct Grid-connected HTS Synchronous Condenser",
+    "authors": "Jiabo Shou, Chao Luo, Jien Ma, Pengcheng Huang, Yuang Zheng, Jie Chao, Youtong Fang",
+    "publish": "IEEE Transactions on Applied Superconductivity",
+    "url": "https://doi.org/10.1109/tasc.2025.3638852",
+    "source": "IEEE",
+    "abstract": "The direct grid-connected high-temperature super conducting synchronous condenser (HTSSC) has high application potential in the new energy grid, based on its advantages of strong inertia support, high short-circuit capacity, high power density and fast response speed. Therefore, this paper explores the feasible technical solutions for direct grid-connected HTSSCs. By comparing the advantages and disadvantages of stators with different air-core armature structures in high-voltage applications, the stator with ring-type air-core armature is selected as the design basis. The insulation system and cooling system of the 35kV high-voltage stator are comprehensively designed. The insulation reliability and anticorona ability of the high-voltage stator are verified through electric field simulation. At the same time, the cooling effect of the air-cooling system on the armature winding and the stator core is verified through temperature field simulation. The results show that the special insulation system of the stator with ring-type air-core armature can achieve an armature current density of 3.5A/mm2, which is higher than that of the traditional synchronous condenser of the same power level. Therefore, the stator with ring-type air-core armature has the potential for high-voltage applications and can support the direct grid-connected operation of the HTSSC."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "FamiliAR Feedback: Investigating Feedback Modality and Familiarity in Classroom Settings Using Spatial Augmented Reality",
+    "authors": "Nick Wittig, Yannick Dohmen, Jonathan Liebers, Donald Degraen, David Goedicke, Stefan Schneegass",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771883",
+    "source": "ACM",
+    "abstract": "Spatial Augmented Reality (SAR) can enhance learning experiences through interactive, real-time digital information overlays. Using SAR, content can be projected directly onto physical paper to provide students with in situ task feedback. Our work explores how students perceive different types of SAR feedback. We first identified feedback methods and dimensions from a literature review. We then conducted an expert focus group (N = 5) of professionals who had backgrounds in education and teaching experience. With the focus group, we aimed to expand on the literature review results to identify feedback modalities and dimensions commonly used in classrooms today. Next, we performed a field study (N = 16) with high school students in which we compared the perception of different feedback modalities (text, image, video) and familiarity (neutral, unfamiliar, familiar) in a classroom setting. Our results revealed that perceived user distraction and novelty are significantly affected by feedback modality through a large effect, with videos being perceived as more distracting and more novel. Familiar, trusted individuals best deliver positive feedback, whereas negative feedback from people should be avoided. We discuss the usage of feedback modalities in various contexts, providing a foundation for future use of SAR feedback in education."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "The Proactive Gap: A Scoping Review of Publicly Available LLM-based Browser Extensions and Their Potential to Mitigate Information Disorder",
+    "authors": "Kirill Kronhardt, Martin Johannes Lehnert, Max Pascher, Jens Gerken",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771896",
+    "source": "ACM",
+    "abstract": "Information disorder — including misinformation, disinformation, and malinformation — continues to undermine public discourse. Large language model (LLM)-based browser extensions show promise as tools for intervention, yet the role of publicly available tools in this space is not well understood. We conducted a scoping review of the Chrome Web Store and Firefox Add-Ons Store (May–July 2025), screening 951 records and including 34 extensions that use LLMs to process webpage content or user input. Through thematic analysis, we identified six interaction design concept categories: Extension Access, Display Mode, User Guidance, Customization, Content Understanding &amp; Manipulation, and Navigation &amp; Utilities. While extensions demonstrated diverse functionality and potential to debunk information disorder, they overwhelmingly operated as reactive tools, requiring explicit user initiation. Moreover, they rarely embedded themselves within webpage context. These findings reveal a “proactive gap” in current designs. Future LLM-powered extensions should move beyond responsiveness toward proactive, context-aware interventions that inoculate users against misinformation and strengthen critical thinking."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Advancing Generative AI Collaboration in Design-to-Code Workflows: Insights from Two Empirical Studies",
+    "authors": "Diah A. Irawati, Elif Bolukbasi, Andreas Riener",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771913",
+    "source": "ACM",
+    "abstract": "For expert users to accept Generative AI (GenAI) as a true collaborative partner, it must move beyond simple task-awareness to an understanding of their workflow’s underlying structural rules. This paper introduces a paradigm for AI collaborators that moves beyond simple task awareness to an understanding of the semantic and hierarchical relationships within a component-based system. We investigate this concept within the context of the design-to-code workflow, where inefficiencies arise from the modification of components within design systems. Through two empirical studies with designers and developers, we found that GenAI output was often rejected because it violated the component hierarchy. Designers required granular and visual control for refinements, whereas developers valued automated setup but required transparent validation of the generated code’s logic. Based on these findings, we contribute design guidelines for achieving Component-Structure Awareness (CSA), with two core principles: the Atomic Recommender, which provides assistance that respects the component hierarchy, and Communication Archetypes, which allow GenAI to adapt its interaction style to the user’s role and the atomic nature of their task. This work provides a new, higher-level concept for designing the next generation of truly collaborative GenAI agents."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Investigating Gait Imitation in VR: Impact of Visual Feedback and Avatar Design",
+    "authors": "Alia Saad, Jonathan Liebers, Constantin Koczian, Nick Wittig, Roman Heger, Marvin Strauss, Niklas Pfützenreuter, David Goedicke, Uwe Gruenefeld, Stefan Schneegass, Donald Degraen",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771912",
+    "source": "ACM",
+    "abstract": "Gait is a distinctive behavioral trait, yet its vulnerability against imitation remains underexplored in immersive environments. We present a study investigating how real-time visual feedback in virtual reality (VR) influences a person’s ability to mimic another’s gait. Through two experiments, we first identify the most usable feedback design (N = 8), then evaluate its impact on imitation performance compared to a baseline without feedback (N = 18). We analyze positional and rotational similarity between participants and target avatars, examining the influence of avatar–user gender matching and repeated practice. Our findings reveal that visual feedback significantly improves rotational alignment and that practice leads to measurable improvements in mimicry accuracy. We discuss implications for avatar embodiment, personalization in VR applications, and potential considerations for behavioral biometric systems. We also contribute a publicly available dataset of gait mimicry in VR, supporting further research on motion learning and imitation."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Design Interventions as Methods for Participation in Welfare Services",
+    "authors": "Jemina Colley",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3774338",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "FallacyCheck - A Proactive LLM-based Browser Extension to Motivate Critical Assessment of News Articles by Questioning Logical Fallacies",
+    "authors": "Kirill Kronhardt, Aaron Zilt, Omed Abed, Martin Johannes Lehnert, Max Pascher, Jens Gerken",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3774253",
+    "source": "ACM",
+    "abstract": "We present FallacyCheck, a proactive Large Language Model (LLM)-based browser extension designed to motivate the critical assessment of news articles by questioning logical fallacies. Existing LLM-based extensions are reactive, limiting their ability to inoculate users against information disorder. FallacyCheck overcomes this by proactively identifying logical fallacies, such as \"Appeal to Emotion\" and \"Ad Hominem\", and most importantly, motivating users to critically assess the article by posing them a thought-provoking, non-leading question in a contextual tooltip. This design, rooted in inoculation theory, prompts users toward meta-cognitive reflection on the argument’s logical structure. A preliminary evaluation with 16 highschool students showed the tool was perceived to be easy to use, and the questions helped to stimulate critical thinking. Crucially, participants generally would not have posed these critical questions without the tool’s support."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Sustained Effects of Avatars on Skin Temperature and Thermal Sensation in Virtual Reality",
+    "authors": "Elisa Valletta, Anna-Lena Babl, Emma Sophie Reichert, Michael Pickl, Valentin Schwind, Martin Kocur, Niels Henze",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771885",
+    "source": "ACM",
+    "abstract": "Perceived temperature and thermoregulation are not only influenced by actual temperature but also by visual perception. For instance, the hue-heat hypothesis posits that warm-colored lighting can increase perceived temperature. Recent work indicates that embodying avatars with visual cues suggesting extreme temperatures influences thermal perception and thermoregulation. However, recent work is limited by short exposure times, inconsistent temperature effects, and the absence of a baseline comparison. Thus, we conducted a study where participants embodied ice, neutral, and fire hands in virtual reality for 15 minutes. We show that thermal sensation is significantly higher with fire hands compared to ice hands, but found no consistent effects on skin temperature. As the effects on thermal sensation remain consistent at least over 15 minutes, we conclude that avatars’ appearance can be used to systematically influence users’ thermal perception."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Co-Designing Intelligent Neighbourhood Technologies with Young People to Support Communality in Nordic Superblocks",
+    "authors": "Jouko Makkonen, Kaisa Väänänen, Elina Alatalo",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771915",
+    "source": "ACM",
+    "abstract": "As cities explore intelligent technologies to support urban living, youth perspectives remain underrepresented in design processes despite their role as future residents.&nbsp;This study explores how young people (aged 13–17) envision intelligent technologies that support neighbourhood communality in the emerging Nordic Superblock urban model. Through four co-design workshops, we investigated youth perspectives on shared spaces, social interaction, and community participation, applying a multi-level framework of micro-, macro-, and meta-level considerations. The findings highlight youth's expectations for intelligent technologies that organise and optimise shared space use, facilitate social interaction, and support collective decision-making, such as planning of shared spaces. The study identifies concerns regarding privacy, inclusivity, and over-reliance on AI. The study presents four initial technology concepts for advancing communality, ranging from AI-facilitated shared dining to organising events and space use. This paper contributes to ubiquitous technology design understanding by foregrounding youth perspectives to community-centric intelligent neighbourhood technologies that can support residents’ wellbeing."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Detecting Human Presence via Smartphone BLE Beaconing: Preliminary Investigations",
+    "authors": "Venkata Srikanth Varma Datla, Alessandro Aiuti, Alba Bisante, Gabriella Trasciatti, Stefano Zeppieri, Emanuele Panizzi",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773958",
+    "source": "ACM",
+    "abstract": "This poster presents preliminary investigations into detecting human presence using Smartphone Bluetooth Low Energy (BLE) beacon signals. By treating smartphones as proxies for individuals, we summarize BLE signal visibility with privacy-aware features such as Stable Neighbors, Presence Counts, Turnover Rates, and Signal Strength statistics. Early findings from other research works suggest these stability-based summaries can effectively track occupancy and movement in indoor and public spaces, offering tiered density estimates rather than exact counts. We discuss several key challenges for this approach, including the presence of multiple devices per person, stationary IoT beacons, other irrelevant devices, and environmental variability. We emphasize the importance of conservative thresholds and space-specific calibration to minimize bias while preserving individual privacy. Potential applications include Crowd Awareness, Smart Buildings, Accessibility, Intelligent Transportation, and Adaptive Interfaces, among others. Future directions could involve calibrating this method, implementing lightweight multimodal fusion, and incorporating ethical safeguards for privacy-respecting implementations."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Locomotion Method Matters: Comparing Arm-Swing and Joystick for Stability and Learning Effects in VR Walking",
+    "authors": "Yu Wang, Philipp Wintersberger",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773942",
+    "source": "ACM",
+    "abstract": "In VR locomotion, walking performance can vary significantly depending on the locomotion method. In our study, participants completed in total 12 walking trials in virtual environments using either arm-swing or joystick method. Arm-swing interface maintains stable trajectory control from the outset, while joystick locomotion shows significant improvement with repeated trials, indicating a strong learning effect across different scenes. These findings suggest that physical locomotion method may be preferable for tasks requiring immediate stability, whereas artificial locomotion may excel in scenarios allowing for practice and demanding high precision."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Classifying TikToks Locally: Political Content Detection with Phi-4 on Android",
+    "authors": "Philipp Krieter, Ernesto de León, Fabio Votta, Alexandra Roşca",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773943",
+    "source": "ACM",
+    "abstract": "Large Language Models (LLMs) like ChatGPT-4o and Phi-4 have demonstrated great potential in identifying complex semantic content, such as political discourse, especially in cloud or desktop-based settings. However, their application on mobile devices, where privacy concerns are high, remains largely unexplored. Mobile phones have become the main way people access political discussions and news. This study investigates whether local execution of LLMs can serve as a viable, privacy-preserving way for analyzing political content seen on mobile screens. Using a Google Pixel 9, we benchmarked Phi-4 with 2,000 OCR-extracted text samples from TikTok screen recordings, comparing classification latency and feasibility. While results show that local classification is possible, latency is high, averaging over 14 seconds per sample. Although dictionary-based methods are faster, they lack the semantic flexibility of LLMs. Our findings suggest a hybrid approach and targeted frame selection strategies could enable scalable, privacy-friendly mobile media analysis in the near future."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Designing eHMIs for Delivery Robots in Public Buses: Open HCI Challenges and Usage Scenarios",
+    "authors": "Felix Heisel, Sarah Aragon-Hahner, Lennon Kulke, Vincent Harnisch, Max Weber, Florian Görmann, Bastian Pfleging",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773957",
+    "source": "ACM",
+    "abstract": "Delivery robots are an emerging technology that promise benefits (reducing reliance on human-driven delivery vehicles and minimizing the impact of local traffic conditions). One limitation of such robots is their restricted range. A potential solution is to integrate these robots into existing public transport (PT) systems. One underexplored direction is extending their mobility through PT like buses. This scenario introduces distinct human–robot interaction (HRI) challenges: close physical proximity, shifting attention, implicit social norms, and multiple stakeholders occupying the same confined space."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Roby on a Mission: Promoting Awareness and Adoption of Password Managers Through Public Security User Interfaces",
+    "authors": "Doruntina Murtezaj, Jovana Dinic, Viktorija Paneva, Florian Alt",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771905",
+    "source": "ACM",
+    "abstract": "Public Security User Interfaces (PSUIs) are a relative new approach to increasing cybersecurity awareness and promoting secure behavior in public and semi-public spaces. Unlike traditional methods such as emails or mobile apps, PSUIs use dynamic content and interactive elements to engage users in real time and promote proactive security measures. This paper explores the design and implementation of a previously introduced concept of PSUIs through a use case, driving awareness and adoption of password managers. Drawing insights from a pilot study (N=5) and a main study (N=25), we identify a set of implications for designing PSUIs that prioritize engagement strategies, actionable outcomes, accessibility and inclusivity, and normalizing mistakes. Key challenges include content adaptation, audience dynamics, and privacy. By bridging the gap between public engagement and cybersecurity education, this work lays the foundation for future research and practical implementation of PSUIs as a tool to foster secure digital habits."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "RiderID: Investigating Cycling as a Behavioral Biometric through Bicycle-Mounted Sensors",
+    "authors": "Alia Saad, Mohamed Mahdi, Jonas Keppel, Andrii Matviienko",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771901",
+    "source": "ACM",
+    "abstract": "Despite their ubiquity, bicycles remain largely unexplored as a space for personalization and cyclist-aware solutions. Since cycling is inherently a behavioral activity, we investigate its potential as a biometric trait for continuous identification and personalization. For this, we mounted multiple sensors on a regular bicycle and conducted an outdoor experiment (N = 16) across two sessions on two cycling tracks: a short, controlled track and a long, in-the-wild setup. This design enabled us to examine how stable cycling patterns are across sessions and how well individuals can be distinguished in controlled versus real-world conditions. Our findings demonstrate the feasibility of leveraging cycling behavior for continuous identification and personalization, achieving identification accuracies of up to 94.3%. We discuss the implications of these results for real-world deployment, as well as the challenges posed by environmental factors, rider variability, and the need for robust and unobtrusive sensing solutions."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "On Attitudes, Norms, Control Beliefs and Interfaces: Why Sustainable Transport Adoption is not an HCI Problem",
+    "authors": "Ambika Shahu, Paniz Moazami Goodarzi, Euiyoung Kim, Shadan Sadeghian, Philipp Wintersberger",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771903",
+    "source": "ACM",
+    "abstract": "Promoting sustainable mobility requires technological innovation and changes in individual travel behavior. Using the Theory of Planned Behavior, we examined how attitudes, norms, and perceived control shape the willingness to adopt alternatives to car use. We designed 38 future commuting scenarios, each of which isolated a single dimension across three mobility concepts: public transportation, cycling, and shared automated vehicles. In an online survey (N = 168), participants rated their willingness to switch modes and pay more. To deepen our understanding, we conducted follow-up interviews (N = 10), exploring their everyday mobility practices and their likes and dislikes regarding the practicality of the future scenarios. Our findings show that features linked to instrumental attitudes and control beliefs elicit stronger intentions than affective cues, ecological appeals were less persuasive. We argue that effective behavior change depends on linking motivational factors to the realities of everyday mobility contexts."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Do Virtual Visitors Experience Museums the Same Way as Physical Visitors? A Comparative Study",
+    "authors": "Roman Shikhri, Joel Lanir, Amber Maimon",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773945",
+    "source": "ACM",
+    "abstract": "Virtual museum tours are increasingly used to expand access to cultural heritage, yet their experiential equivalence to physical visits remains unclear. This study compared user experience in physical and virtual tours of the same museum exhibition. Thirty-two participants explored either the physical exhibition or an photo-based 360° virtual tour and completed standardized and custom questionnaires. No significant differences were observed on experiential scales between conditions. However, results revealed distinct spatial usability effects: the physical tour yielded higher ratings for navigation ease, orientation, and backtracking. These results indicate that high-quality virtual tours may replicate some experiential aspects of physical visits but still present challenges in spatial clarity and intuitive wayfinding. The findings contribute insight into where current virtual museum technologies show similarities and differences in navigation, satisfaction, and accessibility in digital heritage experiences."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Three-dimensional Analytical Modeling of Plate-type Superconducting Electrodynamic Suspension for Electromagnetic Launch Application",
+    "authors": "Jinzhao Zhao, Guangtong Ma, Cheng Luo, Zhenhua Su, Libin Cui, Menglong Guo, Jun Luo",
+    "publish": "IEEE Transactions on Applied Superconductivity",
+    "url": "https://doi.org/10.1109/tasc.2025.3638446",
+    "source": "IEEE",
+    "abstract": "Electrodynamic suspension (EDS) has a broad application prospect in high-speed magnetic levitation transportations due to its advantages such as strong self-stabilization ability and simple control. However, in high-speed application scenarios, flat-plate permanent magnet electric suspension has high magnetic drag force and requires a large weight of the installed permanent magnets. To ameliorate these problems, this paper addresses the plate-type superconducting EDS system with a higher lift-to-drag ratio. First, the structure and principles of the superconducting EDS system are presented. Second, a three-dimensional analytical model of the electromagnetic force considering the transverse end effect is established by the magnetic vector potential equation and the boundary conditions at the end of the conductor plate. Among them, the source magnetic field of the superconducting magnets array required by the boundary conditions is solved by the coil discretization idea. Then, the reliability of the proposed analytical model is verified by comparing the computational results of the analytical model with the finite element simulation results. Finally, based on the three-dimensional analytical model, the suspension stiffness characteristics of the superconducting EDS system and the influence of specific parameters on the system's suspension performance are analyzed."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Spatial Referencing for Large Language Models in Automotive Navigation Tasks",
+    "authors": "Khanh Huynh, Jeremy Dillmann, Sven Mayer",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771917",
+    "source": "ACM",
+    "abstract": "In human-human conversations, a shared visual layer allows conversation partners to refer to visual elements through spatial references - such as “on the left” or “the blue pen next to you”. Current voice user interfaces, however, lack the context needed to interpret such references, limiting their naturalness. This capability is particularly valuable for in-car interactions, where combining voice and graphical interfaces offers opportunities for more fluent and effective interaction while driving. In this work, we integrate a multimodal large language model for an in-car infotainment system to enable the interpretation of spatial references. Through a user study (N=21), we collect and analyze user utterances to investigate within the context of automotive navigation tasks. As a result, we created a taxonomy that categorizes diverse strategies participants used to reference on-screen elements. Our findings contribute a framework for understanding spatial referencing behavior in vehicles and inform the design of future multimodal in-car systems."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Exploring The Role of Technology for Accessible Stadium Experiences for People With Limited Mobility",
+    "authors": "Lukas Strobel, Kaan Göbül, Kathrin Gerling, Jan Rixen",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771891",
+    "source": "ACM",
+    "abstract": "Attending public sports events is a popular leisure activity that has yet to become more accessible for people with limited mobility. In our work, we address the role that technology, and especially, digital ticketing infrastructures play in the individual preparation for attending football matches and the experiences that disabled fans have at football stadia. Building on autoethnographic work on attending large public events with a disability, we report findings from semi-structured interviews with people with limited mobility (N=12). We apply Reflexive Thematic Analysis to craft four main themes, (1) showcasing the importance of familiarity with the processes, (2) illustrating the (in)voluntary separation of disabled and non-disabled people in current (ticketing) infrastructures, (3) highlighting social contacts as key contributor but dependency on other people also as obstruction of accessibility, and (4) contextualising the role of interactive seat plans for ticketing. Building upon these findings, we contribute an account on the experiences of people with limited mobility and the examination of current and prospective technology for this purpose with a focus on ticketing and seat plans, thereby also appraising previous findings from autoethnography."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "HarmonyLink: Exploring Cognitive Health and Advance Care Planning through LLM-Powered Supportive Conversations",
+    "authors": "Takuro Watanabe, Yui Masumoto",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773940",
+    "source": "ACM",
+    "abstract": "This study presents HarmonyLink, a set of apps enabling cognitively healthy older adults to engage in supportive conversations with an AI assistant. As families often live apart and may miss early signs of decline, HarmonyLink encourages spontaneous dialogue via voice and text to support early detection. Based on semi-structured interviews with dementia care nurses, conversation topics elicit subtle cognitive cues. Unlike test-like assessments, our approach reduces pressure and fosters natural expression. Conversation logs are summarized by a large language model and shared with family members, helping them understand the user’s interests and care preferences. This also encourages advance care planning, or discussing future care decisions while cognitive function is intact. HarmonyLink connects clinical insight with emotional closeness, supporting families in increasingly fragmented households."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Self-monitoring and Feedback : Promoting Sustainable Transportation in On-Demand Mobility Services",
+    "authors": "Fereshteh Hosseini, Setareh Zafari, Manfred Tscheligi",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771904",
+    "source": "ACM",
+    "abstract": "Transportation significantly contributes to CO2 emissions and thus plays a crucial role in sustainability initiatives. Promoting sustainable mobility behaviors requires innovative approaches, including the use of persuasive technologies. While such strategies have shown potential, their effectiveness across different stages of the travel booking process remains underexplored. In this work, we aimed to explore how integrating persuasive strategies into the booking application of an on-demand mobility service promotes sustainable transportation choice and behavior. To accomplish this, we conducted a between-subjects user study (N=30) which encompassed a booking simulation experiment which visualized CO2 emissions feedback at two different stages of the booking process. Our results show higher persuasion score in post-booking compared to pre-booking group while no significant differences were observed in persuasive potential or engagement."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3771882",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Understanding resident experience and possibilities of intelligent technologies in supporting neighbourhood communities – Context: Nordic Superblocks",
+    "authors": "Jouko Makkonen",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3774337",
+    "source": "ACM",
+    "abstract": "This PhD research explores how intelligent technologies – proactive, data-driven systems involving AI – can support the use of shared spaces and advance the use of shared spaces and neighbourhood communality in Nordic Superblocks. Nordic Superblock concept promote sustainable living through cooperation and resource sharing among housing blocks. Through empirical studies, four conceptual roles for intelligent technologies have emerged: Community Sheriff, Matchmaker, Facilitator, and Tutor. Co-design with residents and cooperation with space design has proven essential for contextual relevance and community building. An initial design framework for advancing communality with intelligent technologies in Nordic Superblocks considers design factors and outcomes across three levels: micro-level (individual entities such as residents, groups, or specific technologies), macro-level (relationships and interactions between these entities), and meta-level (broader values, ethics, and societal impacts). The research highlights both the potential and risks of such technologies, including privacy concerns and digital exclusion, and proposes a design framework integrating intelligent technology and space design to support communal wellbeing."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "When the Shuttle Explains: A Multimodal Interface Communicating Autonomous Decisions to Passengers",
+    "authors": "Ibrahim Cherrate, Hayet Hammami, Alain Bouju",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773949",
+    "source": "ACM",
+    "abstract": "Autonomous shuttles rely on machine learning algorithms to make real-time driving decisions, yet these decisions often remain opaque to passengers on board, highlighting the need for clear and contextual explanations. This study presents a multimodal explanatory interface combining an avatar, environmental visualization, and audio-textual aids to clarify the shuttle’s actions (e.g., stops, slowdowns, route changes). We conducted a user study with 27 participants using the meCUE questionnaire, semi-structured interviews, and think-aloud sessions. Results show that the interface enhances several dimensions of user experience, including perceived usefulness, ease of use, aesthetics, and overall evaluation, while qualitative feedback highlights the importance of adaptive, reassuring, and context-aware explanations."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Investigating User Perceptions of Visualising Inferred Sensitive Information as Privacy Avatars",
+    "authors": "Lena Swienty, Rebecca Panskus, Stefanie Miketta, Beyza Kircili, Sen Cheng, Karola Marky",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771889",
+    "source": "ACM",
+    "abstract": "Collecting user data is ubiquitous in the modern web, because it enables different kinds of services like personalised recommendations. Specific data shared by the users can be analysed further to infer additional information – e.g., gender, age, appearance, or preferences. Such inferences are challenging to predict for users when deciding on whether or not to share data. In this paper, we explore privacy avatars as a way to visualise collected and inferred data to users by a picture. For this, we conducted semi-structured interviews (N=20) where participants were shown privacy avatars based on products they bought in a fictitious online-shopping scenario and additional privacy avatars with a varied level of detail and information. Our results show that participants were shocked by avatars that accurately depicted parts of their visual appearance and perceived inaccurate avatars as privacy-preserving. However, participants preferred information they considered sensitive (e.g., gender) to be accurate creating a tension between privacy and accuracy of shared or inferred information. We conclude with a discussion on how such privacy avatars could be generated and used in practice to offer intuitive and informative privacy interfaces."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "AirClick: Modularized Interactive Inflatables for On-Demand Room Transformation",
+    "authors": "Pascal Jansen, Benno Hölz, Julian Britten, Mark Colley, Enrico Rukzio",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771888",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "\"What you think is private is no longer\" - Investigating the Aftermath of Shoulder Surfing on Smartphones in Everyday Life through the Eyes of the Victims",
+    "authors": "Habiba Farzand, Shaun Macdonald, Karola Marky, Mohamed Khamis",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771900",
+    "source": "ACM",
+    "abstract": "This paper investigates how experiencing shoulder surfing impacts smartphone users: Through an in-depth survey in the UK (N=91), we specifically investigate how shoulder surfing affects (a) the privacy perceptions of victim users and (b) their interactions with smartphones. We found that the impact of being shoulder-surfed is highly individual. First, shoulder surfing is perceived as unavoidable and frequently occurring, leading to an increased time to complete tasks. Second, users are concerned about their own and other people’s privacy and even consider shoulder surfing a gateway to more serious threats (e.g., identity or device theft). Users are willing to alter their behaviour and use software-based protective measures to prevent shoulder surfing. Finally, we captured a set of user-defined criteria essential to software-based protective measures. Based on our results, we discuss future work directions for user-centred shoulder surfing mitigation."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Mind the Switch: Measuring Modality-Switch Cognitive Costs (MSCC) as a Metric for Multimodal Interaction",
+    "authors": "Akshay Madhav Deshmukh, Bastian Pfleging",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773955",
+    "source": "ACM",
+    "abstract": "Multimodal interfaces increasingly blend voice, touch, and other inputs to enable natural interaction. However, transitions between modalities often introduce hidden cognitive costs not captured by traditional usability metrics. This Work-in-Progress paper presents the Modality-Switch Cognitive Cost (MSCC), a validated metric for quantifying the performance and workload penalties of switching between modalities. Building on an empirical study with 65 participants performing smart assistant tasks, we observed asymmetric switching costs, with Touch→Voice transitions producing higher cognitive load than Voice→Touch. We discuss MSCC as a foundation for adaptive multimodal design and outline ongoing work extending the metric to AR/VR and cross-device contexts."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Understanding AI Disclosure Needs for News Production and Journalism",
+    "authors": "Karthikeya Puttur Venkatraj, Sophie Morosoli, Hannes Cools, Laurens Naudts, Claes de Vreese, Natali Helberger, Pablo Cesar, Abdallah El Ali",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771899",
+    "source": "ACM",
+    "abstract": "Artificial Intelligence (AI) is revolutionizing the way content is produced and integrated into journalistic workflows. The EU AI act’s Article 50 sets up transparency requirements aimed at encouraging the adoption and disclosure of AI in an ethical and responsible manner. In this study, we organized focus group interviews with Dutch citizens (N=21) to understand their expectations and needs regarding AI disclosures in the context of news production and journalism. These conversations are essential to understand if legal and regulatory policies are grounded in real-world experiences of citizens, and adequately address their concerns and enhance their digital interactions. We found that citizens predominantly favor disclosures of AI usage in journalistic content, in the form of (1) source references, (2) visual indicators (logos/watermarks) and (3) have varying preferences regarding information presentation and interaction modalities. Our findings highlight the need for interdisciplinary approaches to align standardization efforts with AI disclosures for news media."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Supporting the Traditional Passenger Role: Human-Like In-Car Conversations",
+    "authors": "Khanh Huynh",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3774339",
+    "source": "ACM",
+    "abstract": "Driving is a cognitively demanding activity increasingly shaped by interactions with in-vehicle systems. However, current voice assistants lack contextual understanding and often struggle to interpret ambiguous user intent that requires disambiguation. This research explores how large language model (LLM)-based in-car assistants can interpret and act on user intent in a safe, context-sensitive, and human-like manner. It is guided by two main research questions: (1) how users express intent through multimodal cues such as speech, gaze, and touch to provide contextual grounding for the LLM, and (2) how the assistant should adapt its timing, output modality, and level of proactivity to the driving situation and social context."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "GestureGlove: Exploring Fine and Gross Gestures for Truly Mobile Interaction while Running",
+    "authors": "Vincent van Rheden, Michael Reichmann, Charline Martin-Pasi, Alexander Meschtscherjakov",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3774252",
+    "source": "ACM",
+    "abstract": "Running is the most practiced sport worldwide. Rhythmic breathing is a breathing technique claimed to enhance running economy and experience. Recent studies showed how sounds can guide runners in achieving and maintaining rhythmic breathing patterns. In this paper we explore how runners can interact with this sonic breath guidance while running, aiming to fit locomotion without forcing the runner to slow down or \"stop-to-interact\". Common devices, such as smartphones, smartwatches, and fitness trackers are widely employed, but their small interfaces and touch screens often necessitate slowing down for effective use. This demo paper introduces GestureGlove, a novel garment that captures fine and gross hand gestures to control rhythmic breathing guidance sounds. The concept combines gross arm gestures for sound selection by extending normal running motion, while fine in-hand gesturing enables fine-grained volume control of the selected sound independent of the running motion. These underlying principles of using gross and fine gesturing, and the embodied approach, show a new direction in the design for truly mobile interactions."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Exploring the Dynamics of HMD and Non-HMD Users in Museum Exhibition with Virtual Reality",
+    "authors": "Jemina Colley, Siiri Paananen, Sanni Mustonen, Jonna Häkkilä",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771898",
+    "source": "ACM",
+    "abstract": "Virtual reality (VR) in museum exhibitions often centers on the person using a head-mounted display (HMD), overlooking the experience of co-located visitors. We conducted a user study with 25 participants, using a prototype museum exhibit featuring VR content, one HMD, a tangible controller, and a public display. Our findings identified four user roles: HMD User, Guide, Observer, and Avoidant Participant, shaped by the design, usability, and social context. Guides emerged to assist others, partly compensating for the usability and lack of embedded instructions. Observer and Avoidant roles revealed missed opportunities for interaction. Our findings highlight the value of designing for asymmetric participation to support varied and inclusive engagement in group settings with VR in museum settings, and we present design implications to better support this."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Digitizing Prayer: The Augmentation of Reality and Spirituality",
+    "authors": "Sultan A. Alharthi",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773941",
+    "source": "ACM",
+    "abstract": "Muslims commonly recite the Quran, the holy book of Islam, during prayer by memorizing its Arabic text, a practice that can be challenging for some worshippers, particularly non-Arabic speakers. To explore how mobile and ubiquitous technologies might support this practice, we compared four ways of engaging with the Quran during prayer: reciting from memory alone, reciting with support from the printed Quran, reciting with assistance from a smartphone application, and reciting with guidance through smartglasses. For the wearable condition, we designed and implemented a prototype Quran recitation application for smartglasses display. Through a mixed-methods initial pilot study, we evaluated participants’ experiences across three dimensions: user experience, perceived spirituality, and social acceptance. The initial findings show how mobile and wearable augmentation can function as a form of cognitive offloading, lowering barriers to recitation while also reshaping user experience and spiritual engagement. By highlighting both opportunities and tensions in technology-mediated worship, this study situates its contribution within the broader discourse on techno-spirituality, offering insights into how ubiquitous systems integrate with and support established religious practices."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Funnelectro: Electrotactile Funneling Illusion and Localization Performance on the Forearm",
+    "authors": "Benjamin Simon, Dennis Stanke, Michael Rohs",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771890",
+    "source": "ACM",
+    "abstract": "On the skin, a small distance between two actuators can result in the perception of a single, centralized stimulus rather than two distinct stimuli – this phenomenon is known as the funneling illusion. In this work, we explore the electrotactile funneling illusion on the forearm in a user study with 16 participants. We placed an electrode strip with 9 electrode pairs along their forearm – from wrist to elbow. The calibration of the same perceived intensity of each electrode pair for each participant shows that the calibrated intensities near the wrist are significantly higher compared to the intensities calibrated near the elbow. A linear regression corresponds to this behavior as well as the qualitative feedback of our participants. Based on this, we created an equation that helps to reduce the calibration time considerably. The results of our study show that the funneling illusion can be reliably evoked at distances of up to 7.2&nbsp;cm. Further, we provide detailed information on occurrence frequency and precision and explored whether an approach adapted for electrotactile feedback can create an apparent tactile motion."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Rethinking Troubleshooting Support",
+    "authors": "Miruna Maria Vasiliu, Jonas Jaatinen, Benjamin Edvinsson, Renan Guarese",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773948",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Investigating Powered Wheelchair Control via a Pupil-Center Detection Algorithm with a Glass-Mounted Visible-Light Camera",
+    "authors": "Kazuki Teranishi, Hayato Gyobu, Miku Shimizu, Shogo Matsuno, Kazuyuki Mito, Tota Mizuno, Naoaki Itakura",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773946",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Evaluating Thermal Color Palettes for Manual Human Detection in Aerial Search and Rescue Imagery",
+    "authors": "Ashley Colley, Timo Luukkonen, Jonna Häkkilä",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771886",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Teaching an Old Mouse New Tricks: User-Centered Development of a Gesture Set for Touch-Enabled Computer Mice",
+    "authors": "Martina Emmert, Andreas Schmid, Paula Wiesner, Michael Pickl, Niels Henze",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771916",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "A Stroke of Insight: Accessible Screening for Cervical Myelopathy via Tablet and Paper Drawings",
+    "authors": "Takuro Watanabe, Reina Miyamoto, Koji Fujita, Yuta Sugiura",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773959",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "From ChatGPT to Custom GPTs: Scaffolding Conceptual Learning in Adult Education",
+    "authors": "Zeynep Masalaci, Sujay Shalawadi, Eleftherios Papachristos",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771907",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Human, I Need You: Comparison of Human-Robot Interaction Modalities for Search and Rescue Missions",
+    "authors": "Daniele Pretolesi, Rodrigo Gutierrez, Georg Regal, Manfred Tscheligi",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771895",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "The Balanced Comparator as a Benchmark Circuit to Validate Josephson Simulators",
+    "authors": "Timur V. Filippov, Sukanya S. Meher, M. Eren Çelik, Dmitri E. Kirichenko, Anubhav Sahu, Aaron J. Barker, Stephen R. Whiteley",
+    "publish": "IEEE Transactions on Applied Superconductivity",
+    "url": "https://doi.org/10.1109/tasc.2025.3638705",
+    "source": "IEEE",
+    "abstract": "The balanced comparator, a pair of Josephson junctions, is a key building block and decision-making element for the Rapid Single Flux Quantum (RSFQ) logic cells. The properties of the balanced comparator (BC) define the maximum clock frequency and bit error rate (BER) of RSFQ cells and circuits. Comparators are well characterized by two parameters, the gray zone (GZ) and the gray zone threshold (GZT). Both parameters depend on the dynamic properties of a pair of junctions forming the BC and its surrounding circuitry. In addition, the gray zone depends on the thermal noise in Josephson junctions. The GZ and GZT parameters can be easily measured for various balanced comparators and be used for model-to-hardware correlations. This makes the balanced comparator a unique circuit to validate and calibrate any Josephson simulator by comparing measured and simulated characteristics, including both dynamic and noise properties. In this paper we used a set of balanced comparators designed for the SFQ5ee fabrication process at MIT Lincoln Laboratory to validate and calibrate the Synopsys PrimeSim HSPICE simulator. We were able to match experimental and simulated results and reproduce in simulations the main features observed experimentally and predicted theoretically. A list of recommended design variations to validate a Josephson simulator is provided."
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Perceptual Characteristics of EMS-Induced Finger Flexion for Bodily Information Displays",
+    "authors": "Shintaro Mori, Myungguen Choi, Ikkaku Kawaguchi",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771918",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Exploring Socio-Cultural Expressions of Interactive Jewellery",
+    "authors": "Anna Walczak, Mikołaj P. Woźniak, Julia Dominiak, Heiko Müller, Magdalena Wróbel-Lachowska, Marion Koelle, Krzysztof Grudzień",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771910",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "A Country of Platform Paradoxes - Digital Communication Tools used by Green Citizen-Led Initiatives in Denmark",
+    "authors": "Markus Löchtefeld, Anita Nissen, Andreas Beyer Gregersen, Malayna Raftopoulos",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771906",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Effects of Cataracts Severities on Eye Movements and Task Performance During a Visual Search Task Through Virtual Reality Simulations",
+    "authors": "Jesse W. Grootjen, Yannick Weiss, Tobias Daniel, Fabian Kahman, Sven Mayer",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771884",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Enhancing Adaptive Sports Training through Bespoke Virtual Reality Games: The Case of Adaptive Hockey and Soccer",
+    "authors": "Mehmet Akhoroz, Kemal Erdogan, Caglar Yildirim",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771892",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Push-the-Button: Providing Control to Runners over Sonic Breathing Guidance on the Move to Enhance Usability",
+    "authors": "Vincent van Rheden, Severin Bernhart, Harald Rieser, Alexander Meschtscherjakov",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773953",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Into the Zone: Assisting Runners with Maintaining Heart Rate Zones through a Glancable Ambient Display",
+    "authors": "Ege Celikgögüs, Vincent van Rheden, Michael Reichmann, Helen Stefanidi, Alexander Meschtscherjakov",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771897",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Muse-Torch: Interactive Museum Guide System Using a Pico-Projector for Children",
+    "authors": "Lisa Yanagihara, Hiroaki Ishida, Shigenori Inagaki, Fusako Kusunoki",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773952",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Accelerating Out-of-Core Graph Random Walk Processing via Locality-Aware Algorithm-Hardware Co-Design",
+    "authors": "Huanghai Liu, Qinggang Wang, Huize Li, Long Zheng, Liwei Si, Xu Zhao, Xiaofei Liao, Hai Jin, Jingling Xue",
+    "publish": "ACM Transactions on Architecture and Code Optimization",
+    "url": "https://doi.org/10.1145/3779123",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "\"Can You Feel the Tide Tonight?\" – A Multisensory Interactive System to Foster Sustainability Awareness",
+    "authors": "Katarzyna Wojna-Nowak, Anna Kubczak, Natalia Walczak, Michael Wright",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771902",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "The Impact of Reviewing Instagram Posts on Episodic Memory: What Do Instagram Users Recall About Their Posted Pictures?",
+    "authors": "Hasinah Alzahrani, Sarah Clinch, Markel Vigo",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771911",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Speculative Design Explorations for Sámi Digital Storytelling Futures",
+    "authors": "Amna Qureshi, Siiri Paananen, Axel Niemimäki, Pigga Keskitalo",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773956",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Embodiment in Smartphone Augmented Reality: Effects on User Performance",
+    "authors": "Han Loong Low, Daniele Giunchi, Riccardo Bovo, Pasquale Cascarano, Nick Ritchie, Enrico Costanza, Anthony Steed",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771908",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Augmenting or Immersing? The Impact of Technology Choice on Cognitive Load and Enjoyment in Escape Rooms",
+    "authors": "Vivien Landgrebe, Elizabeth Bouquet, Simon von der Au, Sven Mayer",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771887",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "A Sandbox for (Designing) Democratic Technologies",
+    "authors": "Nicholas Sebastian Stevens, Jasmin Niess, Alma Leora Culén",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771919",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Designing Intent Communication for Agent-Human Collaboration",
+    "authors": "Yi Li, Francesco Chiossi, Helena Anna Frijns, Jan Leusmann, Julian Rasch, Robin Welsch, Philipp Wintersberger, Florian Michahelles, Albrecht Schmidt",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771894",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "From Head to Hand: Combining Head-Mounted Vibration and Audio Feedback for Simulating Surface Roughness in Virtual Reality",
+    "authors": "Carolin Stellmacher, Mahmoud Siai, Leon Tristan Dratzidis, Tanja Döring",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771893",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Empowering (Smart) Jewellery: Identifying Tensions between Innovation and Sentiment",
+    "authors": "Virve Inget, Anna Walczak, Julia Dominiak, Jonna Häkkilä",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773951",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Beyond Touch: Accessibility Framework for Mid-Air Haptics in Mobile and Ubiquitous Multimedia Applications",
+    "authors": "Katarzyna Wojna-Nowak, Anna Kubczak, Natalia Walczak, Michael Wright",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773950",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "More Than Precision: A Motion-Capture System for Dance Feedback versus Human Coaching for Beginner Dancers",
+    "authors": "Monika Kawełczyk, Adrianna Szczepaniak, Emilia Fijałkowska, Kinga Klepczarek, Joanna Chmielewska, Magdalena Wróbel-Lachowska, Krzysztof Grudzień, Julia Dominiak, Anna Walczak",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773944",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Mind Your Vision: A Passive Multimodal Framework for Refractive Disorders Measurement Combining Electrooculography and Eye Tracking",
+    "authors": "Xin Wei, Huakun Liu, Yutaro Hirao, Monica Perusquia-Hernandez, Katsutoshi Masai, Hideaki Uchiyama, Kiyoshi Kiyokawa",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771914",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2025-11-29",
+    "title": "Trusting Chip Design: A UX Journey",
+    "authors": "Guglielmo Papagni, Sergii Tkachov, Anjeza Karaj, Fereshteh Hosseini",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3773947",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]

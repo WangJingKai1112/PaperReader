@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2025-11-29",
+    "title": "Advancing Generative AI Collaboration in Design-to-Code Workflows: Insights from Two Empirical Studies",
+    "authors": "Diah A. Irawati, Elif Bolukbasi, Andreas Riener",
+    "publish": "Proceedings of the 24th International Conference on Mobile and Ubiquitous Multimedia",
+    "url": "https://doi.org/10.1145/3771882.3771913",
+    "source": "ACM",
+    "abstract": "For expert users to accept Generative AI (GenAI) as a true collaborative partner, it must move beyond simple task-awareness to an understanding of their workflow’s underlying structural rules. This paper introduces a paradigm for AI collaborators that moves beyond simple task awareness to an understanding of the semantic and hierarchical relationships within a component-based system. We investigate this concept within the context of the design-to-code workflow, where inefficiencies arise from the modification of components within design systems. Through two empirical studies with designers and developers, we found that GenAI output was often rejected because it violated the component hierarchy. Designers required granular and visual control for refinements, whereas developers valued automated setup but required transparent validation of the generated code’s logic. Based on these findings, we contribute design guidelines for achieving Component-Structure Awareness (CSA), with two core principles: the Atomic Recommender, which provides assistance that respects the component hierarchy, and Communication Archetypes, which allow GenAI to adapt its interaction style to the user’s role and the atomic nature of their task. This work provides a new, higher-level concept for designing the next generation of truly collaborative GenAI agents.",
+    "title_zh": "推进生成式人工智能在设计到代码工作流中的协作：来自两项实证研究的洞察",
+    "abstract_zh": "对于专家用户而言，要真正将生成式人工智能（GenAI）视为一个协作伙伴，它必须超越简单的任务感知，深入理解其工作流程中底层的结构规则。本文提出了一种新的AI协作范式，该范式不再局限于对任务的简单认知，而是致力于理解基于组件系统的语义关系与层级结构。我们以“设计到编码”工作流为背景，研究了在设计系统中修改组件时所引发的效率问题。通过针对设计师和开发者的两项实证研究，我们发现GenAI的输出常因违反组件层级结构而被拒绝。设计师需要精细且可视化的控制能力来进行优化调整，而开发者则重视自动化的设置功能，但同时要求对生成代码逻辑的透明验证。基于这些发现，我们提出了实现“组件结构意识”（Component-Structure Awareness, CSA）的设计指南，包含两个核心原则：**原子推荐器**（Atomic Recommender），即提供尊重组件层级结构的辅助建议；以及**沟通原型**（Communication Archetypes），使GenAI能够根据用户的角色及其任务的原子性特征，动态调整交互方式。本研究为下一代真正协同的GenAI代理的设计，提供了一个更高层次的新理念。"
+  }
+]
