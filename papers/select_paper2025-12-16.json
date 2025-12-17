@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2025-12-16",
+    "title": "Relevant HAL Interface Requirements for Embedded Systems",
+    "authors": "Manuel Bentele, Andreas Podelski, Axel Sikora, Bernd Westphal",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2512.14514v1",
+    "source": "arXiv",
+    "abstract": "Embedded applications often use a Hardware Abstraction Layer (HAL) to access hardware. Improper use of the HAL can lead to incorrect hardware operations, resulting in system failure and potentially serious damage to the hardware. The question is how one can obtain prioritize, among a possibly large set of HAL interface requirements, those that are indisputably relevant for preventing this kind of system failure. In this paper, we introduce a formal notion of relevance. This allows us to leverage a formal method, i.e., software model checking, to produce a mathematical proof that a requirement is indisputably relevant. We propose an approach to extract provably relevant requirements from issue reports on system failures. We present a case study to demonstrate that the approach is feasible in principle. The case study uses three examples of issue reports on embedded applications that use the SPI bus via the spidev HAL. The overall contribution of this paper is to pave the way for the study of approaches to a new kind of prioritization aimed at preventing a specific kind of system failure.",
+    "title_zh": "嵌入式系统相关的HAL接口要求",
+    "abstract_zh": "嵌入式应用通常使用硬件抽象层（HAL）来访问硬件。对HAL的不当使用可能导致硬件操作错误，进而引发系统故障，甚至可能对硬件造成严重损害。问题在于，如何从可能数量庞大的HAL接口需求中，识别并优先获取那些对于防止此类系统故障无疑至关重要的需求。本文引入了一种“相关性”的形式化定义，从而可以利用形式化方法——即软件模型检测——为某一需求是否具有无可争议的相关性提供数学证明。我们提出一种方法，能够从系统故障的问题报告中提取出可被证明为关键的需求。通过一个案例研究，我们验证了该方法在原理上的可行性。该案例研究采用了三个关于嵌入式应用使用SPI总线并通过spidev HAL进行通信时发生问题的报告作为示例。本文的总体贡献在于，为研究一类新型的优先级排序方法奠定了基础，这类方法旨在预防特定类型的系统故障。"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "TAPAAL HyperLTL: A Tool for Checking Hyperproperties of Petri Nets",
+    "authors": "Bruno Maria René Gonzalez, Peter Gjøl Jensen, Stefan Schmid, Jiří Srba, Martin Zimmermann",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2512.14265v1",
+    "source": "arXiv",
+    "abstract": "Petri nets are a modeling formalism capable of describing complex distributed systems and there exists a large number of both academic and industrial tools that enable automatic verification of model properties. Typical questions include reachability analysis and model checking against logics like LTL and CTL. However, these logics fall short when describing properties like non-interference and observational determinism that require simultaneous reasoning about multiple traces of the model and can thus only be expressed as hyperproperties. We introduce, to the best of our knowledge, the first HyperLTL model checker for Petri nets. The tool is fully integrated into the verification framework TAPAAL and we describe the semantics of the hyperlogic, present the tool's architecture and GUI, and evaluate the performance of the HyperLTL verification engine on two benchmarks of problems originating from the computer networking domain.",
+    "title_zh": "TAPAAL HyperLTL：一种用于检查Petri网超性质的工具",
+    "abstract_zh": "Petri网是一种建模形式化方法，能够描述复杂的分布式系统，并且目前已有大量学术和工业工具支持对模型属性进行自动验证。典型的问题包括可达性分析以及针对LTL和CTL等逻辑的模型检验。然而，这些逻辑在描述诸如非干涉性和观测确定性等性质时存在局限，因为这些性质需要同时对模型的多条执行轨迹进行推理，因此只能表达为超性质（hyperproperties）。据我们所知，本文首次提出了面向Petri网的HyperLTL模型检测器。该工具已完全集成到TAPAAL验证框架中，我们介绍了该超逻辑的语义，展示了工具的架构和图形用户界面，并在源自计算机网络领域的两个基准问题上评估了HyperLTL验证引擎的性能。"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "Teralizer: Semantics-Based Test Generalization from Conventional Unit Tests to Property-Based Tests",
+    "authors": "Johann Glock, Clemens Bauer, Martin Pinzger",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2512.14475v1",
+    "source": "arXiv",
+    "abstract": "Conventional unit tests validate single input-output pairs, leaving most inputs of an execution path untested. Property-based testing addresses this shortcoming by generating multiple inputs satisfying properties but requires significant manual effort to define properties and their constraints. We propose a semantics-based approach that automatically transforms unit tests into property-based tests by extracting specifications from implementations via single-path symbolic analysis. We demonstrate this approach through Teralizer, a prototype for Java that transforms JUnit tests into property-based jqwik tests. Unlike prior work that generalizes from input-output examples, Teralizer derives specifications from program semantics. We evaluated Teralizer on three progressively challenging datasets. On EvoSuite-generated tests for EqBench and Apache Commons utilities, Teralizer improved mutation scores by 1-4 percentage points. Generalization of mature developer-written tests from Apache Commons utilities showed only 0.05-0.07 percentage points improvement. Analysis of 632 real-world Java projects from RepoReapers highlights applicability barriers: only 1.7% of projects completed the generalization pipeline, with failures primarily due to type support limitations in symbolic analysis and static analysis limitations in our prototype. Based on the results, we provide a roadmap for future work, identifying research and engineering challenges that need to be tackled to advance the field of test generalization. Artifacts available at: https://doi.org/10.5281/zenodo.17950381",
+    "title_zh": "Teralizer：基于语义的测试泛化——从传统单元测试到属性基测试",
+    "abstract_zh": "传统的单元测试仅验证单个输入-输出对，导致执行路径上的大多数输入未被测试。基于属性的测试通过生成满足特定属性的多个输入来弥补这一不足，但需要大量人工 effort 来定义属性及其约束条件。我们提出了一种基于语义的方法，通过单路径符号分析从程序实现中提取规范，自动将单元测试转换为基于属性的测试。我们通过 Teralizer 实现了这一方法，这是一个针对 Java 的原型工具，可将 JUnit 测试转化为基于属性的 jqwik 测试。与以往从输入-输出示例中进行泛化的研究不同，Teralizer 从程序语义中推导出规范。我们在三组难度递增的数据集上评估了 Teralizer 的效果。在使用 EvoSuite 为 EqBarn 和 Apache Commons 工具类生成的测试上，Teralizer 将变异得分提高了 1 到 4 个百分点；而在对成熟的、由开发者编写的 Apache Commons 测试进行泛化时，仅提升了 0.05 到 0.07 个百分点。此外，我们对来自 RepoReapers 的 632 个真实 Java 项目进行了分析，揭示了该方法在实际应用中的障碍：仅有 1.7% 的项目成功完成了泛化流程，失败的主要原因在于符号分析中的类型支持限制以及原型中的静态分析能力不足。基于这些结果，我们为未来的研究提供了路线图，明确了推动测试泛化领域发展所需解决的研究和工程挑战。相关成果资料见：https://doi.org/10.5281/zenodo.17950381"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "HAL -- An Open-Source Framework for Gate-Level Netlist Analysis",
+    "authors": "Julian Speith, Jörn Langheinrich, Marc Fyrbiak, Max Hoffmann, Sebastian Wallat, Simon Klix, Nils Albartus, René Walendy, Steffen Becker, Christof Paar",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2512.14139v1",
+    "source": "arXiv",
+    "abstract": "HAL is an open-source framework for gate-level netlist analysis, an integral step in hardware reverse engineering. It provides analysts with an interactive GUI, an extensible plugin system, and APIs in both C++ and Python for rapid prototyping and automation. In addition, HAL ships with plugins for word-level modularization, cryptographic analysis, simulation, and graph-based exploration. Since its release in 2019, HAL has become widely adopted in academia, industry, government, and teaching. It underpins at least 23 academic publications, is taught in hands-on trainings, conference tutorials, and university classes, and has collected over 680 stars and 86 forks on GitHub. By enabling accessible and reproducible hardware reverse engineering research, HAL has significantly advanced the field and the understanding of real-world capabilities and threats.",
+    "title_zh": "HAL——一种用于门级网表分析的开源框架",
+    "abstract_zh": "HAL 是一个用于门级网表分析的开源框架，是硬件逆向工程中的关键环节。它为分析人员提供了交互式图形用户界面、可扩展的插件系统，以及 C++ 和 Python 语言的 API，便于快速原型开发和自动化操作。此外，HAL 自带了多种插件，支持字级模块化、密码学分析、仿真以及基于图的探索功能。自 2019 年发布以来，HAL 已在学术界、工业界、政府机构及教学领域得到广泛应用。它支撑了至少 23 篇学术论文的研究工作，被用于实践培训、会议教程和大学课程教学中，并在 GitHub 上获得了超过 680 颗星标和 86 次分支。通过推动硬件逆向工程研究的可访问性和可重复性，HAL 显著推动了该领域的发展，加深了人们对现实世界中硬件能力与安全威胁的理解。"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "MLBFA: A Machine Learning-Guided Framework for Efficient Bit-Flip Attacks on Deep Neural Networks",
+    "authors": "José Ronaldo, Otávio Alcântara de Lima, Nayra Sousa",
+    "publish": "2025 XV Symposium on Computing Systems Engineering (SBESC)",
+    "url": "https://doi.org/10.1109/sbesc68008.2025.11288903",
+    "source": "IEEE",
+    "abstract": "The deployment of Deep Neural Networks (DNNs) in safety-critical systems necessitates resilience against hardware threats like the Bit-Flip Attack (BFA). This challenge becomes particularly nuanced for quantized networks. Unlike their floating-point counterparts where single flips can be catastrophic, the inherent robustness of quantized models—the exclusive focus of this work—makes identifying critical bits computationally prohibitive. We introduce the Machine Learning-Guided Framework for Efficient BFAs (MLBFA), a novel framework that leverages Machine Learning (ML) to execute highly efficient Bit-Flip Attacks (BFAs). MLBFA operates in three stages: (1) it builds a Vulnerability Model (VM) from a limited statistical fault injection campaign using a multidimensional feature set; (2) it uses the VM to predict and rank the vulnerability of all parameters across the network; and (3) it exploits this ranking to guide advanced search algorithms (Greedy, Evolutionary, and Progressive) in identifying the minimal set of bit-flips required to neutralize the DNN. On quantized ResNet architectures, crucial for embedded systems, MLBFA consistently outperforms state-of-the-art methods, neutralizing a ResNet-32 with only six bit-flips and reducing the required flips by nearly 50% on deeper models like the ResNet-56. This work demonstrates that a holistic, ML-guided approach provides a superior strategic map for executing more potent hardware-level attacks with fewer resources.",
+    "title_zh": "MLBFA：一种基于机器学习的深度神经网络高效比特翻转攻击框架",
+    "abstract_zh": "将深度神经网络（DNN）部署于安全关键系统中，必须具备抵御硬件层面威胁（如比特翻转攻击，Bit-Flip Attack, BFA）的能力。这一挑战在量化网络中尤为复杂。与浮点模型中单个比特翻转即可导致灾难性后果不同，量化模型本身具有较强的鲁棒性——这也是本研究的重点所在——这使得识别关键比特的计算成本极高。为此，我们提出了“基于机器学习的高效比特翻转攻击框架”（MLBFA），这是一种利用机器学习（ML）技术实现高效比特翻转攻击的全新框架。MLBFA 包含三个阶段：（1）通过有限的统计性故障注入实验，结合多维特征集构建“脆弱性模型”（Vulnerability Model, VM）；（2）利用该模型预测并排序网络中所有参数的脆弱程度；（3）基于此排序结果，指导高级搜索算法（包括贪心、进化和渐进式算法）快速定位使DNN失效所需的最少比特翻转集合。在面向嵌入式系统的关键量化ResNet架构上，MLBFA 始终优于现有最先进方法，仅用6次比特翻转即可使 ResNet-32 失效，并在 ResNet-56 等更深模型上将所需翻转次数减少近50%。本研究表明，采用整体性的、由机器学习引导的方法，能够以更少资源实现更强有力的硬件级攻击，为相关攻防研究提供了更优的战略路径。"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "2025 34th International Conference on Parallel Architectures and Compilation Techniques (PACT)",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/pact65351.2025",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "2025年第34届国际并行架构与编译技术会议（PACT）",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "Proactive Cybersecurity through Cyber Crime Triangle Framework: A Mathematical Approach with AI/ML Integration and Game-Theoretic Optimization",
+    "authors": "Naughtakid Phromchan, Pongsarun Boonyopakorn",
+    "publish": "2025 Research, Invention, and Innovation Congress: Innovative Electricals and Electronics (RI2C)",
+    "url": "https://doi.org/10.1109/ri2c67120.2025.11282832",
+    "source": "IEEE",
+    "abstract": "Cybersecurity threats are evolving faster than conventional defenses can adapt. To address this growing asymmetry, we propose the Cyber Crime Triangle Framework (CCTF)—a proactive, mathematically grounded approach that unifies criminological theory, partial differential equation (PDE) modeling, AI/ML-driven detection, and game-theoretic optimization. Rooted in Crime Triangle Theory, CCTF formulates the dynamic interplay among attackers, targets, and defenders as a system of coupled PDEs. These equations capture spatiotemporal threat behavior, while embedded AI modules adaptively assess offender motivation, target vulnerability, and defense readiness. A game-theoretic layer models adversarial interactions as a Stackelberg game, enabling the derivation of optimal defense strategies under uncertainty. Formal verification ensures safety, stability, and recoverability of the system. Experimental validation across five major attack scenarios—including APTs, ransomware, insider threats, IoT-based attacks, and supply chain compromises—demonstrates 94.7% detection accuracy, a 2.1% false positive rate, and a 76.8% reduction in potential damage. These results confirm CCTF’s capability to anticipate and counter complex cyber threats in real-world environments.",
+    "title_zh": "基于网络犯罪三角框架的主动网络安全：结合人工智能/机器学习与博弈论优化的数学方法",
+    "abstract_zh": "网络安全威胁的演变速度已超过传统防御手段的适应能力。为应对这种日益加剧的不对称性，我们提出了“网络犯罪三角框架”（Cyber Crime Triangle Framework, CCTF）——一种主动的、基于数学理论的方法，将犯罪学理论、偏微分方程（PDE）建模、人工智能/机器学习（AI/ML）驱动的检测技术以及博弈论优化有机整合。CCTF以犯罪三角理论为基础，将攻击者、目标和防御者之间的动态交互建模为一组耦合的偏微分方程系统。这些方程刻画了威胁行为在时空上的演化过程，而嵌入其中的AI模块则自适应地评估犯罪者的动机、目标的脆弱性以及防御方的准备状态。框架中的博弈论层将攻防对抗建模为斯塔克尔伯格（Stackelberg）博弈，从而在不确定性条件下推导出最优防御策略。通过形式化验证确保系统的安全性、稳定性和可恢复性。在五类主要攻击场景——包括高级持续性威胁（APT）、勒索软件、内部威胁、基于物联网的攻击以及供应链攻击——中的实验验证表明，CCTF实现了94.7%的检测准确率、2.1%的误报率，并使潜在损失减少了76.8%。实验结果证实了CCTF在真实环境中预测并应对复杂网络威胁的有效能力。"
+  },
+  {
+    "date": "2025-12-16",
+    "title": "Modeling and Supervisory Control Design of on Board Computer Based on Petri Nets Tool",
+    "authors": "Alireza Ahangarani Farahani, Mahdi Esmaeili Dashiri",
+    "publish": "2025 11th International Conference on Control, Instrumentation and Automation (ICCIA)",
+    "url": "https://doi.org/10.1109/iccia69223.2025.11285951",
+    "source": "IEEE",
+    "abstract": "In this paper, a logical model of the On-Board Computer and Data Handling (OBC&DH) subsystem of a small satellite is developed using the Petri Nets tool. In the first step, the various components of the OBC-including execution timings, potential faults, and logical operations-are modeled individually. In the second step, these component models are synchronized. In satellite systems, the OBC plays a pivotal role in scenario execution, data management, communications handling, logical control, health monitoring, and decision-making. Therefore, providing a clear, accessible, and graphically supported model-one that can also be translated into mathematical form-is of considerable value. Such modeling supports the design of supervisory control systems aimed at preventing faults in the OBC. This paper demonstrates how Petri Nets can be applied to implement redundancy strategies within the OBC&DH system.",
+    "title_zh": "基于Petri网工具的星载计算机建模与监控控制设计",
+    "abstract_zh": "本文利用Petri网工具，建立了小型卫星星载计算机与数据处理（OBC&DH）子系统的逻辑模型。首先，对OBC的各个组成部分——包括执行时序、潜在故障和逻辑操作——进行单独建模；然后，将这些组件模型进行同步整合。在卫星系统中，OBC在场景执行、数据管理、通信处理、逻辑控制、健康监测和决策制定等方面发挥着关键作用。因此，建立一种清晰、易于理解且具有图形支持、并可转化为数学形式的模型具有重要价值。此类建模有助于设计用于预防OBC故障的监控控制系统。本文还展示了如何应用Petri网在OBC&DH系统中实现冗余策略。"
+  }
+]
