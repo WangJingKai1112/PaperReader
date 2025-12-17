@@ -34,7 +34,25 @@
 
 ---
 
-### 2. 配置 Repository Secrets（GitHub Actions 专用）
+### 2. 自定义研究方向筛选规则
+
+论文相关性判断逻辑由 `src/selectRelevantPaper.py` 中的  
+`llm_is_relevant(title, abstract)` 方法控制，主要通过 `user_template` 定义筛选标准。
+
+打开 `src/selectRelevantPaper.py` 文件，修改如下部分：
+
+```python
+user_template = """
+My research focuses on Electronic Design Automation (EDA) and Large Language Model (LLM)-assisted chip design.\n\nIt includes code generation, static code analysis, lint violation detection and repair, coding standard violations, and security vulnerabilities.\n\nPlease determine whether the following paper is related to or potentially useful for my research.\n\nIf the paper involves EDA, code generation, code analysis, program repair, code quality improvement, or automatic error detection,please answer "Yes". Otherwise, please answer "No".\n\nTitle: {title}\n\nAbstract: {abstract}
+"""
+```
+
+修改后保存即可。
+
+---
+
+
+### 3. 配置 Repository Secrets（GitHub Actions 专用）
 
 进入 Fork 后的仓库，路径如下：
 
@@ -59,28 +77,13 @@
 
 ---
 
-### 3. 运行 GitHub Action（自动定时执行）
+### 4. 运行 GitHub Action（自动定时执行）
 
 - 🕒 **自动触发**：每天 UTC 上午 9 点（北京时间下午 5 点）自动运行  
 - 🧪 **手动测试**：  
   进入仓库 → `Actions → 选择对应 workflow → Run workflow → 点击 Run workflow`
 
 ---
-
-### 4. 自定义研究方向筛选规则
-
-论文相关性判断逻辑由 `src/selectRelevantPaper.py` 中的  
-`llm_is_relevant(title, abstract)` 方法控制，主要通过 `user_template` 定义筛选标准。
-
-打开 `src/selectRelevantPaper.py` 文件，修改如下部分：
-
-```python
-user_template = """
-My research focuses on Electronic Design Automation (EDA) and Large Language Model (LLM)-assisted chip design.\n\nIt includes code generation, static code analysis, lint violation detection and repair, coding standard violations, and security vulnerabilities.\n\nPlease determine whether the following paper is related to or potentially useful for my research.\n\nIf the paper involves EDA, code generation, code analysis, program repair, code quality improvement, or automatic error detection,please answer "Yes". Otherwise, please answer "No".\n\nTitle: {title}\n\nAbstract: {abstract}
-"""
-```
-
-修改后保存即可。
 
 ## 💻 本地运行（调试 / 手动触发）
 
@@ -199,6 +202,7 @@ uv run src/main.py
 - 请合理设置检索频率与数量，避免对数据库服务器造成不必要压力  
 
 ---
+
 
 
 
