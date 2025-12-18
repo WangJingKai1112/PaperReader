@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2025-12-17",
+    "title": "Design and Validation of a Smart Neuromorphic System Architecture for Algorithmic Trading",
+    "authors": "Shuming Xu, Lu Jiang, Boping Gu",
+    "publish": "Proceedings of the 2nd International Symposium on Integrated Circuit Design and Integrated Systems",
+    "url": "https://doi.org/10.1145/3772326.3774721",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "智能类脑系统架构在算法交易中的设计与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-17",
+    "title": "HIL-RESIST: Hardware-In-the-Loop testbed for RESilience evaluation against Integrated System Threats in power systems",
+    "authors": "Ajay Dev Chhokra, Shashank Shekhar, Siddharth Bhela, Ulrich Muenz",
+    "publish": "Proceedings of the International Workshop on Middleware for IT/OT Integration",
+    "url": "https://doi.org/10.1145/3774900.3776634",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "HIL-RESIST：用于电力系统综合威胁下可再生能源韧性评估的硬件在环测试平台",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-17",
+    "title": "Estimating Process Variability in Radiation-Tolerant Circuits With a New Metric",
+    "authors": "Elias de Almeida Ramos, Augusto Weber, Wilian Padilha, João Baptista Martins, Ricardo Reis",
+    "publish": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "url": "https://doi.org/10.1109/tcsi.2025.3643158",
+    "source": "IEEE",
+    "abstract": "In this work, the relationship between Lyapunov exponents, used to estimate the effects of process variability, and the standard deviation obtained through the Monte Carlo method was established analytically, demonstrating that the Lyapunov exponents characterize a metric for estimating such effects. Based on this, a new metric for estimating the effects of process variability, based on Lyapunov exponents, was developed. The Sum-Power-Delay (SPD) was analytically defined, and its application was verified in the design of an inverter using 180nm technology. The SPD was applied to compare two sets of twenty cells designed in 180nm and 180nm-RH, a radiation-tolerant cell library developed at the Santa Maria Design House (SMDH), affiliated with the Federal University of Santa Maria (UFSM), demonstrating that circuits designed with Enclosed Layout-Transistor (ELT) are more robust against process variability. These results were obtained by analyzing circuits from the ISCAS85 benchmarks, as well as twenty circuits synthesized with our library. The same analysis was performed for matrix multiplication, aiming to evaluate the impact of process variability on this fundamental operation in space-grade digital systems. Finally, the 180nm-RH library was used to estimate the effects of process variability on circuits designed for space-oriented applications, including neural networks, filters, image compression, edge detection, and RISC-V microcontroller core modules. Key circuits for space applications, including image compressors, digital filters, and edge detection modules, were synthesized using a radiation-hardened standard cell library, enabling comparative evaluation of their robustness to process variability. The analysis provides valuable guidance for selecting circuits suitable for radiation-prone environments. Extension to RISC-V cores with 180 nm radiation-hardened transistors showed that Pico32 had the highest tolerance to process variability, confirming the practical effectiveness of the SPD metric in predicting and mitigating variability effects across designs.",
+    "title_zh": "采用新指标估算抗辐射电路中的过程变异性",
+    "abstract_zh": "在这项工作中，通过解析方法建立了用于评估工艺变异影响的李雅普诺夫指数与通过蒙特卡洛方法获得的标准差之间的关系，证明了李雅普诺夫指数可作为评估此类效应的一种度量指标。基于此，提出了一种新的基于李雅普诺夫指数的工艺变异影响评估度量方法。本文对“总和-功耗-延迟”（Sum-Power-Delay, SPD）指标进行了理论定义，并在采用180nm工艺设计的反相器中验证了其应用效果。SPD被应用于比较两组分别基于180nm和180nm-RH工艺设计的二十个单元电路，其中180nm-RH是由隶属于圣玛丽亚联邦大学（UFSM）的圣玛丽亚设计中心（SMDH）开发的抗辐射单元库。结果表明，采用封闭式布局晶体管（Enclosed Layout-Transistor, ELT）设计的电路对工艺变异性具有更强的鲁棒性。这些结论通过对ISACAS85基准电路以及使用本研究单元库综合出的二十个电路进行分析得出。同样的分析也被应用于矩阵乘法运算，以评估工艺变异性对航天级数字系统中这一基本操作的影响。\n\n最后，利用180nm-RH单元库估算了面向空间应用电路中的工艺变异影响，包括神经网络、滤波器、图像压缩、边缘检测以及RISC-V微控制器核心模块等。关键的空间应用电路，如图像压缩器、数字滤波器和边缘检测模块，均采用抗辐射标准单元库进行综合，从而实现了对其在工艺变异性下鲁棒性的对比评估。该分析为选择适用于辐射环境的电路提供了有价值的指导。进一步将该方法扩展至采用180nm抗辐射晶体管实现的RISC-V处理器核，结果显示Pico32核对工艺变异的容忍度最高，证实了SPD度量在跨设计预测和缓解变异效应方面的实际有效性。"
+  },
+  {
+    "date": "2025-12-17",
+    "title": "Proceedings of the 2nd International Symposium on Integrated Circuit Design and Integrated Systems",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3772326",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "第二届国际集成电路设计与集成系统研讨会论文集",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-17",
+    "title": "Implementation of Computer Organization Principle Experimental Platform based on FPGA",
+    "authors": "Hanzheng Li",
+    "publish": "Proceedings of the 2nd International Symposium on Integrated Circuit Design and Integrated Systems",
+    "url": "https://doi.org/10.1145/3772326.3772332",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于FPGA的计算机组成原理实验平台实现",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-17",
+    "title": "Sequential Test Generation and Design-for-Testability with Preferred Interconnect Cubes",
+    "authors": "Irith Pomeranz",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2025.3645069",
+    "source": "IEEE",
+    "abstract": "Functional test sequences are important for the detection of defects that may escape scan-based tests but cause failures during functional operation. Sequential test generation can produce compact functional test sequences with a high fault coverage, but its computational complexity can be prohibitive unless carefully controlled. Preferred primary input cubes indicate which primary input values should be avoided, and which ones are preferred in a test sequence to achieve a high gate-level fault coverage. The use of preferred primary input cubes allows a random sequence to be modified into an effective test sequence without any simulation. In a design that consists of interconnected sequential logic blocks, each logic block has its own preferred primary input cube. This article suggests for the first time the use of the preferred primary input cubes of all the logic blocks in an interconnection for sequential test generation. The cubes are referred to as preferred interconnect cubes. The result is a low complexity sequential test generation procedure with improved fault coverage relative to a procedure that does not recognize the preferred interconnect cubes. The article also suggests a design-for-testability (<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">DFT</i>) approach that changes the connections between logic blocks to increase the fault coverage. The implementation was performed in an academic simulation environment, and its effectiveness is demonstrated for interconnections of benchmark circuits.",
+    "title_zh": "基于优选互连立方体的顺序测试生成与可测性设计",
+    "abstract_zh": "功能测试序列对于检测那些可能逃过基于扫描的测试但在功能运行期间导致故障的缺陷非常重要。顺序测试生成能够产生具有高故障覆盖率的紧凑功能测试序列，但其计算复杂度可能非常高，除非加以严格控制。首选主输入立方体指明了在测试序列中应避免哪些主输入值，以及为了实现高的门级故障覆盖率应优先使用哪些主输入值。利用首选主输入立方体，可以在无需任何仿真的情况下将随机序列修改为有效的测试序列。在一个由互连的时序逻辑模块组成的电路设计中，每个逻辑模块都有其自身的首选主输入立方体。本文首次提出在顺序测试生成过程中利用所有逻辑模块在互连结构中的首选主输入立方体，这些立方体被称为“首选互连立方体”。该方法实现了较低复杂度的顺序测试生成过程，并相对于未考虑首选互连立方体的方法提高了故障覆盖率。本文还提出了一种可测性设计（DFT）方法，通过改变逻辑模块之间的连接关系来进一步提高故障覆盖率。该方法已在学术仿真环境中实现，并在基准电路互连结构上的实验结果验证了其有效性。"
+  },
+  {
+    "date": "2025-12-17",
+    "title": "LibSCAT: Library-Based Formal Verification of Heavily Optimized Multipliers via GNN-Guided Reference Selection",
+    "authors": "Rui Li, Masahiro Fujita, Heng Yu, Guangyao Yan, Lin Li, Yajun Ha",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2025.3645205",
+    "source": "IEEE",
+    "abstract": "Formal verification of heavily optimized multipliers is a critical yet challenging problem in both industry and academia. Current approaches suffer from fundamental limitations: Symbolic Computer Algebra (SCA) techniques struggle with heavily optimized multipliers, Satisfiability (SAT)-based approaches require structurally similar reference designs, and hybrid methods fail to handle Booth multipliers. On the other hand, industrial design flows possess extensive libraries of verified multipliers for optimization workflows, creating an underutilized opportunity for library-based verification. Yet optimal reference selection becomes challenging due to large-scale libraries and optimization-obscured architectural relationships. To address these challenges, we propose LibSCAT, a verification framework that leverages large-scale reference libraries in a scalable manner. First, we propose a reference library-based methodology that adaptively combines SCA and SAT techniques through intelligent reference selection and predictive method choice. Second, we propose a Siamese Graph Neural Network model that captures multiplier structural relationships in latent space from reverse-engineered graphs, generating robust embeddings for efficient reference selection. Third, we propose a Random Forest-based predictor that leverages learned embeddings for accurate selection of verification strategies. Experimental results show our method achieves 88.2% success on heavily optimized simple partial product multipliers and 94.0% success on heavily optimized Booth multipliers, significantly outperforming state-of-the-art methods.",
+    "title_zh": "LibSCAT：基于库的通过GNN引导参考选择对高度优化乘法器进行形式化验证",
+    "abstract_zh": "对高度优化的乘法器进行形式化验证是工业界和学术界面临的一项关键但极具挑战性的问题。现有的方法存在根本性局限：符号计算机代数（SCA）技术难以处理高度优化的乘法器，基于可满足性（SAT）的方法需要结构相似的参考设计，而混合方法则无法有效应对Booth乘法器。另一方面，工业级设计流程中通常拥有大量已验证的乘法器库，可用于优化工作流，这为基于库的验证提供了尚未充分利用的机会。然而，由于库规模庞大且优化过程掩盖了架构间的关联关系，最优参考设计的选择变得十分困难。为应对这些挑战，我们提出了LibSCAT——一种可扩展地利用大规模参考库的验证框架。首先，我们提出一种基于参考库的方法论，通过智能参考选择和预测性方法决策，自适应地结合SCA与SAT技术。其次，我们设计了一种孪生图神经网络（Siamese Graph Neural Network）模型，该模型从逆向工程得到的图结构中捕捉乘法器的结构关系，并在潜在空间中生成鲁棒的嵌入表示，以实现高效的参考选择。第三，我们提出一种基于随机森林的预测器，利用学习到的嵌入特征来准确选择验证策略。实验结果表明，我们的方法在高度优化的简单部分积乘法器上取得了88.2%的验证成功率，在高度优化的Booth乘法器上达到了94.0%的成功率，显著优于当前最先进的方法。"
+  },
+  {
+    "date": "2025-12-17",
+    "title": "Intelligent Signal Analysis and Fault Diagnosis System for Integrated Circuits Using Multi-Model Machine Learning",
+    "authors": "Yihao Ou, Xiyuan Zhu",
+    "publish": "Proceedings of the 2nd International Symposium on Integrated Circuit Design and Integrated Systems",
+    "url": "https://doi.org/10.1145/3772326.3774740",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于多模型机器学习的集成电路智能信号分析与故障诊断系统",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-17",
+    "title": "Comparative Analysis of Inference Performance of Pre-Trained Convolutional Neural Networks in Analog Accelerators",
+    "authors": "Mafizur Rahman, Lijun Qian",
+    "publish": "IEEE Transactions on Emerging Topics in Computational Intelligence",
+    "url": "https://doi.org/10.1109/tetci.2025.3641703",
+    "source": "IEEE",
+    "abstract": "Resistive crossbars using non-volatile memory devices have become promising components for implementing deep learning models in hardware. However, crossbar-based computations encounter a notable challenge due to device and circuit-level non-idealities. In this study, we explore three recent crossbar simulation tools, namely, AIHWKIT, CrossSim, and MemTorch, and evaluate four pre-trained convolutional neural networks (CNNs) for image classification on CIFAR-100, MNIST, and SVHN datasets using these tools. To the best of our knowledge, this is the first study using all three simulation tools of analog accelerators, representing three distinctive hardware settings, to evaluate CNN-based model robustness under analog noise and nonlinearities. We first test the robustness of four models (VGG19, InceptionV3, ResNet50, & MobilenetV2) using different levels of white Gaussian noise as baselines. Then we evaluate their inference performance on the three tools to determine their resilience to analog noise and nonlinearities in the hardware environment. Results show that while all CNNs' suffer performance degradation as expected, insights are obtained such as ResNet50 outperforms others in two out of three simulators despite real-world hardware imperfections due to its deep structure. Furthermore, we explore the impact of three key factors: cell bits, ADC resolution, and tile size on CNN performance across various hardware configurations, providing recommendations for the efficient deployment of CNN on hardware. Our results suggest that increasing cell bits and ADC resolution improves CNNs' performance. It is also observed that smaller tiles are suitable for lightweight models, while for complex networks, we should choose larger shape of tiles.",
+    "title_zh": "预训练卷积神经网络在模拟加速器中推理性能的比较分析",
+    "abstract_zh": "采用非易失性存储器器件的电阻式交叉阵列已成为在硬件上实现深度学习模型的有前景的组件。然而，基于交叉阵列的计算由于器件和电路层面的非理想性而面临显著挑战。在本研究中，我们探讨了三种近期的交叉阵列仿真工具——AIHWKIT、CrossSim 和 MemTorch，并利用这些工具在 CIFAR-100、MNIST 和 SVHN 数据集上评估了四个预训练的卷积神经网络（CNN）用于图像分类的性能。据我们所知，这是首次同时使用这三种模拟模拟加速器的仿真工具（代表三种不同的硬件设置），来评估基于CNN的模型在模拟噪声和非线性条件下的鲁棒性。我们首先测试了四种模型（VGG19、InceptionV3、ResNet50 和 MobileNetV2）在不同水平的高斯白噪声下的鲁棒性作为基线。然后，我们在上述三种工具上评估其推理性能，以确定它们在硬件环境中的模拟噪声与非线性影响下的抗干扰能力。结果表明，尽管所有CNN模型的性能均如预期出现下降，但我们仍获得了有价值的见解：由于ResNet50具有较深的网络结构，即使在现实世界硬件存在缺陷的情况下，它在三个仿真器中的两个上表现优于其他模型。此外，我们进一步探究了三个关键因素——存储单元比特数（cell bits）、模数转换器（ADC）分辨率和交叉阵列分块大小（tile size）——在不同硬件配置下对CNN性能的影响，为CNN在硬件上的高效部署提供了建议。我们的结果表明，增加存储单元比特数和ADC分辨率有助于提升CNN的性能。同时观察到，较小的分块适用于轻量级模型，而对于复杂网络，则应选择更大的分块尺寸。"
+  }
+]
