@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2025-12-18",
+    "title": "Checking the HAL Interface Specification Continuously, Right from the Start",
+    "authors": "Manuel Bentele, Onur Altinordu, Jan Körner, Andreas Podelski, Axel Sikora",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2512.16897v1",
+    "source": "arXiv",
+    "abstract": "The correct use of a Hardware Abstraction Layer (HAL) interface in embedded applications is crucial to prevent malfunctions, crashes, or even hardware damage. Software model checking has been successfully applied to check interface specifications in application programs, but its employment in industrial practice is hindered by its unpredictability (whether it succeeds for a given application program or not). In this paper, we present a novel approach to address this problem by checking the HAL interface specification continuously and right from the start of the development. I.e., we develop an embedded application in several iterations without a formal connection between the steps. The steps start from a program skeleton which does nothing but calling HAL functions. Actual functionality is added consecutively. The HAL interface specification is checked in each step of the sequence. The idea of the approach is to exploit a specific feature of software model checking: Its attempt to compute exactly the abstraction that is needed for the check to succeed may carry over from one step to the next, even if there is no formal connection between the steps. The experience from a preliminary experimental evaluation of our approach in the development of embedded applications is very promising. Following our approach, the check succeeds in each step and in particular in the final application program.",
+    "title_zh": "从一开始就持续检查 HAL 接口规范",
+    "abstract_zh": "在嵌入式应用中，正确使用硬件抽象层（HAL）接口对于防止功能故障、系统崩溃甚至硬件损坏至关重要。软件模型检验已被成功应用于检查应用程序中的接口规范，但其在工业实践中的应用受到不可预测性的阻碍（即无法确定它是否能对给定的应用程序成功执行）。本文提出了一种新方法，通过从开发初期开始持续检查HAL接口规范来解决这一问题。具体而言，我们在多个迭代步骤中开发嵌入式应用，各步骤之间无需形式化关联。开发从一个仅调用HAL函数而不实现任何实际功能的程序骨架开始，随后逐步添加具体功能，并在每一步中都对HAL接口规范进行检查。该方法的核心思想是利用软件模型检验的一个特定特性：为使检查成功而尝试计算出的精确抽象可能从前一步传递到下一步，即使这些步骤之间没有形式化联系。我们在嵌入式应用开发中对本方法进行了初步实验评估，结果非常有前景：按照该方法，每一步（尤其是最终的应用程序）的检查均能成功完成。"
+  },
+  {
+    "date": "2025-12-18",
+    "title": "GinSign: Grounding Natural Language Into System Signatures for Temporal Logic Translation",
+    "authors": "William English, Chase Walker, Dominic Simon, Rickard Ewetz",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2512.16770v1",
+    "source": "arXiv",
+    "abstract": "Natural language (NL) to temporal logic (TL) translation enables engineers to specify, verify, and enforce system behaviors without manually crafting formal specifications-an essential capability for building trustworthy autonomous systems. While existing NL-to-TL translation frameworks have demonstrated encouraging initial results, these systems either explicitly assume access to accurate atom grounding or suffer from low grounded translation accuracy. In this paper, we propose a framework for Grounding Natural Language Into System Signatures for Temporal Logic translation called GinSign. The framework introduces a grounding model that learns the abstract task of mapping NL spans onto a given system signature: given a lifted NL specification and a system signature $\\mathcal{S}$, the classifier must assign each lifted atomic proposition to an element of the set of signature-defined atoms $\\mathcal{P}$. We decompose the grounding task hierarchically- first predicting predicate labels, then selecting the appropriately typed constant arguments. Decomposing this task from a free-form generation problem into a structured classification problem permits the use of smaller masked language models and eliminates the reliance on expensive LLMs. Experiments across multiple domains show that frameworks which omit grounding tend to produce syntactically correct lifted LTL that is semantically nonequivalent to grounded target expressions, whereas our framework supports downstream model checking and achieves grounded logical-equivalence scores of $95.5\\%$, a $1.4\\times$ improvement over SOTA.",
+    "title_zh": "GinSign：将自然语言基于系统特征嵌入以实现时序逻辑翻译",
+    "abstract_zh": "将自然语言（NL）翻译为时序逻辑（TL）使工程师能够指定、验证和强制执行系统行为，而无需手动编写形式化规范——这是构建可信自主系统的关键能力。尽管现有的自然语言到时序逻辑翻译框架已展现出令人鼓舞的初步成果，但这些系统要么明确假设可以获得准确的原子接地（atom grounding），要么存在接地翻译准确率较低的问题。本文提出了一种名为 GinSign（将自然语言接地到系统签名以进行时序逻辑翻译）的框架。该框架引入了一个接地模型，用于学习将自然语言片段映射到给定系统签名上的抽象任务：给定一个提升后的自然语言规范和一个系统签名 $\\mathcal{S}$，分类器必须将每一个提升后的原子命题分配给签名定义的原子集合 $\\mathcal{P}$ 中的一个元素。我们以分层方式分解接地任务——首先预测谓词标签，然后选择类型匹配的常量参数。通过将该任务从自由生成问题转化为结构化分类问题，使得可以使用更小的掩码语言模型，并避免依赖昂贵的大语言模型（LLM）。在多个领域的实验表明，忽略接地步骤的框架往往生成语法正确但语义上与目标接地表达式不等价的提升线性时序逻辑（LTL）表达式；而我们的框架支持下游的模型检测，实现了 95.5% 的接地逻辑等价率，相比当前最先进方法提升了 1.4 倍。"
+  },
+  {
+    "date": "2025-12-18",
+    "title": "The Research and Simulation Verification of the Link Quality Prediction Model for Free Space Optical Communication Based on BiGRU-FCNN",
+    "authors": "Yu She, YiFeng Zhu",
+    "publish": "2025 5th International Conference on Electronic Information Engineering and Computer Science (EIECS)",
+    "url": "https://doi.org/10.1109/eiecs67708.2025.11283574",
+    "source": "IEEE",
+    "abstract": "Free-Space Optical Communication (FSOC) has gained significant attention in integrated air-ground networks due to its advantages, such as high bandwidth, low latency, and spectrum license-free operation. However, its link quality is highly susceptible to atmospheric turbulence, rain and fog attenuation, and pointing errors, leading to significant fluctuations and posing challenges for dynamic routing and power control. To enhance network robustness, this paper proposes an end-to-end Bidirectional Gated Recurrent Unit-Fully Connected Neural Network (BiGRU-FCNN) prediction framework. The framework first employs Bidirectional GRU (Gated Recurrent Unit) to capture the sequential dependencies in both the forward and backward directions. It then extracts local-global correlated features through multi-scale 1D convolutions in parallel. Additionally, the remaining power of the optical terminal is integrated, and the link is classified into Bad, Marginal, or Good levels via a fully connected layer. Compared to traditional machine learning methods such as Support Vector Machine (SVM) and deep learning approaches like Long Short-Term Memory (LSTM), the average prediction accuracy is improved to $89 \\%$. The results indicate that the proposed framework provides stable and accurate link quality predictions, offering reliable decision-making support for real-time routing reconstruction and power adaptive control.",
+    "title_zh": "基于BiGRU-FCNN的自由空间光通信链路质量预测模型研究与仿真验证",
+    "abstract_zh": "自由空间光通信（FSOC）由于其高带宽、低延迟以及无需频谱许可等优势，在空地一体化网络中受到广泛关注。然而，其链路质量极易受到大气湍流、雨雾衰减以及对准误差的影响，导致链路性能出现显著波动，给动态路由和功率控制带来挑战。为增强网络鲁棒性，本文提出了一种端到端的双向门控循环单元-全连接神经网络（BiGRU-FCNN）预测框架。该框架首先利用双向门控循环单元（BiGRU）捕捉前向与后向的时序依赖关系，再通过并行的多尺度一维卷积提取局部-全局相关特征。此外，框架还融合了光端机的剩余功率信息，并通过全连接层将链路质量划分为“差”、“中等”或“良好”三个等级。与支持向量机（SVM）等传统机器学习方法以及长短期记忆网络（LSTM）等深度学习方法相比，该框架的平均预测准确率提升至89%。实验结果表明，所提框架能够实现稳定且准确的链路质量预测，为实时路由重构和功率自适应控制提供了可靠的决策支持。"
+  },
+  {
+    "date": "2025-12-18",
+    "title": "A Configuration-Driven Fault Injection Tool for Automated Testing of Satellite Software",
+    "authors": "Yu Hong, Yuan Li, Zhijian You",
+    "publish": "2025 5th International Conference on Electronic Information Engineering and Computer Science (EIECS)",
+    "url": "https://doi.org/10.1109/eiecs67708.2025.11283518",
+    "source": "IEEE",
+    "abstract": "Traditional fault injection methods for satellite software testing are often inefficient, inflexible, and hardware-dependent. This paper proposes a novel configuration-driven tool with a “protocol-data separation” architecture to automate this process. The tool is implemented using a four-layer model and a cross-platform PyQt5 GUI. It leverages a protocol framework to automatically generate test cases and inject faults via UDP communication with a virtual satellite platform. Compared to manual script writing, the proposed method significantly reduces preparation time, improves test efficiency and coverage, and supports parallel testing, thereby enhancing the overall satellite software verification process.",
+    "title_zh": "一种基于配置的故障注入工具，用于卫星软件的自动化测试",
+    "abstract_zh": "传统的卫星软件测试故障注入方法通常效率低下、灵活性差且依赖硬件。本文提出了一种新颖的基于配置驱动的工具，采用“协议与数据分离”的架构，以实现该过程的自动化。该工具基于四层模型构建，并采用跨平台的PyQt5图形用户界面（GUI），利用协议框架自动生成测试用例，并通过UDP通信在虚拟卫星平台上实现故障注入。与手动编写脚本相比，所提出的方法显著缩短了准备时间，提高了测试效率和覆盖率，并支持并行测试，从而增强了整体的卫星软件验证流程。"
+  },
+  {
+    "date": "2025-12-18",
+    "title": "Research on Embedded Real-time Computer Bus Status Delay Anomalies",
+    "authors": "Kui Chen, Jin Ji, Keying Huang, Tianjia Wang",
+    "publish": "2025 6th International Conference on Computer Vision and Data Mining (ICCVDM)",
+    "url": "https://doi.org/10.1109/iccvdm66874.2025.11290460",
+    "source": "IEEE",
+    "abstract": "This paper presents an in-depth study and analysis of a time delay anomaly observed during discrete state uploads in a specific embedded real-time computer system. It begins by introducing the system interconnection and the observed fault phenomenon. Subsequently, through meticulous analysis of fault data and the mechanism of the 1553B bus Built-In Test (BIT), the root cause of the fault is deduced and pinpointed. To further validate this conclusion, a dedicated test environment was designed to replicate the fault. Systematic experiments successfully reproduced the issue, confirming the accuracy of the analytical conclusion. Finally, targeted corrective measures are proposed and implemented. Practical verification confirms that these measures effectively resolve the time delay anomaly, thereby enhancing the real-time performance and reliability of system communication",
+    "title_zh": "嵌入式实时计算机总线状态延迟异常研究",
+    "abstract_zh": "本文对某嵌入式实时计算机系统在离散量状态上传过程中出现的时间延迟异常现象进行了深入的研究与分析。首先介绍了系统的互联关系及所观察到的故障现象；随后，通过对故障数据以及1553B总线内置自检（BIT）机制的细致分析，推导并准确定位了故障的根本原因。为进一步验证该结论，专门设计了测试环境以复现故障，通过系统性实验成功重现了问题，证实了分析结论的准确性。最后，提出了针对性的纠正措施并予以实施。实际验证结果表明，这些措施有效解决了时间延迟异常问题，从而提升了系统通信的实时性和可靠性。"
+  },
+  {
+    "date": "2025-12-18",
+    "title": "Real-Time Embedded Signal-Processing for Time-of-Flight Computed Tomography ASIC",
+    "authors": "D. Roshani, G. Bélanger, W. Tremblay, R. Espagnet, Y. Bérubé-Lauzière, A. C. Therrien, M.-A. Tétrault, R. Fontaine",
+    "publish": "2025 IEEE Nuclear Science Symposium (NSS), Medical Imaging Conference (MIC) and Room Temperature Semiconductor Detector Conference (RTSD)",
+    "url": "https://doi.org/10.1109/nss/mic/rtsd57106.2025.11287960",
+    "source": "IEEE",
+    "abstract": "The advancement of Time-of-Flight Computed Tomography (ToF-CT) demands high-resolution timing and efficient data handling to improve image quality and reduce radiation dose. This work presents the implementation and verification of a mixed-signal ASIC for TOF-CT. The ASIC integrates 25 channels, each responsible for capturing and processing fast-timing signals from photo-detectors. Each channel includes a time-walk correction block, and a circuit to 3D histogram time-of-flight and energy of events. A serializer sends the processed data from all <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$25 \\sim$</tex> channels to an a FPGA through LVDS link.",
+    "title_zh": "用于飞行时间计算层析成像ASIC的实时嵌入式信号处理",
+    "abstract_zh": "飞行时间计算机断层扫描（ToF-CT）的发展需要高分辨率的时间测量和高效的数据处理能力，以提高图像质量并降低辐射剂量。本文介绍了一款用于ToF-CT的混合信号专用集成电路（ASIC）的设计与验证。该ASIC集成了25个通道，每个通道负责采集和处理来自光电探测器的快速定时信号。每个通道包含一个消除时间游移（time-walk）的校正模块，以及一个对事件的飞行时间和能量进行三维直方图统计的电路。所有约25个通道的处理数据通过LVDS链路经由串行器发送至FPGA。"
+  },
+  {
+    "date": "2025-12-18",
+    "title": "Verification Methods for BPF-based DPU",
+    "authors": "Danila Lisovsky, Valery Slizkoy, Egor Kuznetsov",
+    "publish": "2025 IEEE XVII International Scientific and Technical Conference on Actual Problems of Electronic Instrument Engineering (APEIE)",
+    "url": "https://doi.org/10.1109/apeie66761.2025.11289447",
+    "source": "IEEE",
+    "abstract": "The gap between central processing units’ performance and network transmission speed is ever increasing, leading to performance bottlenecks in modern computing systems. To address this issue, hardware accelerators are being developed to offload tasks such as network traffic filtering, packet classification, load balancing, and data processing from the CPU. However, the design of such accelerators must be accompanied by thorough verification to ensure correctness and reliability. Unfortunately, there are very few established solutions for verifying data processing units, as this area of research is still emerging. This paper presents functional verification methods applicable to the design of hardware network traffic accelerators, with a focus on a Berkeley Packet Filter virtual machine-based architecture. The proposed approach adapts simulation-based functional and behavioral verification techniques commonly used in general-purpose processor development. We describe the construction of a test bench environment, the generation of meaningful test stimuli, and the use of coverage-driven verification to assess design completeness. Results demonstrate effective detection of design errors and high functional coverage. Additionally, suggestions for improving code coverage, introducing custom verification metrics, and accelerating the verification process through automation are discussed. The presented methodology contributes to more robust and efficient development of hardware accelerators in high-speed networking applications.",
+    "title_zh": "基于BPF的DPU验证方法",
+    "abstract_zh": "中央处理器性能与网络传输速度之间的差距日益扩大，导致现代计算系统中出现性能瓶颈。为解决这一问题，业界正在开发硬件加速器，以将网络流量过滤、数据包分类、负载均衡和数据处理等任务从CPU卸载。然而，此类加速器的设计必须辅以充分的验证，以确保其正确性和可靠性。遗憾的是，目前针对数据处理单元的验证仍缺乏成熟的解决方案，因为该研究领域尚处于起步阶段。本文提出了一种适用于硬件网络流量加速器设计的功能验证方法，重点面向基于伯克利数据包过滤器（Berkeley Packet Filter）虚拟机的架构。所提出的方法借鉴了通用处理器开发中常用的基于仿真的功能与行为验证技术。我们描述了测试平台环境的构建、有意义测试激励的生成，以及采用覆盖率驱动的验证方法来评估设计的完整性。实验结果表明，该方法能够有效检测设计错误并实现较高的功能覆盖率。此外，本文还探讨了提高代码覆盖率、引入自定义验证指标以及通过自动化手段加快验证过程的改进建议。所提出的方法论有助于在高速网络应用中更稳健、高效地开发硬件加速器。"
+  },
+  {
+    "date": "2025-12-18",
+    "title": "A Prototype of Digital Trigger System for Cherenkov Telescopes of HADAR",
+    "authors": "M. Han, Z. Cao, Y. Hua, K. Chen, J. Qin, J. Li, L. Zhao",
+    "publish": "2025 IEEE Nuclear Science Symposium (NSS), Medical Imaging Conference (MIC) and Room Temperature Semiconductor Detector Conference (RTSD)",
+    "url": "https://doi.org/10.1109/nss/mic/rtsd57106.2025.11286813",
+    "source": "IEEE",
+    "abstract": "The High Altitude Detection of Astronomical Radiation (HADAR) experiment is aimed at detecting cosmic gamma rays from 10 GeV to 10 TeV energy ranges. The HADAR is an array of four wide-field-of-view Cherenkov telescopes based on refractive lenses. Each telescope comprises a camera of 18,961 photomultiplier tubes (PMTs). The telescopes require a real-time hardware trigger system to select images induced by cosmic rays, while rejecting images induced by the night sky background (NSB) to reduce the random trigger rate. This paper proposes an FPGA-based digital trigger system for HADAR, featuring a novel trigger algorithm that exploits the measured charge of neighboring pixels, and a low-complexity system structure that is capable of implementing the algorithm. A prototype trigger system is developed to verify the trigger algorithm, and the hardware performance is tested. The results show that the design achieves a trigger efficiency of 98.02% for valid event samples and an error rate of only 0.7% for invalid background samples with reliable high-speed hardware, indicating that the design is a feasible and efficient solution for the HADAR experiment.",
+    "title_zh": "HADAR切伦科夫望远镜数字触发系统的原型",
+    "abstract_zh": "高海拔天文辐射探测（HADAR）实验旨在探测能量范围从10 GeV到10 TeV的宇宙伽马射线。HADAR由四台基于折射透镜的宽视场切伦科夫望远镜组成阵列，每台望远镜包含一个由18,961个光电倍增管（PMT）组成的相机。该望远镜系统需要一个实时硬件触发系统，以挑选出由宇宙射线产生的图像，同时抑制由夜天光背景（NSB）引起的图像，从而降低随机触发率。本文提出了一种基于FPGA的数字触发系统，采用一种新颖的触发算法，该算法利用相邻像素的测量电荷信息，并结合低复杂度的系统结构来实现该算法。为验证该触发算法，研制了触发系统原型，并测试了其硬件性能。实验结果表明，该设计对有效事件样本的触发效率达到98.02%，对无效背景样本的误触发率仅为0.7%，且依托可靠的高速硬件实现，证明该设计是HADAR实验可行且高效的解决方案。"
+  },
+  {
+    "date": "2025-12-18",
+    "title": "Application of Time Series Forecasting Methods to Test Random Number Generators",
+    "authors": "Ulyana Osipova, Anton Rakitsky, Anton Agalakov",
+    "publish": "2025 IEEE XVII International Scientific and Technical Conference on Actual Problems of Electronic Instrument Engineering (APEIE)",
+    "url": "https://doi.org/10.1109/apeie66761.2025.11289286",
+    "source": "IEEE",
+    "abstract": "The core hypothesis of our research is that a truly random sequence is inherently unpredictable. Therefore, the accuracy of a forecast model applied to a sequence's output can serve as a direct indicator of its quality: a higher prediction accuracy suggests a higher degree of determinism and, consequently, weaker cryptographic properties. For the experiment, we generated multiple datasets using both cryptographically secure (e.g., based on hardware entropy sources) and weak generators (like the linear congruential method). Each generated sequence was treated as a time series. We then applied a suite of forecasting models, ranging from classical statistical methods like ARIMA to more complex machine learning models, including LSTMs and Gradient Boosting. The choice of a diverse set of models was crucial to ensure that the results were not biased towards a specific forecasting technique. Each model was trained on a segment of the sequence and tasked with predicting subsequent values. The proposed χ<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup>-based metric was then used to compare the forecasted values against the actual subsequent values in the sequence. The key finding was a strong correlation: the outputs of weak generators showed a statistically significant deviation from the expected random distribution under the χ<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup> test when analyzed through the lens of forecasting errors. In contrast, cryptographically strong generators demonstrated no predictable patterns, resulting in forecast errors that were indistinguishable from random noise. This approach provides a novel, data-driven methodology for evaluating RNGs, complementing traditional statistical test suites like NIST SP 800-22 by introducing the concept of predictability as a core measure of weakness.",
+    "title_zh": "时间序列预测方法在测试随机数生成器中的应用",
+    "abstract_zh": "我们研究的核心假设是，真正随机的序列本质上是不可预测的。因此，将预测模型应用于序列输出时所得到的预测准确率，可以作为衡量该序列质量的直接指标：预测准确率越高，表明序列的确定性越强，因而其密码学安全性越弱。为进行实验，我们使用了密码学安全的随机数生成器（例如基于硬件熵源的生成器）和较弱的生成器（如线性同余法）分别生成了多个数据集。每个生成的序列都被视为一个时间序列。随后，我们应用了一系列预测模型，从经典的统计方法（如ARIMA）到更复杂的机器学习模型（包括LSTM和梯度提升树）。选择多种不同类型的模型至关重要，以确保结果不会偏向于某一种特定的预测技术。每个模型都在序列的一部分上进行训练，并用于预测后续的数值。然后，我们采用所提出的基于χ²的度量方法，将预测值与序列中实际的后续值进行比较。关键发现是存在显著的相关性：通过预测误差的视角分析时，弱生成器的输出在χ²检验下表现出与期望的随机分布之间具有统计学意义上的显著偏差；而密码学意义上强的生成器则未显示出任何可预测的模式，其预测误差与随机噪声无法区分。该方法提供了一种新颖的、基于数据驱动的随机数生成器评估方式，通过引入“可预测性”作为衡量弱点的核心指标，补充了NIST SP 800-22等传统统计测试套件。"
+  }
+]
