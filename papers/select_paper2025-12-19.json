@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2025-12-19",
+    "title": "Advanced Mutation Testing with Zero and Few-Shot Evaluation Using GPT-V4",
+    "authors": "Arshia Hemmat, Fatame Aghababaei, Mohammadreza Sharbaf, Shekoufeh Kolahdouz-Rahimi",
+    "publish": "2025 9th International Conference on Internet of Things and Applications (IoT)",
+    "url": "https://doi.org/10.1109/iot69654.2025.11297643",
+    "source": "IEEE",
+    "abstract": "In the pursuit of software reliability, mutation testing plays a critical role in evaluating and enhancing the efficacy of test suites. However, a pervasive challenge in this domain is generating optimal mutations that align with the existing test cases, often resulting in inadequate coverage of the codebase. This gap leads to missed opportunities to identify potential faults and weaknesses in software, undermining the robustness of test suites. In this paper, we propose a novel approach utilizing the capabilities of Large Language Models (LLMs) to identify a diverse array of mutations tailored to thoroughly probe different segments of the code, thereby ensuring comprehensive coverage. By leveraging LLMs, we generate mutations that are not only varied but also contextually relevant to the given code and test suites. This method facilitates the generation of mutations that are more likely to be ‘killed’ by the test suites, significantly increasing the number of detected faults. This, in turn, leads to a deeper understanding of the code's behavior and the enhancement of the overall quality of the software testing process. Our findings indicate a substantial improvement in test suite effectiveness, showcasing the power of AI in advancing software engineering practices.",
+    "title_zh": "使用GPT-4进行零样本与少样本评估的高级变异测试",
+    "abstract_zh": "在追求软件可靠性的过程中，变异测试在评估和提升测试套件的有效性方面发挥着关键作用。然而，该领域普遍存在一个挑战：难以生成与现有测试用例相匹配的最优变异，常常导致代码库的覆盖不充分。这一缺陷使得发现软件中潜在故障和弱点的机会被遗漏，从而削弱了测试套件的健壮性。本文提出一种新颖的方法，利用大语言模型（LLMs）的能力，识别出多种多样的变异，以深入探测代码的不同部分，从而确保全面的覆盖。通过利用大语言模型，我们生成的变异不仅多样化，而且与给定的代码和测试套件具有上下文相关性。该方法有助于生成更有可能被测试套件“杀死”的变异，显著增加检测到的缺陷数量。这反过来加深了对代码行为的理解，并提升了软件测试过程的整体质量。我们的研究结果表明，测试套件的有效性得到了显著提高，展示了人工智能在推动软件工程实践进步方面的强大潜力。"
+  },
+  {
+    "date": "2025-12-19",
+    "title": "Pre and Post Silicon Validation for Display IP",
+    "authors": "Prathap C, M Govinda Raju",
+    "publish": "2025 9th International Conference on Computational System and Information Technology for Sustainable Solutions (CSITSS)",
+    "url": "https://doi.org/10.1109/csitss67709.2025.11295046",
+    "source": "IEEE",
+    "abstract": "The growing demand for high-resolution multimedia on System-on-Chip (SoC) platforms has made robust validation of Display Intellectual Property (IP) a critical aspect of silicon tape-out. Traditional RTL simulations are inadequate for exercising real-time display scenarios, leading to an increased focus on FPGA-based emulation and post-silicon debug methodologies. This paper presents a dual-phase validation framework for Display IP that leverages FPGA emulation for pre-silicon testing and a hardware platform for post-silicon validation. The methodology adopts configuration-driven regression scripts and test cases targeting functional, protocol, and performance features of the Display Processing Unit (DPU). Validation includes sanity checks, resolution upscaling, underrun simulation, Cyclic-Redundancy-Check(CRC) based accuracy testing, and DisplayPort protocol compliance tests. The proposed framework achieves greater than 95% functional coverage and approximately 90% feature coverage and supports faster bug detection and shortened debug cycles. The results demonstrate that the dual-phase approach is reusable, scalable and provides high confidence in silicon readiness of Display IPs integrated in modern SoCs.",
+    "title_zh": "显示IP的硅前与硅后验证",
+    "abstract_zh": "在片上系统（SoC）平台上，对高分辨率多媒体日益增长的需求使得显示知识产权核（Display IP）的可靠验证成为芯片流片过程中的关键环节。传统的RTL仿真难以充分覆盖实时显示场景，导致业界越来越重视基于FPGA的仿真以及硅后调试方法。本文提出了一种双阶段的Display IP验证框架，该框架利用FPGA仿真进行流片前测试，并结合专用硬件平台实现流片后验证。该方法采用配置驱动的回归测试脚本和测试用例，针对显示处理单元（DPU）的功能、协议和性能特性进行全面验证。验证内容包括基本功能检查、分辨率缩放、带宽不足模拟、基于循环冗余校验（CRC）的精度测试以及DisplayPort协议一致性测试。所提出的框架实现了超过95%的功能覆盖率和约90%的特性覆盖率，支持更快速地发现缺陷并缩短调试周期。实验结果表明，这种双阶段验证方法具有可重用性、可扩展性，能够显著提升现代SoC中集成的Display IP在硅片就绪方面的可信度。"
+  },
+  {
+    "date": "2025-12-19",
+    "title": "Design and Implementation of Multi-Parameter Weighted Scheduling Circuit Based on DTN Mechanism in Ad Hoc Networks",
+    "authors": "Rongjian Li, Lufeng Qiao, Zhanyou Du, Xue Qin, Jinxu Wang, Qinghua Chen",
+    "publish": "2025 5th International Conference on Network Communication and Information Security (ICNCIS)",
+    "url": "https://doi.org/10.1109/icncis67521.2025.11296137",
+    "source": "IEEE",
+    "abstract": "A multi-parameter weighted scheduling algorithm that applies Delay-Tolerant Networks (DTN) technology to Ad Hoc networks has been designed, and the key circuit has been implemented. This algorithm can calculate the forwarding weights and screen the messages to be sent based on five-dimensional parameters, including DTN message priority, remaining lifespan, local waiting time, number of forwarding hops, and routing type, in a full-hardware manner. The forwarding weight values of all parameters can be configured by the upper-layer software according to different network states. When there is a direct route to the destination node for the message to be sent, the message is forwarded according to the route; when there is no direct route to the destination node, the Multi-Path Cooperative Transmission (MPCT) mode is supported for forwarding. The entire design is coded in Verilog HDL, implemented on the Xilinx xc7z100ffg900 - 2 FPGA platform, and simulated and analyzed using ModelSim SE - 64 10.6d, which verifies the correctness of the multi-parameter weighted scheduling algorithm and the circuit design.",
+    "title_zh": "基于Ad Hoc网络中DTN机制的多参数加权调度电路设计与实现",
+    "abstract_zh": "设计了一种将延迟容忍网络（DTN）技术应用于Ad Hoc网络的多参数加权调度算法，并实现了关键电路。该算法能够在硬件层面根据五维参数——DTN消息优先级、剩余生存时间、本地等待时间、转发跳数和路由类型——计算转发权重并筛选待发送的消息。所有参数的转发权重值均可由上层软件根据不同网络状态进行配置。当待发送消息存在到达目的节点的直接路由时，按该路由进行转发；当不存在直达路径时，则支持采用多路径协同传输（MPCT）模式进行转发。整个设计采用Verilog HDL编码，在Xilinx xc7z100ffg900-2 FPGA平台上实现，并使用ModelSim SE-64 10.6d进行仿真与分析，验证了多参数加权调度算法及电路设计的正确性。"
+  },
+  {
+    "date": "2025-12-19",
+    "title": "Integrating LLMs for Automated Bug Triaging and Root Cause Localization in Software Systems",
+    "authors": "Prajwal Pisal, Prateek Jalan, Solomon R Chigurupati, Chandrakanth Puligundla, Srinivas Bhogavalli",
+    "publish": "2025 3rd International Conference on Artificial Intelligence, Blockchain, and Internet of Things (AIBThings)",
+    "url": "https://doi.org/10.1109/aibthings66987.2025.11296163",
+    "source": "IEEE",
+    "abstract": "Existing techniques often depend on manual processes or limited models for machine learning that do not capture complex, multimodal dependencies between code, infrastructure and runtime behaviour. This paper presents an AI-driven approach using Large Language Models (LLMs) for efficient bug triaging and proactive root cause analysis. Our system integrates graph-based modelling, multimodal learning, and LLMs to automatically triage bugs, predict root causes, and generate effective test cases for bug reproduction. We evaluate the proposed framework’s effectiveness using various basic models from existing literature, including traditional machine-learning classifiers and graph-based models. The results show that our method is significantly higher than the baseline approaches in the average time to resolution (MTTR), the accuracy of the root cause (RCA) and the effectiveness of the test case (THE), achieving a reduction of MTTR by more than 50%, an RCA of 84.7% and a THE of 83.2%. Our approach improves the efficiency and accuracy of bug triaging and software quality assurance by generating reliable test cases.",
+    "title_zh": "将大语言模型集成用于软件系统中自动化的缺陷分类与根本原因定位",
+    "abstract_zh": "现有技术通常依赖于人工流程或有限的机器学习模型，难以捕捉代码、基础设施与运行时行为之间复杂的多模态依赖关系。本文提出了一种基于大语言模型（LLM）的人工智能驱动方法，用于高效的缺陷分类和主动式根本原因分析。我们的系统结合了基于图的建模、多模态学习与大语言模型，能够自动对缺陷进行分类、预测根本原因，并生成有效的测试用例以复现缺陷。我们通过现有文献中的多种基础模型（包括传统的机器学习分类器和基于图的模型）对所提框架的有效性进行了评估。实验结果表明，与基线方法相比，我们的方法在平均修复时间（MTTR）、根本原因分析准确率（RCA）以及测试用例有效性（THE）方面均显著更优，实现了超过50%的MTTR缩短，RCA达到84.7%，THE达到83.2%。本方法通过生成可靠的测试用例，显著提升了缺陷分类效率和软件质量保证的准确性。"
+  }
+]
