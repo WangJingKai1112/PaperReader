@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2025-12-20",
+    "title": "Research on the application of artificial intelligence in software automation test case generation in aerospace field",
+    "authors": "Wenquan Li, Fangsong Shao, Yu Fang",
+    "publish": "Proceedings of the 9th International Conference on Electronic Information Technology and Computer Engineering",
+    "url": "https://doi.org/10.1145/3766671.3766826",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "人工智能在航空航天领域软件自动化测试用例生成中的应用研究",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-20",
+    "title": "Automated FPGA Accelerator Generation Framework for Transformers with Dataflow Optimization",
+    "authors": "Wenqi Lou, Yunji Qin, Zihao Wang, Chao Wang, Lei Gong, Xuehai Zhou",
+    "publish": "Proceedings of the 54th International Conference on Parallel Processing",
+    "url": "https://doi.org/10.1145/3754598.3754656",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向Transformer的自动化FPGA加速器生成框架及其数据流优化",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-20",
+    "title": "SimpleScalar RV64GC: Cycle-Accurate Simulator for RISC-V RV64GC Processor with Macro-Op Fusion",
+    "authors": "Shang-Chun Yang, Hua-Yi Ho, Jia-Chi Yuan, Yuan-Shin Hwang",
+    "publish": "Workshop Proceedings of the 54th International Conference on Parallel Processing",
+    "url": "https://doi.org/10.1145/3750720.3757290",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SimpleScalar RV64GC：支持宏操作融合的 RISC-V RV64GC 处理器的周期精确模拟器",
+    "abstract_zh": "None"
+  }
+]
