@@ -1,0 +1,24 @@
+[2025-12-22 09:30:47] 开始执行论文搜索任务
+搜索关键词: verification
+搜索日期范围: 2025-12-21
+正在获取论文...
+[ACM] 2025-12-21 | Sentiment and Stance Classification on Climate Change Tweets Using Fine-Tuned BERT Models
+[ACM] 2025-12-21 | Exploring Feature Ambiguity in TBI Diagnosis Using Missing Aware Machine Learning Models
+[ACM] 2025-12-21 | BIM MODIVIS: A Modular Framework for BIM-Based Smart Campus Data Integration and Visualization
+[ACM] 2025-12-22 | Proposing a Design Theory for a Human-Learning-Guided Virtual Negotiator for Online Trading PlatformsSupplementary Materials for Proposing a Design Theory for a Human-Learning-Guided Virtual Negotiator for Online Trading Platforms
+[ACM] 2025-12-21 | Diffoot - Graph-Conditioned Diffusion Model for Predicting Football Player Movements
+[ACM] 2025-12-21 | A Text-mining Analysis of Media Representation of Chinese and American Youth
+[ACM] 2025-12-21 | Proceedings of the 2025 7th International Conference on Big Data Engineering
+共写入 7 条记录，保存到 papers/paper2025-12-21.json。
+论文获取成功，文件路径: papers/paper2025-12-21.json
+正在筛选、翻译并发送邮件...
+[NO] 1/7 | Sentiment and Stance Classification on Climate Change Tweets Using Fine-Tuned BERT Models
+[NO] 2/7 | Exploring Feature Ambiguity in TBI Diagnosis Using Missing Aware Machine Learning Models
+[NO] 3/7 | BIM MODIVIS: A Modular Framework for BIM-Based Smart Campus Data Integration and Visualization
+[NO] 4/7 | Proposing a Design Theory for a Human-Learning-Guided Virtual Negotiator for Online Trading PlatformsSupplementary Materials for Proposing a Design Theory for a Human-Learning-Guided Virtual Negotiator for Online Trading Platforms
+[NO] 5/7 | Diffoot - Graph-Conditioned Diffusion Model for Predicting Football Player Movements
+[NO] 6/7 | A Text-mining Analysis of Media Representation of Chinese and American Youth
+[NO] 7/7 | Proceedings of the 2025 7th International Conference on Big Data Engineering
+筛选完成：共 7 篇；Yes = 0 篇；已保存到 papers/select_paper2025-12-21.json。
+邮件发送成功！
+[2025-12-22 09:31:24] 任务执行成功！
