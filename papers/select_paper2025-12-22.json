@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2025-12-22",
+    "title": "Scalable Multi-Site Test Architecture for Chiplet-based Systems on ATE Platforms",
+    "authors": "Jae Hwan Shin, Hyunbeen Kim, Jin Hwan Park, Young-woo Lee",
+    "publish": "IEEE Transactions on Semiconductor Manufacturing",
+    "url": "https://doi.org/10.1109/tsm.2025.3646674",
+    "source": "IEEE",
+    "abstract": "As chiplet technologies such as 2.5D/3D rapidly advance, chiplet testing approaches are becoming increasingly challenging. Specifically, stacking multiple chips or high bandwidth memory (HBM) in a single package increases the I/O pin count, leading to longer test times and multi-site test performance degradation due to increased test complexity and resource constraints. In turn, this results in higher testing costs as additional time and equipment are required to maintain test efficiency. In this paper, we propose a novel test interface integrating digital and analog compression modules to achieve high parallelism and precise fault detection. The proposed architecture incorporates a device under test (DUT) off masking sequence and a fault detection scheme, which enhances production efficiency while optimizing limited test resources by reusing analog test instruments that were not previously used in digital functional testing. This approach reduces overall test resource requirements and supports cost-effective parallel testing without additional equipment. Experimental results include an analysis of the architecture’s operational reliability under process variations and demonstrate a reduction in test resources and an average 82.2% decrease in test data volume on the ISCAS89 and OpenCores benchmarks compared to prior work.",
+    "title_zh": "面向ATE平台的基于芯粒系统的可扩展多站点测试架构",
+    "abstract_zh": "随着小芯片（chiplet）技术（如2.5D/3D封装）的快速发展，小芯片的测试方法正面临日益严峻的挑战。具体而言，在单一封装中堆叠多个芯片或高带宽存储器（HBM）会增加输入/输出（I/O）引脚数量，导致测试时间延长，并因测试复杂性增加和资源受限而造成多工位测试性能下降。这反过来又推高了测试成本，因为需要更多时间和设备来维持测试效率。本文提出了一种新颖的测试接口架构，集成了数字与模拟压缩模块，以实现高并行度和精确的故障检测。该架构引入了被测器件（DUT）的屏蔽序列和故障检测机制，通过复用以往在数字功能测试中未使用的模拟测试仪器，提升了生产效率并优化了有限的测试资源。该方法降低了整体测试资源需求，无需额外设备即可支持低成本的并行测试。实验结果包括对架构在工艺波动条件下运行可靠性的分析，并在ISCAS89和OpenCores基准测试中验证了相较以往工作的测试资源减少情况，测试数据量平均减少了82.2%。"
+  },
+  {
+    "date": "2025-12-22",
+    "title": "Controller Area Network (CAN) Sniffing and Mobile App Based Control of Vehicular Subsystems",
+    "authors": "Steven J Alappat, Sai Pranav, Parag Jose C, Yong Wang",
+    "publish": "2025 International Conference on Vehicular Technology and Transportation Systems (ICVTTS)",
+    "url": "https://doi.org/10.1109/icvtts67119.2025.11296447",
+    "source": "IEEE",
+    "abstract": "Modern vehicles use Controller Area Network instead of the traditional wire to wire connections for enabling simultaneous data exchange among all the electronic control units (ECU’s). CAN lacks inherent security features making it susceptible to attacks like spoofing and unwanted command injections. This project makes a low budget and scalable system that helps in CAN sniffing and enabling remote control of a vehicle through a mobile application. A CAN sniffing tool is used to map the data form the car. An Arduino board, wifi shield, mcp2515 and an On-Board Diagnostics tool (OBD II) are connected in a setup in order to inject the messages into the car. The connections support both monitoring and message injection allowing users to control in vehicular functions. The proposed setup offers a tool for diagnosing, testing and vehicular controlling by highlighting cybersecurity implications in automotive networks.",
+    "title_zh": "车载子系统的控制器局域网（CAN）嗅探与基于移动应用的控制",
+    "abstract_zh": "现代车辆采用控制器局域网（CAN）来替代传统的点对点线路连接，以实现所有电子控制单元（ECU）之间的数据同步交换。然而，CAN协议本身缺乏固有的安全机制，容易受到欺骗攻击和非法命令注入等安全威胁。本项目设计了一种低成本且可扩展的系统，能够实现CAN总线数据嗅探，并通过移动应用程序远程控制车辆。系统使用CAN嗅探工具对汽车数据进行解析映射，通过将Arduino开发板、Wi-Fi模块、MCP2515芯片以及车载诊断设备（OBD-II）连接组成硬件装置，向车辆CAN网络注入消息。该装置支持数据监听和消息注入双重功能，使用户能够远程操控车辆的部分功能。该方案不仅提供了一个用于车辆诊断、测试与控制的实用工具，同时也揭示了汽车网络中存在的网络安全风险问题。"
+  },
+  {
+    "date": "2025-12-22",
+    "title": "Implementation of PytoVHDL Framework for Automatic Code Transliteration and Acceleration of FPGA-based SoC Design",
+    "authors": "Yevhenii Holopotyliuk, Vladyslav Romashchenko, Michael Brutscheck",
+    "publish": "2025 35th Irish Signals and Systems Conference (ISSC)",
+    "url": "https://doi.org/10.1109/issc67739.2025.11291512",
+    "source": "IEEE",
+    "abstract": "The development of multiple projects and hardware prototypes frequently requires collaboration between software and hardware teams, who are focused on a certain programming languages. This can result in communication challenges during sharing ideas and solutions. It leads to integration difficulties by the fundamentally distinct nature of the programming languages. Also, knowledge gaps may arise, increasing the risk of code failures and extending of development timelines. In such scenarios, teams often need specialists in both software and hardware description languages. In case, if it can be complicated, developers and researchers have created the frameworks such as MyHDL, HDPython, AmaranthHDL etc. Using the Python syntax and decorators on the top-layer, the frameworks can convert Python source-code into VHDL instructions, initiating further FPGA-Prototyping. In parallel, recent achievements in Large Language Models (LLMs) like CodeT5, CodeBERT have introduced new functionality for automating code transliteration tasks. The mentioned models are pretrained by Go, Java, PHP and Python languages, which are quite common for software developers. However, the support of hardware languages such as VHDL or Verilog needs additional investigations. Due to the following fact, the proposed investigations, represent an investigation and realisation of PytoVHDL framework. Inspiring by MyHDL, AI-HDLCoder, the framework aims to bridge the gap between Python and VHDL programmers. Making numerous experiments with middle layer interface, the proposed work shows conversion results for systems that include combination logic or can be sufficient for digital signal processing.",
+    "title_zh": "PytoVHDL框架的实现，用于基于FPGA的SoC设计中代码自动转译与加速",
+    "abstract_zh": "多个项目和硬件原型的开发通常需要软件与硬件团队之间的协作，而这些团队往往专注于特定的编程语言。这在分享想法和解决方案时可能导致沟通困难，由于编程语言本质上的差异，进一步造成系统集成的挑战。此外，还可能出现知识断层，增加代码故障的风险，并延长开发周期。在这种情况下，团队通常需要同时精通软件编程语言和硬件描述语言的专家。为应对这一难题，开发人员和研究人员已创建了诸如 MyHDL、HDPython、AmaranthHDL 等框架。这些框架在顶层使用 Python 语法和装饰器，能够将 Python 源代码转换为 VHDL 指令，进而推动 FPGA 原型开发。\n\n与此同时，近年来大型语言模型（LLM）如 CodeT5、CodeBERT 的发展为自动化代码转译任务带来了新功能。这些模型在 Go、Java、PHP 和 Python 等软件开发常用语言上进行了预训练。然而，对于 VHDL 或 Verilog 等硬件描述语言的支持仍需进一步研究。基于此背景，本文提出并实现了一种名为 PytoVHDL 的框架。该框架受 MyHDL 和 AI-HDLCoder 的启发，旨在弥合 Python 开发者与 VHDL 开发者之间的鸿沟。通过在中间层接口进行大量实验，本研究展示了针对组合逻辑系统以及适用于数字信号处理系统的代码转换结果。"
+  }
+]
