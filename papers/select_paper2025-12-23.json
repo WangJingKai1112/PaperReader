@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2025-12-23",
+    "title": "The Limitations and Power of NP-Oracle-Based Functional Synthesis Techniques",
+    "authors": "Brendan Juba, Kuldeep S. Meel",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2512.20572v1",
+    "source": "arXiv",
+    "abstract": "Given a Boolean relational specification between inputs and outputs, the problem of functional synthesis is to construct a function that maps each assignment of the input to an assignment of the output such that each tuple of input and output assignments meets the specification. The past decade has witnessed significant improvement in the scalability of functional synthesis tools, allowing them to handle problems with tens of thousands of variables. A common ingredient in these approaches is their reliance on SAT solvers, thereby exploiting the breakthrough advances in SAT solving over the past three decades. While the recent techniques have been shown to perform well in practice, there is little theoretical understanding of the limitations and power of these approaches. The primary contribution of this work is to initiate a systematic theoretical investigation into the power of functional synthesis approaches that rely on NP oracles. We first show that even when small Skolem functions exist, naive bit-by-bit learning approaches fail due to the relational nature of specifications. We establish fundamental limitations of interpolation-based approaches, proving that even when small Skolem functions exist, resolution-based interpolation must produce exponential-size circuits. We prove that access to an NP oracle is inherently necessary for efficient synthesis. Our main technical result shows that it is possible to use NP oracles to synthesize small Skolem functions in time polynomial in the size of the specification and the size of the smallest sufficient set of witnesses, establishing positive results for a broad class of relational specifications.",
+    "title_zh": "基于NP预言机的函数合成技术的局限性与能力",
+    "abstract_zh": "给定输入与输出之间的布尔关系规范，函数综合问题旨在构造一个函数，该函数将每个输入赋值映射到一个输出赋值，使得每一对输入和输出的组合都满足该规范。过去十年中，函数综合工具的可扩展性取得了显著进展，使其能够处理包含数万个变量的问题。这些方法的一个共同特点是依赖于SAT求解器，从而利用了过去三十年来SAT求解技术的重大突破。尽管最近的技术在实践中表现良好，但人们对这些方法的能力和局限性的理论理解仍然十分有限。本文的主要贡献是启动对依赖NP预言机的函数综合方法能力的系统性理论研究。我们首先指出，即使存在较小的Skolem函数，逐位学习的朴素方法也会由于规范的关系性质而失败。我们确立了基于插值方法的基本局限性，证明即使存在较小的Skolem函数，基于分辨率的插值也必须生成指数规模的电路。我们进一步证明，高效综合本质上需要访问NP预言机。我们的主要技术成果表明，可以利用NP预言机，在与规范大小以及最小充分见证集大小成多项式关系的时间内合成出小规模的Skolem函数，从而为一大类关系规范建立了正面结果。"
+  },
+  {
+    "date": "2025-12-23",
+    "title": "Bottom-up Analysis of the Impact of Single-Event Effects in a CNN Hardware Accelerator using Laser testing",
+    "authors": "S. Achaq, V. Pouget, L. Artola, F. Manni, A. Dufour, J. Boch",
+    "publish": "2024 24th European Conference on Radiation and Its Effects on Components and Systems (RADECS)",
+    "url": "https://doi.org/10.1109/radecs61970.2024.11298599",
+    "source": "IEEE",
+    "abstract": "We present laser testing results on the AIEngines array of the 7nm Versal device used in the context of the hardware acceleration of a convolutional neural network application. The first stages of errors propagation are analyzed by testing benchmarks accelerating elementary operations in CNN: The convolutions and data transfer.",
+    "title_zh": "使用激光测试对CNN硬件加速器中单粒子效应影响的自下而上分析",
+    "abstract_zh": "我们展示了在7nm Versal器件的AI引擎阵列上进行的激光测试结果，该器件用于卷积神经网络应用的硬件加速。通过测试加速CNN中基本操作（如卷积和数据传输）的基准程序，分析了错误传播的初始阶段。"
+  },
+  {
+    "date": "2025-12-23",
+    "title": "8-Bit Pipelined Accuracy-Configurable Radix-4 Adder with Dynamic Output Adjustment",
+    "authors": "Hamsavardini C, R Muthaiah",
+    "publish": "2025 International Conference on Power, Instrumentation, Control, and Computing (PICC)",
+    "url": "https://doi.org/10.1109/picc67314.2025.11291328",
+    "source": "IEEE",
+    "abstract": "The development of mobile, embedded and Internet of things applications is driving a growing need for arithmetic processors with high processing speeds and low battery consumption. These programs often have moderate to high computational accuracy requirements and operate within high power constraints. The trade-offs between accuracy, power, and performance are often not optimally balanced by adder implementations like Carry Look Ahead Adders (CLA) and Ripple carry Adders (RLA) under dynamic workloads. To overcome these limitations, an 8-bit pipelined Radix-4 adder with programmable accuracy is proposed in this work, enabling the system to meet its needs. Radix-4 improves performance by reducing propagation time and logic depth through the concurrent processing of four bits. Real time and logic depth through the concurrent processing of four bits. Real-time switching between accurate and approximation modes in a reconfigurable output adjustment system saves energy without sacrificing required accuracy. Targeting a Zynq-7000 FPGA (Zedboard), the architecture is written in Verilog HDL and Vivado tool. Modelsim is used to verify functionality. The architecture minimizes the latency and power consumption while achieving during approximation mode, according to experimental comparisons. These results show that the proposed adder is suitable for digital systems that are adaptive, low power, and high speed.",
+    "title_zh": "具有动态输出调整的8位流水线式可配置精度基数-4加法器",
+    "abstract_zh": "移动设备、嵌入式系统和物联网应用的发展，正推动着对具有高速处理能力和低功耗特性的算术处理器日益增长的需求。这些应用程序通常具有中等到较高的计算精度要求，同时运行在严格的功耗限制之下。在动态工作负载下，传统的加法器设计如超前进位加法器（CLA）和串行进位加法器（RLA）往往难以在精度、功耗和性能之间实现最优权衡。为克服这些局限性，本文提出了一种8位流水线式基数-4（Radix-4）可编程精度加法器，使系统能够灵活满足不同需求。Radix-4结构通过并行处理四位数据，减少了信号传播时间和逻辑级数，从而提升了性能。该设计采用可重构输出调节系统，可在精确模式与近似模式之间实时切换，在不牺牲所需精度的前提下有效节省能量。该架构面向Zynq-7000 FPGA（Zedboard）平台，使用Verilog HDL语言编写，并通过Vivado工具实现，功能验证则借助Modelsim完成。实验对比结果表明，该架构在近似模式下仍能显著降低延迟和功耗。综上所述，所提出的加法器适用于需要自适应性、低功耗和高效率的数字系统。"
+  }
+]
