@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2025-12-24",
+    "title": "Systemization of Knowledge: Resilience and Fault Tolerance in Cyber-Physical Systems",
+    "authors": "Rahul Bulusu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2512.20873v1",
+    "source": "arXiv",
+    "abstract": "Cyber-Physical Systems (CPS) now support critical infrastructure spanning transportation, energy, manufacturing, medical devices, and autonomous robotics. Their defining characteristic is the tight coupling between digital computation and continuous physical dynamics which enables sophisticated autonomy but also creates highly non-linear failure modes. Small disturbances at sensors, firmware, networks, or physical interfaces can propagate through estimation and control pipelines, producing cascading instabilities that defy traditional single-layer reasoning. This Systematization of Knowledge (SoK) unifies nearly two decades of CPS resilience research into a structured Origin-Layer-Effect (OLE) taxonomy. This taxonomy provides a cross-layer lens for understanding how faults arise, how they propagate, and why unrelated CPS failures often share deep structural similarities. By mapping representative systems including RockDrone, MAYDAY, M2MON, HACMS, Byzantine fault-tolerant control, and learning-based recovery mechanisms onto the taxonomy, we reveal patterns of coverage, persistent blind spots, and recurring pathways of fault amplification. Our analysis identifies four structural gaps that span multiple CPS domains: (1) physical-model manipulation, (2) ML-enabled control without stability guarantees, (3) semantic inconsistencies between formal models and firmware, and (4) inadequate forensic visibility across cyber and physical layers. These insights motivate new directions for resilient CPS design, integrating robust control, runtime monitoring, formal assurance, and system-level visibility.",
+    "title_zh": "知识体系化：信息物理系统中的弹性与容错性",
+    "abstract_zh": "信息物理系统（CPS）如今支撑着涵盖交通、能源、制造、医疗设备和自主机器人等领域的关键基础设施。其显著特征在于数字计算与连续物理动态之间的紧密耦合，这种耦合实现了复杂的自主性，同时也带来了高度非线性的故障模式。传感器、固件、网络或物理接口上的微小扰动，可能通过估计与控制流程传播，引发级联式不稳定，从而超越传统单层分析方法的应对能力。本文作为一项知识系统化研究（SoK），将近二十年来的CPS韧性研究整合为一个结构化的“起源-层级-效应”（Origin-Layer-Effect, OLE）分类体系。该分类体系提供了一种跨层级的视角，用以理解故障的产生机制、传播路径，以及为何看似无关的CPS故障往往具有深层的结构性相似性。通过将代表性系统——如RockDrone、MAYDAY、M2MON、HACMS、拜占庭容错控制以及基于学习的恢复机制——映射到该分类体系中，我们揭示了现有研究在覆盖范围上的模式、持续存在的盲点以及故障放大过程中的常见路径。我们的分析识别出跨越多个CPS领域的四大结构性缺陷：（1）物理模型操纵；（2）缺乏稳定性保障的机器学习驱动控制；（3）形式化模型与固件之间的语义不一致；（4）在信息与物理层之间缺乏足够的取证可见性。这些发现推动了面向韧性的CPS设计新方向，强调融合鲁棒控制、运行时监控、形式化验证保障以及系统级的全局可见性。"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "A Study on Mixup-Inspired Augmentation Methods for Software Vulnerability Detection",
+    "authors": "Seyed Shayan Daneshvar, Da Tan, Shaowei Wang, Carson Leung",
+    "publish": "Proceedings of the 29th International Conference on Evaluation and Assessment in Software Engineering",
+    "url": "https://doi.org/10.1145/3756681.3757017",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "一种基于Mixup的增强方法在软件漏洞检测中的研究",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "A Configurable Multi-Purpose Automotive Signal Simulator for ECU Testing and Diagnostic Education",
+    "authors": "Nguyen Dang Bui Chi, Phat Nguyen Dang Tan, Nhan Nguyen Tam, Tri Dinh Quoc, Quang T.D. Pham, Hung Dinh Nguyen",
+    "publish": "2025 28th International Conference on Mechatronics Technology (ICMT)",
+    "url": "https://doi.org/10.1109/icmt67823.2025.11298728",
+    "source": "IEEE",
+    "abstract": "This paper details the design and development of a configurable, multi-purpose signal simulation platform for Hardware-In-the-Loop (HIL) testing and diagnostics of automotive Electronic Control Units (ECUs). The system generates a comprehensive suite of high-fidelity signals essential for engine management, including emulating digital crankshaft and camshaft position signals, as well as various analog sensor inputs such as coolant temperature and throttle position. Furthermore, the simulator provides Pulse-Width Modulated (PWM) outputs for the functional testing of actuators like fuel injectors and integrates CAN bus communication to evaluate dashboard instrumentation, offering a holistic approach to ECU verification. Engineered to be compact, portable, and cost-effective, this platform provides an efficient and accessible tool for hands-on diagnostic education and ECU functional testing without requiring a physical engine, bridging the gap between theoretical principles and practical application. (Abstract)",
+    "title_zh": "一种用于ECU测试与诊断教学的可配置多功能汽车信号模拟器",
+    "abstract_zh": "本文详细介绍了用于汽车电子控制单元（ECU）硬件在环（HIL）测试与诊断的可配置、多用途信号仿真平台的设计与开发。该系统能够生成一系列高保真度的综合信号，满足发动机管理系统的需要，包括模拟数字式曲轴和凸轮轴位置信号，以及各种模拟传感器输入信号，如冷却液温度和节气门位置。此外，仿真器还提供脉宽调制（PWM）输出，用于燃油喷射器等执行器的功能测试，并集成了CAN总线通信功能，以评估仪表盘设备，从而为ECU验证提供了全面的解决方案。该平台设计紧凑、便携且成本低廉，无需实际发动机即可为实践性故障诊断教学和ECU功能测试提供高效且易于使用的工具，有效弥合了理论原理与实际应用之间的差距。（摘要）"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "Empirical Fault Patterns for Mutation Testing",
+    "authors": "Sophia Hans, Matthias Kettl, Stefan Winter",
+    "publish": "Proceedings of the 29th International Conference on Evaluation and Assessment in Software Engineering",
+    "url": "https://doi.org/10.1145/3756681.3756963",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向变异测试的经验性故障模式",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "Concurrent Self-testing and Uncertainty Estimation of Neural Networks Using Uncertainty Fingerprint",
+    "authors": "Soyed Tuhin Ahmed, Mehdi B. Tahoori",
+    "publish": "IEEE Transactions on Emerging Topics in Computing",
+    "url": "https://doi.org/10.1109/tetc.2025.3640505",
+    "source": "IEEE",
+    "abstract": "Neural networks (NNs) are increasingly used in always-on safety-critical applications deployed on hardware accelerators employing various memory technologies. Reliable, continuous operation of NN is essential for safety-critical applications. During online operation, NNs are susceptible to (single and multiple) permanent and soft errors due to factors such as radiation, aging, and thermal effects. Explicit testing methods for hardware accelerators cannot detect transient faults during inference, are unsuitable for always-on applications, and require extensive test vector generation and storage. Therefore, in this paper, we propose the <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">uncertainty fingerprint</i> approach that represents the online fault status of NN. Furthermore, we propose a dual-head NN topology specifically designed to produce uncertainty fingerprints and the primary prediction of the NN in <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">a single shot</i>. During the online operation, by matching the uncertainty fingerprint, we can concurrently self-test NNs with up to <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$100\\%$</tex-math></inline-formula> coverage in the backbone and in the full model (with a modified approach) with a low false positive rate while maintaining the performance of the primary task similar to the baseline. Compared to existing works, memory overhead is reduced by up to 243.7 MB, multiply and accumulate (MAC) operations are reduced by up to <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$10000\\times$</tex-math></inline-formula>, and false-positive rates are reduced by up to <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$89\\%$</tex-math></inline-formula>.",
+    "title_zh": "使用不确定性指纹对神经网络进行并发自测试与不确定性估计",
+    "abstract_zh": "神经网络（NN）正越来越多地应用于基于采用多种存储技术的硬件加速器的常开型安全关键系统中。对于安全关键应用而言，神经网络的可靠、持续运行至关重要。在在线运行期间，由于辐射、老化和热效应等因素，神经网络容易受到（单个和多个）永久性及软错误的影响。针对硬件加速器的显式测试方法无法在推理过程中检测瞬态故障，不适用于常开型应用场景，且需要大量测试向量的生成与存储。因此，本文提出了一种“不确定性指纹”（uncertainty fingerprint）方法，用于表征神经网络的在线故障状态。此外，我们设计了一种双头神经网络结构，专门用于在一次前向传播（single shot）中同时生成不确定性指纹和主任务预测结果。在在线运行时，通过比对不确定性指纹，我们能够实现对神经网络的并发自检，在骨干网络和完整模型（采用改进方法）中均达到100%的覆盖率，误报率低，同时保持主任务性能与基线水平相当。与现有研究相比，该方法将内存开销最多减少了243.7 MB，乘加（MAC）运算最多减少了10000倍，误报率最多降低了89%。"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "Testing SSD Firmware with State Data-Aware Fuzzing: Accelerating Coverage in Nondeterministic I/O Environments",
+    "authors": "Gangho Yoon, Eunseok Lee",
+    "publish": "Proceedings of the 29th International Conference on Evaluation and Assessment in Software Engineering",
+    "url": "https://doi.org/10.1145/3756681.3757033",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "使用状态数据感知模糊测试验证SSD固件：在非确定性I/O环境中加速覆盖率",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "Using Eclipse OpenDuT for Distributed Automotive Testing",
+    "authors": "Denesa Zyberaj, Pascal Hirmer, Marco Aiello",
+    "publish": "Proceedings of the 29th International Conference on Evaluation and Assessment in Software Engineering",
+    "url": "https://doi.org/10.1145/3756681.3757013",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "使用Eclipse OpenDuT进行分布式汽车测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "Re-evaluation of Logical Specification in Behavioural Verification",
+    "authors": "Radoslaw Klimek, Jakub Semczyszyn",
+    "publish": "Proceedings of the 29th International Conference on Evaluation and Assessment in Software Engineering",
+    "url": "https://doi.org/10.1145/3756681.3757028",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "行为验证中逻辑规范的重新评估",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-24",
+    "title": "Verification of Frequency Multiplying Inverter by Cascaded H-Bridge for Wireless Power Transfer",
+    "authors": "Seiya Kobayashi, Sari Maekawa",
+    "publish": "2025 International Future Energy Electronics Conference (IFEEC)",
+    "url": "https://doi.org/10.1109/ifeec65025.2025.11301462",
+    "source": "IEEE",
+    "abstract": "In recent years, magnetic resonance wireless power transfer systems in the MHz band have been studied. However, higher operating frequency makes it difficult to achieve compatibility with higher output power due to limitations of components, such as switching devices and gate drivers. To address this issue, frequency multiplying circuits have been studied, which generate voltage at a switching frequency lower than the output frequency. We have proposed a frequency multiplying inverter based on a cascaded H-bridge. This paper verifies the feasibility of applying the proposed inverter to a wireless power transfer system through simulation and experimental evaluation. It also provides design insights for loss reduction and expansion of the operating range.",
+    "title_zh": "基于级联H桥的倍频逆变器在无线能量传输中的验证",
+    "abstract_zh": "近年来，人们研究了工作在MHz频段的磁谐振无线电力传输系统。然而，较高的工作频率由于开关器件和栅极驱动器等元器件的限制，使得系统难以实现高输出功率的兼容性。为解决这一问题，研究人员提出了倍频电路，该电路可在低于输出频率的开关频率下产生电压。我们提出了一种基于级联H桥结构的倍频逆变器。本文通过仿真和实验验证了将所提出的逆变器应用于无线电力传输系统的可行性，并提供了有助于降低损耗和扩展工作范围的设计指导。"
+  }
+]
