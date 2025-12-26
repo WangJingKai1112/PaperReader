@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2025-12-25",
+    "title": "A Compact USB-Based Interface Module for The Verification of ARINC429 Avionics Systems",
+    "authors": "Fatih Çiçek, İhsan Çiçek",
+    "publish": "2025 6th International Conference on Communications, Information, Electronic and Energy Systems (CIEES)",
+    "url": "https://doi.org/10.1109/ciees66347.2025.11300008",
+    "source": "IEEE",
+    "abstract": "The ARINC-429 data bus remains a widely adopted communication standard in avionics due to its robustness, simplicity, and long certification history. Verification of ARINC-429 devices typically requires laboratory analyzers, FPGA-based controllers, or SoC-based platforms which, are often costly, non-portable, or demand significant development expertise. This paper presents the design and validation of a compact USB-based ARINC-429 verification module that addresses these limitations. The system integrates a Holt HI-3220 transceiver with an FTDI FT4222HQ USB–SPI bridge, omitting FPGA or SoC devices to minimize cost and complexity. A dedicated C# graphical user interface provides plug-and-play usability, real-time bus monitoring, word configuration, and error detection, making the tool accessible for laboratory testing, field diagnostics, and training environments. Experimental validation confirmed full compliance at both 12.5 kbps and 100 kbps modes, with correct signaling, low-latency response, and 99.6% fault detection accuracy. Compared to commercial analyzers, the module is over ten times cheaper, requires less than two minutes setup time, and offers greater portability. The novelty of this work lies in delivering a low-cost, user-friendly verification platform that bridges the gap between traditional analyzers and complex FPGA / SoC-based implementations, making it suitable for laboratories, field diagnostics, and training environments. Results demonstrate that ARINC-429 compliance testing can be performed efficiently using widely available components and an open, accessible design approach, providing a viable alternative to complex or proprietary solutions.",
+    "title_zh": "一种用于验证ARINC429航空电子系统的紧凑型USB接口模块",
+    "abstract_zh": "ARINC-429数据总线由于其可靠性高、结构简单且拥有长期的认证历史，至今仍是航空电子领域广泛采用的通信标准。对ARINC-429设备的验证通常需要使用实验室分析仪、基于FPGA的控制器或基于SoC的平台，但这些方案往往成本高昂、便携性差，或需要大量的开发专业知识。本文提出了一种紧凑型USB接口的ARINC-429验证模块的设计与验证方法，旨在克服上述局限。该系统集成了Holt HI-3220收发器和FTDI FT4222HQ USB-SPI桥接芯片，省去了FPGA或SoC器件，从而降低了成本与复杂度。配套开发的专用C#图形用户界面支持即插即用操作、实时总线监控、字词配置及错误检测功能，使该工具适用于实验室测试、现场诊断和教学培训等多种场景。实验验证结果表明，该模块在12.5 kbps和100 kbps两种模式下均完全符合ARINC-429标准，信号正确、响应延迟低，并实现了99.6%的故障检测准确率。与商用分析仪相比，本模块成本降低十倍以上，设置时间少于两分钟，且具有更高的便携性。本研究的创新之处在于提供了一个低成本、易用的验证平台，填补了传统分析仪与复杂的FPGA/SoC实现方案之间的空白，适用于实验室、现场维护和教学环境。结果表明，利用广泛可得的元器件和开放、透明的设计方法，能够高效地完成ARINC-429合规性测试，为复杂或专有解决方案提供了切实可行的替代选择。"
+  },
+  {
+    "date": "2025-12-25",
+    "title": "Aging Aware Steepening of the Fault Coverage Curve of a Scan Based Transition Fault Test Set",
+    "authors": "Irith Pomeranz",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3786348",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于扫描的过渡故障测试集在老化感知下的故障覆盖率曲线陡峭化",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-25",
+    "title": "Measuring the Unmeasurable: Demystifying Silent Data Corruptions in AI Accelerators through Microarchitectural Modeling",
+    "authors": "Odysseas Chatzopoulos, Maria Trakosa, Harish D. Dixit, Sriram Sankar, Dimitris Gizopoulos",
+    "publish": "IEEE Micro",
+    "url": "https://doi.org/10.1109/mm.2025.3646859",
+    "source": "IEEE",
+    "abstract": "AI accelerators are vital for the efficient execution of data-heavy workloads across various environments, but increased design complexity and shrinking manufacturing processes lead to severe reliability issues (with insidious behavior like silent data corruptions—SDCs). While CPU reliability has been analyzed significantly, AI accelerators require tailored analysis due to their diverse and evolving designs. In this work, we present a comprehensive methodology for the evaluation of the reliability of systolic array-based AI accelerators harnessing the power of microarchitectural modeling. Our approach captures the entire compute stack—from software to gates—across a wide range of design points including dataflows, datatypes, memory hierarchies, and array sizes. We support statistical fault injection on key hardware structures (SRAMs, registers, functional units), supporting a wide range of fault models, and implement speedup techniques that significantly boost the injection throughput (more than 1000×) without sacrificing accuracy. Evaluations on diverse ML models reveal SDC vulnerability trends across accelerator design-points highlighting the effectiveness of our methodology for broad design space exploration.",
+    "title_zh": "测量不可测量之物：通过微架构建模揭示AI加速器中的静默数据损坏",
+    "abstract_zh": "AI加速器对于在各种环境中高效执行数据密集型工作负载至关重要，但设计复杂性的增加和制造工艺的不断缩小导致了严重的可靠性问题（例如静默数据损坏——SDC等隐蔽行为）。尽管CPU的可靠性已得到广泛研究，但由于AI加速器设计的多样性和持续演进，需要专门的分析方法。本文提出了一种全面的方法，用于评估基于脉动阵列的AI加速器的可靠性，充分利用微架构建模的能力。我们的方法覆盖了从软件到门级的整个计算栈，涵盖多种设计参数，包括数据流、数据类型、存储层次结构和阵列规模。我们支持对关键硬件结构（如SRAM、寄存器、功能单元）进行统计性故障注入，兼容多种故障模型，并实现了显著提升注入吞吐量（超过1000倍）的加速技术，同时不牺牲准确性。在多种机器学习模型上的评估揭示了不同加速器设计点下的SDC脆弱性趋势，突显了本方法在广泛设计空间探索中的有效性。"
+  },
+  {
+    "date": "2025-12-25",
+    "title": "Towards Secure BPF Kernel Extension with Hardware-enhanced Memory Isolation",
+    "authors": "Lijian Huang, Hongyi Lu, Shuai Wang, Fengwei Zhang",
+    "publish": "IEEE Transactions on Dependable and Secure Computing",
+    "url": "https://doi.org/10.1109/tdsc.2025.3646179",
+    "source": "IEEE",
+    "abstract": "The Linux kernel extensively uses the Berkeley Packet Filter (BPF) to allow user-written BPF applications to execute in the kernel space. The BPF employs a verifier to check the security of user-supplied BPF code statically. Recent attacks show that BPF programs can evade security checks and gain unauthorized access to kernel memory, indicating that the verification process is not flawless. In this paper, we present MOAT, a novel hardware-assisted, cross-platform isolation framework designed to protect the kernel from malicious BPF programs. MOAT introduces a two-layer memory isolation scheme that leverages hardware features such as Intel MPK and Arm Stage-2 translation to enforce isolation. Our design overcomes several key challenges, including the limited scalability of available hardware isolation mechanisms and the risk of helper function abuse. We implement MOAT for Intel x86 and Arm on Linux (ver. 6.1.38), and our evaluation shows that MOAT delivers low-cost isolation of BPF programs under mainstream use cases, such as isolating a BPF packet filter with only 3% throughput loss.",
+    "title_zh": "通过硬件增强的内存隔离实现安全的BPF内核扩展",
+    "abstract_zh": "Linux 内核广泛使用伯克利包过滤器（BPF）来允许用户编写的 BPF 应用程序在内核空间中执行。BPF 采用验证器对用户提供的 BPF 代码进行静态安全检查。然而，近期的攻击表明，BPF 程序可能绕过安全检查并获得对内核内存的未授权访问，这说明当前的验证机制并不完善。本文提出 MOAT，一种新颖的、硬件辅助的跨平台隔离框架，旨在保护内核免受恶意 BPF 程序的侵害。MOAT 引入了一种双层内存隔离方案，利用 Intel MPK 和 Arm Stage-2 地址转换等硬件特性来实现隔离。我们的设计克服了若干关键挑战，包括现有硬件隔离机制可扩展性有限以及辅助函数被滥用的风险。我们在 Intel x86 和 Arm 架构的 Linux 系统（版本 6.1.38）上实现了 MOAT，评估结果表明，在主流应用场景下，MOAT 能够以较低开销实现 BPF 程序的隔离，例如在隔离 BPF 数据包过滤器时仅造成 3% 的吞吐量损失。"
+  },
+  {
+    "date": "2025-12-25",
+    "title": "Automated Cross-Level Verification for Heterogeneous Systems Using Attribute Recursive Hypergraph and Fault-Tolerant Bus Resolver",
+    "authors": "Keli Long, Fangfa Fu, Defu Hu, Liangquan Qiao, Jinghan Zhou, Jinxiang Wang",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2025.3648654",
+    "source": "IEEE",
+    "abstract": "In the post-Moore era, heterogeneous integrated systems—such as chiplet-based designs—exhibit increasingly complex functional interface interconnections, demanding scalable and accurate verification methods. Traditional manual approaches are time-consuming and error-prone, while mainstream EDA tools lack standardized cross-level models and comprehensive multi-level rule checking. To address these limitations, we propose an automated verification mechanism based on an Attribute Recursive Hypergraph (ARH). The method constructs a five-layer hierarchical mapping network (component → interface → signal cluster → signal → pad) to represent architecture-to-schematic relationships. Verification proceeds in two stages. First, a Fault-Tolerant Bus Resolver (FT-Bus Resolver) applies matrix operations to extract interface structures from pad-netlists and generates a multi-level hypergraph. These structures are compared with system architecture for consistency. Second, a hierarchical rule base, executed by a Rule Executor, validates electrical compatibility and bus-topology constraints across abstraction levels. The implementation integrates a reusable component model library, recursive hypergraph representations, and a rule execution framework, which bridges semantic gaps and supports complex constraint checking. Experiments demonstrate full coverage and 100% correctness for 54 interface-level rules, compared with only one rule supported by commercial EDA tools. Across 7,350 connections and 6,500 injected errors, the framework eliminates all false positives, reduces missed errors by 63%, achieves 1,125×/1,034× speedups for consistency and rule checking, and exhibits near-linear memory growth for scalable deployment. Together, these results demonstrate that the proposed mechanism offers a scalable, robust, and high-coverage solution for cross-level verification in emerging heterogeneous and chiplet-based systems.",
+    "title_zh": "基于属性递归超图与容错总线解析器的异构系统自动化跨层级验证",
+    "abstract_zh": "在后摩尔时代，异构集成系统（如基于芯粒的设计）呈现出日益复杂的功能接口互连结构，亟需具备可扩展性且高精度的验证方法。传统人工验证方式耗时长且易出错，而主流EDA工具缺乏标准化的跨层次模型和全面的多层次规则检查能力。为克服这些局限，本文提出一种基于属性递归超图（ARH）的自动化验证机制。该方法构建了五层层次化映射网络（组件 → 接口 → 信号簇 → 信号 → 焊盘），以表征架构与原理图之间的对应关系。验证过程分为两个阶段：首先，容错总线解析器（FT-Bus Resolver）通过矩阵运算从焊盘-网络表中提取接口结构，并生成多层级超图，再与系统架构进行一致性比对；其次，由规则执行器（Rule Executor）驱动的分层规则库，跨抽象层级验证电气兼容性和总线拓扑约束。该实现集成了可复用的组件模型库、递归超图表示方法以及规则执行框架，有效弥合语义鸿沟，支持复杂约束的全面检查。实验结果表明，本方法对54条接口级规则实现了100%覆盖和完全正确性，而商用EDA工具仅支持其中1条规则。在包含7,350个连接和6,500个注入错误的测试中，该框架彻底消除了所有误报，漏检错误减少63%，一致性检查和规则检查分别实现1,125倍和1,034倍的速度提升，且内存增长接近线性，具备良好的可扩展性。综上，所提出的机制为新兴异构系统及芯粒架构提供了可扩展、鲁棒性强且高覆盖率的跨层级验证解决方案。"
+  },
+  {
+    "date": "2025-12-25",
+    "title": "Importance-Driven Variable-Intensity Attack Strategy and Resilient Security Defense Design for Industrial Minecart Suspension Systems",
+    "authors": "Shiyao Pan, Xiang-Peng Xie",
+    "publish": "IEEE Transactions on Industrial Informatics",
+    "url": "https://doi.org/10.1109/tii.2025.3643530",
+    "source": "IEEE",
+    "abstract": "The integration of industrial systems and cloud-interaction technologies enhances resource coordination and regulation efficiency, while also introducing new security threats. This article focuses on a unified attack–defense strategy design for active minecart suspension systems (AMSSs). First, to overcome the limitations of existing attack models that often neglect measurement data and adopt undifferentiated attacks, an importance-driven variable-intensity (IDVI) attack strategy is proposed based on the fluctuation severity of measurement data. This strategy dynamically differentiates data importance to launch targeted attacks, thereby amplifying disruptive impact. Second, an observed-attack-mode-dependent (OAMD) resilient security defense mechanism is correspondingly designed. To handle intermittent mode loss and the mismatch between detected and actual modes caused by practical uncertainties, observation probabilities (OPs) are introduced. Meanwhile, a nonconservative probability block technique is developed to accommodate partially unknown OPs. Furthermore, a membership function combination framework characterized by polynomial degrees is incorporated into the controller design to align with the fuzzy structure of AMSSs and improve gain scheduling flexibility, thereby potentially enhancing ride comfort. Finally, simulations and simulations and hardware-in-the-loop (HIL) experiments demonstrate the superiority of the proposed attack strategy and defense mechanism.",
+    "title_zh": "面向重要性的变强度攻击策略与工业矿车悬挂系统的弹性安全防御设计",
+    "abstract_zh": "工业系统与云交互技术的融合提升了资源协调与调控效率，同时也带来了新的安全威胁。本文聚焦于主动式矿车悬挂系统（AMSS）的统一攻防策略设计。首先，针对现有攻击模型常忽略测量数据且采用无差别攻击方式的局限性，提出一种基于测量数据波动严重程度的重要性驱动变强度（IDVI）攻击策略。该策略通过动态区分数据重要性实施有针对性的攻击，从而增强破坏性影响。其次，相应地设计了一种观测攻击模式依赖（OAMD）的弹性安全防御机制。为应对实际不确定性导致的模式间歇性丢失以及检测模式与真实模式不匹配的问题，引入了观测概率（OPs）。同时，开发了一种非保守的概率分块技术，以适应部分未知的观测概率。此外，在控制器设计中融入了具有多项式阶次特征的隶属度函数组合框架，以匹配AMSS的模糊结构并提高增益调度的灵活性，从而有望提升乘坐舒适性。最后，仿真及硬件在环（HIL）实验结果验证了所提出攻击策略与防御机制的优越性。"
+  },
+  {
+    "date": "2025-12-25",
+    "title": "A Runtime Tunable Data Acquisition and Evaluation System for FPGA-based TRNGs",
+    "authors": "Yaşar Canbolat, İhsan Çiçek",
+    "publish": "2025 6th International Conference on Communications, Information, Electronic and Energy Systems (CIEES)",
+    "url": "https://doi.org/10.1109/ciees66347.2025.11300155",
+    "source": "IEEE",
+    "abstract": "True Random Number Generators are essential for cryptographic security, yet their statistical quality must be continuously assured to prevent bias-induced vulnerabilities. Conventional validation relies on offline testing, such as the NIST SP 800-22 suite, which is time-consuming, resource-intensive, and unsuitable for runtime monitoring. This paper presents a lightweight hardware/software co-design framework on an AMD Zynq-7000 SoC that integrates a dynamically reconfigurable sampling clock, a Direct Memory Access based high-throughput acquisition pipeline, and an optimized subset of NIST SP 800-22 tests. TRNG outputs are evaluated on-chip by the embedded processor, enabling real-time pass/fail feedback and adaptive countermeasures such as frequency tuning. Experimental results demonstrate microsecond-scale reconfiguration latency across a from 5 MHz to 400 MHz sampling range, efficient resource utilization, and robust statistical validation. The proposed approach reduces reliance on offline evaluation, accelerates design cycles, and enhances resilience against environmental variations and active attacks, providing an energy-efficient platform for next-generation TRNG validation.",
+    "title_zh": "一种用于基于FPGA的真随机数发生器的可运行时调优的数据采集与评估系统",
+    "abstract_zh": "真随机数生成器（TRNG）对密码学安全至关重要，但必须持续保证其统计质量，以防止因偏差引发的安全漏洞。传统的验证方法依赖于离线测试（例如NIST SP 800-22测试套件），这类方法耗时长、资源消耗大，且不适用于运行时监控。本文提出了一种基于AMD Zynq-7000 SoC的轻量级软硬件协同设计框架，集成了动态可重构采样时钟、基于直接内存访问（DMA）的高吞吐量数据采集流水线，以及优化精简后的NIST SP 800-22测试子集。该框架利用片上嵌入式处理器对TRNG输出进行实时评估，实现毫秒级的通过/失败反馈，并支持频率调谐等自适应应对措施。实验结果表明，该系统在5 MHz至400 MHz的采样范围内实现了微秒级的重构延迟，资源利用率高效，并具备强大的统计验证能力。所提方法减少了对离线评估的依赖，加快了设计周期，增强了对环境变化和主动攻击的抵御能力，为下一代TRNG验证提供了一个节能高效的平台。"
+  },
+  {
+    "date": "2025-12-25",
+    "title": "Functional Tests to Top Off a Transition Fault Scan-Based Test Set",
+    "authors": "Irith Pomeranz",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2025.3648671",
+    "source": "IEEE",
+    "abstract": "Scan-based tests achieve a high fault coverage efficiently but may fail to detect certain defects. Functional tests are used for providing additional defect coverage to complement scan-based tests. Using modeled faults, every fault that can be detected by a functional sequence can also be detected by a scan-based test. Therefore, in general, functional tests cannot directly target the test escapes of a scan-based test set. This article considers a specific scenario where such a direct connection exists. Under this common scenario, transition faults are detected by a scan-based test set that consists of two-cycle launch-on-capture (LOC) and launch-on-shift (LOS) tests with constant primary input vectors. The article suggests the use of functional tests, referred to as functional launch-on-capture (FLOC) tests, for detecting faults in the output cone of the primary inputs that cannot be detected when the primary input vectors are held constant. The resulting topoff procedure is implemented in an academic simulation environment. Experimental results for benchmark circuits demonstrate a higher than expected effectiveness in increasing the transition fault coverage for transition faults in the output cone of the primary inputs.",
+    "title_zh": "功能测试以补充基于转换故障扫描的测试集",
+    "abstract_zh": "基于扫描的测试能够高效地实现高故障覆盖率，但可能无法检测到某些缺陷。功能测试则用于提供额外的缺陷覆盖，以补充基于扫描的测试。使用已建模的故障可知，任何可通过功能序列检测到的故障，同样也能通过基于扫描的测试检测到。因此，通常情况下，功能测试无法直接针对基于扫描测试集所遗漏的测试项。本文探讨了一种存在此类直接关联的具体场景：在该常见场景下，转换故障由包含两周期捕获时启动（launch-on-capture, LOC）和移位时启动（launch-on-shift, LOS）的扫描测试集进行检测，且这些测试采用恒定的主输入向量。文章提出使用一种称为功能模式捕获时启动（functional launch-on-capture, FLOC）的功能测试，用于检测主输入输出锥中那些因主输入向量保持恒定而未能被检测到的故障。所提出的补测（topoff）流程在一个学术仿真环境中得以实现。针对基准电路的实验结果表明，该方法在提升主输入输出锥内转换故障的覆盖率方面，效果超出预期。"
+  },
+  {
+    "date": "2025-12-25",
+    "title": "Twins: Hardware Similarity Evaluation Framework Using Graph Neural Network",
+    "authors": "Yiran He, Haihua Shen, Zirui Jiang, Shan Li, Xiao Ji, Huawei Li",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3786598",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "孪生：基于图神经网络的硬件相似性评估框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-25",
+    "title": "Multiuser Ordered Symbol Switch (MOSS) GRAND Decoding With NOMA: Low-Latency Hardware Design and Implementation",
+    "authors": "Arslan Hassan, Muhammad Adeel Pasha, Momin Uppal",
+    "publish": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "url": "https://doi.org/10.1109/tvlsi.2025.3646369",
+    "source": "IEEE",
+    "abstract": "High-rate short-length error correction codes are crucial for ultralow-latency communication (ULLC) applications prevalent in next-generation communication systems. Recent promising developments in this regard include the code-agnostic family of guessing random additive noise decoding (GRAND) decoders. However, they are not directly applicable to multiuser communication scenarios (e.g., in 5G and 6G) characterized by nonorthogonal multiple access (NOMA). To address this gap, we propose a novel multiuser ordered symbol switch (MOSS)-GRAND decoder operating on symbols (instead of bits) to jointly decode the information of a pair of users accessing the channel using NOMA. We also propose a NOMA-successive interference cancellation (SIC) decoder as a conventional straightforward adaptation of GRAND-based decoders to the NOMA setup. Comparing MOSS-GRAND with NOMA-SIC, we show that the former is amenable to higher throughput due to parallelization and is therefore preferred over the latter for the target ULLC applications. The algorithm is translated into a low-latency hardware architecture, where the distance between the received message and all candidate codewords is calculated in parallel to optimize performance. The experimental results demonstrate that the MOSS-GRAND decoder provides improvements between <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$5.70\\times $</tex-math> </inline-formula> and <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$117.51\\times $</tex-math> </inline-formula> in throughput, with area reductions between <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$1.88\\times $</tex-math> </inline-formula> and <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$789.79\\times $</tex-math> </inline-formula> compared to traditional GRAND-based decoders adapted for NOMA. This makes MOSS-GRAND an ideal candidate for ULLC applications on resource-constrained platforms, such as the Internet of Things (IoT) nodes.",
+    "title_zh": "基于NOMA的多用户有序符号切换（MOSS）GRAND解码：低延迟硬件设计与实现",
+    "abstract_zh": "高码率短码长纠错码对于下一代通信系统中普遍存在的超低时延通信（ULLC）应用至关重要。近年来在此领域的一个有前景的发展是与编码无关的猜测随机加性噪声译码（GRAND）译码器家族。然而，这类译码器并不能直接适用于以非正交多址接入（NOMA）为特征的多用户通信场景（例如5G和6G系统）。为填补这一空白，本文提出了一种新型多用户有序符号切换（MOSS）-GRAND译码器，该译码器基于符号（而非比特）操作，可对通过NOMA方式共享信道的一对用户的信号进行联合译码。此外，我们还提出了一种NOMA-连续干扰消除（SIC）译码器，作为将基于GRAND的译码器常规地适配到NOMA场景的直接方法。通过比较MOSS-GRAND与NOMA-SIC，我们表明前者由于支持并行化处理而具有更高的吞吐量潜力，因此在目标ULLC应用中更具优势。该算法被转化为一种低时延硬件架构，其中接收消息与所有候选码字之间的距离被并行计算，以优化性能。实验结果表明，与传统适配于NOMA场景的GRAND译码器相比，MOSS-GRAND译码器在吞吐量上提升了5.70倍至117.51倍，同时面积开销减少了1.88倍至789.79倍。这使得MOSS-GRAND成为物联网（IoT）节点等资源受限平台下ULLC应用的理想选择。"
+  }
+]
