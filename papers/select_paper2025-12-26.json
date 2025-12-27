@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2025-12-26",
+    "title": "Network-Layer Differential Fuzzing for Ethereum",
+    "authors": "Fudong Wu, Qianhong Wu, Jia-Ju Bai, Bo Qin, Zhenyu Guan, Willy Susilo",
+    "publish": "IEEE Transactions on Information Forensics and Security",
+    "url": "https://doi.org/10.1109/tifs.2025.3648565",
+    "source": "IEEE",
+    "abstract": "In Ethereum, DevP2P is the fundamental network-layer protocol set that supports consensus mechanisms, transaction propagation and smart contract execution. Due to the importance of DevP2P, its bugs can be exploited by the attacker to cause security problems like denial of service, leading to property loss on Ethereum. However, existing blockchain testing approaches focus on the bug detection of consensus and application layers, causing many serious DevP2P bugs to be missed. In fact, detecting DevP2P bugs has some key challenges, including how to generate effective inputs and how to detect complex bugs. This paper designs D2PFuzz, the first network-layer differential fuzzing approach of bug detection for Ethereum. It consists of two key techniques: (1) a <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">query-based fuzzing strategy</i> that dynamically generates valid DevP2P messages according to network, chain and node state changes; and (2) a <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">multi-node differential checking method</i> that identifies important differences of DevP2P response messages from multiple nodes in the same blockchain to detect semantic bugs. We have evaluated D2PFuzz on five open-source and popular Ethereum node implementations, including Geth, Erigon, Reth, Besu and Nethermind. D2PFuzz in total finds 15 unique bugs, 12 of which are previously unknown. Compared to two state-of-the-art blockchain testing approaches including LOKI and Hive, D2PFuzz improves testing coverage by 3.7x and 21.6x, respectively, and finds 13 bugs missed by these approaches.",
+    "title_zh": "以太坊网络层差分模糊测试",
+    "abstract_zh": "在以太坊中，DevP2P 是支持共识机制、交易传播和智能合约执行的基础网络层协议集。由于 DevP2P 的重要性，其漏洞可能被攻击者利用，导致拒绝服务等安全问题，从而造成以太坊上的财产损失。然而，现有的区块链测试方法主要关注共识层和应用层的缺陷检测，导致许多严重的 DevP2P 漏洞被遗漏。事实上，检测 DevP2P 漏洞面临一些关键挑战，包括如何生成有效的输入以及如何检测复杂的漏洞。本文设计了 D2PFuzz，这是首个面向以太坊网络层的差分模糊测试漏洞检测方法。该方法包含两项关键技术：（1）一种基于查询的模糊测试策略，能够根据网络、链状态和节点状态的变化动态生成有效的 DevP2P 消息；（2）一种多节点差分检查方法，通过比较同一区块链中多个节点返回的 DevP2P 响应消息中的重要差异，来检测语义错误。我们在五个开源且广泛使用的以太坊节点实现（Geth、Erigon、Reth、Besu 和 Nethermind）上对 D2PFuzz 进行了评估。D2PFuzz 共发现了 15 个独特的漏洞，其中 12 个为此前未知的新漏洞。与包括 LOKI 和 Hive 在内的两种最先进的区块链测试方法相比，D2PFuzz 的测试覆盖率分别提升了 3.7 倍和 21.6 倍，并发现了这些方法未能检测到的 13 个漏洞。"
+  }
+]
