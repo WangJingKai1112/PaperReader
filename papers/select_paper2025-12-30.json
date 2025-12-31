@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2025-12-30",
+    "title": "Defect-Aware Built-In Self-Test and Dynamic Repair for Fan-Out Wafer-Level Packaging",
+    "authors": "Partho Bhoumik, Christopher Bailey, Krishnendu Chakrabarty",
+    "publish": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "url": "https://doi.org/10.1109/tvlsi.2025.3646987",
+    "source": "IEEE",
+    "abstract": "Fan-out wafer-level packaging (FOWLP) addresses the demand for higher interconnect densities by offering reduced form factor, improved signal integrity, and enhanced performance. However, FOWLP faces several manufacturing challenges, such as coefficient of thermal expansion (CTE) mismatch, warpage, die shift, and postmolding protrusion, causing misalignment and bonding issues during redistribution layer (RDL) buildup. In order to address these challenges, we propose a comprehensive defect analysis and testing framework for FOWLP interconnects. We use Ansys Q3D to map defects to equivalent electrical circuit models and perform fault simulations to investigate the impacts of these defects on chiplet functionality. Additionally, we present a built-in self-test (BIST) architecture to detect stuck-at (SA) and bridging faults while accurately diagnosing the fault type and location. We also show how fault signatures can be propagated and decoded across multichiplet interfaces to initiate dynamic repair. To enhance postfabrication yield and reliability, we introduce a priority-based dynamic repair scheme aligned with the universal chiplet interconnect express (UCIe) specification that maximizes repairability without incurring additional hardware overhead in the I/O PHY. This framework offers a practical path toward robust and efficient testability in the next-generation advanced packaging.",
+    "title_zh": "面向缺陷感知的扇出型晶圆级封装内建自测试与动态修复",
+    "abstract_zh": "扇出型晶圆级封装（FOWLP）通过减小外形尺寸、提升信号完整性和增强性能，满足了对更高互连密度的需求。然而，FOWLP在制造过程中面临诸多挑战，例如热膨胀系数（CTE）失配、翘曲、芯片偏移以及模塑后凸起等问题，这些都会在重布线层（RDL）构建过程中导致对准偏差和键合困难。为应对这些挑战，本文提出了一种针对FOWLP互连结构的综合性缺陷分析与测试框架。我们采用Ansys Q3D将各类缺陷映射为等效电路模型，并进行故障仿真，以研究这些缺陷对芯粒（chiplet）功能的影响。此外，我们设计了一种内建自测试（BIST）架构，能够检测固定型故障（stuck-at, SA）和桥接故障，并精确定位故障类型与位置。我们还展示了如何在多芯粒接口之间传播和解码故障特征，以触发动态修复机制。为了提高 fabrication 后的良率和可靠性，我们引入了一种基于优先级的动态修复方案，该方案符合通用芯粒互连快车（UCIe）规范，能够在不增加I/O物理层（PHY）硬件开销的前提下最大化可修复性。该框架为下一代先进封装技术实现强健且高效的可测试性提供了一条切实可行的路径。"
+  },
+  {
+    "date": "2025-12-30",
+    "title": "MALLS: Multi-Agent LLMs for Synthetic Hardware Vulnerability Generation and Detection",
+    "authors": "Jonti Talukdar, Agastya Seth, Sanmitra Banerjee, Farshad Firouzi, Krishnendu Chakrabarty",
+    "publish": "2025 IEEE 43rd International Conference on Computer Design (ICCD)",
+    "url": "https://doi.org/10.1109/iccd65941.2025.00116",
+    "source": "IEEE",
+    "abstract": "LLMs have demonstrated promising capabilities in generating RTL code from high-level functional descriptions of hardware modules. However, their effectiveness is constrained by the lack of high-quality, diverse datasets particularly for applications in IP design, verification, and security analysis. To address this limitation, we introduce MALLS, a multi-agent framework in which specialized LLM agents namely, a generator and a discriminator collaborate in an adversarial yet cooperative setting to improve the quality and correctness of RTL designs and curate a high quality synthetic hardware vulnerability dataset. In this architecture, the generator agent is responsible for producing RTL implementations from initial seed examples through in-context learning, while the discriminator agent assesses the generator's output for functional correctness and the presence of security vulnerabilities. This interaction creates a dynamic feedback loop, enabling both agents to iteratively improve through each other's responses leading to self-supervised learning. A hard bank of examples is maintained in a database which include instances that were difficult to generate or detect by either agents. By generating paired positive (correct) and negative (buggy) examples, the system learns to distinguish subtle design flaws and generalize across diverse RTL patterns while generating high quality synthetic examples of hardware vulnerabilities. Experimental results show that using the hard bank of examples produced by the adversarial multi-LLM setup improves both vulnerability generation and detection performance.",
+    "title_zh": "MALLS：用于合成硬件漏洞生成与检测的多智能体大语言模型",
+    "abstract_zh": "大型语言模型（LLMs）在从硬件模块的高层功能描述生成寄存器传输级（RTL）代码方面已展现出良好的潜力。然而，其有效性受到缺乏高质量、多样化数据集的限制，尤其是在IP设计、验证和安全分析等应用中。为解决这一问题，我们提出了MALLS——一种多智能体框架，其中专门设计的LLM智能体（即生成器与判别器）在对抗且协作的环境中协同工作，以提升RTL设计的质量与正确性，并构建一个高质量的合成硬件漏洞数据集。在此架构中，生成器智能体通过上下文学习，基于初始种子样例生成RTL实现；而判别器智能体则负责评估生成结果的功能正确性以及是否存在安全漏洞。这种交互形成了动态的反馈循环，使两个智能体能够通过彼此的响应进行迭代优化，从而实现自监督学习。系统维护一个“难题库”（hard bank），存储那些对任一智能体而言较难生成或检测的样例。通过生成成对的正例（正确设计）和负例（含缺陷设计），该系统能够识别细微的设计错误，并在多样的RTL模式中实现泛化，同时生成高质量的硬件漏洞合成样本。实验结果表明，利用该对抗式多LLM架构生成的难题库，可显著提升漏洞生成与检测的性能。"
+  },
+  {
+    "date": "2025-12-30",
+    "title": "ATPG-Based Weighted Scan Chain Control for Programmable Low-Power LBIST",
+    "authors": "Yumei Hu, Hairui Cai, Xiaohui Xue, Yaning Wang, Yu Huang, Zhipeng Lv, Zhouxing Su, Zezhong Wang, Xing Wang",
+    "publish": "2025 IEEE 43rd International Conference on Computer Design (ICCD)",
+    "url": "https://doi.org/10.1109/iccd65941.2025.00050",
+    "source": "IEEE",
+    "abstract": "Logic built-in self-test (LBIST) suffers from excessive power consumption due to high toggling rates caused by pseudo-random patterns. This paper presents a programmable low-power LBIST scheme that leverages scan chain weighting based on ATPG-guided fault analysis. By analyzing the distribution of specified bits across ATPG-generated test cubes, each scan chain is assigned a weight indicating its relative contribution to fault detection. Chains are then grouped into seven activation levels, each mapped to a distinct toggle probability to balance power and test coverage. A configurable control circuit based on shift and hold registers generates the required low-power signals. Experimental results on industrial-scale designs demonstrate that the proposed method achieves significantly higher fault coverage under identical power constraints compared to a commercial LBIST solution.",
+    "title_zh": "基于ATPG的加权扫描链控制用于可编程低功耗LBIST",
+    "abstract_zh": "逻辑内建自测试（LBIST）由于伪随机测试图形引起的高翻转率，导致功耗过高。本文提出了一种可编程的低功耗LBIST方案，该方案基于自动测试图形生成（ATPG）引导的故障分析，采用扫描链加权技术。通过分析ATPG生成的测试立方体中指定位的分布情况，为每条扫描链分配一个权重，用以表示其对故障检测的相对贡献。随后，将扫描链划分为七个激活等级，每个等级映射到不同的翻转概率，以在功耗和测试覆盖率之间实现平衡。一种基于移位寄存器和保持寄存器的可配置控制电路用于生成所需的低功耗信号。在工业级电路设计上的实验结果表明，与商用LBIST解决方案相比，所提出的方法在相同的功耗约束下实现了显著更高的故障覆盖率。"
+  },
+  {
+    "date": "2025-12-30",
+    "title": "A Novel Transformer-Based Fuzzing Framework for Industrial Control Protocols",
+    "authors": "Yingzi Wu, Qin Qi, Jingyi Hu, Rao Kuang, Zengwang Jin, Junyi Ding, Ping Chen",
+    "publish": "2025 IEEE International Symposium on Product Compliance Engineering - Asia (ISPCE-ASIA)",
+    "url": "https://doi.org/10.1109/ispce-asia69076.2025.11312010",
+    "source": "IEEE",
+    "abstract": "With the increasing reliance of power grids and critical infrastructure on Industrial Control Systems (ICS), the security of Industrial Control Protocols (ICPs) has become a growing concern. Many ICPs suffer from inadequate security mechanisms, making them inherently vulnerable to cyberattacks and posing significant risks to system integrity in critical infrastructure. Existing fuzzing techniques are valuable for vulnerability detection, while they often fail to model complex protocol sequences effectively and rely on random mutation strategies, limiting their ability to detect vulnerabilities in intricate systems. This paper introduces SPTFuzz, a novel fuzzing framework designed to address these limitations. By leveraging an enhanced Transformer architecture that incorporates a Spectral-Relational Fusion Mechanism, SPTFuzz captures long-range dependencies and spectral features, enhancing both protocol conformance and the diversity of test cases. Additionally, a mutation strategy based on Particle Swarm Optimization (PSO) is employed to dynamically adjust mutation probabilities, optimizing vulnerability detection during fuzzing. Experimental results on the Modbus protocol demonstrate that SPTFuzz outperforms existing approaches, achieving higher test case recognition rates, greater data diversity, and improved anomaly detection.",
+    "title_zh": "一种基于Transformer的工业控制协议模糊测试框架",
+    "abstract_zh": "随着电网和关键基础设施对工业控制系统（ICS）的依赖日益增加，工业控制协议（ICP）的安全性已成为一个日益突出的问题。许多ICP缺乏足够的安全机制，天生容易受到网络攻击，对关键基础设施的系统完整性构成重大风险。现有的模糊测试技术虽然在漏洞检测方面具有价值，但往往难以有效建模复杂的协议序列，并且依赖随机变异策略，限制了其在复杂系统中发现漏洞的能力。本文提出了一种新型模糊测试框架SPTFuzz，旨在解决上述局限性。SPTFuzz采用一种增强型Transformer架构，融合了频谱-关系融合机制，能够捕捉长距离依赖关系和频谱特征，从而提升协议符合性和测试用例的多样性。此外，该框架还引入基于粒子群优化（PSO）的变异策略，动态调整变异概率，以优化模糊测试过程中的漏洞检测效果。在Modbus协议上的实验结果表明，SPTFuzz优于现有方法，在测试用例识别率、数据多样性和异常检测能力方面均有显著提升。"
+  },
+  {
+    "date": "2025-12-30",
+    "title": "Tips: Augment Memory Tagging to Defend Against Prefetcher Side Channels",
+    "authors": "Yubiao Huang, Peinan Li, Huan Qiao, Yunkai Bai, Shiwen Wang, Dan Meng, Rui Hou",
+    "publish": "2025 IEEE 43rd International Conference on Computer Design (ICCD)",
+    "url": "https://doi.org/10.1109/iccd65941.2025.00112",
+    "source": "IEEE",
+    "abstract": "Hardware prefetchers are essential for hiding memory latency and improving performance in commercial processors. However, recent studies have revealed that they can be exploited to launch side-channel attacks that leak sensitive data, recover cryptographic keys, and break the isolation of trusted execution environments. We observe that such attacks closely resemble classic memory safety violations, including buffer overflows, type confusion, use-after-free, and data race. This paper presents TIPS (Tag AugmentatIon for Prefetcher Security), a lightweight extension to the memory safety mechanisms already deployed in commercial processors. TIPS enhances memory tagging to protect prefetchers by enforcing tag-based array bounds, validating pointer types, associating prefetch patterns with their source threads or cores, and suppressing contentionbased interference. Experiments demonstrate that TIPS incurs less than 1.50 % performance overhead and 0.81 % area cost, while providing strong defense against a broad class of prefetcher side-channel attacks.",
+    "title_zh": "提示：增强内存标记以防御预取器侧信道攻击",
+    "abstract_zh": "硬件预取器对于隐藏内存延迟以及提升商用处理器的性能至关重要。然而，近期研究表明，这些预取器可能被利用来发动侧信道攻击，导致敏感数据泄露、加密密钥被恢复，并破坏可信执行环境的隔离性。我们观察到，此类攻击与经典的内存安全漏洞非常相似，包括缓冲区溢出、类型混淆、悬空指针（use-after-free）以及数据竞争等。本文提出TIPS（预取器安全的标签增强机制，Tag AugmentatIon for Prefetcher Security），这是一种对现有商用处理器中已部署的内存安全机制的轻量级扩展。TIPS通过增强内存标签机制，实现基于标签的数组边界检查、指针类型验证、将预取模式与其来源线程或核心相关联，并抑制基于争用的干扰，从而保护预取器的安全。实验结果表明，TIPS仅带来不到1.50%的性能开销和0.81%的面积成本，同时能够有效防御广泛类型的预取器侧信道攻击。"
+  },
+  {
+    "date": "2025-12-30",
+    "title": "$\\mu\\text{STT}$: Microarchitecture Design for Speculative Taint Tracking",
+    "authors": "Boru Chen, Rutvik Choudhary, Kaustubh Khulbe, Archie Lee, Adam Morrison, Christopher W. Fletcher",
+    "publish": "2025 IEEE 43rd International Conference on Computer Design (ICCD)",
+    "url": "https://doi.org/10.1109/iccd65941.2025.00048",
+    "source": "IEEE",
+    "abstract": "Speculative execution attacks exploit malicious speculation to leak sensitive data via microarchitectural covert channels. Speculative Taint Tracking (STT) is a state-of-the-art hardware mechanism that blocks such threats by tainting data flowing from speculative loads, untainting data once all its dependencies are not speculative, and delaying instructions that create covert channels until their inputs are untainted. However, STT's hardware feasibility remains unclear due to a lack of detailed hardware cost analysis. This paper presents the first in-depth hardware cost analysis of STT and identifies two key challenges: (1) the logic delay of taint propagation, which grows with rename width, and (2) area overhead from instruction delaying, which requires expensive CAM-style logic to enforce speculation safety. To address these, we propose a new microarchitecture for STT, called <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mu$</tex> STT. <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mu$</tex> STT is based on two new mechanisms. First, the Age Matrix is a shallow taint propagation circuit that removes 85% of the logic delay overhead of prior STT designs, while only adding 36 % more area at the default rename width of 8. Second, the impede micro-op implements instruction delaying in a fashion that increases STT's performance overhead by only 5 percentage points (from 16 % to 21 %), while replacing bespoke STT hardware with existing RAW dependency tracking. Together, these contributions reduce STT's hardware complexity and cost in the context of high-end wide-issue processor designs.",
+    "title_zh": "μSTT：面向推测性污点跟踪的微架构设计",
+    "abstract_zh": "推测执行攻击利用恶意的推测行为，通过微架构隐蔽信道泄露敏感数据。推测性污点追踪（Speculative Taint Tracking, STT）是一种先进的硬件机制，通过将来自推测性加载的数据标记为“受污染”，在所有依赖项均不再具有推测性时才将其“去污染”，并延迟可能创建隐蔽信道的指令，直到其输入数据被去污染，从而阻断此类威胁。然而，由于缺乏详细的硬件成本分析，STT的硬件可行性仍不明确。本文提出了针对STT的首个深入硬件成本分析，并识别出两大关键挑战：（1）污点传播的逻辑延迟，该延迟随重命名宽度的增加而增长；（2）因指令延迟带来的面积开销，这需要昂贵的类内容可寻址存储器（CAM）逻辑来确保推测安全性。为应对这些问题，我们提出了一种新的STT微架构，称为μSTT。μSTT基于两项新机制：首先，“年龄矩阵”（Age Matrix）是一种浅层污点传播电路，可消除先前STT设计中85%的逻辑延迟开销，在默认重命名宽度为8的情况下仅增加36%的面积；其次，“阻抑微操作”（impede micro-op）以一种新颖方式实现指令延迟，使STT的性能开销仅增加5个百分点（从16%上升至21%），同时用现有的RAW依赖跟踪机制替代了专用的STT硬件。这两项贡献共同降低了STT在高端宽发射处理器设计中的硬件复杂性和成本。"
+  },
+  {
+    "date": "2025-12-30",
+    "title": "Supporting Pipelined Memory Accesses in Processor Synthesis",
+    "authors": "Essien Taylor, Colin Schilf, Sebastian Phemister, Russ Joseph",
+    "publish": "2025 IEEE 43rd International Conference on Computer Design (ICCD)",
+    "url": "https://doi.org/10.1109/iccd65941.2025.00099",
+    "source": "IEEE",
+    "abstract": "In deep pipelines, cache accesses must be split over many cycles to accommodate high-clock rates. Given the variable memory access times, the volume of in-flight cache operations, and potential for memory data hazards, implementing the control logic necessary to provide correct operation and maximize performance emerges as a major design challenge. This paper introduces Forecast, a tool for synthesizing deep microprocessor pipelines with support for high-performance cache organizations. Given a functional description of a processor datapath and directives on how to split logic and state accesses into stages, Forecast automatically generates the complete pipeline datapath and fully functional control logic to correctly sequence operations across pipeline stages while maintaining correct operational semantics. Forecast produces logic to enable speculatively scheduled pipelined cache accesses, support buffered stores, and detect and resolve dependencies in the memory system. This tool allows designers to construct deeper pipelined processors with larger capacity and higher throughput caches, improving the performance of these automatically generated processors.",
+    "title_zh": "在处理器综合中支持流水线内存访问",
+    "abstract_zh": "在深度流水线中，为了适应高时钟频率，缓存访问必须拆分到多个周期中执行。由于内存访问时间可变、飞行中的缓存操作数量庞大，以及可能存在内存数据冒险，实现能够保证正确运行并最大化性能的控制逻辑成为一项重大的设计挑战。本文提出了Forecast，这是一种用于综合支持高性能缓存结构的深度微处理器流水线的工具。给定处理器数据通路的功能描述，以及关于如何将逻辑和状态访问划分为多个流水级的指令后，Forecast能够自动生成功能完整的流水线数据通路和完备的控制逻辑，以正确地对跨流水级的操作进行排序，同时保持正确的操作语义。该工具生成的逻辑能够支持推测调度的流水线缓存访问、支持缓冲存储（buffered stores），并检测和解决内存系统中的依赖关系。通过这一工具，设计人员可以构建具有更大容量和更高吞吐量缓存的更深流水线处理器，从而提升这些自动生成处理器的性能。"
+  },
+  {
+    "date": "2025-12-30",
+    "title": "Migration of HV-MOS Buck Converter Design to LV-MOS Variant - Challenges in Aging EOS Verification",
+    "authors": "Anurupa Ghosh, Anshu Jain",
+    "publish": "2025 IEEE International Conference for Women in Innovation, Technology &amp;amp; Entrepreneurship (ICWITE)",
+    "url": "https://doi.org/10.1109/icwite64848.2025.11307151",
+    "source": "IEEE",
+    "abstract": "This work explains an attempt to reuse an HVMOS 3.5V to 1.8V Buck Converter Circuit for creating one with LV-MOS devices, for ensuring quick turnaround in Design Validation checks within same specification criteria. While the functionality was retained after device migration in Pre-layout design, Aging EOS Reliability Verification required some changes in switch network of the Buck Converter. The Paper presents this migration change starting with an Introduction, followed by description of HV-MOS Buck Converter Circuit, Aging Electrical Over Stress concept, and then goes on to describe migration steps, followed by Results and Conclusion.",
+    "title_zh": "高压MOS降压转换器设计向低压MOS变体迁移——老化过程中EOS验证的挑战",
+    "abstract_zh": "本文介绍了一项尝试，即将原有的HVMOS 3.5V至1.8V降压转换电路（Buck Converter Circuit）改用LV-MOS器件进行复用，以在相同规格标准下实现设计验证的快速迭代。尽管在布局前设计阶段完成器件迁移后功能得以保留，但在进行老化相关的电过应力（Aging EOS）可靠性验证时，仍需对降压转换器的开关网络进行一些修改。本文从引言开始，依次介绍了高压MOS降压转换电路结构、老化电过应力（Aging Electrical Over Stress）概念、迁移实施步骤，并展示了相关结果与结论。"
+  },
+  {
+    "date": "2025-12-30",
+    "title": "Simulation and Test of 112Gbps SerDes Power Noise",
+    "authors": "Lingyun Liu, Jianguo Zhang, Bin Yu, Shuangman Xie, Erling Pan, Zhijun Long",
+    "publish": "2025 International Workshop on Advanced Interconnects (WAI)",
+    "url": "https://doi.org/10.1109/wai67900.2025.11309286",
+    "source": "IEEE",
+    "abstract": "Compared with traditional parallel transmission technology, serial transmission technology can fully utilize the channel capacity of communication channels, improve communication speed, and significantly reduce communication costs. SerDes (Serializer/Deserializer) is an integrated circuit technology that converts parallel data into high-speed serial data (transmitter) and restores serial data into parallel data (receiver), used to solve timing, noise, and distance issues in high-speed data transmission. Noise cannot be completely eliminated, and interference sources include circuit design, layout and wiring, as well as electron and hole characteristics. As the signal frequency increases, the impact of noise becomes greater, and the need to minimize noise becomes stronger. Based on practical project experience, this article introduces the noise simulation and testing of SerDes interface from the perspective of power supply noise simulation and testing principles. The noise simulation error of digital power supply and analog power supply is less than 3mV, achieving high-precision noise simulation consistency alignment.",
+    "title_zh": "112Gbps串行解串器电源噪声的仿真与测试",
+    "abstract_zh": "与传统的并行传输技术相比，串行传输技术能够充分利用通信信道的通道容量，提高通信速度，并显著降低通信成本。SerDes（串行器/解串器）是一种集成电路技术，可将并行数据转换为高速串行数据（发送端），并将串行数据恢复为并行数据（接收端），用于解决高速数据传输中的时序、噪声和距离问题。噪声无法完全消除，其干扰源包括电路设计、布局布线以及电子和空穴特性。随着信号频率的升高，噪声的影响愈发显著，对抑制噪声的需求也更为迫切。本文基于实际项目经验，从电源噪声仿真与测试原理的角度，介绍了SerDes接口的噪声仿真与测试方法。数字电源和模拟电源的噪声仿真误差小于3mV，实现了高精度的噪声仿真一致性对齐。"
+  },
+  {
+    "date": "2025-12-30",
+    "title": "Concolic Testing for Quantum Compilers",
+    "authors": "Navnil Choudhury, Ameya Bhave, Kanad Basu",
+    "publish": "2025 IEEE 43rd International Conference on Computer Design (ICCD)",
+    "url": "https://doi.org/10.1109/iccd65941.2025.00057",
+    "source": "IEEE",
+    "abstract": "Quantum circuit transpilation is central to the execution of programs on noisy intermediate-scale quantum (NISQ) devices, yet it introduces reliability risks due to heuristic optimizations, parameter thresholds, and layout heuristics. Small perturbations at these decision points can silently alter program semantics, undermine optimization effectiveness, or increase hardware error susceptibility. In this work, we present a concolic testing framework for quantum compilers that systematically uncovers such vulnerabilities by combining concrete execution with symbolic reasoning. We identify and recover decision points in gate-level, parameter-sensitive, and circuit-level transpiler passes, and construct symbolic guards to drive targeted perturbations near boundary conditions. Our evaluation on representative QASMBench circuits demonstrates complete decision-point and boundary coverage of 100%, and high outcome coverage of 78%, uncovering both missed optimizations and semantic deviations in widely used Qiskit passes. These results establish that concolic testing can be applied as a practical methodology for systematically evaluating compiler robustness in the NISQ era.",
+    "title_zh": "量子编译器的混合符号测试",
+    "abstract_zh": "量子电路转译在含噪声中等规模量子（NISQ）设备上执行程序时处于核心地位，但由于启发式优化、参数阈值和布局启发式等因素，它引入了可靠性风险。在这些决策点上的微小扰动可能悄无声息地改变程序语义、削弱优化效果，或增加对硬件错误的敏感性。本文提出了一种面向量子编译器的混合执行测试（concolic testing）框架，通过结合具体执行与符号推理，系统性地揭示此类漏洞。我们识别并恢复了门级、参数敏感性和电路级转译过程中的决策点，构建符号守卫条件以在边界附近驱动定向扰动。在代表性QASMBench电路上的评估结果显示，决策点和边界覆盖率达到100%，输出覆盖率高达78%，揭示了广泛使用的Qiskit转译模块中存在的优化遗漏和语义偏差问题。这些结果表明，混合执行测试可作为一种实用方法，在NISQ时代系统评估量子编译器的鲁棒性。"
+  }
+]
