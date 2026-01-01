@@ -1,0 +1,200 @@
+[
+  {
+    "date": "2025-12-31",
+    "title": "Probabilistic Computers for Neural Quantum States",
+    "authors": "Shuvro Chowdhury, Jasper Pieterse, Navid Anjum Aadit, Johan H. Mentink, Kerem Y. Camsari",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2512.24558v1",
+    "source": "arXiv",
+    "abstract": "Neural quantum states efficiently represent many-body wavefunctions with neural networks, but the cost of Monte Carlo sampling limits their scaling to large system sizes. Here we address this challenge by combining sparse Boltzmann machine architectures with probabilistic computing hardware. We implement a probabilistic computer on field programmable gate arrays (FPGAs) and use it as a fast sampler for energy-based neural quantum states. For the two-dimensional transverse-field Ising model at criticality, we obtain accurate ground-state energies for lattices up to 80 $\\times$ 80 (6400 spins) using a custom multi-FPGA cluster. Furthermore, we introduce a dual-sampling algorithm to train deep Boltzmann machines, replacing intractable marginalization with conditional sampling over auxiliary layers. This enables the training of sparse deep models and improves parameter efficiency relative to shallow networks. Using this algorithm, we train deep Boltzmann machines for a system with 35 $\\times$ 35 (1225 spins). Together, these results demonstrate that probabilistic hardware can overcome the sampling bottleneck in variational simulation of quantum many-body systems, opening a path to larger system sizes and deeper variational architectures.",
+    "title_zh": "用于神经量子态的概率计算机",
+    "abstract_zh": "神经量子态利用神经网络高效地表示多体波函数，但蒙特卡洛采样的成本限制了其在大规模系统中的扩展。本文通过结合稀疏玻尔兹曼机架构与概率计算硬件来应对这一挑战。我们在现场可编程门阵列（FPGA）上实现了一台概率计算机，并将其用作基于能量的神经量子态的快速采样器。对于临界状态下的二维横向场伊辛模型，我们使用定制的多FPGA集群，在高达80×80（6400个自旋）的晶格上获得了精确的基态能量。此外，我们提出了一种双采样算法，用于训练深度玻尔兹曼机，以对辅助层的条件采样替代难以处理的边缘化计算。该方法使得稀疏深度模型的训练成为可能，并相较于浅层网络提高了参数效率。利用该算法，我们成功训练了包含35×35（1225个自旋）系统的深度玻尔兹曼机。综上所述，这些结果表明，概率硬件能够克服量子多体系统变分模拟中的采样瓶颈，为更大规模系统和更深变分架构的研究开辟了道路。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "CellSecInspector: Safeguarding Cellular Networks via Automated Security Analysis on Specifications",
+    "authors": "Ke Xie, Xingyi Zhao, Yiwen Hu, Munshi Saifuzzaman, Wen Li, Shuhan Yuan, Tian Xie, Guan-Hua Tu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2512.24682v1",
+    "source": "arXiv",
+    "abstract": "The complexity, interdependence, and rapid evolution of 3GPP specifications present fundamental challenges for ensuring the security of modern cellular networks. Manual reviews and existing automated approaches, which often depend on rule-based parsing or small sets of manually crafted security requirements, fail to capture deep semantic dependencies, cross-sentence/clause relationships, and evolving specification behaviors. In this work, we present CellSecInspector, an automated framework for security analysis of 3GPP specifications. CellSecInspector extracts structured state-condition-action (SCA) representations, models mobile network procedures with comprehensive function chains, systematically validates them against 9 foundational security properties under 4 adversarial scenarios, and automatically generates test cases. This end-to-end pipeline enables the automated discovery of vulnerabilities without relying on manually predefined security requirements or rules. Applying CellSecInspector to the well-studied 5G and 4G NAS and RRC specifications, it discovers 43 vulnerabilities, 8 of which are previously unreported. Our findings show that CellSecInspector is a scalable, adaptive, and effective solution to assess 3GPP specifications for safeguarding operational and next-generation cellular networks.",
+    "title_zh": "CellSecInspector：通过在规范上进行自动化安全分析来保护蜂窝网络",
+    "abstract_zh": "3GPP规范的复杂性、相互依赖性和快速演进，为确保现代蜂窝网络的安全性带来了根本性的挑战。手动审查和现有的自动化方法通常依赖基于规则的解析或少量人工编写的安全需求，难以捕捉深层语义依赖、跨句子/条款的关系以及不断演变的规范行为。在本研究中，我们提出了CellSecInspector，一种用于3GPP规范安全分析的自动化框架。CellSecInspector能够提取结构化的状态-条件-动作（SCA）表示，通过全面的功能链对移动网络流程进行建模，系统性地在4种对抗场景下验证其是否符合9项基础安全属性，并自动生成测试用例。这一端到端的流水线无需依赖人工预定义的安全需求或规则，即可实现漏洞的自动发现。将CellSecInspector应用于广泛研究的5G和4G NAS及RRC规范后，共发现了43个漏洞，其中8个为此前未被报告的新漏洞。我们的研究结果表明，CellSecInspector是一种可扩展、自适应且高效的解决方案，可用于评估3GPP规范，以保护现网运行及下一代蜂窝网络的安全。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "A Tale of 1001 LoC: Potential Runtime Error-Guided Specification Synthesis for Verifying Large-Scale Programs",
+    "authors": "Zhongyi Wang, Tengjie Lin, Mingshuai Chen, Haokun Li, Mingqi Yang, Xiao Yi, Shengchao Qin, Yixing Luo, Xiaofeng Li, Bin Gu, Liqiang Lu, Jianwei Yin",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2512.24594v1",
+    "source": "arXiv",
+    "abstract": "Fully automated verification of large-scale software and hardware systems is arguably the holy grail of formal methods. Large language models (LLMs) have recently demonstrated their potential for enhancing the degree of automation in formal verification by, e.g., generating formal specifications as essential to deductive verification, yet exhibit poor scalability due to long-context reasoning limitations and, more importantly, the difficulty of inferring complex, interprocedural specifications. This paper presents Preguss -- a modular, fine-grained framework for automating the generation and refinement of formal specifications. Preguss synergizes between static analysis and deductive verification by steering two components in a divide-and-conquer fashion: (i) potential runtime error-guided construction and prioritization of verification units, and (ii) LLM-aided synthesis of interprocedural specifications at the unit level. We show that Preguss substantially outperforms state-of-the-art LLM-based approaches and, in particular, it enables highly automated RTE-freeness verification for real-world programs with over a thousand LoC, with a reduction of 80.6%~88.9% human verification effort.",
+    "title_zh": "千行代码的故事：基于潜在运行时错误引导的规范合成以验证大规模程序",
+    "abstract_zh": "对大规模软件和硬件系统进行全自动验证可以说是形式化方法的终极目标。近年来，大语言模型（LLM）已展现出提升形式化验证自动化程度的潜力，例如通过生成用于演绎验证的关键形式化规约。然而，由于长上下文推理能力有限，更重要的是难以推断复杂且跨过程的规约，现有方法在可扩展性方面表现不佳。本文提出了Preguss——一种模块化、细粒度的框架，用于自动化生成和优化形式化规约。Preguss通过静态分析与演绎验证的协同作用，以分而治之的方式协调两个核心组件：（i）基于潜在运行时错误引导的验证单元构建与优先级排序；（ii）借助大语言模型在单元级别合成跨过程规约。实验表明，Preguss显著优于当前最先进的基于大语言模型的方法，尤其能够实现对千行代码以上真实程序的高度自动化运行时错误无关性（RTE-freeness）验证，减少80.6%至88.9%的人工验证工作量。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "Optimal Test Case Selection for On-Target Embedded Testing",
+    "authors": "Varsha Peringothara Suresh, Farsana Shajahan, Sabitha S",
+    "publish": "2025 Seventeenth International Conference on Contemporary Computing (IC3)",
+    "url": "https://doi.org/10.1109/ic366947.2025.11290160",
+    "source": "IEEE",
+    "abstract": "On-target testing is unavoidable in the validation and verification process of embedded software. The presence of false positives or redundant test case data can lead to increased testing time and effort, and thus to an increase in the overall cost of testing. This paper addresses the challenge of generating optimal test case data for embedded software by proposing a table-based technique to select promising test data based on target branch coverage. The approach is implemented and integrated with the software testing and debugging tool, KLEE. The implementation is evaluated for its performance on a small set of benchmarks from the literature and it is observed that the approach demonstrates a reduction of test cases for selected benchmarks without loss of target branch coverage. The methodology substantially improves the testing efficiency for embedded systems.",
+    "title_zh": "面向目标嵌入式测试的最优测试用例选择",
+    "abstract_zh": "在嵌入式软件的验证与确认过程中，基于目标硬件的测试是不可避免的。误报或冗余的测试用例数据可能导致测试时间和工作量增加，从而提高整体测试成本。本文针对嵌入式软件生成最优测试用例数据的挑战，提出了一种基于表格的技术，通过目标分支覆盖率来选择有前景的测试数据。该方法已实现，并集成到软件测试与调试工具KLEE中。通过对文献中一小部分基准程序进行性能评估，结果表明，该方法在不降低目标分支覆盖率的前提下，减少了所选基准的测试用例数量。该方法显著提高了嵌入式系统的测试效率。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "Methodical Detection of Silent Data Errors from Foundry to Fleet",
+    "authors": "Manu Shamsa, David Lerner, Arani Sinha, Thiago Macieira, Yogesh Varma",
+    "publish": "IEEE Micro",
+    "url": "https://doi.org/10.1109/mm.2025.3646615",
+    "source": "IEEE",
+    "abstract": "Silent Data Errors (SDE) represent a significant challenge for at-scale computing infrastructure because of their potential to cause data loss or data corruption. Identifying and removing the defective devices prone to SDE before they affect customer workloads is crucial. However, detecting these events is challenging due to their subtle nature and the specific conditions required for them to occur. In this work we investigate the underlying defect mechanisms responsible for SDE and formulate an end-to-end framework for efficient detection, estimation of quality metrics, and use of fault models to capture marginal defects that may cause SDE. Silicon defect characterization, enhancements to manufacturing test and system level test, use of SDE estimation metrics, and use of reinforcement learning are discussed, along with in-field testing for detection of latent defects and wear-out that may manifest as SDE.",
+    "title_zh": "从晶圆厂到车队的静默数据错误系统性检测方法",
+    "abstract_zh": "静默数据错误（SDE）由于可能导致数据丢失或数据损坏，对于大规模计算基础设施构成了重大挑战。在这些错误影响客户工作负载之前，识别并移除易发生SDE的有缺陷设备至关重要。然而，由于SDE具有隐蔽性且仅在特定条件下才会发生，因此检测这类事件十分困难。在本研究中，我们探讨了导致SDE的根本缺陷机制，并构建了一个端到端的框架，用于高效地检测SDE、评估质量指标，并利用故障模型捕捉可能引发SDE的边缘性缺陷。本文讨论了硅缺陷表征、制造测试和系统级测试的改进、SDE估计指标的应用，以及强化学习的使用，同时还涵盖了现场测试，以检测可能表现为SDE的潜在缺陷和老化问题。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "ASIC Implementation of 5-Stage Pipelined RISC-Vprocessor with 4-Stage Pipelined Multiply Unit using Openlane",
+    "authors": "Pankaj Nair V. M., P. Jayakrishnan",
+    "publish": "2025 Innovations in Power and Advanced Computing Technologies (i-PACT)",
+    "url": "https://doi.org/10.1109/i-pact65952.2025.11307852",
+    "source": "IEEE",
+    "abstract": "The paper presents the ASIC implementation of a 32-bit, in-order, 5-stage pipelined RISC-V processor compliant with the RV32IM Instruction Set Architecture (ISA). The processor adopts a hybrid control logic scheme combining onehot and binary encoding to optimize control complexity and area efficiency. A notable enhancement is the introduction of arithmetic pipelining within the multiply unit, which improves the throughput of multiplication operations. The design was described in Verilog HDL and functionally verified using ModelSim to ensure correctness prior to synthesis. Physical implementation was carried out using the OpenLane open-source EDA toolchain, targeting the SkyWater 130nm process design kit (SKY130 PDK). The ASIC flow included synthesis, floorplanning, placement, clock tree synthesis, and routing. Post-layout analysis reports a maximum operating frequency of 100 MHz, a total power consumption of 36.1 mW, and a core area of <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$272,563 \\mu^{2}$</tex>, with <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{5 5 \\%}$</tex> utilization. The work demonstrates an efficient, lightweight RISC-V processor implementation and highlights a complete open-source ASIC design flow from RTL to GDSII.",
+    "title_zh": "使用OpenLane实现带有4级流水线乘法单元的5级流水线RISC-V处理器的ASIC设计",
+    "abstract_zh": "本文提出了一种符合RV32IM指令集架构（ISA）的32位、按序执行、五级流水线RISC-V处理器的ASIC实现。该处理器采用结合了独热码（onehot）和二进制编码的混合控制逻辑方案，以优化控制复杂度和面积效率。一个显著的改进是在乘法单元中引入了算术流水线，从而提升了乘法操作的吞吐量。设计使用Verilog HDL进行描述，并通过ModelSim进行功能验证，以确保综合前的正确性。物理实现采用开源EDA工具链OpenLane，基于SkyWater 130nm工艺设计套件（SKY130 PDK）。ASIC流程包括综合、布局规划、放置、时钟树综合和布线。布局后分析结果显示最高工作频率为100 MHz，总功耗为36.1 mW，核心面积为272,563 μ²，利用率高达55%。本工作展示了一种高效、轻量级的RISC-V处理器实现，并完整呈现了从RTL到GDSII的开源ASIC设计流程。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "Research on Functional Safety Development and Testing Methods of PCU System for HEV",
+    "authors": "Yue Fu, Hang Sun, Bowen Yin, Bo Li, Hanbing Wu, Bin Wang",
+    "publish": "2025 International Conference on Applied Electrical Engineering and Technology (AEET)",
+    "url": "https://doi.org/10.1109/aeet66561.2025.11307117",
+    "source": "IEEE",
+    "abstract": "The power control unit (PCU) is the most important electrical and/or electronic (E/E) system of Hybrid Electrical Vehicle (HEV), the functional safety technology level of PCU system directly affects the vehicle safety. Based on the methodology of ISO 26262, this paper describes the item definition, hazard analysis and risk assessment, safety goal, functional safety requirement, technical safety requirement and gives an example of verification method by fault injection test. This paper provides reference for functional safety development of PCU system.",
+    "title_zh": "混合动力汽车PCU系统功能安全开发与测试方法研究",
+    "abstract_zh": "功率控制单元（PCU）是混合动力电动汽车（HEV）中最重要的电气和/或电子（E/E）系统，其功能安全技术水平直接影响车辆的安全性。本文基于ISO 26262标准的方法论，阐述了项目的定义、危害分析与风险评估、安全目标、功能安全要求、技术安全要求，并通过故障注入测试给出了验证方法的示例，为PCU系统的功能安全开发提供了参考。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "EHKEA: A Lightweight and Secure Authentication Protocol for Healthcare Iot Systems in 5G Networks with Enhanced Resistance to Emerging Threats",
+    "authors": "Younes-Amine Loutfi, Marc Frappier, Brahim EL Bhiri, Pierre Martin Tardif, Mohammed Raiss El Fenni",
+    "publish": "2025 12th International Conference on Wireless Networks and Mobile Communications (WINCOM)",
+    "url": "https://doi.org/10.1109/wincom65874.2025.11313427",
+    "source": "IEEE",
+    "abstract": "Secure authentication remains a critical challenge in healthcare IoT (H-IoT) systems, where constrained devices must ensure data integrity, privacy, and resilience despite limited resources. This paper proposes EHKEA, a lightweight mutual authentication and key establishment protocol designed specifically for H-IoT environments. EHKEA relies solely on symmetric cryptographic primitives and ephemeral randomness to provide mutual authentication, forward secrecy and resistance to common attacks such as replay, impersonation, and man-in-the-middle intrusions. We formally verify EHKEA in the Tamarin prover under the Dolev-Yao adversary model, proving key security properties including injective agreement and session key secrecy. A detailed informal analysis further confirms its robustness against desynchronization, insider threats, and key compromise impersonation. Comparative analysis with recent H-IoT protocols demonstrates that EHKEA achieves superior efficiency while offering stronger security guarantees, making it well-suited for deployment in real-time healthcare monitoring applications.",
+    "title_zh": "EHKEA：一种轻量级且安全的认证协议，用于5G网络中具有增强抗新兴威胁能力的医疗物联网系统",
+    "abstract_zh": "在医疗物联网（H-IoT）系统中，安全认证仍然是一个关键挑战，受限设备必须在资源有限的情况下确保数据完整性、隐私性和抗攻击能力。本文提出了一种名为EHKEA的轻量级双向认证与密钥建立协议，专为H-IoT环境设计。EHKEA仅依赖对称加密原语和临时随机性，实现双向认证、前向保密，并能够抵御重放攻击、伪装攻击以及中间人入侵等常见攻击。我们在Dolev-Yao攻击者模型下使用Tamarin证明工具对EHKEA进行了形式化验证，证明了其关键安全属性，包括注入性协议一致性（injective agreement）和会话密钥保密性。详细的非形式化分析进一步证实了该协议在面对失步攻击、内部威胁以及密钥泄露伪装攻击时的鲁棒性。与近期H-IoT协议的对比分析表明，EHKEA在提供更强安全保证的同时实现了更高的效率，因此非常适合部署于实时健康监测应用中。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "Towards Verification of Spiking Neural Networks for Next-Generation AI Systems",
+    "authors": "Sruti Goswami, Ansuman Banerjee, Swarup K. Mohalik",
+    "publish": "Companion Proceedings of the 27th International Conference on Distributed Computing and Networking",
+    "url": "https://doi.org/10.1145/3737611.3776948",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向下一代人工智能系统的脉冲神经网络验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "Secure-by-Design Hardware Architecture for Real-Time IoT with Cycle-Bounded Trust and Redundancy-Aware Sensor Fusion",
+    "authors": "Maitham Al-Rubaye, Atakan Aral",
+    "publish": "Proceedings of the 18th IEEE/ACM International Conference on Utility and Cloud Computing",
+    "url": "https://doi.org/10.1145/3773274.3774264",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向实时物联网的周期约束可信与冗余感知传感器融合的安全设计硬件架构",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "CFU Proving Ground: a Hardware/Software Co-Design Framework for Leveraging a Custom Function Unit and RISC-V Custom Instructions",
+    "authors": "Aoba Fujino, Kenji Kise",
+    "publish": "2025 IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
+    "url": "https://doi.org/10.1109/mcsoc67473.2025.00040",
+    "source": "IEEE",
+    "abstract": "The mismatches between hardware and software often prolong the development time of application-specific instruction-set processors (ASIPs). While hardware/software codesign approaches have improved development environments, challenges remain regarding usability and flexibility. This research proposes CFU Proving Ground, a hardware/software codesign framework targeting FPGAs that improves performance by leveraging a custom function unit (CFU) as an accelerator. This framework supports agile ASIP development through the design flow of register transfer level and a resource-efficient CFU that supports RISC-V custom instructions. It enhances usability and flexibility by providing lightweight libraries, explicit file dependencies, and flexible memory mapping. We discuss the effectiveness of our framework based on evaluation results using a low-cost FPGA board.",
+    "title_zh": "CFU测试平台：一种利用自定义功能单元和RISC-V自定义指令的硬件/软件协同设计框架",
+    "abstract_zh": "硬件与软件之间的不匹配常常延长了专用指令集处理器（ASIP）的开发周期。尽管软硬件协同设计方法已改善了开发环境，但在可用性和灵活性方面仍存在挑战。本研究提出了一种面向FPGA的软硬件协同设计框架——CFU试验场（CFU Proving Ground），该框架通过采用自定义功能单元（CFU）作为加速器来提升性能。该框架通过寄存器传输级的设计流程和资源高效的、支持RISC-V自定义指令的CFU，支持敏捷的ASIP开发。同时，它通过提供轻量级库、明确的文件依赖关系以及灵活的内存映射机制，增强了系统的可用性和灵活性。我们基于低成本FPGA开发板的评估结果，讨论了该框架的有效性。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "Dynamic Fuzzing-Based Whole-System Timing Analysis",
+    "authors": "Alwin Berger, Simon Schuster, Peter Wägemann, Peter Ulbrich",
+    "publish": "2025 IEEE Real-Time Systems Symposium (RTSS)",
+    "url": "https://doi.org/10.1109/rtss66672.2025.00041",
+    "source": "IEEE",
+    "abstract": "Worst-case timing analysis traditionally begins with estimating the worst-case execution time (WCET) of individual tasks using either static analysis or measurement-based techniques. To derive worst-case response times (WCRTs), engineers typically compose these WCETs with bounds on preemption and operating system overheads. However, WCRTs depend on complex system-level interactions, including task communication, OS behavior, and asynchronous events. Compositional analysis often overestimates, assuming that worst-case conditions across components coincide, admitting infeasible global control-flow paths. whole-system Static techniques refine this by modeling the system holistically but require platform-specific tailoring or extensive annotations. A dynamic equivalent has been missing. We present Fret, the first dynamic whole-system approach for estimating WCRTs. Fret employs feedback-guided fuzzing to uncover timing-critical dependencies, including inter-task communication, task/OS interactions, and interrupt effects, without requiring prior knowledge of inputs or states. Implemented using LibAFL and evaluated on FreeRTOS with realistic benchmarks, FRET consistently outperforms state-of-the-art fuzzing strategies in estimating accurate response times. Although not sound, Fret delivers more than timing estimates: it produces actionable artifacts-worst-case inputs, interrupt schedules, and intertask program-flow information-that complement static analyses and support system validation, runtime monitoring, and robust mixed-criticality scheduling.",
+    "title_zh": "基于动态模糊测试的全系统时序分析",
+    "abstract_zh": "最坏情况时序分析传统上首先通过静态分析或基于测量的技术来估算单个任务的最坏执行时间（WCET）。为了推导出最坏响应时间（WCRT），工程师通常将这些WCET与抢占和操作系统开销的边界组合起来进行计算。然而，WCRT依赖于复杂的系统级交互，包括任务间通信、操作系统行为以及异步事件等。组合式分析往往会产生高估，因为它假设各个组件的最坏情况同时发生，从而引入了不可行的全局控制流路径。全系统静态技术通过整体建模系统来改进这一问题，但需要针对特定平台定制或大量注解。而相应的动态方法一直缺失。\n\n本文提出了Fret，这是首个用于估计WCRT的动态全系统方法。Fret采用反馈引导的模糊测试技术，自动发现影响时序的关键依赖关系，包括任务间通信、任务与操作系统的交互以及中断效应，且无需事先了解输入或系统状态。我们基于LibAFL实现了Fret，并在FreeRTOS平台上使用真实基准进行了评估。结果表明，Fret在准确估计响应时间方面始终优于当前最先进的模糊测试策略。尽管Fret不具备完备性（soundness），但它提供的不仅仅是时序估算结果：它还能生成具有实际价值的产物——最坏情况下的输入、中断调度序列以及任务间的程序执行路径信息。这些产物可补充静态分析，支持系统验证、运行时监控以及鲁棒的混合关键性调度。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "Bridging Cryptographic Robustness and Hardware Efficiency: A Comprehensive Analysis of S-Box Design Methodologies for SoC Integration",
+    "authors": "Maitri Iyer, Jai Gopal Pandey",
+    "publish": "2025 IEEE 18th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
+    "url": "https://doi.org/10.1109/mcsoc67473.2025.00127",
+    "source": "IEEE",
+    "abstract": "Symmetric-key cryptosystems depend on substitution boxes (S-boxes) for their main source of nonlinearity to enhance security against cryptanalysis. However, the design of S-boxes presents a fundamental challenge of balancing cryptographic properties with resource-efficient hardware implementation. The proposed article provides a comprehensive analysis of the design methodologies of contemporary S-boxes. It categorizes mathematically constructed, heuristic approaches to combinational logic and lookup table-based implementations. These methodologies are evaluated considering both classic security metrics such as nonlinearity and differential uniformity and crucial hardware efficiency metrics including area (gate count), circuit depth, and multiplicative complexity. Furthermore, the paper synthesizes the major open challenges in the field, such as the escalating complexity of achieving resistance against sidechannel attacks and the demanding constraints of lightweight cryptography. Finally, we outline promising future research directions, emphasizing the growing role of automation, machine learning, and application-specific co-design in advancing the development of secure and efficient S-boxes for next-generation computing systems.",
+    "title_zh": "在密码学安全性与硬件效率之间架起桥梁：面向片上系统集成的S盒设计方法综合分析",
+    "abstract_zh": "对称密钥密码系统依赖于代换盒（S盒）提供主要的非线性来源，以增强抵御密码分析的安全性。然而，S盒的设计面临一个根本性挑战，即在密码学特性与资源高效的硬件实现之间取得平衡。本文对当代S盒的设计方法进行了全面分析，将其分为基于数学构造的方法和启发式方法，并进一步分类为组合逻辑实现和查找表实现。这些方法从经典安全指标（如非线性度和差分均匀性）以及关键的硬件效率指标（包括面积（门数）、电路深度和乘法复杂度）两个方面进行评估。此外，本文还总结了该领域的主要开放性挑战，例如抵抗侧信道攻击的复杂性日益增加，以及轻量级密码学所面临的严苛约束。最后，文章展望了未来有前景的研究方向，强调自动化、机器学习以及面向应用的协同设计在推动下一代计算系统中安全高效S盒发展方面日益重要的作用。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "Security Vulnerabilities in Unmanned Aerial Vehicle Systems: A Case Study of Ardupilot",
+    "authors": "Abdullah Al-Boghdady, Mohammad El-Ramly, Basheer Youssef, Khaled Wassif",
+    "publish": "2025 Twelfth International Conference on Intelligent Computing and Information Systems (ICICIS)",
+    "url": "https://doi.org/10.1109/icicis66182.2025.11313194",
+    "source": "IEEE",
+    "abstract": "Unmanned Aerial Vehicle (UAV) systems have become increasingly prominent in recent decades in both civilian and military applications, owing to their ability to perform a wide range of complex tasks quickly and accurately. The software architecture of UAVs is inherently complex, requiring coordinated management of hardware, software, communications, and sensors, along with integration of advanced technologies like the Internet of Things. As a result, UAV systems face significant security and privacy challenges. They are frequently viewed as attractive targets for malicious actors and remain vulnerable to diverse attacks that threaten data confidentiality, integrity, and availability. This paper presents a pilot analytical study of security vulnerabilities in UAV systems by examining the growth rate and density of security related-errors measured as the number of errors per 1K physical Source Lines of Code (SLoC) across four releases of the ArduPilot system. To identify these vulnerabilities, a static analysis tool, Cppcheck, was applied to detect weaknesses categorized under the Common Weakness Enumeration (CWE). In addition, the study explores the evolutionary properties of UAV systems using the CodeScene tool, aiming to establish how these properties correlate with the presence of security vulnerabilities. The findings show that ArduPilot exhibits a consistently high rate of source code vulnerabilities across the analyzed versions. The most frequently detected vulnerabilities were CWE-398, CWE-563, and CWE-758. Overall, this work advances the comprehension of UAV system security by providing detailed analytical insights into source code vulnerabilities, thereby serving as a guiding resource for future research and secure UAV development.",
+    "title_zh": "无人机系统中的安全漏洞：以Ardupilot为例的案例研究",
+    "abstract_zh": "近年来，由于无人机（UAV）系统能够快速、准确地执行多种复杂任务，其在民用和军用领域的应用日益广泛。无人机的软件架构本身具有高度复杂性，需要协调管理硬件、软件、通信和传感器，并集成物联网等先进技术。因此，无人机系统面临着严峻的安全与隐私挑战。它们常常成为恶意攻击者的目标，容易遭受各种威胁数据机密性、完整性和可用性的攻击。本文开展了一项初步的分析研究，通过考察开源飞控系统ArduPilot四个版本中每1千行物理源代码（SLoC）所包含的安全相关错误数量及其增长趋势与密度，分析无人机系统中的安全漏洞。为识别这些漏洞，本研究采用静态分析工具Cppcheck，检测属于通用缺陷枚举（CWE）分类的代码弱点。此外，研究还利用CodeScene工具探讨了无人机系统的演化特性，并分析这些特性与安全漏洞之间的关联。研究结果表明，在所分析的各个版本中，ArduPilot始终表现出较高的源代码漏洞率。其中最常见的漏洞类型为CWE-398、CWE-563和CWE-758。总体而言，本研究通过深入分析源代码层面的安全漏洞，增进了对无人机系统安全性的理解，为未来的研究及安全的无人机系统开发提供了有益的指导。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "Work-in-Progress: An Open-Source Evaluation Framework for Time-Sensitive Networking Scheduling Research",
+    "authors": "Chuanyu Xue, Elaine Hu, Tianyu Zhang, Song Han",
+    "publish": "2025 IEEE Real-Time Systems Symposium (RTSS)",
+    "url": "https://doi.org/10.1109/rtss66672.2025.00064",
+    "source": "IEEE",
+    "abstract": "Reproducing and extending research on TimeSensitive Networking (TSN) scheduling has become increasingly challenging, as most published methods lack open-source implementations. The few available implementations are often scattered across different programming languages and formats, forcing researchers to reimplement algorithms from scratch—a time-consuming and error-prone process that hinders fair comparison of methods and slows research progress. In this work, we present TSNKit, an open-source toolkit designed to address these challenges through: (i) standardized implementations of a broad set of representative scheduling algorithms with unified interfaces for integrating new methods; (ii) an end-to-end pipeline covering test case generation, scheduling, and simulation-based validation; and (iii) comprehensive benchmarking modules for reproducible performance evaluation. TSNKit enables researchers to reproduce published results, extend existing methods, and perform fair comparisons across algorithms. Our ongoing work extends TSNKit to support multiple traffic shapers beyond Time-Aware Shaping (TAS), improve benchmark efficiency through enhanced scheduling heuristics, and incorporate hardware-in-the-loop capabilities for seamless real-world deployment.",
+    "title_zh": "进行中：一个用于时间敏感网络调度研究的开源评估框架",
+    "abstract_zh": "在时间敏感网络（TSN）调度领域的研究复现与扩展正变得日益困难，因为大多数已发表的方法缺乏开源实现。少数可用的实现通常分散在不同的编程语言和格式中，迫使研究人员从头开始重新实现算法——这一过程耗时且容易出错，阻碍了方法之间的公平比较，并减缓了研究进展。本文提出TSNKit，一个旨在应对这些挑战的开源工具包，其主要特点包括：（i）对一系列代表性调度算法进行标准化实现，并提供统一接口以方便集成新方法；（ii）端到端的完整流程，涵盖测试用例生成、调度求解以及基于仿真的验证；（iii）全面的基准测试模块，支持可复现的性能评估。TSNKit使研究人员能够复现已有研究成果、扩展现有方法，并在不同算法之间进行公平比较。我们正在进行的工作将进一步扩展TSNKit，以支持除时间感知整形（TAS）之外的多种流量整形机制，通过改进调度启发式策略提升基准测试效率，并引入硬件在环功能，实现向真实场景的无缝部署。"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "Scalable Coverage Simulation Workflow for Formation-Flying Satellite Phased Arrays",
+    "authors": "Tengis Buyantogtokh, Akira Uchiyama, Akihito Hiromori, Hirozumi Yamaguchi, Genma Hattori, Sou Ema, Sumio Morioka, Takahiro Inagawa",
+    "publish": "Companion Proceedings of the 27th International Conference on Distributed Computing and Networking",
+    "url": "https://doi.org/10.1145/3737611.3776966",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "可扩展的编队飞行卫星相控阵覆盖仿真工作流程",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "IC3 2025 Author Index",
+    "authors": "N/A",
+    "publish": "2025 Seventeenth International Conference on Contemporary Computing (IC3)",
+    "url": "https://doi.org/10.1109/ic366947.2025.11290124",
+    "source": "IEEE",
+    "abstract": null,
+    "title_zh": "IC3 2025 作者索引",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2025-12-31",
+    "title": "Hamming Distance aware Fault Analysis for LTLBC",
+    "authors": "Yusuke Nozaki, Shu Takemoto, Masaya Yoshikawa",
+    "publish": "2025 IEEE International Conference on Smart Internet of Things (SmartIoT)",
+    "url": "https://doi.org/10.1109/smartiot66867.2025.00047",
+    "source": "IEEE",
+    "abstract": "Low-latency lightweight cryptography is attracting attention as a promising security solution for Internet of Things (IoT) devices. LTLBC is a low-latency lightweight cryptography introduced in 2024, which has a smaller circuit size and lower latency than conventional cryptographic algorithms. These cryptographic algorithms ensure computational security. However, risks such as fault analysis using information from cryptographic hardware implementations have been reported, and it is important to evaluate the tamper resistance (security) against this analysis. Therefore, this study evaluates the security of LTLBC against fault analysis. Experimental results show that all subkeys can be recovered with as few as 20 ciphertext pairs when the fault injection probability is 20%.",
+    "title_zh": "面向LTLBC的汉明距离感知故障分析",
+    "abstract_zh": "低延迟轻量级密码学作为一种有前景的物联网（IoT）设备安全解决方案，正受到越来越多的关注。LTLBC 是 2024 年提出的一种低延迟轻量级密码算法，相较于传统密码算法具有更小的电路规模和更低的延迟。这些密码算法可确保计算安全性。然而，已有报告指出，存在利用密码硬件实现中信息进行故障分析等安全风险，因此评估其针对此类分析的抗篡改能力（安全性）至关重要。为此，本研究对 LTLBC 抵抗故障分析的安全性进行了评估。实验结果表明，当故障注入概率为 20% 时，仅需约 20 组密文对即可恢复所有子密钥。"
+  }
+]
