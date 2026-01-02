@@ -1,0 +1,178 @@
+[
+  {
+    "date": "2026-1-1",
+    "title": "Hardware Design and Side-Channel Security Analysis on the Key Computational Block for YOLOv11",
+    "authors": "Runquan Shao, Liji Wu, Jing Hu, Le Wu, Xiangmin Zhang",
+    "publish": "2025 10th International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "url": "https://doi.org/10.1109/icicm66614.2025.11316014",
+    "source": "IEEE",
+    "abstract": "YOLO (You Only Look Once) algorithm plays a crucial role in autonomous vehicles and medical imaging, which require a large number of object detection and image classification tasks because of its advantages of speed and accuracy on edge device. However, due to the intrinsic high computational workload of YOLO model, it is still challenging when implementing large models on the embedded device, especially the latest version YOLOv11. In this paper, we propose the hardware design based on time-division multiplexing of the key computational block C3k2 which is most used in YOLOv11 on FPGA. Firstly, we extend a fast convolution (Conv) algorithm to our Conv layer. Secondly, the batch normalization (BN) layer has been significantly optimized, especially in the stage of calculating the mean and variance. Finally, a Sigmoid Linear Unit (SiLU) activation function in the form of a piecewise function will appear completely in the form of time-division multiplexing, which will greatly reduce the consumption of resources. Experimental results show that our design can achieve a 0.19 ms delay on an AMD artix-7 xc7a35tftg256 FPGA under the working frequency of 50 MHz, while the average relative error is 1.67%. Furthermore, we use the cw305 board, which can extract power information, to implement a simple power analysis (SPA) on C3k2 block and the SiLU. The information within the hardware design was successfully analyzed, such as the number of runs and input data information.",
+    "title_zh": "YOLOv11关键计算模块的硬件设计与侧信道安全分析",
+    "abstract_zh": "YOLO（You Only Look Once）算法因其在边缘设备上具备速度快、精度高的优势，在自动驾驶和医学影像等领域发挥着重要作用，这些领域需要大量进行目标检测与图像分类任务。然而，由于YOLO模型本身计算量巨大，将其大型模型部署到嵌入式设备上仍面临挑战，尤其是最新版本的YOLOv11。本文提出了一种基于现场可编程门阵列（FPGA）的硬件设计，针对YOLOv11中使用最频繁的关键计算模块C3k2，采用时分复用技术进行优化。首先，我们将一种快速卷积（Conv）算法扩展应用于卷积层中；其次，对批归一化（BN）层进行了显著优化，特别是在均值和方差计算阶段；最后，将Sigmoid线性单元（SiLU）激活函数以分段函数形式实现，并完全采用时分复用方式，大幅降低了资源消耗。实验结果表明，在50 MHz工作频率下的AMD Artix-7 xc7a35tftg256 FPGA平台上，本设计可实现0.19毫秒的延迟，平均相对误差仅为1.67%。此外，我们利用可提取功耗信息的cw305开发板，对C3k2模块和SiLU单元进行了简单的功耗分析（SPA），成功解析出硬件设计中的运行次数、输入数据等关键信息。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "Design and Implementation of a Secure Boot RISC-V Processor for IoT Devices",
+    "authors": "Zeyu Li, Liji Wu, Jing Hu, Han Sun, Xiangmin Zhang, Haijie Wang",
+    "publish": "2025 10th International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "url": "https://doi.org/10.1109/icicm66614.2025.11315911",
+    "source": "IEEE",
+    "abstract": "The open-source RISC-V instruction set provides a new direction for China to establish an autonomous and controllable IoT ecosystem. At the same time, the IoT devices face the security threat of firmware tampering. Aiming at these problems, this paper provides a low-power pipelined processor based on RISC-V architecture that supports secure boot, which supports RV32IM instruction set, fast interrupt response and dynamic pipeline control. In the meantime, the secure boot mechanism of the processor is designed based on the Chinese commercial cryptographic algorithm SM3, when the boot file BootCode is tampered with, the processor is prevented from booting by a hardware-level blocking mechanism. The design passes the instruction set and secure boot functionality tests and it is verified on an FPGA board, the results show that the total utilization of logic lookup tables(LUT) is 22827, accounting for 19.5% of the total resources, while the average startup time of the system is 49.35 ms, without causing large resource and time overhead, it is suitable for resource-constrained IoT devices and providing a guarantee of autonomy and security for China’s RISC-V ecosystem at the same time.",
+    "title_zh": "面向物联网设备的安全启动RISC-V处理器的设计与实现",
+    "abstract_zh": "开源的RISC-V指令集为中国构建自主可控的物联网生态系统提供了新的方向。与此同时，物联网设备面临着固件篡改的安全威胁。针对上述问题，本文设计了一款基于RISC-V架构的支持安全启动的低功耗流水线处理器，该处理器支持RV32IM指令集、快速中断响应以及动态流水线控制。同时，处理器的安全启动机制基于中国商用密码算法SM3设计，当启动文件BootCode被篡改时，硬件级阻断机制将阻止处理器启动。该设计通过了指令集和安全启动功能测试，并在FPGA开发板上完成验证。结果表明，逻辑查找表（LUT）总占用量为22827，占总资源的19.5%，系统平均启动时间为49.35毫秒，在未造成较大资源与时间开销的前提下，适用于资源受限的物联网设备，同时为中国RISC-V生态系统的自主性与安全性提供了保障。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "Modeling Risk Assessment in IC Supply Chains under Hardware Trojan Attacks Using Prospect Theory",
+    "authors": "Satyaki Nan",
+    "publish": "MILCOM 2025 - 2025 IEEE Military Communications Conference (MILCOM)",
+    "url": "https://doi.org/10.1109/milcom64451.2025.11310390",
+    "source": "IEEE",
+    "abstract": "Hardware Trojans (HTs) pose significant threats to Integrated Circuits (ICs), particularly when test procedures are outsourced to potentially malicious third parties. Traditional detection approaches often fail under stealthy, dynamic adversaries, such as malicious testers who behave honestly during most sessions and deviate intermittently, executing so-called On-Off attacks. This paper proposes a trust evaluation framework that moves beyond individual test outcomes and instead assesses the trustworthiness of aggregate test data over time. Our model uses Bayesian inference with ternary anomaly feedback (detected, not detected, and uncertain) to estimate belief states. A prospect-theoretic utility function captures varying system risk tolerances, enabling application-aware trust assessment. To counter on-off attacks, we introduce an asymmetric weighted moving average (AWMA) scheme that penalizes abrupt deviations more than rewards cooperative behavior. Simulation results demonstrate that our framework reliably detects transient threats, adapts to imperfect anomaly detection, and reflects critical system-level trust requirements.",
+    "title_zh": "基于前景理论的硬件木马攻击下集成电路供应链风险评估建模",
+    "abstract_zh": "硬件木马（HTs）对集成电路（IC）构成了严重威胁，尤其是在测试流程被外包给潜在恶意第三方的情况下。传统的检测方法在面对隐蔽且动态的攻击者时往往失效，例如某些恶意测试人员在大多数测试过程中表现正常，仅间歇性地偏离规范行为，实施所谓的“开关式攻击”（On-Off attacks）。本文提出了一种信任评估框架，该框架不再局限于单次测试结果，而是着眼于随时间累积的测试数据整体可信度。我们的模型采用贝叶斯推理，结合三元异常反馈（检测到、未检测到、不确定）来估计信任状态。通过前景理论效用函数刻画系统对风险容忍度的差异，实现面向具体应用场景的信任评估。为应对开关式攻击，我们引入一种非对称加权移动平均（AWMA）机制，对突发性异常行为施加更重的惩罚，而对合作行为给予相对温和的奖励。仿真结果表明，所提框架能够可靠地检测瞬态威胁，适应异常检测不完美的实际情况，并准确反映关键的系统级信任需求。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "A Node Merging Algorithm Using Fault-Detection for XOR-Majority Network",
+    "authors": "Shijia Fan, Feifei Deng",
+    "publish": "2025 10th International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "url": "https://doi.org/10.1109/icicm66614.2025.11316049",
+    "source": "IEEE",
+    "abstract": "Recent advancements in emerging technology have spurred the development of novel electronic devices, such as Quantum-dot Cellular Automata (QCA) as a transistoralternative computing architecture, and Magnetic RandomAccess Memory (MRAM) as a next-generation storage medium. These technologies enable efficient implementations of XOR and majority logic, which offer superior expressiveness compared to traditional AND/OR logic. As a result, researchers have introduced new logical structures MIGs and XMGs, which pose more demands for digital logic synthesis. In this paper, we propose a node merging algorithm using fault detect model for XMGs logic synthesis, including building an optimal majority node and XOR node model using the path sensitivity method from single stuck-at fault model testing, activating and propagating faults among majority node and XOR nodes in the XMGs, and using ROBDD tree to compute and store the mandatory assignment sets for efficient storage. The algorithm is implemented in the C++ language under the framework of the EPFL logic synthesis tool. The experiment results show that the proposed algorithm can effectively reduce the depth and number of nodes of XMGs circuits when applied to the standard test circuit in EPFL, with an average optimization depth of 2.07% and an average optimization number of 0.91% in the 2-level verification, and can gain better optimization effect when the window sizes increase.",
+    "title_zh": "一种利用故障检测的异或多数网络节点合并算法",
+    "abstract_zh": "新兴技术的最新进展推动了新型电子器件的发展，例如以量子点细胞自动机（QCA）作为替代晶体管的计算架构，以及以磁阻随机存取存储器（MRAM）作为下一代存储介质。这些技术能够高效实现异或（XOR）和多数逻辑（majority logic），相较于传统的与/或（AND/OR）逻辑具有更强的表达能力。因此，研究人员提出了新的逻辑结构MIGs和XMGs，这对数字逻辑综合提出了更高要求。本文提出了一种基于故障检测模型的XMG逻辑综合节点合并算法，包括：利用单固定故障模型测试中的路径敏感性方法构建最优多数节点和异或节点模型；在XMG中激活并传播多数节点与异或节点之间的故障；以及使用ROBDD树计算并存储强制赋值集以实现高效存储。该算法在EPFL逻辑综合工具框架下采用C++语言实现。实验结果表明，将所提算法应用于EPFL标准测试电路时，可有效降低XMG电路的深度和节点数量，在两层验证中平均优化深度达2.07%，平均节点数优化率达0.91%；且随着窗口尺寸增大，优化效果更佳。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "Replicated Partitioning for Hypergraphs with Multiple Constraints",
+    "authors": "Kexin Zhang, Shunyang Bi, Jing Tang, Hailong You, Qiwang Chen",
+    "publish": "2025 10th International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "url": "https://doi.org/10.1109/icicm66614.2025.11316012",
+    "source": "IEEE",
+    "abstract": "Nowadays, with the explosive growth of circuit design complexity and the limited capacity of a single FPGA, the Multi-FPGA System (MFS) has become the primary solution to tackle the challenges brought by large-scale designs. Therefore, designing a suitable partition for MFS to reduce the total_hop has become a key research question affecting the overall system performance. This paper first combines replication and movement operations to optimizes the total hop by replicating appropriate gates. The experimental results show that our method can reduce the total hop by an average of 43%, effectively improving the partitioning performance.",
+    "title_zh": "具有多个约束的超图复制划分",
+    "abstract_zh": "如今，随着电路设计复杂性的爆炸式增长以及单个FPGA容量的限制，多FPGA系统（MFS）已成为应对大规模设计挑战的主要解决方案。因此，为MFS设计合适的划分以减少总跳数（total_hop），已成为影响系统整体性能的关键研究问题。本文首先结合复制和移动操作，通过复制适当的门电路来优化总跳数。实验结果表明，我们的方法平均可将总跳数降低43%，有效提升了划分性能。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "A DDR Controller Circuit Gate-level Post-simulation Method in SoC Design",
+    "authors": "Yande Jiang, Jingbo Ma, Guangda Zhang, Huiquan Wang, Bingxi Pei, Na Chen, Jian Fang",
+    "publish": "2025 10th International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "url": "https://doi.org/10.1109/icicm66614.2025.11316058",
+    "source": "IEEE",
+    "abstract": "As the complexity of System-on-Chip (SoC) designs increases, the gate-level post-simulation functional verification of SoCs has become increasingly critical. In addition, to enhance bandwidth, modern SoCs integrate high-performance DDR controller circuits. However, the gate-level post-simulation verification of DDR controllers in SoC designs demands substantial time and human resources. To address this challenge, we propose an efficient multi-level gate-level post-simulation methodology. To validate the proposed method, we design a SoC chip circuit which integrates 2 DDR4 controllers, 4 CPU cores, and employ the commercial Electronic Design Automatic (EDA) tools to obtain the DDR controller circuit netlist, and Standard Delay Format (SDF) files as the post-simulation input files. The experimental results demonstrate that our proposed multi-level gate-level post-simulation method achieves a $4 \\times$ speedup in functional post-simulation for the DDR controller circuit in SoC design, while also validating the effectiveness of the approach.",
+    "title_zh": "一种SoC设计中DDR控制器电路的门级后仿真方法",
+    "abstract_zh": "随着片上系统（SoC）设计复杂性的增加，SoC的门级后仿真功能验证变得日益关键。此外，为了提升带宽，现代SoC集成了高性能的DDR控制器电路。然而，对SoC设计中DDR控制器进行门级后仿真验证需要耗费大量时间和人力资源。为应对这一挑战，我们提出了一种高效的多层次门级后仿真方法。为验证所提方法的有效性，我们设计了一款集成2个DDR4控制器和4个CPU核心的SoC芯片电路，并使用商用电子设计自动化（EDA）工具生成DDR控制器电路的网表和标准延迟格式（SDF）文件作为后仿真的输入文件。实验结果表明，我们提出的多层次门级后仿真方法在SoC设计中的DDR控制器电路功能后仿真中实现了4倍的加速，同时验证了该方法的有效性。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "Unifying Generative and Classification-Based Relation Extraction via MCTS for nextG Protocol Formal Verification",
+    "authors": "Jingda Yang, Paul Ratazzi, Ying Wang",
+    "publish": "MILCOM 2025 - 2025 IEEE Military Communications Conference (MILCOM)",
+    "url": "https://doi.org/10.1109/milcom64451.2025.11310239",
+    "source": "IEEE",
+    "abstract": "Formal verification of domain-specific protocols, such as 5G RRC and emerging defense communication standards, is essential for ensuring system reliability. However, automated extraction of formal relationships remains challenging due to limited annotations, evolving terminology, and out-of-vocabulary (OOV) conditions. We propose a unified framework that integrates classification and generative models using Monte Carlo Tree Search (MCTS) as a search controller. MCTS navigates a hybrid search tree where classification (CAL) and generation (REBEL) correspond to orthogonal expansion paths, with a learned reward model guiding which reasoning strategy to apply at each step. This unified search structure enables the framework to balance the contextual flexibility of generative expansions with the precision of classification-based inferences. A reinforcement learning–based reward model estimates the utility of candidate actions during simulation and guides value propagation throughout the MCTS tree, enabling robust extraction under low-resource and OOV conditions. Experimental results on the 5G RRC dataset show that our MCTS-based method achieves 97.2% accuracy in in-vocabulary settings and 91.2% in OOV scenarios outperforming REBEL and CAL. These results highlight the potential of reward-guided hybrid search to improve scalable, interpretable formal verification pipelines in mission-critical environments.",
+    "title_zh": "通过MCTS统一生成式和基于分类的关系抽取用于下一代协议形式化验证",
+    "abstract_zh": "针对特定领域协议（如5G RRC及新兴的国防通信标准）的形式化验证对于确保系统可靠性至关重要。然而，由于标注数据有限、术语不断演进以及存在未登录词（OOV）等问题，自动提取形式化关系仍面临巨大挑战。本文提出一种统一框架，通过蒙特卡洛树搜索（MCTS）作为搜索控制器，融合分类模型与生成模型。MCTS在一种混合搜索树中进行导航，其中分类（CAL）和生成（REBEL）对应于正交的扩展路径，并由一个学习得到的奖励模型指导每一步应采用哪种推理策略。这种统一的搜索结构使框架能够在生成式扩展的上下文灵活性与基于分类推断的精确性之间实现平衡。基于强化学习的奖励模型在模拟过程中评估候选动作的效用，并指导MCTS树中的价值传播，从而在低资源和OOV条件下实现鲁棒的关系抽取。在5G RRC数据集上的实验结果表明，所提出的基于MCTS的方法在词汇内场景下达到97.2%的准确率，在OOV场景下仍保持91.2%的准确率，优于REBEL和CAL方法。这些结果凸显了奖励引导的混合搜索在提升任务关键环境中可扩展、可解释的形式化验证流程方面的潜力。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "A Pipeline-Based Common Framework for Parallel Mixed Signal Simulation",
+    "authors": "Longchen Sun, Guangrong Li, Zhenguo Zhao, Xin Huang, Xuan Zeng, Fan Yang, Zhao Ri Bi",
+    "publish": "2025 10th International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "url": "https://doi.org/10.1109/icicm66614.2025.11316022",
+    "source": "IEEE",
+    "abstract": "A pipeline-based common framework for parallel mixed signal simulation is proposed, which not only provides new perspectives on developing synchronization algorithms but also improves the efficiency of parallel simulation, particularly for mixed signal cases. Implementation of two-stage pipelines is introduced. The efficiency of the two-stage pipeline is compared to a framework for serial mixed signal simulation, showing a significant runtime speedup ratio of $1.74 \\times \\sim 1.84 \\times$ in simple cases and $3.57 \\times$ in a more complicated case involved with DAC (digital to analog converter).",
+    "title_zh": "一种基于流水线的并行混合信号仿真通用框架",
+    "abstract_zh": "提出了一种基于流水线的并行混合信号仿真通用框架，该框架不仅为同步算法的开发提供了新的视角，而且显著提高了并行仿真的效率，尤其适用于混合信号场景。文中介绍了两级流水线的实现方法，并将其与串行混合信号仿真框架进行对比，结果表明，在简单情况下运行时间加速比达到 $1.74 \\times \\sim 1.84 \\times$，而在涉及数模转换器（DAC）的更复杂案例中，加速比高达 $3.57 \\times$。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "Graph-Based Representation of Verilog HDL: Python-Based Control and Data Flow Graph Generation",
+    "authors": "Yipeng Wang, Zhiqiang He, Lingwei Yan, Gang Chen",
+    "publish": "2025 10th International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "url": "https://doi.org/10.1109/icicm66614.2025.11315933",
+    "source": "IEEE",
+    "abstract": "This paper proposes an automatic framework for controlled data flow graph (CDFG) generation from verilog designs, where the generated CDFGs can be applied to visualization, formal verification, logic optimization, and serve as structured representations for large-scale machine learning models. The framework leverages Yosys to flatten the RTL code, eliminating high-level control structures, and then constructs an abstract syntax tree (AST) to dynamically extract control and data dependencies. A unified graph representation is generated, enabling accurate modeling of both control-flow and data-flow semantics. The proposed RTL-to-CDFG conversion tool demonstrates high scalability and precision, successfully handling million-line industrial Verilog designs. Experimental results confirm that extracted CDFGs capture essential structural and semantic features of verilog code, providing a solid foundation for downstream tasks that include dataflow analysis, logic simplification, and resource sharing.",
+    "title_zh": "基于图的Verilog HDL表示：基于Python的控制流与数据流图生成",
+    "abstract_zh": "本文提出了一种从Verilog设计自动生成受控数据流图（CDFG）的自动化框架，所生成的CDFG可用于可视化、形式化验证、逻辑优化，并可作为大规模机器学习模型的结构化表示。该框架利用Yosys对RTL代码进行展平处理，消除高级控制结构，然后构建抽象语法树（AST），以动态提取控制依赖和数据依赖关系。通过生成统一的图表示，能够准确建模控制流和数据流语义。所提出的RTL到CDFG转换工具展现出高可扩展性和精确性，成功处理了百万行级的工业级Verilog设计。实验结果表明，提取出的CDFG能够捕捉Verilog代码的关键结构和语义特征，为数据流分析、逻辑简化和资源共享等下游任务提供了坚实的基础。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "RAN Tester UE in Action: Declarative, Automated Security Evaluations for O-RAN deployments",
+    "authors": "Joshua Moore, Aly Sabri Abdalla, Charles Ueltschey, Anoop Mishra, Vuk Marojevic",
+    "publish": "MILCOM 2025 - 2025 IEEE Military Communications Conference (MILCOM)",
+    "url": "https://doi.org/10.1109/milcom64451.2025.11309908",
+    "source": "IEEE",
+    "abstract": "Open RAN (O-RAN) introduces security challenges due to its disaggregated, software-defined architecture and exposed fronthaul interfaces. We present RAN Tester UE (Soft-T UE), a modular, containerized platform for automated, UE-centric security testing of O-RAN environments. Our demo showcases fronthaul disruption in a split 7.2 setup using srsRAN’s RU Emulator, and replaying manipulated packets from two key injection points, the DU or the RU, which highlights Soft-T UE’s automated testing capabilities in uncovering vulnerabilities in O-RAN systems.",
+    "title_zh": "RAN 测试仪UE实战：面向O-RAN部署的声明式自动化安全评估",
+    "abstract_zh": "开放无线接入网（O-RAN）由于其解耦的、软件定义的架构以及暴露的前传接口，带来了新的安全挑战。本文提出了一种模块化、容器化的平台——RAN Tester UE（简称Soft-T UE），用于对O-RAN环境进行自动化、以用户设备（UE）为中心的安全测试。我们的演示在7.2分割架构中利用srsRAN的射频单元（RU）仿真器，展示了前传链路中断攻击，并通过两个关键注入点（DU或RU）重放篡改的数据包，突显了Soft-T UE在自动发现O-RAN系统漏洞方面的测试能力。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "VCIL: An Open-Source Pipeline-Tight HIL Framework for Cycle-Accurate RISC-V Coprocessor Verification",
+    "authors": "Xian Lin, Xin Zheng, Zhixin Fan, Huaien Gao, Shuting Cai, Xiaoming Xiong",
+    "publish": "2025 10th International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "url": "https://doi.org/10.1109/icicm66614.2025.11315960",
+    "source": "IEEE",
+    "abstract": "The open-source RISC-V instruction set architecture (ISA) enables custom instructions to implement coprocessors, which requires higher verification speed and timing accuracy. However, most existing hardware-in-the-loop (HIL) approaches fail to meet these. To this end, this brief proposes Virtual-Coprocessor-in-the-Loop (VCIL), a pipeline-tight HIL framework for cycle-accurate RISC-V coprocessor verification. It bypasses the TLM2.0 bus and tightly couples the coprocessor to the pipeline via UART, which reduces transmissions and improves simulation speed. Additionally, a timing dynamic calibration method is introduced to enhance timing accuracy and enable early detection of timing violations. Compared to the state-of-the-art Virtual-Peripheral-in-the-Loop (VPIL) framework, VCIL improves simulation speed by $4.8 \\times$ and reduces timing errors by 35.9%. Experiments conducted on the SM3/SM4 coprocessor demonstrate that VCIL reduces verification time by 53.4%, and the timing error is only 3.5% compared to the RTL full-system. Our code will be available at https://github.com/LX-IC/VCIL.",
+    "title_zh": "VCIL：一种用于周期精确的RISC-V协处理器验证的开源流水线紧密型硬件在环框架",
+    "abstract_zh": "开源的RISC-V指令集架构（ISA）支持自定义指令以实现协处理器，这对验证速度和时序精度提出了更高要求。然而，现有的大多数硬件在环（HIL）方法难以满足这些需求。为此，本文提出了一种面向周期精确RISC-V协处理器验证的流水线紧耦合HIL框架——虚拟协处理器在环（VCIL）。该框架绕过TLM2.0总线，通过UART将协处理器与处理器流水线紧密耦合，减少了通信开销，提升了仿真速度。此外，本文还引入了一种时序动态校准方法，以提高时序精度并实现对时序违规的早期检测。与当前最先进的虚拟外设在环（VPIL）框架相比，VCIL的仿真速度提升了4.8倍，时序误差降低了35.9%。在SM3/SM4协处理器上的实验结果表明，VCIL将验证时间缩短了53.4%，且相对于RTL全系统，其时序误差仅为3.5%。我们的代码将公开于 https://github.com/LX-IC/VCIL。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "PAVE-MAVLink: Formal Verification of MAVLink 2 for Secure UAV Communications",
+    "authors": "Tom Wray, Ying Wang",
+    "publish": "MILCOM 2025 - 2025 IEEE Military Communications Conference (MILCOM)",
+    "url": "https://doi.org/10.1109/milcom64451.2025.11310743",
+    "source": "IEEE",
+    "abstract": "This work presents a multi-stage, Large Language Model(LLM)-accelerated framework for formal verification and security validation of UAV communication protocols, focusing on MAVLink 2. We introduce a prompt-driven approach to automatically generate symbolic models for nuXmv and ProVerif, allowing rapid identification and mitigation of protocol vulnerabilities. Experimental results demonstrate that, without cryptographic protections, MAVLink 2 is susceptible to critical command injection attacks, validated through symbolic model checking, software-defined drone simulation, and over-the-air (OTA) testing on physical UAVs. Incorporating ChaCha20 based encryption eliminates these vulnerabilities, as confirmed by formal analysis and empirical validation. These findings illustrate the effectiveness and flexibility of LLM assisted workflows like Prompt Aided Formal Verification (PAVE) while providing a platform for robust cryptographic extensions in advancing UAV protocol security.",
+    "title_zh": "PAVE-MAVLink：用于安全无人机通信的MAVLink 2形式化验证",
+    "abstract_zh": "本研究提出了一种多阶段、基于大语言模型（LLM）加速的框架，用于无人机（UAV）通信协议的形式化验证与安全验证，重点针对MAVLink 2协议。我们引入一种基于提示词（prompt-driven）的方法，自动生成适用于nuXmv和ProVerif的符号模型，从而快速识别并缓解协议漏洞。实验结果表明，在缺乏加密保护的情况下，MAVLink 2易受关键命令注入攻击的影响，该结论已通过符号模型检测、软件定义的无人机仿真以及对真实无人机的空中（OTA）测试得到验证。引入基于ChaCha20的加密机制后，这些漏洞被彻底消除，并经形式化分析与实证测试共同证实。研究结果不仅展示了LLM辅助工作流（如提示辅助形式化验证PAVE）的有效性与灵活性，也为加强无人机协议安全性的鲁棒加密扩展提供了可行平台。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "Automatic Generation Method of Test Vectors for FPGA Interconnect Resources Based on Self-adaptive Ford-Fulkerson Algorithm",
+    "authors": "Liang Zhou, Wei Zhou, Mingzhe Li, Kun Guo, Ding Zhang, Yan Huang",
+    "publish": "2025 10th International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "url": "https://doi.org/10.1109/icicm66614.2025.11315918",
+    "source": "IEEE",
+    "abstract": "SRAM-based FPGA is widely used in military and aerospace applications because of its flexibility and programmability. Therefore, the reliability of FPGA is particularly important. The interconnect resources (IR) of FPGA pose a critical challenge in testing due to their large scale and complex structure. This article first analyzes the structure characteristics of interconnect resources and constructs a transfer model in ultra-large-scale FPGA interconnect. Based on the maximum flow problem in graph theory, an adaptive Ford-Fulkerson algorithm is proposed, which solves the technical difficulty of constructing effective test graphics of interconnect resources. Finally, this article implements an automatic generation method of IR test vectors via the XDL development tool, and forms a high-coverage test vector set for $\\mathbf{7 0}$-million-gate FPGA’s complex IR, ensuring the high reliability and security of FPGA applications.",
+    "title_zh": "基于自适应Ford-Fulkerson算法的FPGA互连资源测试向量自动生成方法",
+    "abstract_zh": "基于SRAM的现场可编程门阵列（FPGA）由于其灵活性和可编程性，被广泛应用于军事和航空航天领域，因此FPGA的可靠性尤为重要。FPGA中的互连资源（IR）因其规模庞大、结构复杂，在测试方面面临严峻挑战。本文首先分析了互连资源的结构特征，并建立了超大规模FPGA互连结构的传输模型。基于图论中的最大流问题，提出了一种自适应的Ford-Fulkerson算法，解决了互连资源有效测试图形构建的技术难题。最后，本文利用XDL开发工具实现了互连资源测试向量的自动生成方法，为七千万门级FPGA的复杂互连资源构建了高覆盖率的测试向量集，有效保障了FPGA应用的高可靠性和安全性。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "PAVE++ Demo: Cross-Layer Formal Verification and OTA Validation for UAV Communications",
+    "authors": "Tom Wray, Ying Wang",
+    "publish": "MILCOM 2025 - 2025 IEEE Military Communications Conference (MILCOM)",
+    "url": "https://doi.org/10.1109/milcom64451.2025.11310334",
+    "source": "IEEE",
+    "abstract": "This demonstration presents an interactive showcase of the Prompt Aided Formal Verification (PAVE) framework applied to MAVLink 2, emphasizing practical and visual verification processes. Attendees will experience real-time demonstrations including: automatic translation of natural language protocol specifications into symbolic verification models using Large Language Models (LLMs); visual state-machine verification via nuXmv and ProVerif; simulated cyber-attacks on the Damn Vulnerable Drone (DVD) platform; and over-the-air (OTA) security validation using a physical PX4-based drone. Participants will directly observe MAVLink 2 vulnerabilities being exploited and immediately mitigated through ChaCha20 encryption. The demonstration underscores the effectiveness of combining symbolic verification with practical cryptographic protections, providing a clear and compelling methodology for ensuring secure UAV communication in contested operational scenarios.",
+    "title_zh": "PAVE++ 演示：无人机通信的跨层形式化验证与空中验证",
+    "abstract_zh": "本次演示展示了将“提示辅助形式化验证”（PAVE）框架应用于MAVLink 2的交互式实践案例，重点突出其直观且可视化的形式化验证流程。与会者将亲身体验实时演示，包括：利用大语言模型（LLM）将自然语言描述的协议规范自动转换为符号化验证模型；通过nuXmv和ProVerif进行可视化状态机验证；在“极易受攻击无人机”（Damn Vulnerable Drone, DVD）平台上模拟网络攻击；以及使用基于PX4的真实无人机进行空中（OTA）安全验证。参与者将直接观察到MAVLink 2漏洞被利用的过程，并即时通过ChaCha20加密实现有效缓解。本演示凸显了将符号化验证与实用密码保护相结合的强大效果，为在复杂对抗性操作环境中确保无人机通信安全提供了一种清晰而有力的方法论。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "Design of a Reusable UVM Verification Framework for Pixel Readout Chips",
+    "authors": "Yu Zhao, Zexuan Zhao, Yuanhong Jiao, Xiaomin Wei, Heng Yang, Long Liu, Yongcai Hu",
+    "publish": "2025 10th International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "url": "https://doi.org/10.1109/icicm66614.2025.11315974",
+    "source": "IEEE",
+    "abstract": "The escalating demands of High-Energy Physics (HEP) experiments impose significant challenges on pixel readout chips, including growing functional complexity, compressed design cycles, and high fabrication costs. Traditional verification approaches, relying heavily on static stimuli and manual inspection, suffer from insufficient coverage, low automation, and poor reusability, thus failing to guarantee the functional integrity of such complex designs. To address these challenges, this work proposes and implements a reusable verification framework based on the Universal Verification Methodology (UVM), specifically tailored for advanced pixel readout chips. The key contributions of this framework include: (1) a physics-aware stimulus generator for emulating realistic particle-hit events; (2) a generic serial bus configuration component leveraging the Register ion Layer (RAL) to enable high-level automated configuration; and (3) an intelligent scoreboard capable of out-oforder data matching to ensure robust data validation. The framework’s effectiveness was validated on a pixel readout chip, where its metric-driven verification (MDV) methodology successfully exercised complex functionalities and corner cases of the design. By adopting a modular architecture, the framework significantly enhances reusability and efficiency, offering a systematic and scalable solution for the verification of similar mixed-signal chips.",
+    "title_zh": "用于像素读出芯片的可重用UVM验证框架设计",
+    "abstract_zh": "高能物理（HEP）实验日益增长的需求对像素读出芯片带来了严峻挑战，包括功能复杂性的提升、设计周期的压缩以及高昂的制造成本。传统的验证方法严重依赖静态激励和人工检查，存在覆盖率不足、自动化程度低和可重用性差等问题，难以确保此类复杂设计的功能完整性。为应对这些挑战，本文提出并实现了一种基于通用验证方法学（UVM）的可重用验证框架，专门针对先进的像素读出芯片进行定制。该框架的主要贡献包括：（1）一种具备物理感知能力的激励生成器，用于模拟真实的粒子撞击事件；（2）一种通用的串行总线配置组件，利用寄存器抽象层（RAL）实现高层次的自动化配置；（3）一种智能评分板，支持乱序数据匹配，以确保数据验证的鲁棒性。该框架在一款像素读出芯片上进行了有效性验证，其基于度量驱动的验证（MDV）方法成功覆盖了设计中的复杂功能和边界情况。通过采用模块化架构，该框架显著提升了可重用性和验证效率，为类似混合信号芯片的验证提供了一种系统化且可扩展的解决方案。"
+  },
+  {
+    "date": "2026-1-1",
+    "title": "Design and FPGA Implementation of a NTT Hardware Accelerator for PQC ML-DSA",
+    "authors": "Shuhang Zhu, Liji Wu, Lei Li, Yifan Yang, Xiangmin Zhang",
+    "publish": "2025 10th International Conference on Integrated Circuits and Microsystems (ICICM)",
+    "url": "https://doi.org/10.1109/icicm66614.2025.11315992",
+    "source": "IEEE",
+    "abstract": "In this paper, we present a high - performance, resource - efficient hardware architecture for the 256-point Number Theoretic Transform (NTT) core tailored to the CRYSTALS-Dilithium post-quantum signature scheme. Our design introduces three key innovations: (1) a Barrett modular reduction unit that replaces conventional subtraction-based reduction with precomputed constants, achieving a 42% reduction in critical-path delay; (2) a dynamic, algorithmic address resolver that eliminates lookup tables and reduces LUT usage by $\\mathbf{1 5. 2 \\%}$; and (3) a quad-butterfly pipeline comprising four parallel configurable butterfly units that support both Cooley-Tukey and Gentleman-Sande modes, enabling a fourfold increase in per-cycle throughput. Implemented on FPGA with modulus $q=8,380,417$, the proposed NTT core consumes only $\\mathbf{1, 0 3 3}$ slices ($\\mathbf{3 9. 3 \\%}$ fewer) and 3,189 LUTs (44.1% fewer) compared to state-of-the-art designs, at a modest cost of 28 DSPs and 8 BRAMs. Functional simulation over 512 test points confirms 100% correctness ($\\mathbf{R}^{\\mathbf{2}}=\\mathbf{1. 0}$) across the full coefficient range. The architecture thus offers an attractive balance between throughput, resource utilization, and implementation simplicity, providing a practical foundation for lattice-based cryptosystems on resource constrained platforms.",
+    "title_zh": "用于后量子密码ML-DSA的NTT硬件加速器的设计与FPGA实现",
+    "abstract_zh": "本文提出了一种高性能、资源高效的硬件架构，专为适用于后量子签名方案 CRYSTALS-Dilithium 的 256 点数论变换（NTT）核心而设计。我们的设计引入了三项关键技术：（1）一种 Barrett 模约简单元，通过使用预计算常数替代传统的基于减法的约简方法，使关键路径延迟降低了 42%；（2）一种动态的算法式地址解析器，无需查找表，减少了 15.2% 的查找表（LUT）使用量；（3）一个四路蝶形单元流水线，包含四个并行可配置的蝶形单元，同时支持 Cooley-Tukey 和 Gentleman-Sande 两种模式，使每周期吞吐量提升四倍。在 FPGA 上以模数 $q=8,380,417$ 实现时，所提出的 NTT 核心仅消耗 1,033 个切片（比当前最先进的设计减少 39.3%）和 3,189 个 LUT（减少 44.1%），仅适度使用了 28 个 DSP 和 8 个 BRAM。通过对 512 个测试点进行功能仿真，验证了在整个系数范围内实现 100% 正确性（$\\mathbf{R}^{\\mathbf{2}} = \\mathbf{1.0}$）。因此，该架构在吞吐量、资源利用率和实现简洁性之间实现了良好的平衡，为资源受限平台上的格密码系统提供了实用的实现基础。"
+  }
+]
