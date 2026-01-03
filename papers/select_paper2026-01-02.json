@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-1-2",
+    "title": "A Uniform Framework for Testing Embedded Audio Systems: Methodology and Experimental Validation",
+    "authors": "Teodora Novković, Jelena Kovačević, Ivan Kaštelan",
+    "publish": "2025 33rd Telecommunications Forum (TELFOR)",
+    "url": "https://doi.org/10.1109/telfor67910.2025.11314393",
+    "source": "IEEE",
+    "abstract": "The increasing complexity of latest-generation audio technologies such as Dolby Atmos, DTS:X, and MPEG-H poses significant challenges in the development, testing, and certification of embedded audio systems. Current testing practices are resource-intensive, and often rely on technologyspecific tools, resulting in limited reusability and long-lasting certification processes. This paper presents a uniform framework for testing embedded audio systems, developed to unify and standardize testing procedures across diverse technologies and platforms. The proposed solution CUTE (Completely Unifying Test Executor), introduces modular architecture with unified APIs, multi-agent distributed execution, and IoT-enabled recovery mechanisms. Together with the GRANT (Generator of Random Tests) tool, this framework enables automated generation of test cases, extended coverage, and reduced manual effort. The framework was validated on multiple state-of-the-art audio technologies. Experimental results demonstrated significant improvements: faster error detection, reduced test execution time, lower code complexity and improved team productivity. The contributions of this work include a novel methodology for framework development, implementation of uniform testing framework, and comprehensive experimental validation. The results confirm effectiveness of a uniform framework that provides standardized and scalable testing of latest-generation embedded audio systems.",
+    "title_zh": "嵌入式音频系统的统一测试框架：方法与实验验证",
+    "abstract_zh": "最新一代音频技术（如Dolby Atmos、DTS:X 和 MPEG-H）日益增加的复杂性，给嵌入式音频系统的开发、测试和认证带来了巨大挑战。当前的测试实践资源消耗大，且通常依赖于特定技术的工具，导致可重用性有限，认证周期漫长。本文提出了一种用于测试嵌入式音频系统的统一框架，旨在跨不同技术和平台统一并标准化测试流程。所提出的解决方案CUTE（Completely Unifying Test Executor，完全统一测试执行器），采用模块化架构，具备统一API、多代理分布式执行以及支持物联网的恢复机制。结合随机测试生成工具GRANT（Generator of Random Tests），该框架能够实现测试用例的自动生成、扩展测试覆盖范围，并显著减少人工工作量。该框架已在多种先进的音频技术上进行了验证。实验结果表明，该框架在错误检测速度、测试执行时间、代码复杂度和团队生产力方面均有显著提升。本研究的贡献包括：提出一种新颖的框架开发方法论、实现了统一测试框架的构建，并完成了全面的实验验证。结果证实，该统一框架能够为新一代嵌入式音频系统提供标准化、可扩展的测试解决方案，具有显著的有效性。"
+  },
+  {
+    "date": "2026-1-2",
+    "title": "I-COR: Instruction-Level Fault Tolerance for Register File in 3-Stage Pipeline RISC-V Processors",
+    "authors": "Zewen Cao, Ying Yang, Qi Wang",
+    "publish": "ACM Transactions on Embedded Computing Systems",
+    "url": "https://doi.org/10.1145/3787103",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "I-COR：面向三级流水线RISC-V处理器寄存器文件的指令级容错机制",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-2",
+    "title": "Simulation of Flash Memory Architecture Using VHDL in Xilinx ISE",
+    "authors": "Ramírez-Cruz U. D., Zapata-Rodríguez U.G., Zapata-Rodríguez U.G., Mendoza-Barron G., Mabil-Espinosa P., Caldelas-González E.I., Martínez-Castillo J.",
+    "publish": "2025 Mexican International Conference on Computer Science (ENC)",
+    "url": "https://doi.org/10.1109/enc68268.2025.11311720",
+    "source": "IEEE",
+    "abstract": "The flash memory has become over time a fundamental component in modern digital systems due to its nonvolatile nature, high speed writing capabilities and high data store density. This paper presents the design and simulation of a NAND type flash memory model using VHDL in XILINX ISE VIVADO environment. This model implements main flash operations: read, write or program, and block erase and is validated both functionally and quantitatively. The simulation results show read, write and erase latencies of 45-55 ns, 180-220 ns, and <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$1.5-2 \\mu \\mathrm{s}$</tex> respectively, achieving a data throughput between 8 and 12 MB/s. The architecture was simplified to a 1 KB single page design with separate address and data lines for improved clarity for the study. Despite the restrictions, the model successfully replicates the essential behavior of NAND flash memory serves as a tool for understanding memory architecture, logic and hierarchical VHDL design. To test functionality a testbench was developed, generating clock signals and applying stimulus to simulate memory access. As a practical application sample ECG (electrocardiogram) data was stored and retrieved from memory demonstrating a potential use in biomedical signal and embedded healthcare systems. This simulation results confirm the correct data storage, ensuring the reliability for implementation in FPGA systems. This work could be implemented to develop a layout design.",
+    "title_zh": "使用VHDL在Xilinx ISE中对闪存架构进行仿真",
+    "abstract_zh": "闪存由于其非易失性、高速写入能力以及高数据存储密度，逐渐成为现代数字系统中的关键组件。本文介绍了在XILINX ISE VIVADO环境中使用VHDL设计并仿真一种NAND型闪存模型的工作。该模型实现了闪存的主要操作：读取、写入（编程）和块擦除，并在功能和量化层面均进行了验证。仿真结果显示，读取、写入和擦除的延迟分别为45–55 ns、180–220 ns和1.5–2 μs，数据吞吐量达到8–12 MB/s。为便于研究分析，该架构被简化为一个1 KB单页设计，并采用独立的地址线与数据线以提高清晰度。尽管存在一定的简化限制，该模型仍成功再现了NAND闪存的核心行为，可作为理解存储器架构、逻辑设计及层次化VHDL设计的教学工具。为测试功能，开发了测试平台（testbench），生成时钟信号并施加激励以模拟存储器访问过程。作为实际应用示例，心电图（ECG）信号数据被成功存储并从存储器中读取，展示了其在生物医学信号处理及嵌入式医疗系统中的潜在应用价值。仿真结果证实了数据存储的正确性，确保了其在FPGA系统中实现的可靠性。本研究成果还可进一步用于版图设计的开发。"
+  },
+  {
+    "date": "2026-1-2",
+    "title": "Multi-Layer Device-Level Electro-Thermal Real-Time Simulation and Multi-Purpose HIL Testing of Power Electronics Converters",
+    "authors": "Hao Bai, Xinyang Li, Jiaxin Tang, Zhen Yao, Ning Mao, Rui Ma, Wentao Jiang, Yang Zhou, Shengrong Zhuo, Fei Gao",
+    "publish": "IEEE Transactions on Power Electronics",
+    "url": "https://doi.org/10.1109/tpel.2025.3650187",
+    "source": "IEEE",
+    "abstract": "Real-time simulation (RTS) of power electronic converters (PECs) has become increasingly crucial throughout their lifecycle in modern electrified transportation systems, yet remains constrained by computational limitations. This paper presents a multi-layer device-level electro-thermal RTS methodology that simultaneously addresses electrical-thermal coupling effects and semiconductor switching characteristics while maintaining computational efficiency. A novel multi-purpose hardware-in-the-loop (HIL) testing framework is subsequently developed by systematically integrating the proposed electro-thermal RTS, enhancing both functional verification capabilities and testing efficiency. Experimental validation is conducted through an FPGA-based implementation for an interleaved bidirectional DC-DC converter. The real-time simulation results demonstrate high consistency compared to offline LTspice simulations. Successful integration with the HIL testing confirms the methodology's effectiveness in enabling concurrent electro-thermal analysis and control strategy verification, significantly advancing the development of reliable PECs for electrified transportation.",
+    "title_zh": "电力电子变换器的多层器件级电热实时仿真与多功能硬件在环测试",
+    "abstract_zh": "电力电子变换器（PEC）的实时仿真（RTS）在现代电动交通系统的全生命周期中日益重要，但仍受限于计算能力。本文提出了一种多层器件级电-热实时仿真方法，该方法在保持计算效率的同时，能够同时考虑电-热耦合效应和半导体开关特性。在此基础上，通过系统性地集成所提出的电-热实时仿真，进一步开发出一种新型多功能硬件在环（HIL）测试框架，从而提升了功能验证能力和测试效率。本文以基于FPGA的交错并联双向DC-DC变换器实现为例，进行了实验验证。实时仿真结果与离线LTspice仿真具有高度一致性。成功与HIL测试集成的结果证实了该方法在实现电-热协同分析与控制策略验证方面的有效性，显著推动了电动交通系统中高可靠性电力电子变换器的发展。"
+  },
+  {
+    "date": "2026-1-2",
+    "title": "Design and Functional Simulation of a Specialized EEPROM for Reliable Storage of Physiological Data in FPGA Environments Using Xilinx ISE",
+    "authors": "Jazmín Stephanie Hernández Martínez, Zaid Segundo Hernández Martínez, Daemon Vera, Victor Champac, Pedro Mabil-Espinosa, Jaime Martínez-Castillo",
+    "publish": "2025 Mexican International Conference on Computer Science (ENC)",
+    "url": "https://doi.org/10.1109/enc68268.2025.11311883",
+    "source": "IEEE",
+    "abstract": "The design and simulation of a specialized EEPROM memory for storing photoplethysmography (PPG) signals represents a significant contribution to biomedical engineering. This work presents the development of an EEPROM model designed in VHDL and simulated on the Xilinx ISE platform. The architecture is tailored to handle PPG signals, widely used in clinical and research environments to analyze cardiovascular conditions. Control signals such as clock (CLK), reset (RST), chip enable (CE), write enable (WE), and output enable (OE) were implemented, enabling complete control of read, write, and erase operations. A testbench validated memory performance under various scenarios, measuring capacity, speed, latency, and signal integrity. Simulation results show successful storage, retrieval, and erasure of data while maintaining fidelity with the input signal. This research demonstrates that specialized memory can serve as an efficient, cost-effective, and adaptable solution for portable or embedded biomedical devices requiring low power consumption and reliability.",
+    "title_zh": "用于在Xilinx ISE环境下基于FPGA实现生理数据可靠存储的专用EEPROM设计与功能仿真",
+    "abstract_zh": "针对光电容积脉搏波（PPG）信号存储的专用EEPROM存储器的设计与仿真，为生物医学工程领域做出了重要贡献。本研究提出了一种采用VHDL语言设计并在Xilinx ISE平台上进行仿真的EEPROM模型。该架构专为处理PPG信号而优化，此类信号在临床和科研环境中被广泛用于心血管状况的分析。设计中实现了时钟（CLK）、复位（RST）、片选（CE）、写使能（WE）和输出使能（OE）等控制信号，从而全面控制存储器的读取、写入和擦除操作。通过编写测试平台（testbench），在多种场景下对存储器的性能进行了验证，评估了其容量、速度、延迟和信号完整性。仿真结果表明，该存储器能够成功实现数据的存储、读取和擦除，并保持与输入信号的高度保真。本研究表明，此类专用存储器可为需要低功耗和高可靠性的便携式或嵌入式医疗设备提供一种高效、低成本且灵活的解决方案。"
+  },
+  {
+    "date": "2026-1-2",
+    "title": "Formal Verification of a Generic Algorithm for TDM Communication Over Inter Satellite Links",
+    "authors": "Miroslav Popovic, Marko Popovic, Pavle Vasiljevic, Miodrag Djukic",
+    "publish": "2025 33rd Telecommunications Forum (TELFOR)",
+    "url": "https://doi.org/10.1109/telfor67910.2025.11314273",
+    "source": "IEEE",
+    "abstract": "The Python Testbed for Federated Learning Algorithms is a simple FL framework targeting edge systems, which provides the three generic algorithms: the centralized federated learning, the decentralized federated learning, and the universal TDM communication in the current time slot. The first two were formally verified in a previous paper using the CSP process algebra, and in this paper, we use the same approach to formally verify the third one, in two phases. In the first phase, we construct the CSP model as a faithful representation of the real Python code. In the second phase, the model checker PAT automatically proves correctness of the third generic algorithm by proving its deadlock freeness (safety property) and successful termination (liveness property).",
+    "title_zh": "星间链路时分复用通信通用算法的形式化验证",
+    "abstract_zh": "面向联邦学习算法的Python测试平台是一个针对边缘系统的简单联邦学习框架，提供了三种通用算法：集中式联邦学习、去中心化联邦学习以及当前时隙中的通用TDM通信。前两种算法在之前的一篇论文中已使用CSP进程代数进行了形式化验证；本文采用相同的方法，分两个阶段对第三种算法进行形式化验证。在第一阶段，我们构建了CSP模型，以忠实反映实际的Python代码；在第二阶段，模型检验工具PAT通过证明该模型的无死锁性（安全性属性）和成功终止性（活性属性），自动验证了第三种通用算法的正确性。"
+  },
+  {
+    "date": "2026-1-2",
+    "title": "IntelliTest: An Intelligent Framework for Agentic Functional Test Generation Using Multimodal Data and Domain Knowledge",
+    "authors": "Akshat Sukhdeo Tiwari, Satya Ganesh Nutan Dev C, Pratik Madhukar Patole, Goutham Ponnamreddy, Srinivas Chinthalapudi, Durga Prasad Kattamanchi",
+    "publish": "2025 IEEE Future Networks World Forum (FNWF)",
+    "url": "https://doi.org/10.1109/fnwf66845.2025.11317278",
+    "source": "IEEE",
+    "abstract": "IntelliTest is an end-to-end, locally deployable framework that automates functional test generation and selection for complex embedded systems from two input modes: Software Change Artifacts (SCAs)—multimodal changelist data combining code diffs with textual metadata—and Natural-Language Queries (NLQs) for direct test requests. It employs a domainagnostic ontology defining procedural semantics, compiled into a structured procedural database and a specification knowledge graph for retrieval-augmented reasoning. The dual-agent architecture—Context-Analysis-and-Scoping Agent (CASA) and Constrained-Testcase-Synthesis Agent (CTSA)—interprets SCAs or NLQs, validates functionalities through ontology-grounded databases, and synthesizes constraint-compliant sequences. Dynamic coverage databases use greedy set-cover selection and cross-impact expansion to expose cousin bugs in adjacent modules. Human-in-the-loop feedback refines ontology instantiations. Deployed locally for data-security compliance, IntelliTest was validated on commercial modem firmware (>50,000 files, >250,000 functions), achieving 95% functionality identification, 92% code-change coverage, 90% constraint satisfaction, and a five-fold reduction in generation time, shrinking regression suites by 40–60% while maintaining comprehensive coverage",
+    "title_zh": "IntelliTest：一种利用多模态数据和领域知识进行智能体功能测试生成的智能框架",
+    "abstract_zh": "IntelliTest 是一个端到端、可本地部署的框架，能够从两种输入模式自动生成并筛选复杂嵌入式系统的功能测试：软件变更工件（SCAs）——结合代码差异与文本元数据的多模态变更列表数据，以及用于直接测试请求的自然语言查询（NLQs）。该框架采用一种领域无关的本体结构来定义过程语义，并将其编译为结构化的过程数据库和规范知识图谱，以支持基于检索的增强推理。其双代理架构包括上下文分析与范围界定代理（CASA）和约束测试用例合成代理（CTSA），能够解析 SCAs 或 NLQs，通过基于本体的数据库验证功能，并生成符合约束条件的测试序列。动态覆盖率数据库采用贪心集合覆盖选择和交叉影响扩展方法，揭示相邻模块中的“近亲”缺陷。人机协同反馈机制进一步优化本体实例化。IntelliTest 可本地部署以满足数据安全合规要求，已在商用调制解调器固件（超过 50,000 个文件，250,000 多个函数）上进行验证，实现了 95% 的功能识别率、92% 的代码变更覆盖率、90% 的约束满足率，测试生成时间减少五倍，回归测试套件缩减了 40% 至 60%，同时保持全面的测试覆盖。"
+  }
+]
