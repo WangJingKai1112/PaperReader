@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-1-3",
+    "title": "Ribbon: Fast Succinct Static Retrieval and Approximate Membership",
+    "authors": "Martin Dietzfelbinger, Peter C. Dillinger, Lorenz Hübschle, Peter Sanders, Stefan Walzer",
+    "publish": "Journal of the ACM",
+    "url": "https://doi.org/10.1145/3785417",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-3",
+    "title": "Consistency and Invariance Guided Multi-View Hypergraph Learning for Robust Hyperedge Prediction",
+    "authors": "Changyuan Tian, Li Jin, Zequn Zhang, Zhicong Lu, Wen Shi, Jianhua Yin, Shiyao Yan, Zhi Guo",
+    "publish": "ACM Transactions on Knowledge Discovery from Data",
+    "url": "https://doi.org/10.1145/3787102",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-3",
+    "title": "Emotionally Controllable Audio-driven Talking Face Generation",
+    "authors": "Yifan Xu, Sirui Zhao, Shifeng Liu, Tong Xu, Enhong Chen",
+    "publish": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+    "url": "https://doi.org/10.1145/3779219",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-3",
+    "title": "Towards More Accurate App Review Response Generation with Fine-Grained Filtering",
+    "authors": "Zhengquan Li, Yao Li, Tao Zhang, Cuiyun Gao, Zishuo Ding",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3786790",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-3",
+    "title": "Just-In-Time Quality Assurance with Assistance of Automated Defect Prediction and Code Testing",
+    "authors": "Dawei Tian, Liyan Song, Xiaohong Su",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3779653",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-3",
+    "title": "AnaCoMT+: Anatomy-Aware Symmetric Contrast and Cross-Modal Transfer for Brain Tumor Segmentation",
+    "authors": "Yu Fu, Chao Liu, Shaoqiang Wang, Zhigang Liu, Tongzhen Wang, Hui Xia, Chuxiao Su, Renxing Song, Qianyun Zhao",
+    "publish": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+    "url": "https://doi.org/10.1145/3786796",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-3",
+    "title": "EvSAM: Segment Anything Model with Event-based Assistance",
+    "authors": "Yi Ding, Bowen Yao, Yuhan Liu, Hao Chen, Ding Ding, Zhen Yang, Youfu Li, Yongjian Deng",
+    "publish": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+    "url": "https://doi.org/10.1145/3786794",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-3",
+    "title": "A Subexponential Time Algorithm for Makespan Scheduling of Unit Jobs with Precedence Constraints",
+    "authors": "Jesper Nederlof, Céline Swennenhuis, Karol Wegrzycki",
+    "publish": "ACM Transactions on Algorithms",
+    "url": "https://doi.org/10.1145/3785365",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-3",
+    "title": "Cross-modal Full-mode Fine-grained Alignment for Text-to-Image Person Retrieval",
+    "authors": "Hao Yin, Xin Man, Feiyu Chen, Jie Shao, Heng Tao Shen",
+    "publish": "ACM Transactions on Multimedia Computing, Communications, and Applications",
+    "url": "https://doi.org/10.1145/3786798",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-3",
+    "title": "AI Unplugged: Exploring Pathways from Physical Simulation to Conceptualization of AI Reasoning Processes",
+    "authors": "Hasti Darabipourshiraz, Lily Murakami Ng, Grace Wang, Sophie Rollins, Duri Long",
+    "publish": "ACM Transactions on Computing Education",
+    "url": "https://doi.org/10.1145/3786761",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-3",
+    "title": "Exploring Multi-Lingual Bias of Large Code Models in Code Generation",
+    "authors": "Chaozheng Wang, Zongjie Li, Cuiyun Gao, Wenxuan Wang, Ting Peng, Hailiang Huang, Yuetang Deng, Shuai Wang, Michael Lyu",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3786793",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]
