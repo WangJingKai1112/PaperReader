@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2026-01-05",
+    "title": "Automatic Assertion Mining in Assertion-Based Verification: Techniques, Challenges, and Future Directions",
+    "authors": "Mohammad Reza Heidari Iman, Giorgio Di Natale, Katell Morin-Allory",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.02248v1",
+    "source": "arXiv",
+    "abstract": "Functional verification increasingly relies on Assertion-Based Verification (ABV), which has become a key approach for verifying hardware designs due to its efficiency and effectiveness. Central to ABV are automatic assertion miners, which apply different techniques to generate assertions automatically. This paper reviews the most recent, advanced, and widely adopted assertion miners, offering a comparative analysis of their methodologies. The goal is to provide researchers and verification practitioners with insights into the capabilities and limitations of existing miners. By identifying their shortcomings, this work also points toward directions for developing more powerful and advanced assertion miners in the future.",
+    "title_zh": "基于断言验证中的自动断言挖掘：技术、挑战与未来方向",
+    "abstract_zh": "功能验证越来越多地依赖基于断言的验证（ABV），由于其高效性和有效性，ABV已成为验证硬件设计的关键方法。自动断言挖掘工具是ABV的核心，它们采用不同的技术来自动生成断言。本文综述了最新、先进且被广泛采用的断言挖掘工具，对其方法进行了比较分析，旨在为研究人员和验证实践者提供关于现有挖掘工具能力与局限性的深入见解。通过识别这些工具的不足之处，本文还指明了未来开发更强大、更先进断言挖掘工具的发展方向。"
+  },
+  {
+    "date": "2026-01-05",
+    "title": "Ageing Monitoring for Commercial Microcontrollers Based on Timing Windows",
+    "authors": "Leandro Lanzieri, Jiri Kral, Goerschwin Fey, Holger Schlarb, Thomas C. Schmidt",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.02053v1",
+    "source": "arXiv",
+    "abstract": "Microcontrollers are increasingly present in embedded deployments and dependable applications, for which malfunctions due to hardware ageing can have severe impact. The lack of deployable techniques for ageing monitoring on these devices has spread the application of guard bands to prevent timing errors due to degradation. Applying this static technique can limit performance and lead to sudden failures as devices age. In this paper, we follow a software-based self-testing approach to design monitoring of hardware degradation for microcontrollers. Deployable in the field, our technique leverages timing windows of variable lengths to determine the maximum operational frequency of the devices. We empirically validate the method on real hardware and find that it consistently detects temperature-induced degradations in maximum operating frequency of up to 13.79 % across devices for 60 °C temperature increase.",
+    "title_zh": "基于时序窗口的商用微控制器老化监测",
+    "abstract_zh": "微控制器在嵌入式部署和可靠应用中日益普及，而由于硬件老化导致的故障可能带来严重后果。目前缺乏可在这些设备上实际部署的老化监测技术，因此普遍采用保护带（guard bands）来防止因性能退化引发的时序错误。然而，这种静态技术的应用会限制系统性能，并且随着器件老化可能导致突发性故障。本文提出一种基于软件的自测试方法，用于设计针对微控制器硬件退化的监测机制。该技术可现场部署，利用可变长度的时序窗口来确定器件的最大工作频率。我们在真实硬件上对这一方法进行了实验验证，结果表明，在温度升高60°C的情况下，该方法能够持续检测到由温度引起的最大工作频率下降，降幅高达13.79%，且在不同设备上均具有一致性。"
+  },
+  {
+    "date": "2026-01-05",
+    "title": "A New Benchmark for the Appropriate Evaluation of RTL Code Optimization",
+    "authors": "Yao Lu, Shang Liu, Hangan Zhou, Wenji Fang, Qijun Zhang, Zhiyao Xie",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.01765v1",
+    "source": "arXiv",
+    "abstract": "The rapid progress of artificial intelligence increasingly relies on efficient integrated circuit (IC) design. Recent studies have explored the use of large language models (LLMs) for generating Register Transfer Level (RTL) code, but existing benchmarks mainly evaluate syntactic correctness rather than optimization quality in terms of power, performance, and area (PPA). This work introduces RTL-OPT, a benchmark for assessing the capability of LLMs in RTL optimization. RTL-OPT contains 36 handcrafted digital designs that cover diverse implementation categories including combinational logic, pipelined datapaths, finite state machines, and memory interfaces. Each task provides a pair of RTL codes, a suboptimal version and a human-optimized reference that reflects industry-proven optimization patterns not captured by conventional synthesis tools. Furthermore, RTL-OPT integrates an automated evaluation framework to verify functional correctness and quantify PPA improvements, enabling standardized and meaningful assessment of generative models for hardware design optimization.",
+    "title_zh": "RTL代码优化适当评估的新基准",
+    "abstract_zh": "人工智能的快速发展越来越依赖于高效的集成电路（IC）设计。近期研究探索了使用大语言模型（LLM）生成寄存器传输级（RTL）代码的方法，但现有的基准测试主要评估语法正确性，而非在功耗、性能和面积（PPA）方面的优化质量。本文提出了RTL-OPT，这是一个用于评估LLM在RTL优化方面能力的基准测试集。RTL-OPT包含36个手工设计的数字电路，涵盖多种实现类别，包括组合逻辑、流水线数据路径、有限状态机以及存储器接口。每个任务提供一对RTL代码：一个次优版本和一个经过人工优化的参考版本，后者体现了传统综合工具未能捕捉到的工业级优化模式。此外，RTL-OPT集成了一个自动化评估框架，用于验证功能正确性并量化PPA的改进，从而实现对面向硬件设计优化的生成模型进行标准化且有意义的评估。"
+  },
+  {
+    "date": "2026-01-05",
+    "title": "MLIR-Smith: A Novel Random Program Generator for Evaluating Compiler Pipelines",
+    "authors": "Berke Ates, Filip Dobrosavljević, Theodoros Theodoridis, Zhendong Su",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.02218v1",
+    "source": "arXiv",
+    "abstract": "Compilers are essential for the performance and correct execution of software and hold universal relevance across various scientific disciplines. Despite this, there is a notable lack of tools for testing and evaluating them, especially within the adaptable Multi-Level Intermediate Representation (MLIR) context. This paper addresses the need for a tool that can accommodate MLIR's extensibility, a feature not provided by previous methods such as Csmith. Here we introduce MLIR-Smith, a novel random program generator specifically designed to test and evaluate MLIR-based compiler optimizations. We demonstrate the utility of MLIR-Smith by conducting differential testing on MLIR, LLVM, DaCe, and DCIR, which led to the discovery of multiple bugs in these compiler pipelines. The introduction of MLIR-Smith not only fills a void in the realm of compiler testing but also emphasizes the importance of comprehensive testing within these systems. By providing a tool that can generate random MLIR programs, this paper enhances our ability to evaluate and improve compilers and paves the way for future tools, potentially shaping the wider landscape of software testing and quality assurance.",
+    "title_zh": "MLIR-Smith：一种用于评估编译器流水线的新型随机程序生成器",
+    "abstract_zh": "编译器对于软件的性能和正确执行至关重要，并在各个科学领域中具有普遍的重要性。然而，目前缺乏用于测试和评估编译器的有效工具，尤其是在灵活可扩展的多级中间表示（MLIR）背景下，这一问题尤为突出。本文针对现有方法（如Csmith）无法支持MLIR可扩展性的问题，提出了一种新的解决方案。我们介绍了MLIR-Smith，这是一种全新的随机程序生成器，专为测试和评估基于MLIR的编译器优化而设计。通过在MLIR、LLVM、DaCe和DCIR上开展差分测试，我们验证了MLIR-Smith的实用性，并成功发现了这些编译器流水线中的多个缺陷。MLIR-Smith的提出不仅填补了编译器测试领域的一项空白，也凸显了在这些系统中进行全面测试的重要性。该工具能够生成随机的MLIR程序，从而增强了我们评估和改进编译器的能力，并为未来工具的开发铺平道路，有望对软件测试与质量保证的整体格局产生深远影响。"
+  },
+  {
+    "date": "2026-01-05",
+    "title": "NQC2: A Non-Intrusive QEMU Code Coverage Plugin",
+    "authors": "Nils Bosbach, Alwalid Salama, Lukas Jünger, Mark Burton, Niko Zurstraßen, Rebecca Pelke, Rainer Leupers",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.02238v1",
+    "source": "arXiv",
+    "abstract": "Code coverage analysis has become a standard approach in software development, facilitating the assessment of test suite effectiveness, the identification of under-tested code segments, and the discovery of performance bottlenecks. When code coverage of software for embedded systems needs to be measured, conventional approaches quickly meet their limits. A commonly used approach involves instrumenting the source files with added code that collects and dumps coverage information during runtime. This inserted code usually relies on the existence of an operating and a file system to dump the collected data. These features are not available for bare-metal programs that are executed on embedded systems. To overcome this issue, we present NQC2, a plugin for QEMU.NQC2 extracts coverage information from QEMU during runtime and stores them into a file on the host machine. This approach is even compatible with modified QEMU versions and does not require target-software instrumentation. NQC2 outperforms a comparable approach from Xilinx by up to 8.5 x.",
+    "title_zh": "NQC2：一种非侵入式的QEMU代码覆盖率插件",
+    "abstract_zh": "代码覆盖率分析已成为软件开发中的一种标准方法，有助于评估测试套件的有效性、识别测试不足的代码段以及发现性能瓶颈。当需要对嵌入式系统的软件进行代码覆盖率测量时，传统方法很快会遇到局限。一种常用的方法是在源文件中插入额外的代码，用于在运行时收集并转储覆盖率信息。这些插入的代码通常依赖于操作系统和文件系统来保存收集到的数据，而这些功能在直接运行于嵌入式硬件上的裸机程序中是不可用的。为解决这一问题，我们提出了NQC2，它是QEMU的一个插件。NQC2能够在运行时从QEMU中提取覆盖率信息，并将其存储到主机机器的文件中。该方法甚至兼容经过修改的QEMU版本，且无需对目标软件进行插桩。与赛灵思（Xilinx）的一种类似方法相比，NQC2的性能最高可提升达8.5倍。"
+  },
+  {
+    "date": "2026-1-5",
+    "title": "The Simply-V Framework: an Extensible RISC-V Reconfigurable Soft-SoC for Open Research and Fast Prototyping",
+    "authors": "Vincenzo Maisto, Stefano Mercogliano, Manuel Maddaluno, Alessandro Cilardo",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3787500",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Simply-V框架：一种可扩展的RISC-V可重构软核SoC，用于开放研究与快速原型开发",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-5",
+    "title": "Towards a Driven Specific Modeling Language for Deep Neural Networks",
+    "authors": "Angham Boukhari, Ahmed Hadj Kacem, Faiza Belala, Aïcha Choutri",
+    "publish": "2025 IEEE/ACS 22nd International Conference on Computer Systems and Applications (AICCSA)",
+    "url": "https://doi.org/10.1109/aiccsa66935.2025.11315261",
+    "source": "IEEE",
+    "abstract": "Deep Neural Networks (DNN) have recently driven a revolution in various fields of Artificial Intelligence (AI), especially in Deep Learning (DL). However, they remain difficult to design, implement, verify, adapt, and reuse. To address these challenges, this paper introduces DNN-SL, a Domain-Specific Modeling Language (DSML) designed specifically for modeling and verifying DNN architectures. Our approach combines Model-Driven Engineering (MDE) with formal methods to define a multi-layer framework consisting of a DSML definition layer, an MDE implementation layer, and a Maude-based formal semantics layer. This architecture enables DNN models to automatically be translated into formal Maude specifications, thus facilitating the verification of properties including robustness and interpretability. By combining intuitive modeling with formal rigor, our solution simplifies the development of reliable and accessible DL, even for non-experts.",
+    "title_zh": "面向深度神经网络的专用建模语言",
+    "abstract_zh": "近年来，深度神经网络（DNN）在人工智能（AI）的多个领域引发了革命性变革，尤其是在深度学习（DL）方面。然而，DNN在设计、实现、验证、适应和重用方面仍然存在困难。为应对这些挑战，本文提出了DNN-SL，一种专门用于建模和验证DNN架构的领域特定建模语言（DSML）。我们的方法结合了模型驱动工程（MDE）与形式化方法，构建了一个多层框架，包括DSML定义层、MDE实现层以及基于Maude的形式语义层。该架构能够将DNN模型自动转换为形式化的Maude规范，从而便于验证鲁棒性和可解释性等属性。通过将直观建模与形式化严谨性相结合，我们的解决方案简化了可靠且易访问的深度学习系统的开发，即使非专家用户也能轻松使用。"
+  },
+  {
+    "date": "2026-1-5",
+    "title": "MultiFuzz: A Dense Retrieval-based Multi-Agent System for Network Protocol Fuzzing",
+    "authors": "Youssef Maklad, Fares Wael, Ali Hamdi, Wael Elsersy, Khaled Shaban",
+    "publish": "2025 IEEE/ACS 22nd International Conference on Computer Systems and Applications (AICCSA)",
+    "url": "https://doi.org/10.1109/aiccsa66935.2025.11315267",
+    "source": "IEEE",
+    "abstract": "Traditional protocol fuzzing techniques, such as those employed by AFL-based systems, often lack effectiveness due to a limited semantic understanding of complex protocol grammars and rigid seed mutation strategies. Recent works, such as ChatAFL, have integrated Large Language Models (LLMs) to guide protocol fuzzing and address these limitations, pushing protocol fuzzers to wider exploration of the protocol state space. But ChatAFL still faces issues like unreliable output, LLM hallucinations, and assumptions of LLM knowledge about protocol specifications. This paper introduces MultiFuzz, a novel dense retrieval-based multi-agent system designed to overcome these limitations by integrating semantic-aware context retrieval, specialized agents, and structured tool-assisted reasoning. MultiFuzz utilizes agentic chunks of protocol documentation (RFC Documents) to build embeddings in a vector database for a retrieval-augmented generation (RAG) pipeline, enabling agents to generate more reliable and structured outputs, enhancing the fuzzer in mutating protocol messages with enhanced state coverage and adherence to syntactic constraints. The framework decomposes the fuzzing process into modular groups of agents that collaborate through chain-of-thought reasoning to dynamically adapt fuzzing strategies based on the retrieved contextual knowledge. Experimental evaluations on the Real-Time Streaming Protocol (RTSP) demonstrate that MultiFuzz significantly improves branch coverage and explores deeper protocol states and transitions over state-of-the-art (SOTA) fuzzers such as NSFuzz, AFLNet, and ChatAFL. By combining dense retrieval, agentic coordination, and language model reasoning, MultiFuzz establishes a new paradigm in autonomous protocol fuzzing, offering a scalable and extensible foundation for future research in intelligent agentic-based fuzzing systems.",
+    "title_zh": "MultiFuzz：一种基于密集检索的多智能体网络协议模糊测试系统",
+    "abstract_zh": "传统的协议模糊测试技术（如基于AFL的系统所采用的方法）由于对复杂协议语法的语义理解有限以及种子变异策略僵化，往往效果不佳。近期的研究（如ChatAFL）引入了大语言模型（LLM）来指导协议模糊测试，以应对这些局限性，推动协议模糊器更广泛地探索协议状态空间。然而，ChatAFL仍面临输出不可靠、大语言模型产生幻觉以及对LLM掌握协议规范知识的假设等问题。本文提出了MultiFuzz，一种基于密集检索的多智能体系统，旨在通过融合语义感知的上下文检索、专业化智能体和结构化工具辅助推理来克服上述限制。MultiFuzz利用协议文档（RFC文档）中的智能体化文本块构建向量数据库中的嵌入，用于支持检索增强生成（RAG）流程，使各智能体能够生成更可靠且结构化的输出，从而在变异协议消息时提升模糊器的状态覆盖率并更好地遵循语法约束。该框架将模糊测试过程分解为多个模块化的智能体组，这些智能体通过思维链推理协同工作，根据检索到的上下文知识动态调整模糊测试策略。在实时流协议（RTSP）上的实验评估表明，与NSFuzz、AFLNet和ChatAFL等当前最先进的模糊测试工具相比，MultiFuzz显著提升了分支覆盖率，并探索到了更深的协议状态和状态转换。通过结合密集检索、智能体协作和语言模型推理，MultiFuzz建立了一种自主协议模糊测试的新范式，为未来智能代理型模糊测试系统的研究提供了可扩展且可拓展的基础。"
+  },
+  {
+    "date": "2026-1-5",
+    "title": "Scalable Network-on-Chip Design for FPGA Implementation",
+    "authors": "Mekala Bindu Bhargavi, Sai Siddharth Rokkam, Vattipelli Srinath, Sri Parameswaran, J Soumya",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3650973",
+    "source": "IEEE",
+    "abstract": "Network-on-Chip (NoC) technology has become a fundamental solution to address communication bottlenecks and scalability challenges in modern System-on-Chip (SoC) architectures. This paper presents a fully automated and scalable NoC design framework capable of generating synthesizable Verilog code for diverse topologies, including Mesh, Torus, Butterfly Fat Tree (BFT), and Custom configurations. The framework, based on a wormhole router architecture, automatically configures interconnections, routing paths, and network parameters according to user specifications, eliminating manual intervention and reducing design time errors. The generated NoC architectures were synthesized and verified on a Xilinx Virtex-7 Field Programmable Gate Array (FPGA) using Vivado, demonstrating design adaptability and efficiency. Experimental results show up to ∼ 12, 500 speed-up for Mesh, ∼ 11, 500 for Torus, ∼ 10, 800 for BFT, and ∼ 10, 200 for Custom topologies compared with manual approaches. The proposed design was evaluated for throughput, latency, packet delivery ratio (PDR), and energy per packet. Results show that the BFT topology delivers the highest PDR (98.2%) and the lowest energy consumption (1.80 nJ), confirming the framework scalability. Overall, the AutoNoC framework offers a reconfigurable, topology-independent, and FPGA-compatible solution for scalable SoC communication.",
+    "title_zh": "面向FPGA实现的可扩展片上网络设计",
+    "abstract_zh": "片上网络（NoC）技术已成为解决现代片上系统（SoC）架构中通信瓶颈和可扩展性挑战的基本方案。本文提出了一种完全自动化且可扩展的NoC设计框架，能够为多种拓扑结构（包括Mesh、Torus、蝶形胖树（BFT）以及自定义结构）生成可综合的Verilog代码。该框架基于虫洞路由架构，可根据用户设定自动配置互连结构、路由路径及网络参数，从而消除人工干预，减少设计过程中的错误并缩短开发周期。所生成的NoC架构在Xilinx Virtex-7现场可编程门阵列（FPGA）上使用Vivado工具完成综合与验证，展示了良好的设计适应性与高效性。实验结果表明，与传统手动设计方法相比，本框架在Mesh拓扑下最高可实现约12,500倍的速度提升，Torus约为11,500倍，BFT约为10,800倍，自定义拓扑约为10,200倍。所提出的方案在吞吐量、延迟、数据包投递率（PDR）和每包能耗等方面均进行了评估。结果表明，BFT拓扑实现了最高的数据包投递率（98.2%）和最低的能耗（1.80 nJ），验证了该框架的可扩展性优势。总体而言，AutoNoC框架提供了一种可重构、与拓扑无关且兼容FPGA的解决方案，适用于大规模SoC通信设计。"
+  },
+  {
+    "date": "2026-1-5",
+    "title": "Bridging Language Models and Formal Methods for Intent-Driven Optical Network Design",
+    "authors": "Anis Bekri, Amar Abane, Abdella Battou, Saddek Bensalem",
+    "publish": "2025 IEEE/ACS 22nd International Conference on Computer Systems and Applications (AICCSA)",
+    "url": "https://doi.org/10.1109/aiccsa66935.2025.11315283",
+    "source": "IEEE",
+    "abstract": "Intent-Based Networking (IBN) aims to simplify network management by enabling users to specify high-level goals that drive automated network design and configuration. However, translating informal natural-language intents into formally correct optical network topologies remains challenging due to inherent ambiguity and lack of rigor in Large Language Models (LLMs). To address this, we propose a novel hybrid pipeline that integrates LLM-based intent parsing, formal methods, and Optical Retrieval-Augmented Generation (RAG). By enriching design decisions with domain-specific optical standards and systematically incorporating symbolic reasoning and verification techniques, our pipeline generates explainable, verifiable, and trustworthy optical network designs. This approach significantly advances IBN by ensuring reliability and correctness, essential for mission-critical networking tasks.",
+    "title_zh": "连接语言模型与形式化方法以实现意图驱动的光网络设计",
+    "abstract_zh": "基于意图的网络（Intent-Based Networking，IBN）旨在通过允许用户指定驱动网络自动设计与配置的高层目标，从而简化网络管理。然而，由于大型语言模型（LLMs）本身存在的歧义性和缺乏严谨性，将非正式的自然语言意图转化为形式化正确的光网络拓扑仍具挑战性。为解决这一问题，我们提出了一种新颖的混合式处理流程，该流程融合了基于LLM的意图解析、形式化方法以及光学检索增强生成（Optical Retrieval-Augmented Generation, RAG）技术。通过引入领域特定的光通信标准来丰富设计决策，并系统性地结合符号推理与验证技术，我们的流程能够生成可解释、可验证且可信的光网络设计方案。该方法显著推动了IBN的发展，确保了关键网络任务所必需的可靠性与正确性。"
+  },
+  {
+    "date": "2026-1-5",
+    "title": "WAMICON 2026 Call for papers",
+    "authors": "N/A",
+    "publish": "IEEE Microwave Magazine",
+    "url": "https://doi.org/10.1109/mmm.2025.3615947",
+    "source": "IEEE",
+    "abstract": null,
+    "title_zh": "WAMICON 2026 论文征集",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-5",
+    "title": "Towards A Model-Driven Framework Integrating XAI and Formal Methods for Medical Cyber-Physical System Design",
+    "authors": "Feryel Benina, Ahmed Hadj Kacem, Faiza Belala, Zakaria Benzadri",
+    "publish": "2025 IEEE/ACS 22nd International Conference on Computer Systems and Applications (AICCSA)",
+    "url": "https://doi.org/10.1109/aiccsa66935.2025.11315398",
+    "source": "IEEE",
+    "abstract": "Medical Cyber-Physical Systems (MCPS) play an increasingly critical role in smart healthcare environments. However, the integration of these systems with opaque AI models introduces significant challenges in terms of transparency, traceability, and verifiability. To address these issues, we propose ExMCPS - a model-driven framework that combines ModelBased Systems Engineering (MBSE), Explainable Artificial Intelligence (XAI), and formal modeling techniques to design MCPS that are both explainable and verifiable throughout their lifecycle. We also present a methodological pipeline and an evaluation plan to clarify the applicability of our approach.",
+    "title_zh": "面向一种集成可解释人工智能与形式化方法的医疗信息物理系统设计的模型驱动框架",
+    "abstract_zh": "医疗信息物理系统（MCPS）在智能医疗环境中正发挥着日益关键的作用。然而，这些系统与不透明的人工智能模型集成后，在透明性、可追溯性和可验证性方面带来了重大挑战。为解决这些问题，我们提出了ExMCPS——一种基于模型的框架，该框架结合了基于模型的系统工程（MBSE）、可解释人工智能（XAI）以及形式化建模技术，旨在设计出在整个生命周期中均具备可解释性与可验证性的MCPS。同时，我们还提出了一种方法论流程和评估计划，以阐明本方法的适用性。"
+  },
+  {
+    "date": "2026-1-5",
+    "title": "Decentralized Post-Quantum Authentication Protocol for Drone Communication Networks",
+    "authors": "Edoukou Berenger Ayebie, Elie Noumon Allini, Karam Bou-Chaaya, Helmi Rais",
+    "publish": "2025 IEEE/ACS 22nd International Conference on Computer Systems and Applications (AICCSA)",
+    "url": "https://doi.org/10.1109/aiccsa66935.2025.11315326",
+    "source": "IEEE",
+    "abstract": "This paper introduces a novel post-quantum mutual authentication scheme for drones, leveraging Physical Unclonable Functions (PUFs) and cryptographic accumulators. By integrating PUFs, the scheme effectively mitigates drone cloning risks, while lattice-based cryptography ensures resilience against quantum computing attacks. The proposed approach enables secure, direct mutual authentication between drones without intermediaries. Cryptographic accumulators compress the entire drone identity database into a single element, significantly reducing storage demands on individual drones. The proposed scheme achieves superior communication efficiency compared to existing PUF-based post-quantum protocols for drones. Formal security verification using ProVerif confirms the robustness of the proposed scheme.",
+    "title_zh": "用于无人机通信网络的去中心化后量子认证协议",
+    "abstract_zh": "本文提出了一种新颖的抗量子无人机双向认证方案，该方案结合了物理不可克隆函数（PUF）和密码学累加器。通过引入PUF，该方案有效降低了无人机被克隆的风险，而基于格的密码学技术则确保了其对量子计算攻击的抵御能力。所提出的方案能够在无人机之间实现安全、直接的双向认证，无需依赖中间媒介。密码学累加器将整个无人机身份数据库压缩为单一元素，显著减少了单个无人机的存储需求。与现有的基于PUF的抗量子无人机协议相比，本方案在通信效率方面表现出明显优势。利用ProVerif工具进行的形式化安全验证结果表明，该方案具有较强的鲁棒性。"
+  }
+]
