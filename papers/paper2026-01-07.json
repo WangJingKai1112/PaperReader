@@ -1,0 +1,1739 @@
+[
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 10: Microarchitecture I",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786384",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "User Behavior Modeling and Experiential Value: Insights fromSportsEvents",
+    "authors": "Jui-Liang Hsu, Jun-He Yang, Chia-Pang Chan",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760562",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Deformation-Based Transformer Model for Predicting Sensory Evaluation of Tobacco Leaf Near-Infrared Spectra",
+    "authors": "Mingze He, Hai Zhang, Zhongxin Ma, Bin Li, Yunwei Zhang, Chengjin Tao",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779507",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Macroeconomic Forecasting Research Based on BP-LSTM-GRU Combined Model",
+    "authors": "Julong Chen, Bin Wang, Ce Wang, Yongqing Zhu, Chao Lin",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779508",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Data-Driven Software Configuration Management System Based on Knowledge Graph and Graph Neural Network",
+    "authors": "Shu Wang, Jiahou Li, Shihai Wang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779520",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Brief analysis of Decontamination Operation Simulation Technologies: From Mechanistic Modeling to System Integration via Computational Intelligence",
+    "authors": "Ting Liang, Junqi Li, Jiangtao Liu, Yelin Qi, Wen Yang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779499",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "IEEE Power Electronics Society Information",
+    "authors": "N/A",
+    "publish": "IEEE Transactions on Power Electronics",
+    "url": "https://doi.org/10.1109/tpel.2025.3619166",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Robust HIDRL-ISAC Framework for Energy-Efficient Optimization in Reconfigurable Intelligent Surface-Assisted Wireless Systems_supp1-3651293.pdf",
+    "authors": "SUNIL CHINNADURAI",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/access.2026.3651293/mm1",
+    "source": "IEEE",
+    "abstract": "A Reconfigurable Intelligent Surface (RIS) is a promising technology for enhancing the spectral and energy efficiency (EE) of next-generation wireless networks. Adapting to dynamic user mobility while jointly optimizing beamforming, phase shifting, and power control remains a challenge. This paper proposes a novel <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Hierarchical Intelligent Deep Reinforcement Learning with Integrated Sensing and Communication (HIDRL-ISAC)</i> framework for real-time, energy-efficient optimization in RIS-assisted networks. Our method features cooperative dual agents: a master agent that optimizes the base station (BS) beamforming and RIS phases based on the sum rate and a slave agent that adjusts the transmit power in response to ISAC-based user location feedback. The framework leverages an Extended Kalman Filter (EKF) for robust position tracking using ISAC sensing data. HIDRL-ISAC effectively addresses the non-convexity and temporal variability of the optimization problem by adapting to channel fluctuations and mobility patterns in real time. The simulation results demonstrated significant improvements in EE and convergence, establishing HIDRL-ISAC as a resilient and scalable solution for mobility-aware RIS-assisted wireless systems."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on the Impact of High Technology Industry Clustering on Green Innovation in Fujian Province under the Digital Economy in the era of AI",
+    "authors": "Chenxuan Wang, Xueying Zhao, Li Chen",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760608",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on the Relationship between New Quality Productivity and Firm Value of Listed Agricultural Companies",
+    "authors": "Chih-Yi Hsiao, Jia-Yin Huang, Ya-Xin Wu, Ting Tian",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760592",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Development Trends and Optimization Strategies of Ideological and Political Education in Art-Related Curricula in Chinese Universities: A Knowledge-Graph Visualization Analysis Based on COOC",
+    "authors": "Xuyi Gao, Qiuyue Wang, Chuifeng Dong",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779502",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Prospects for Predictive Maintenance and Intelligent Workover Operations in Oil and Gas Well Sites",
+    "authors": "Xuesong Zhang, Jianming Li, Peng Cao, Defei Chen, Qiang Li",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779525",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Vibration Signal Acquisition System Based on ZYNQ",
+    "authors": "Fulin Liu, Yong Liu, Xianguo Tuo",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779495",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 26: Reliability, Fault-tolerance",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786400",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "MotifGT-DTI: Pivotal Motif-Based Graph Transformer Model Improves Drug&amp;#x2013;Target Interaction Prediction_supp1-3646159.pdf",
+    "authors": "Chengqian lu",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tnnls.2025.3646159/mm1",
+    "source": "IEEE",
+    "abstract": "Predicting drug–target interactions (DTIs) plays an essential role in drug discovery and drug repurposing. Although significant performance improvements have been achieved in DTI prediction, existing methods have not fully explored the properties of protein and drug molecular structure to make results interpretable. In this study, we propose MotifGT-DTI, a novel motif-based model with a graph transformer (GT) for DTI prediction. Specifically, MotifGT-DTI captures complex molecular patterns of drug molecular graph motifs and protein 3-D pocket subgraphs with GT. To attain protein characteristics more comprehensively, MotifGT-DTI fuses 1-D sequence and 3-D structure features with cross-attention from two views. Then, the structural-level association patterns of drug molecules and proteins are connected via a bilinear attention network. Experimental results show that MotifGT-DTI achieves the best accuracy compared to state-of-the-art baselines on four public datasets. In the three cold-start scenarios, the prediction results provided by our method are competitive in accuracy, generalization ability, and stability, highlighting its promising potential for practical applications. Furthermore, the visualization study demonstrates that MotifGT-DTI finds functional molecular motifs and provides interpretability for predicted results. The datasets and codes are publicly available at <uri xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">https://github.com/Dimpleney/MotifGT-DTI</uri>"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "The Rise of Computational Thinking in the Age of AI",
+    "authors": "Leah Hoffmann",
+    "publish": "Communications of the ACM",
+    "url": "https://doi.org/10.1145/3779646",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Funny-Valen-Tine: Planning Solution Distribution Enhances Machine Abstract Reasoning Ability_supp1-3647282.pdf",
+    "authors": "Ruizhuo Song",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tnnls.2025.3647282/mm1",
+    "source": "IEEE",
+    "abstract": "The importance of visual abstract reasoning problems in the field of image processing cannot be overstated. Both Bongard-Logo problems and Raven’s progressive matrices (RPM) belong to the domain of visual abstract reasoning tasks, with Bongard-Logo categorized as image clustering reasoning and RPM involving image progression pattern reasoning. This article introduces a novel baseline model, visual abstraction learning network (Valen), which falls under the umbrella of probability-highlighting models. Valen demonstrates remarkable performance in solving both RPM and Bongard-Logo problems, offering a versatile solution for these reasoning tasks. Our investigation extends beyond the application of Valen, delving into the underlying mechanisms of probability-highlighting solvers. In revisiting how these solvers handle RPM and Bongard-Logo tasks, we realize that they approximate the solution to each reasoning problem as a distribution in which primary samples are compliant while auxiliary samples are not. This prompts us to propose that the learning objective of probability-highlighting solvers is not the distribution of correct solutions but rather one jointly delineated by primary and auxiliary samples. To bridge the discrepancies, we introduced the Tine method, an adversarial learning-based approach that helps Valen estimate a distribution close to that of the correct solutions. However, adversarial training in Tine suffers from instability. Motivated by this limitation, we model the sample distribution of reasoning problems as a mixture of Gaussian distributions, enabling Valen to capture the correct solution distribution more efficiently. This nonadversarial methodology leads to the development of the framework utilizing neural networks for yielding (Funny) method. Building on a similar Gaussian-mixture paradigm, we further propose the supervised representation distribution planning method (SBR) method to plan the distribution of progressive pattern representations. Overall, this article contends that the key to enhancing solvers’ ability to address visual abstract reasoning problems lies in explicitly planning the distribution of predicted solutions to approach the correct solution distribution. Codes are available in: <uri xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">https://github.com/Yuanbeiming/Funny-Valen-Tine-Planning-Solution-Distribution-Enhances-Machine-Abstract-Reasoning-Ability</uri>"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "\"Research on the influencing factors of college students' tendency towards slow employment based on SEM model\"",
+    "authors": "Ying Zhan, Ruofei Ji, Yuting Ren",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760583",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Collaborative Innovation Network Dynamics and Technological Innovation Diffusion: A Study Based on Stochastic Actor-Oriented Models",
+    "authors": "Huimin Tang, Fan Zhang, ZhiJun Luo, Jing Li",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760589",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "\"Evaluation of the Effectiveness of Wuhan's Optical-Chip-Screen-Network Digital Industry Cluster\"",
+    "authors": "Yan Wang",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760620",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "AI Applications in Brand Management: Building Sustainable and Socially Responsible Digital Marketing Strategies",
+    "authors": "Luan Trong Nguyen, Giang Thi Tien Nguyen, Uyen Minh Vu, Tran Tam Luu",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760580",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Can AI Take Our Surveys for Us? Evaluating LLMs as Stand-ins for Human Respondents",
+    "authors": "Jinpeng Wang, Mengying Gong, Yiying Li",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760597",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Declarative Conversion Framework for Legacy CAE Input Systems: Pattern-Based Parsing and Unified Intermediate Representation",
+    "authors": "Yushu Jiao, Xiaoman Dong, Peilong Tian, Xiaoyang Zhang, Sunwei Li",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779498",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 15: Sparsity - 1",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786389",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 22: Energy and Power",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786396",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 7: Security and Privacy - Machine Learning",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786381",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Hotel Booking Cancellation Prediction by Feature Interaction and Machine Learning",
+    "authors": "Yue Zhao, Peng Qin",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779521",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "RGDPM: A Reference-Guided Degradation Perturbation Modulation Network for Cloud-Enabled Underwater Image Big Data Enhancement",
+    "authors": "Ziming Shen, Yanyan Liu, Yu Zong",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779491",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Digital Technology Innovation and Financial Market Stability- From the Perspective of Stock Price Crash Risk",
+    "authors": "Qiao He, Yan Zhu, Jing Wen",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760614",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Global Scheduling of Weakly-Hard Real-Time Tasks using Job-Level Priority Classes",
+    "authors": "Victor Gabriel Moyano, Zain Alabedin Haj Hammadeh, Selma Saidi, Daniel Lüdtke",
+    "publish": "ACM Transactions on Embedded Computing Systems",
+    "url": "https://doi.org/10.1145/3786342",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Consistent Channel Hopping Algorithms for the Multichannel Rendezvous Problem with Heterogeneous Available Channel Sets_supp1-3651474.pdf",
+    "authors": "Cheng-Shang Chang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/ton.2026.3651474/mm1",
+    "source": "IEEE",
+    "abstract": "We propose a theoretical framework for <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">consistent channel hopping algorithms</i> to address the multichannel rendezvous problem (MRP) in wireless networks with heterogeneous available channel sets. A channel selection function is called consistent if the selected channel remains unchanged when the available channel set shrinks, provided the selected channel is still available. We show that all consistent channel selection functions are equivalent to the function that always selects the smallest-index channel under appropriate channel relabeling. This leads to a natural representation of a consistent channel hopping algorithm as a sequence of permutations. For the two-user MRP, we characterize rendezvous time slots using a fictitious user and derive tight bounds on the maximum time-to-rendezvous (MTTR) and expected time-to-rendezvous (ETTR). Notably, the ETTR is shown to be the inverse of the Jaccard index when permutations are randomly selected. We also prove that consistent channel hopping algorithms maximize the rendezvous probability. To guarantee a deterministic tight MTTR bound, we propose the <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">modulo algorithm</i>, which uses modular arithmetic with one-cycle permutations and achieves performance comparable to locality-sensitive hashing (LSH)-based algorithms. The framework is extended to multiple users, with novel strategies such as stick-together, spread-out, and a hybrid method that accelerates rendezvous in both synchronous and asynchronous settings. Simulation results confirm the effectiveness and scalability of the proposed algorithms."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "GeoFed-Cervix: A Differential Geometry&amp;#x2013;Guided Federated and Explainable AI Framework for Early Cervical Cancer Detection on Consumer Devices_supp1-3651019.pdf",
+    "authors": "Chinmay Chakraborty",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tce.2026.3651019/mm1",
+    "source": "IEEE",
+    "abstract": "Early and accurate detection of cervical cancer (CC) is vital for improving clinical outcomes and guiding timely treatment. We introduce GeoFed-Cervix, a framework with a lightweight Android application (app) designed for multimodal CC diagnostics. The app integrates two modules: GeoFed-CervixYOLO for early CC prediction and GeoFed-CervixLangChain for explainable diagnostics. The framework addresses key challenges in CC screening, including data privacy, model interpretability, and deployment on resource-constrained edge devices. GeoFed-CervixYOLO uses differential geometric priors and personalized federated learning (PFL), ensuring robust feature extraction with privacy-preserving decentralization. GeoFed-CervixLangChain employs LangChain-driven large language models (LLMs) to generate clinician- and patient-specific explanations aligned with explainable AI (XAI) 2.0 principles. Designed for consumer-grade edge devices, the system supports accessibility in low-resource settings. Evaluated on a multimodal dataset of normal and precancerous samples, GeoFed-Cervix achieved 98.27% precision, 98.28% recall, 99.57% specificity, and 98.27% accuracy, while providing interpretable, clinically meaningful insights."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 20: GPUs - 2",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786394",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Multi-Model Collaborative Analysis of the New Energy Vehicle Market",
+    "authors": "Xi Chen, Rentao Wu, Zichu Lei, Xianghong He",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779515",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Visualization Analysis of Research Progress and Trend Exploration on Chronic Disease Comorbidities Based on COOC",
+    "authors": "Ning Liu, Fengyue Yang, Hongjuan Wen",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779484",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on Operator Location Awareness Based on Inspection Trajectories in Complex Oil and Gas Field Production Environments",
+    "authors": "Jingmei Zhang, Wenzhe Wu, Nan Wang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779531",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Assessing the Service Quality of Medical Cosmetology Institutions for College Students Based on the KANO Model",
+    "authors": "Weiping Luo, Chiang-Kuo Tu, Yihang Chen",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760585",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Can the digital economy slow down the financing constraints of enterprises",
+    "authors": "Xin-Yi Zhou",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760594",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 17: Microarchitecture - Prefetching 2",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786391",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 11: Quantum - 1",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786385",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "ViTaDex: Vision–Tactile Fusion for 6-D Object-in-Hand Pose Estimation in Dexterous Anthropomorphic Manipulation_supp1-3646626.mp4",
+    "authors": "Kun Qian",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tii.2025.3646626/mm1",
+    "source": "IEEE",
+    "abstract": "Object-in-hand 6-D pose estimation is critical for dexterous manipulation and assembly tasks. Existing object-in-hand pose estimation methods neglect the varying significance of tactile information from distinct hand regions during feature extraction and employ simplistic concatenation for vision–tactile fusion, which fails to capture the complementary relationships between these modalities. Moreover, prevailing object-in-hand datasets predominantly rely on predefined motion trajectories and single-point fingertip contact information, which inadequately represent real-world scenarios. To address these limitations, we propose the vision–tactile adaptive fusion network. Specifically, we design a novel tactile-gated adaptive graph convolution to dynamically model multiregional tactile features across the hand. We also introduce a vision–tactile cross-attention gated fusion module that facilitates efficient integration of multimodal sensory information. In addition, we construct the Vision–Tactile Object-in-Hand Dexterous Manipulation dataset based on human demonstration for 6-D pose estimation. The dataset employs a teleoperation system that combines an exoskeleton hand with a pose tracking system to replicate human dexterous behaviors and encompasses high-density tactile data spanning the entire hand. Extensive experiments demonstrate the robustness of our framework against occlusions."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Front Cover",
+    "authors": "N/A",
+    "publish": "IEEE Transactions on Nanotechnology",
+    "url": "https://doi.org/10.1109/tnano.2025.3644705",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-1-7",
+    "title": "The Relationship of ESG Disclosure, Capital Structure and Stock Performance : The Mediating Role of Audit Committee Effectiveness",
+    "authors": "Arsyi Anastasya, Anita Juwita",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760565",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3779475",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Experimental Study on Efficient Water and Fertilizer Utilization of Oil Sunflower Based on Entropy Weight-TOPSIS and Random Forest Methods",
+    "authors": "Jiashuo Bai, Hui Xia, Cunpeng Zhao, Xi Chen",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779526",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 1: Systems for AI (LLMs) - 1",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786375",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 29: Systems for AI (Processor Architecture)",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786403",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Pending Slot Reservation for Urban Air Mobility: Addressing on-Demand Traffic Uncertainty",
+    "authors": "Hyewook Kim, Yeonju Eun, Daekeun Jeon",
+    "publish": "2025 AIAA DATC/IEEE 44th Digital Avionics Systems Conference (DASC)",
+    "url": "https://doi.org/10.1109/dasc66011.2025.11257295",
+    "source": "IEEE",
+    "abstract": "This paper proposes a novel demand-capacity balancing (DCB) framework for Urban Air Mobility (UAM) that allocates vertiport slots between scheduled and on-demand flights in a fair and efficient manner. The key idea is to reserve a variable number of pending slots—dedicated slots held exclusively for on-demand flights—to mitigate the unfairness that arises under traditional first-requested, first-served (FRFS) slot allocation policies. Unlike prior work that adopted fixed reservation sizes, we introduce a scenario-based surrogate optimization method to determine the optimal number of pending slots at each vertiport and time bin, accounting for spatial and temporal uncertainty in on-demand traffic. Simulation results on a representative UAM network show that our optimized pending slot reservation policy significantly reduces total system delay and improves delay equity between service types compared to both FRFS and fixed reservation policies. The proposed framework enables robust and adaptive demand-capacity balancing under uncertain traffic demand in UAM environments."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Front Cover",
+    "authors": "N/A",
+    "publish": "IEEE Open Journal of the Industrial Electronics Society",
+    "url": "https://doi.org/10.1109/ojies.2025.3646946",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 14: Quantum - 2",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786388",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Comparative Study of Consumer Behavior on Business Webinar Websites: Identifying the More Effective Tool",
+    "authors": "Fe Gundayao Dampil, Joel Jr Gundayao Dampil, Faye Andrea Gundayao Dampil",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760566",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on government subsidies, digital finance and technology innovation: based on data from listed Chinese companies",
+    "authors": "xiaoxue cao, Min Shao, Guang Yang",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760612",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Additively Manufactured Catmull Rom Spline Profile Horn Antenna Using Post Metallized Conductive ePLA_supp1-3639207.pdf",
+    "authors": "He Huang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/lawp.2025.3639207/mm1",
+    "source": "IEEE",
+    "abstract": "Miniaturized satellites, especially for space radar, require compact, lightweight, high-gain, low cross-polarization antennas. While traditional horn antennas offer these benefits, their bulky nature, prone to field distortions, and fabrication challenges make them impractical for small satellites' strict mass and volume constraints, limiting their design flexibility. We present a cost-effective ePLA-based, 3D-printing parameter optimized compact 13.6 GHz Ku-band short horn antenna with post-silver metallization. A genetic algorithm-optimized Catmull Rom spline profile with aperture choke ring loading enhances pattern symmetry and minimizes phase errors. The prototype achieves an envelope of 6.55 λ₀³, a low height/aperture ratio of 0.629, 23.54% volumetric efficiency, SLL below -32 dB, and XPD above 30 dB. This work demonstrates a significant potential to address the scalable RF supply chain limitation for the ISS and to provide durable RF components for short-duration LEO satellite missions if space-grade materials like PEEK or Ultem are used."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 21: Security and Privacy - Memory",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786395",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 24: Systems for AI (HW/SW Support)",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786398",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Space Optimization Through Automated Cubing Systems for Cost Reduction and Logistics Improvement in National and International Freight Transport",
+    "authors": "Cynthia Fabiola Limaylla Melchor, Vladimir Sanchez Gaza, Gildo Enrique Angles Muñoz",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760621",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Time-Division-Based Constrained Multiobjective Optimization Method for Coal Mine Integrated Energy System Dispatch Problem_supp1-3649862.pdf",
+    "authors": "Jing Liang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tcyb.2025.3649862/mm1",
+    "source": "IEEE",
+    "abstract": "The coal mine integrated energy system dispatch problem (CMIES-DP) is a constrained multiobjective optimization problem (CMOP) with the characteristics of multiple objectives, high-dimensional decision variables, and multiple constraints, which makes it challenging for existing methods. On the one hand, existing constrained multiobjective evolutionary algorithms (CMOEAs) are prone to falling into local optima when facing problems with high-dimensional variables. On the other hand, the relationship between objectives and constraints of CMIES-DP has not been fully analyzed to guide the design of targeted solving techniques. Therefore, this article proposes a time-division-based CMOEA (TDCEA), where the characteristics of CMIES-DP are analyzed to design two main strategies. First, by analyzing the temporal relationship of objectives and constraints, CMIES-DP is decomposed into multiple subproblems with fewer variables and constraints, and these subproblems are sequentially solved to obtain better decision variables. Then, a random concatenation method is designed to combine the decision variables output from subproblems into a solution set with complete decision variables, and the new solution set will be further optimized to find feasible Pareto optimal solutions. Second, the relationship between constraints and objectives is analyzed to guide the design of evolving populations, so as to improve the search ability of the algorithm. In the experiments, the proposed algorithm is used to solve a real-world CMIES-DP case, and results demonstrate that compared with other advanced algorithms, the proposed algorithm achieves better performance regarding diversity, convergence, and distribution."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Visual analysis of Research Hotspots and Trends of College students' Health Literacy Based on Clustering Algorithms",
+    "authors": "Yupeng Ma, Huitong Jia, Ning Liu, Yue Wang, Fengyue Yang, Hongjuan Wen",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779485",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "From Prediction to Prescription: Bridging Management Science and Frontier Machine Learning",
+    "authors": "Wanlong Yin",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779528",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on the Enhancing Effect of Shared Transportation Systems on Urban Transportation Resilience: A Case Study in Nanjing",
+    "authors": "Lingyu Meng, Qingna Ma, Shengchao Cui",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779497",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Implementation of a Process Management System for the Standardization of Ready-Mix Concrete: Machine Learning Analysis for Predictive Quality Control - PISAC Huancayo Case",
+    "authors": "Henry Paul Pichardo Perez, Jose Luis Pichardo Perez, Alan Miguel Infante Vidalon",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760602",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Measuring the Impact of AI-Powered Virtual Try-On on Young Consumers’ Purchase Readiness",
+    "authors": "Uyen Minh Vu, Luan Trong Nguyen",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760603",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "LLM-based Power Special Topic Compilation Document Analysis SystemLLM-Enabled Intelligent Processing System for Power Special Topic DocumentsPractices for Improving Compilation Efficiency and Standardization Level of PowerIndustry Documents",
+    "authors": "Chanjuan Tang, Jingxin Zhu, Zhengtao Wang, Lingzhi Li, Jiuchun Ren",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779519",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Consumer's Perceptions of Electric Aircraft in Guangdong Province (China): An Exploratory Study Based on the Theory of Planned Behavior.",
+    "authors": "Wanchun Ke, Lampo Alessandro",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760588",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Cultivating Entrepreneurial Intention",
+    "authors": "Felicia Aretha Natania, Adilla Anggraeni",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760570",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Study on Green Technological Innovation of High-tech Industry Agglomeration in Fujian Based on Knowledge Graph and Grey Correlation",
+    "authors": "Chenxuan Wang, Wanping Huang, Li Chen",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760609",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Technological Readiness and Voluntary Tax Compliance of Micro and Small Enterprises: The Mediating Role of Willingness to Adopt e-Tax Filing Systems",
+    "authors": "Donn Enrique Moreno, Ramachandra Torres, Christine Andrea Garcia, Richyle Lloyd Perez, Patricia Telan",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760571",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 23: Reconfigurable Computing and Storage",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786397",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Data-Driven Model of Social Connectedness and Hidden Absenteeism Among Medical Students from Minority Regions",
+    "authors": "Lei Lei, Xingyu Zhou, Tao Xu, Lin Sun, Xinggui Xu",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779518",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "PoLVR: A Blockchain Consensus Mechanism Based on Deep Learning and Dynamic Reputation Management",
+    "authors": "Erchong Zheng, Yongli Wang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779529",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A data query method for large language models based on recall strategy optimization of RAG",
+    "authors": "Xu Zhang, Yongyi Huang, Zhiwei Ma",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779504",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Factors Affecting the Effectiveness of AI-Powered Personalization in E-Commerce Advertising on Consumers Purchase Intention: The Mediating Role of Flow Experience and Advertising Value",
+    "authors": "Huy Dac Trung Nguyen",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760619",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A SWOT Analysis of AI in E-commerce: A Case Study",
+    "authors": "Tran Tam Luu, Luan Trong Nguyen",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760582",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "The Differential Effects of Expert and Non-Expert Endorsements on Purchase Intention",
+    "authors": "Patricia Geraldine, Tryne Zefania Dorothy, Anisa Larasati, Adilla Anggraeni",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760595",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Analysis and Prediction of Civil Aviation Customer Behavior Based on Data Mining Algorithm",
+    "authors": "Qi Zhang, Zheng Zhang, Chunxiang Wang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779501",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on the Optimal Crop Planting Scheme Based on Big Data Analysis and Calculation",
+    "authors": "Haoyun Yang, Wei Li, Meishan Chen",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779490",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 13: Microarchitecture II",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786387",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 8: GPU - 1",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786382",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on the Construction of a Cloud-Edge Collaborative System for Intelligent Processing of Outsourced Data in Industry-Education Integration",
+    "authors": "Yushi Gao, Yang Chao, De Li, Lianghai Peng, Li Peng",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779494",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Information Sharing Behavior in Virtual Community and Its Influence on User Participation in E-commercePlatform",
+    "authors": "Yang Zixuan, Liu Liang",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760564",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Detecting Training Data For Large Language Models: A Survey",
+    "authors": "Chen Yang, Junyi Li, Shulin Lan, Yingchao Wang, Hongyang Du, Congcheng Gong, Xingshan Yao, Dusit (Tao) Niyato, Liehuang Zhu",
+    "publish": "ACM Computing Surveys",
+    "url": "https://doi.org/10.1145/3779430",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Accelerating Prolly Trees: Simplified Chunking for Rapid Updates",
+    "authors": "Abhimanyu Rawat, Tarun Kumar Vangani, Vanesa Daza",
+    "publish": "Distributed Ledger Technologies: Research and Practice",
+    "url": "https://doi.org/10.1145/3785142",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on Autonomous Game-playing and Intelligent Decision-making Methods for UAVs",
+    "authors": "Huan Zhou, Xiang Yin, Hanqiao Huang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779523",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Interactive Data Exploration for Smart City Analytics: A User-Centered Perspective",
+    "authors": "Xiang Li, Lucas Evans, Xinyi Zhang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779527",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "MCACOF: Multi-Criteria Adaptive Clustering and Optimization Framework to Improve WSN Performance_supp1-3650923.pdf",
+    "authors": "Muladi Muladi",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/access.2026.3650923/mm1",
+    "source": "IEEE",
+    "abstract": "Clustering techniques in Wireless Sensor Networks (WSNs) effectively reduce communication energy consumption, yet they often give rise to isolated node issues. To overcome the challenges of isolated nodes and unstable clusters, we introduce MCACOF method, an adaptive clustering framework designed to improve Cluster Head (CH) selection, enhance cluster resilience, and energy efficiency and to extend operational lifetime of WSNs across diverse node densities. This method uses spectral clustering techniques and E- Silhouette evaluation in the pre-clustering stage to optimize the determination of the number of clusters. CH selection is based on four main criteria optimized using gradient descent. MCACOF involves an E-Silhouette score-based cluster reconstruction process to evaluate and relocate unsuitable Cluster Members (CMs). Nodes identified as isolated nodes are reconnected through relay-based multi-hop sub-clusters, maintaining participation in data delivery and improving cumulative throughput. Simulations were conducted in six scenarios with uniformly deployed nodes and a centrally located Sink in each case, supplemented by two additional scenarios with non-uniformly deployed nodes where the Sink was placed at five distinct static positions. Across all these evaluated scenarios, MCACOF consistently outperforms REAC-IN, SFC, and MCDM, yielding lower node isolation, improved energy conservation, higher cumulative throughput, and extended network lifetime."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Remotely Controlled Continuous Surveillance of Viral RNA in Wastewater Using a LoRa Network_supp2-3651506.mp4",
+    "authors": "Weihua Guan",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/jiot.2026.3651506/mm1",
+    "source": "IEEE",
+    "abstract": "Tracking the rapid spread of infectious diseases such as COVID-19 in communities poses a significant global health challenge, mainly because traditional testing methods struggle to detect asymptomatic carriers and effectively manage outbreaks. To address this, we present a scalable, networked molecular testing framework for wastewater-based epidemiology that, for the first time, integrates portable nucleic acid testing (NAT) devices with long-range wireless communication and cloud-based data management. Each battery-powered node can perform Reverse Transcription - Loop-mediated Isothermal Amplification (RT-LAMP), a rapid nucleic acid amplification method, on-site directly on raw wastewater samples for SARS-CoV-2 detection. A node executes up to eight independent tests on a microfluidic cartridge, monitoring fluorescence signals from the RT-LAMP reactions in real time and transmitting the results via long-range radio (LoRa) to a gateway, which uploads structured data to a NoSQL cloud database. An interactive dashboard enables bidirectional communication with nodes and provides spatiotemporal visualization of both live and historical data, including hotspot identification through geotagging and mapping of metrics such as 7-day positivity rates. Rigorous system testing with four nodes under varied transmission scenarios confirmed a packet delivery ratio exceeding 99%, ensuring accurate and reliable reconstruction of time-series RT-LAMP curves. By integrating NAT with IoT communication and cloud analytics, this system supports unattended, long-term wastewater monitoring and can provide public health officials with timely, actionable insights. This framework demonstrates the potential of IoT-enabled molecular testing to advance decentralized surveillance beyond conventional laboratory-based workflows."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Exercise intervention and effectiveness evaluation of the prevention and treatment system for cognitive impairment in elderly people under the background of intelligence",
+    "authors": "Jing Liu",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779477",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "An Attention-Guided Bert-BiLSTM Model for Chinese Sentiment Classification",
+    "authors": "Jin Cui, Fenghui Zhang, Yu Zong",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779492",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on the Impact of Data Asset Information Disclosure on Enterprise Innovation Efficiency",
+    "authors": "Zhihui Yang, Jingru Ding, Qing Xu, Songling Yang",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760613",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on the Coupling and Coordinated Development of Urban Agglomerations and Advantageous Industrial Clusters: An Empirical Analysis Based on the Yangtze River Economic Belt",
+    "authors": "Na Wu",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760581",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research status and prospect of wireless communication driving the development of smart cities Internet of Things",
+    "authors": "Zhihao Li, Yutao Zhao, Zhihao Li",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779512",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Order-Based Scheduling and Planning for Instant Delivery Orders",
+    "authors": "Pengkai Jing, Leye Gong, Xiaoxing Feng",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779500",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Analysis of evolutionary trends and hotspots of domestic research on cognitive dysfunction in diabetes mellitus based on clustering algorithm",
+    "authors": "Lili Zhang, Zhilei Wang, Mingquan Li",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779478",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "MotionFlow: Efficient Motion Generation with Latent Flow Matching_supp1-3651041.pdf",
+    "authors": "Ke Lu",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tmm.2026.3651041/mm1",
+    "source": "IEEE",
+    "abstract": "In the field of human centric multimedia, text-driven human motion generation is a significant pursuit with wide-ranging applications across diverse scenarios. Despite substantial advancements, existing methods often suffer from a trade-off between inference latency and high-quality generation. To overcome this gap, we propose the Motion Latent Flow Matching model (MotionFlow), a novel and powerful framework for motion generation. It introduces flow matching algorithm in the latent space, which can achieve superior performance with just one-step inference. In addition to the text-driven task, we further extend our method to controllable motion generation. Specifically, we integrate a control encoder into the latent space and further decode the predicted latent code into motion space to support explicit supervision, ensuring the synthesized motion can tightly align with the input signals. Extensive experiments demonstrate that our MotionFlow not only outperforms current leading approaches for the text-driven task, but also delivers remarkable capabilities in controllable motion generation."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 6: Processing-In-Memory - 2",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786380",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 30: Emerging Applications - 1",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786404",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 9: Systems for AI (Emerging Applications)",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786383",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Hybrid Model Integrating DBSCAN and BP Neural Network for Predicting User New Follow Behaviors in Social Media",
+    "authors": "Zheping Zhang, Bingqi Jia, Zhaoyang Niu",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779483",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Role of Innovation Diffusion Attributes towards Ai-Generated Tool Adoption in Enhancing the Business Packaging and Product Design for Local Pasalubong Centers in Laguna",
+    "authors": "Juliezher Colaljo, Donn Enrique Moreno, Rocky Angelo Gabatin, Louvel Maughn Abaoag, Astrid Gabrielle Anglo, Aaron Kristan Sanao",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760572",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "3D Semantic Gaussian via Geometric-Semantic Hypergraph Computation_supp1-3651112.pdf",
+    "authors": "Xiangmin Han",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tmm.2026.3651112/mm1",
+    "source": "IEEE",
+    "abstract": "Semantic labels are inherently tied to geometry and luminance reconstruction, as entities with similar shapes and appearances often share categories. Traditional methods use synthesis-analysis, NeRF, or 3D Gaussian representations to encode semantics and geometry separately. However, 2D methods lack view consistency, NeRF extensions are slow, and faster 3D Gaussian methods risk spatial and channel inconsistencies between semantic and RGB. Moreover, these methods require costly manual dense semantic labels. To alleviate resource demands and achieve effective semantic reconstruction with sparse inputs while enhancing RGB rendering quality, we build upon 3D Gaussian by integrating semantic features from pre-trained models-requiring no additional ground truth input-into Gaussian features, and construct a hypergraph neural network to capture higher-order correlations across RGB and semantic information as well as between different frames. Hypergraphs use hyperedges to link multiple vertices, capturing complex relationships essential for cross-modal tasks. This higher-order structure addresses the limitations of NeRF and Gaussian methods, which lack the capacity for such advanced associations. This framework enables precise novel view synthesis and 2D semantic reconstruction without manual annotations, achieving state-of-the-art results for RGB and semantic tasks on room-scale scenes in the ScanNet and Replica datasets, while supporting real-time rendering speeds of 34 FPS."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 16: Systems for AI (Quantization)",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786390",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 2: Processing-In-Memory - 1",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786376",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 31: Security and Privacy - Cryptography, Speculation and Computational Storage",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786405",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "On Resolving Non-Preemptivity in Multitask Scheduling: An Optimal Algorithm in Deterministic and Stochastic Worlds_supp1-3647752.pdf",
+    "authors": "Wenxin Li",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/ton.2025.3647752/mm1",
+    "source": "IEEE",
+    "abstract": "The efficient scheduling of multi-task jobs across multiprocessor systems has become increasingly critical with the rapid expansion of computational systems. This challenge, known as <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Multiprocessor Multitask Scheduling (MPMS)</i>, is essential for optimizing the performance and scalability of applications in fields such as cloud computing and deep learning. In this paper, we study the MPMS problem under both deterministic and stochastic models, where each job is composed of multiple tasks and can only be completed when all its tasks are finished. We introduce NP-SRPT, a non-preemptive variant of the Shortest Remaining Processing Time (SRPT) algorithm, designed to accommodate scenarios with non-preemptive tasks. Our algorithm achieves a competitive ratio of ln α + β + 1 for minimizing response time, where α represents the ratio of the largest to the smallest job workload, and β captures the ratio of the largest non-preemptive task workload to the smallest job workload. We further establish that this competitive ratio is order-optimal when the number of processors is fixed. For stochastic systems modeled as M/G/N queues, where job arrivals follow a Poisson process and task workloads are drawn from a general distribution, we prove that NP-SRPT achieves asymptotically optimal mean response time as the traffic intensity ρ approaches 1, assuming the task size distribution has finite support. Moreover, the asymptotic optimality extends to cases with infinite task size distributions under mild probabilistic assumptions, including the standard M/M/N model. Finally, we extend the analysis to the practical setting of unknown job sizes, proving that non-preemptive adaptations of the M-Gittins and M-SERPT policies achieve asymptotic optimality and near-optimality, respectively, for a broad class of job size distributions. Experimental results validate the effectiveness of NP-SRPT, demonstrating its asymptotic optimality in both theoretical and practical settings."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Cultural Influences on Personality Types: A Cluster Analysis of HEXACO Traits in Japan_supp1-3651324.docx",
+    "authors": "Eisuke Tokiwa",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/access.2026.3651324/mm1",
+    "source": "IEEE",
+    "abstract": "This study investigates the structure of personality types among Japanese individuals using the HEXACO model, based on data from 13,668 participants. Although personality trait research has made significant progress, the existence and consistency of personality types remain under debate. To address this, we applied a combination of Ward’s hierarchical clustering and k-means analysis, supplemented by latent profile and spectral clustering to ensure robustness. The results revealed seven distinct personality types that capture both universal and culture-specific dimensions of personality. These types include Reserved, Emotionally Sensitive, Conscientious Introvert, Exploratory Extravert, Self-Oriented Independent, Emotionally Volatile Extravert, and Reliable Introvert. The Honesty–Humility factor, central to the HEXACO framework, was particularly influential in explaining cultural aspects of Japanese personality, reflecting the balance between humility, emotional restraint, and social harmony emphasized in Japanese society. Moreover, the study demonstrated how methodological diversity and large-scale data enhance the reliability of typological research in non-Western contexts. The findings extend previous Western-centered studies by providing empirical evidence of distinct personality configurations shaped by Japanese cultural values. This study contributes to cross-cultural psychology by highlighting the universality and specificity of HEXACO-based personality structures and underscores the need for culturally grounded models in global personality science."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Mechanical Parameters Inversion of Surrounding Rock in Underground Powerhouse of Pumped Storage Power Station Based on Deformation Prediction",
+    "authors": "Yingzi Wu, Xi Chen, Wei Jiang, Kun Liang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779479",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Smart Construction Management System with Blockchain for High-risk Constructions",
+    "authors": "Zhonghua Peng, Yuwei Zhou, Weiwu Zou, Lingxue Li, Xi Wu, Baihui Cui, Haoran Jiang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779514",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "The Impact of Free Trade Zone (FTZ) Establishment on Urban Entrepreneurship — Based on Web Crawling Data",
+    "authors": "Faming Chen",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779517",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "The perspectives of students on the use of chatbots (AI) in e-commerce.",
+    "authors": "Tran Tam Luu, Luan Trong Nguyen",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760579",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Establishment of a near-infrared diffuse reflectance detection method for acidity of koji",
+    "authors": "Rongxiang Wang, Yang Mu, An Sun, Luoshui Yu",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779476",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Corporate Digital Transformation, Media Supervision, and ESG Performance—From the Perspective of Stakeholder Theory",
+    "authors": "Ping Yu, Yujie Zhu",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779516",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "DMH-HARQ: Reliable and Open Latency-Constrained Wireless Transport Network_supp1-3651008.pdf",
+    "authors": "Bin Han",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/ton.2026.3651008/mm1",
+    "source": "IEEE",
+    "abstract": "The extreme requirements for high reliability and low latency in the upcoming Sixth Generation (6G) wireless networks are challenging the design of multi-hop wireless transport networks. Inspired by the advent of the virtualization concept in the wireless networks design and <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">openness</i> paradigm as fostered by the Open-Radio Access Network (O-RAN) Alliance, we target a revolutionary resource allocation scheme to improve the overall transmission efficiency. In this paper, we investigate the problem of automatic repeat request (ARQ) in multi-hop decode-and-forward (DF) relaying in the finite blocklength (FBL) regime, and propose a dynamic scheme of multi-hop hybrid ARQ (HARQ), which maximizes the end-to-end (E2E) communication reliability in the wireless transport network.We also propose an integer dynamic programming (DP) algorithm to efficiently solve the optimal Dynamic Multi-Hop HARQ (DMH-HARQ) strategy. Constrained within a certain time frame to accomplish E2E transmission, our proposed approach is proven to outperform the conventional listening-based cooperative ARQ, as well as any static HARQ strategy, regarding the E2E reliability. It is applicable without dependence on special delay constraint, and is particularly competitive for long-distance transport network with many hops."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Physics-Informed Neural Network Framework for Real-Time Model Predictive Shape Manipulation of Deformable Linear Objects_supp1-3649180.mp4",
+    "authors": "Yixiong Du",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tase.2025.3649180/mm1",
+    "source": "IEEE",
+    "abstract": "Shape control of deformable linear objects (DLOs) is a major challenge in robotics due to their high-dimensional, nonlinear dynamics and sensitivity to boundary conditions. Existing data-driven and physics-based models either require large datasets or suffer from excessive computational cost for real-time control. This paper presents a Cosserat-based Physics-Informed Neural Network (C-PINN) framework for efficient, real-time DLO modeling and automatic shape control. By embedding Cosserat rod theory directly into the PINN loss, C-PINN achieves accurate, physically consistent predictions of the DLO while dramatically reducing the requirement for large-scale training data and is robust to unseen scenarios. To enhance generalization and training stability, we introduce a curriculum learning strategy and propose an online sim-to-real residual adaptation module to bridge the gap between simulation and real-world deployment. The learned surrogate model is integrated into a gradient-based model predictive controller (MPC), enabling real-time, closed-loop shape control. Extensive experiments demonstrate that our approach generalizes well to various DLO materials and configurations in both 2D and 3D scenarios, and adapts robustly to interactive, human-in-the-loop manipulation. Both simulation and real-world experiments show that our method consistently attains significantly lower RMSE, as confirmed by comprehensive comparisons with various baselines. These results highlight the effectiveness and versatility of C-PINN for practical, high-precision DLO manipulation in diverse robotic scenarios. Compared to traditional analytical solvers, C-PINN achieves up to a 228-fold improvement in computational speed."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 28: Systems for AI (Data Representations)",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786402",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "IEEE Transactions on NanoBioscience",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tnb.7728",
+    "source": "IEEE",
+    "abstract": ""
+  },
+  {
+    "date": "2026-1-7",
+    "title": "The determinants influencing Generation Z's propensity to initiate digital entrepreneurship",
+    "authors": "Luan Trong Nguyen, Tran Lam, Anh Ly, Thu Duong",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760567",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "An Ex-employee Citizenship Behavior Management System Based on A Moderated Mediation Model and Large Language Models",
+    "authors": "Yudong Chi, Feng Li",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760615",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Assessment of Cellular Signals of Opportunity for High-Altitude Aircraft Navigation_supp1-3187142.mp4",
+    "authors": "Zaher Zak Kassas",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/maes.2022.3187142/mm1",
+    "source": "IEEE",
+    "abstract": "Opportunistic navigation with cellular signals is studied and demonstrated on a high-altitude aircraft. An extensive campaign was conducted by the Autonomous Systems Perception, Intelligence, and Navigation Laboratory (ASPIN) in collaboration with the U.S. Air Force (USAF) to sample ambient cellular signals of opportunity (SOPs) at different altitudes in different regions in Southern California, USA. The carrier-to-noise ratio is characterized as a function of altitude and horizontal distance. It was found that signals from cellular transmitters can be reliably acquired and tracked for navigation purposes by receivers mounted on high dynamics aircraft flying at altitudes as high as 23,000 ft above ground level and horizontal distances as far as 100 km. The multipath channel is also characterized as a function of altitude, showing clean channels with a dominant line-of-sight component for altitudes up to 23,000 ft. To further assess the potential of cellular SOPs for aircraft navigation, a 51-km trajectory traversed over a period of 9 minutes was estimated exclusively using cellular SOPs (i.e., with no GPS or other sensors, except for barometric altimeter measurements), resulting in a three-dimensional position (3-D) 10.5-m position root-mean-squared error."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3760557",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "AI-Driven Consumer Trust Enhancement in E-commerce: A Dynamic Sentiment-Based Marketing Framework for Cross-Platform Personalization",
+    "authors": "Guiying Lyu, Ahmad Yahya Dawod",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760601",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Exploring Virtual Voice Assistants in E-Commerce: A Young Consumer Perspective",
+    "authors": "Uyen Minh Vu, Luan Trong Nguyen",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760586",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "The Research on the Impact of Heterogeneous Institutional Investors' Shareholding on Corporate Financial Risks",
+    "authors": "Hui-Fang Wu, Zheng-Yan Shao",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760616",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "CLIP-SD: CLIP-Enhanced Self-Distillation for Visual Recognition_supp1-3651026.pdf",
+    "authors": "Zhenhua Huang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tmm.2026.3651026/mm1",
+    "source": "IEEE",
+    "abstract": "Current knowledge distillation methods typically require significant computational resources and time to train task-specific teacher candidates from scratch and identify the optimal teacher. Although self-distillation methods eliminate the dependency on the teacher by allowing the student model to learn independently, they face two challenges: the student learns correct and incorrect knowledge indiscriminately, and the student's learning scope is limited due to the lack of external teacher supervision. Spurred by these deficiencies, this work proposes a CLIP-enhanced Self-Distillation (CLIP-SD) method to overcome these problems, while almost not increasing training time. CLIP-SD comprises two main components: Prediction-oriented Self-Distillation (PSD) and Two-stage Task-guided CLIP Distillation (TTCD). PSD tackles the first challenge by assigning higher and lower weights to correct and incorrect prediction samples, respectively, during self-distillation. This component forces the student to focus on correct knowledge and minimize the impact of incorrect knowledge. Regarding the second challenge, the robust CLIP model is directly introduced into self-distillation. However, CLIP lacks task-specific knowledge and its output is overly smooth during the distillation process, prohibiting the student from learning more effectively. Therefore, TTCD refines CLIP's output through a two-stage process, endowing it with task-specific knowledge to enhance student learning. Experimental results indicate that CLIP-SD significantly improves distillation performance while maintaining training efficiency comparable to self-distillation. Specifically, on the CIFAR-100 dataset, the performance of CLIP-SD reaches 72.48% when trained with ResNet20 as the student model, which is an average improvement of 2.54% and 1.12% over the knowledge distillation and self-distillation methods. Regarding training time, CLIP-SD takes 3.91 hours, an average decrease of 2.73 hours compared to knowledge distillation and an average increase of 0.45 hours compared to self-distillation. Despite the slight increase in training time compared to self-distillation, the overhead is worthwhile and negligible considering its performance improvement."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Encoder-Only Image Registration_supp1-3651245.pdf",
+    "authors": "Hang Zhang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tcsvt.2026.3651245/mm1",
+    "source": "IEEE",
+    "abstract": "Learning-based techniques have significantly improved the accuracy and speed of deformable image registration. However, challenges such as reducing computational complexity and handling large deformations persist. To address these challenges, we analyze how convolutional neural networks (ConvNets) influence registration performance using the Horn-Schunck optical flow equation. Supported by prior studies and our empirical experiments, we observe that ConvNets play two key roles in registration: linearizing local intensities and harmonizing global contrast variations. Guided by these insights, we propose the Encoder-Only Image Registration (EOIR) framework comprising five modifications to existing approaches, to achieve a better accuracy-efficiency trade-off. EOIR separates feature learning from flow estimation, employing only a 3-layer ConvNet for feature extraction and a set of 3-layer flow estimators to construct a Laplacian feature pyramid, progressively composing diffeomorphic deformations under a large-deformation model. Results on six datasets across different modalities and anatomical regions demonstrate EOIR’s effectiveness, achieving superior accuracy-efficiency and accuracy-smoothness trade-offs. With comparable accuracy, EOIR provides better efficiency and smoothness, and vice versa. The source code of EOIR is available on Github."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Efficient Abstractive Summarization via Entropy-Guided Context Pruning",
+    "authors": "Shuaijun Chen, Lin Chen",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779486",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Machine Learning-Based Prediction and Interpretability Analysis of Logistics Delay Risks in E-commerce Supply Chains",
+    "authors": "Ziyan Hu",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779510",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Influencing factors analysis of application on decontamination equipment",
+    "authors": "Ting Liang, Junqi Li, Sheng Xu, Lidong Zhang, Wen Yang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779513",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Portfolio Optimization Subject to Second-Order Stochastic Dominance Constraints_supp1-3646278.pdf",
+    "authors": "Jun Wang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tsmc.2025.3646278/mm1",
+    "source": "IEEE",
+    "abstract": "In this article, we propose a constrained optimization approach to portfolio selection by maximizing nine risk-adjusted return metrics, subject to second-order stochastic dominance (SSD) constraints. The SSD constraints ensure that the portfolio returns are no less than an amplified proportion of returns from a benchmark in the sense of SSD. Because the number of SSD constraints is extremely large, the resulting constrained optimization problems are computationally challenging. To reduce computational complexity, we develop an efficient algorithm to solve the problems iteratively by incrementally adding SSD constraints. We experimentally demonstrate the superiority of the proposed approaches to several baselines in terms of out-of-sample performance criteria based on financial data from major world stock markets."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Unraveling the impact of employees perceived corporate environmental responsibility on green creativity: The moderating role of work-related technologies",
+    "authors": "Ernest Balili, Jian Zhang",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760599",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "THE EFFECT OF ERP (ENTERPRISE RESOURCE PLANNING) SYSTEM ON ACCOUNTANT SATISFACTION WITH ORGANIZATIONAL CULTURE AS A MODERATING VARIABLE",
+    "authors": "Vania Petrina Suryadharma, Fransisca Hanita Rusgowanto",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760563",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research Progress of Regional Value Chain: A Visualized Analysis Using CiteSpace",
+    "authors": "Chunxue Li, Haoyuan Liu, Kunyao Li, Linghua Lv, Jingjing Luo",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760604",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Consumer Response Analysis with AI and Facial Expression Recognition in Retail",
+    "authors": "Cheng Qian, Joao Alexandre Lobo Marques",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760611",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Visual Analysis of Research Hotspots and Development Trends of Overweight and Obesity Based on Clustering Algorithms",
+    "authors": "Huitong Jia, Yupeng Ma, Ning Liu, Yue Wang, Fengyue Yang, Hongjuan Wen",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779487",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Study on a Quality Risk Prediction Model for Pre-cooked Meals Based on Regression Analysis",
+    "authors": "Jiayi Zheng, Shichong Nie, Jie Qin, Yihan Gong, Lexin Gan, Jufang Lv",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779524",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 27: Graph Processing and HPC",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786401",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "ShadowNeRF: Learning Neural Radiance Field with Sight Degradation and Recovery_supp1-3651081.pdf",
+    "authors": "Yueqi Duan",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tmm.2026.3651081/mm1",
+    "source": "IEEE",
+    "abstract": "Inherently equipped with arbitrary resolution and multi-view consistency, the Neural Radiance Field (NeRF) as an implicit scene representation has drawn extensive attention. While traditional NeRFs excel at novel view synthesis (NVS) under ideal conditions, they overlook the potential of learning consistent geometric representations across varying sight qualities. Current methods mainly focus on optimizing synthesis under clear visibility, which limits their effectiveness in downstream scene understanding tasks where robust geometry comprehension is crucial. In this paper, we propose a NVS pre-training technique named ShadowNeRF which firstly synthesizes degraded views with shadowed regions to challenge the model in inferring complete scene geometries. We then design a self-supervised sight recovery process with a two-stage unshadowing framework, which progressively recovers neighboring areas and reveals geometric properties of invisible regions. This pre-training strategy of degradation synthesis and recovery, when combined with taskspecific fine-tuning, enhances the understanding of underlying scene structure for the model and strengthens its ability to process scenes under varying sight conditions. Through extensive experiments, we demonstrate that our pre-training and finetuning pipeline significantly improves the model performances in semantic segmentation and 3D object detection, as well as the reconstruction quality of complex scenes."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Beyond the Broadcast: Enhancing VR Tennis Broadcasting through Embedded Visualizations and Camera Techniques_supp1-3634638.mp4",
+    "authors": "Jun-Hsiang Yao",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tvcg.2025.3634638/mm1",
+    "source": "IEEE",
+    "abstract": "Virtual Reality (VR) broadcasting has emerged as a promising medium for providing immersive viewing experiences of major sports events such as tennis. However, current VR broadcast systems often lack an effective camera language and do not adequately incorporate dynamic, in-game visualizations, limiting viewer engagement and narrative clarity. To address these limitations, we analyze 400 out-of-play segments from eight major tennis broadcasts to develop a tennis-specific design framework that effectively combines cinematic camera movements with embedded visualizations. We further refine our framework by examining 25 cinematic VR animations, comparing their camera techniques with traditional tennis broadcasts to identify key differences and inform adaptations for VR. Based on data extracted from the broadcast videos, we reconstruct a simulated game that captures the players' and ball's motion and trajectories. Leveraging this design framework and processing pipeline, we develope Beyond the Broadcast, a VR tennis viewing system that integrates embedded visualizations with adaptive camera motions to construct a comprehensive and engaging narrative. Our system dynamically overlays tactical information and key match events onto the simulated environment, enhancing viewer comprehension and narrative engagement while ensuring perceptual immersion and viewing comfort. A user study involving tennis viewers demonstrate that our approach outperforms traditional VR broadcasting methods in delivering an immersive, informative viewing experience."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Multi-task learning framework for elasticity and viscosity image reconstruction in ultrasound viscoelastography_supp1-3650938.pdf",
+    "authors": "Manish Bhatt",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tuson.2026.3650938/mm1",
+    "source": "IEEE",
+    "abstract": "Soft tissues are viscoelastic in nature, and shear wave viscoelastography has emerged as an effective tool for differentiating healthy and diseased tissues by assessing their viscoelastic properties. This study presents a noise-aware multitask deep learning framework that simultaneously reconstructs tissue elasticity and viscosity maps. The proposed unified model directly estimates viscoelastic parameters from noisy shear-wave data, eliminating the need for explicit shear wave attenuation measurements and improving robustness to noise. The framework was trained on 1,000 velocity field datasets generated from numerical simulations, and validated across numerical simulations, tissue-mimicking phantoms, and <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">in vivo</i> duck liver datasets. Results demonstrated high fidelity in reconstruction accuracy, with strong agreement with ground truth in simulations and phantoms. In simulated phantoms where ground truth was available, the root mean square error for viscosity across samples was 0.128 (95% CI: 0.105–0.150) and for elasticity was 2.363 (95% CI: 2.157–2.573), and the structural similarity index was more than 0.96. In four <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">in vivo</i> duck liver datasets, elasticity values ranged from 11.50 ± 6.32 to 25.50 ± 17.16 kPa and viscosity ranged from 0.85 ± 0.46 to 1.8 ± 0.37 Pa·s. The denoising module improved the signal-to-noise ratio up to threefold and enabled reliable performance even in low-SNR conditions. The framework enables rapid, noninvasive viscoelastic imaging and establishes a foundation for future diagnostic tools that go beyond stiffness-based assessments."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 4: Microarchitecture - Prefetching 1",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786378",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Areas of use of ChatGPT and other Large Language Models among Hungrian universities, focusing on the Generation Z and the business world",
+    "authors": "Peter Nagy, Boglarka Nagy-Toth, Adrian Szilard Nagy",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760590",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Cybersecurity Perception and Online Payment Adoption Among Micro and Small Enterprises using Theory of Planned Behavior",
+    "authors": "Donn Enrique Moreno, Ramachandra Torres, Ellenita Red, Kisha Althea Hipolito, Martha Nicole Maristela, Bryan James Ramos",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760568",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Analysis and Reflection on the Construction of Large Language Models for Standardization Field Training",
+    "authors": "Jia Qi Zhao, Jing Li",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760617",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Big data-driven logistics node location selection and network optimization model",
+    "authors": "Mingzhi Yang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779505",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "How does artificial intelligence understand consumer preferences: Research on behavioral analysis and recommendation mechanisms based on Xiaohongshu",
+    "authors": "Lingyi Wang, Ahmad Yahya Dawod",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760600",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A CSRT-Based Application Study on Multi-Rockfall Tracking",
+    "authors": "Ruohan Wei, Hongxia Cui",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779509",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Tourism Model Development and Optimization for Juneau Based on Multi-Objective Optimization and AHP-EWM Method",
+    "authors": "Keyu Chen, Minghao Ma, Shuairun Wang, Yuechi Li, Yufei Yang, Wentian Yi, Jiahui Song, Yifan Si, Anji Lai, Weiyi Wang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779496",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Administrative Committee Information",
+    "authors": "N/A",
+    "publish": "IEEE Transactions on Power Electronics",
+    "url": "https://doi.org/10.1109/tpel.2025.3619169",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 25: Tools and Simulators",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786399",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Sustainability Awareness and Fast Beauty Consumption: A Paradoxical Uprise",
+    "authors": "Skolastika Viendra Herlian Ryanto, Adilla Anggraeni",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760576",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on the Influencing Factors of University Students' Impulsive Buying in Live Streaming Commerce",
+    "authors": "Fenfang Ye, Anna Marie R. Baloran",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760610",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Impact of Social Media Algorithms and Trust in Search on Search Decisions of Filipina Housewives for Home and Lifestyle Products",
+    "authors": "Ma. Christina Leonardo Abrahano, Juliezher M. Colaljo, Rocky Angelo M. Gabatin, Lawrence Gabriel R. Cabatac, David Roy L. Manguiat, Meg Royena",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760577",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "AI-Driven Consumer Trust in Yunnan Arabica Coffee: How Intelligent Data Presentation Shapes Purchasing Behavior in e-commerce",
+    "authors": "Xiao Tan, Nopasit Chakpitak, Piang-or Loahavilai",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760596",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on Optimal Tourism Route Strategy Based on Adaptive Multi Objective Genetic Algorithm",
+    "authors": "Fuyong Zheng, Siyu Dai, Li Huang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779480",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "An Association Rule-Based Time Series Tiering Algorithm for Hot and Cold Data in Distributed Storage Systems",
+    "authors": "Ziwei Hu, Peng Liu, Yunlong Wang, Zhixiang Ji",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779506",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 33: Emerging Applications - 2",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786410",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 12: Systems for AI (Training)",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786386",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Boosting Universal Adversarial Attack on Deep Neural Networks_supp1-3651134.pdf",
+    "authors": "XiaoFeng Liao",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tmm.2026.3651134/mm1",
+    "source": "IEEE",
+    "abstract": "Deep neural networks (DNNs) are well-known to be susceptible to many universal adversarial perturbations (UAPs), where each UAP can successfully attack many images when added to the input. In this paper, we explore the existence of diversified UAPs, each of which successfully attacks a large but substantially different set of images. Since the sets of images successfully attacked by different UAPs are often complementary to each other, strategically selecting the most effective UAP to attack each new image could maximize the overall coverage of successful attacks. Following this insight, we propose a novel attack framework named boosting universal adversarial attack. The key idea is to simultaneously train a set of diversified UAPs and a selective neural network, such that the selective neural network can choose the most effective UAP when attacking a new target image. Due to the simplicity and effectiveness of the proposed boosting attack framework, it can be generally used to significantly boost the attack effectiveness of many classic single- UAP methods that only use a single UAP to attack all target images. Meanwhile, the boosting attack framework is also able to perform real-time attacks as it does not require any additional training or fine-tuning when attacking new target images. Extensive experiments demonstrate the outstanding performance of the proposed boosting attack framework."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "The Role of Consumers’ Local Food Attitude on Destination Branding and Its Impact on Intention to Revisit and Recommend: The Case of Tagaytay City, Philippines",
+    "authors": "Donn Enrique Moreno, Mariela Arabelle Tan, Althea Marie Tiaga, Shaun Dwight So",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760559",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Algorithm-Based Prediction of Microscopic Pores in High-Strength Fiber Reinforced Concrete",
+    "authors": "Zhenhua Liu",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779511",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Study on the influence of excellent coaches based on entropy power method on Olympic medal distribution",
+    "authors": "Fuwei Yang, Ze Gao, Chenyi Shen, Yujie Zhang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779489",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Time Series Forecasting Methods: From Statistical Forecasting to Integrated Large Language Models",
+    "authors": "Fei Ye, Peng Li, Weixiang Cao, Yu Zong",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779493",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Implementation of Business Model Canvas for Business Development in Rawalumbu, Indonesia",
+    "authors": "Haryadi Sarjono, Alvin Rustandi, Ine Silviya",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760575",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Algorithmic Window Shopping: The Impact of Generative AI on the Purchase Decisions of Filipino Gen Z Consumers",
+    "authors": "Donn Enrique Moreno, Allyana Marie Partoza, Amedalla Sherrie Marfil, Andrei Ybanez, Edward Kevin Parocha, Irish Jose Estoesta",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760558",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Numerical Investigation of Multiphase Flow and Heat Transfer Coupling in Deep Well Annulus Using ANSYS Fluent",
+    "authors": "Xinyu Hao, Yingcao Zhou",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779530",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 3: Security and Privacy - Side Channels",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786377",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Understanding the Impulse Buying Behavior in the Digital Age: Influential Factors in Online Consumer Behavior",
+    "authors": "Rocky Angelo Gabatin, Sheila Mae Sierra, Michael Gabriel Maniago, Ashley Capole, Ramachandra Torres",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760578",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Marketing in Transition: Perception of Neuromarketing of User Willingness for Neuromarketing Services",
+    "authors": "Belina da Graça Lei, Joao Alexandre Lobo Marques, Cheng Qian",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760618",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on Predicting the Follower Growth of Social Media Bloggers Based on LSTM Model",
+    "authors": "Zheping Zhang, Yuze Wang, Zhaoyang Niu",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779481",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "From mixing line to mixing surface: a new perspective to mixing and recycling in archaeological science",
+    "authors": "Xiaopeng Lei",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779488",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Table of Contents",
+    "authors": "N/A",
+    "publish": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+    "url": "https://doi.org/10.1109/tcsii.2025.3641489",
+    "source": "IEEE",
+    "abstract": null
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 32: Memory",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786406",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on Cross-Border Data Regulation of Generative Artificial Intelligence in the Guangdong-Hong Kong-Macao Greater Bay Area-- An Analysis from the Perspectives of Policy, Demand, and Technology",
+    "authors": "Jie Ran, Baozhu Lin",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779482",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Exploring the Influence of Artificial Intelligence and Usage Patterns on Consumer Intention to Use Chatbots in Purchasing",
+    "authors": "Hope Mendoza, Angel Jaime Claire Roxas, Jeremy Paul Gecolea, Donn Enrique Moreno, Juliezher Colaljo",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760569",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on the Influence Mechanism of E-commerce Live Streaming for Time-honored Brands on the Purchase Intention of Generation Z Consumers",
+    "authors": "Ye Wang, Jingnan Wu, Jing Li",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760584",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 18: Sparsity - 2",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786392",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Remotely Controlled Continuous Surveillance of Viral RNA in Wastewater Using a LoRa Network_supp1-3651506.docx",
+    "authors": "Weihua Guan",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/jiot.2026.3651506/mm3",
+    "source": "IEEE",
+    "abstract": "Tracking the rapid spread of infectious diseases such as COVID-19 in communities poses a significant global health challenge, mainly because traditional testing methods struggle to detect asymptomatic carriers and effectively manage outbreaks. To address this, we present a scalable, networked molecular testing framework for wastewater-based epidemiology that, for the first time, integrates portable nucleic acid testing (NAT) devices with long-range wireless communication and cloud-based data management. Each battery-powered node can perform Reverse Transcription - Loop-mediated Isothermal Amplification (RT-LAMP), a rapid nucleic acid amplification method, on-site directly on raw wastewater samples for SARS-CoV-2 detection. A node executes up to eight independent tests on a microfluidic cartridge, monitoring fluorescence signals from the RT-LAMP reactions in real time and transmitting the results via long-range radio (LoRa) to a gateway, which uploads structured data to a NoSQL cloud database. An interactive dashboard enables bidirectional communication with nodes and provides spatiotemporal visualization of both live and historical data, including hotspot identification through geotagging and mapping of metrics such as 7-day positivity rates. Rigorous system testing with four nodes under varied transmission scenarios confirmed a packet delivery ratio exceeding 99%, ensuring accurate and reliable reconstruction of time-series RT-LAMP curves. By integrating NAT with IoT communication and cloud analytics, this system supports unattended, long-term wastewater monitoring and can provide public health officials with timely, actionable insights. This framework demonstrates the potential of IoT-enabled molecular testing to advance decentralized surveillance beyond conventional laboratory-based workflows."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Remotely Controlled Continuous Surveillance of Viral RNA in Wastewater Using a LoRa Network_supp3-3651506.mp4",
+    "authors": "Weihua Guan",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/jiot.2026.3651506/mm2",
+    "source": "IEEE",
+    "abstract": "Tracking the rapid spread of infectious diseases such as COVID-19 in communities poses a significant global health challenge, mainly because traditional testing methods struggle to detect asymptomatic carriers and effectively manage outbreaks. To address this, we present a scalable, networked molecular testing framework for wastewater-based epidemiology that, for the first time, integrates portable nucleic acid testing (NAT) devices with long-range wireless communication and cloud-based data management. Each battery-powered node can perform Reverse Transcription - Loop-mediated Isothermal Amplification (RT-LAMP), a rapid nucleic acid amplification method, on-site directly on raw wastewater samples for SARS-CoV-2 detection. A node executes up to eight independent tests on a microfluidic cartridge, monitoring fluorescence signals from the RT-LAMP reactions in real time and transmitting the results via long-range radio (LoRa) to a gateway, which uploads structured data to a NoSQL cloud database. An interactive dashboard enables bidirectional communication with nodes and provides spatiotemporal visualization of both live and historical data, including hotspot identification through geotagging and mapping of metrics such as 7-day positivity rates. Rigorous system testing with four nodes under varied transmission scenarios confirmed a packet delivery ratio exceeding 99%, ensuring accurate and reliable reconstruction of time-series RT-LAMP curves. By integrating NAT with IoT communication and cloud analytics, this system supports unattended, long-term wastewater monitoring and can provide public health officials with timely, actionable insights. This framework demonstrates the potential of IoT-enabled molecular testing to advance decentralized surveillance beyond conventional laboratory-based workflows."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Custom-Excise Information System Automation Implementation: Testing the Third Generation Unified Theory of Acceptance and Use of Technology Model",
+    "authors": "Amira Azahrah, Levana Dhia Prawati",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760561",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Large Language Model Data Query Method Based on Feedback Optimization Prompt Word Engineering",
+    "authors": "Xu Zhang, Yi Liu, Wenshuai Li, Yongyi Huang",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779503",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Framework of Knowledge Graph-Enhanced Large Language Model Based on Global Planning_supp1-3639599.pdf",
+    "authors": "Dandan Song",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tkde.2025.3639599/mm1",
+    "source": "IEEE",
+    "abstract": "Knowledge graphs (KGs) can provide structured knowledge to assist large language models (LLMs) in interpretable reasoning. Knowledge graph question answering (KGQA) is a typical benchmark to evaluate KG-enhanced LLM methods. Previous methods of KG-enhanced LLMs for KGQA mainly include: 1) origin question-oriented methods, which perform KG retrieval based solely on the original question without explicitly analyzing multi-step reasoning logic; and 2) stepwise reasoning-oriented methods, which alternate between LLM generating the next reasoning step and targeted KG retrieval but lack systematic planning, leading to poor controllability. To tackle these limitations, we propose KELGoP, a framework of KG-enhanced LLM based on global planning. We propose fine-grained question categorization based on reasoning patterns and corresponding category-driven question decomposition for complex questions, enabling more controllable reasoning and atomic KG retrieval targeted to sub-questions. Furthermore, we propose an adaptive strategy that allows adjusting the reasoning pattern based on the performance of question answering, making the reasoning more flexible and robust. Finally, we introduce several efficient atomic KG retrieval strategies that operate on KG subgraphs to assist the LLM in answering atomic-level questions. A series of experiments on KGQA datasets demonstrate that our proposed framework achieves superior performance compared to existing baselines."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "A Study of AI Autopilot Innovation on Purchase Intention: An empirical study of new energy vehicles",
+    "authors": "Zichen Wang",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760587",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Data Assets and Firm Value: Empirical Evidence Based on Text Analysis",
+    "authors": "Rumeng Yang, Delin Wu",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760573",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 19: Superconducting Systems",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786393",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Personalization Purchase Intentions in AI-Driven Smart Wearable Adoption: Insights from Chinese Sports Major Students via the SOR Model",
+    "authors": "Jingxian Chen, Ahmad Yahya Dawod",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760591",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "2006 IEEE International Symposium on Technology and Society",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/istas11303.2006",
+    "source": "IEEE",
+    "abstract": ""
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Research on the Green Transformation of Manufacturing Driven by Artificial Intelligence Technology",
+    "authors": "Yao Hu",
+    "publish": "Proceedings of the 2025 2nd International Conference on Cloud Computing and Big Data",
+    "url": "https://doi.org/10.1145/3779475.3779522",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Optimizing Bipolar Current Transformer Arrays for Sustainable Energy Harvesting in Smart Grids_supp1-3651408.docx",
+    "authors": "Du lin",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/oajpe.2026.3651408/mm1",
+    "source": "IEEE",
+    "abstract": "Environmental energy harvesting from magnetic fields offers a sustainable power solution for smart grid sensors. This study optimizes bipolar current transformer arrays for enhanced energy harvesting from microcurrents to meet load requirements. Based on the current transformer array model, a mathematical model that captures the polarity conversion characteristics is constructed. Incorporating both polarity conversion properties and power management integrated circuit limitations, a multi-constraint array optimization problem is constructed. Furthermore, a binary grey wolf optimizer is then introduced to address this optimization challenge. Our findings reveal that the optimal current transformer array configurations for primary current RMS values of 500 mA, 700 mA, and 900 mA are 12×1, 6×2, and 4×3, respectively, achieving the highest power duty cycles of 26.45%, 57.86%, and 100%. The energy extraction efficiencies reach 59.39%, 65.21%, and 76.26%, while energy conversion efficiencies are 89.01%, 92.55%, and 87.45% under the optimal configurations. This work provides a practical framework for designing efficient bipolar harvester arrays, ensuring stable energy supply in smart grid applications."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Session Summary Podcast: Session 5: Systems for AI (LLMs) - 2",
+    "authors": "N/A",
+    "publish": "Proceedings of the 2025 58th IEEE/ACM International Symposium on Microarchitecture",
+    "url": "https://doi.org/10.1145/3725843.3786379",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Optimization of cross-border e-commerce marketing strategy based on 4C theory and online comments",
+    "authors": "Caimeng Wu, Zhuo Dai",
+    "publish": "Proceedings of the 2025 16th International Conference on E-business, Management and Economics",
+    "url": "https://doi.org/10.1145/3760557.3760607",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Efficient Text-Driven Motion Generation via Latent Consistency Training_supp1-3647052.mp4",
+    "authors": "mengxian hu",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tsmc.2025.3647052/mm1",
+    "source": "IEEE",
+    "abstract": "Text-driven human motion generation based on diffusion strategies establishes a reliable foundation for multimodal applications in human–computer interactions. However, existing advances face significant efficiency challenges due to the substantial computational overhead of iteratively solving for nonlinear reverse diffusion trajectories during the inference phase. To this end, we propose the motion latent consistency training (MLCT) framework, which precomputes reverse diffusion trajectories from raw data in the training phase and enables few-step or single-step inference via self-consistency constraints in the inference phase. Specifically, a motion autoencoder with quantization constraints is first proposed for constructing concise and bounded solution distributions for motion diffusion processes. Subsequently, a classifier-free guidance (CFG) format is constructed via an additional unconditional loss function to accomplish the precomputation of conditional diffusion trajectories in the training phase. Finally, a clustering guidance module based on the <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">K</i>-nearest-neighbor (KNN) algorithm is developed for the chain-conduction optimization mechanism of self-consistency constraints, which provides additional references of solution distributions at a small query cost. By combining these enhancements, we achieve stable and consistency training in nonpixel modality and latent representation spaces. Benchmark experiments demonstrate that our method significantly outperforms traditional consistency distillation methods with reduced training cost and enhances the consistency model to perform comparably to state-of-the-art (SOTA) models with lower inference costs."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Machine Learning Achieves Accurate and Smooth Navigation Control for Microrobots_supp1-3650946.mp4",
+    "authors": "Lidong Yang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tase.2026.3650946/mm1",
+    "source": "IEEE",
+    "abstract": "Automated navigation control of microrobots in complex environments is essential for applications such as targeted drug delivery and micromanipulation. Recently, machine learning (ML) has shown great potential for automated microrobot control but still lacks accuracy and smoothness. In this work, we propose a novel Learning-from-Demonstration (LfD)-based control and navigation framework to achieve precise and smooth motion control of microrobots. This work represents an early attempt to directly utilize expert-provided data for designing a learning-based microrobot controller. The framework begins by collecting a small dataset of expert demonstrations (several thousand episodes) , from which the controller learns compensatory behaviors and task-specific adaptability, eliminating the need for extensive exploration or parameter retuning. Based on this data, a time-series neural network is then developed to process the microrobot’s historical states and control actions, allowing the system to capture sequential dependencies and transitions for smooth and accurate path tracking. For demonstration, we take the magnetic microswarm as an illustrative example. Systematic simulations and comparative experiments validate the proposed framework, demonstrating its superior performance in tracking accuracy and smoothness, validating the efficacy of ML for low-level microrobot control."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "FairGFL: Privacy-Preserving Fairness-Aware Federated Learning with Overlapping Subgraphs_supp1-3649863.pdf",
+    "authors": "Shusen Yang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tpds.2025.3649863/mm1",
+    "source": "IEEE",
+    "abstract": "Graph federated learning enables the collaborative extraction of high-order information from distributed subgraphs while preserving the privacy of raw data. However, graph data often exhibits overlap among different clients. Previous research has demonstrated certain benefits of overlapping data in mitigating data heterogeneity. However, the negative effects have not been explored, particularly in cases where the overlaps are imbalanced across clients. In this paper, we uncover the unfairness issue arising from imbalanced overlapping subgraphs through both empirical observations and theoretical reasoning. To address this issue, we propose FairGFL (FAIRness-aware subGraph Federated Learning), a novel algorithm that enhances cross-client fairness while maintaining model utility in a privacy-preserving manner. Specifically, FairGFL incorporates an interpretable weighted aggregation approach to enhance fairness across clients, leveraging privacy-preserving estimation of their overlapping ratios. Furthermore, FairGFL improves the tradeoff between model utility and fairness by integrating a carefully crafted regularizer into the federated composite loss function. Through extensive experiments on four benchmark graph datasets, we demonstrate that FairGFL outperforms four representative baseline algorithms in terms of both model utility and fairness."
+  },
+  {
+    "date": "2026-1-7",
+    "title": "Reservoir Sampling over Joins",
+    "authors": "Binyang Dai, Xiao Hu, Ke Yi",
+    "publish": "ACM Transactions on Database Systems",
+    "url": "https://doi.org/10.1145/3787855",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]
