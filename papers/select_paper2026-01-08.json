@@ -1,0 +1,233 @@
+[
+  {
+    "date": "2026-01-08",
+    "title": "ECLIPSE: An Evolutionary Computation Library for Instrumentation Prototyping in Scientific Engineering",
+    "authors": "Max Foreback, Evan Imata, Vincent Ragusa, Jacob Weiler, Christina Shao, Joey Wagner, Katherine G. Skocelas, Jonathan Sy, Aman Hafez, Wolfgang Banzhaf, Amy Conolly, Kyle R. Helson, Rick Marcusen, Charles Ofria, Marcin Pilinski, Rajiv Ramnath, Bryan Reynolds, Anselmo C. Pontes, Emily Dolson, Julie Rolla",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.05098v1",
+    "source": "arXiv",
+    "abstract": "Designing scientific instrumentation often requires exploring large, highly constrained design spaces using computationally expensive physics simulations. These simulators pose substantial challenges for integrating evolutionary computation (EC) into scientific design workflows. Evolutionary computation typically requires numerous design evaluations, making the integration of slow, low-throughput simulators particularly challenging, as they are optimized for accuracy and ease of use rather than throughput. We present ECLIPSE, an evolutionary computation framework built to interface directly with complex, domain-specific simulation tools while supporting flexible geometric and parametric representations of scientific hardware. ECLIPSE provides a modular architecture consisting of (1) Individuals, which encode hardware designs using domain-aware, physically constrained representations; (2) Evaluators, which prepare simulation inputs, invoke external simulators, and translate the simulator's outputs into fitness measures; and (3) Evolvers, which implement EC algorithms suitable for high-cost, limited-throughput environments. We demonstrate the utility of ECLIPSE across several active space-science applications, including evolved 3D antennas and spacecraft geometries optimized for drag reduction in very low Earth orbit. We further discuss the practical challenges encountered when coupling EC with scientific simulation workflows, including interoperability constraints, parallelization limits, and extreme evaluation costs, and outline ongoing efforts to combat these challenges. ECLIPSE enables interdisciplinary teams of physicists, engineers, and EC researchers to collaboratively explore unconventional designs for scientific hardware while leveraging existing domain-specific simulation software.",
+    "title_zh": "ECLIPSE：用于科学工程中仪器原型设计的进化计算库",
+    "abstract_zh": "设计科学仪器通常需要利用计算成本高昂的物理仿真，在庞大且高度受限的设计空间中进行探索。这类仿真器给将进化计算（EC）融入科学设计工作流带来了巨大挑战。进化计算通常需要大量的设计评估，而速度慢、吞吐量低的仿真器尤其难以整合，因为它们的设计优先考虑的是精度和易用性，而非计算效率。为此，我们提出了ECLIPSE——一种进化计算框架，能够直接与复杂的、领域专用的仿真工具对接，同时支持科学硬件的灵活几何与参数化表示。ECLIPSE采用模块化架构，包含三个核心组件：（1）个体（Individuals），使用具有领域知识、符合物理约束的表示方法来编码硬件设计；（2）评估器（Evaluators），负责准备仿真输入、调用外部仿真器，并将仿真输出转化为适应度指标；（3）进化器（Evolvers），实现适用于高成本、低吞吐量环境的进化计算算法。我们在多个活跃的空间科学应用中验证了ECLIPSE的有效性，包括优化用于极低地球轨道减阻的三维天线和航天器外形。此外，我们还讨论了在将进化计算与科学仿真工作流耦合过程中遇到的实际挑战，如互操作性限制、并行化瓶颈以及极高的评估成本，并概述了应对这些挑战的持续努力。ECLIPSE使物理学家、工程师和进化计算研究人员组成的跨学科团队能够协同探索科学仪器的非常规设计方案，同时充分利用现有的领域专用仿真软件。"
+  },
+  {
+    "date": "2026-01-08",
+    "title": "Unified Framework for Qualifying Security Boundary of PUFs Against Machine Learning Attacks",
+    "authors": "Hongming Fei, Zilong Hu, Prosanta Gope, Biplab Sikdar",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.04697v1",
+    "source": "arXiv",
+    "abstract": "Physical Unclonable Functions (PUFs) serve as lightweight, hardware-intrinsic entropy sources widely deployed in IoT security applications. However, delay-based PUFs are vulnerable to Machine Learning Attacks (MLAs), undermining their assumed unclonability. There are no valid metrics for evaluating PUF MLA resistance, but empirical modelling experiments, which lack theoretical guarantees and are highly sensitive to advances in machine learning techniques. To address the fundamental gap between PUF designs and security qualifications, this work proposes a novel, formal, and unified framework for evaluating PUF security against modelling attacks by providing security lower bounds, independent of specific attack models or learning algorithms. We mathematically characterise the adversary's advantage in predicting responses to unseen challenges based solely on observed challenge-response pairs (CRPs), formulating the problem as a conditional probability estimation over the space of candidate PUFs. We present our analysis on previous \"broken\" PUFs, e.g., Arbiter PUFs, XOR PUFs, Feed-Forward PUFs, and for the first time compare their MLA resistance in a formal way. In addition, we evaluate the currently \"secure\" CT PUF, and show its security boundary. We demonstrate that the proposed approach systematically quantifies PUF resilience, captures subtle security differences, and provides actionable, theoretically grounded security guarantees for the practical deployment of PUFs.",
+    "title_zh": "评估PUF安全边界以抵御机器学习攻击的统一框架",
+    "abstract_zh": "物理不可克隆函数（PUFs）作为轻量级、内生于硬件的熵源，已广泛应用于物联网安全领域。然而，基于延迟的PUFs易受到机器学习攻击（MLAs）的威胁，从而削弱了其原本假设的不可克隆性。目前尚缺乏有效的指标来评估PUF对机器学习攻击的抵抗能力，现有研究多依赖于经验建模实验，但这些方法缺乏理论保障，且极易因机器学习技术的进步而失效。为弥合PUF设计与安全评估之间的根本性鸿沟，本文提出了一种新颖、形式化且统一的框架，用于评估PUF在面对建模攻击时的安全性，该框架能够提供与具体攻击模型或学习算法无关的安全性下界。我们从数学上刻画了攻击者仅基于观测到的挑战-响应对（CRPs）来预测未见挑战响应的优势，将该问题建模为在候选PUF空间上的条件概率估计问题。本文对以往已被攻破的PUF结构（如仲裁器PUF、XOR PUF、前馈PUF等）进行了分析，并首次以形式化的方式比较了它们对机器学习攻击的抵抗能力。此外，我们还评估了当前被认为“安全”的CT PUF，揭示了其安全边界。结果表明，所提出的方法能够系统地量化PUF的抗攻击能力，捕捉细微的安全差异，并为PUF的实际部署提供具有理论依据、可操作的安全保障。"
+  },
+  {
+    "date": "2026-01-08",
+    "title": "MPM-LLM4DSE: Reaching the Pareto Frontier in HLS with Multimodal Learning and LLM-Driven Exploration",
+    "authors": "Lei Xu, Shanshan Wang, Chenglong Xiao",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.04801v1",
+    "source": "arXiv",
+    "abstract": "High-Level Synthesis (HLS) design space exploration (DSE) seeks Pareto-optimal designs within expansive pragma configuration spaces. To accelerate HLS DSE, graph neural networks (GNNs) are commonly employed as surrogates for HLS tools to predict quality of results (QoR) metrics, while multi-objective optimization algorithms expedite the exploration. However, GNN-based prediction methods may not fully capture the rich semantic features inherent in behavioral descriptions, and conventional multi-objective optimization algorithms often do not explicitly account for the domain-specific knowledge regarding how pragma directives influence QoR. To address these limitations, this paper proposes the MPM-LLM4DSE framework, which incorporates a multimodal prediction model (MPM) that simultaneously fuses features from behavioral descriptions and control and data flow graphs. Furthermore, the framework employs a large language model (LLM) as an optimizer, accompanied by a tailored prompt engineering methodology. This methodology incorporates pragma impact analysis on QoR to guide the LLM in generating high-quality configurations (LLM4DSE). Experimental results demonstrate that our multimodal predictive model significantly outperforms state-of-the-art work ProgSG by up to 10.25$\\times$. Furthermore, in DSE tasks, the proposed LLM4DSE achieves an average performance gain of 39.90\\% over prior methods, validating the effectiveness of our prompting methodology. Code and models are available at https://github.com/wslcccc/MPM-LLM4DSE.",
+    "title_zh": "MPM-LLM4DSE：通过多模态学习与大语言模型驱动的探索在高级综合中达到帕累托前沿",
+    "abstract_zh": "高层次综合（High-Level Synthesis, HLS）设计空间探索（DSE）旨在庞大的编译指示（pragma）配置空间中寻找帕累托最优的设计方案。为了加速HLS DSE，通常采用图神经网络（GNN）作为HLS工具的代理模型，以预测结果质量（QoR）指标，并结合多目标优化算法加快探索过程。然而，基于GNN的预测方法可能无法充分捕捉行为描述中蕴含的丰富语义特征，而传统的多目标优化算法通常未能显式地融入关于编译指示如何影响QoR的领域知识。为解决这些问题，本文提出MPM-LLM4DSE框架，该框架包含一个可同时融合行为描述与控制/数据流图特征的多模态预测模型（Multimodal Prediction Model, MPM）。此外，该框架采用大语言模型（LLM）作为优化器，并设计了一套定制化的提示工程方法（prompt engineering methodology），通过引入编译指示对QoR的影响分析，指导LLM生成高质量的配置方案（LLM4DSE）。实验结果表明，所提出的多模态预测模型在性能上显著优于当前最先进的ProgSG方法，最高可达10.25倍的提升；在DSE任务中，LLM4DSE相比先前方法平均性能提升达39.90%，验证了所提提示方法的有效性。代码和模型已公开于 https://github.com/wslcccc/MPM-LLM4DSE。"
+  },
+  {
+    "date": "2026-01-08",
+    "title": "Scalable Floating-Point Satisfiability via Staged Optimization",
+    "authors": "Yuanzhuo Zhang, Zhoulai Fu, Binoy Ravindran",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.04492v1",
+    "source": "arXiv",
+    "abstract": "This work introduces StageSAT, a new approach to solving floating-point satisfiability that bridges SMT solving with numerical optimization. StageSAT reframes a floating-point formula as a series of optimization problems in three stages of increasing precision. It begins with a fast, projection-aided descent objective to guide the search toward a feasible region, proceeding to bit-level accuracy with ULP$^2$ optimization and a final $n$-ULP lattice refinement. By construction, the final stage uses a representing function that is zero if and only if a candidate satisfies all constraints. Thus, when optimization drives the objective to zero, the resulting assignment is a valid solution, providing a built-in guarantee of soundness. To improve search, StageSAT introduces a partial monotone descent property on linear constraints via orthogonal projection, preventing the optimizer from stalling on flat or misleading landscapes. Critically, this solver requires no heavy bit-level reasoning or specialized abstractions; it treats complex arithmetic as a black-box, using runtime evaluations to navigate the input space. We implement StageSAT and evaluate it on extensive benchmarks, including SMT-COMP'25 suites and difficult cases from prior work. StageSAT proved more scalable and accurate than state-of-the-art optimization-based alternatives. It solved strictly more formulas than any competing solver under the same time budget, finding most satisfiable instances without producing spurious models. This amounts to 99.4% recall on satisfiable cases with 0% false SAT, exceeding the reliability of prior optimization-based solvers. StageSAT also delivered significant speedups (often 5--10$\\times$) over traditional bit-precise SMT and numeric solvers. These results demonstrate that staged optimization significantly improves performance and correctness of floating-point satisfiability solving.",
+    "title_zh": "通过分阶段优化实现可扩展的浮点可满足性",
+    "abstract_zh": "本文提出了一种名为StageSAT的新方法，用于求解浮点可满足性问题（floating-point satisfiability），该方法将SMT求解与数值优化相结合。StageSAT将一个浮点公式重构为三个逐步提升精度阶段的优化问题序列。第一阶段采用一种快速、借助投影的下降目标函数，引导搜索朝向可行区域；第二阶段通过ULP²优化达到比特级精度；第三阶段则利用n-ULP格点细化完成最终优化。从构造上讲，最后阶段使用的表示函数当且仅当候选解满足所有约束时取值为零。因此，当优化过程使目标函数趋近于零时，所得赋值即为有效解，从而天然保证了结果的正确性（soundness）。为了提升搜索效率，StageSAT通过正交投影在处理线性约束时引入了一种部分单调下降性质，避免优化器在平坦或误导性的目标景观中停滞。关键的是，该求解器无需复杂的比特级推理或专用抽象机制，而是将复杂算术运算视为黑箱，依靠运行时评估来探索输入空间。\n\n我们实现了StageSAT，并在大量基准测试集上进行了评估，包括SMT-COMP'25测试套件以及先前研究中的困难案例。实验结果表明，StageSAT在可扩展性和准确性方面均优于当前最先进的基于优化的替代方案。在相同时间预算下，它成功求解的公式数量超过任何其他竞争求解器，能够找到绝大多数可满足实例，且不产生虚假模型。在可满足案例中达到了99.4%的召回率，且误报率为0%，可靠性显著超越以往基于优化的求解器。此外，StageSAT相较于传统的比特精确SMT求解器和数值求解器还实现了显著的速度提升（通常快5至10倍）。这些结果表明，分阶段优化能显著提升浮点可满足性求解的性能与正确性。"
+  },
+  {
+    "date": "2026-01-08",
+    "title": "SurgeQ: A Hybrid Framework for Ultra-Fast Quantum Processor Design and Crosstalk-Aware Circuit Execution",
+    "authors": "Xinxuan Chen, Hongxiang Zhu, Zhaohui Yang, Zhaofeng Su, Jianxin Chen, Feng Wu, Hui-Hai Zhao",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.04645v1",
+    "source": "arXiv",
+    "abstract": "Executing quantum circuits on superconducting platforms requires balancing the trade-off between gate errors and crosstalk. To address this, we introduce SurgeQ, a hardware-software co-design strategy consisting of a design phase and an execution phase, to achieve accelerated circuit execution and improve overall program fidelity. SurgeQ employs coupling-strengthened, faster two-qubit gates while mitigating their increased crosstalk through a tailored scheduling strategy. With detailed consideration of composite noise models, we establish a systematic evaluation pipeline to identify the optimal coupling strength. Evaluations on a comprehensive suite of real-world benchmarks show that SurgeQ generally achieves higher fidelity than up-to-date baselines, and remains effective in combating exponential fidelity decay, achieving up to a million-fold improvement in large-scale circuits.",
+    "title_zh": "SurgeQ：一种用于超快速量子处理器设计和串扰感知电路执行的混合框架",
+    "abstract_zh": "在超导平台上执行量子电路需要权衡门错误与串扰之间的矛盾。为解决这一问题，我们提出了 SurgeQ，一种硬件-软件协同设计策略，包含设计阶段和执行阶段，旨在加速电路执行并提升整体程序保真度。SurgeQ 采用增强耦合、速度更快的双量子比特门，同时通过定制化的调度策略来抑制其带来的串扰增加。结合对复合噪声模型的细致考量，我们建立了一套系统性评估流程，以确定最优的耦合强度。在一系列全面的真实世界基准测试上的评估结果表明，SurgeQ 普遍比现有的先进基线方法实现了更高的保真度，并能有效应对保真度的指数级衰减，在大规模电路中性能提升高达一百万倍。"
+  },
+  {
+    "date": "2026-01-08",
+    "title": "Supporting Secured Integration of Microarchitectural Defenses",
+    "authors": "Kartik Ramkrishnan, Stephen McCamant, Antonia Zhai, Pen-Chung Yew",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.05057v1",
+    "source": "arXiv",
+    "abstract": "There has been a plethora of microarchitectural-level attacks leading to many proposed countermeasures. This has created an unexpected and unaddressed security issue where naive integration of those defenses can potentially lead to security vulnerabilities. This occurs when one defense changes an aspect of a microarchitecture that is crucial for the security of another defense. We refer to this problem as a microarchitectural defense assumption violation} (MDAV). We propose a two-step methodology to screen for potential MDAVs in the early-stage of integration. The first step is to design and integrate a composed model, guided by bounded model checking of security properties. The second step is to implement the model concretely on a simulator and to evaluate with simulated attacks. As a contribution supporting the first step, we propose an event-based modeling framework, called Maestro, for testing and evaluating microarchitectural models with integrated defenses. In our evaluation, Maestro reveals MDAVs (8), supports compact expression (~15x Alloy LoC ratio), enables semantic composability and eliminates performance degradations (>100x). As a contribution supporting the second step, we use an event-based simulator (GEM5) for investigating integrated microarchitectural defenses. We show that a covert channel attack is possible on a naively integrated implementation of some state-of-the-art defenses, and a repaired implementation using our integration methodology is resilient to the attack.",
+    "title_zh": "支持微架构防御的安全集成",
+    "abstract_zh": "近年来出现了大量微架构层面的攻击，从而催生了许多相应的防御措施。这引发了一个意料之外且尚未被充分关注的安全问题：若简单地集成这些防御机制，反而可能引入新的安全漏洞。这种情况发生在某一种防御机制改变了微架构的某个方面，而该方面恰恰是另一种防御机制安全性的关键所在。我们将此类问题称为“微架构防御假设违背”（Microarchitectural Defense Assumption Violation, MDAV）。为在集成初期识别潜在的MDAV问题，我们提出了一种两步式方法论。第一步是设计并集成一个组合模型，并通过有界模型检测（bounded model checking）来验证其安全性属性；第二步是在模拟器上具体实现该模型，并通过模拟攻击进行评估。作为对第一步的支持性贡献，我们提出了一种基于事件的建模框架——Maestro，用于测试和评估集成了多种防御机制的微架构模型。在评估中，Maestro成功发现了8个MDAV问题，支持紧凑表达（代码量比Alloy减少约15倍），实现了语义上的可组合性，并消除了性能下降问题（速度提升超过100倍）。作为对第二步的支持性贡献，我们采用基于事件的模拟器GEM5来研究集成后的微架构防御机制。实验表明，在某些先进防御机制的简单集成实现中，仍可能存在隐蔽信道攻击；而采用我们提出的集成方法所实现的修复版本，则对该攻击具有良好的抵御能力。"
+  },
+  {
+    "date": "2026-01-08",
+    "title": "LLM-Guided Quantified SMT Solving over Uninterpreted Functions",
+    "authors": "Kunhang Lv, Yuhang Dong, Rui Han, Fuqi Jia, Feifei Ma, Jian Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.04675v1",
+    "source": "arXiv",
+    "abstract": "Quantified formulas with Uninterpreted Functions (UFs) over non-linear real arithmetic pose fundamental challenges for Satisfiability Modulo Theories (SMT) solving. Traditional quantifier instantiation methods struggle because they lack semantic understanding of UF constraints, forcing them to search through unbounded solution spaces with limited guidance. We present AquaForte, a framework that leverages Large Language Models to provide semantic guidance for UF instantiation by generating instantiated candidates for function definitions that satisfy the constraints, thereby significantly reducing the search space and complexity for solvers. Our approach preprocesses formulas through constraint separation, uses structured prompts to extract mathematical reasoning from LLMs, and integrates the results with traditional SMT algorithms through adaptive instantiation. AquaForte maintains soundness through systematic validation: LLM-guided instantiations yielding SAT solve the original problem, while UNSAT results generate exclusion clauses for iterative refinement. Completeness is preserved by fallback to traditional solvers augmented with learned constraints. Experimental evaluation on SMT-COMP benchmarks demonstrates that AquaForte solves numerous instances where state-of-the-art solvers like Z3 and CVC5 timeout, with particular effectiveness on satisfiable formulas. Our work shows that LLMs can provide valuable mathematical intuition for symbolic reasoning, establishing a new paradigm for SMT constraint solving.",
+    "title_zh": "基于大语言模型引导的未解释函数上的量化SMT求解",
+    "abstract_zh": "带有未解释函数（UFs）的量化公式在非线性实数算术上给满足性模理论（SMT）求解带来了根本性挑战。传统的量化实例化方法难以应对，因为它们缺乏对UF约束的语义理解，只能在缺乏足够指导的情况下搜索无界的解空间。本文提出了AquaForte框架，该框架利用大语言模型（LLM）为UF实例化提供语义指导，通过生成满足约束条件的函数定义候选实例，显著缩小了求解器的搜索空间和复杂度。我们的方法通过对公式进行预处理以分离约束，使用结构化提示从LLM中提取数学推理，并通过自适应实例化将结果与传统SMT算法相结合。AquaForte通过系统性验证保持正确性：由LLM引导的实例化若得出可满足（SAT）结果，则原问题可解；若为不可满足（UNSAT），则生成排除子句用于迭代优化。通过回退到结合了学习所得约束的传统求解器，保证了方法的完备性。在SMT-COMP基准测试上的实验评估表明，AquaForte能够解决许多Z3和CVC5等先进求解器超时的问题，尤其在可满足公式上表现突出。本研究证明了大语言模型可为符号推理提供有价值的数学直觉，确立了一种新的SMT约束求解范式。"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "Enhancing Symbolic Execution with Machine-Checked Safety Proofs",
+    "authors": "David Trabish, Shachar Itzhaky",
+    "publish": "Proceedings of the 15th ACM SIGPLAN International Conference on Certified Programs and Proofs",
+    "url": "https://doi.org/10.1145/3779031.3779089",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "利用机器验证的安全性证明增强符号执行",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "A Recipe for Modular Verification of Generic Tree Traversals",
+    "authors": "Laila Elbeheiry, Michael Sammler, Robbert Krebbers, Derek Dreyer, Deepak Garg",
+    "publish": "Proceedings of the 15th ACM SIGPLAN International Conference on Certified Programs and Proofs",
+    "url": "https://doi.org/10.1145/3779031.3779110",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "一种用于泛型树遍历的模块化验证方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "Recurrence Sets for Proving Fair Non-termination under Axiomatic Memory Consistency Models",
+    "authors": "Thomas Haas, Roland Meyer, Hernán Ponce de León, Andrés Lomelí Garduño",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3776687",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "用于在公理化内存一致性模型下证明公平非终止性的递归集合",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "Fuzzing Guided by Bayesian Program Analysis",
+    "authors": "Yifan Zhang, Xin Zhang",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3776659",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于贝叶斯程序分析的模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "Formalization of a Proof Calculus for Incremental Linearization for Satisfiability Modulo Nonlinear Arithmetic and Transcendental Functions",
+    "authors": "Tomaz Mascarenhas, Harun Khan, Abdalrhman Mohamed, Andrew Reynolds, Haniel Barbosa, Clark Barrett, Cesare Tinelli",
+    "publish": "Proceedings of the 15th ACM SIGPLAN International Conference on Certified Programs and Proofs",
+    "url": "https://doi.org/10.1145/3779031.3779111",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "非线性算术与超越函数可满足性模理论的增量线性化证明系统的形式化",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-9",
+    "title": "<scp>Vital</scp>\n                    : Vulnerability-Oriented Symbolic Execution via Type-Unsafe Pointer-Guided Monte Carlo Tree Search",
+    "authors": "Haoxin Tu, Lingxiao Jiang, Marcel Böhme",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3786795",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "<scp>关键</scp>：基于漏洞导向的符号执行通过类型不安全指针引导的蒙特卡洛树搜索",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "Parametrised Verification of Intel-x86 Programs",
+    "authors": "Parosh Aziz Abdulla, Mohamed Faouzi Atig, Ahmed Bouajjani, K. Narayan Kumar, Prakash Saivasan",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3776680",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Intel-x86 程序的参数化验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "Parameterized Verification of Quantum Circuits",
+    "authors": "Parosh Aziz Abdulla, Yu-Fang Chen, Michal Hečko, Lukáš Holík, Ondřej Lengál, Jyun-Ao Lin, Ramanathan S. Thinniyam",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3776712",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "量子电路的参数化验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "Certified Symbolic Finite Transducers: Formalization and Applications to String Analysis",
+    "authors": "Shuanglong Kan, Anthony W. Lin",
+    "publish": "Proceedings of the 15th ACM SIGPLAN International Conference on Certified Programs and Proofs",
+    "url": "https://doi.org/10.1145/3779031.3779094",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "带认证的符号有限变换单元：形式化及其在字符串分析中的应用",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "RflySimSaT: A Safety Assessment Platform for UAVs Based on Hardware-in-the-loop Simulation_supp1-3651543.pdf",
+    "authors": "Jinhu Tu",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tase.2026.3651543/mm1",
+    "source": "IEEE",
+    "abstract": "As unmanned aerial vehicles (UAVs) lead the way in the development of future digital smart cities, they continue to face scrutiny due to safety concerns. While robotics simulators offer UAVs efficient and cost-effective testing environments, they often lack comprehensive safety design considerations and user testing requirements. In this study, we introduce RflySimSaT, a dedicated safety testing platform for UAVs that addresses safety factors throughout the entire lifecycle. This platform incorporates diverse fault testing scenarios, high-fidelity dynamic models, an integrated safety assessment framework, standardized testing procedures, and customizable interfaces. The modular architecture and deployment of RflySimSaT facilitate plug-and-play cross-platform closed-loop safety testing. Users simply need to supply their aircrafts and autopilots, enabling them to efficiently navigate the phases of development, deployment, testing, and assessment using the customizable modules and standardized processes offered by the platform. To validate RflySimSaT’s credibility and versatility, we designed various test cases that demonstrate its practicality and scalability. Additionally, we provide a comprehensive user manual, detailed case studies, and a rich fault dataset. The platform is open-source and available at: https://github.com/RflySim/RFlySimSafe/tree/RflySimSaT.",
+    "title_zh": "RflySimSaT：基于硬件在环仿真的无人机安全评估平台__supp1-3651543.pdf",
+    "abstract_zh": "随着无人机（UAV）在推动未来数字化智慧城市发展中发挥引领作用，其安全性问题也持续受到关注。尽管机器人仿真器为无人机提供了高效且低成本的测试环境，但这些仿真器往往缺乏全面的安全设计考量和用户测试需求。在本研究中，我们提出了RflySimSaT——一个专为无人机设计的专用安全测试平台，涵盖无人机全生命周期中的各项安全因素。该平台集成了多样化的故障测试场景、高保真动态模型、一体化的安全评估框架、标准化的测试流程以及可定制的接口。RflySimSaT采用模块化架构并支持灵活部署，实现了即插即用的跨平台闭环安全测试。用户只需提供自己的飞行器和飞控系统，即可借助平台提供的可定制模块和标准化流程，高效完成开发、部署、测试与评估等各个阶段的任务。为验证RflySimSaT的可信度与通用性，我们设计了多种测试用例，充分展示了平台的实用性与可扩展性。此外，我们还提供了详尽的用户手册、具体的案例研究以及丰富的故障数据集。该平台开源，获取地址为：https://github.com/RflySim/RFlySimSafe/tree/RflySimSaT。"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "Towards Composable Proofs of Cache Coherence Protocols",
+    "authors": "Martina Camaioni, Yann Herklotz, Tz-Ching Yu, Thomas Bourgeat",
+    "publish": "Proceedings of the 15th ACM SIGPLAN International Conference on Certified Programs and Proofs",
+    "url": "https://doi.org/10.1145/3779031.3779106",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向可组合的缓存一致性协议证明",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "IEEE Standard for Analog Defect Modeling and Coverage",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/ieeestd.2025.11343929",
+    "source": "IEEE",
+    "abstract": "A defect coverage accounting method based on simulation models for defects observed within integrated circuits (ICs) is defined in this standard. The portion of a defect universe, comprising thousands or millions of reasonably likely defects, that is detected or “covered” by tests of analog and mixed-signal circuits depends on many factors, which this standard considers, such as detectability, process variations, defect characteristics, and redundancy. The contents of a defect coverage summary are specified and dozens of commonly used terms are clearly defined to aid communication about the quality of tested ICs.",
+    "title_zh": "IEEE 模拟缺陷建模与覆盖率标准",
+    "abstract_zh": "本标准定义了一种基于仿真模型的缺陷覆盖率计算方法，用于评估在集成电路（IC）中观察到的缺陷。对于包含成千上万甚至数百万个合理可能缺陷的缺陷总体而言，模拟和混合信号电路测试所能检测到或“覆盖”的比例取决于多种因素，本标准考虑了这些因素，例如可检测性、工艺变化、缺陷特性以及冗余性。本标准规定了缺陷覆盖率报告的内容，并明确定义了数十个常用术语，以促进有关被测集成电路质量的交流。"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "ChiSA: Static Analysis for Lightweight Chisel Verification",
+    "authors": "Jiacai Cui, Qinlin Chen, Zhongsheng Zhan, Tian Tan, Yue Li",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3776660",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ChiSA：用于轻量级Chisel验证的静态分析",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-8",
+    "title": "ArchSem: Reusable Rigorous Semantics of Relaxed Architectures",
+    "authors": "Thibaut Pérami, Thomas Bauereiss, Brian Campbell, Zongyuan Liu, Nils Lauermann, Alasdair Armstrong, Peter Sewell",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3776650",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ArchSem：可重用的宽松架构严格语义",
+    "abstract_zh": "None"
+  }
+]
