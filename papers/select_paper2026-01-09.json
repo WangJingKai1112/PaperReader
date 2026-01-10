@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-1-9",
+    "title": "<scp>Vital</scp>\n                    : Vulnerability-Oriented Symbolic Execution via Type-Unsafe Pointer-Guided Monte Carlo Tree Search",
+    "authors": "Haoxin Tu, Lingxiao Jiang, Marcel Böhme",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3786795",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "<scp>关键</scp>：基于漏洞导向的符号执行通过类型不安全指针引导的蒙特卡洛树搜索",
+    "abstract_zh": "None"
+  }
+]
