@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-01-12",
+    "title": "Software-Hardware Co-optimization for Modular E2E AV Paradigm: A Unified Framework of Optimization Approaches, Simulation Environment and Evaluation Metrics",
+    "authors": "Chengzhi Ji, Xingfeng Li, Zhaodong Lv, Hao Sun, Pan Liu, Hao Frank Yang, Ziyuan Pu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.07393v1",
+    "source": "arXiv",
+    "abstract": "Modular end-to-end (ME2E) autonomous driving paradigms combine modular interpretability with global optimization capability and have demonstrated strong performance. However, existing studies mainly focus on accuracy improvement, while critical system-level factors such as inference latency and energy consumption are often overlooked, resulting in increasingly complex model designs that hinder practical deployment. Prior efforts on model compression and acceleration typically optimize either the software or hardware side in isolation. Software-only optimization cannot fundamentally remove intermediate tensor access and operator scheduling overheads, whereas hardware-only optimization is constrained by model structure and precision. As a result, the real-world benefits of such optimizations are often limited. To address these challenges, this paper proposes a reusable software and hardware co-optimization and closed-loop evaluation framework for ME2E autonomous driving inference. The framework jointly integrates software-level model optimization with hardware-level computation optimization under a unified system-level objective. In addition, a multidimensional evaluation metric is introduced to assess system performance by jointly considering safety, comfort, efficiency, latency, and energy, enabling quantitative comparison of different optimization strategies. Experiments across multiple ME2E autonomous driving stacks show that the proposed framework preserves baseline-level driving performance while significantly reducing inference latency and energy consumption, achieving substantial overall system-level improvements. These results demonstrate that the proposed framework provides practical and actionable guidance for efficient deployment of ME2E autonomous driving systems.",
+    "title_zh": "面向模块化端到端自动驾驶范式的软硬件协同优化：一种统一的优化方法、仿真环境与评估指标框架",
+    "abstract_zh": "模块化端到端（ME2E）自动驾驶范式结合了模块化的可解释性与全局优化能力，已展现出强大的性能。然而，现有研究主要关注精度提升，常常忽视推理延迟和能耗等关键的系统级因素，导致模型设计日益复杂，阻碍了实际部署。以往在模型压缩与加速方面的努力通常孤立地优化软件或硬件单一方面：纯软件优化无法从根本上消除中间张量访问和算子调度开销，而纯硬件优化则受限于模型结构和精度。因此，这类优化在实际应用中的收益往往有限。为应对上述挑战，本文提出了一种面向ME2E自动驾驶推理的可复用软硬件协同优化与闭环评估框架。该框架在统一的系统级目标下，联合整合了软件层面的模型优化与硬件层面的计算优化。此外，本文引入一个多维评估指标，综合考虑安全性、舒适性、效率、延迟和能耗，以实现不同优化策略之间的定量比较。在多个ME2E自动驾驶系统上的实验表明，所提框架在保持基线驾驶性能的同时，显著降低了推理延迟和能耗，实现了整体系统层面的大幅提升。结果表明，该框架为ME2E自动驾驶系统的高效部署提供了切实可行的指导。"
+  },
+  {
+    "date": "2026-01-12",
+    "title": "GRPO with State Mutations: Improving LLM-Based Hardware Test Plan Generation",
+    "authors": "Dimple Vijay Kochar, Nathaniel Pinckney, Guan-Ting Liu, Chia-Tung Ho, Chenhui Deng, Haoxing Ren, Brucek Khailany",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.07593v1",
+    "source": "arXiv",
+    "abstract": "RTL design often relies heavily on ad-hoc testbench creation early in the design cycle. While large language models (LLMs) show promise for RTL code generation, their ability to reason about hardware specifications and generate targeted test plans remains largely unexplored. We present the first systematic study of LLM reasoning capabilities for RTL verification stimuli generation, establishing a two-stage framework that decomposes test plan generation from testbench execution. Our benchmark reveals that state-of-the-art models, including DeepSeek-R1 and Claude-4.0-Sonnet, achieve only 15.7-21.7% success rates on generating stimuli that pass golden RTL designs. To improve LLM generated stimuli, we develop a comprehensive training methodology combining supervised fine-tuning with a novel reinforcement learning approach, GRPO with State Mutation (GRPO-SMu), which enhances exploration by varying input mutations. Our approach leverages a tree-based branching mutation strategy to construct training data comprising equivalent and mutated trees, moving beyond linear mutation approaches to provide rich learning signals. Training on this curated dataset, our 7B parameter model achieves a 33.3% golden test pass rate and a 13.9% mutation detection rate, representing a 17.6% absolute improvement over baseline and outperforming much larger general-purpose models. These results demonstrate that specialized training methodologies can significantly enhance LLM reasoning capabilities for hardware verification tasks, establishing a foundation for automated sub-unit testing in semiconductor design workflows.",
+    "title_zh": "具有状态突变的GRPO：改进基于大语言模型的硬件测试方案生成",
+    "abstract_zh": "RTL设计通常在设计周期早期严重依赖临时创建的测试平台。尽管大型语言模型（LLM）在RTL代码生成方面展现出潜力，但其在理解硬件规范并生成针对性测试方案方面的推理能力仍鲜有研究。本文首次系统性地研究了LLM在RTL验证激励生成任务中的推理能力，并提出一个两阶段框架，将测试计划生成与测试平台执行过程解耦。我们的基准测试表明，当前最先进的模型（包括DeepSeek-R1和Claude-4.0-Sonnet）在生成能通过黄金RTL设计验证的激励时，成功率仅为15.7%至21.7%。为提升LLM生成激励的质量，我们开发了一套综合训练方法，结合监督微调与一种新颖的强化学习算法——基于状态变异的广义策略优化（GRPO-SMu），该方法通过多样化输入变异来增强探索能力。我们采用基于树结构的分支变异策略构建训练数据集，包含等价树与变异树，突破了线性变异方法的局限，提供了更丰富的学习信号。在该精心构建的数据集上训练后，我们的70亿参数模型实现了33.3%的黄金测试通过率和13.9%的变异检测率，相较基线绝对提升了17.6%，且优于许多规模更大的通用模型。实验结果表明，专用的训练方法可显著增强LLM在硬件验证任务中的推理能力，为半导体设计流程中的自动化子单元测试奠定了基础。"
+  },
+  {
+    "date": "2026-01-12",
+    "title": "AscendKernelGen: A Systematic Study of LLM-Based Kernel Generation for Neural Processing Units",
+    "authors": "Xinzi Cao, Jianyang Zhai, Pengfei Li, Zhiheng Hu, Cen Yan, Bingxu Mu, Guanghuan Fang, Bin She, Jiayu Li, Yihan Su, Dongyang Tao, Xiansong Huang, Fan Xu, Feidiao Yang, Yao Lu, Chang-Dong Wang, Yutong Lu, Weicheng Xue, Bin Zhou, Yonghong Tian",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.07160v1",
+    "source": "arXiv",
+    "abstract": "To meet the ever-increasing demand for computational efficiency, Neural Processing Units (NPUs) have become critical in modern AI infrastructure. However, unlocking their full potential requires developing high-performance compute kernels using vendor-specific Domain-Specific Languages (DSLs), a task that demands deep hardware expertise and is labor-intensive. While Large Language Models (LLMs) have shown promise in general code generation, they struggle with the strict constraints and scarcity of training data in the NPU domain. Our preliminary study reveals that state-of-the-art general-purpose LLMs fail to generate functional complex kernels for Ascend NPUs, yielding a near-zero success rate. To address these challenges, we propose AscendKernelGen, a generation-evaluation integrated framework for NPU kernel development. We introduce Ascend-CoT, a high-quality dataset incorporating chain-of-thought reasoning derived from real-world kernel implementations, and KernelGen-LM, a domain-adaptive model trained via supervised fine-tuning and reinforcement learning with execution feedback. Furthermore, we design NPUKernelBench, a comprehensive benchmark for assessing compilation, correctness, and performance across varying complexity levels. Experimental results demonstrate that our approach significantly bridges the gap between general LLMs and hardware-specific coding. Specifically, the compilation success rate on complex Level-2 kernels improves from 0% to 95.5% (Pass@10), while functional correctness achieves 64.3% compared to the baseline's complete failure. These results highlight the critical role of domain-specific reasoning and rigorous evaluation in automating accelerator-aware code generation.",
+    "title_zh": "AscendKernelGen：面向神经处理单元的基于大语言模型的内核生成系统性研究",
+    "abstract_zh": "为了满足日益增长的计算效率需求，神经网络处理单元（NPU）已成为现代人工智能基础设施中的关键组件。然而，要充分发挥其潜力，必须使用厂商特定的领域专用语言（DSL）开发高性能计算内核，这一任务不仅需要深厚的硬件专业知识，而且工作量巨大。尽管大语言模型（LLM）在通用代码生成方面展现出一定潜力，但在NPU领域中，由于严格的约束条件和训练数据的稀缺，它们的表现仍面临挑战。我们的初步研究表明，当前最先进的通用大模型在为昇腾（Ascend）NPU生成复杂功能内核时表现极差，成功率几乎为零。\n\n为应对这些挑战，我们提出了AscendKernelGen——一种集生成与评估于一体的NPU内核开发框架。我们构建了Ascend-CoT数据集，该数据集源自真实内核实现，包含高质量的思维链（chain-of-thought）推理过程；并在此基础上训练了KernelGen-LM，一个通过监督微调和基于执行反馈的强化学习实现的领域自适应模型。此外，我们设计了NPUKernelBench，这是一个涵盖不同复杂度层级、用于评估编译成功率、功能正确性和性能表现的综合性基准测试套件。\n\n实验结果表明，我们的方法显著缩小了通用大模型与硬件专用编程之间的差距。具体而言，在复杂的二级内核上，编译成功率从0%提升至95.5%（Pass@10），功能正确率也达到64.3%，而基线模型则完全无法生成有效代码。这些结果凸显了在自动化加速器感知代码生成过程中，领域特定推理能力和严格评估机制的关键作用。"
+  },
+  {
+    "date": "2026-1-12",
+    "title": "Software Reliability Testing Profile Generation for Industrial Robot Based on Large Language Model",
+    "authors": "Liang Yan, Jingwei Shang",
+    "publish": "2025 12th International Conference on Dependable Systems and Their Applications (DSA)",
+    "url": "https://doi.org/10.1109/dsa66321.2025.00020",
+    "source": "IEEE",
+    "abstract": "As core equipment in smart manufacturing, the reliability of industrial robots directly impacts production line stability and product quality. This paper addresses the limitations of traditional software reliability test profiles in adequately capturing the motion/operational modes of industrial robots and in deeply characterizing the dynamic relationships between software and hardware layers. We propose a data- and AI large model-based framework for generating software reliability test profiles for industrial robots. This framework automatically extracts knowledge from industrial robot operational data and transforms it into executable, quantifiable software reliability test profiles, ultimately automating the generation of software reliability test cases. The method significantly enhances the ability to detect low-frequency, hidden temporal defects and logical errors, transforming the traditional testing paradigm that relies on expert experience. Application cases demonstrate the feasibility and effectiveness of the proposed method.",
+    "title_zh": "基于大语言模型的工业机器人软件可靠性测试剖面生成",
+    "abstract_zh": "作为智能制造中的核心装备，工业机器人的可靠性直接影响生产线的稳定性和产品质量。本文针对传统软件可靠性测试剖面在充分反映工业机器人运动/操作模式、以及深入刻画软硬件层级间动态关系方面的局限性，提出一种基于数据与人工智能大模型的工业机器人软件可靠性测试剖面生成框架。该框架能够从工业机器人运行数据中自动提取知识，并将其转化为可执行、可量化的软件可靠性测试剖面，最终实现软件可靠性测试用例的自动生成。该方法显著提升了对低频次、隐蔽性时序缺陷和逻辑错误的检测能力，改变了传统依赖专家经验的测试模式。应用案例验证了所提方法的可行性与有效性。"
+  },
+  {
+    "date": "2026-1-12",
+    "title": "Hardware Trojan Insertion and Detection in Chiplet-Based Architectures",
+    "authors": "Zeyad Rashed, Peter Abdelmalk, Omar Mohamed, Mark Mikhaeil, Hassan Nassar, Jörg Henkel, Mohamed Abd El Ghany",
+    "publish": "2025 37th International Conference on Microelectronics (ICM)",
+    "url": "https://doi.org/10.1109/icm66518.2025.11322457",
+    "source": "IEEE",
+    "abstract": "The rise of chiplet-based system-on-chip (SoC) architectures enables unprecedented modularity and scalability across modern computing platforms. Chiplets have become essential in addressing the growing performance demands of both highperformance and embedded systems. However, this wide adoption introduces new attack surfaces, as heterogeneous chiplets sourced from untrusted vendors may host stealthy hardware Trojans. This paper presents the design and simulation of a two-chiplet AES encryption-decryption system communicating over the Bunch-of-Wires (BoW) protocol, into which multiple hardware Trojans from the Trust-Hub benchmark suite were integrated. The inserted Trojans were triggered by rare input conditions and evaluated through functional verification, structural analysis, and switching activity monitoring. A weighted Suspicion Score metric was introduced to unify the results from static inspection, DRC, timing, and switching activity analyses, enabling quantitative risk classification of Trojan presence. Experimental results demonstrated successful detection of several benchmark Trojans through measurable timing, logic, and power anomalies.",
+    "title_zh": "基于芯粒架构的硬件木马插入与检测",
+    "abstract_zh": "基于芯粒（chiplet）的片上系统（SoC）架构的兴起，为现代计算平台带来了前所未有的模块化和可扩展性。芯粒已成为满足高性能与嵌入式系统日益增长性能需求的关键技术。然而，这种广泛应用也引入了新的攻击面，因为来自不可信供应商的异构芯粒可能隐藏隐蔽的硬件木马。本文提出了一种基于两个芯粒、通过“线束”（Bunch-of-Wires, BoW）协议进行通信的AES加解密系统的架构设计与仿真，并在其中集成了来自Trust-Hub基准测试套件的多个硬件木马。这些插入的木马由罕见的输入条件触发，并通过功能验证、结构分析以及开关活动监测进行了评估。本文引入了一种加权的“可疑度评分”（Suspicion Score）指标，将静态检查、设计规则检查（DRC）、时序分析和开关活动分析的结果统一起来，实现对木马存在的定量风险分类。实验结果表明，通过可测量的时序、逻辑和功耗异常，成功检测到了多个基准木马。"
+  },
+  {
+    "date": "2026-1-12",
+    "title": "Computation of Feasible Assume-Guarantee Contracts: A Resilience-based Approach",
+    "authors": "Negar Monir, Youssef AIT Si, Ratnangshu Das, Pushpak Jagtap, Adnane Saoud, Sadegh Soudjani",
+    "publish": "2025 IEEE 64th Conference on Decision and Control (CDC)",
+    "url": "https://doi.org/10.1109/cdc57313.2025.11312943",
+    "source": "IEEE",
+    "abstract": "We propose a resilience-based framework for computing feasible assume-guarantee contracts that ensure the satisfaction of temporal specifications in interconnected discrete-time systems. Interconnection effects are modeled as structured disturbances. We use a resilience metric, the maximum disturbance under which local specifications hold, to refine assumptions and guarantees across subsystems iteratively. We first demonstrate correctness and monotone refinement of guarantees for two subsystems. Then, we extend our approach to general networks of L subsystems using weighted combinations of interconnection effects. We instantiate the framework on linear systems by meeting finite-horizon safety, exact-time reachability, and finite-horizon reachability specifications, and on nonlinear systems by fulfilling general finite-horizon specifications. Our approach is demonstrated through numerical linear examples and a nonlinear DC microgrid case study, showcasing the impact of our framework on verifying temporal logic specifications with compositional reasoning.",
+    "title_zh": "可行假设-保证契约的计算：一种基于韧性的方法",
+    "abstract_zh": "我们提出了一种基于韧性的框架，用于计算可行的假设-保证合约，以确保离散时间互联系统中时序规范的满足。互连效应被建模为结构化扰动。我们采用一种韧性度量——在该度量下局部规范仍能成立的最大扰动——来在子系统之间迭代地精化假设与保证。首先，我们针对两个子系统证明了该方法的正确性以及保证条件的单调精化特性；随后，通过加权组合互连效应，将该方法推广至包含L个子系统的通用网络。对于线性系统，我们通过满足有限时域安全性、精确时刻可达性和有限时域可达性规范来实例化该框架；对于非线性系统，则通过实现一般的有限时域规范来应用该框架。我们通过数值线性示例和一个非线性直流微电网的案例研究验证了所提方法的有效性，展示了该框架在利用组合式推理验证时序逻辑规范方面的实际影响。"
+  },
+  {
+    "date": "2026-1-12",
+    "title": "EvoAVX: Island-Based Genetic Algorithm Library with AVX-512 and MPI",
+    "authors": "Adrian Kulawik, Filip Krużel",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3652358",
+    "source": "IEEE",
+    "abstract": "Genetic algorithms are practical tools for solving complex optimization problems; however, the performance of many existing solutions is often limited by their inability to utilize modern CPU capabilities fully. This paper introduces EvoAVX, an open-source island-based genetic algorithm library engineered for minimal computational overhead. EvoAVX addresses the lack of specialized, high-performance libraries by leveraging AVX-512 intrinsics to optimize genetic operators, statistics calculations, and the pseudorandom number generator. The library provides a built-in, selectable set of vectorized operators. Static polymorphism is implemented via C++ templates to ensure fast, compile-time operator resolution. EvoAVX employs a double-precision real-valued gene representation. The Island model is built on the Message Passing Interface, which enables distributed computing. Our performance evaluation shows notable improvements in execution time compared to popular libraries for evolutionary computation. The performance advantages of EvoAVX are particularly pronounced in scenarios where the fitness evaluation is computationally inexpensive, making it an ideal tool for high-throughput optimization tasks.",
+    "title_zh": "EvoAVX：基于岛屿模型的遗传算法库，支持AVX-512和MPI",
+    "abstract_zh": "遗传算法是解决复杂优化问题的实用工具，但许多现有方案的性能往往受限于无法充分利用现代CPU的功能。本文介绍了EvoAVX，一个开源的基于岛屿模型的遗传算法库，专为最小化计算开销而设计。EvoAVX通过采用AVX-512内建函数，优化了遗传算子、统计计算以及伪随机数生成器，弥补了专用高性能库缺失的问题。该库提供了一组内置且可选的向量化算子。通过C++模板实现静态多态性，确保算子在编译时快速解析。EvoAVX采用双精度实数值基因表示法。其岛屿模型基于消息传递接口（MPI）构建，支持分布式计算。我们的性能评估表明，与当前主流的进化计算库相比，EvoAVX在执行时间上表现出显著提升。尤其在适应度评估计算成本较低的场景下，EvoAVX的性能优势更为突出，使其成为高吞吐量优化任务的理想工具。"
+  },
+  {
+    "date": "2026-1-12",
+    "title": "Testing-Based Formal Verification for Software Dependability",
+    "authors": "Shaoying Liu",
+    "publish": "2025 12th International Conference on Dependable Systems and Their Applications (DSA)",
+    "url": "https://doi.org/10.1109/dsa66321.2025.00010",
+    "source": "IEEE",
+    "abstract": "Software dependability encompasses five critical properties: reliability, safety, integrity, availability, and maintainability. Ensuring these attributes throughout the software engineering process remains a significant and ongoing challenge. In this talk, I will begin by briefly outlining a general framework for developing dependable software. I will then focus on an advanced technique known as Testing-Based Formal Verification (TBFV), which integrates specification-based testing with formal methods to verify program correctness. TBFV is characterized by its ability to automatically verify the correctness of all program paths explored during testing, while also having the potential to uncover previously untested paths. This dual capability supports both validation and verification, enhancing the overall assurance of software quality. I will explain the core principles of TBFV, specific techniques it employs for fault prevention, validation, and verification, as well as the key challenges associated with its practical implementation. When fully realized, TBFV is expected to significantly reduce testing time and cost, and substantially improve software dependability.",
+    "title_zh": "基于测试的形式化验证在软件可靠性中的应用",
+    "abstract_zh": "软件可靠性包含五个关键属性：可靠性、安全性、完整性、可用性和可维护性。在软件工程过程中确保这些属性，仍然是一个重大且持续存在的挑战。在本次演讲中，我将首先简要介绍一个用于开发可靠软件的通用框架，然后重点介绍一种称为“基于测试的形式化验证”（Testing-Based Formal Verification, TBFV）的先进技术。该技术将基于规约的测试与形式化方法相结合，以验证程序的正确性。TBFV的特点在于能够自动验证测试过程中所覆盖的所有程序路径的正确性，同时还有潜力发现此前未被测试到的路径。这种双重能力同时支持了验证（validation）与确认（verification），从而增强了对软件质量的整体保障。我将阐述TBFV的核心原理、其在故障预防、验证和确认方面所采用的具体技术，以及在实际应用中面临的主要挑战。当TBFV得以充分实现时，预计将显著减少测试所需的时间与成本，并大幅提升软件的可靠性。"
+  }
+]
