@@ -1,0 +1,178 @@
+[
+  {
+    "date": "2026-01-14",
+    "title": "SafePlanner: Testing Safety of the Automated Driving System Plan Model",
+    "authors": "Dohyun Kim, Sanggu Han, Sangmin Woo, Joonha Jang, Jaehoon Kim, Changhun Song, Yongdae Kim",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.09171v1",
+    "source": "arXiv",
+    "abstract": "In this work, we present SafePlanner, a systematic testing framework for identifying safety-critical flaws in the Plan model of Automated Driving Systems (ADS). SafePlanner targets two core challenges: generating structurally meaningful test scenarios and detecting hazardous planning behaviors. To maximize coverage, SafePlanner performs a structural analysis of the Plan model implementation - specifically, its scene-transition logic and hierarchical control flow - and uses this insight to extract feasible scene transitions from code. It then composes test scenarios by combining these transitions with non-player vehicle (NPC) behaviors. Guided fuzzing is applied to explore the behavioral space of the Plan model under these scenarios. We evaluate SafePlanner on Baidu Apollo, a production-grade level 4 ADS. It generates 20635 test cases and detects 520 hazardous behaviors, grouped into 15 root causes through manual analysis. For four of these, we applied patches based on our analysis; the issues disappeared, and no apparent side effects were observed. SafePlanner achieves 83.63 percent function and 63.22 percent decision coverage on the Plan model, outperforming baselines in both bug discovery and efficiency.",
+    "title_zh": "SafePlanner：自动驾驶系统规划模型的安全性测试",
+    "abstract_zh": "在本研究中，我们提出了SafePlanner，一种用于识别自动驾驶系统（ADS）规划模型中安全关键缺陷的系统性测试框架。SafePlanner聚焦于两个核心挑战：生成结构上有意义的测试场景以及检测危险的规划行为。为了最大化覆盖率，SafePlanner对规划模型的实现进行了结构分析，特别是其场景转换逻辑和分层控制流，并利用这些分析结果从代码中提取出可行的场景转换路径。随后，通过将这些转换路径与非玩家车辆（NPC）的行为相结合，构建出测试场景。在此基础上，采用引导式模糊测试技术来探索规划模型在这些场景下的行为空间。我们在生产级的L4级自动驾驶系统——百度Apollo上对SafePlanner进行了评估。实验生成了20,635个测试用例，检测到520种危险行为，经人工分析归结为15类根本原因。针对其中四个问题，我们根据分析结果实施了修复补丁，问题得以消除且未观察到明显副作用。SafePlanner在规划模型上实现了83.63%的函数覆盖率和63.22%的决策覆盖率，在漏洞发现能力和测试效率方面均优于基线方法。"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "Geometry- and Topology-Informed Quantum Computing: From States to Real-Time Control with FPGA Prototypes",
+    "authors": "Gunhee Cho",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.09556v1",
+    "source": "arXiv",
+    "abstract": "This book gives a geometry-first, hardware-aware route through quantum-information workflows, with one goal: connect states, circuits, and measurement to deterministic classical pipelines that make hybrid quantum systems run. Part 1 develops the backbone (essential linear algebra, the Bloch-sphere viewpoint, differential-geometric intuition, and quantum Fisher information geometry) so evolution can be read as motion on curved spaces and measurement as statistics. Part 2 reframes circuits as dataflow graphs: measurement outcomes are parsed, aggregated, and reduced to small linear-algebra updates that schedule the next pulses, highlighting why low-latency, low-jitter streaming matters. Part 3 treats multi-qubit structure and entanglement as geometry and computation, including teleportation, superdense coding, entanglement detection, and Shor's algorithm via quantum phase estimation. Part 4 focuses on topological error correction and real-time decoding (Track A): stabilizer codes, surface-code decoding as \"topology -> graph -> algorithm\", and Union-Find decoders down to microarchitectural/RTL constraints, with verification, fault injection, and host/control-stack integration under product metrics (bounded latency, p99 tails, fail-closed policies, observability). Optional Track C covers quantum cryptography and streaming post-processing (BB84/E91, QBER/abort rules, privacy amplification, and zero-knowledge/post-quantum themes), emphasizing FSMs, counters, and hash pipelines. Appendices provide visualization-driven iCEstick labs (switch-to-bit conditioning, fixed-point phase arithmetic, FSM sequencing, minimal control ISAs), bridging principles to implementable systems.",
+    "title_zh": "几何与拓扑信息量子计算：从态到基于FPGA原型的实时控制",
+    "abstract_zh": "本书以几何为核心、以硬件为感知，系统性地阐述量子信息处理的工作流，始终围绕一个目标：将量子态、量子电路和测量与确定性的经典计算流水线相连接，从而驱动混合量子系统的运行。第一部分构建理论基础（核心线性代数、布洛赫球视角、微分几何直觉以及量子费舍尔信息几何），使量子演化可被理解为在弯曲空间中的运动，而测量则体现为统计行为。第二部分将量子电路重新表述为数据流图：测量结果被解析、聚合，并转化为小型的线性代数更新，用于调度下一轮控制脉冲，突出低延迟、低抖动数据流的重要性。第三部分将多量子比特结构与纠缠视为几何与计算的结合，涵盖量子隐形传态、超密编码、纠缠检测，以及通过量子相位估计算法实现的Shor算法。第四部分聚焦于拓扑纠错与实时解码（主线A）：稳定子码、表面码解码的“拓扑→图→算法”范式，以及受限于微架构/寄存器传输级（RTL）约束的Union-Find解码器，并涵盖验证、故障注入及在产品化指标下的主机/控制栈集成（如限定延迟、p99尾延迟、故障闭锁策略、可观测性）。可选的支线C探讨量子密码学与流式后处理（BB84/E91协议、QBER/中止规则、隐私增强、零知识与抗量子主题），强调有限状态机（FSM）、计数器与哈希流水线的设计。附录提供以可视化为导向的iCEstick实验（开关到比特的条件转换、定点相位算术、FSM时序控制、极简控制指令集架构），将理论原理与可实现系统紧密衔接。"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "How well LLM-based test generation techniques perform with newer LLM versions?",
+    "authors": "Michael Konstantinou, Renzo Degiovanni, Mike Papadakis",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.09695v1",
+    "source": "arXiv",
+    "abstract": "The rapid evolution of Large Language Models (LLMs) has strongly impacted software engineering, leading to a growing number of studies on automated unit test generation. However, the standalone use of LLMs without post-processing has proven insufficient, often producing tests that fail to compile or achieve high coverage. Several techniques have been proposed to address these issues, reporting improvements in test compilation and coverage. While important, LLM-based test generation techniques have been evaluated against relatively weak baselines (for todays' standards), i.e., old LLM versions and relatively weak prompts, which may exacerbate the performance contribution of the approaches. In other words, stronger (newer) LLMs may obviate any advantage these techniques bring. We investigate this issue by replicating four state-of-the-art LLM-based test generation tools, HITS, SymPrompt, TestSpark, and CoverUp that include engineering components aimed at guiding the test generation process through compilation and execution feedback, and evaluate their relative effectiveness and efficiency over a plain LLM test generation method. We integrate current LLM versions in all approaches and run an experiment on 393 classes and 3,657 methods. Our results show that the plain LLM approach can outperform previous state-of-the-art approaches in all test effectiveness metrics we used: line coverage (by 17.72%), branch coverage (by 19.80%) and mutation score (by 20.92%), and it does so at a comparable cost (LLM queries). We also observe that the granularity at which the plain LLM is applied has a significant impact on the cost. We therefore propose targeting first the program classes, where test generation is more efficient, and then the uncovered methods to reduce the number of LLM requests. This strategy achieves comparable (slightly higher) effectiveness while requiring about 20% fewer LLM requests.",
+    "title_zh": "基于大语言模型（LLM）的测试生成技术在较新的LLM版本上的表现如何？",
+    "abstract_zh": "大型语言模型（LLMs）的快速发展对软件工程领域产生了深远影响，促使越来越多的研究聚焦于自动化单元测试生成。然而，单独使用LLM而不进行后处理已被证明是不足的，常常生成无法编译或覆盖率较低的测试用例。为解决这些问题，研究者提出了多种技术，并报告了在测试编译成功率和覆盖率方面的改进。尽管如此，基于LLM的测试生成技术通常与较弱的基线方法（以当前标准来看）进行比较，例如旧版本的LLM或较弱的提示设计，这可能会夸大这些新技术的实际贡献。换句话说，更强（更新）的LLM本身可能已足以消除这些专门技术所带来的优势。\n\n为探究这一问题，我们复现了四种最先进的基于LLM的测试生成工具——HITS、SymPrompt、TestSpark 和 CoverUp。这些工具均包含工程化组件，旨在利用编译和执行反馈来引导测试生成过程。我们将它们与直接使用LLM生成测试的朴素方法在效果和效率方面进行了对比评估。我们在所有方法中集成了当前最新的LLM版本，并在393个类和3,657个方法上开展了实验。\n\n实验结果表明，在所有我们采用的测试有效性指标上——行覆盖率（提升17.72%）、分支覆盖率（提升19.80%）和变异得分（提升20.92%）——朴素的LLM方法均优于此前的最先进方法，且所需成本（LLM查询次数）相当。此外，我们发现朴素LLM应用的粒度对成本有显著影响。因此，我们提出一种策略：首先针对程序类进行测试生成（在此层级效率更高），然后仅对未覆盖的方法进行补充生成，从而减少LLM请求次数。该策略在实现相当（略高）测试效果的同时，减少了约20%的LLM调用次数。"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "SiliconHealth: A Complete Low-Cost Blockchain Healthcare Infrastructure for Resource-Constrained Regions Using Repurposed Bitcoin Mining ASICs",
+    "authors": "Francisco Angulo de Lafuente, Seid Mehammed Abdu, Nirmal Tej",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.09557v1",
+    "source": "arXiv",
+    "abstract": "This paper presents SiliconHealth, a comprehensive blockchain-based healthcare infrastructure designed for resource-constrained regions, particularly sub-Saharan Africa. We demonstrate that obsolete Bitcoin mining Application-Specific Integrated Circuits (ASICs) can be repurposed to create a secure, low-cost, and energy-efficient medical records system. The proposed architecture employs a four-tier hierarchical network: regional hospitals using Antminer S19 Pro (90+ TH/s), urban health centers with Antminer S9 (14 TH/s), rural clinics equipped with Lucky Miner LV06 (500 GH/s, 13W), and mobile health points with portable ASIC devices. We introduce the Deterministic Hardware Fingerprinting (DHF) paradigm, which repurposes SHA-256 mining ASICs as cryptographic proof generators, achieving 100% verification rate across 23 test proofs during 300-second validation sessions. The system incorporates Reed-Solomon LSB watermarking for medical image authentication with 30-40% damage tolerance, semantic Retrieval-Augmented Generation (RAG) for intelligent medical record queries, and offline synchronization protocols for intermittent connectivity. Economic analysis demonstrates 96% cost reduction compared to GPU-based alternatives, with total deployment cost of $847 per rural clinic including 5-year solar power infrastructure. Validation experiments on Lucky Miner LV06 (BM1366 chip, 5nm) achieve 2.93 MH/W efficiency and confirm hardware universality. This work establishes a practical framework for deploying verifiable, tamper-proof electronic health records in regions where traditional healthcare IT infrastructure is economically unfeasible, potentially benefiting over 600 million people lacking access to basic health information systems.",
+    "title_zh": "SiliconHealth：利用改造的比特币挖矿ASIC在资源受限地区构建低成本完整区块链医疗基础设施",
+    "abstract_zh": "本文提出了一种名为SiliconHealth的综合性基于区块链的医疗保健基础设施，专为资源受限地区（特别是撒哈拉以南非洲）设计。我们证明，过时的比特币挖矿专用集成电路（ASIC）可被重新利用，构建一个安全、低成本且节能高效的医疗记录系统。所提出的架构采用四层分级网络：区域医院使用Antminer S19 Pro（90+ TH/s），城市医疗中心配备Antminer S9（14 TH/s），乡村诊所采用Lucky Miner LV06（500 GH/s，13W），以及配备便携式ASIC设备的移动医疗点。我们引入了“确定性硬件指纹识别”（Deterministic Hardware Fingerprinting, DHF）范式，将SHA-256挖矿ASIC重新用作加密证明生成器，在300秒的验证会话中对23个测试证明实现了100%的验证率。该系统结合了Reed-Solomon LSB水印技术，用于医学图像认证，具备30%-40%的损坏容忍度；采用语义增强检索生成（Retrieval-Augmented Generation, RAG）技术实现智能医疗记录查询；并设计了离线同步协议以应对间歇性网络连接。经济分析表明，与基于GPU的方案相比，本系统部署成本降低了96%，每个乡村诊所的总部署成本仅为847美元，包含五年期太阳能供电基础设施。在Lucky Miner LV06（BM1366芯片，5nm工艺）上的验证实验实现了每瓦2.93兆哈希（MH/W）的能效，并证实了硬件的通用性。本研究为传统医疗IT基础设施因经济原因难以部署的地区，建立了一个实用框架，可用于实现可验证、防篡改的电子健康记录系统，有望惠及超过6亿缺乏基本健康信息系统的民众。"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "Relational Hoare Logic for High-Level Synthesis of Hardware Accelerators",
+    "authors": "Izumi Tanaka, Ken Sakayori, Shinya Takamaeda-Yamazaki, Naoki Kobayashi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.09217v1",
+    "source": "arXiv",
+    "abstract": "High-level synthesis (HLS) is a powerful tool for developing efficient hardware accelerators that rely on specialized memory systems to achieve sufficient on-chip data reuse and off-chip bandwidth utilization. However, even with HLS, designing such systems still requires careful manual tuning, as automatic optimizations provided by existing tools are highly sensitive to programming style and often lack transparency. To address these issues, we present a formal translation framework based on relational Hoare logic, which enables robust and transparent transformations. Our method recognizes complex memory access patterns in naïve HLS programs and automatically transforms them by inserting on-chip buffers to enforce linear access to off-chip memory, and by replacing non-sequential processing with stream processing, while preserving program semantics. Experiments using our prototype translator, combined with an off-the-shelf HLS compiler and a real FPGA board, have demonstrated significant performance improvements.",
+    "title_zh": "用于硬件加速器高层次综合的关系型霍尔逻辑",
+    "abstract_zh": "高层次综合（HLS）是一种强大的工具，可用于开发高效的硬件加速器，这些加速器依赖专用的存储器系统，以实现足够的片上数据重用和片外带宽利用率。然而，即使使用HLS，设计此类系统仍需要仔细的手动调优，因为现有工具提供的自动优化对编程风格高度敏感，且往往缺乏透明性。为解决这些问题，我们提出了一种基于关系霍尔逻辑（relational Hoare logic）的形式化转换框架，该框架能够实现鲁棒且透明的程序变换。我们的方法能够识别初级HLS程序中的复杂内存访问模式，并通过插入片上缓冲区以强制实现对外部存储器的线性访问，以及用流式处理替代非顺序处理，从而自动完成程序转换，同时保持程序语义不变。实验结合了我们开发的原型转换器、现成的HLS编译器以及真实的FPGA开发板，结果表明性能得到了显著提升。"
+  },
+  {
+    "date": "2026-01-14",
+    "title": "MLIR-Forge: A Modular Framework for Language Smiths",
+    "authors": "Berke Ates, Philipp Schaad, Timo Schneider, Alexandru Calotoiu, Torsten Hoefler",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.09583v1",
+    "source": "arXiv",
+    "abstract": "Optimizing compilers are essential for the efficient and correct execution of software across various scientific fields. Domain-specific languages (DSL) typically use higher level intermediate representations (IR) in their compiler pipelines for domain-specific optimizations. As these IRs add to complexity, it is crucial to test them thoroughly. Random program generators have proven to be an effective tool to test compilers through differential and fuzz testing. However, developing specialized program generators for compiler IRs is not straightforward and demands considerable resources. We introduce MLIR-Forge, a novel random program generator framework that leverages the flexibility of MLIR, aiming to simplify the creation of specialized program generators. MLIR-Forge achieves this by splitting the generation process into fundamental building blocks that are language specific, and reusable program creation logic that constructs random programs from these building blocks. This hides complexity and furthermore, even the language specific components can be defined using a set of common tools. We demonstrate MLIR-Forge's capabilities by generating MLIR with built-in dialects, WebAssembly, and a data-centric program representation, DaCe -- requiring less than a week of development time in total for each of them. Using the generated programs we conduct differential testing and find 9 MLIR, 15 WebAssembly, and 774 DaCe groups of bugs with the corresponding program generators, after running them until the rate of new bugs stagnates.",
+    "title_zh": "MLIR-Forge：一种面向语言工匠的模块化框架",
+    "abstract_zh": "优化编译器对于各种科学领域中软件的高效且正确执行至关重要。领域特定语言（DSL）通常在其编译器流水线中使用更高级别的中间表示（IR），以实现面向领域的优化。由于这些IR增加了复杂性，因此必须对其进行充分测试。随机程序生成器已被证明是通过差分测试和模糊测试来检验编译器的有效工具。然而，为编译器IR开发专用的程序生成器并不容易，且需要大量资源。本文提出了MLIR-Forge，一种新颖的随机程序生成框架，它利用了MLIR的灵活性，旨在简化专用程序生成器的创建过程。MLIR-Forge将程序生成过程分解为两部分：与具体语言相关的基础构建模块，以及可复用的程序生成逻辑——后者负责从这些模块中构造出随机程序。这种方法隐藏了复杂性，而且即使是语言相关的组件，也可以通过一组通用工具来定义。我们通过在MLIR内置方言、WebAssembly以及数据为中心的程序表示DaCe上应用MLIR-Forge，展示了其能力——每个案例的开发时间均不到一周。利用生成的程序，我们开展了差分测试，在各类程序生成器持续运行至新发现缺陷速率趋于停滞后，共发现了9组MLIR相关缺陷、15组WebAssembly缺陷以及774组DaCe缺陷。"
+  },
+  {
+    "date": "2026-1-14",
+    "title": "Foundational Design and Transient Analysis of NAND Gate and Inverter in Cadence Virtuoso for CMOS Logic Circuits",
+    "authors": "Jyotishko Chakrabotry, Bristi Hajra, Pradipta Dutta",
+    "publish": "2025 5th IEEE International Conference on Applied Electromagnetics, Signal Processing, &amp;amp; Communication (AESPC)",
+    "url": "https://doi.org/10.1109/aespc67542.2025.11326845",
+    "source": "IEEE",
+    "abstract": "This paper comprehensively analyzes the schematic design, physical layout, and transient analysis of elementary CMOS logic gates, such as the NAND and inverter, in the Cadence Virtuoso environment. Designs were implemented in the GPDK 90 nm technology node and verified on paper by intensive simulation and verification. The layouts were designed according to the standard CMOS rules, and the switching characteristics and transient analysis were done using Analog Design Environment Lite (ADE L). Functional correctness was verified via LVS checks and post layout simulations with PEX. Therefore, the comparative study focused on showing the inverter as the timing reference and the NAND gate as the most universal and efficient in design; especially when it comes to being of low power dissipation and high speed in VLSI digital applications. This paper is a reference source and a textbook guide for VLSI design beginners using EDA tools.",
+    "title_zh": "基于Cadence Virtuoso的CMOS逻辑电路中NAND门与反相器的基础设计与瞬态分析",
+    "abstract_zh": "本文在Cadence Virtuoso环境中，对基本CMOS逻辑门（如NAND门和反相器）的原理图设计、物理版图及瞬态分析进行了全面分析。设计基于GPDK 90 nm工艺节点实现，并通过大量仿真与验证在纸面上完成确认。版图设计遵循标准CMOS设计规则，开关特性与瞬态分析则使用模拟设计环境精简版（ADE L）完成。功能正确性通过LVS检查以及结合PEX的布局后仿真得到验证。因此，本研究重点在于对比展示反相器作为时序参考基准，以及NAND门在设计中的通用性和高效性，尤其是在VLSI数字应用中具备低功耗和高速度的优势。本文可作为使用EDA工具的VLSI设计初学者的参考资源和教科书式指南。"
+  },
+  {
+    "date": "2026-1-14",
+    "title": "FusionDisassembler: A Cross-Device Approach for Effective Instruction Disassembly in Side-Channel Attacks",
+    "authors": "Chen Ling, Jinyuan Zhang, Ouchang Hai, Hangcheng Liu, Xingshuo Han",
+    "publish": "2025 IEEE 31th International Conference on Parallel and Distributed Systems (ICPADS)",
+    "url": "https://doi.org/10.1109/icpads67057.2025.11323202",
+    "source": "IEEE",
+    "abstract": "Modern embedded systems are increasingly vulnerable to side-channel threats, which may non-invasively leak sensitive information about their internal operations. While prior studies have validated the feasibility of instruction reverse engineering via side-channel analysis, their effectiveness has primarily been demonstrated under ideal, device-controlled settings. In practical adversarial scenarios, heterogeneity in manufacturing processes and hardware components across devices introduces significant variations in side-channel signals, which impedes effective pattern recognition and limits the scalability of crossdevice attacks. This paper presents FusionDisassembler, a robust and generalizable instruction disassembly framework for cross-device side-channel analysis. FusionDisassembler captures power traces during program execution and identifies the corresponding assembly instructions. To address device-induced signal variability, we employ information-theoretic analysis in the timefrequency domain to extract discriminative features that remain stable across hardware. Moreover, we introduce a MultiExpert Disassembly Network, comprising multiple specialized expert subnetworks trained on different feature domains, and a lightweight router that dynamically selects the most appropriate expert based on input features. This architecture enables effective learn of distribution shifts across devices and enhances generalization in real-world attack settings. We evaluate FusionDisassembler on multiple physical devices across two microarchitectures. Extensive experiments demonstrate its effectiveness, outperforming existing approaches and establishing a new practical benchmark for side-channel-based disassembly.",
+    "title_zh": "FusionDisassembler：一种用于旁道攻击中有效指令反汇编的跨设备方法",
+    "abstract_zh": "现代嵌入式系统日益容易受到旁道攻击的威胁，这些攻击可能以非侵入方式泄露系统内部操作的敏感信息。尽管先前的研究已验证了通过旁道分析实现指令逆向工程的可行性，但其有效性主要是在理想化、受控设备环境下得到证实。在实际的对抗场景中，不同设备在制造工艺和硬件组件上的差异会导致旁道信号出现显著变化，从而阻碍有效的模式识别，并限制跨设备攻击的可扩展性。本文提出了FusionDisassembler，一种面向跨设备旁道分析的鲁棒且通用的指令反汇编框架。FusionDisassembler通过捕获程序执行过程中的功耗轨迹，识别出对应的汇编指令。为应对由设备差异引起的信号波动问题，我们采用基于信息论的时频域分析方法，提取在不同硬件平台上保持稳定的判别性特征。此外，我们设计了一种多专家反汇编网络（Multi-Expert Disassembly Network），该网络包含多个针对不同特征域进行训练的专业化子网络，以及一个轻量级路由模块，能够根据输入特征动态选择最合适的专家子网络。该架构有效应对了设备间分布偏移的问题，提升了在真实攻击场景下的泛化能力。我们在两种微架构的多个物理设备上对FusionDisassembler进行了评估。大量实验表明，该方法性能优于现有技术，为基于旁道分析的指令反汇编建立了新的实用化基准。"
+  },
+  {
+    "date": "2026-1-14",
+    "title": "NIST Post-Quantum Cryptography Standards: A Comprehensive Review of Theoretical Foundations and Implementations",
+    "authors": "Quang Dang Truong, Hien Nguyen, Tuy Tan Nguyen, Hanho Lee",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3654142",
+    "source": "IEEE",
+    "abstract": "The transition to post-quantum cryptography (PQC) marks a pivotal shift in ensuring digital security, prompted by the potential of quantum computers to compromise classical systems such as Rivest-Shamir-Adlema and elliptic-curve cryptography. In response, NIST has standardized three foundational PQC algorithms: Module-lattice-based Key-encapsulation Mechanism for key establishment; Module-lattice-based Digital Signature, and Stateless Hash-based Digital Signature algorithms for digital signatures. Meanwhile, FALCON and Hamming Quasi-cyclic (HQC) schemes, both selected as finalists, are expected to join the standards soon. This paper presents a comprehensive survey of these NIST-selected PQC standards, with a dual focus on software implementations and hardware architecture designs. We analyze their mathematical frameworks, distinctive features, and optimization strategies related to performance, security, and resource efficiency. The software review examines algorithmic complexity, memory usage, and programming considerations, while the hardware review discusses FPGA and ASIC implementations, emphasizing modular arithmetic, polynomial operations, and resource efficiency challenges. A comparative analysis highlights the strengths and trade-offs of each algorithm, offering insights into their applicability across various platforms-from resource-constrained internet of things devices to high-performance computing environments. This study provides a foundational understanding of NIST’s selected PQC standards and their practical deployment in securing the post-quantum era.",
+    "title_zh": "NIST后量子密码学标准：理论基础与实现的全面综述",
+    "abstract_zh": "向后量子密码学（PQC）的过渡标志着确保数字安全的一次关键性转变，其背景是量子计算机有可能破坏诸如Rivest-Shamir-Adleman（RSA）和椭圆曲线密码学等经典加密系统。为此，美国国家标准与技术研究院（NIST）已对三种基础性的PQC算法进行了标准化：基于模块格的密钥封装机制（ML-KEM），用于密钥建立；基于模块格的数字签名（ML-DSA）；以及无状态哈希基数字签名（SLH-DSA），用于数字签名。与此同时，FALCON 和汉明准循环码（Hamming Quasi-cyclic, HQC）两种方案作为最终入选者，预计也将很快被纳入标准体系。本文对这些由 NIST 选定的 PQC 标准进行了全面综述，重点关注其软件实现与硬件架构设计。我们分析了它们的数学框架、独特特性，以及在性能、安全性和资源效率方面的优化策略。软件层面的评述涵盖了算法复杂度、内存使用情况及编程实现中的考虑因素；硬件层面则讨论了在 FPGA 与 ASIC 上的实现方案，重点聚焦于模运算、多项式运算以及资源效率所面临的挑战。通过对比分析，本文突出了各算法的优势与权衡，为它们在不同平台——从资源受限的物联网设备到高性能计算环境——中的适用性提供了深入见解。本研究为理解 NIST 所选定的 PQC 标准及其在后量子时代实际部署奠定了基础。"
+  },
+  {
+    "date": "2026-1-14",
+    "title": "Low-Power TinyML CNN Accelerator using Integrated Clock Gating for Edge Devices",
+    "authors": "Shashi Kant Dargar, Akash, Antony Fedrick, Avinash Kumar",
+    "publish": "2025 4th International Conference on Automation, Computing and Renewable Systems (ICACRS)",
+    "url": "https://doi.org/10.1109/icacrs67045.2025.11324407",
+    "source": "IEEE",
+    "abstract": "In this work, a compact low-power convolutional neural network (CNN) hardware accelerator is developed for TinyML-based edge AI systems. The design applies integrated clock gating (ICG) using Synopsys EDA tools, where gating decisions are guided by real switching activity captured in SAIF files. This approach effectively reduces dynamic power without affecting timing or area efficiency. The Verilog RTL architecture includes modules such as a line buffer, adaptive multiplier supporting exact and approximate modes, ReLU, pooling, and automated clock control. When synthesized with a 45 nm standard-cell library, the proposed accelerator achieved 38.2% lower dynamic power and an improved timing slack of 3.41 ns. Functional correctness was verified through simulation and waveform inspection, confirming the design’s reliability. The overall methodology is reproducible and suitable for energy-constrained IoT and always-on microcontroller platforms.",
+    "title_zh": "用于边缘设备的集成时钟门控低功耗TinyML CNN加速器",
+    "abstract_zh": "本研究开发了一种紧凑型低功耗卷积神经网络（CNN）硬件加速器，适用于基于TinyML的边缘人工智能系统。该设计采用集成时钟门控（ICG）技术，并借助Synopsys EDA工具实现，其中时钟门控决策由SAIF文件中捕获的实际开关活动进行指导。该方法在不影响时序和面积效率的前提下，有效降低了动态功耗。Verilog RTL架构包含线缓冲器、支持精确与近似两种模式的自适应乘法器、ReLU单元、池化模块以及自动时钟控制等模块。使用45 nm标准单元库进行综合后，所提出的加速器实现了动态功耗降低38.2%，时序裕量改善达3.41 ns。通过仿真和波形检查验证了功能正确性，证实了设计的可靠性。整体方法具有可复现性，适用于能量受限的物联网（IoT）及常开型微控制器平台。"
+  },
+  {
+    "date": "2026-1-14",
+    "title": "Model Checking PLC Programs: Enhancing Formalization for Scalability",
+    "authors": "Jessica Ravakambinintsoa, Emil Dumitrescu, Eric Zamaï, Denis Chalon",
+    "publish": "2025 11th International Conference on Control, Decision and Information Technologies (CoDIT)",
+    "url": "https://doi.org/10.1109/codit66093.2025.11321720",
+    "source": "IEEE",
+    "abstract": "Formal verification of PLC programs requires transforming control logic into a mathematical model. Since PLC languages lack a formal semantics, multiple transformation methods exist, based on various code interpretations. This work introduces a novel approach leveraging Single Static Assignments (SSA) to ensure a faithful PLC code transformation while enhancing model checking scalability. By systematically tracking variable assignments, the method accurately captures execution dependencies and preserves control logic. Experimental results demonstrate promising improvements in verification efficiency.",
+    "title_zh": "PLC程序的模型检测：增强形式化以提高可扩展性",
+    "abstract_zh": "对PLC程序的形式化验证需要将控制逻辑转换为数学模型。由于PLC语言缺乏形式化语义，因此存在多种基于不同代码解释的转换方法。本文提出了一种新颖的方法，利用静态单赋值（Single Static Assignments, SSA）来确保PLC代码转换的准确性，同时提升模型检验的可扩展性。该方法通过系统地跟踪变量赋值，精确捕捉执行依赖关系并保持控制逻辑的完整性。实验结果表明，该方法在验证效率方面具有显著的提升潜力。"
+  },
+  {
+    "date": "2026-1-14",
+    "title": "A New Approach to Hybrid Delay Test Using Shared Observe Points",
+    "authors": "Jaehyun Kim, Sangjun Lee, Laesang Jung, Hanseong Cho, Sungho Kang",
+    "publish": "2025 22nd International SoC Design Conference (ISOCC)",
+    "url": "https://doi.org/10.1109/isocc66390.2025.11329940",
+    "source": "IEEE",
+    "abstract": "As semiconductor technologies scale down, timing-related defects have become a major reliability issue. Traditional stuck-at fault models fail to detect subtle timing violations, making delay testing essential for identifying transition delay faults (TDFs). This paper presents a hybrid test method combining Launch-on-Capture (LOC) and Launch-on-Shift (LOS) to improve coverage. To address fault blocking, test points (TPs) are inserted at critical nodes. Unlike conventional approaches that require dedicated flip-flops for each OP, the proposed method reuses existing flip-flops through shared observe point insertion, reducing hardware overhead. This enables high fault coverage with fewer test patterns and minimal hardware overhead.",
+    "title_zh": "一种利用共享观测点进行混合延迟测试的新方法",
+    "abstract_zh": "随着半导体技术的不断缩小，时序相关缺陷已成为一个主要的可靠性问题。传统的固定故障模型无法检测到细微的时序违规，因此延迟测试对于识别转换延迟故障（TDF）至关重要。本文提出了一种混合测试方法，结合了捕获触发（Launch-on-Capture, LOC）和移位触发（Launch-on-Shift, LOS），以提高故障覆盖率。为解决故障屏蔽问题，在关键节点插入了测试点（TP）。与需要为每个观测点（OP）配置专用触发器的传统方法不同，所提出的方法通过共享观测点插入复用现有触发器，从而降低了硬件开销。该方法能够在减少测试图形数量的同时实现高故障覆盖率，并将硬件开销降至最低。"
+  },
+  {
+    "date": "2026-1-14",
+    "title": "Learning-based Approach for Early Detection of Hardware Trojans in Open-Source Hardware",
+    "authors": "Polepalli Bhargavi, Nukamreddy Sai Samhita, G Mahesh, Hirekurubara Narayana, Kothapu Ajay Kumar",
+    "publish": "2025 4th International Conference on Automation, Computing and Renewable Systems (ICACRS)",
+    "url": "https://doi.org/10.1109/icacrs67045.2025.11324305",
+    "source": "IEEE",
+    "abstract": "The growing popularity of open-source hardware has unfortunately made it easier for untrustworthy actors to slip hardware Trojans into designs. While we have got some decent detection methods already, they often stumble when dealing with complex stuff like RISC-V processors and cryptographic accelerators. Introducing a new framework with mixed semantic code analysis and some intelligent embedding tricks. Instead of simply depending on text-frequency methods such as TF-IDF or Bag-of-Words, we analyze the structure in depth of Verilog code and using lightweight contextual embeddings to really get a feel for both the text and how the hardware's supposed to work. We even built a dataset of 3,900 examples, pulling from standard and injecting Trojans with the help of some refined LLM-guided mutation techniques. After pitting different classifiers and transformer models against each other, we found that our hybrid embedding approach, powered by Gradient Boosting, nailed a 98% accuracy rate. Plus, with some optimized LLM prompts, we reached recall at 99% which is too high, it reduces the number undetected Trojans attacks. This new method is all about being scalable, easy to understand, and rock-solid when it comes to keeping open-source hardware secure.",
+    "title_zh": "基于学习的开源硬件中硬件木马早期检测方法",
+    "abstract_zh": "开源硬件的日益普及，不幸地为一些不可信的行为者将硬件木马植入设计提供了便利。尽管目前已有一些较为有效的检测方法，但它们在面对RISC-V处理器和加密加速器等复杂结构时常常表现不佳。为此，我们提出了一种新框架，结合了混合语义代码分析与智能嵌入技术。该方法不再依赖TF-IDF或词袋模型（Bag-of-Words）等基于文本频率的传统手段，而是深入分析Verilog代码的结构，并采用轻量级上下文嵌入技术，以更准确地理解代码文本内容以及硬件应有的功能行为。我们还构建了一个包含3900个样本的数据集，通过标准设计并借助精细化的、由大语言模型（LLM）引导的变异技术注入硬件木马。在对比多种分类器和Transformer模型后发现，我们基于梯度提升（Gradient Boosting）的混合嵌入方法实现了高达98%的准确率。此外，通过优化LLM提示（prompt），我们的方法召回率达到99%，这一极高的数值显著减少了未被发现的木马攻击数量。该新方法具备良好的可扩展性、易于理解，且在保障开源硬件安全方面表现出极强的可靠性。"
+  },
+  {
+    "date": "2026-1-14",
+    "title": "LunaISS: A RISC-V Simulator for Branch Predictor Validation and Interval-Based Profiling",
+    "authors": "Yi-Teng Zhuang, Pei-Shan Hsiao, Chung-Ho Chen",
+    "publish": "2025 22nd International SoC Design Conference (ISOCC)",
+    "url": "https://doi.org/10.1109/isocc66390.2025.11329543",
+    "source": "IEEE",
+    "abstract": "We present LunaISS, a lightweight RISC-V simulator enabling commit-time validation of branch predictor metadata in lock-step co-simulation with RTL. LunaISS supports full-system workloads, rapid predictor integration via a minimal API, and interval-based profiling via system calls (syscalls). It reveals subtle RTL predictor bugs, offering practical validation beyond accuracy metrics.",
+    "title_zh": "LunaISS：一种用于分支预测器验证和基于区间的性能分析的RISC-V模拟器",
+    "abstract_zh": "我们提出了LunaISS，一种轻量级的RISC-V模拟器，能够在与RTL进行锁步协同仿真时，在指令提交阶段验证分支预测器元数据。LunaISS支持全系统工作负载，通过极简API实现快速预测器集成，并利用系统调用（syscalls）实现基于时间间隔的性能分析。该工具能够发现RTL中分支预测器的细微错误，提供超越准确率指标的实用验证能力。"
+  },
+  {
+    "date": "2026-1-14",
+    "title": "Write-Once, Prove-Once: A Reusable Framework for Secure Boot Verification in Rocq",
+    "authors": "Minjie Fan, Qiyu Wu, Kuai Yu, Gaosong Xu, Xiaoyang Wang, Jiwu Shu",
+    "publish": "2025 IEEE 31th International Conference on Parallel and Distributed Systems (ICPADS)",
+    "url": "https://doi.org/10.1109/icpads67057.2025.11323130",
+    "source": "IEEE",
+    "abstract": "Secure boot is a fundamental mechanism for establishing a hardware-rooted chain of trust in modern computing systems. While formal verification using interactive theorem provers like Rocq offers strong correctness guarantees, existing approaches are often tightly coupled to specific hardware configurations and cryptographic algorithms, making them brittle and difficult to reuse when system components change. In this work, we present a flexible and modular framework for formally verifying secure boot processes in Rocq. Our approach introduces a three-layer abstraction model-Feature, Axiom, and Theorem-that decouples high-level security properties from lowlevel implementation details. We abstract critical components such as storage media and cryptographic primitives (e.g., encryption, signatures, hash functions) as interfaces with welldefined operators and axiomatic correctness properties. All highlevel proofs are conducted based on these axioms, without depending on concrete implementations. When specific algorithms or hardware are chosen, the axioms become proof obligations to be verified locally. This separation ensures that changes in implementation-such as switching cryptographic primitives or storage types-do not invalidate existing proofs, enabling significant proof reuse. We demonstrate the applicability of our framework in modeling a realistic secure boot chain. Our work lays the foundation for scalable and maintainable formal verification of trust-sensitive system initialization processes.",
+    "title_zh": "一次编写，一次证明：Rocq 中可重用的安全启动验证框架",
+    "abstract_zh": "安全启动（Secure boot）是现代计算系统中建立基于硬件的信任链的基本机制。尽管使用Rocq等交互式定理证明工具进行形式化验证能够提供强有力正确性保证，但现有方法通常与特定的硬件配置和加密算法紧密耦合，导致其在系统组件发生变化时变得脆弱且难以复用。本文提出了一种灵活且模块化的框架，用于在Rocq中对安全启动过程进行形式化验证。我们的方法引入了一个三层抽象模型——特性（Feature）、公理（Axiom）和定理（Theorem），将高层安全属性与底层实现细节解耦。我们将关键组件（如存储介质和密码学原语，包括加密、数字签名、哈希函数等）抽象为具有明确定义操作符和公理化正确性属性的接口。所有高层证明均基于这些公理进行，而不依赖于具体实现。当选定特定算法或硬件时，这些公理转化为需在本地验证的证明义务。这种分离确保了实现层面的变化（例如更换密码学原语或存储类型）不会使已有证明失效，从而实现了大量证明的复用。我们通过建模一个真实的安全启动链展示了本框架的实用性。本工作为可扩展且易于维护的信任敏感系统初始化过程的形式化验证奠定了基础。"
+  },
+  {
+    "date": "2026-1-14",
+    "title": "Towards Adaptive Multi-Object Fuzzing: A Map-Aware Reinforcement Approach for Autonomous Driving Systems",
+    "authors": "Qi Jin, Tingting Wu, Zuohua Ding, Yongkui Xu, Yunwei Dong",
+    "publish": "2025 IEEE 31th International Conference on Parallel and Distributed Systems (ICPADS)",
+    "url": "https://doi.org/10.1109/icpads67057.2025.11322949",
+    "source": "IEEE",
+    "abstract": "Ensuring the safety of autonomous driving systems (ADS) requires stress testing under diverse and complex environmental conditions. Fuzzing has emerged as a promising approach, but existing methods often neglect the interplay between map complexity and multi-object mutations, resulting in limited coverage of safety-critical behaviors. To address this gap, we propose a map-aware reinforcement learning fuzzing (MARFT) approach that adaptively tailors fuzzing actions to spatial map features while jointly mutating multiple scenario parameters. Reinforcement learning, guided by undesirable behaviors and trajectory coverage, drives the selection of fuzzing actions to maximize exposure of safety-critical events through a closed-loop cycle of “scenario state perception → fuzzing action decision → driving reward feedback”. Experimental results demonstrate that our adaptive strategy significantly outperforms non-adaptive baselines in ADS failure detection. By combining Q-learning with trajectory coverage and behavior-driven seed selection, MARFT provides a scalable and adaptive solution for ADS testing, advancing the detection of critical behavioral patterns in complex driving environments.",
+    "title_zh": "面向自适应多目标模糊测试：一种面向自动驾驶系统的地图感知强化学习方法",
+    "abstract_zh": "确保自动驾驶系统（ADS）的安全性需要在多样且复杂的环境条件下进行压力测试。模糊测试（fuzzing）已成为一种有前景的方法，但现有方法往往忽视了地图复杂性与多目标变异之间的相互作用，导致对安全关键行为的覆盖有限。为弥补这一不足，本文提出了一种基于地图感知的强化学习模糊测试方法（MARFT），该方法能够根据空间地图特征自适应地调整模糊测试动作，同时联合变异多个场景参数。通过结合不良行为和轨迹覆盖率的引导，强化学习驱动模糊测试动作的选择，在“场景状态感知→模糊动作决策→驾驶奖励反馈”的闭环循环中最大化暴露安全关键事件。实验结果表明，与非自适应基线方法相比，所提出的自适应策略在发现ADS故障方面表现显著更优。通过将Q学习与轨迹覆盖率及行为驱动的种子选择相结合，MARFT为ADS测试提供了一种可扩展且自适应的解决方案，推动了在复杂驾驶环境中关键行为模式的检测能力。"
+  }
+]
