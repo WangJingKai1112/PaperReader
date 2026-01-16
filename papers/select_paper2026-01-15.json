@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-01-15",
+    "title": "Scalable Algorithms for Approximate DNF Model Counting",
+    "authors": "Paul Burkhardt, David G. Harris, Kevin T Schmitt",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.10511v1",
+    "source": "arXiv",
+    "abstract": "Model counting of Disjunctive Normal Form (DNF) formulas is a critical problem in applications such as probabilistic inference and network reliability. For example, it is often used for query evaluation in probabilistic databases. Due to the computational intractability of exact DNF counting, there has been a line of research into a variety of approximation algorithms. These include Monte Carlo approaches such as the classical algorithms of Karp, Luby, and Madras (1989), as well as methods based on hashing (Soos et al. 2023), and heuristic approximations based on Neural Nets (Abboud, Ceylan, and Lukasiewicz 2020). We develop a new Monte Carlo approach with an adaptive stopping rule and short-circuit formula evaluation. We prove it achieves Probably Approximately Correct (PAC) learning bounds and is asymptotically more efficient than the previous methods. We also show experimentally that it out-performs prior algorithms by orders of magnitude, and can scale to much larger problems with millions of variables.",
+    "title_zh": "可扩展的近似析取范式模型计数算法",
+    "abstract_zh": "析取范式（DNF）公式的计数问题是概率推理和网络可靠性等应用中的一个关键问题，例如常用于概率数据库中的查询评估。由于精确的DNF计数在计算上是难解的，因此已有大量研究致力于各种近似算法的开发。这些算法包括蒙特卡洛方法，如Karp、Luby和Madras（1989年）提出的经典算法，基于哈希的方法（Soos等，2023年），以及基于神经网络的启发式近似方法（Abboud、Ceylan和Lukasiewicz，2020年）。我们提出了一种新的蒙特卡洛方法，该方法具有自适应的停止规则和短路公式求值机制。我们证明了该方法满足“可能近似正确”（PAC）学习边界，并且在渐近意义上比以往方法更高效。实验结果还表明，我们的方法在性能上优于先前的算法几个数量级，并且能够扩展到包含数百万变量的大规模问题。"
+  },
+  {
+    "date": "2026-01-15",
+    "title": "S$^2$F: Principled Hybrid Testing With Fuzzing, Symbolic Execution, and Sampling",
+    "authors": "Lianjing Wang, Yufeng Zhang, Kenli Li, Zhenbang Chen, Xu Zhou, Pengfei Wang, Guangning Song, Ji Wang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.10068v1",
+    "source": "arXiv",
+    "abstract": "Hybrid testing that integrates fuzzing, symbolic execution, and sampling has demonstrated superior testing efficiency compared to individual techniques. However, the state-of-the-art (SOTA) hybrid testing tools do not fully exploit the capabilities of symbolic execution and sampling in two key aspects. First, the SOTA hybrid testing tools employ tailored symbolic execution engines that tend to over-prune branches, leading to considerable time wasted waiting for seeds from the fuzzer and missing opportunities to discover crashes. Second, existing methods do not apply sampling to the appropriate branches and therefore cannot utilize the full capability of sampling. To address these two limitations, we propose a novel hybrid testing architecture that combines the precision of conventional symbolic execution with the scalability of tailored symbolic execution engines. Based on this architecture, we propose several principles for combining fuzzing, symbolic execution, and sampling. We implement our method in a hybrid testing tool S$^2$F. To evaluate its effectiveness, we conduct extensive experiments on 15 real-world programs. Experimental results demonstrate that S$^2$F outperforms the SOTA tool, achieving an average improvement of 6.14% in edge coverage and 32.6% in discovered crashes. Notably, our tool uncovers three previously unknown crashes in real-world programs.",
+    "title_zh": "S$^2$F：结合模糊测试、符号执行与采样的原则性混合测试",
+    "abstract_zh": "将模糊测试、符号执行和采样相结合的混合测试方法，相比单一技术已展现出更优的测试效率。然而，当前最先进的（SOTA）混合测试工具在符号执行和采样的能力利用上仍存在两个关键不足。首先，现有的SOTA混合测试工具采用定制化的符号执行引擎，这类引擎倾向于过度剪枝分支，导致大量时间浪费在等待模糊器提供种子上，并错失发现崩溃的机会。其次，现有方法未能在合适的分支上应用采样，因而无法充分发挥采样的潜力。为解决上述两个问题，我们提出了一种新颖的混合测试架构，该架构融合了传统符号执行的精确性与定制化符号执行引擎的可扩展性。基于此架构，我们提出了若干整合模糊测试、符号执行与采样的原则，并据此实现了混合测试工具S²F。为验证其有效性，我们在15个真实程序上进行了广泛的实验。实验结果表明，S²F优于当前最先进的工具，在边覆盖率上平均提升6.14%，在发现的崩溃数量上平均提升32.6%。值得注意的是，我们的工具在真实程序中发现了三个此前未知的崩溃漏洞。"
+  },
+  {
+    "date": "2026-01-15",
+    "title": "Multi-Property Synthesis",
+    "authors": "Christoph Weinhuber, Yannik Schnitzer, Alessandro Abate, David Parker, Giuseppe De Giacomo, Moshe Y. Vardi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.10651v1",
+    "source": "arXiv",
+    "abstract": "We study LTLf synthesis with multiple properties, where satisfying all properties may be impossible. Instead of enumerating subsets of properties, we compute in one fixed-point computation the relation between product-game states and the goal sets that are realizable from them, and we synthesize strategies achieving maximal realizable sets. We develop a fully symbolic algorithm that introduces Boolean goal variables and exploits monotonicity to represent exponentially many goal combinations compactly. Our approach substantially outperforms enumeration-based baselines, with speedups of up to two orders of magnitude.",
+    "title_zh": "多属性合成",
+    "abstract_zh": "我们研究了在多个属性下LTLf综合的问题，其中满足所有属性可能是无法实现的。与枚举属性子集的方法不同，我们通过一次固定的点计算，确定乘积博弈状态与从这些状态可实现的目标集合之间的关系，并综合出能够达到最大可实现目标集的策略。我们开发了一种完全符号化的算法，该算法引入布尔目标变量，并利用单调性紧凑地表示指数级数量的目标组合。我们的方法在性能上显著优于基于枚举的基线方法，速度提升最高可达两个数量级。"
+  },
+  {
+    "date": "2026-01-15",
+    "title": "Outrunning Big KATs: Efficient Decision Procedures for Variants of GKAT",
+    "authors": "Cheng Zhang, Qiancheng Fu, Hang Ji, Ines Santacruz Del Valle, Alexandra Silva, Marco Gaboardi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.09986v1",
+    "source": "arXiv",
+    "abstract": "This paper presents several efficient decision procedures for trace equivalence of GKAT automata, which make use of on-the-fly symbolic techniques via SAT solvers. To demonstrate applicability of our algorithms, we designed symbolic derivatives for CF-GKAT, a practical system based on GKAT designed to validate control-flow transformations. We implemented the algorithms in Rust and evaluated them on both randomly generated benchmarks and real-world control-flow transformations. Indeed, we observed order-of-magnitude performance improvements against existing implementations for both KAT and CF-GKAT. Notably, our experiments also revealed a bug in Ghidra, an industry-standard decompiler, highlighting the practical viability of these systems.",
+    "title_zh": "超越大型KAT：GKAT变体的高效决策过程",
+    "abstract_zh": "本文提出了几种高效的GKAT自动机迹等价判定算法，这些算法通过SAT求解器采用即时符号技术实现。为了验证我们算法的实用性，我们为CF-GKAT设计了符号导数，CF-GKAT是一种基于GKAT的实用系统，用于验证控制流变换。我们在Rust语言中实现了这些算法，并在随机生成的基准测试和真实世界的控制流变换上进行了评估。实验结果表明，与现有的KAT和CF-GKAT实现相比，我们的方法在性能上实现了数量级的提升。值得注意的是，我们的实验还发现了一个Ghidra（一种工业级反编译器）中的漏洞，这凸显了这些系统的实际可行性。"
+  }
+]
