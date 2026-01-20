@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-1-19",
+    "title": "Oracle-Guided SMT Solver Validation via Synthesizing Diverse Formulas with Multiple Assignments",
+    "authors": "Maolin Sun, Yibiao Yang, Jiangchang Wu, Qingyang Li, Zeyu Lu, Yuming Zhou",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3788862",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "通过合成具有多种赋值的多样化公式进行Oracle引导的SMT求解器验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-19",
+    "title": "An Axiomatic Basis for Computer Programming on Relaxed Hardware Architectures: The AxSL Logics",
+    "authors": "Zongyuan Liu, Angus Hammond, Thibaut Pérami, Peter Sewell, Lars Birkedal, Jean Pichon-Pharabod",
+    "publish": "ACM Transactions on Programming Languages and Systems",
+    "url": "https://doi.org/10.1145/3786762",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向宽松硬件架构的计算机程序设计公理基础：AxSL逻辑",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-19",
+    "title": "Directed or Undirected: Investigating Fuzzing Strategies in a CI/CD Setup",
+    "authors": "Madonna Huang, Caroline Lemieux",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3723159",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "有向或无向：在CI/CD环境中探究模糊测试策略",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-19",
+    "title": "A Comprehensive Empirical and Theoretical Analysis of Batching Algorithms for Efficient, Safe, Parallel Mutation Analysis in Rust",
+    "authors": "Zalán Lévai, Donghwan Shin, Phil McMinn",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3787851",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "对 Rust 中高效、安全、并行变异分析的批处理算法的综合实证与理论分析",
+    "abstract_zh": "None"
+  }
+]
