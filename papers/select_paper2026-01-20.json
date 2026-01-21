@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-01-20",
+    "title": "Counterexample Classification against Signal Temporal Logic Specifications",
+    "authors": "Zhenya Zhang, Parv Kapoor, Jie An, Eunsuk Kang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.13743v1",
+    "source": "arXiv",
+    "abstract": "Signal Temporal Logic (STL) has been widely adopted as a specification language for specifying desirable behaviors of hybrid systems. By monitoring a given STL specification, we can detect the executions that violate it, which are often referred to as counterexamples. In practice, these counterexamples may arise from different causes and thus are relevant to different system defects. To effectively address this, we need a proper criterion for classifying these counterexamples, by which we can comprehend the possible violation patterns and the distributions of these counterexamples with respect to the patterns. In this paper, we propose a classification criterion by using parametric signal temporal logic (PSTL) to represent each class. Due to this formalism, identifying the classes of a counterexample requires finding proper parameter values of PSTL that enable a class to include the counterexample. To improve the efficiency of class identification, we further derive an inclusion relation between different classes, and then propose a binary search-like approach over it that significantly prunes the classes needed to query. We implement a prototype tool and experimentally evaluate its effectiveness on two widely-studied systems.",
+    "title_zh": "针对信号时序逻辑规范的反例分类",
+    "abstract_zh": "信号时序逻辑（STL）已被广泛用作描述混合系统期望行为的规约语言。通过监控给定的STL规约，我们可以检测出违反该规约的执行轨迹，这些轨迹通常被称为反例。在实际中，这些反例可能由不同原因引起，因而与不同的系统缺陷相关。为了有效应对这一问题，我们需要一种合适的准则来对这些反例进行分类，从而理解可能的违规模式以及反例在这些模式下的分布情况。本文提出了一种基于参数化信号时序逻辑（PSTL）的分类准则，其中每个类别由一个PSTL公式表示。由于采用了形式化方法，识别某个反例所属类别的问题转化为寻找合适的PSTL参数值，使得该类别能够包含该反例。为了提高分类识别的效率，我们进一步推导出不同类别之间的包含关系，并在此基础上提出一种类似二分搜索的方法，显著减少了需要查询的类别数量。我们实现了一个原型工具，并在两个被广泛研究的系统上实验评估了其有效性。"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "Secure Multi-Path Routing with All-or-Nothing Transform for Network-on-Chip Architectures",
+    "authors": "Hansika Weerasena, Matthew Randall, Prabhat Mishra",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.13610v1",
+    "source": "arXiv",
+    "abstract": "Ensuring Network-on-Chip (NoC) security is crucial to design trustworthy NoC-based System-on-Chip (SoC) architectures. While there are various threats that exploit on-chip communication vulnerabilities, eavesdropping attacks via malicious nodes are among the most common and stealthy. Although encryption can secure packets for confidentiality, it may introduce unacceptable overhead for resource-constrained SoCs. In this paper, we propose a lightweight confidentiality-preserving framework that utilizes a quasi-group based All-Or-Nothing Transform (AONT) combined with secure multi-path routing in NoC-based SoCs. By applying AONT to each packet and distributing its transformed blocks across multiple non-overlapping routes, we ensure that no intermediate router can reconstruct the original data without all blocks. Extensive experimental evaluation demonstrates that our method effectively mitigates eavesdropping attacks by malicious routers with negligible area and performance overhead. Our results also reveal that AONT-based multi-path routing can provide 7.3x reduction in overhead compared to traditional encryption for securing against eavesdropping attacks.",
+    "title_zh": "面向片上网络架构的基于全有或全无变换的安全多路径路由",
+    "abstract_zh": "确保片上网络（NoC）的安全性对于设计可信的基于NoC的片上系统（SoC）架构至关重要。尽管存在多种利用片上通信漏洞的威胁，但通过恶意节点实施的窃听攻击是最常见且最隐蔽的类型之一。虽然加密技术可以保障数据包的机密性，但对于资源受限的SoC而言，其可能带来难以接受的开销。本文提出了一种轻量级的机密性保护框架，该框架在基于NoC的SoC中结合了基于拟群的“全或无”变换（AONT）与安全多路径路由机制。通过对每个数据包应用AONT，并将其变换后的数据块分发到多个互不重叠的传输路径上，我们确保了任何中间路由器在未获得全部数据块的情况下均无法重构原始数据。大量实验评估结果表明，所提出的方法能够有效抵御恶意路由器的窃听攻击，同时仅引入可忽略的面积和性能开销。此外，实验结果还显示，与传统的加密方法相比，基于AONT的多路径路由方案在防御窃听攻击时可将开销降低7.3倍。"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "Verifying Floating-Point Programs in Stainless",
+    "authors": "Andrea Gilot, Axel Bergström, Eva Darulova",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.14059v1",
+    "source": "arXiv",
+    "abstract": "We extend the Stainless deductive verifier with floating-point support, providing the first automated verification support for floating-point numbers for a subset of Scala that includes polymorphism, recursion and higher-order functions. We follow the recent approach in the KeY verifier to axiomatise reasoning about mathematical functions, but go further by supporting all functions from Scala's math API, and by verifying the correctness of the axioms against the actual implementation in Stainless itself. We validate Stainless' floating-point support on a new set of benchmarks sampled from real-world code from GitHub, showing that it can verify specifications about, e.g., ranges of output or absence of special values for most supported functions, or produce counter-examples when the specifications do not hold.",
+    "title_zh": "在Stainless中验证浮点程序",
+    "abstract_zh": "我们将Stainless演绎验证器扩展以支持浮点数，从而为包含多态性、递归和高阶函数的Scala子集提供了首个针对浮点数的自动化验证支持。我们采用了KeY验证器中关于数学函数推理的最新方法，但进一步实现了对Scala数学API中所有函数的支持，并在Stainless自身内部针对实际实现验证了这些公理的正确性。我们在一组从GitHub真实代码中采样的新基准测试上验证了Stainless的浮点数支持能力，结果表明，它能够验证大多数受支持函数的规范性质，例如输出范围或特殊值的缺失；当规范不成立时，还能生成反例。"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "Differentiable Logic Synthesis: Spectral Coefficient Selection via Sinkhorn-Constrained Composition",
+    "authors": "Gorgi Pavlov",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.13953v1",
+    "source": "arXiv",
+    "abstract": "Learning precise Boolean logic via gradient descent remains challenging: neural networks typically converge to \"fuzzy\" approximations that degrade under quantization. We introduce Hierarchical Spectral Composition, a differentiable architecture that selects spectral coefficients from a frozen Boolean Fourier basis and composes them via Sinkhorn-constrained routing with column-sign modulation. Our approach draws on recent insights from Manifold-Constrained Hyper-Connections (mHC), which demonstrated that projecting routing matrices onto the Birkhoff polytope preserves identity mappings and stabilizes large-scale training. We adapt this framework to logic synthesis, adding column-sign modulation to enable Boolean negation -- a capability absent in standard doubly stochastic routing. We validate our approach across four phases of increasing complexity: (1) For n=2 (16 Boolean operations over 4-dim basis), gradient descent achieves 100% accuracy with zero routing drift and zero-loss quantization to ternary masks. (2) For n=3 (10 three-variable operations), gradient descent achieves 76% accuracy, but exhaustive enumeration over 3^8 = 6561 configurations proves that optimal ternary masks exist for all operations (100% accuracy, 39% sparsity). (3) For n=4 (10 four-variable operations over 16-dim basis), spectral synthesis -- combining exact Walsh-Hadamard coefficients, ternary quantization, and MCMC refinement with parallel tempering -- achieves 100% accuracy on all operations. This progression establishes (a) that ternary polynomial threshold representations exist for all tested functions, and (b) that finding them requires methods beyond pure gradient descent as dimensionality grows. All operations enable single-cycle combinational logic inference at 10,959 MOps/s on GPU, demonstrating viability for hardware-efficient neuro-symbolic logic synthesis.",
+    "title_zh": "可微逻辑综合：基于Sinkhorn约束组合的谱系数选择",
+    "abstract_zh": "通过梯度下降学习精确的布尔逻辑仍然具有挑战性：神经网络通常会收敛到“模糊”的近似结果，而在量化后性能显著下降。我们提出了**分层谱组合**（Hierarchical Spectral Composition, HSC），这是一种可微架构，它从一个固定的布尔傅里叶基中选择谱系数，并通过带有列符号调制的Sinkhorn约束路由机制进行组合。我们的方法借鉴了**流形约束超连接**（Manifold-Constrained Hyper-Connections, mHC）的最新成果——该研究证明，将路由矩阵投影到Birkhoff多面体上可以保持恒等映射并稳定大规模训练过程。我们将这一框架应用于逻辑综合，并引入**列符号调制**以实现布尔否定功能，这是标准双随机路由所不具备的能力。\n\n我们在四个逐步增加复杂度的阶段中验证了该方法的有效性：\n\n（1）对于 $n=2$ 的情况（在4维基上共16种布尔操作），梯度下降实现了100%的准确率，且路由无漂移、量化为三值掩码后损失为零；\n\n（2）对于 $n=3$（10个三变量操作），梯度下降达到76%的准确率；但通过对 $3^8 = 6561$ 种配置进行穷举搜索，我们证明所有操作都存在最优的三值掩码（可达100%准确率，稀疏度达39%）；\n\n（3）对于 $n=4$（在16维基上处理10个四变量操作），我们采用**谱合成方法**——结合精确的沃尔什-哈达玛（Walsh-Hadamard）系数、三值量化以及带并行回火的MCMC优化——成功实现了所有操作100%的准确率。\n\n这一进展表明：(a) 所有测试过的函数均存在三值多项式阈值表示；(b) 随着维度增长，仅靠纯梯度下降不足以找到这些表示，需要更强大的搜索或优化方法。\n\n所有操作均可在GPU上以单周期组合逻辑推理实现高达10,959 MOps/s的吞吐量，展示了该方法在硬件高效的神经-符号逻辑综合中的实际可行性。"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "CodeContests-O: Powering LLMs via Feedback-Driven Iterative Test Case Generation",
+    "authors": "Jianfeng Cai, Jinhua Zhu, Ruopei Sun, Kangwen Zhao, Dongyun Xue, Mingxiao Feng, Wengang Zhou, Houqiang Li",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.13682v1",
+    "source": "arXiv",
+    "abstract": "The rise of reasoning models necessitates large-scale verifiable data, for which programming tasks serve as an ideal source. However, while competitive programming platforms provide abundant problems and solutions, high-quality test cases for verification remain scarce. Existing approaches attempt to synthesize test cases using Large Language Models (LLMs), but rely solely on the model's intrinsic generation capabilities without external feedback, frequently resulting in insufficiently diverse cases. To address this limitation, we propose a $\\textbf{Feedback-Driven Iterative Framework}$ for comprehensive test case construction. Specifically, our method leverages the LLM to generate initial test cases, executes them against known correct and incorrect solutions, and utilizes the failed results as feedback to guide the LLM in refining the test cases toward high fidelity and discriminability. We then apply this method to the CodeContests dataset to construct an optimized high-quality derivative, $\\textbf{CodeContests-O}$. Evaluating against the entire pool of solutions ($1.1 \\times 10^7$ in total), our dataset achieves an average True Positive Rate (TPR) of $89.37\\%$ and True Negative Rate (TNR) of $90.89\\%$, significantly outperforming the CodeContests and CodeContests+ by margins of $4.32\\%$ and $9.37\\%$, respectively. Furthermore, fine-tuning the Qwen2.5-7B model on CodeContests-O results in a $9.52\\%$ improvement on LiveCodeBench (Pass@1). Experiments demonstrate the effectiveness of our framework and the quality of CodeContests-O. To support reproducibility and facilitate future research, we release the $\\href{https://github.com/cai-jianfeng/CodeContests-O}{code}$ and $\\href{https://huggingface.co/datasets/caijanfeng/CodeContests-O}{dataset}$.",
+    "title_zh": "CodeContests-O：通过反馈驱动的迭代测试用例生成为大语言模型赋能",
+    "abstract_zh": "推理模型的兴起对大规模可验证数据提出了迫切需求，而编程任务恰好为这类数据提供了理想的来源。然而，尽管各类竞赛编程平台提供了大量题目和解答，可用于验证的高质量测试用例仍然十分稀缺。现有方法尝试利用大语言模型（LLM）合成测试用例，但这些方法仅依赖模型自身的生成能力，缺乏外部反馈机制，导致生成的测试用例多样性不足。为解决这一问题，我们提出了一种**基于反馈驱动的迭代框架**，以构建全面且高质量的测试用例。具体而言，该方法首先利用大语言模型生成初始测试用例，然后将其在已知正确与错误的程序解法上执行，并将执行失败的结果作为反馈信息，指导大语言模型不断优化测试用例，从而提升其准确性与区分能力。我们将该方法应用于CodeContests数据集，构建了一个优化的高质量衍生数据集——**CodeContests-O**。在涵盖全部1.1×10⁷个解法的评估中，我们的数据集实现了89.37%的平均真阳性率（TPR）和90.89%的真阴性率（TNR），分别显著优于原始CodeContests和CodeContests+数据集4.32%和9.37%。此外，在CodeContests-O上对Qwen2.5-7B模型进行微调后，其在LiveCodeBench上的Pass@1指标提升了9.52%。实验结果充分验证了我们所提框架的有效性以及CodeContests-O数据集的高质量。为支持研究的可复现性并推动后续工作，我们已公开发布[代码](https://github.com/cai-jianfeng/CodeContests-O)和[数据集](https://huggingface.co/datasets/caijanfeng/CodeContests-O)。"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "HardSecBench: Benchmarking the Security Awareness of LLMs for Hardware Code Generation",
+    "authors": "Qirui Chen, Jingxian Shuai, Shuangwu Chen, Shenghao Ye, Zijian Wen, Xufei Su, Jie Jin, Jiangming Li, Jun Chen, Xiaobin Tan, Jian Yang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.13864v1",
+    "source": "arXiv",
+    "abstract": "Large language models (LLMs) are being increasingly integrated into practical hardware and firmware development pipelines for code generation. Existing studies have primarily focused on evaluating the functional correctness of LLM-generated code, yet paid limited attention to its security issues. However, LLM-generated code that appears functionally sound may embed security flaws which could induce catastrophic damages after deployment. This critical research gap motivates us to design a benchmark for assessing security awareness under realistic specifications. In this work, we introduce HardSecBench, a benchmark with 924 tasks spanning Verilog Register Transfer Level (RTL) and firmware-level C, covering 76 hardware-relevant Common Weakness Enumeration (CWE) entries. Each task includes a structured specification, a secure reference implementation, and executable tests. To automate artifact synthesis, we propose a multi-agent pipeline that decouples synthesis from verification and grounds evaluation in execution evidence, enabling reliable evaluation. Using HardSecBench, we evaluate a range of LLMs on hardware and firmware code generation and find that models often satisfy functional requirements while still leaving security risks. We also find that security results vary with prompting. These findings highlight pressing challenges and offer actionable insights for future advancements in LLM-assisted hardware design. Our data and code will be released soon.",
+    "title_zh": "HardSecBench：面向硬件代码生成的大型语言模型安全意识评测基准",
+    "abstract_zh": "大型语言模型（LLM）正越来越多地被集成到实际的硬件和固件开发流程中用于代码生成。现有研究主要集中在评估LLM生成代码的功能正确性，而对其安全性问题关注有限。然而，看似功能正确的LLM生成代码可能隐藏安全漏洞，一旦部署可能导致灾难性后果。这一关键的研究空白促使我们设计一个在真实规格下评估安全意识的基准。本文提出了HardSecBench，这是一个包含924个任务的基准测试集，涵盖Verilog寄存器传输级（RTL）和固件级C语言，涉及76个与硬件相关的通用缺陷枚举（CWE）条目。每个任务均包含结构化规格说明、安全的参考实现以及可执行的测试用例。为实现自动化构件生成，我们提出了一种多智能体流水线方法，将生成与验证过程解耦，并基于执行证据进行评估，从而实现可靠评测。利用HardSecBench，我们对多种LLM在硬件与固件代码生成方面进行了评估，发现这些模型虽常满足功能需求，但仍遗留安全风险。此外，我们还发现安全表现受提示方式的影响。这些结果凸显了当前面临的紧迫挑战，并为未来LLM辅助硬件设计的发展提供了可操作的洞见。我们的数据和代码将很快公开发布。"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "A flexible language model-assisted electronic design automation framework",
+    "authors": "Cristian Sestito, Panagiota Kontou, Pratibha Verma, Atish Dixit, Alexandros D. Keros, Michael O'Boyle, Christos-Savvas Bouganis, Themis Prodromakis",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.14098v1",
+    "source": "arXiv",
+    "abstract": "Large language models (LLMs) are transforming electronic design automation (EDA) by enhancing design stages such as schematic design, simulation, netlist synthesis, and place-and-route. Existing methods primarily focus these optimisations within isolated open-source EDA tools and often lack the flexibility to handle multiple domains, such as analogue, digital, and radio-frequency design. In contrast, modern systems require to interface with commercial EDA environments, adhere to tool-specific operation rules, and incorporate feedback from design outcomes while supporting diverse design flows. We propose a versatile framework that uses LLMs to generate files compatible with commercial EDA tools and optimise designs using power-performance-area reports. This is accomplished by guiding the LLMs with tool constraints and feedback from design outputs to meet tool requirements and user specifications. Case studies on operational transconductance amplifiers, microstrip patch antennas, and FPGA circuits show that the framework is effective as an EDA-aware assistant, handling diverse design challenges reliably.",
+    "title_zh": "一种灵活的语言模型辅助电子设计自动化框架",
+    "abstract_zh": "大型语言模型（LLM）正在通过增强原理图设计、仿真、网表综合以及布局布线等设计环节，变革电子设计自动化（EDA）。现有方法主要将这些优化局限于孤立的开源EDA工具内，通常缺乏灵活性以应对模拟、数字和射频等多种设计领域。相比之下，现代系统需要与商业EDA环境交互，遵循特定工具的操作规则，并结合设计结果的反馈，同时支持多样化的设计流程。为此，我们提出了一种通用框架，利用LLM生成兼容商业EDA工具的文件，并基于功耗-性能-面积（PPA）报告来优化设计。该框架通过引入工具约束条件以及设计输出的反馈信息，引导LLM满足工具要求和用户设定。针对运算跨导放大器、微带贴片天线和FPGA电路的案例研究表明，该框架可作为具备EDA感知能力的智能助手，可靠地应对多样化的设计挑战。"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "From RTL to Prompt Coding: Empowering the Next Generation of Chip Designers through LLMs",
+    "authors": "Lukas Krupp, Matthew Venn, Norbert Wehn",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.13815v1",
+    "source": "arXiv",
+    "abstract": "This paper presents an LLM-based learning platform for chip design education, aiming to make chip design accessible to beginners without overwhelming them with technical complexity. It represents the first educational platform that assists learners holistically across both frontend and backend design. The proposed approach integrates an LLM-based chat agent into a browser-based workflow built upon the Tiny Tapeout ecosystem. The workflow guides users from an initial design idea through RTL code generation to a tapeout-ready chip. To evaluate the concept, a case study was conducted with 18 high-school students. Within a 90-minute session they developed eight functional VGA chip designs in a 130 nm technology. Despite having no prior experience in chip design, all groups successfully implemented tapeout-ready projects. The results demonstrate the feasibility and educational impact of LLM-assisted chip design, highlighting its potential to attract and inspire early learners and significantly broaden the target audience for the field.",
+    "title_zh": "从RTL到提示编码：通过大语言模型赋能下一代芯片设计师",
+    "abstract_zh": "本文提出了一种基于大语言模型（LLM）的芯片设计教育学习平台，旨在让初学者无需面对复杂的技术细节也能轻松入门芯片设计。该平台是首个能够全面辅助学习者完成前端与后端设计全过程的教育平台。所提出的方法将基于LLM的聊天代理集成到一个基于浏览器的工作流程中，该流程建立在Tiny Tapeout生态系统之上，可引导用户从最初的设计构想，逐步完成RTL代码生成，直至实现可流片的芯片设计。为验证该理念，研究团队对18名高中生开展了案例研究。在90分钟的课程内，这些学生共完成了八个功能完整的VGA芯片设计，采用130纳米工艺技术。尽管所有参与者此前均无任何芯片设计经验，但各小组均成功实现了可流片的设计项目。实验结果表明，借助LLM辅助的芯片设计在教育上具有可行性与显著影响，展现出吸引和激励初学者、大幅拓展该领域受众群体的巨大潜力。"
+  }
+]
