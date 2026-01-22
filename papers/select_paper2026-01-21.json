@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-01-21",
+    "title": "How to Verify a Turing Machine with Dafny",
+    "authors": "Edgar F. A. Lederer",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.15230v1",
+    "source": "arXiv",
+    "abstract": "This paper describes the formal verification of two Turing machines using the program verifier Dafny. Both machines are deciders, so we prove total correctness. They are typical first examples of Turing machines used in any course of Theoretical Computer Science; in fact, the second machine is literally taken from a relevant textbook. Usually, the correctness of such machines is made plausible by some informal explanations of their basic ideas, augmented with a few sample executions, but neither by rigorous mathematical nor mechanized formal proof. No wonder: The invariants (and variants) required for such proofs are big artifacts, peppered with overpowering technical details. Finding and checking these artifacts without mechanical support is practically impossible, and such support is only available since recent times. But nowadays, just because of these technicalities, with such subjects under proof a program verifier can really show off and demonstrate its capabilities.",
+    "title_zh": "如何使用 Dafny 验证图灵机",
+    "abstract_zh": "本文描述了使用程序验证工具Dafny对两台图灵机进行形式化验证的过程。这两台图灵机均为判定器，因此我们证明了它们的完全正确性。它们是理论计算机科学课程中典型的图灵机教学示例；事实上，第二台机器直接取自一本重要的教科书。通常情况下，这类机器的正确性仅通过一些非正式解释说明其基本思路，并辅以若干样例执行来加以佐证，而缺乏严格的数学证明或机械化形式化证明。这并不奇怪：此类证明所需的循环不变式（以及变体）规模庞大，充斥着大量繁琐的技术细节。在没有机械辅助的情况下，发现并检验这些复杂结构几乎是不可能的，而这种支持直到最近才成为现实。然而如今，正因为这些技术上的复杂性，使用程序验证工具来处理此类问题恰恰能够充分展示其能力与优势。"
+  },
+  {
+    "date": "2026-01-21",
+    "title": "Specifying and Verifying RDMA Synchronisation (Extended Version)",
+    "authors": "Guillaume Ambal, Max Stupple, Brijesh Dongol, Azalea Raad",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.14642v1",
+    "source": "arXiv",
+    "abstract": "Remote direct memory access (RDMA) allows a machine to directly read from and write to the memory of remote machine, enabling high-throughput, low-latency data transfer. Ensuring correctness of RDMA programs has only recently become possible with the formalisation of $\\text{RDMA}^\\text{TSO}$ semantics (describing the behaviour of RDMA networking over a TSO CPU). However, this semantics currently lacks a formalisation of remote synchronisation, meaning that the implementations of common abstractions such as locks cannot be verified. In this paper, we close this gap by presenting $\\text{RDMA}^{\\text{TSO}}_{\\text{RMW}}$, the first semantics for remote `read-modify-write' (RMW) instructions over TSO. It turns out that remote RMW operations are weak and only ensure atomicity against other remote RMWs. We therefore build a set of composable synchronisation abstractions starting with the $\\text{RDMA}^{\\text{WAIT}}_{\\text{RMW}}$ library. Underpinned by $\\text{RDMA}^{\\text{WAIT}}_{\\text{RMW}}$, we then specify, implement and verify three classes of remote locks that are suitable for different scenarios. Additionally, we develop the notion of a strong RDMA model, $\\text{RDMA}^{\\text{SC}}_{\\text{RMW}}$, which is akin to sequential consistency in shared memory architectures. Our libraries are built to be compatible with an existing set of high-performance libraries called LOCO, which ensures compositionality and verifiability.",
+    "title_zh": "指定与验证RDMA同步（扩展版本）",
+    "abstract_zh": "远程直接内存访问（RDMA）允许一台机器直接读取和写入远程机器的内存，从而实现高吞吐量、低延迟的数据传输。随着RDMA在TSO架构CPU上的形式化语义$\\text{RDMA}^\\text{TSO}$的提出，RDMA程序的正确性验证才刚刚成为可能。然而，当前的语义尚未包含对远程同步机制的形式化描述，导致诸如锁等常见抽象的实现无法被验证。本文填补了这一空白，提出了$\\text{RDMA}^{\\text{TSO}}_{\\text{RMW}}$——首个在TSO架构下支持远程“读-改-写”（RMW）指令的形式化语义。我们发现，远程RMW操作是较弱的，仅能保证对其他远程RMW操作的原子性。基于此，我们从构建$\\text{RDMA}^{\\text{WAIT}}_{\\text{RMW}}$库开始，建立了一套可组合的同步抽象。依托于$\\text{RDMA}^{\\text{WAIT}}_{\\text{RMW}}$，我们进一步设计、实现并验证了三类适用于不同场景的远程锁。此外，我们还提出了强RDMA模型$\\text{RDMA}^{\\text{SC}}_{\\text{RMW}}$的概念，其类似于共享内存架构中的顺序一致性（sequential consistency）。我们的库设计兼容现有的高性能库集合LOCO，从而确保了组合性和可验证性。"
+  },
+  {
+    "date": "2026-01-21",
+    "title": "SmartOracle -- An Agentic Approach to Mitigate Noise in Differential Oracles",
+    "authors": "Srinath Srinivasan, Tim Menzies, Marcelo D'Amorim",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.15074v1",
+    "source": "arXiv",
+    "abstract": "Differential fuzzers detect bugs by executing identical inputs across distinct implementations of the same specification, such as JavaScript interpreters. Validating the outputs requires an oracle and for differential testing of JavaScript, these are constructed manually, making them expensive, time-consuming, and prone to false positives. Worse, when the specification evolves, this manual effort must be repeated. Inspired by the success of agentic systems in other SE domains, this paper introduces SmartOracle. SmartOracle decomposes the manual triage workflow into specialized Large Language Model (LLM) sub-agents. These agents synthesize independently gathered evidence from terminal runs and targeted specification queries to reach a final verdict. For historical benchmarks, SmartOracle achieves 0.84 recall with an 18% false positive rate. Compared to a sequential Gemini 2.5 Pro baseline, it improves triage accuracy while reducing analysis time by 4$\\times$ and API costs by 10$\\times$. In active fuzzing campaigns, SmartOracle successfully identified and reported previously unknown specification-level issues across major engines, including bugs in V8, JavaScriptCore, and GraalJS. The success of SmartOracle's agentic architecture on Javascript suggests it might be useful other software systems- a research direction we will explore in future work.",
+    "title_zh": "SmartOracle——一种减轻微分预言中噪声的智能体方法",
+    "abstract_zh": "差分模糊测试通过在相同规范的不同实现（如JavaScript解释器）上执行相同的输入来检测缺陷。验证输出需要一个预言机（oracle），而对于JavaScript的差分测试，这些预言机通常是手动构建的，导致成本高昂、耗时且容易产生误报。更糟糕的是，当规范发生变更时，这些手动工作必须重复进行。受智能代理系统在其他软件工程领域成功应用的启发，本文提出了SmartOracle。SmartOracle将手动分类流程分解为多个专门的大型语言模型（LLM）子代理，这些代理综合来自终端运行结果和针对规范查询所独立收集的证据，最终得出判断结论。在历史基准测试中，SmartOracle实现了0.84的召回率和18%的误报率。与顺序调用Gemini 2.5 Pro的基线方法相比，它在提升分类准确性的同时，将分析时间缩短了4倍，API成本降低了10倍。在实际的模糊测试活动中，SmartOracle成功识别并报告了主流引擎中存在的此前未知的规范级问题，包括V8、JavaScriptCore和GraalJS中的漏洞。SmartOracle在JavaScript领域所展现的代理式架构的成功表明，该方法可能也适用于其他软件系统，这将是未来研究探索的方向。"
+  },
+  {
+    "date": "2026-1-21",
+    "title": "Enhancing Functional Coverage Closure in Network-On-Chip Systems with Reinforcement Learning",
+    "authors": "N. Vamshi Krishna, Rachana Chintalapati, Paresh Saxena, J. Soumya",
+    "publish": "IEEE Embedded Systems Letters",
+    "url": "https://doi.org/10.1109/les.2026.3656758",
+    "source": "IEEE",
+    "abstract": "As the demand for designing and validating complex technologies increases, the need for computationally efficient methodologies becomes crucial. Network-On-Chip (NoC) verification, with its vast architecture of numerous routers and links, presents significant challenges when performed using traditional methods, delaying the entry of products into the market. This paper presents a streamlined and lightweight solution that uses Reinforcement Learning to automate test vector generation. By optimizing the verification process, this approach significantly speeds up coverage closure, ensuring thorough validation and improving overall efficiency.",
+    "title_zh": "利用强化学习增强片上网络系统中的功能覆盖率收敛",
+    "abstract_zh": "随着对设计和验证复杂技术需求的不断增长，计算效率高的方法变得至关重要。采用传统方法进行网络芯片（NoC）验证时，由于其包含大量路由器和链路的庞大架构，面临巨大挑战，导致产品上市时间延迟。本文提出了一种简洁轻量的解决方案，利用强化学习实现测试向量生成的自动化。通过优化验证流程，该方法显著加快了覆盖率收敛速度，确保了充分的验证，并提高了整体效率。"
+  },
+  {
+    "date": "2026-1-21",
+    "title": "Design and Implementation of a Multi-Protocol Converter Supporting SPI, I2C, and UART Interfaces",
+    "authors": "Sneha Sai Raju, Shuo Wu, Nan Wang",
+    "publish": "2025 8th International Conference on Information Communication and Signal Processing (ICICSP)",
+    "url": "https://doi.org/10.1109/icicsp66564.2025.11338395",
+    "source": "IEEE",
+    "abstract": "This paper presents the design and ASIC implementation of a Multi-Protocol Conversion Unit (MPCU) enabling seamless data transfer across SPI, I2C, and UART communication ports. These protocols have incompatible signaling mechanisms, data formats, and timing models, making real-time conversion challenging in embedded systems. The proposed MPCU, implemented using Verilog HDL and synthesized using industry-standard tools, supports N-byte transfers, dynamic protocol selection using a Conversion Select (COSE) signal, and handles both single- and multi-byte transmission. The design achieves 99.3% ATPG test coverage and is optimized for low power, timing slack, and compact area. This real-time hardware-based protocol bridge eliminates the need for software conversion, making it suitable for SoC, IoT, and FPGA-based embedded applications.",
+    "title_zh": "支持SPI、I2C和UART接口的多协议转换器的设计与实现",
+    "abstract_zh": "本文提出了一种多协议转换单元（MPCU）的设计及其专用集成电路（ASIC）实现，该单元可实现SPI、I2C和UART通信端口之间的无缝数据传输。由于这些协议在信号机制、数据格式和时序模型上互不兼容，因此在嵌入式系统中实现实时转换具有挑战性。所提出的MPCU采用Verilog HDL设计，并利用业界标准工具进行综合，支持N字节数据传输，通过转换选择（COSE）信号实现动态协议切换，并能够处理单字节和多字节传输。该设计实现了99.3%的ATPG测试覆盖率，在功耗、时序裕量和芯片面积方面均经过优化。这种基于硬件的实时协议桥接器消除了软件转换的需求，适用于SoC、物联网（IoT）以及基于FPGA的嵌入式应用。"
+  }
+]
