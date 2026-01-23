@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-01-22",
+    "title": "CTL* Model Checking on Infinite Families of Finite-State Labeled Transition Systems (Technical Report)",
+    "authors": "Roberto Pettinau, Christoph Matheja",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.15756v1",
+    "source": "arXiv",
+    "abstract": "We study model checking algorithms for infinite families of finite-state labeled transition systems against temporal properties written in CTL*. Such families arise, for example, as models of highly configurable systems or software product lines. We model families using context-free graph grammars. We then develop a state labeling algorithm that works compositionally on the grammar's production rules with limited information about the context in which the rule is applied. The result is a graph grammar modeling the same family but with extended labels. We leverage this grammar to decide whether all, some, or (in)finitely many members of a family satisfy a given temporal property. We have implemented our algorithms and present early experiments.",
+    "title_zh": "无限有限状态标记迁移系统的CTL*模型检验（技术报告）",
+    "abstract_zh": "我们研究了针对用CTL*编写的时态属性，对无限族有限状态标记迁移系统进行模型检测的算法。这类族例如可作为高度可配置系统或软件产品线的模型。我们使用上下文无关图语法来对这些族进行建模。然后，我们开发了一种状态标注算法，该算法在语法的产生式规则上组合式地工作，并仅利用关于规则应用上下文的有限信息。其结果是一个建模相同族但具有扩展标签的图语法。我们利用此语法来判定一个族中的所有成员、部分成员或（无限）多个成员是否满足给定的时态属性。我们已实现了这些算法，并展示了初步的实验结果。"
+  },
+  {
+    "date": "2026-01-22",
+    "title": "FirmReBugger: A Benchmark Framework for Monolithic Firmware Fuzzers",
+    "authors": "Mathew Duong, Michael Chesser, Guy Farrelly, Surya Nepal, Damith C. Ranasinghe",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.15774v1",
+    "source": "arXiv",
+    "abstract": "Monolithic Firmware is widespread. Unsurprisingly, fuzz testing firmware is an active research field with new advances addressing the unique challenges in the domain. However, understanding and evaluating improvements by deriving metrics such as code coverage and unique crashes are problematic, leading to a desire for a reliable bug-based benchmark. To address the need, we design and build FirmReBugger, a holistic framework for fairly assessing monolithic firmware fuzzers with a realistic, diverse, bug-based benchmark. FirmReBugger proposes using bug oracles--C syntax expressions of bug descriptors--with an interpreter to automate analysis and accurately report on bugs discovered, discriminating between states of detected, triggered, reached and not reached. Importantly, our idea of benchmarking does not modify the target binary and simply replays fuzzing seeds to isolate the benchmark implementation from the fuzzer while providing a simple means to extend with new bug oracles. Further, analyzing fuzzing roadblocks, we created FirmBench, a set of diverse, real-world binary targets with 313 software bug oracles. Incorporating our analysis of roadblocks challenging monolithic firmware fuzzing, the bench provides for rapid evaluation of future advances. We implement FirmReBugger in a FuzzBench-for-Firmware type service and use FirmBench to evaluate 9 state-of-the art monolithic firmware fuzzers in the style of a reproducibility study, using a 10 CPU-year effort, to report our findings.",
+    "title_zh": "FirmReBugger：一个针对单片固件模糊测试工具的基准框架",
+    "abstract_zh": "单片固件（Monolithic Firmware）应用广泛，因此对固件进行模糊测试（fuzz testing）成为一个活跃的研究领域，不断有新的进展来应对该领域的独特挑战。然而，通过代码覆盖率和唯一崩溃等指标来理解和评估改进效果仍存在困难，这促使人们迫切需要一个基于真实缺陷的可靠基准测试方案。为满足这一需求，我们设计并构建了FirmReBugger——一个全面的框架，用于通过真实、多样化且基于缺陷的基准，公平地评估单片固件模糊测试工具。\n\nFirmReBugger提出使用“缺陷预言器”（bug oracles），即以C语言语法表达的缺陷描述，并结合解释器实现自动化分析，精确报告发现的缺陷，并区分缺陷所处的状态：已检测（detected）、已触发（triggered）、已到达（reached）和未到达（not reached）。重要的是，我们的基准测试方法无需修改目标二进制文件，仅通过重放模糊测试种子即可将基准实现与模糊测试工具本身隔离，同时提供简便的扩展机制以支持新的缺陷预言器。\n\n此外，在分析模糊测试过程中的阻碍因素后，我们构建了FirmBench——一个包含313个软件缺陷预言器的多样化真实世界二进制目标数据集。FirmBench融合了我们对单片固件模糊测试难点的深入分析，可快速评估未来的技术进步。我们将FirmReBugger实现为一种类似“FuzzBench-for-Firmware”的服务，并采用相当于10 CPU年的计算资源，以可复现性研究的方式，利用FirmBench对9种最先进的单片固件模糊测试工具进行了系统评估，并报告了相关结果。"
+  },
+  {
+    "date": "2026-1-22",
+    "title": "Explainable AI-Guided Genetic Algorithms for Efficient Software Automatic Tuning",
+    "authors": "Toshinobu Katayama, Masatoshi Kawai, Yoichi Shimomura, Keichi Takahashi, Hiroyuki Takizawa",
+    "publish": "Proceedings of the Supercomputing Asia and International Conference on High Performance Computing in Asia Pacific Region Workshops",
+    "url": "https://doi.org/10.1145/3784828.3785252",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "可解释人工智能引导的遗传算法用于高效软件自动调优",
+    "abstract_zh": "None"
+  }
+]
