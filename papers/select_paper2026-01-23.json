@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-1-23",
+    "title": "Bridging Formal Methods and Software Engineering Through a Tagless-Final Embedded DSL for Program Semantics",
+    "authors": "Rohit Sanjay Puranik",
+    "publish": "2025 IEEE 2nd International Conference on Information Technology, Electronics and Intelligent Communication Systems (ICITEICS)",
+    "url": "https://doi.org/10.1109/iciteics64870.2025.11341094",
+    "source": "IEEE",
+    "abstract": "This paper introduces a pedagogical and practical approach to bridging formal methods and mainstream software engineering through a tagless-final Embedded Domain-Specific Language (eDSL) for executable program semantics, implemented in Scala 3. We detail the construction of a richly-typed eDSL that supports user-defined data structures, pre/post-conditions, and recursion, facilitating denotational semantics that are directly executable and type-safe. Our architecture includes two distinct Abstract Syntax Trees (ASTs)-a GADT for semantic reflection and an ADT optimized for code generation-enabling both interpretation and artifact synthesis (e.g., Scala source code). We also present a type reconstruction mechanism aligned with Scala's compiler logic, enhancing semantic fidelity. By minimizing reliance on macros and exotic metaprogramming, our design democratizes access to formal specification techniques for everyday developers. The approach demonstrates scalability via a blockchain ledger use case but is generalizable across domains, offering a roadmap for future extensions in theorem proving, testing, and code synthesis.",
+    "title_zh": "通过面向程序语义的无标签终态嵌入式领域特定语言实现形式化方法与软件工程的融合",
+    "abstract_zh": "本文提出了一种教学与实践相结合的方法，通过在 Scala 3 中实现一种无标签终结式（tagless-final）的嵌入式领域特定语言（eDSL），来弥合形式化方法与主流软件工程之间的鸿沟。我们详细阐述了一种类型丰富的 eDSL 的构建过程，该语言支持用户自定义数据结构、前置/后置条件以及递归，从而实现可直接执行且类型安全的指称语义。我们的架构包含两种不同的抽象语法树（AST）：一种是用于语义反射的广义代数数据类型（GADT），另一种是为代码生成优化的代数数据类型（ADT），从而同时支持解释执行和工件合成（例如生成 Scala 源代码）。我们还提出了一种与 Scala 编译器逻辑一致的类型重建机制，以增强语义保真度。通过尽量减少对宏和复杂元编程技术的依赖，我们的设计使日常开发者也能轻松使用形式化规约技术。该方法通过区块链账本的应用案例验证了其可扩展性，但其适用范围具有通用性，为定理证明、测试和代码生成等方向的未来扩展提供了可行路线图。"
+  },
+  {
+    "date": "2026-1-23",
+    "title": "A Fire Emergency Light System-on-Chip Design Methodology",
+    "authors": "Yong Pan, Jing Xu, Ruifen Li",
+    "publish": "2025 IEEE 3rd International Conference on Control, Electronics and Computer Technology (ICCECT)",
+    "url": "https://doi.org/10.1109/iccect64621.2025.11339747",
+    "source": "IEEE",
+    "abstract": "To address the issues of low integration and poor reliability in fire emergency lights designed using discrete components or simple control chips, this paper proposes a design methodology for high-performance, high-reliability, and highly integrated fire emergency lights based on the System-on-Chip (SoC) concept. By combining C language programming with a co-design approach of digital circuits, the design achieves functions such as main circuit monitoring, battery charge/discharge protection, and fault alarm indication. The main working characteristics of the fire emergency light were simulated using software, and the test results showed that the design functions were consistent with the software simulation results, verifying the correctness of the SoC design methodology for fire emergency lights.",
+    "title_zh": "一种消防应急照明系统芯片设计方法",
+    "abstract_zh": "针对采用分立元件或简单控制芯片设计的消防应急灯存在的集成度低、可靠性差等问题，本文提出了一种基于片上系统（SoC）理念的高性能、高可靠、高集成消防应急灯的设计方法。通过结合C语言编程与数字电路协同设计的方法，实现了主电路监测、电池充放电保护及故障报警指示等功能。利用软件对消防应急灯的主要工作特性进行了仿真，并通过测试验证了设计功能与软件仿真结果一致，证明了该消防应急灯SoC设计方法的正确性。"
+  },
+  {
+    "date": "2026-1-23",
+    "title": "Wireless Sensor Network Fault Detection Using A Random Forest Classifier Implemented on FPGA",
+    "authors": "N. Haritha, B.R. Tapas Bapu",
+    "publish": "2025 10th International Conference on Smart Structures and Systems (ICSSS)",
+    "url": "https://doi.org/10.1109/icsss66939.2025.11346419",
+    "source": "IEEE",
+    "abstract": "Fault detection in Wireless Sensor Networks areindispensable in maintaining reliable conveyance and network performance. Techniques often rely on manual diagnosis or singlemodel approaches, which suffer from lower accuracy and delayed responses, especially in large-scale or real-time sensor environments. These limitations can lead to undetected node failures, data loss, and increased maintenance costs. To overcome these challenges, this work presents a composite Machine Learning-based Fault Detection System that integrates the predictive capabilities of Random Forest (RF), Support Vector Machine (SVM), and XGBoost (XGB) models. The hybrid ensemble effectively analyzes sensor and network parameters such as battery level, temperature, humidity, signal strength, and packet loss rate to detect abnormal node behavior with high accuracy. Once a fault is detected, classification result is transmitted to an FPGA module (XC9572XL), which controls visual alerts using ON/OFF indicator LED to signify node health status. Additionally, Keywords—WSN, FPGA, fault diagnosis, random forest classifier",
+    "title_zh": "基于FPGA实现的随机森林分类器在无线传感器网络故障检测中的应用",
+    "abstract_zh": "无线传感器网络中的故障检测对于保持可靠的数据传输和网络性能至关重要。现有的技术通常依赖人工诊断或单一模型方法，这些方法存在准确率较低和响应延迟的问题，尤其是在大规模或实时传感器环境中。这些局限性可能导致节点故障未被及时发现、数据丢失以及维护成本增加。为应对这些挑战，本文提出了一种基于复合机器学习的故障检测系统，该系统融合了随机森林（RF）、支持向量机（SVM）和XGBoost（XGB）模型的预测能力。这种混合集成模型能够高效分析电池电量、温度、湿度、信号强度和丢包率等传感器与网络参数，以高精度识别节点的异常行为。一旦检测到故障，分类结果将被发送至FPGA模块（XC9572XL），由其控制LED指示灯的开关状态，通过视觉报警方式显示节点的健康状况。  \n关键词——无线传感器网络（WSN）、FPGA、故障诊断、随机森林分类器"
+  },
+  {
+    "date": "2026-1-23",
+    "title": "Securing LLM-Generated Embedded Firmware Through AI Agent-Driven Validation and Patching",
+    "authors": "Seyed Moein Abtahi, Akramul Azim",
+    "publish": "2025 IEEE International Conference on Collaborative Advances in Software and COmputiNg (CASCON)",
+    "url": "https://doi.org/10.1109/cascon66301.2025.00044",
+    "source": "IEEE",
+    "abstract": "Large Language Models (LLMs) show promise in generating firmware for embedded systems but often introduce security flaws and fail to meet real-time performance constraints. This paper proposes a three-phase methodology that combines LLM-based firmware generation with automated security validation and iterative refinement in a virtualized environment. Using structured prompts, models like GPT-4 generate firmware for networking and control tasks, deployed on FreeRTOS via QEMU. These implementations are tested using fuzzing, static analysis, and runtime monitoring to detect vulnerabilities such as buffer overflows (CWE-120), race conditions (CWE-362), and denial-of-service threats (CWE-400). Specialized AI agents for Threat Detection, Performance Optimization, and Compliance Verification collaborate to improve detection and remediation. Identified issues are categorized using CWE, then used to prompt targeted LLM-generated patches in an iterative loop. Experiments show a 92.4% Vulnerability Remediation Rate (37.3% improvement), <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\text{95.8 \\%}$</tex> Threat Model Compliance, and 0.87 Security Coverage Index. Real-time metrics include 8.6 ms worst-case execution time and <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$195 \\mu$</tex> jitter. This process enhances firmware security and performance while contributing an open-source dataset for future research.",
+    "title_zh": "通过AI智能体驱动的验证与修复来保障大语言模型生成嵌入式固件的安全性",
+    "abstract_zh": "大型语言模型（LLMs）在生成嵌入式系统固件方面展现出潜力，但常常引入安全漏洞，并难以满足实时性性能约束。本文提出了一种三阶段方法，将基于LLM的固件生成与自动化安全验证及迭代优化相结合，并在虚拟化环境中实现。通过结构化提示词，GPT-4等模型生成用于网络通信与控制任务的固件，并部署于基于QEMU的FreeRTOS系统上。所生成的固件通过模糊测试、静态分析和运行时监控进行检验，以检测诸如缓冲区溢出（CWE-120）、竞争条件（CWE-362）和拒绝服务威胁（CWE-400）等漏洞。专门设计的人工智能代理——包括威胁检测、性能优化和合规性验证代理——协同工作，提升漏洞发现与修复能力。识别出的问题依据CWE分类后，反馈至LLM以生成针对性补丁，形成闭环迭代优化流程。实验结果表明，该方法实现了92.4%的漏洞修复率（较基线提升37.3%），95.8%的威胁模型合规率，以及0.87的安全覆盖指数。在实时性方面，最坏执行时间仅为8.6毫秒，抖动低至195微秒。该流程显著提升了固件的安全性与性能表现，并贡献了一个开源数据集，以支持后续研究。"
+  },
+  {
+    "date": "2026-1-23",
+    "title": "Optimised Coding Technique for Low Power Network on Chip Applications",
+    "authors": "Surya V.N. S. V. Chakka, Ravirala Sooraj, Peneji Vishnu Sai Revanth, M. Vinodhini",
+    "publish": "2025 IEEE 2nd International Conference on Information Technology, Electronics and Intelligent Communication Systems (ICITEICS)",
+    "url": "https://doi.org/10.1109/iciteics64870.2025.11341569",
+    "source": "IEEE",
+    "abstract": "Current computing systems require ever-increasing reliability, particularly as memory technology needs to cater for data-intensive and mission-critical applications. As the sizes of transistors are reducing and the densities of memory are increasing, the probability of memory cells being affected by transient faults, soft errors, and bit flips has dramatically increased. Even an error that is left uncorrected can cause catastrophic failures in the systems used in aerospace, automotive, medical devices, and cloud infrastructure. Error-Correcting Codes (ECCs) have become a key mechanism for protecting data integrity as well as system stability in hostile operating environments. In this work, we precisely focus on self-transition-induced errors, which are a growing class of faults related to internal instability in highly scaled memory cells. To overcome these challenges, we propose a Row-Wise Hamming scheme that significantly reduces redundancy through efficient row-level encoding and decoding. The design attains 100 % correction efficiency of burst errors up to the maximum of 5 bits, alleviating the localized and self-transition faults. Synthesis results show an impressive 82.35 % area reduction and 98.99% power saving, making our solution an efficient and scalable alternative to traditional ECC architectures of future memories. The whole design was carried out in Verilog HDL and used in the ModelSim environment. In addition, synthesis was performed using the Cadence Genus tool.",
+    "title_zh": "面向低功耗片上网络应用的优化编码技术",
+    "abstract_zh": "当前的计算系统对可靠性的要求日益提高，尤其是存储技术需要满足数据密集型和关键任务应用的需求。随着晶体管尺寸不断缩小以及存储密度持续增加，存储单元受到瞬态故障、软错误和位翻转影响的概率显著上升。即使是一个未被纠正的错误，也可能导致航空航天、汽车电子、医疗设备和云基础设施等领域的系统发生灾难性故障。因此，纠错码（Error-Correcting Codes, ECCs）已成为在恶劣运行环境中保障数据完整性和系统稳定性的关键技术。本文重点关注自转换引发的错误（self-transition-induced errors），这是一类与高度微缩存储单元内部不稳定性相关的日益突出的故障类型。为应对这些挑战，我们提出了一种行级汉明码方案（Row-Wise Hamming），通过高效的行级编码与解码机制显著降低了冗余开销。该设计实现了对最多达5位的突发错误100%的纠正效率，有效缓解了局部化和自转换引起的故障。综合结果显示，该方案在面积上减少了82.35%，功耗降低了98.99%，使其成为未来存储器传统ECC架构的一种高效且可扩展的替代方案。整个设计采用Verilog HDL实现，并在ModelSim环境中进行验证，同时使用Cadence Genus工具完成了综合。"
+  },
+  {
+    "date": "2026-1-23",
+    "title": "MFU-Powered RISC-V: Efficient Matrix Processing in a Pipelined Core",
+    "authors": "Anusree C S, Paramasivam C",
+    "publish": "2025 IEEE 2nd International Conference on Information Technology, Electronics and Intelligent Communication Systems (ICITEICS)",
+    "url": "https://doi.org/10.1109/iciteics64870.2025.11341546",
+    "source": "IEEE",
+    "abstract": "Modern applications, include machine learning and computer vision, more and more count on efficient matrix processors have a hard time keeping up with the requirements for latest technologies. For this reason, we made a 5-stage pipelined RISC-V processor, by employing a MFU and a Matrix Register. An MRF file designed to support fast operations with matrices. 32 registers are included in the MRF, all holding four 5-bit signed as a result, two sharing nodes can be represented in a simple 2×2 matrix. It supports adding elements of matrices, as well as doing numerical multiplications, inversion, transposition and error handling for times when a matrix can't be inverted or the transaction is invalid. Also involves detecting hazards. By using forwarding, aim to prevent stalls within the pipeline and maintain reliable performance. A detailed testbench confirms that the design works properly Among the basic tasks, problems with overflow conditions and issues caused by data hazards. Implemented the processor built with Verilog. Static timing analysis is the process to Arranging both these factors, arranging closure and choosing the proper clock frequency. The design benefits from effective matrix processing, as shown by the results. efficient and reliant processes for jobs that heavily use matrices. Enhancements to the model could improve how inverse calculations are performed. and makes memory operations faster which improves performance in practical situations",
+    "title_zh": "由MFU驱动的RISC-V：流水线核心中的高效矩阵处理",
+    "abstract_zh": "现代应用程序，包括机器学习和计算机视觉，越来越依赖高效的矩阵处理器，但现有技术往往难以满足最新应用的需求。为此，我们设计了一款五级流水线的RISC-V处理器，通过引入矩阵功能单元（MFU）和矩阵寄存器文件（MRF）来提升性能。该MRF专为支持快速矩阵运算而设计，包含32个寄存器，每个寄存器可存储四个5位有符号数，因此能够用一个简单的2×2矩阵表示两个共享节点。该处理器支持矩阵元素的加法运算，以及数值乘法、求逆、转置等操作，并具备错误处理机制，可在矩阵不可逆或操作非法时进行检测。此外，系统还实现了数据冒险的检测机制。通过采用前递（forwarding）技术，旨在避免流水线中的停顿，从而保持稳定的高性能运行。详细的测试平台验证了设计的正确性，在基本任务中，已识别出溢出情况及由数据冒险引发的问题。整个处理器使用Verilog语言实现，并通过静态时序分析对布局布线和时钟频率的选择进行优化，以实现时序收敛。实验结果表明，该设计在矩阵密集型任务中表现出高效且可靠的处理能力。未来可通过优化矩阵求逆算法、加快内存操作速度等方式进一步提升模型性能，从而在实际应用场景中获得更优表现。"
+  },
+  {
+    "date": "2026-1-23",
+    "title": "Report on the 2025 Embedded Systems Week (ESWEEK)",
+    "authors": "Tei-Wei Kuo, Andy D. Pimentel, Yuan-Hao Chang, Jen-Wei Hsieh",
+    "publish": "IEEE Design &amp; Test",
+    "url": "https://doi.org/10.1109/mdat.2025.3631615",
+    "source": "IEEE",
+    "abstract": "Embedded Systems Week (ESWEEK) is the premier event covering all aspects of embedded systems and software, which brings together three leading conferences (CASES, CODES+ISSS, and EMSOFT), one symposium, three hot-topic workshops, five special sessions, a panel, five tutorials, five education classes, two competitions with demos, and a PhD forum and recruiting event. As such, ESWEEK presents attendees with a wide range of choices, unveiling state-of-the-art embedded systems design and hardware/software architectures.",
+    "title_zh": "2025年嵌入式系统周（ESWEEK）报告",
+    "abstract_zh": "嵌入式系统周（ESWEEK）是涵盖嵌入式系统与软件各个方面的顶级盛会，汇集了三大领先会议（CASES、CODES+ISSS 和 EMSOFT）、一个研讨会、三个热点专题研讨会、五个特别分会、一场专题讨论会、五场教程、五场教育课程、两场带有演示环节的竞赛，以及一个博士生论坛和招聘活动。因此，ESWEEK 为参会者提供了广泛的选择，全面展示了嵌入式系统设计及软硬件架构的最新前沿成果。"
+  },
+  {
+    "date": "2026-1-23",
+    "title": "Stochastic Kriging-assisted Controlled Random Search for Simulation Optimization and Its Application to Critical Dimension Measurement",
+    "authors": "Hyungjin Kim, Aerim Hwang, Shing Chih Tsai, Chuljin Park",
+    "publish": "IEEE Transactions on Automation Science and Engineering",
+    "url": "https://doi.org/10.1109/tase.2026.3657700",
+    "source": "IEEE",
+    "abstract": "We consider an optimization problem with continuous variables, where the objective function must be evaluated via simulation. Our interests specifically focus on the situation where limited simulation observations (e.g., one or two) at each solution vector can be obtained, even though each observation includes random noise. To solve the problem, one may employ existing surrogate-assisted algorithms that typically update their surrogate models whenever a new observation is obtained. However, this updating process can face challenges such as out-of-memory issues, high computational costs, or imbalanced data due to excessive exploitation. In this study, we introduce a new algorithm called <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">S</i>tochastic <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">K</i>riging-assisted <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">C</i>ontrolled <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">R</i>andom Search <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">(SKCRS)</i>. At each iteration, it employs a controlled random search to sample multiple vectors and uses a stochastic kriging model to select the most promising candidate solution vector from those sampled vectors. If the model fails to provide useful information to identify a suitable solution vector, the algorithm defaults to functioning as the original controlled random search without using the model. We tested our algorithm and compared it with existing algorithms using numerical functions and a case study in semiconductor manufacturing. The results demonstrate that our algorithm empirically outperforms existing algorithms regarding computational efficiency and estimation accuracy.",
+    "title_zh": "基于随机克里金辅助的受控随机搜索仿真优化及其在关键尺寸测量中的应用",
+    "abstract_zh": "我们考虑一个具有连续变量的优化问题，其目标函数必须通过仿真进行评估。我们的研究特别关注这样一种情形：即使每次在每个解向量上获得的仿真观测值非常有限（例如仅一到两个），且每个观测值都包含随机噪声。为解决该问题，人们可能会采用现有的基于代理模型（surrogate-assisted）的算法，这类算法通常在获得新的观测值时立即更新其代理模型。然而，这种更新过程可能面临诸多挑战，例如内存溢出、计算成本过高，或由于过度利用导致的数据不平衡问题。在本研究中，我们提出了一种新算法，称为随机克里金辅助的受控随机搜索（Stochastic Kriging-assisted Controlled Random Search, SKCRS）。在每一次迭代中，该算法采用受控随机搜索来采样多个解向量，并利用随机克里金模型从这些采样向量中选择最有前景的候选解。如果该模型无法提供有效信息以识别合适的解向量，则算法将自动退化为不使用模型的原始受控随机搜索。我们通过数值函数测试以及半导体制造中的案例研究对所提出的算法进行了验证，并与现有算法进行了比较。结果表明，在计算效率和估计精度方面，我们的算法在实验中表现优于现有算法。"
+  },
+  {
+    "date": "2026-1-23",
+    "title": "AI-Driven Circuit Debugging: Leveraging Large Language Models for Automated Fault Detection and Diagnosis",
+    "authors": "Sowmya MN",
+    "publish": "2025 Second International Conference on Networks and Soft Computing (ICNSoC)",
+    "url": "https://doi.org/10.1109/icnsoc66817.2025.00123",
+    "source": "IEEE",
+    "abstract": "Traditional circuit debugging methods are often inefficient, time-consuming, and prone to human error, making them unsuitable for handling complex electronic systems. This research introduces an AI-driven debugging tool that leverages Large Language Models (LLMs), machine learning, and object detection technologies to enhance circuit analysis, fault detection, and solution recommendations. The proposed system features a web-based interface that enables users to upload circuit images for automated diagnostics and allows interactive troubleshooting through natural language queries. By ensuring data privacy, system reliability, and high-quality responses, this tool aims to improve usability across various circuit complexities. The integration of AI in circuit debugging is expected to reduce downtime, enhance productivity, and support engineers in maintaining intricate electronic systems. Experimental validation shows reliable fault detection and debugging performance.",
+    "title_zh": "基于人工智能的电路调试：利用大语言模型实现自动故障检测与诊断",
+    "abstract_zh": "传统的电路调试方法通常效率低下、耗时较长，且容易出现人为错误，难以应对复杂的电子系统。本研究提出了一种由人工智能驱动的调试工具，该工具利用大语言模型（LLM）、机器学习和目标检测技术，提升电路分析、故障检测及解决方案推荐的能力。所提出的系统配备基于网页的界面，用户可通过该界面上传电路图像以实现自动诊断，并通过自然语言提问进行交互式故障排查。该工具在保障数据隐私、系统可靠性和响应质量的基础上，旨在适应不同复杂程度的电路应用场景。将人工智能技术引入电路调试，有望减少系统停机时间，提高工作效率，协助工程师维护复杂的电子系统。实验验证结果表明，该工具在故障检测与调试方面表现出可靠的性能。"
+  }
+]
