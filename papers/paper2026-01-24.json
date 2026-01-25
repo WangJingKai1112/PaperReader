@@ -1,0 +1,533 @@
+[
+  {
+    "date": "2026-1-24",
+    "title": "Ricin Sequencing Using Multi-Enzyme Digestion Coupled with LC/MS/MS",
+    "authors": "Yubo Song, Jiale Xu, Zhihao Wu, Yongqian Zhang",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3779115",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Investigating Therapeutic Medication Patterns for Prediabetes via Data Mining Techniques",
+    "authors": "Xintong Wei, Weichen Nie, Qi Xiong, Yuan Su, Rui Chen, Yuanjun Zou",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778090",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Prediction of influenza-like cases in Chaoyang District of Beijing based on Prophet model",
+    "authors": "Xing Gao, Xiao Qi, Yanli Wan, Zhiyuan Xu, Liqin Xie, Hongpu Hu",
+    "publish": "Proceedings of the 14th International Conference on Information Communication and Applications",
+    "url": "https://doi.org/10.1145/3743158.3783861",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Parallel Optimization of Plasma Fluid Simulation Software Based on Sunway Bluelight II Supercomputer",
+    "authors": "Yinhui Huang, Tao Liu, Baofeng Gao, Ying Guo, Jingshan Pan",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774953",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Advances in Cancer Vaccines for Colorectal Cancer: Insights from Clinical Trials",
+    "authors": "Mengmeng Zuo",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778082",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Construction and Performance Evaluation of a Machine Learning-Based Diagnostic Model for Breast Cancer",
+    "authors": "Jiaqi Huang, Yuan Su, Yang Zhang",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778080",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Runtime prediction model for high performance computing jobs based on dual dimensional feature fusion",
+    "authors": "Yongqiang Tian, Xiaorong Zhang, Fengwei Yang, Wenxiang Yang, Jie Yu, Gang Xian, Liang Lai",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774960",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Developing Technology-Organization-Environment-Maqasid (TOEM): A Shariah-Moderated Model for AI Adoption in Public Services",
+    "authors": "Nor Faizal Paiman, Hazlifah Mohd Rusli, Haslina Md Sarkan, Yazriwati Yahya, Faizura Haneem, Nazri Kama",
+    "publish": "Proceedings of the 14th International Conference on Information Communication and Applications",
+    "url": "https://doi.org/10.1145/3743158.3783854",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Predictive Machine Learning Models for Assessing the Effects of Land Use and Climate Change on Food Affordability in the UK",
+    "authors": "Razia Sulthana Abdul Kareem",
+    "publish": "Proceedings of the 14th International Conference on Information Communication and Applications",
+    "url": "https://doi.org/10.1145/3743158.3783856",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "PPIAGF: Deep Learning Based Protein–Protein Interaction Prediction with Adaptive Gated Fusion",
+    "authors": "Xi Feng, Peng Zhang, Wei Li",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778075",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Optimization of Sparse Matrix Block LU Factorization: A Hybrid MPI-OpenMP Parallel Method",
+    "authors": "Yujiao Han, Jingshan Pan, Min Tian, Jiwei Xu, Lu Zhang",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774967",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Erratum: “The Devil You Know”: Barriers and Opportunities for Co-Designing Microclimate Sensors, A Case Study of Manoomin",
+    "authors": "Eric Greenlee, Blaine Rothrock, Hyeonwook Kim, Ellen Zegura, Josiah Hester",
+    "publish": "ACM Journal on Computing and Sustainable Societies",
+    "url": "https://doi.org/10.1145/3785675",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Detection of Surface Damage on Offshore Wind Turbine Blades using Gradient Boosting Classifier with SHapley Additive exPlanations (SHAP)",
+    "authors": "Oscar Best, Asiya Khan, Keri Collins, Mario Gianni",
+    "publish": "Proceedings of the 14th International Conference on Information Communication and Applications",
+    "url": "https://doi.org/10.1145/3743158.3783850",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Machine Learning for Micro-seismic Event Detection: A Comparative Study of Spiking, Graph and Convolution Neural Network on Distributed Acoustic Sensing Data",
+    "authors": "Mohd Safuwan Shahabudin, Irving Vitra Paputungan, Jafreezal Jaafar",
+    "publish": "Proceedings of the 14th International Conference on Information Communication and Applications",
+    "url": "https://doi.org/10.1145/3743158.3783853",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Peptide Drug Design Using Generative AI Models: A Comparative Study of GAN and VAE",
+    "authors": "Ariel Bixi Ming, Zhen Wang",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3779114",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Proceedings of the 14th International Conference on Information Communication and Applications",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3743158",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Deciphering Regional Heterogeneous Communication Strategy in Brain Networks via Optimal Transport of Interacted Ligand-Receptor Pairs",
+    "authors": "Zongchang Du, Weiyang Shi, Na Luo, Congying Chu, Zhengyi Yang, Tianzi Jiang",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778074",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Improving Image Captioning for Chinese Cultural Relics with Diffusion Language Models",
+    "authors": "Chenggang Mi, Yu Li",
+    "publish": "Journal on Computing and Cultural Heritage",
+    "url": "https://doi.org/10.1145/3793547",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "CHBDR-HHGCN: Drug Recommendation Method for Chronic Hepatitis B Patients Based on Higher-order hypergraph Convolution Neural Network",
+    "authors": "Tao Luo, Tao Lin, LingJie Fan, Wei Wang",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778069",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "CTIA: Optimizing Requests Processing by Comparing Tags in Advance for L2 Caches in GPUs",
+    "authors": "Bingchao Li, Yuchen Zhu, Xiaohui Li, Jizeng Wei",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774952",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-25",
+    "title": "We Need Smarter, Not Faster, AI-powered e-Learning Authoring Tools",
+    "authors": "Natalia Echeverry",
+    "publish": "eLearn",
+    "url": "https://doi.org/10.1145/3793702.3779227",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Network Pharmacology-Based Study on the Mechanisms of Liuwei Dihuang Pills in the Treatment of Pediatric Growth Retardation",
+    "authors": "Lili Huang, Zhihui Wang, Jiajia Dong, Qizhao Liu, Taowei Jin",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778070",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Exploiting (min,+)/(max,+) Isomorphism to Speed up Convolutions",
+    "authors": "Raffaele Zippo, Paul Nikolaus, Giovanni Stea",
+    "publish": "ACM Transactions on Mathematical Software",
+    "url": "https://doi.org/10.1145/3793250",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "An Efficient IoT Device Classification Method Based on the Integration of Variational Autoencoder and XGBoost",
+    "authors": "Weite Liu, Xin Zhang, Jie Zhang, Ning Li, Le Ren, Zihan Liu",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774975",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Detection Algorithm Based on Sparse Attention and Contrastive Learning Strategy for A New Large-scale Clinical Bacterial Datasets",
+    "authors": "Jiaming Wang, Fei Xie, Xin Shi, Xiuli Wang, Sifan Li, Tingwei Quan, Lixin Xie, Kaifei Wang",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778086",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Scalable IT Management in Resource-Constrained Environments: A Case Study of GLPI Implementation in a Philippine Power Plant",
+    "authors": "William P. Rey, Merk Henley D. Go",
+    "publish": "Proceedings of the 14th International Conference on Information Communication and Applications",
+    "url": "https://doi.org/10.1145/3743158.3783859",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Fair Foundation Models for Medical Image Analysis: Challenges and Perspectives",
+    "authors": "Dilermando Queiroz, Anderson Carlos, André Anjos, Lilian Berton",
+    "publish": "ACM Transactions on Computing for Healthcare",
+    "url": "https://doi.org/10.1145/3793542",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "pT-HAN: A Hierarchical Attention Network for Quantifying Cognitive Stage Contributions in Interpretable Anxiety State Classification",
+    "authors": "Guotao Wang",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778085",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Bi-mark: A copyright marking framework for AI-generative-text",
+    "authors": "Boyuan Yu, Gongshen Liu",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774970",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Study on the Changes in the Microbial Flora Characteristics of the Tongue Coat in Patients with Early Gastric Cancer",
+    "authors": "Huiwen Wang, Jiajing Yu, Zhihang Jiang, Sihe Gong, Xueyang Shen, Yisi Lu, Li Li, Zhumei Sun",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778081",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "KGTSynergy: TransGNN-based multimodal knowledge graph for drug synergy prediction",
+    "authors": "Yanwei Wang, Jiancheng Ni, Qing Xue, Chong Zhang, Ying Yang, Cundong Lin",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778068",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Transferability Assessment of WiFi Sensing through CSI-based Doppler",
+    "authors": "Jose Ramon Merino Bernaola, Iker Sobron, Iratxe Landa, Iñaki Eizmendi, Manuel Vélez",
+    "publish": "Proceedings of the 14th International Conference on Information Communication and Applications",
+    "url": "https://doi.org/10.1145/3743158.3783858",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Multi-Level Volumetric Transformer for Early Prediction of Response to Neoadjuvant Chemotherapy in Locally Advanced Breast Cancer",
+    "authors": "Monu Verma, Fernando Collado-Mesa, Mohamed Saeed Abdel-Mottaleb",
+    "publish": "ACM Transactions on Computing for Healthcare",
+    "url": "https://doi.org/10.1145/3793536",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "SW-M3D-K: Research on Parallel Optimization of M3D-K Program Based on Sunway Bluelight II Supercomputer",
+    "authors": "Yingxuan Shao, Tao Liu, Baofeng Gao, Qiang Guo, Ying Guo, Jingshan Pan",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774951",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Design of a Healthcare Management Cockpit System Based on Multi-perspective Indicator Clusters",
+    "authors": "Zhang Xi, Yanli Wan, Xingyun Lei, Yingshuai Wang, Liqin Xie, Panpan Qin, Qingkun Chen, Yan Wang, Xing Gao, Hongpu Hu",
+    "publish": "Proceedings of the 14th International Conference on Information Communication and Applications",
+    "url": "https://doi.org/10.1145/3743158.3783857",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "SCINet: a high-performance computing infrastructure prototype based on supercomputers and high-speed Internet",
+    "authors": "Wenjing Han, Zhenchun Huang, Dexun Chen, Lin Gan, Guangwen Yang",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774950",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Reimagining Personnel Management: The Advancement of a Smart-HRIS with Integrated Biometrics, Self-Service Portals, and Automated Notifications",
+    "authors": "Jaime Fernandez Eli Pascua, Eric Blancaflor",
+    "publish": "Proceedings of the 14th International Conference on Information Communication and Applications",
+    "url": "https://doi.org/10.1145/3743158.3783851",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Algorithm for Isoleucine and Leucine Discrimination in Protein Sequencing Based on Electron-Activated Dissociation Mass Spectrometry",
+    "authors": "Xu Jiale, Wang Hao, Liu Feng, Zhang Yongqian",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778078",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Comparison of Pólya-Gamma Method and Metropolis Hastings Algorithm in Logistic Regression Model Problems",
+    "authors": "Chunxia Wang, Jianhua Wu, Lu Zhang, Chuanming Chen",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774964",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "The OPHGMRES : An Optimized Parallel Householder GMRES Iterative Algorithm",
+    "authors": "Dong ChunQi, Tian Min, Du Wei, Xu ChaoShuai",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774963",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Discover Potential Biomarker of Alzheimer's Disease Using Metabolomics Data",
+    "authors": "Xia Wu",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778071",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Risk Assessment and Response Mechanism for University NetworkInformation Security Based on AHP-FCE Model",
+    "authors": "Jiang Aiwei, Liu Xinpeng",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774969",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "An Enhanced Hybrid Neural Network: An Optimized Segmentation Method for Agricultural Remote Sensing Images",
+    "authors": "Guoxun Zheng, Zhengang Jiang",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774973",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3778067",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Noise-Diffusion-Inspired Encoder-Decoder for Data Augmentation in Small-sample setting EMG Decoding",
+    "authors": "Chenguang Gao, Xulong Zhi, Qian Jia, Yang Sun, Liuqing Wang, Hao Chen",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778083",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "ADD-TabNet: A Lightweight Tabular Deep Model for Evaluating Access Quality of Crowdtesting Subsystems",
+    "authors": "Fuqiang Yu, Xin Li, Lijuan Xu, Fenghua Tong, Dawei Zhao",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774957",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Constructing a Survival-Associated Prognostic Model for Pancreatic Cancer via Gene Expression Bioinformatics Analysis",
+    "authors": "Guojian Li, Xiaoxing Xing, Yuan Luo",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778079",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "A remote sensing small target ship rotation detection method based on an improved YOLOv11 algorithm",
+    "authors": "Zhen Yu, Mengyan Sun, Lei Kou, He Jun Wan, Qiang Wei Hou",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774971",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Archs: A WebAssembly Runtime for Cross-host Heterogeneous Computing in Serverless",
+    "authors": "Aoyuan Sun, Yue Tu, Yuhao Gu, Chunyu Chen, Jiangsu Du, Xianwei Zhang",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774968",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Transforming Medical Regulations into Numbers: Vectorizing a Decade of Medical Device Regulatory Shifts in the USA, EU, and China",
+    "authors": "Yu Han, Jeroen H.M. Bergmann",
+    "publish": "ACM Transactions on Computing for Healthcare",
+    "url": "https://doi.org/10.1145/3793533",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "BiRNAFun-CAN: Identification of Bifunctional RNAs Based on Hierarchical Convolution and Projection Attention Network",
+    "authors": "Na Bao, Tao Bai, Lerong Ma, Hang Wei, Fuxing Li",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778076",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "A Deep Generative Framework Based on a Diffusion Model Integrated with Mamba Block in Modality Transferring from Resting-state EEG to fMRI",
+    "authors": "Zhenren Ma, Jialin Li, Jiabao Wen, Wenjing Yan",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778084",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3774949",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "A Comparative Analysis of Adaptive and Scheduled Dynamic Loss Weighting Strategies in Quantum Physics-Informed Neural Networks (QPINNs) for Solving the 1D TimeIndependent Schrodinger Equation",
+    "authors": "John Edoh Onuh, Ming Jiang",
+    "publish": "Proceedings of the 14th International Conference on Information Communication and Applications",
+    "url": "https://doi.org/10.1145/3743158.3783855",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Individual Brain Structure Deviations Predict Depressive Symptom Responses of Running Intervention",
+    "authors": "Shiqi Di, Na Luo, Shengfeng Liu, Tianzi Jiang",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778072",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Epidemiological Characteristics of Thoracic Surgical Diseases: A Retrospective Study Based on 2,036 Chest CT Data",
+    "authors": "Chunyan Liu, Yunhe Qu, Yuhan Cai, Chunqi Liu, Yang Song",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778088",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Single Cell RNA-seq Analysis Reveals Dynamics of Microglia Subclusters During Mouse Embryo Development",
+    "authors": "Chuwen Cheng, Yiming Wang",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778073",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "Towards Direct Library Construction from Plasma Cell-Free RNA: A Concept Informed by Preliminary Data",
+    "authors": "Dehui Zhu, Ziyi Zhao, Zhuoran Hou, Qinyu Ge",
+    "publish": "Proceedings of the 2025 14th International Conference on Bioinformatics and Biomedical Science",
+    "url": "https://doi.org/10.1145/3778067.3778077",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-1-24",
+    "title": "The Research on GPU-Based Relational Join Algorithms",
+    "authors": "Wenwei Kou, Jinlian Du, Hang Su, Fangyuan Luo",
+    "publish": "Proceedings of the 2025 9th International Conference on High Performance Compilation, Computing and Communications (HP3C)",
+    "url": "https://doi.org/10.1145/3774949.3774966",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]
