@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-01-26",
+    "title": "EvolVE: Evolutionary Search for LLM-based Verilog Generation and Optimization",
+    "authors": "Wei-Po Hsin, Ren-Hao Deng, Yao-Ting Hsieh, En-Ming Huang, Shih-Hao Hung",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.18067v1",
+    "source": "arXiv",
+    "abstract": "Verilog's design cycle is inherently labor-intensive and necessitates extensive domain expertise. Although Large Language Models (LLMs) offer a promising pathway toward automation, their limited training data and intrinsic sequential reasoning fail to capture the strict formal logic and concurrency inherent in hardware systems. To overcome these barriers, we present EvolVE, the first framework to analyze multiple evolution strategies on chip design tasks, revealing that Monte Carlo Tree Search (MCTS) excels at maximizing functional correctness, while Idea-Guided Refinement (IGR) proves superior for optimization. We further leverage Structured Testbench Generation (STG) to accelerate the evolutionary process. To address the lack of complex optimization benchmarks, we introduce IC-RTL, targeting industry-scale problems derived from the National Integrated Circuit Contest. Evaluations establish EvolVE as the new state-of-the-art, achieving 98.1% on VerilogEval v2 and 92% on RTLLM v2. Furthermore, on the industry-scale IC-RTL suite, our framework surpasses reference implementations authored by contest participants, reducing the Power, Performance, Area (PPA) product by up to 66% in Huffman Coding and 17% in the geometric mean across all problems. The source code of the IC-RTL benchmark is available at https://github.com/weiber2002/ICRTL.",
+    "title_zh": "EvolVE：基于大语言模型的Verilog生成与优化的进化搜索",
+    "abstract_zh": "Verilog的设计周期本质上是劳动密集型的，且需要大量的领域专业知识。尽管大语言模型（LLMs）为自动化提供了有前景的路径，但其有限的训练数据和固有的序列化推理能力难以捕捉硬件系统中严格的逻辑形式与并发特性。为克服这些障碍，我们提出了EvolVE——首个在芯片设计任务上分析多种进化策略的框架。研究发现，蒙特卡洛树搜索（MCTS）在提升功能正确性方面表现卓越，而基于思路引导的优化（Idea-Guided Refinement, IGR）则在性能优化方面更具优势。我们进一步引入结构化测试平台生成（Structured Testbench Generation, STG）以加速进化过程。为解决复杂优化基准缺失的问题，我们构建了面向工业级问题的IC-RTL基准集，其源自全国集成电路竞赛的实际赛题。评估结果表明，EvolVE在VerilogEval v2上达到98.1%、在RTLLM v2上达到92%的性能，成为新的最先进方法。此外，在工业规模的IC-RTL测试套件上，我们的框架超越了由竞赛参与者编写的手写参考实现，在霍夫曼编码中将功耗、性能、面积（PPA）乘积降低了66%，在所有问题上的几何平均降低达17%。IC-RTL基准的源代码已公开于 https://github.com/weiber2002/ICRTL。"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "RTeAAL Sim: Using Tensor Algebra to Represent and Accelerate RTL Simulation (Extended Version)",
+    "authors": "Yan Zhu, Boru Chen, Christopher W. Fletcher, Nandeeka Nayak",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.18140v1",
+    "source": "arXiv",
+    "abstract": "RTL simulation on CPUs remains a persistent bottleneck in hardware design. State-of-the-art simulators embed the circuit directly into the simulation binary, resulting in long compilation times and execution that is fundamentally CPU frontend-bound, with severe instruction-cache pressure. This work proposes RTeAAL Sim, which reformulates RTL simulation as a sparse tensor algebra problem. By representing RTL circuits as tensors and simulation as a sparse tensor algebra kernel, RTeAAL Sim decouples simulation behavior from binary size and makes RTL simulation amenable to well-studied tensor algebra optimizations. We demonstrate that a prototype of our tensor-based simulator, even with a subset of these optimizations, already mitigates the compilation overhead and frontend pressure and achieves performance competitive with the highly optimized Verilator simulator across multiple CPUs and ISAs.",
+    "title_zh": "RTeAAL 仿真：使用张量代数表示和加速 RTL 仿真（扩展版本）",
+    "abstract_zh": "在CPU上进行RTL仿真仍然是硬件设计中的一个长期瓶颈。目前最先进的仿真器将电路直接嵌入到仿真二进制文件中，导致编译时间过长，且执行过程本质上受限于CPU前端，指令缓存压力严重。本文提出了RTeAAL Sim，它将RTL仿真重新表述为稀疏张量代数问题。通过将RTL电路表示为张量，并将仿真过程转化为稀疏张量代数核，RTeAAL Sim实现了仿真行为与二进制大小的解耦，使RTL仿真能够应用已广泛研究的张量代数优化技术。我们展示了一个基于张量的仿真器原型，即使仅采用部分此类优化，也能显著缓解编译开销和前端压力，在多种CPU架构和指令集（ISA）上实现与高度优化的Verilator仿真器相媲美的性能。"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "Explainability Methods for Hardware Trojan Detection: A Systematic Comparison",
+    "authors": "Paul Whitten, Francis Wolff, Chris Papachristou",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.18696v1",
+    "source": "arXiv",
+    "abstract": "Hardware trojan detection requires accurate identification and interpretable explanations for security engineers to validate and act on results. This work compares three explainability categories for gate-level trojan detection on the Trust-Hub benchmark: (1) domain-aware property-based analysis of 31 circuit-specific features from gate fanin patterns, flip-flop distances, and I/O connectivity; (2) case-based reasoning using k-nearest neighbors for precedent-based explanations; and (3) model-agnostic feature attribution (LIME, SHAP, gradient). Results show different advantages per approach. Property-based analysis provides explanations through circuit concepts like \"high fanin complexity near outputs indicates potential triggers.\" Case-based reasoning achieves 97.4% correspondence between predictions and training exemplars, offering justifications grounded in precedent. LIME and SHAP provide feature attributions with strong inter-method correlation (r=0.94, p<0.001) but lack circuit-level context for validation. XGBoost classification achieves 46.15% precision and 52.17% recall on 11,392 test samples, a 9-fold precision improvement over prior work (Hasegawa et al.: 5.13%) while reducing false positive rates from 5.6% to 0.25%. Gradient-based attribution runs 481 times faster than SHAP but provides similar domain-opaque insights. This work demonstrates that property-based and case-based approaches offer domain alignment and precedent-based interpretability compared to generic feature rankings, with implications for XAI deployment where practitioners must validate ML predictions.",
+    "title_zh": "硬件木马检测的可解释性方法：系统性比较",
+    "abstract_zh": "硬件木马检测需要能够准确识别并提供可解释的说明，以便安全工程师验证结果并采取相应行动。本文在Trust-Hub基准上比较了三种用于门级木马检测的可解释性方法类别：（1）基于领域知识的属性分析，提取31个与电路相关的特征，包括门输入扇入模式、触发器距离以及输入/输出连接性；（2）基于案例的推理，采用k近邻（k-nearest neighbors）方法，通过已有先例提供解释；（3）模型无关的特征归因方法（如LIME、SHAP和梯度法）。实验结果表明，各类方法各有优势。基于属性的分析可通过电路概念提供解释，例如“输出附近较高的扇入复杂性可能表示存在触发机制”；基于案例的推理在预测与训练样本之间的匹配度达到97.4%，其解释具有实际先例支持；而LIME和SHAP虽在特征归因上表现出高度一致的相关性（r=0.94，p<0.001），但缺乏电路层面的上下文信息，难以用于工程验证。XGBoost分类器在11,392个测试样本上实现了46.15%的精确率和52.17%的召回率，相比先前研究（Hasegawa等人的5.13%）精确率提升了9倍，同时将误报率从5.6%显著降低至0.25%。基于梯度的归因方法比SHAP快481倍，但提供的仍是缺乏领域语义的“黑箱式”洞察。本研究表明，相较于通用的特征排序方法，基于属性和基于案例的方法更能与领域知识对齐，并提供基于先例的可解释性，这对可解释人工智能（XAI）在需由实践者验证机器学习结果的实际场景中的部署具有重要意义。"
+  },
+  {
+    "date": "2026-01-26",
+    "title": "AI-Driven Fuzzing for Vulnerability Assessment of 5G Traffic Steering Algorithms",
+    "authors": "Seyed Bagher Hashemi Natanzi, Hossein Mohammadi, Bo Tang, Vuk Marojevic",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.18690v1",
+    "source": "arXiv",
+    "abstract": "Traffic Steering (TS) dynamically allocates user traffic across cells to enhance Quality of Experience (QoE), load balance, and spectrum efficiency in 5G networks. However, TS algorithms remain vulnerable to adversarial conditions such as interference spikes, handover storms, and localized outages. To address this, an AI-driven fuzz testing framework based on the Non-Dominated Sorting Genetic Algorithm II (NSGA-II) is proposed to systematically expose hidden vulnerabilities. Using NVIDIA Sionna, five TS algorithms are evaluated across six scenarios. Results show that AI-driven fuzzing detects 34.3% more total vulnerabilities and 5.8% more critical failures than traditional testing, achieving superior diversity and edge-case discovery. The observed variance in critical failure detection underscores the stochastic nature of rare vulnerabilities. These findings demonstrate that AI-driven fuzzing offers an effective and scalable validation approach for improving TS algorithm robustness and ensuring resilient 6G-ready networks.",
+    "title_zh": "基于人工智能的模糊测试在5G流量引导算法漏洞评估中的应用",
+    "abstract_zh": "流量导向（Traffic Steering，TS）通过在小区之间动态分配用户流量，以提升5G网络中的用户体验质量（QoE）、负载均衡和频谱效率。然而，TS算法在面对干扰突增、切换风暴和局部中断等对抗性条件时仍存在脆弱性。为应对这一问题，本文提出一种基于非支配排序遗传算法II（NSGA-II）的AI驱动模糊测试框架，以系统性地揭示潜在漏洞。利用NVIDIA Sionna平台，该研究在六种场景下评估了五种TS算法。结果表明，与传统测试方法相比，AI驱动的模糊测试能够检测到多出34.3%的总漏洞和5.8%的关键故障，在多样性及边缘案例发现方面表现更优。关键故障检测中观察到的差异性凸显了罕见漏洞所具有的随机特性。研究结果证明，AI驱动的模糊测试是一种高效且可扩展的验证方法，有助于提升TS算法的鲁棒性，确保构建具备6G适应能力的弹性网络。"
+  },
+  {
+    "date": "2026-1-26",
+    "title": "RISC-V prototypes for HPC: Maturity and Methods",
+    "authors": "Pablo Vizcaino",
+    "publish": "Proceedings of the Conference on ACM Europe Summer School on HPC Computer Architectures for AI and Dedicated Applications",
+    "url": "https://doi.org/10.1145/3789242.3789246",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向高性能计算的 RISC-V 原型：成熟度与方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-26",
+    "title": "Proceedings of the Conference on ACM Europe Summer School on HPC Computer Architectures for AI and Dedicated Applications",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3789242",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ACM 欧洲暑期学校关于面向人工智能和专用应用的高性能计算计算机架构会议论文集",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-26",
+    "title": "MERINDA: Model Recovery in FPGA-Based Dynamic Architecture for Edge and Physical AI",
+    "authors": "Bin Xu, Ayan Banerjee, Sandeep Gupta",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3793545",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "MERINDA：面向边缘与物理AI的基于FPGA动态架构中的模型恢复",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-26",
+    "title": "Expedited development of novel RISC-V instructions through an emulation-simulation framework",
+    "authors": "Ivan Vargas, Carlos Rojas Morales",
+    "publish": "Proceedings of the Conference on ACM Europe Summer School on HPC Computer Architectures for AI and Dedicated Applications",
+    "url": "https://doi.org/10.1145/3789242.3789247",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "通过仿真-模拟框架加速新型 RISC-V 指令的开发",
+    "abstract_zh": "None"
+  }
+]
