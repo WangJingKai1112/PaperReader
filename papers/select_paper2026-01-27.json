@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-01-27",
+    "title": "Reward Engineering for Reinforcement Learning in Software Tasks",
+    "authors": "Md Rayhanul Masud, Azmine Toushik Wasi, Salman Rahman, Md Rizwan Parvez",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.19100v1",
+    "source": "arXiv",
+    "abstract": "Reinforcement learning is increasingly used for code-centric tasks. These tasks include code generation, summarization, understanding, repair, testing, and optimization. This trend is growing faster with large language models and autonomous agents. A key challenge is how to design reward signals that make sense for software. In many RL problems, the reward is a clear number. In software, this is often not possible. The goal is rarely a single numeric objective. Instead, rewards are usually proxies. Common proxies check if the code compiles, passes tests, or satisfies quality metrics. Many reward designs have been proposed for code-related tasks. However, the work is scattered across areas and papers. There is no single survey that brings these approaches together and shows the full landscape of reward design for RL in software. In this survey, we provide the first systematic and comprehensive review of reward engineering for RL in software tasks. We focus on existing methods and techniques. We structure the literature along three complementary dimensions, summarizing the reward-design choices within each. We conclude with challenges and recommendations in the reward design space for SE tasks.",
+    "title_zh": "面向软件任务中强化学习的奖励工程",
+    "abstract_zh": "强化学习在以代码为中心的任务中正得到越来越广泛的应用。这些任务包括代码生成、摘要、理解、修复、测试和优化等。随着大语言模型和自主智能体的发展，这一趋势正在加速。一个关键挑战是如何为软件领域设计合理有效的奖励信号。在许多强化学习问题中，奖励通常是一个明确的数值，但在软件场景中这往往难以实现。因为软件开发的目标很少是单一的数值目标，因此奖励通常只能采用代理指标。常见的代理指标包括检查代码是否能够编译通过、是否通过测试用例，或是否满足某些质量度量标准。针对与代码相关的任务，已有大量关于奖励设计的研究被提出。然而，这些工作分散在不同领域和论文中，尚缺乏系统性的综述来整合这些方法，并全面展示软件中强化学习奖励设计的整体图景。在本综述中，我们首次对面向软件任务的强化学习中的奖励工程进行了系统而全面的回顾。我们聚焦于现有的方法与技术，从三个互补的维度对相关文献进行组织，并分别总结了每个维度下的奖励设计选择。最后，我们指出了该领域在软件工程任务中奖励设计所面临的主要挑战，并提出了相应的建议。"
+  },
+  {
+    "date": "2026-01-27",
+    "title": "Veri-Sure: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation",
+    "authors": "Jiale Liu, Taiyu Zhou, Tianqi Jiang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.19747v1",
+    "source": "arXiv",
+    "abstract": "In the rapidly evolving field of Electronic Design Automation (EDA), the deployment of Large Language Models (LLMs) for Register-Transfer Level (RTL) design has emerged as a promising direction. However, silicon-grade correctness remains bottlenecked by: (i) limited test coverage and reliability of simulation-centric evaluation, (ii) regressions and repair hallucinations introduced by iterative debugging, and (iii) semantic drift as intent is reinterpreted across agent handoffs. In this work, we propose Veri-Sure, a multi-agent framework that establishes a design contract to align agents' intent and uses a patching mechanism guided by static dependency slicing to perform precise, localized repairs. By integrating a multi-branch verification pipeline that combines trace-driven temporal analysis with formal verification consisting of assertion-based checking and boolean equivalence proofs, Veri-Sure enables functional correctness beyond pure simulations. We also introduce VerilogEval-v2-EXT, extending the original benchmark with 53 more industrial-grade design tasks and stratified difficulty levels, and show that Veri-Sure achieves state-of-the-art verified-correct RTL code generation performance, surpassing standalone LLMs and prior agentic systems.",
+    "title_zh": "Veri-Sure：一种具有时序追踪与形式化验证的、面向合同感知的多智能体框架，用于生成正确的RTL代码",
+    "abstract_zh": "在快速发展的电子设计自动化（EDA）领域，将大语言模型（LLM）应用于寄存器传输级（RTL）设计已成为一个极具前景的方向。然而，硅级正确性仍面临以下瓶颈：（i）以仿真为中心的评估方法测试覆盖率有限且可靠性不足；（ii）迭代调试过程中引入的回归错误和修复幻觉；（iii）在多个智能体交接过程中设计意图被反复重新解读导致的语义漂移。本文提出Veri-Sure，一种多智能体框架，通过建立设计契约来统一各智能体的设计意图，并采用基于静态依赖切片指导的补丁机制，实现精确且局部化的修复。Veri-Sure集成了多分支验证流水线，结合基于激励的时序分析与形式化验证（包括断言检查和布尔等价性证明），从而实现了超越纯仿真方法的功能正确性保障。我们还提出了VerilogEval-v2-EXT基准，该基准在原有基础上新增了53个工业级设计任务，并设置了分层难度等级。实验结果表明，Veri-Sure在经过验证正确的RTL代码生成性能上达到了当前最优水平，优于独立的大语言模型及此前的智能体系统。"
+  },
+  {
+    "date": "2026-1-27",
+    "title": "Exploiting CRUSAP: An Adversarial Security Evaluation of a Lightweight RFID Protocol",
+    "authors": "Aiman Malik, Amna Amjid, Madiha Khalid",
+    "publish": "2025 27th International Multitopic Conference (INMIC)",
+    "url": "https://doi.org/10.1109/inmic65900.2025.11348322",
+    "source": "IEEE",
+    "abstract": "Ultra-lightweight authentication protocols are essential for resource-constrained environments such as RFID systems, where conventional cryptographic methods are impractical. The Cloud-based RFID Ultra-Lightweight Secure Authentication Protocol (CRUSAP) employs Bitwise Crossover rearrangement and Rotation-based primitives to achieve secure communication. This paper presents a comprehensive cryptanalytic evaluation, demonstrating that CRUSAP's reversible operations and deterministic design render it vulnerable to practical attacks. Full Disclosure, Desynchronization, and Time-Memory Trade-Off (TMTO) attacks compromise session secrecy and entity authenticity. Experimental analysis shows that 8-bit temporary identifiers (TIDS) are fully recoverable, while 96-bit TIDS can be partially recovered (60%) due to statistical leakage via a Full Disclosure attack. Time-Memory Trade-Off (TMTO) and Desynchronization attacks further allow the extraction of session keys and nonces. Although attacks on larger key sizes may demand significant computational resources, including GPUs and extensive memory, the protocol remains fundamentally vulnerable due to inherent structural weaknesses. Even with dynamic key updates, CRUSAP lacks adequate entropy isolation and structural robustness, highlighting the need for irreversible primitives, protocol redesign, or stronger lightweight authentication schemes.",
+    "title_zh": "利用CRUSAP：一种轻量级RFID协议的对抗性安全评估",
+    "abstract_zh": "超轻量级认证协议对于RFID系统等资源受限环境至关重要，因为在这些环境中传统的密码学方法难以实施。基于云的RFID超轻量级安全认证协议（CRUSAP）采用按位交叉重排和基于旋转的原语来实现安全通信。本文进行了全面的密码分析评估，结果表明，CRUSAP的可逆操作和确定性设计使其容易遭受实际攻击。完全泄露攻击、失步攻击以及时间-内存权衡（TMTO）攻击均会破坏会话机密性和实体身份的真实性。实验分析显示，8位临时标识符（TIDS）可被完全恢复，而96位TIDS由于通过完全泄露攻击产生的统计信息泄漏，也可被部分恢复（达60%）。此外，时间-内存权衡（TMTO）和失步攻击还能提取出会话密钥和随机数。尽管对较大密钥规模的攻击可能需要大量计算资源，包括GPU和大容量内存，但由于协议本身存在结构性缺陷，其安全性仍从根本上受到威胁。即使采用动态密钥更新机制，CRUSAP仍缺乏足够的熵隔离和结构鲁棒性，这凸显了引入不可逆原语、重新设计协议或采用更强的轻量级认证方案的必要性。"
+  },
+  {
+    "date": "2026-1-27",
+    "title": "Analyzing the Operational Gaps in SAFUA: Simulation-Based Evaluation of Secure Automotive Firmware Update Protocols",
+    "authors": "Hudaila Menal, Maria Imdad",
+    "publish": "2025 27th International Multitopic Conference (INMIC)",
+    "url": "https://doi.org/10.1109/inmic65900.2025.11348613",
+    "source": "IEEE",
+    "abstract": "The Secure Automotive Firmware Upgrade Approach (SAFUA) proposed a hierarchical authentication framework for in-vehicle systems, implementing the Unified Diagnostic Services (UDS) protocol to ensure secure firmware distribution (ECUs) via wireless transmission. However, despite claiming strong cryptographic potential in predicted lab conditions, SAFUA ignored the dynamic nature of real-world vehicular networks, such as latency, packet loss, and concurrent firmware delivery, which pose significant threats to both performance and safety. To explore these neglected dynamics, this research paper conducts a theoretical investigation using CAN-FD based firmware modeling under dynamic network and cryptographic workload conditions. This analysis demonstrates that SAFUA, although secure by design and structurally, turns operationally unreliable and risk prone under dynamic conditions, which reduces its effectiveness in time sensitive applications such as autonomous driving and safety critical ECU updates. Hence, this research recommends the implementation of adaptive key rotation mechanisms and cryptographic load-aware scheduling to improve SAFUA's system stability and address latency related flaws. Our research exposed substantial weaknesses: authentication failed in 23% of sessions under 10% packet loss, 17% of sessions exposed unencrypted retransmissions at risk to man-in-the-middle attacks, and latency surged by 81% during concurrent ECU updates, collectively compromising firmware integrity and delivery timing. Future work will focus on extending this evaluation using simulation tools like NS-3 and examining how SAFUA can integrate with standardized remote update ecosystems such as Uptane for end-to- end integrity assurance.",
+    "title_zh": "分析SAFUA中的操作差距：基于仿真的安全汽车固件更新协议评估",
+    "abstract_zh": "所提出的安全汽车固件升级方法（SAFUA）为车载系统设计了一种分层认证框架，通过实现统一诊断服务（UDS）协议，以确保经由无线传输方式安全分发固件至电子控制单元（ECU）。然而，尽管该方法在预测的实验室条件下声称具备强大的密码学潜力，却忽视了真实 vehicular 网络的动态特性，例如延迟、丢包以及并发固件传输等问题，这些因素对系统性能与安全性构成了严重威胁。为探究这些被忽略的动态影响，本研究通过基于CAN-FD的固件建模，在动态网络环境与加密工作负载条件下进行了理论分析。结果表明，SAFUA虽然在设计和结构上具备安全性，但在动态运行条件下却表现出操作不可靠且易产生风险，从而削弱了其在时间敏感型应用（如自动驾驶及安全关键型ECU更新）中的有效性。因此，本研究建议引入自适应密钥轮换机制以及加密负载感知的调度策略，以提升SAFUA的系统稳定性并弥补与延迟相关的缺陷。本研究揭示了若干重大弱点：在10%丢包率下，23%的会话中认证失败；17%的会话中出现未加密的重传数据，易受中间人攻击；在并发ECU更新期间，延迟激增81%，上述问题共同危及固件完整性与交付时效性。未来的研究将聚焦于利用NS-3等仿真工具扩展本评估，并探讨SAFUA如何与标准化远程更新生态系统（如Uptane）集成，以实现端到端的完整性保障。"
+  },
+  {
+    "date": "2026-1-27",
+    "title": "Verified Validator, Delegation, and Reward Processes in PoS System",
+    "authors": "Raeesa Mukhtar, Nazir Ahmad Zafar, Hamra Afzaal",
+    "publish": "2025 27th International Multitopic Conference (INMIC)",
+    "url": "https://doi.org/10.1109/inmic65900.2025.11348587",
+    "source": "IEEE",
+    "abstract": "The Proof of Stake(PoS) consensus procedure has become a largely embraced option to the energy-demanding Proof of Work (PoW) contract, guaranteeing the integrity, reliability, and decentralization in the latest Blockchain programme. In a PoS system, staking procedures, validator and delegation functions, reward distribution processes, and governance control operations must be implemented accurately to maintain the system's security. This paper represents the formal verification and validation of Stake Manager key features, as verification of validators and delegators, setting staking tokens, reward evaluation and distribution, and authentication of the owner. This formal model is evolved using the Communicating Sequential Processes (CSP#), and this model is verified concerning critical safety and liveness properties defined in Linear Temporal Logic formula (LTL). The Process Analysis Toolkit (PAT) model checker is used to check these properties, containing accurate reward distribution and exclusion of deadlocks. This verification mechanism ensures that all processes work properly in all feasible execution states. The results ensure the reliability and security of the Stake Manager Contract and emphasize the efficacy of formal verification in securing the PoS blockchain structure.",
+    "title_zh": "PoS 系统中验证者、委托和奖励流程的验证",
+    "abstract_zh": "权益证明（PoS）共识机制已成为高能耗的工作量证明（PoW）机制的一种广受青睐的替代方案，为当前区块链系统提供了完整性、可靠性和去中心化的保障。在PoS系统中，必须精确实现质押流程、验证者与委托功能、奖励分配机制以及治理控制操作，以维护系统的安全性。本文对质押管理器（Stake Manager）的关键功能进行了形式化验证与确认，包括验证者和委托者的身份验证、质押代币的设定、奖励的计算与分配，以及所有者身份的认证。该形式化模型采用通信顺序进程（CSP#）构建，并通过线性时序逻辑（LTL）定义的关键安全性和活性属性进行验证。利用过程分析工具包（PAT）模型检测器对这些属性进行检查，确保奖励准确分配并排除死锁情况的发生。该验证机制保证了所有进程在所有可能的执行状态下均能正确运行。研究结果证实了质押管理器合约的可靠性与安全性，突显了形式化验证在保障PoS区块链架构安全方面的有效性。"
+  },
+  {
+    "date": "2026-1-27",
+    "title": "Real Remote Laboratory for Cooperative and Online Learning of Digital Systems",
+    "authors": "Hélio Sousa Mendonça, José Carlos Alves",
+    "publish": "2025 7th Experiment@ International Conference (exp.at'25)",
+    "url": "https://doi.org/10.1109/exp.at2565440.2025.11348273",
+    "source": "IEEE",
+    "abstract": "As digital design methodologies and tools are evolving to higher abstraction levels, teaching the low-level concepts of digital electronic system design is becoming increasingly challenging. The raise of the design abstraction level and, more recently, the ability of AI -assisted automated design is pushing the interest of students away from the lower-level details of the digital world. Nevertheless, digital electronic systems are (still) made of transistors, gates and flip-flops, and people do need to keep this basic knowledge to be able to build efficient circuits, understand them and develop the essential electronic design automation tools. For learning these subjects, hands-on experimentation, and learning by doing, is proven to be an effective tool, and when students finally see and feel the results of their designs, motivation raises rapidly. This paper presents the technical aspects of a platform created in the DECEL project to support an FPGA-based remote laboratory based on a commercial single-board computer that can be located somewhere in the Internet. This computer runs a Linux operating system and is based on an AMD/XILINX device that integrates in the same chip an ARM Cortex A9 CPU and a region of FPGA programmable logic. The user develops a digital circuit using standard hardware-description languages (Verilog or VHDL) and runs the implementation tools for the target FPGA using a very simple web interface running in a remote server.",
+    "title_zh": "用于数字系统协作与在线学习的真实远程实验室",
+    "abstract_zh": "随着数字设计方法和工具向更高抽象层次发展，讲授数字电子系统设计的底层概念正变得越来越具挑战性。设计抽象层次的提升，以及近期人工智能辅助自动化设计能力的出现，使得学生对数字世界底层细节的兴趣逐渐减弱。然而，数字电子系统（目前）仍然由晶体管、门电路和触发器构成，人们仍需掌握这些基础知识，才能有效构建电路、理解其工作原理，并开发出关键的电子设计自动化工具。实践证明，动手实验和“在实践中学习”是学习这些内容的有效方式；当学生最终亲眼看到并切实感受到自己设计成果时，学习动机将迅速提升。本文介绍了DECEL项目所创建的一个平台的技术细节，该平台支持基于现场可编程门阵列（FPGA）的远程实验室，依托一块商用的单板计算机，该计算机可通过互联网远程访问。该计算机运行Linux操作系统，采用AMD/XILINX器件，其芯片内部集成了ARM Cortex-A9 CPU和一片可编程FPGA逻辑区域。用户使用标准硬件描述语言（Verilog或VHDL）设计数字电路，并通过远程服务器上一个极为简单的网页界面，调用针对目标FPGA的综合实现工具完成设计下载与验证。"
+  },
+  {
+    "date": "2026-1-27",
+    "title": "Stochastic Kriging-assisted Controlled Random Search for Simulation Optimization and Its Application to Critical Dimension Measurement_supp1-3657700.pdf",
+    "authors": "Chuljin Park",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tase.2026.3657700/mm1",
+    "source": "IEEE",
+    "abstract": "We consider an optimization problem with continuous variables, where the objective function must be evaluated via simulation. Our interests specifically focus on the situation where limited simulation observations (e.g., one or two) at each solution vector can be obtained, even though each observation includes random noise. To solve the problem, one may employ existing surrogate-assisted algorithms that typically update their surrogate models whenever a new observation is obtained. However, this updating process can face challenges such as out-of-memory issues, high computational costs, or imbalanced data due to excessive exploitation. In this study, we introduce a new algorithm called <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">S</i>tochastic <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">K</i>riging-assisted <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">C</i>ontrolled <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">R</i>andom Search <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">(SKCRS)</i>. At each iteration, it employs a controlled random search to sample multiple vectors and uses a stochastic kriging model to select the most promising candidate solution vector from those sampled vectors. If the model fails to provide useful information to identify a suitable solution vector, the algorithm defaults to functioning as the original controlled random search without using the model. We tested our algorithm and compared it with existing algorithms using numerical functions and a case study in semiconductor manufacturing. The results demonstrate that our algorithm empirically outperforms existing algorithms regarding computational efficiency and estimation accuracy.",
+    "title_zh": "基于随机克里金辅助的受控随机搜索仿真优化及其在关键尺寸测量中的应用_supp1-3657700.pdf",
+    "abstract_zh": "我们考虑一个具有连续变量的优化问题，其目标函数必须通过仿真进行评估。我们的研究特别关注这样一种情形：即使每次在每个解向量上获得的仿真观测值非常有限（例如仅一到两个），且每个观测值都包含随机噪声。为解决该问题，人们可以采用现有的基于代理模型（surrogate-assisted）的算法，这些算法通常在获得新观测值时立即更新其代理模型。然而，这种更新过程可能面临诸多挑战，例如内存溢出、计算成本过高，或由于过度利用导致的数据不平衡问题。在本研究中，我们提出了一种新算法，称为随机克里金辅助的受控随机搜索算法（Stochastic Kriging-assisted Controlled Random Search, SKCRS）。在每一次迭代中，该算法采用受控随机搜索方法采样多个向量，并利用随机克里金模型从这些采样向量中选择最有前景的候选解向量。如果该模型无法提供有效信息以识别合适的解向量，则算法将自动退化为不使用模型的原始受控随机搜索。我们通过数值函数测试和半导体制造中的案例研究对所提出的算法进行了验证，并与现有算法进行了比较。结果表明，在计算效率和估计精度方面，我们的算法在实验中表现优于现有算法。"
+  },
+  {
+    "date": "2026-1-27",
+    "title": "Enhancing Security and Reliability in IoT Smart Homes via Advanced Engineering Testing Methodologies",
+    "authors": "Tarek Kanaan, Ceselia Alyawanseh, Ghassan Kanaan, Nesreen A. Hamad",
+    "publish": "2025 12th International Conference on Information Technology (ICIT)",
+    "url": "https://doi.org/10.1109/icit64950.2025.11049266",
+    "source": "IEEE",
+    "abstract": "This paper analyzes how new software testing approaches affect the security and reliability of smart home systems in the Internet of Things (IoT). Given the fluid and multifaceted nature of the IoT environment, it is not possible to perform comprehensive testing of all scenarios. This prompts the need for selecting test cases that provide the needed validation for resource expenditure. It looks into major software testing purposes, functionality, and reliability, as well as robustness on all levels of testing - unit, integration, system, and acceptance testing. Particular emphasis is put on white-box methods, for instance, control flow and dataflow testing IoT software components, which are most capable of detecting faults. Further, the paper analyzes research gaps in combinatorial testing, IoT security, and software automation, underlining their shortcomings. The gaps correspond with the existing knowledge that automated and combinatorial testing while improving coverage and efficiency, are difficult to adapt in IoT ecosystems with high interconnectivity. It could be deduced that further studies should concentrate on adaptive testing frameworks for smart IoT homes to scale with the proposed intelligent techniques for security and reliability.",
+    "title_zh": "通过先进的工程测试方法增强物联网智能家居的安全性和可靠性",
+    "abstract_zh": "本文分析了新型软件测试方法对物联网（IoT）环境下智能家居系统安全性和可靠性的影响。鉴于物联网环境具有动态性和复杂性，无法对所有场景进行穷尽测试，因此有必要选择能够以合理资源投入实现有效验证的测试用例。文章探讨了软件测试的主要目标，包括在单元、集成、系统和验收各个测试层级上的功能、可靠性和健壮性。特别强调了白盒测试方法，例如控制流和数据流测试，这些方法在检测物联网软件组件中的缺陷方面尤为有效。此外，本文还分析了组合测试、物联网安全和软件自动化领域的研究空白，指出了现有方法的不足之处。这些不足体现在：尽管自动化和组合测试能够提升测试覆盖率和效率，但在高度互联的物联网生态系统中却难以适应和应用。可以推断，未来的研究应聚焦于开发可扩展的自适应测试框架，以配合智能技术在智能家居安全与可靠性方面的应用需求。"
+  },
+  {
+    "date": "2026-1-27",
+    "title": "Embedded System Experimentation Powered by Petri Nets-Driven Development and Rapid Prototyping",
+    "authors": "Luis Gomes, João-Paulo Barros, Anikó Costa, Filipe Moutinho, Fernando Pereira",
+    "publish": "2025 7th Experiment@ International Conference (exp.at'25)",
+    "url": "https://doi.org/10.1109/exp.at2565440.2025.11348376",
+    "source": "IEEE",
+    "abstract": "This work introduces a model-driven development methodology that facilitates the rapid prototyping of Petri net-based embedded controllers. The suggested method takes advantage of using a low-code development strategy along with design automation tools that allow the rapid prototyping of centralized and/or distributed/networked embedded controller systems. It is completely supported by a web-based tool platform that covers all stages of development, starting with the Petri net model edition, covering simulation and property verification, and finally supporting the generating of the execution code, amenable to be deployed at implementation platforms, such as FPGAs and microcontroller-based ones. allowing direct support for hardware- or software-based implementations.",
+    "title_zh": "基于Petri网驱动开发与快速原型的嵌入式系统实验",
+    "abstract_zh": "本文提出了一种模型驱动的开发方法，可促进基于Petri网的嵌入式控制器的快速原型设计。该方法采用低代码开发策略，并结合设计自动化工具，能够快速实现集中式和/或分布式/网络化嵌入式控制系统原型。整个开发过程由一个基于Web的工具平台全面支持，涵盖从Petri网模型编辑、仿真与属性验证，到最终生成可部署于FPGA或基于微控制器等实现平台的执行代码，从而为硬件或软件实现提供直接支持。"
+  }
+]
