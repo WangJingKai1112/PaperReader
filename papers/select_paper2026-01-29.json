@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-01-29",
+    "title": "SecIC3: Customizing IC3 for Hardware Security Verification",
+    "authors": "Qinhan Tan, Akash Gaonkar, Yu-Wei Fan, Aarti Gupta, Sharad Malik",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.21353v1",
+    "source": "arXiv",
+    "abstract": "Recent years have seen significant advances in using formal verification to check hardware security properties. Of particular practical interest are checking confidentiality and integrity of secrets, by checking that there is no information flow between the secrets and observable outputs. A standard method for checking information flow is to translate the corresponding non-interference hyperproperty into a safety property on a self-composition of the design, which has two copies of the design composed together. Although prior efforts have aimed to reduce the size of the self-composed design, there are no state-of-the-art model checkers that exploit their special structure for hardware security verification. In this paper, we propose SecIC3, a hardware model checking algorithm based on IC3 that is customized to exploit this self-composition structure. SecIC3 utilizes this structure in two complementary techniques: symmetric state exploration and adding equivalence predicates. We implement SecIC3 on top of two open-source IC3 implementations and evaluate it on a non-interference checking benchmark consisting of 10 designs. The experiment results show that SecIC3 significantly reduces the time for finding security proofs, with up to 49.3x proof speedup compared to baseline implementations.",
+    "title_zh": "SecIC3：为硬件安全验证定制IC3",
+    "abstract_zh": "近年来，利用形式化验证来检查硬件安全属性取得了显著进展。其中具有重要实际意义的是通过检查秘密信息与可观测输出之间是否存在信息流，来验证机密性和完整性。检查信息流的一种标准方法是将相应的非干涉超性质（hyperproperty）转换为设计自组合（self-composition）上的安全性性质，该自组合结构将两个相同的设计副本组合在一起。尽管已有研究致力于减小自组合设计的规模，但目前尚无先进的模型检测工具能够充分利用其在硬件安全验证中的特殊结构。本文提出 SecIC3，一种基于 IC3 的硬件模型检测算法，专门针对自组合结构进行了定制优化。SecIC3 通过两种互补技术利用该结构：对称状态探索和添加等价谓词。我们在两个开源的 IC3 实现基础上实现了 SecIC3，并在一个包含 10 个设计的非干涉检查基准集上进行了评估。实验结果表明，SecIC3 显著缩短了生成安全证明所需的时间，相较于基线实现，证明速度最高提升了 49.3 倍。"
+  },
+  {
+    "date": "2026-01-29",
+    "title": "SPOILER-GUARD: Gating Latency Effects of Memory Accesses through Randomized Dependency Prediction",
+    "authors": "Gayathri Subramanian, Girinath P, Nitya Ranganathan, Kamakoti Veezhinathan, Gopalakrishnan Srinivasan",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.21211v1",
+    "source": "arXiv",
+    "abstract": "Modern microprocessors depend on speculative execution, creating vulnerabilities that enable transient execution attacks. Prior defenses target speculative data leakage but overlook false dependencies from partial address aliasing, where repeated squash and reissue events increase the load-store latency, which is exploited by the SPOILER attack. We present SPOILER-GUARD, a hardware defense that obfuscates speculative dependency resolution by dynamically randomizing the physical address bits used for load-store comparisons and tagging store entries to prevent latency-amplifying misspeculations. Implemented in gem5 and evaluated with SPEC 2017, SPOILER-GUARD reduces misspeculation to 0.0004 percent and improves integer and floating-point performance by 2.12 and 2.87 percent. HDL synthesis with Synopsys Design Compiler at 14 nm node demonstrates minimal overheads - 69 ps latency in critical path, 0.064 square millimeter in area, and 5.863 mW in power.",
+    "title_zh": "SPOILER-GUARD：通过随机化依赖性预测来控制内存访问的延迟效应",
+    "abstract_zh": "现代微处理器依赖于推测执行，从而产生了可被瞬态执行攻击利用的漏洞。以往的防御措施主要针对推测性数据泄露，却忽视了由部分地址别名引起的虚假依赖关系，这种依赖关系通过重复的冲刷和重新发射事件增加了加载-存储延迟，而SPOILER攻击正是利用了这一点。本文提出了SPOILER-GUARD，一种硬件防御机制，它通过动态随机化用于加载-存储比较的物理地址位，并对存储项进行标记，以混淆推测性依赖解析，防止放大延迟的错误推测。该机制在gem5中实现，并使用SPEC 2017进行了评估，结果表明SPOILER-GUARD将错误推测率降低至0.0004%，并使整数和浮点性能分别提升了2.12%和2.87%。采用Synopsys Design Compiler在14纳米工艺节点上进行HDL综合的结果显示，其开销极小：关键路径延迟仅增加69皮秒，面积增加0.064平方毫米，功耗增加5.863毫瓦。"
+  },
+  {
+    "date": "2026-01-29",
+    "title": "ChipBench: A Next-Step Benchmark for Evaluating LLM Performance in AI-Aided Chip Design",
+    "authors": "Zhongkai Yu, Chenyang Zhou, Yichen Lin, Hejia Zhang, Haotian Ye, Junxia Cui, Zaifeng Pan, Jishen Zhao, Yufei Ding",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.21448v1",
+    "source": "arXiv",
+    "abstract": "While Large Language Models (LLMs) show significant potential in hardware engineering, current benchmarks suffer from saturation and limited task diversity, failing to reflect LLMs' performance in real industrial workflows. To address this gap, we propose a comprehensive benchmark for AI-aided chip design that rigorously evaluates LLMs across three critical tasks: Verilog generation, debugging, and reference model generation. Our benchmark features 44 realistic modules with complex hierarchical structures, 89 systematic debugging cases, and 132 reference model samples across Python, SystemC, and CXXRTL. Evaluation results reveal substantial performance gaps, with state-of-the-art Claude-4.5-opus achieving only 30.74\\% on Verilog generation and 13.33\\% on Python reference model generation, demonstrating significant challenges compared to existing saturated benchmarks where SOTA models achieve over 95\\% pass rates. Additionally, to help enhance LLM reference model generation, we provide an automated toolbox for high-quality training data generation, facilitating future research in this underexplored domain. Our code is available at https://github.com/zhongkaiyu/ChipBench.git.",
+    "title_zh": "ChipBench：用于评估大语言模型在AI辅助芯片设计中性能的进阶基准",
+    "abstract_zh": "尽管大语言模型（LLM）在硬件工程领域展现出巨大潜力，但当前的基准测试存在性能饱和和任务多样性不足的问题，难以反映LLM在真实工业流程中的实际表现。为弥补这一空白，我们提出了一种面向AI辅助芯片设计的综合性基准测试，从三个方面严格评估LLM的能力：Verilog代码生成、调试以及参考模型生成。该基准包含44个具有复杂层次结构的真实模块、89个系统性调试案例，以及132个涵盖Python、SystemC和CXXRTL的参考模型样本。评估结果显示，当前模型仍存在显著性能差距——最先进的Claude-4.5-opus在Verilog生成任务中仅达到30.74%的通过率，在Python参考模型生成中仅为13.33%，与现有基准中SOTA模型超过95%通过率的“饱和”结果形成鲜明对比，凸显出实际应用中的重大挑战。此外，为了提升LLM在参考模型生成方面的能力，我们提供了一个自动化工具箱，用于生成高质量的训练数据，以推动这一尚未充分探索领域的后续研究。我们的代码已公开发布于 https://github.com/zhongkaiyu/ChipBench.git。"
+  },
+  {
+    "date": "2026-01-29",
+    "title": "White-Box Op-Amp Design via Human-Mimicking Reasoning",
+    "authors": "Zihao Chen, Jiayin Wang, Ziyi Sun, Ji Zhuang, Jinyi Shen, Xiaoyue Ke, Li Shang, Xuan Zeng, Fan Yang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.21321v1",
+    "source": "arXiv",
+    "abstract": "This brief proposes \\emph{White-Op}, an interpretable operational amplifier (op-amp) parameter design framework based on the human-mimicking reasoning of large-language-model agents. We formalize the implicit human reasoning mechanism into explicit steps of \\emph{\\textbf{introducing hypothetical constraints}}, and develop an iterative, human-like \\emph{\\textbf{hypothesis-verification-decision}} workflow. Specifically, the agent is guided to introduce hypothetical constraints to derive and properly regulate positions of symbolically tractable poles and zeros, thus formulating a closed-form mathematical optimization problem, which is then solved programmatically and verified via simulation. Theory-simulation result analysis guides the decision-making for refinement. Experiments on 9 op-amp topologies show that, unlike the uninterpretable black-box baseline which finally fails in 5 topologies, White-Op achieves reliable, interpretable behavioral-level designs with only 8.52\\% theoretical prediction error and the design functionality retains after transistor-level mapping for all topologies. White-Op is open-sourced at \\textcolor{blue}{https://github.com/zhchenfdu/whiteop}.",
+    "title_zh": "通过模拟人类推理的白盒运放设计",
+    "abstract_zh": "本文提出了一种名为 \\emph{White-Op} 的可解释运算放大器（运放）参数设计框架，该框架基于大语言模型代理的人类模拟推理机制。我们将隐式的人类推理过程形式化为明确的步骤——\\emph{\\textbf{引入假设性约束}}，并构建了一种迭代式、类人的 \\emph{\\textbf{假设—验证—决策}} 工作流程。具体而言，引导代理引入假设性约束，以推导并合理调控符号上可处理的极点和零点位置，从而构建一个闭式数学优化问题，随后通过编程求解，并借助仿真进行验证。理论与仿真结果的分析进一步指导设计的优化决策。在9种运放拓扑结构上的实验表明，与最终在5种拓扑中失败的不可解释黑箱基线方法不同，White-Op 实现了可靠且可解释的行为级设计，理论预测误差仅为8.52%，并且所有拓扑在映射到晶体管级后仍保持设计功能。White-Op 已开源，地址为 \\textcolor{blue}{https://github.com/zhchenfdu/whiteop}。"
+  },
+  {
+    "date": "2026-01-29",
+    "title": "In-situ benchmarking of fault-tolerant quantum circuits. I. Clifford circuits",
+    "authors": "Xiao Xiao, Dominik Hangleiter, Dolev Bluvstein, Mikhail D. Lukin, Michael J. Gullans",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.21472v1",
+    "source": "arXiv",
+    "abstract": "Benchmarking physical devices and verifying logical algorithms are important tasks for scalable fault-tolerant quantum computing. Numerous protocols exist for benchmarking devices before running actual algorithms. In this work, we show that both physical and logical errors of fault-tolerant circuits can even be characterized in-situ using syndrome data. To achieve this, we map general fault-tolerant Clifford circuits to subsystem codes using the spacetime code formalism and develop a scheme for estimating Pauli noise in Clifford circuits using syndrome data. We give necessary and sufficient conditions for the learnability of physical and logical noise from given syndrome data, and show that we can accurately predict logical fidelities from the same data. Importantly, our approach requires only a polynomial sample size, even when the logical error rate is exponentially suppressed by the code distance, and thus gives an exponential advantage against methods that use only logical data such as direct fidelity estimation. We demonstrate the practical applicability of our methods in various scenarios using synthetic data as well as the experimental data from a recent demonstration of fault-tolerant circuits by Bluvstein et al. [Nature 626, 7997 (2024)]. Our methods provide an efficient, in-situ way of characterizing a fault-tolerant quantum computer to help gate calibration, improve decoding accuracy, and verify logical circuits.",
+    "title_zh": "容错量子电路的原位基准测试。I. Clifford 电路",
+    "abstract_zh": "对物理设备进行基准测试和验证逻辑算法是实现可扩展容错量子计算的重要任务。在运行实际算法之前，已有多种协议可用于设备的基准测试。在本研究中，我们展示了容错电路中的物理错误和逻辑错误甚至可以通过伴随（syndrome）数据在运行过程中原位表征。为实现这一目标，我们将通用的容错Clifford电路通过时空码（spacetime code）形式映射到子系统码，并开发了一种利用伴随数据估计Clifford电路中Pauli噪声的方案。我们给出了从给定伴随数据中学习物理噪声和逻辑噪声的必要且充分条件，并证明可以从相同数据中准确预测逻辑保真度。重要的是，即使逻辑错误率因码距而呈指数抑制，我们的方法也仅需多项式级别的样本量，相较于仅使用逻辑数据（如直接保真度估计）的方法具有指数级优势。我们通过合成数据以及Bluvstein等人近期在《自然》626卷7997期（2024年）发表的容错电路实验数据，验证了该方法在多种场景下的实际适用性。我们的方法为容错量子计算机提供了一种高效、原位的表征手段，有助于门校准、提升解码精度并验证逻辑电路。"
+  },
+  {
+    "date": "2026-01-29",
+    "title": "Chasing Elusive Memory Bugs in GPU Programs",
+    "authors": "Anubhab Ghosh, Ajay Nayak, Dhananjay Rao Thallikar Shyam, Arkaprava Basu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2601.21552v1",
+    "source": "arXiv",
+    "abstract": "Memory safety bugs, such as out-of-bound accesses (OOB) in GPU programs, can compromise the security and reliability of GPU-accelerated software. We report the existence of input-dependent OOBs in the wild that manifest only under specific inputs. All existing tools to detect OOBs in GPU programs rely on runtime techniques that require an OOB to manifest for detection. Thus, input-dependent OOBs elude them. We also discover intra-allocation OOBs that arise in the presence of logical partitioning of a memory allocation into multiple data structures. Existing techniques are oblivious to the possibility of such OOBs. We make a key observation that the presence (or absence) of semantic relations among program variables, which determines the size of allocations (CPU code) and those calculating offsets into memory allocations (GPU code), helps identify the absence (or presence) of OOBs. We build SCuBA, a first-of-its-kind compile-time technique that analyzes CPU and GPU code to capture such semantic relations (if present). It uses a SAT solver to check if an OOB access is possible under any input, given the captured relations expressed as constraints. It further analyzes GPU code to track logical partitioning of memory allocations for detecting intra-allocation OOB. Compared to NVIDIA's Compute Sanitizer that misses 45 elusive memory bugs across 20 programs, SCuBA misses none with no false alarms.",
+    "title_zh": "在GPU程序中追踪难以捉摸的内存错误",
+    "abstract_zh": "GPU程序中的内存安全漏洞（例如越界访问，OOB）可能破坏GPU加速软件的安全性和可靠性。我们报告了在实际中存在依赖输入的越界访问问题，这类漏洞仅在特定输入条件下才会显现。目前所有用于检测GPU程序中越界访问的工具都依赖于运行时技术，必须等到越界行为实际发生才能被检测到，因此无法发现这些依赖输入的越界问题。此外，我们还发现了“分配内越界”（intra-allocation OOB），即当一块内存分配在逻辑上被划分为多个数据结构时所产生的越界访问。现有技术并未意识到此类越界的可能性。\n\n我们提出一个关键观察：程序变量之间存在的（或不存在的）语义关系——这些关系决定了CPU代码中内存分配的大小以及GPU代码中内存偏移量的计算方式——有助于判断是否存在（或不存在）越界访问。基于此，我们构建了SCuBA，这是一种首创的编译时检测技术，能够分析CPU和GPU代码，以捕捉其中存在的语义关系（如果存在）。SCuBA利用SAT求解器，将捕获的关系表达为约束条件，检查在任何输入下是否可能发生越界访问。此外，它还进一步分析GPU代码，追踪内存分配的逻辑划分情况，以检测分配内越界。\n\n与NVIDIA的Compute Sanitizer相比（该工具在20个程序中遗漏了45个难以发现的内存错误），SCuBA成功检测出所有错误，且无任何误报。"
+  }
+]
