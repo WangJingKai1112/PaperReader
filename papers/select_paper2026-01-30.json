@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-1-30",
+    "title": "Hardware-Software Co-Development for Emerging CXL Architectures",
+    "authors": "Roberto Gioiosa, Bo Fang, Lenny Guo, Andres Marquez",
+    "publish": "Proceedings of the International Symposium on Memory Systems",
+    "url": "https://doi.org/10.1145/3767110.3767113",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向新兴CXL架构的软硬件协同开发",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-30",
+    "title": "A Side-channel Framework and Microarchitectural Analysis Application",
+    "authors": "Jennie Hill",
+    "publish": "Proceedings of the International Symposium on Memory Systems",
+    "url": "https://doi.org/10.1145/3767110.3767139",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "一种侧信道框架与微架构分析应用",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-1-30",
+    "title": "Opportunities and Challenges: Hardware Vulnerability descriptions with Hybrid Logic",
+    "authors": "William Casey",
+    "publish": "Proceedings of the International Symposium on Memory Systems",
+    "url": "https://doi.org/10.1145/3767110.3767134",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "机遇与挑战：基于混合逻辑的硬件漏洞描述",
+    "abstract_zh": "None"
+  }
+]
