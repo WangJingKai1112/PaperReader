@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2026-02-02",
+    "title": "SysFuSS: System-Level Firmware Fuzzing with Selective Symbolic Execution",
+    "authors": "Dakshina Tharindu, Aruna Jayasena, Prabhat Mishra",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.02243v1",
+    "source": "arXiv",
+    "abstract": "Firmware serves as the critical interface between hardware and software in computing systems, making any bugs or vulnerabilities particularly dangerous as they can cause catastrophic system failures. While fuzzing is a promising approach for identifying design flaws and security vulnerabilities, traditional fuzzers are ineffective at detecting firmware vulnerabilities. For example, existing fuzzers focus on user-level fuzzing, which is not suitable for detecting kernel-level vulnerabilities. Existing fuzzers also face a coverage plateau problem when dealing with complex interactions between firmware and hardware. In this paper, we present an efficient firmware verification framework, SysFuSS, that integrates system-level fuzzing with selective symbolic execution. Our approach leverages system-level emulation for initial fuzzing, and automatically transitions to symbolic execution when coverage reaches a plateau. This strategy enables us to generate targeted test cases that can trigger previously unexplored regions in firmware designs. We have evaluated SysFuSS on real-world embedded firmware, including OpenSSL, WolfBoot, WolfMQTT, HTSlib, MXML, and libIEC. Experimental evaluation demonstrates that SysFuSS significantly outperforms state-of-the-art fuzzers in terms of both branch coverage and detection of firmware vulnerabilities. Specifically, SysFuSS can detect 118 known vulnerabilities while state-of-the-art can cover only 13 of them. Moreover, SysFuSS takes significantly less time (up to 3.3X, 1.7X on average) to activate these vulnerabilities.",
+    "title_zh": "SysFuSS：基于选择性符号执行的系统级固件模糊测试",
+    "abstract_zh": "固件在计算系统中充当硬件与软件之间的关键接口，因此任何缺陷或漏洞都可能引发灾难性的系统故障，危害尤为严重。尽管模糊测试（fuzzing）是一种发现设计缺陷和安全漏洞的有效方法，但传统的模糊测试工具在检测固件漏洞方面效果不佳。例如，现有的模糊测试工具主要集中在用户级测试，难以适用于检测内核级漏洞。此外，在处理固件与硬件之间复杂交互时，现有模糊测试工具还面临代码覆盖率停滞（coverage plateau）的问题。\n\n本文提出了一种高效的固件验证框架SysFuSS，该框架将系统级模糊测试与选择性符号执行相结合。我们的方法首先利用系统级仿真进行初始模糊测试，当覆盖率进入平台期时，自动切换至符号执行。这一策略使我们能够生成有针对性的测试用例，触发固件设计中此前未被探索的代码区域。\n\n我们在多个真实世界的嵌入式固件上对SysFuSS进行了评估，包括OpenSSL、WolfBoot、WolfMQTT、HTSlib、MXML和libIEC。实验结果表明，与当前最先进的模糊测试工具相比，SysFuSS在分支覆盖率和固件漏洞检测能力方面均显著优于现有方法。具体而言，SysFuSS能够检测出118个已知漏洞，而最先进的工具仅能覆盖其中13个。此外，SysFuSS激活这些漏洞所需时间显著更短，平均快1.7倍，最高可达3.3倍。"
+  },
+  {
+    "date": "2026-02-02",
+    "title": "OmniCode: A Benchmark for Evaluating Software Engineering Agents",
+    "authors": "Atharv Sonwane, Eng-Shen Tu, Wei-Chung Lu, Claas Beger, Carter Larsen, Debjit Dhar, Rachel Chen, Ronit Pattanayak, Tuan Anh Dang, Guohao Chen, Gloria Geng, Kevin Ellis, Saikat Dutta",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.02262v1",
+    "source": "arXiv",
+    "abstract": "LLM-powered coding agents are redefining how real-world software is developed. To drive the research towards better coding agents, we require challenging benchmarks that can rigorously evaluate the ability of such agents to perform various software engineering tasks. However, popular coding benchmarks such as HumanEval and SWE-Bench focus on narrowly scoped tasks such as competition programming and patch generation. In reality, software engineers have to handle a broader set of tasks for real-world software development. To address this gap, we propose OmniCode, a novel software engineering benchmark that contains a broader and more diverse set of task categories beyond code or patch generation. Overall, OmniCode contains 1794 tasks spanning three programming languages (Python, Java, and C++) and four key categories: bug fixing, test generation, code review fixing, and style fixing. In contrast to prior software engineering benchmarks, the tasks in OmniCode are (1) manually validated to eliminate ill-defined problems, and (2) synthetically crafted or recently curated to avoid data leakage issues, presenting a new framework for synthetically generating diverse software tasks from limited real-world data. We evaluate OmniCode with popular agent frameworks such as SWE-Agent and show that while they may perform well on bug fixing for Python, they fall short on tasks such as Test Generation and in languages such as C++ and Java. For instance, SWE-Agent achieves a maximum of 20.9% with DeepSeek-V3.1 on Java Test Generation tasks. OmniCode aims to serve as a robust benchmark and spur the development of agents that can perform well across different aspects of software development. Code and data are available at https://github.com/seal-research/OmniCode.",
+    "title_zh": "OmniCode：用于评估软件工程代理的基准测试",
+    "abstract_zh": "由大语言模型（LLM）驱动的编码智能体正在重新定义现实世界中软件的开发方式。为了推动研究向更先进的编码智能体发展，我们需要具有挑战性的基准测试，以严格评估这些智能体执行各类软件工程任务的能力。然而，目前流行的编码基准（如 HumanEval 和 SWE-Bench）主要聚焦于范围狭窄的任务，例如竞赛编程和补丁生成。而在实际工作中，软件工程师需要处理更广泛多样的开发任务。为弥补这一差距，我们提出了 OmniCode——一个全新的软件工程基准，其任务类别远超传统的代码或补丁生成，涵盖更广泛且更多样化的任务类型。总体而言，OmniCode 包含 1794 个任务，覆盖三种编程语言（Python、Java 和 C++）以及四大关键类别：缺陷修复、测试生成、代码评审修复和代码风格修复。与以往的软件工程基准不同，OmniCode 中的任务具备以下特点：（1）经过人工验证，以消除定义不清的问题；（2）通过合成方式构建或近期精心整理，避免数据泄露问题，从而提出了一种从有限真实世界数据中合成生成多样化软件任务的新框架。我们使用 SWE-Agent 等主流智能体框架对 OmniCode 进行了评估，结果表明，尽管这些智能体在 Python 缺陷修复任务上表现尚可，但在测试生成任务以及 Java 和 C++ 等语言上表现不佳。例如，SWE-Agent 在 Java 测试生成任务上使用 DeepSeek-V3.1 最多仅能达到 20.9% 的成功率。OmniCode 旨在成为一个可靠的评估基准，推动能够胜任软件开发多个方面的高性能编码智能体的发展。代码和数据已公开，地址为：https://github.com/seal-research/OmniCode。"
+  },
+  {
+    "date": "2026-02-02",
+    "title": "Before Autonomy Takes Control: Software Testing in Robotics",
+    "authors": "Nils Chur, Thiago Santos de Moura, Argentina Ortega, Sven Peldszus, Thorsten Berger, Nico Hochgeschwender, Yannic Noller",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.02293v1",
+    "source": "arXiv",
+    "abstract": "Robotic systems are complex and safety-critical software systems. As such, they need to be tested thoroughly. Unfortunately, robot software is intrinsically hard to test compared to traditional software, mainly since the software needs to closely interact with hardware, account for uncertainty in its operational environment, handle disturbances, and act highly autonomously. However, given the large space in which robots operate, anticipating possible failures when designing tests is challenging. This paper presents a mapping study by considering robotics testing papers and relating them to the software testing theory. We consider 247 robotics testing papers and map them to software testing, discussing the state-of-the-art software testing in robotics with an illustrated example, and discuss current challenges. Forming the basis to introduce both the robotics and software engineering communities to software testing challenges. Finally, we identify open questions and lessons learned.",
+    "title_zh": "自主控制之前：机器人领域的软件测试",
+    "abstract_zh": "机器人系统是复杂且与安全密切相关的软件系统，因此必须进行充分的测试。然而，与传统软件相比，机器人软件本质上更难测试，主要原因在于其软件必须与硬件紧密交互，应对运行环境中的不确定性，处理各种干扰，并实现高度自主的行为。此外，由于机器人运行的空间范围广泛，在设计测试时难以预见到所有可能发生的故障。本文通过对机器人测试相关论文进行映射研究，将其与软件测试理论相关联。我们分析了247篇机器人测试领域的论文，并将其映射到软件测试领域，通过一个图解示例讨论了机器人领域中软件测试的最新研究现状，并探讨了当前面临的挑战。本研究旨在为机器人学和软件工程两个学术群体搭建桥梁，增进对软件测试挑战的理解。最后，我们指出了尚未解决的问题以及从中获得的经验教训。"
+  },
+  {
+    "date": "2026-02-02",
+    "title": "Phoenix: A Modular and Versatile Framework for C/C++ Pointer Analysis",
+    "authors": "Peisen Yao, Zinan Gu, Qingkai Shi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.01720v1",
+    "source": "arXiv",
+    "abstract": "We present Phoenix, a modular pointer analysis framework for C/C++ that unifies multiple state-of-the-art alias analysis algorithms behind a single, stable interface. Phoenix addresses the fragmentation of today's C/C++ pointer analysis ecosystem by cleanly separating IR construction, constraint generation, solver backends, and client-facing queries, making analyses easy to compare, swap, and compose while exposing explicit precision-performance trade-offs. We evaluate Phoenix against SVF under two representative configurations: a flow- and context-insensitive setting and a more precise flow- and context-sensitive setting, on 28 GNU coreutils programs. Phoenix delivers robust speedups in the baseline configuration (up to 2.88x) and remains competitive, and often faster, even in the stronger precision regime (up to 2.91x), without a systematic runtime penalty. In production, Phoenix serves as the analysis substrate for static analysis and fuzzing tools that have uncovered hundreds of new bugs and enabled deployments reporting more than 1000 bugs found in an industrial toolchain.",
+    "title_zh": "Phoenix：一个模块化且多功能的C/C++指针分析框架",
+    "abstract_zh": "我们提出了Phoenix，这是一个模块化的C/C++指针分析框架，它通过统一的稳定接口整合了多种先进的别名分析算法。Phoenix解决了当前C/C++指针分析生态碎片化的问题，通过清晰地分离中间表示（IR）构建、约束生成、求解器后端以及面向客户端的查询，使得不同分析方法易于比较、替换和组合，同时显式揭示了精度与性能之间的权衡。我们在28个GNU coreutils程序上，将Phoenix与SVF在两种典型配置下进行了评估：一种是流无关且上下文无关的设置，另一种是更精确的流敏感且上下文敏感的设置。实验表明，Phoenix在基础配置下实现了显著的加速（最高达2.88倍），即使在更高精度的配置下仍保持竞争力，甚至更快（最高达2.91倍），且未带来系统性的运行时开销。在实际生产中，Phoenix作为静态分析和模糊测试工具的分析基础，已帮助发现数百个新漏洞，并支持工业级工具链中的部署，报告发现的缺陷超过1000个。"
+  },
+  {
+    "date": "2026-02-02",
+    "title": "CHAOS: Controlled Hardware fAult injectOr System for gem5",
+    "authors": "Elio Vinciguerra, Enrico Russo, Giuseppe Ascia, Maurizio Palesi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.02119v1",
+    "source": "arXiv",
+    "abstract": "Fault injectors are essential tools for evaluating the reliability and resilience of computing systems. They enable the simulation of hardware and software faults to analyze system behavior under error conditions and assess its ability to operate correctly despite disruptions. Such analysis is critical for identifying vulnerabilities and improving system robustness. CHAOS is a modular, open-source, and fully configurable fault injection framework designed for the gem5 simulator. It facilitates precise and systematic fault injection across multiple architectural levels, supporting comprehensive evaluations of fault tolerance mechanisms and resilience strategies. Its high configurability and seamless integration with gem5 allow researchers to explore a wide range of fault models and complex scenarios, making CHAOS a valuable tool for advancing research in dependable and high-performance computing systems.",
+    "title_zh": "CHAOS：用于 gem5 的可控硬件故障注入系统",
+    "abstract_zh": "故障注入器是评估计算系统可靠性和弹性的关键工具。它们能够模拟硬件和软件故障，以分析系统在错误条件下的行为，并评估系统在遭受干扰时仍能正确运行的能力。此类分析对于识别系统漏洞并提升系统鲁棒性至关重要。CHAOS 是一个模块化、开源且完全可配置的故障注入框架，专为 gem5 模拟器设计。它支持在多个体系结构层次上进行精确且系统的故障注入，有助于全面评估容错机制和弹性策略。CHAOS 具有高度可配置性，并能与 gem5 无缝集成，使研究人员能够探索广泛的故障模型和复杂场景，因而成为推动高可靠性和高性能计算系统研究的重要工具。"
+  },
+  {
+    "date": "2026-2-2",
+    "title": "Model Reduction of Colored Petri Nets Based on Unrelated Transitions",
+    "authors": "Zhen Gao, Tao Sun",
+    "publish": "2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "url": "https://doi.org/10.1109/trustcom66490.2025.00271",
+    "source": "IEEE",
+    "abstract": "In the formal modeling and verification of trusted concurrent systems (such as distributed trusted computing platforms and secure communication protocols), the complex inter-leaving of behaviors easily triggers state space explosion, greatly reducing the efficiency of model checking. Although Colored Petri Nets (CPNs) can effectively represent concurrent behaviors and data interactions, their models often contain a large number of redundant structures irrelevant to the properties to be verified, thereby impairing the efficiency of verifying the core properties of trusted systems. This paper proposes a CPN model reduction method based on Unrelated Transitions—transitions in the model that have no data relationship with the properties to be verified. By identifying and eliminating behaviors irrelevant to the properties to be verified, the method achieves efficient state space reduction while ensuring the consistency of property verification results, thus providing technical support for the verification of trusted systems. Specifically, through data-flow analysis of property formulas, Unrelated Transitions with no data interaction with the target properties are identified. Then, all behaviors of the reduced model elements are integrated into adjacent model components. On the premise of preserving the model behaviors and their relationships (such as sequence, choice, and concurrency) unchanged, operations including arc expression encapsulation, conditional transfer, and arc redirection are employed to reduce the number of irrelevant nodes while ensuring the model remains connected and executable. Experimental results show that the state space of the reduced model is significantly compressed, and the verification results of the properties to be verified remain completely consistent before and after reduction, which demonstrates the effectiveness and correctness of the proposed method in improving the efficiency of modeling and verification for trusted systems.",
+    "title_zh": "基于无关变迁的有色Petri网模型约简",
+    "abstract_zh": "在可信并发系统（如分布式可信计算平台和安全通信协议）的形式化建模与验证中，行为的复杂交错容易引发状态空间爆炸，严重降低模型检测的效率。尽管有色Petri网（CPNs）能够有效表达并发行为和数据交互，但其模型通常包含大量与待验证性质无关的冗余结构，从而影响可信系统核心性质验证的效率。本文提出一种基于“无关变迁”的CPN模型约简方法——即模型中与待验证性质无数据关联的变迁。通过识别并消除与待验证性质无关的行为，在保证性质验证结果一致性的前提下，实现高效的状态空间约简，为可信系统的验证提供技术支持。具体而言，通过对性质公式进行数据流分析，识别出与目标性质无数据交互的无关变迁，随后将被约简模型元素的所有行为整合到相邻的模型组件中。在保持模型行为及其关系（如顺序、选择和并发）不变的前提下，采用弧表达式封装、条件转移和弧重定向等操作，在确保模型连通性和可执行性的同时，减少无关节点的数量。实验结果表明，约简后的模型状态空间显著压缩，且待验证性质的验证结果在约简前后完全一致，验证了所提方法在提升可信系统建模与验证效率方面的有效性与正确性。"
+  },
+  {
+    "date": "2026-2-2",
+    "title": "Improving Training Data Quality for Automated Test Case Generation Using Machine Learning and Its Evaluation",
+    "authors": "Taiga Ishinari, Kiyoshi Ueda, Yuki Shimizu",
+    "publish": "Proceedings of the 2025 8th International Conference on Computational Intelligence and Intelligent Systems",
+    "url": "https://doi.org/10.1145/3787256.3787263",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "使用机器学习改进自动化测试用例生成的训练数据质量及其评估",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-2-2",
+    "title": "Enhancing Data Security in RISC-V Embedded Systems: A Lightweight Architecture",
+    "authors": "Dunkai Mao, Lifeng Xi, Fujia Zhang",
+    "publish": "2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "url": "https://doi.org/10.1109/trustcom66490.2025.00382",
+    "source": "IEEE",
+    "abstract": "Ensuring robust, hardware-level data security has become an urgent challenge, driven by the proliferation of Reduced Instruction Set Computer (RISC-V) architectures in resource-constrained embedded systems. This paper focuses on key security aspects such as memory safety and execution privilege control in embedded platforms. We present NanoSafe, a lightweight RV64IMAZicsr_Zifencei pipelined CPU architecture designed in-house. By designing a subset of interrupts/exceptions, integrating their handling process, and implementing a custom priority scheme, we have realized the necessary security mechanisms within this lightweight CPU structure. This design effectively thwarts attack primitives such as out-of-bounds memory access, illegal instruction execution, and privilege escalation. It is suitable for various application scenarios, including storage device controllers, low-power network devices, and educational platforms for computer architecture.",
+    "title_zh": "RISC-V嵌入式系统中的数据安全增强：一种轻量级架构",
+    "abstract_zh": "确保强大的硬件级数据安全已成为一项紧迫的挑战，这主要受到精简指令集计算机（RISC-V）架构在资源受限的嵌入式系统中广泛应用的推动。本文聚焦于嵌入式平台中的关键安全问题，如内存安全和执行权限控制。我们提出了一种名为NanoSafe的轻量级RV64IMAZicsr_Zifencei流水线CPU架构，该架构为自主研发。通过设计中断/异常的子集，集成其处理流程，并实现自定义的优先级机制，我们在这一轻量级CPU结构中实现了必要的安全机制。该设计有效抵御了诸如越界内存访问、非法指令执行和权限提升等攻击原语。该架构适用于多种应用场景，包括存储设备控制器、低功耗网络设备以及计算机体系结构的教学平台。"
+  },
+  {
+    "date": "2026-2-2",
+    "title": "SPFuzz: Program-State-Aware Fuzzing for Mail Protocols",
+    "authors": "Hangzhou Fei, Xiaobing Xiong, Hui Shu",
+    "publish": "2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "url": "https://doi.org/10.1109/trustcom66490.2025.00313",
+    "source": "IEEE",
+    "abstract": "Mail has become a crucial tool in daily work and communication, making the security testing of mail protocols essential for identifying potential vulnerabilities. Fuzzing, as one of the most widely adopted vulnerability discovery techniques, has evolved into an automated and mature method extensively applied in both software and protocol testing across industry. Recently, several fuzzers targeting network protocols have been proposed; however, they suffer from notable limitations. These include insufficient or imprecise representations of protocol states, often relying on generalized state models that fail to capture the specific internal states of individual protocols.In this paper, we address these limitations by proposing SPFuzz, a state-aware fuzzing approach for mail protocols based on program states. We investigate typical implementations of mail protocol services to determine how their internal program states interact with clients. First, we model the program state using key variables; then, we perform compile-time instrumentation to track these variables and infer runtime state transitions of the mail protocol implementations. Finally, we leverage the state information to prioritize test cases that are more likely to trigger new states and apply state feedback to refine the mutation strategy of a coverage-guided fuzzer. We implemented a prototype of SPFuzz and evaluated it on multiple real-world mail protocol programs. Experimental results demonstrate that SPFuzz significantly outperforms state-of-the-art fuzzers, including AFLNET and StateAFL, in terms of both code and state coverage. Specifically, SPFuzz achieves average improvements of 148.75% in the number of discovered states, 7.09% in state space coverage, 43.98% in map density, and 11.48% in branch coverage.",
+    "title_zh": "SPFuzz：面向邮件协议的程序状态感知模糊测试",
+    "abstract_zh": "电子邮件已成为日常工作中至关重要的沟通工具，因此对邮件协议进行安全测试，以识别潜在漏洞，显得尤为关键。模糊测试（Fuzzing）作为最广泛采用的漏洞发现技术之一，已发展为一种自动化且成熟的方法，被广泛应用于工业界和学术界的软件与协议测试中。近年来，尽管已有多个面向网络协议的模糊测试工具被提出，但它们仍存在明显局限性，例如对协议状态的表示不足或不精确，通常依赖通用的状态模型，难以准确捕捉特定协议的内部状态细节。\n\n本文针对上述问题，提出SPFuzz——一种基于程序状态的、具备状态感知能力的邮件协议模糊测试方法。我们通过研究典型邮件协议服务的实现方式，分析其内部程序状态如何与客户端交互。首先，我们利用关键变量对程序状态进行建模；随后，通过编译时插桩技术追踪这些变量，推断邮件协议实现中的运行时状态转换。最后，我们利用所获取的状态信息，优先选择更有可能触发新状态的测试用例，并结合状态反馈机制优化基于覆盖率引导的模糊测试器的变异策略。\n\n我们实现了SPFuzz的原型系统，并在多个真实世界的邮件协议程序上进行了评估。实验结果表明，SPFuzz在代码覆盖率和状态覆盖率方面均显著优于当前先进的模糊测试工具（如AFLNET和StateAFL）。具体而言，SPFuzz在发现的状态数量上平均提升了148.75%，在状态空间覆盖率上提升了7.09%，在映射密度（map density）上提升了43.98%，在分支覆盖率上提升了11.48%。"
+  },
+  {
+    "date": "2026-2-2",
+    "title": "DeepLancet: Effectively Detecting Deep Learning Library Bugs via LLM-assisted Testcase Generation",
+    "authors": "Zihao Luo, Baojian Hua",
+    "publish": "2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "url": "https://doi.org/10.1109/trustcom66490.2025.00349",
+    "source": "IEEE",
+    "abstract": "Deep learning libraries such as PyTorch and TensorFlow are essential for building security-critical downstream deep learning applications. Bugs in these libraries compromise their correctness, robustness, and security, thereby undermining the reliability of downstream applications. Unfortunately, effectively detecting bugs in deep learning library remains challenging, as existing approaches often fail to generate effective test cases due to their inability to synthesize complex input constraints that govern deep learning library functions.In this paper, we present DeepLancet, the first approach for effectively detecting deep learning library bugs by leveraging large language models (LLMs) to systematically parse documentation and thereby assist in the generation of high-quality test cases. Our key observation is that mainstream deep learning libraries typically provide comprehensive and well-structured documentation, which contains detailed descriptions of input constraints that we can effectively synthesize and leverage to generate syntactically valid and semantically correct test cases. Specifically, we first synthesize function constraint descriptions from the documentation by leveraging LLMs. We then generate rigorous constraints which are leveraged to generate test cases through an attribution-based approach in Python. Finally, we employ a differential testing approach on CPU and GPU to detect bugs. We build a software prototype for DeepLancet, and our evaluation results demonstrate that DeepLancet is effective in uncovering previously unknown real-world bugs: it successfully uncovers 20 bugs in the latest release of PyTorch, including 7 previously unknown ones. Moreover, we compare DeepLancet with DocTer, a state-of-the-art technique that also leverages documentation for constraint extraction, and the results indicate that DeepLancet can extract more comprehensive constraints, thereby uncovering 3 more bugs that were missed by DocTer.",
+    "title_zh": "DeepLancet：通过大语言模型辅助的测试用例生成有效检测深度学习库缺陷",
+    "abstract_zh": "诸如 PyTorch 和 TensorFlow 之类的深度学习库对于构建安全关键的下游深度学习应用至关重要。这些库中的漏洞会损害其正确性、鲁棒性和安全性，从而削弱下游应用的可靠性。然而，有效检测深度学习库中的漏洞仍然具有挑战性，因为现有方法往往难以生成有效的测试用例，其原因在于无法合成控制深度学习库函数的复杂输入约束。本文提出了 DeepLancet，这是首个通过利用大语言模型（LLMs）系统解析文档以辅助生成高质量测试用例，从而有效检测深度学习库漏洞的方法。我们的核心观察是，主流深度学习库通常提供全面且结构良好的文档，其中包含有关输入约束的详细描述，我们可以有效合成并利用这些信息生成语法正确且语义合理的测试用例。具体而言，我们首先利用大语言模型从文档中合成函数约束描述；然后通过基于属性的方法在 Python 中生成严格的约束，用于生成测试用例；最后，我们采用差异测试方法在 CPU 和 GPU 上检测漏洞。我们实现了 DeepLancet 的软件原型，评估结果表明，DeepLancet 在发现先前未知的真实世界漏洞方面非常有效：它在最新版本的 PyTorch 中成功发现了 20 个漏洞，其中包括 7 个此前未知的漏洞。此外，我们将 DeepLancet 与 DocTer（一种同样利用文档进行约束提取的前沿技术）进行了比较，结果表明，DeepLancet 能够提取更全面的约束，从而发现了 DocTer 未能检测到的额外 3 个漏洞。"
+  },
+  {
+    "date": "2026-2-2",
+    "title": "FaultSpy: On the Insecurity of SPDM Protocols under Fault Injection",
+    "authors": "Peiyao Sun, Qifan Wang, David Oswald, Mark Dermot Ryan, Vladimiro Sassone, Ahmad Atamli",
+    "publish": "2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "url": "https://doi.org/10.1109/trustcom66490.2025.00252",
+    "source": "IEEE",
+    "abstract": "The Security Protocol and Data Model (SPDM) establishes device-level trust in hardware platforms through authentication, attestation, and secure session establishment. While prior research has focused on formal analyses and deployment considerations, the impact of implementation-level vulnerabilities, particularly under active physical adversaries, remains largely underexplored. This work presents FaultSpy, the first systematic framework for evaluating SPDM against Fault Injection Attacks (FIAs) and their combination with other prominent attack vectors, such as Man-In-The-Middle (MITM) attacks. Leveraging the fault injection simulation tool, FaultFinder, with our custom SPDM-specific hooks, we uncover nine concrete vulnerabilities spanning both threat models. These include bypassing mutual authentication, suppressing signature generation and verification, downgrading negotiated capabilities, skipping mandatory protocol steps, manipulating key update behavior, transmitting messages intended to be encrypted in plaintext, and extracting session keys. We further validate the feasibility of these attacks through practical voltage glitching experiments on an RP2350 microcontroller. Our findings demonstrate that FIAs-whether in isolation or combined with other attacks-significantly expand the SPDM attack surface, highlighting the need for robust implementation-level countermeasures.",
+    "title_zh": "FaultSpy：关于SPDM协议在故障注入下的不安全性",
+    "abstract_zh": "安全协议与数据模型（SPDM）通过身份认证、远程证明和安全会话建立，在硬件平台上实现设备级的信任。尽管已有研究主要集中在形式化分析和部署考量上，但实现层面的漏洞影响，尤其是在主动物理攻击者环境下的风险，仍鲜有深入探讨。本文提出了FaultSpy，这是首个系统性评估SPDM抵御故障注入攻击（FIA）及其与其他主要攻击向量（如中间人攻击，MITM）组合威胁的框架。我们利用故障注入仿真工具FaultFinder，并结合自定义的SPDM专用钩子，发现了跨越两种威胁模型的九个具体漏洞。这些漏洞包括：绕过双向身份认证、抑制签名生成与验证、降低协商能力、跳过必要的协议步骤、操纵密钥更新行为、以明文传输本应加密的消息，以及提取会话密钥。我们进一步在RP2350微控制器上通过实际的电压毛刺实验验证了这些攻击的可行性。研究结果表明，无论是单独实施还是与其他攻击结合，故障注入攻击都显著扩大了SPDM的攻击面，凸显出加强实现层级防护措施的迫切需求。"
+  },
+  {
+    "date": "2026-2-2",
+    "title": "Building Provably Secure Pseudo-Strong PUFs via Weak PUFs and Pseudorandom Functions for Cryptographic Protocols",
+    "authors": "Chenghao Chen, Xiaolin Zhang, Kailun Qin, Tengfei Wang, Yipeng Shi, Tianyi Huang, Chi Zhang, Dawu Gu",
+    "publish": "2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "url": "https://doi.org/10.1109/trustcom66490.2025.00097",
+    "source": "IEEE",
+    "abstract": "Physical Unclonable Functions (PUFs) are widely used in hardware security due to their inherent unclonability and randomness. However, the temporal instability of strong PUFs remains a barrier to their adoption in latest PUF-based cryptographic protocols, as it incurs significant overhead from error correction. In this paper, we propose PS-PUF, a novel architecture that leverages weak PUFs and cryptographically secure pseudorandom functions (PRFs) to construct a pseudo-strong PUF with stable and reproducible outputs. Our design includes a PRF for secure mapping, and a buffer to optimize performance in batch-access scenarios. We formally analyze the threat surface of PS-PUF and provide cryptographic security proofs showing resistance against modeling attacks. Implemented on the Genesys 2 FPGA, PS-PUF achieves at least 2<inf xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">.</inf>72× in batch scenarios with negligible hardware overhead and a maximum performance reduction of 10<inf xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">.</inf>7%, enabled by reusing the PRF module in integrated environments.",
+    "title_zh": "通过弱物理不可克隆函数和伪随机函数构建可证明安全的伪强物理不可克隆函数以用于密码协议",
+    "abstract_zh": "物理不可克隆函数（PUF）由于其固有的不可克隆性和随机性，被广泛应用于硬件安全领域。然而，强PUF的时间不稳定性仍然是其在最新PUF基密码协议中应用的主要障碍，因为它会因纠错而带来显著的开销。本文提出了一种名为PS-PUF的新型架构，该架构利用弱PUF和密码学安全的伪随机函数（PRF），构建出具有稳定且可重现输出的伪强PUF。我们的设计包含一个用于安全映射的PRF模块，以及一个用于优化批量访问场景性能的缓冲区。我们对PS-PUF的威胁面进行了形式化分析，并提供了密码学安全证明，表明其能够抵抗建模攻击。在Genesys 2 FPGA上的实现结果表明，PS-PUF在批量访问场景下性能提升至少达2.72倍，硬件开销极小，且在集成环境中通过复用PRF模块，最大性能下降仅为10.7%。"
+  },
+  {
+    "date": "2026-2-2",
+    "title": "BayesFuzz: Bayesian-Based Greybox Fuzzing for Stateful Protocols",
+    "authors": "Jianwen Xiang, Junwei Jiang, Songsong Liao, Xueming Zhang, Rui Hao",
+    "publish": "2025 IEEE 24th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)",
+    "url": "https://doi.org/10.1109/trustcom66490.2025.00170",
+    "source": "IEEE",
+    "abstract": "Protocols serve as the foundation for communication between devices and systems in modern computing environments. However, their widespread use also exposes them to various security threats. A flaw in protocol implementation can be exploited to compromise system security, leading to severe disruptions or unauthorized access. Fuzzing has become a widely used technique for protocol vulnerability detection. However, the existing protocol fuzzing approaches often lack effective guidance strategies for exploring the complex protocol state space, which leads to limited coverage and suboptimal testing efficiency.In this paper, we propose BayesFuzz, a Bayesian-guided greybox fuzzing approach for stateful protocols. It maintains a probability table to record the probability of sending different messages and triggering different state transitions in the current state. This table is updated via Bayesian inference based on feedback from each fuzzing iteration. Accordingly, BayesFuzz is able to select the optimal message for the current state during test case generation, thereby improving fuzzing efficiency in complex stateful protocols. Experimental results confirm the effectiveness of BayesFuzz. Compared with state-of-the-art fuzzers BooFuzz and AFLNET, BayesFuzz increases branch coverage by averagely 23.18% and 45.3% within 24 hours. Furthermore, it successfully discovered an unknown vulnerability in the MQTT protocol implementation.",
+    "title_zh": "BayesFuzz：基于贝叶斯的有状态协议灰盒模糊测试",
+    "abstract_zh": "协议是现代计算环境中设备与系统之间通信的基础。然而，协议的广泛使用也使其面临各种安全威胁。协议实现中的漏洞可能被利用，从而破坏系统安全，导致严重的服务中断或未授权访问。模糊测试（Fuzzing）已成为检测协议漏洞的常用技术。然而，现有的协议模糊测试方法通常缺乏有效的引导策略来探索复杂的协议状态空间，导致测试覆盖率有限、效率不高。\n\n本文提出了一种基于贝叶斯引导的灰盒模糊测试方法 BayesFuzz，用于有状态协议的漏洞检测。该方法维护一个概率表，用于记录在当前状态下发送不同消息及触发不同状态转移的概率，并通过贝叶斯推理根据每次模糊测试的反馈动态更新该表。基于此，BayesFuzz 能够在测试用例生成过程中为当前状态选择最优的消息，从而提升在复杂有状态协议中的模糊测试效率。\n\n实验结果验证了 BayesFuzz 的有效性。在24小时内，与当前先进的模糊测试工具 BooFuzz 和 AFLNET 相比，BayesFuzz 的分支覆盖率平均提升了 23.18% 和 45.3%。此外，该方法成功发现了一个 MQTT 协议实现中的未知漏洞。"
+  }
+]
