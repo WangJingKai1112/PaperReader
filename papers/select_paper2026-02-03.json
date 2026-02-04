@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2026-02-03",
+    "title": "Symbolic Model Checking using Intervals of Vectors",
+    "authors": "Damien Morard, Lucas Donati, Didier Buchs",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.03565v1",
+    "source": "arXiv",
+    "abstract": "Model checking is a powerful technique for software verification. However, the approach notably suffers from the infamous state space explosion problem. To tackle this, in this paper, we introduce a novel symbolic method for encoding Petri net markings. It is based on the use of generalised intervals on vectors, as opposed to existing methods based on vectors of intervals such as Interval Decision Diagrams. We develop a formalisation of these intervals, show that they possess homomorphic operations for model checking CTL on Petri nets, and define a canonical form that provides good performance characteristics. Our structure facilitates the symbolic evaluation of CTL formulas in the realm of global model checking, which aims to identify every state that satisfies a formula. Tests on examples of the model checking contest (MCC 2022) show that our approach yields promising results. To achieve this, we implement efficient computations based on saturation and clustering principles derived from other symbolic model checking techniques.",
+    "title_zh": "使用向量区间进行符号模型检验",
+    "abstract_zh": "模型检验是一种强大的软件验证技术。然而，该方法显著地受到著名的状态空间爆炸问题的困扰。为应对这一问题，本文提出了一种用于编码Petri网标识的新颖符号化方法。该方法基于向量上的广义区间，而非现有基于区间向量的方法（如区间决策图）。我们对这些区间进行了形式化定义，证明了其在Petri网上对CTL模型检验具有同态运算特性，并定义了一种具有优良性能特征的规范形式。我们的结构有助于在全局模型检验领域中对CTL公式进行符号化求值，其目标是识别出满足公式的每一个状态。在模型检验竞赛（MCC 2022）实例上的测试表明，我们的方法取得了令人鼓舞的结果。为实现这一目标，我们基于其他符号化模型检验技术中的饱和与聚类原理，实现了高效的计算方法。"
+  },
+  {
+    "date": "2026-02-03",
+    "title": "Quantum Circuit Generation via test-time learning with large language models",
+    "authors": "Adriano Macarone-Palmieri",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.03466v1",
+    "source": "arXiv",
+    "abstract": "Large language models (LLMs) can generate structured artifacts, but using them as dependable optimizers for scientific design requires a mechanism for iterative improvement under black-box evaluation. Here, we cast quantum circuit synthesis as a closed-loop, test-time optimization problem: an LLM proposes edits to a fixed-length gate list, and an external simulator evaluates the resulting state with the Meyer-Wallach (MW) global entanglement measure. We introduce a lightweight test-time learning recipe that can reuse prior high-performing candidates as an explicit memory trace, augments prompts with a score-difference feedback, and applies restart-from-the-best sampling to escape potential plateaus. Across fixed 20-qubit settings, the loop without feedback and restart-from-the-best improves random initial circuits over a range of gate budgets. To lift up this performance and success rate, we use the full learning strategy. For 25-qubit, it mitigates a pronounced performance plateau when naive querying is used. Beyond raw scores, we analyze the structure of synthesized states and find that high MW solutions can correspond to stabilizer or graph-state-like constructions, but full connectivity is not guaranteed due to the metric property and prompt design. These results illustrate both the promise and the pitfalls of memory evaluator-guided LLM optimization for circuit synthesis, highlighting the critical role of prior human-made theoretical theorem to optimally design a custom tool in support of research.",
+    "title_zh": "基于大语言模型的测试时学习实现量子电路生成",
+    "abstract_zh": "大型语言模型（LLMs）能够生成结构化产物，但要将其用作科学设计中可靠的优化器，就需要在黑箱评估条件下实现迭代改进的机制。本文中，我们将量子电路综合建模为一个闭环的、测试时优化问题：LLM对固定长度的门序列提出修改建议，外部模拟器则利用Meyer-Wallach（MW）全局纠缠度量来评估所生成量子态的性能。我们提出了一种轻量级的测试时学习策略，该策略可重用过往高性能候选方案作为显式记忆轨迹，在提示中加入得分差异反馈，并采用“从最优重启采样”方法以逃离潜在的性能平台期。在固定20量子比特的设置下，即使不使用反馈和重启机制，该循环仍能在多种门资源预算下持续改进随机初始电路。为进一步提升性能和成功率，我们采用了完整的训练策略；在25量子比特场景中，该策略有效缓解了朴素查询方法所导致的显著性能停滞问题。除了最终得分外，我们还分析了所合成量子态的结构，发现高MW值的解可能对应于稳定子态或图态类结构，但由于度量本身的特性和提示设计的限制，无法保证实现完全连接。这些结果既展示了在记忆-评估器引导下，利用LLM进行电路综合的潜力，也揭示了其中的陷阱，突显了人类已有理论定理在定制化科研工具最优设计中的关键作用。"
+  },
+  {
+    "date": "2026-02-03",
+    "title": "ATLAS MDT TDC Simulations for LHC Run3 and HL-LHC",
+    "authors": "Jiajin Ge, Bing Li, Markus Fras, Junjie Zhu, Bing Zhou, Tiesheng Dai",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.03795v1",
+    "source": "arXiv",
+    "abstract": "The Large Hadron Collider (LHC) started the Run 3 operation in 2022, and the peak instantaneous luminosity in Run 3 may reach 3 x 10^34 cm-2s-1. The ATLAS Monitored Drift Tube (MDT) chambers are the main component of the precision tracking system in the ATLAS muon spectrometer. It is important to understand any potential issues with the MDT Front-End (FE) readout electronics for an expected level-1 (L1) trigger rate of 100 kHz and a complex deadtime of over 5% for Run 3 operations. We use raw data collected in 2022 to emulate the expected hit rates in MDT chambers and perform a realistic simulation on the ATLAS Muon TDC (Time-to-Digital Converter) (AMT) chip with the current configuration. We study the AMT chip performances by analyzing the trigger/L1/readout buffer occupancies and hit loss fractions under different luminosities with L1 rate of 100 kHz by using the Modelsim software. The hit loss fraction of the hottest MDT chamber (BIL3C05) is lower than 5% due to FE readout, even at a luminosity of 5.01 x 10^34 cm-2s-1 with a deadtime of 5% and a L1 rate of 100 kHz, indicating that AMT can operate under Run 3 conditions without problems. The MDT trigger and readout electronics will be replaced for triggerless readout during High-Luminosity LHC (HL-LHC) runs. We also simulate the AMT behavior in the triggerless mode up to 7.44 x 10^34 cm-2s-1 and propose possible AMT configurations in case some FE electronics could not be replaced during the long shutdown 3 (LS3).",
+    "title_zh": "LHC Run3 和 HL-LHC 的 ATLAS MDT TDC 仿真",
+    "abstract_zh": "大型强子对撞机（LHC）于2022年启动了第三轮运行（Run 3），其峰值瞬时亮度可能达到3 × 10³⁴ cm⁻²s⁻¹。ATLAS探测器的监控漂移管（MDT）室是其μ子谱仪中精密跟踪系统的主要组成部分。在Run 3运行期间，一级（L1）触发频率预计为100 kHz，且系统复杂死时间超过5%，因此了解MDT前端（FE）读出电子学中可能存在的问题至关重要。我们利用2022年采集的原始数据，模拟MDT室中的预期击中率，并基于当前配置对ATLAS μ子TDC（时间-数字转换器，即AMT）芯片进行真实情况下的仿真。通过使用Modelsim软件分析在不同亮度下、L1触发率为100 kHz时的触发/L1/读出缓冲区占用率及击中丢失比例，研究了AMT芯片的性能。结果表明，即使在亮度高达5.01 × 10³⁴ cm⁻²s⁻¹、死时间为5%、L1触发率为100 kHz的极端条件下，最繁忙的MDT室（BIL3C05）因前端读出导致的击中丢失比例仍低于5%，说明AMT芯片能够在Run 3运行条件下正常工作。然而，在高亮度LHC（HL-LHC）运行期间，MDT的触发与读出电子学系统将被更换为无触发（triggerless）读出模式。本文还模拟了AMT芯片在无触发模式下、亮度高达7.44 × 10³⁴ cm⁻²s⁻¹时的行为，并针对长停机期3（LS3）期间部分前端电子学可能无法更换的情况，提出了可行的AMT配置方案。"
+  },
+  {
+    "date": "2026-02-03",
+    "title": "Reference-Free EM Validation Flow for Detecting Triggered Hardware Trojans",
+    "authors": "Mahsa Tahghigh, Hassan Salmani",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.03666v1",
+    "source": "arXiv",
+    "abstract": "Hardware Trojans (HTs) threaten the trust and reliability of integrated circuits (ICs), particularly when triggered HTs remain dormant during standard testing and activate only under rare conditions. Existing electromagnetic (EM) side-channel-based detection techniques often rely on golden references or labeled data, which are infeasible in modern distributed manufacturing. This paper introduces a reference-free, design-agnostic framework for detecting triggered HTs directly from post-silicon EM emissions. The proposed flow converts each EM trace into a time-frequency scalogram using Continuous Wavelet Transform (CWT), extracts discriminative features through a convolutional neural network (CNN), reduces dimensionality with principal component analysis (PCA), and applies Bayesian Gaussian Mixture Modeling (BGMM) for unsupervised probabilistic clustering. The framework quantifies detection confidence using posterior-based metrics (alpha_{post}, beta_{post}), Bayesian information criterion (Delta BIC), and Mahalanobis cluster separation (D), enabling interpretable anomaly decisions without golden data. Experimental validation on AES-128 designs embedded with four different HTs demonstrates high separability between HT-free and HT-activated conditions and robustness to PCA variance thresholds. The results highlight the method's scalability, statistical interpretability, and potential for extension to runtime and in-field HT monitoring in trusted microelectronics.",
+    "title_zh": "无需参考的硬件木马触发检测EM验证流程",
+    "abstract_zh": "硬件木马（HT）威胁着集成电路（IC）的可信性与可靠性，尤其当这些木马在标准测试期间保持休眠状态，仅在罕见条件下被激活时，更难以检测。现有的基于电磁（EM）侧信道的检测技术通常依赖于“黄金参考”或标注数据，而这些在现代分布式制造环境中难以获取。本文提出一种无需参考、与设计无关的框架，可直接从硅后阶段的电磁辐射信号中检测已被激活的硬件木马。该方法流程首先利用连续小波变换（CWT）将每条电磁轨迹转换为时频尺度图，然后通过卷积神经网络（CNN）提取判别性特征，再使用主成分分析（PCA）进行降维，最后采用贝叶斯高斯混合模型（BGMM）实现无监督的概率聚类。该框架通过基于后验的度量指标（alpha_{post}、beta_{post}）、贝叶斯信息准则（Delta BIC）以及马氏距离聚类分离度（D）来量化检测置信度，从而在无需黄金数据的情况下实现可解释的异常判定。在嵌入四种不同类型硬件木马的AES-128设计上的实验验证表明，该方法能有效区分无木马与木马激活状态，且对PCA的方差阈值具有较强鲁棒性。结果表明，该方法具备良好的可扩展性、统计可解释性，并有望扩展应用于可信微电子系统中的运行时及现场硬件木马监测。"
+  },
+  {
+    "date": "2026-02-03",
+    "title": "Formal Evidence Generation for Assurance Cases for Robotic Software Models",
+    "authors": "Fang Yan, Simon Foster, Ana Cavalcanti, Ibrahim Habli, James Baxter",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.03550v1",
+    "source": "arXiv",
+    "abstract": "Robotics and Autonomous Systems are increasingly deployed in safety-critical domains, so that demonstrating their safety is essential. Assurance Cases (ACs) provide structured arguments supported by evidence, but generating and maintaining this evidence is labour-intensive, error-prone, and difficult to keep consistent as systems evolve. We present a model-based approach to systematically generating AC evidence by embedding formal verification into the assurance workflow. The approach addresses three challenges: systematically deriving formal assertions from natural language requirements using templates, orchestrating multiple formal verification tools to handle diverse property types, and integrating formal evidence production into the workflow. Leveraging RoboChart, a domain-specific modelling language with formal semantics, we combine model checking and theorem proving in our approach. Structured requirements are automatically transformed into formal assertions using predefined templates, and verification results are automatically integrated as evidence. Case studies demonstrate the effectiveness of our approach.",
+    "title_zh": "机器人软件模型保证案例的形式化证据生成",
+    "abstract_zh": "机器人技术与自主系统正越来越多地应用于安全关键领域，因此证明其安全性至关重要。保证案例（Assurance Cases, ACs）通过结构化论证并辅以证据来支持安全性论证，但生成和维护这些证据的过程耗时费力、容易出错，并且随着系统的演化难以保持一致性。本文提出一种基于模型的方法，通过将形式化验证嵌入保证流程中，系统化地生成AC证据。该方法解决了三个挑战：利用模板从自然语言需求中系统化地推导出形式化断言；协调多种形式化验证工具以处理不同类型的性质；以及将形式化证据的生成过程集成到工作流程中。我们采用具有形式化语义的领域专用建模语言RoboChart，结合模型检验与定理证明技术。结构化需求通过预定义模板自动转换为形式化断言，验证结果则自动作为证据集成到保证案例中。案例研究验证了该方法的有效性。"
+  },
+  {
+    "date": "2026-2-3",
+    "title": "Automatic SystemVerilog Assertion Generation: Challenges and Opportunities",
+    "authors": "Raheel Afsharmazayejani, Hammond Pearce, Benjamin Tan",
+    "publish": "2025 IEEE Canadian Conference on Electrical and Computer Engineering (CCECE)",
+    "url": "https://doi.org/10.1109/ccece64018.2025.11364438",
+    "source": "IEEE",
+    "abstract": "As modern semiconductor devices have become increasingly complex, guaranteeing their functional correctness and security assurance has become more challenging. Assertion-based verification (ABV) is a typical method to detect functional and security issues at the RTL stage of the design process. Properties - often expressed as SystemVerilog Assertions (SVAs) - are constructed to formally specify a design’s expected behavior by enabling automatic checks during simulation and formal verification. Although writing assertions enhances semiconductor assurance before fabrication, it requires expertise and is a time-consuming process, motivating the development of automated methods to facilitate the entire procedure. This article explores the various methodologies and best practices to enhance the automation of the SVA generation and presents insights into the challenges and opportunities in this area.",
+    "title_zh": "自动SystemVerilog断言生成：挑战与机遇",
+    "abstract_zh": "随着现代半导体器件变得日益复杂，确保其功能正确性和安全性也变得更加具有挑战性。基于断言的验证（ABV）是设计流程RTL阶段检测功能和安全问题的一种典型方法。通过构建属性——通常以SystemVerilog断言（SVA）的形式表达——可以形式化地描述设计的预期行为，从而在仿真和形式验证过程中实现自动检查。尽管编写断言有助于在制造前提升半导体的可靠性，但这一过程需要专业知识且耗时较长，因此推动了自动化方法的发展以简化整个流程。本文探讨了增强SVA自动生成的各种方法和最佳实践，并深入分析了该领域面临的挑战与机遇。"
+  },
+  {
+    "date": "2026-2-3",
+    "title": "Ultra-Fast and Accurate Estimation of Large-Scale &amp; Multi-Level Mesh-Based On-chip Architectures using Machine Learning and Multiprocessing",
+    "authors": "Anil Kumar, Basavaraj Talawar, S. Mahadevi",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3659944",
+    "source": "IEEE",
+    "abstract": "Packet Switching On-Chip Network technology has taken over conventional bus-based on-chips since it combines multiple cores into a single chip, enabling the implementation of numerous complicated applications. The evaluation of NoC design performance depends mainly on simulation, which becomes very slow with increasing architectural size and needs more information about how different design parameters affect the actual performance of the network. As a result, using simulation for optimization is exceedingly challenging, and these systems must be verified using distinct simulated traffic flows of various topological sizes. Thus, we present a Machine Learning (ML) framework to examine the design parameters of 2D and 3D NoC architectures paired with multiprocessing since these need to be evaluated on different configurations. The Multiprocessing Regression Framework (MRF) is the name of this framework. By utilizing different machine learning regression models, this approach forecasts NoC parameters while considering a range of various simulated traffic flows. The proposed approach can be tested on 2D and 3D NoC designs and may be used to analyze performance, area, and power architectures. The outcomes were compared with those produced by the popular cycle-accurate Booksim NoC simulator. Topology sizes ranging from 2×2 to 50×50 were tested alongside varying injection rates, virtual channels, and various network traffic behaviors. The proposed design put forward achieved a speedup between 1000× and 1500×, while the prediction error was approximately 8% to 10%.",
+    "title_zh": "基于机器学习和多进程的超快速、高精度大规模多层级网格化片上架构估算",
+    "abstract_zh": "片上分组交换网络技术已取代传统的基于总线的片上系统，因为它能够将多个核心集成到单个芯片中，从而支持大量复杂应用的实现。片上网络（NoC）设计性能的评估主要依赖于仿真，但随着架构规模的增大，仿真速度变得非常缓慢，且需要更多关于不同设计参数如何影响网络实际性能的信息。因此，使用仿真进行优化极具挑战性，这些系统必须通过不同拓扑规模下的多种模拟流量模式进行验证。为此，我们提出了一种机器学习（ML）框架，用于研究与多核处理相结合的二维（2D）和三维（3D）NoC架构的设计参数，因为这些架构需要在不同配置下进行评估。该框架被称为多处理回归框架（Multiprocessing Regression Framework, MRF）。该方法利用多种机器学习回归模型，在考虑多种模拟流量模式的基础上，预测NoC的关键参数。所提出的方法可应用于2D和3D NoC设计，用于分析其性能、面积和功耗特性。实验结果与广泛使用的周期精确NoC仿真器Booksim的输出进行了对比。测试涵盖了从2×2到50×50的不同拓扑规模，以及变化的注入率、虚拟通道数量和多种网络流量行为。实验结果表明，该设计方案实现了1000倍至1500倍的加速，预测误差约为8%至10%。"
+  },
+  {
+    "date": "2026-2-3",
+    "title": "CITRAP: A Configurable Infrastructure Template for Rapid Prototyping on FPGAs",
+    "authors": "Vitalii Burtsev, Martin Wilhelm, Nandhish Thathanur Rajappa, Ilia Sozutov, Thilo Pionteck",
+    "publish": "2025 International Conference on Field Programmable Technology (ICFPT)",
+    "url": "https://doi.org/10.1109/icfpt67023.2025.00035",
+    "source": "IEEE",
+    "abstract": "Despite advances in high-level tool chains, rapid prototyping of FPGA-based accelerators poses significant challenges. First, creating the basic interface infrastructure for the Unit Under Test evaluation, such as PCIe interfaces and DRAM controllers, is a time-consuming process. Second, with each iteration of UUT debugging, the static design requires complete synthesis from scratch. Third, frameworks with a high level of abstraction do not provide direct access to the UUT signals for debugging. In this paper, we introduce an open-source solution called CITRAP, a lightweight and reusable template that supports native debugging tools. It simplifies the process of creating infrastructure through the use of template scripts and standard IP-cores. The hardware design consists of two parts: a static infrastructure partition and a user logic partition. The static partition provides the infrastructure with interfaces, is synthesized only once, and stays untouched in the FPGA throughout debugging iterations. The user logic partition hosts the UUT, supports IP-cores for debugging and can be resynthesized and reconfigured independently by using Xilinx's Dynamic Function Exchange technology. Unlike more complex frameworks such as XRT, TAPASCO and OpenCPI, our approach does not introduce new abstraction overhead, allows for faster design cycles while providing full access to debug signals.",
+    "title_zh": "CITRAP：一种用于在FPGA上快速原型设计的可配置基础设施模板",
+    "abstract_zh": "尽管高级工具链取得了进展，基于FPGA的加速器快速原型设计仍面临重大挑战。首先，为被测单元（UUT）评估构建基本接口基础设施（如PCIe接口和DRAM控制器）是一个耗时的过程。其次，在每次UUT调试迭代中，静态设计都需要从头开始进行完整的综合。第三，具有高度抽象的框架无法直接访问UUT信号以进行调试。本文提出了一种名为CITRAP的开源解决方案，它是一种轻量级且可重用的模板，支持原生调试工具。该方案通过使用模板脚本和标准IP核简化了基础设施的创建过程。硬件设计分为两部分：静态基础设施分区和用户逻辑分区。静态分区提供接口基础设施，仅需综合一次，并在调试迭代期间始终保持不变地驻留在FPGA中；用户逻辑分区容纳被测单元（UUT），集成了用于调试的IP核，并可通过Xilinx的动态函数交换（Dynamic Function Exchange）技术独立地重新综合和重新配置。与XRT、TAPASCO和OpenCPI等更复杂的框架不同，我们的方法不引入新的抽象开销，能够实现更快的设计周期，同时提供对调试信号的完全访问能力。"
+  },
+  {
+    "date": "2026-2-3",
+    "title": "IEEE Security and Privacy",
+    "authors": "N/A",
+    "publish": "IEEE MultiMedia",
+    "url": "https://doi.org/10.1109/mmul.2025.3650217",
+    "source": "IEEE",
+    "abstract": null,
+    "title_zh": "IEEE安全与隐私",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-2-3",
+    "title": "Real Time Digital Simulator (RTDS) Hardware in the Loop (HIL) Testing of Battery Energy Storage System (BESS) Controller",
+    "authors": "Muhammed Y. Worku, Mahmoud Elhassan, Ahmad Al-Jabr",
+    "publish": "2025 Saudi Arabia Smart Grid (SASG)",
+    "url": "https://doi.org/10.1109/sasg68584.2025.11365508",
+    "source": "IEEE",
+    "abstract": "This paper presents hardware in the loop (HIL) testing of the Battery Energy Storage System (BESS) controller under different operating scenarios through Real Time Digital Simulator (RTDS). The objective of the HIL testing is to evaluate the performance of the BESS controller when the BESS is utilized as a power conditioning system to provide active and reactive power to the network. A test case containing AC network, BESS, inverter and interfacing transformer is developed in RSCAD. The replica controller which is the device under test (DUT) is interfaced with the RTDS through input/output cards. The RSCAD model sends the status of the system such as the DC link signals (voltage and current), the inverter output parameters and the Point of Interconnection (POI) voltage and current signals to the external replica controller using the Gigabit-Transceiver Analogue Output (GTAO) cards. After receiving these signals, the replica controller generates gating signals for the IGBTs of the inverter through the Gigabit-Transceiver Digital Input (GTDI) cards. Different types of grid conditions and BESS operating modes such as active power control/reactive power control, charge/discharge and, low voltage ride through (LVRT) tests are performed to validate the BESS controller capability and results are provided. The developed test system will help utilities test the BESS controller prior to installation and commissioning.",
+    "title_zh": "基于实时数字仿真器（RTDS）的电池储能系统（BESS）控制器硬件在环（HIL）测试",
+    "abstract_zh": "本文通过实时数字仿真器（RTDS）对电池储能系统（BESS）控制器在不同运行工况下的硬件在环（HIL）测试进行了研究。HIL测试的目的是评估当BESS作为电能调节系统向电网提供有功和无功功率时，其控制器的性能表现。在RSCAD中建立了一个包含交流电网、BESS、逆变器及接口变压器的测试案例。作为被测设备（DUT）的控制器复制品通过输入/输出卡与RTDS连接。RSCAD模型通过千兆收发器模拟输出（GTAO）卡将系统状态信号（如直流母线电压和电流、逆变器输出参数以及并网点（POI）的电压和电流信号）发送给外部的控制器复制品。控制器复制品在接收到这些信号后，通过千兆收发器数字输入（GTDI）卡生成用于逆变器IGBT的触发信号。为验证BESS控制器的功能，开展了多种电网条件和BESS运行模式下的测试，包括有功/无功功率控制、充放电以及低电压穿越（LVRT）测试，并提供了测试结果。所构建的测试系统将有助于电力公司在BESS控制器安装和投运前对其进行充分验证。"
+  },
+  {
+    "date": "2026-2-3",
+    "title": "A Quad-core 32-bit RISC-V CPU Implementation with Design Verification on 130 nm CMOS Process",
+    "authors": "Le-Thanh-Nhon Nguyen, Khai-Minh Ma, Tran-Bao-Thuong Cao, Duc-Hung Le",
+    "publish": "2025 RIVF International Conference on Computing and Communication Technologies (RIVF)",
+    "url": "https://doi.org/10.1109/rivf68649.2025.11365156",
+    "source": "IEEE",
+    "abstract": "This paper presents implementation of a System-on-Chip consisting of 4 CPU cores, each core contains 32-bit RISC-V architecture. The authors proposed a script to implement a complete back-end flow from Place-and-Route to design verification on Skywater 130 nm process. The system had the core size <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$2.5 \\times 3.5 \\text{mm}$</tex>, approximately <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$10 \\text{mm}^{2}$</tex>. The operation frequency is 100 MHz. The author proposed a digital design and verification design flow with SystemVerilog to verify the functions of the system after back-end design process for improving the correctness of the design.",
+    "title_zh": "一种基于130纳米CMOS工艺实现并完成设计验证的四核32位RISC-V CPU",
+    "abstract_zh": "本文提出了一种片上系统（System-on-Chip）的实现方案，该系统包含4个CPU核心，每个核心采用32位RISC-V架构。作者开发了一个脚本，用于在SkyWater 130 nm工艺上实现从布局布线（Place-and-Route）到设计验证的完整后端流程。该系统的芯片尺寸为2.5 × 3.5 mm，面积约为10 mm²，工作频率为100 MHz。作者还提出了一种基于SystemVerilog的数字设计与验证流程，用于在后端设计完成后对系统功能进行验证，以提高设计的正确性。"
+  },
+  {
+    "date": "2026-2-3",
+    "title": "SPECK Algorithm Implementation in VLSI: A Verilog-Based Approach for Efficient Simulation, Synthesis and Cryptographic Enhancement",
+    "authors": "S.R. Arun Raj, G. Ramana Murthy, Pravin A. Dwaramwar, C. Thangamani, Dilip I. Sangotra, T.C. Manjunath",
+    "publish": "2025 6th International Conference on Communication, Computing &amp;amp; Industry 6.0 (C2I6)",
+    "url": "https://doi.org/10.1109/c2i666499.2025.11366956",
+    "source": "IEEE",
+    "abstract": "Cryptography plays a key role in ensuring data security in resources, such as IoT devices, built -in systems and wireless sensor networks. Speck algorithm is a light encryption block designed by the NSA in 2013, which offers a balance between security and efficiency. This project focuses on the design, simulation and implementation of the RTL algorithm with the Verilog. The primary objectives of this work include designing the effective Verilog code to verify its correctness through simulation. The design includes the implementation of key expansion, encryption and decryption processes in optimization for area, performance and performance. The verilog -based design is simulated and verified by testing shots to ensure that correctness is correct. This work contributes to ongoing hardware security research by providing an efficient and scalable implementation of Speck -based verilog, suitable for IoT and built -in systems. Index expressions Performance analysis, verilog, design RTL, encryption, key spot, expansion, simulation, light cryptography, decryption…",
+    "title_zh": "VLSI中的SPECK算法实现：一种基于Verilog的高效仿真、综合与加密增强方法",
+    "abstract_zh": "密码学在确保物联网设备、嵌入式系统和无线传感器网络等资源的数据安全方面发挥着关键作用。Speck算法是美国国家安全局（NSA）于2013年设计的一种轻量级分组加密算法，能够在安全性和效率之间实现良好平衡。本项目聚焦于使用Verilog语言对Speck算法进行RTL级设计、仿真与实现。本工作的主要目标包括设计高效的Verilog代码，并通过仿真验证其正确性。该设计涵盖了密钥扩展、加密和解密过程的实现，并在面积、性能和功耗方面进行了优化。基于Verilog的设计通过测试向量进行仿真和验证，以确保功能的正确性。本研究通过提供一种高效且可扩展的基于Verilog的Speck算法实现，为持续发展的硬件安全研究做出贡献，适用于物联网和嵌入式系统应用。\n\n关键词：性能分析，Verilog，RTL设计，加密，密钥生成，密钥扩展，仿真，轻量级密码学，解密"
+  },
+  {
+    "date": "2026-2-3",
+    "title": "2025 International Conference on Field Programmable Technology (ICFPT)",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/icfpt67023.2025",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "2025年国际现场可编程技术会议（ICFPT）",
+    "abstract_zh": "None"
+  }
+]
