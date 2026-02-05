@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-02-04",
+    "title": "Semantic Consensus Decoding: Backdoor Defense for Verilog Code Generation",
+    "authors": "Guang Yang, Xing Hu, Xiang Chen, Xin Xia",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.04195v1",
+    "source": "arXiv",
+    "abstract": "Large language models (LLMs) for Verilog code generation are increasingly adopted in hardware design, yet remain vulnerable to backdoor attacks where adversaries inject malicious triggers during training to induce vulnerable hardware designs. Unlike patchable software vulnerabilities, hardware trojans become irreversible once fabricated, making remediation extremely costly or impossible. Existing active defenses require access to training data, impractical for third-party LLM users, while passive defenses struggle against semantically stealthy triggers that naturally blend into design specifications. In this paper, we hypothesize that under the requirements of both effectiveness and stealthiness, attackers are strongly biased toward embedding triggers in non-functional requirements (e.g., style modifiers, quality descriptors) rather than functional specifications that determine hardware behavior. Exploiting this insight, we propose Semantic Consensus Decoding (SCD), an inference-time passive defense with two key components: (1) functional requirement extraction that identifies essential requirements from user specifications, and (2) consensus decoding that adaptively fuses output distributions based on full user specifications and extracted functional requirements. When these distributions diverge significantly, SCD automatically suppresses suspicious components. Extensive experiments with three representative backdoor attacks demonstrate that SCD reduces average attack success rate from 89% to under 3% with negligible impact on generation quality.",
+    "title_zh": "语义一致性解码：面向Verilog代码生成的后门防御",
+    "abstract_zh": "用于Verilog代码生成的大语言模型（LLM）在硬件设计中日益普及，但仍容易受到后门攻击的影响：攻击者可在训练过程中注入恶意触发器，导致生成存在漏洞的硬件设计。与可修补的软件漏洞不同，硬件木马一旦制造完成便不可逆转，修复成本极高甚至无法补救。现有的主动防御方法需要访问训练数据，这对第三方LLM用户而言不切实际；而被动防御方法则难以应对那些在语义上隐蔽、能自然融入设计规范的触发器。本文提出一个假设：为了同时满足攻击的有效性和隐蔽性，攻击者更倾向于将触发器嵌入非功能性需求（如风格修饰语、质量描述词），而非决定硬件行为的功能性规范。基于这一洞察，我们提出了语义共识解码（Semantic Consensus Decoding, SCD）——一种在推理阶段运行的被动防御方法，包含两个核心组件：（1）功能性需求提取，用于从用户规范中识别出关键功能需求；（2）共识解码，根据完整的用户规范和提取出的功能性需求自适应地融合输出分布。当这两种分布显著偏离时，SCD会自动抑制可疑内容。大量针对三种代表性后门攻击的实验表明，SCD可将平均攻击成功率从89%降低至3%以下，且对生成质量的影响可忽略不计。"
+  },
+  {
+    "date": "2026-02-04",
+    "title": "A-Graph: A Unified Graph Representation for At-Will Simulation across System Stacks",
+    "authors": "Daniel Price, Prabhu Vellaisamy, Patricia Gonzalez, George Michelogiannakis, John P. Shen, Di Wu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.04847v1",
+    "source": "arXiv",
+    "abstract": "As computer systems continue to diversify across technologies, architectures, applications, and beyond, the relevant design space has become larger and more complex. Given such trends, design space exploration (DSE) at early stages is critical to ensure agile development towards optimal performance and cost. Industry-grade EDA tools directly take in RTL code and report accurate results, but do not perform DSE. Recent works have attempted to explore the design space via simulation. However, most of these works are domain-specific and constrain the space that users are allowed to explore, offering limited flexibility between technologies, architecture, and applications. Moreover, they often demand high domain expertise to ensure high accuracy. To enable simulation that is agnostic to technology, architecture, and application at any granularity, we introduce Architecture-Graph (Agraph), a graph that unifies the system representation surrounding any arbitrary application, software, architecture, and circuit. Such a unified representation distinguishes Agraph from prior works, which focus on a single stack, allowing users to freely explore the design space across system stacks. To fully unleash the potential of Agraph, we further present Archx, a framework that implements Agraph. Archx is user-friendly in two ways. First, Archx has an easy-to-use programming interface to automatically generate and sweep design points under user constraints, boosting the programmability. Second, Archx adopts scope-based metric retrieval to analyze and understand each design point at any user-preferred hierarchy, enhancing the explainability. We conduct case studies that demonstrate Agraph's generalization across technologies, architecture, and applications with high simulation accuracy. Overall, we argue that Agraph and Archx serve as a foundation to simulate both performance and cost at will.",
+    "title_zh": "A-Graph：一种用于跨系统栈按需仿真的统一图表示",
+    "abstract_zh": "随着计算机系统在技术、架构、应用等层面持续多样化，相关的设计空间也变得愈发庞大和复杂。在这一趋势下，早期阶段的设计空间探索（DSE）对于实现敏捷开发并达到最优性能与成本至关重要。工业级EDA工具可直接接收RTL代码并报告精确结果，但无法进行设计空间探索。近期一些研究尝试通过仿真来探索设计空间，但这些工作大多局限于特定领域，限制了用户在技术、架构和应用之间可探索的空间，灵活性有限。此外，它们通常需要较高的领域专业知识以确保高精度。为了实现对技术、架构和应用均无依赖、且可在任意粒度上进行的仿真，我们提出了“架构图”（Architecture-Graph，简称Agraph）——一种统一表示任意特定应用、软件、架构和电路的系统级图结构。这种统一的表示方式使Agraph区别于以往仅关注单一技术栈的工作，使用户能够自由地跨系统栈探索设计空间。为了充分释放Agraph的潜力，我们进一步提出了Archx框架，用于实现Agraph。Archx在两方面具有良好的用户友好性：首先，它提供了易于使用的编程接口，可自动在用户约束条件下生成并遍历设计点，提升可编程性；其次，Archx采用基于作用域的指标检索机制，可在用户自定义的任意层级上分析和理解每个设计点，增强可解释性。我们通过多个案例研究验证了Agraph在不同技术、架构和应用中的广泛适用性，并实现了高精度的仿真效果。总体而言，我们认为Agraph与Archx为按需仿真性能与成本提供了坚实的基础。"
+  },
+  {
+    "date": "2026-02-04",
+    "title": "CSLib: The Lean Computer Science Library",
+    "authors": "Clark Barrett, Swarat Chaudhuri, Fabrizio Montesi, Jim Grundy, Pushmeet Kohli, Leonardo de Moura, Alexandre Rademaker, Sorrachai Yingchareonthawornchai",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.04846v1",
+    "source": "arXiv",
+    "abstract": "We introduce CSLib, an open-source framework for proving computer-science-related theorems and writing formally verified code in the Lean proof assistant. CSLib aims to be for computer science what Lean's Mathlib is for mathematics. Mathlib has been tremendously impactful: it is a key reason for Lean's popularity within the mathematics research community, and it has also played a critical role in the training of AI systems for mathematical reasoning. However, the base of computer science knowledge in Lean is currently quite limited. CSLib will vastly enhance this knowledge base and provide infrastructure for using this knowledge in real-world verification projects. By doing so, CSLib will (1) enable the broad use of Lean in computer science education and research, and (2) facilitate the manual and AI-aided engineering of large-scale formally verified systems.",
+    "title_zh": "CSLib：精简的计算机科学库",
+    "abstract_zh": "我们推出了CSLib，这是一个开源框架，旨在利用Lean证明助手来证明计算机科学相关定理并编写经过形式化验证的代码。CSLib的目标是成为计算机科学领域的Mathlib（Lean中著名的数学库）。Mathlib在数学界产生了巨大影响：它不仅是Lean在数学研究领域广受欢迎的关键原因，也在训练用于数学推理的人工智能系统中发挥了重要作用。然而，目前Lean中计算机科学领域的知识基础还相当有限。CSLib将极大扩展这一知识库，并为在实际验证项目中应用这些知识提供基础设施。通过这种方式，CSLib将（1）推动Lean在计算机科学教育与研究中的广泛应用，以及（2）促进大规模形式化验证系统的手动及人工智能辅助工程实现。"
+  },
+  {
+    "date": "2026-02-04",
+    "title": "When Code Becomes Abundant: Redefining Software Engineering Around Orchestration and Verification",
+    "authors": "Karina Kohl, Luigi Carro",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.04830v1",
+    "source": "arXiv",
+    "abstract": "Software Engineering (SE) faces simultaneous pressure from AI automation (reducing code production costs) and hardware-energy constraints (amplifying failure costs). We position that SE must redefine itself around human discernment-intent articulation, architectural control, and verification-rather than code construction. This shift introduces accountability collapse as a central risk and requires fundamental changes to research priorities, educational curricula, and industrial practices. We argue that Software Engineering, as traditionally defined around code construction and process management, is no longer sufficient. Instead, the discipline must be redefined around intent articulation, architectural control, and systematic verification. This redefinition shifts Software Engineering from a production-oriented field to one centered on human judgment under automation, with profound implications for research, practice, and education.",
+    "title_zh": "当代码变得丰富：围绕编排与验证重新定义软件工程",
+    "abstract_zh": "软件工程（SE）正同时面临来自人工智能自动化的压力（降低了代码生产的成本）和硬件与能源限制的挑战（放大了系统故障的代价）。我们认为，软件工程必须重新定位自身，聚焦于人类的判断力与意图表达、架构控制以及验证，而非代码的编写。这一转变将“责任崩塌”（accountability collapse）凸显为一个核心风险，并要求在研究重点、教育课程设置以及工业实践方面进行根本性变革。我们主张，传统上以代码构建和流程管理为核心的软件工程已不再足够。相反，该学科必须围绕意图表达、架构控制和系统性验证进行重新定义。这一重新定义将软件工程从一个以生产为导向的领域，转变为在自动化背景下以人类判断为核心的新范式，对研究、实践和教育产生深远影响。"
+  },
+  {
+    "date": "2026-02-04",
+    "title": "Supporting software engineering tasks with agentic AI: Demonstration on document retrieval and test scenario generation",
+    "authors": "Marian Kica, Lukas Radosky, David Slivka, Karin Kubinova, Daniel Dovhun, Tomas Uhercik, Erik Bircak, Ivan Polasek",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.04726v1",
+    "source": "arXiv",
+    "abstract": "The introduction of large language models ignited great retooling and rethinking of the software development models. The ensuing response of software engineering research yielded a massive body of tools and approaches. In this paper, we join the hassle by introducing agentic AI solutions for two tasks. First, we developed a solution for automatic test scenario generation from a detailed requirements description. This approach relies on specialized worker agents forming a star topology with the supervisor agent in the middle. We demonstrate its capabilities on a real-world example. Second, we developed an agentic AI solution for the document retrieval task in the context of software engineering documents. Our solution enables performing various use cases on a body of documents related to the development of a single software, including search, question answering, tracking changes, and large document summarization. In this case, each use case is handled by a dedicated LLM-based agent, which performs all subtasks related to the corresponding use case. We conclude by hinting at the future perspectives of our line of research.",
+    "title_zh": "使用智能体AI支持软件工程任务：以文档检索和测试场景生成为例的演示",
+    "abstract_zh": "大型语言模型的出现引发了人们对软件开发模式的大规模重构与重新思考。随之而来的软件工程研究响应催生了大量工具和方法。本文中，我们亦投身于此热潮，提出了面向两项任务的智能体式人工智能（agentic AI）解决方案。首先，我们开发了一种从详细需求描述中自动生成测试场景的解决方案。该方法依赖于多个专业化的工作智能体，以中心化监督智能体为核心的星型拓扑结构。我们通过一个真实案例展示了该方案的能力。其次，我们提出了一种面向软件工程文档检索任务的智能体式人工智能解决方案。该方案能够对与单个软件开发相关的文档集合执行多种应用场景，包括文档搜索、问答、变更追踪以及长文档摘要。在此方案中，每个应用场景均由一个专用的基于大语言模型的智能体处理，该智能体负责完成与该场景相关的所有子任务。最后，我们简要展望了本研究方向的未来前景。"
+  },
+  {
+    "date": "2026-02-04",
+    "title": "Abstract Framework for All-Path Reachability Analysis",
+    "authors": "Misaki Kojima, Naoki Nishida",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.04641v1",
+    "source": "arXiv",
+    "abstract": "An all-path reachability (APR, for short) predicate is a pair of a source set and a target set, which are subsets of an object set. APR predicates have been defined for abstract reduction systems (ARSs, for short) and then extended to logically constrained term rewrite systems (LCTRSs, for short) as pairs of constrained terms that represent sets of terms modeling configurations, states, etc. An APR predicate is said to be partially (or demonically) valid w.r.t. a rewrite system if every finite maximal reduction sequence of the system starting from any element in the source set includes an element in the target set. Partial validity of APR predicates w.r.t. ARSs is defined by means of two inference rules, which can be considered a proof system to construct (possibly infinite) derivation trees for partial validity. On the other hand, a proof system for LCTRSs consists of four inference rules, and thus there is a gap between the inference rules for partial validity w.r.t. ARSs and LCTRSs. In this paper, we revisit the framework for APR analysis and adapt it to verification of not only safety but also liveness properties. To this end, we first reformulate an abstract framework for partial validity w.r.t. ARSs so that there is a one-to-one correspondence between the inference rules for ARSs and LCTRSs. Secondly, we show how to apply APR analysis to safety verification. Thirdly, to apply APR analysis to liveness verification, we introduce a novel stronger validity of APR predicates, called total validity, which requires not only finite but also infinite execution paths to reach target sets. Finally, for a partially valid APR predicate with a cyclic-proof tree, we show a necessary and sufficient condition for the tree to ensure total validity, showing how to apply APR analysis to liveness verification.",
+    "title_zh": "全路径可达性分析的抽象框架",
+    "abstract_zh": "全路径可达性（简称APR）谓词由源集合和目标集合构成，二者均为某个对象集合的子集。APR谓词最初为抽象归约系统（简称ARS）定义，随后被扩展至逻辑约束项重写系统（简称LCTRS），此时APR谓词表现为由约束项构成的对，用于表示建模配置、状态等的项集合。对于一个重写系统，若从源集合中任意元素出发的每条有限极大归约序列均包含目标集合中的某个元素，则称该APR谓词关于此系统是部分（或称“恶魔式”）有效的。关于ARS的APR谓词的部分有效性通过两条推理规则定义，这些规则可视为用于构造（可能无限的）部分有效性推导树的证明系统。另一方面，LCTRS的证明系统包含四条推理规则，因此在ARS与LCTRS的部分有效性推理规则之间存在差距。\n\n本文重新审视了APR分析的框架，并将其扩展以支持不仅安全性、也包括活性性质的验证。为此，我们首先重构了关于ARS的部分有效性的抽象框架，使得ARS与LCTRS的推理规则之间建立一一对应关系。其次，我们展示了如何将APR分析应用于安全性验证。再次，为了将APR分析用于活性验证，我们引入了一种新的、更强的有效性概念，称为“完全有效性”，它不仅要求所有有限执行路径到达目标集合，也要求所有无限执行路径最终到达目标集合。最后，对于具有循环证明树的部分有效APR谓词，我们给出了该证明树保证完全有效性的充分必要条件，从而展示了如何利用APR分析进行活性性质的验证。"
+  },
+  {
+    "date": "2026-2-4",
+    "title": "Reliability Architectures for High-Performance Processors: A Survey and Outlook",
+    "authors": "Mingsong Lv, Weichen Liu, Nan Guan",
+    "publish": "Proceedings of the International Conference on Research in Adaptive and Convergent Systems",
+    "url": "https://doi.org/10.1145/3769002.3769974",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "高性能处理器的可靠性架构：综述与展望",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-2-4",
+    "title": "FormalGym: Deep Reinforcement Learning Agent Based Formal Compiler Optimization Framework",
+    "authors": "Abhilash Majumder",
+    "publish": "Proceedings of the International Conference on Research in Adaptive and Convergent Systems",
+    "url": "https://doi.org/10.1145/3769002.3769975",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "FormalGym：基于深度强化学习代理的形式化编译器优化框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-2-4",
+    "title": "Less Is More: Failing Test Generation with Large Language Models",
+    "authors": "Tsz-On Li, Xiaochuan Yan, Wenxi Zong, Yibo Wang, Haoye Tian, Congying Xu, Ying Wang, Shing-Chi Cheung, Jeff Kramer",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3793675",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "少即是多：大语言模型在测试生成中的失败",
+    "abstract_zh": "None"
+  }
+]
