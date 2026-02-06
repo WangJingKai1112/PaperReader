@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-02-05",
+    "title": "Synthesizing Realistic Test Data without Breaking Privacy",
+    "authors": "Laura Plein, Alexi Turcotte, Arina Hallemans, Andreas Zeller",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.05833v1",
+    "source": "arXiv",
+    "abstract": "There is a need for synthetic training and test datasets that replicate statistical distributions of original datasets without compromising their confidentiality. A lot of research has been done in leveraging Generative Adversarial Networks (GANs) for synthetic data generation. However, the resulting models are either not accurate enough or are still vulnerable to membership inference attacks (MIA) or dataset reconstruction attacks since the original data has been leveraged in the training process. In this paper, we explore the feasibility of producing a synthetic test dataset with the same statistical properties as the original one, with only indirectly leveraging the original data in the generation process. The approach is inspired by GANs, with a generation step and a discrimination step. However, in our approach, we use a test generator (a fuzzer) to produce test data from an input specification, preserving constraints set by the original data; a discriminator model determines how close we are to the original data. By evolving samples and determining \"good samples\" with the discriminator, we can generate privacy-preserving data that follows the same statistical distributions are the original dataset, leading to a similar utility as the original data. We evaluated our approach on four datasets that have been used to evaluate the state-of-the-art techniques. Our experiments highlight the potential of our approach towards generating synthetic datasets that have high utility while preserving privacy.",
+    "title_zh": "在不破坏隐私的情况下生成逼真的测试数据",
+    "abstract_zh": "需要能够复制原始数据集统计分布的合成训练和测试数据集，同时又不损害其机密性。目前已有大量研究利用生成对抗网络（GANs）进行合成数据生成。然而，由此产生的模型要么准确性不足，要么由于训练过程中使用了原始数据，仍然容易受到成员推断攻击（MIA）或数据集重构攻击。本文探讨了一种仅间接利用原始数据生成具有与原始数据相同统计特性的合成测试数据集的可行性。该方法受GAN启发，包含生成和判别两个步骤。但与传统GAN不同，我们使用一个测试生成器（即模糊器）根据输入规范生成测试数据，并保持原始数据设定的约束条件；同时，判别模型用于评估生成数据与原始数据的接近程度。通过不断演化样本，并利用判别器筛选“优质样本”，我们能够生成既遵循原始数据集统计分布、又保护隐私的数据，从而实现与原始数据相似的实用性。我们在四个曾用于评估前沿技术的数据集上对本方法进行了评估。实验结果表明，该方法在生成高实用性且兼顾隐私保护的合成数据集方面具有巨大潜力。"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Statistical Verification of Medium-Access Parameterization for Power-Grid Edge Ad Hoc Sensor Networks",
+    "authors": "Haitian Wang, Yiren Wang, Xinyu Wang, Zichen Geng, Xian Zhang, Yihao Ding",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.05510v1",
+    "source": "arXiv",
+    "abstract": "The widespread deployment of power grid ad hoc sensor networks based on IEEE 802.15.4 raises reliability challenges when nodes selfishly adapt CSMA/CA parameters to maximize individual performance. Such behavior degrades reliability, energy efficiency, and compliance with strict grid constraints. Existing analytical and simulation approaches often fail to rigorously evaluate configurations under asynchronous, event-driven, and resource-limited conditions. We develop a verification framework that integrates stochastic timed hybrid automata with statistical model checking (SMC) with confidence bounds to formally assess CSMA/CA parameterizations under grid workloads. By encoding node- and system-level objectives in temporal logic and automating protocol screening via large-scale statistical evaluation, the method certifies Nash equilibrium strategies that remain robust to unilateral deviations. In a substation-scale scenario, the certified equilibrium improves utility from 0.862 to 0.914 and raises the delivery ratio from 89.5% to 93.2% when compared with an aggressive tuning baseline. Against a delivery-oriented baseline, it reduces mean per-cycle energy from 152.8 mJ to 149.2 mJ while maintaining comparable delivery performance. Certified configurations satisfy latency, reliability, and energy constraints with robustness coefficients above 0.97 and utility above 0.91.",
+    "title_zh": "电力网络边缘自组织传感器网络中媒体接入参数化的统计验证",
+    "abstract_zh": "基于IEEE 802.15.4的电力网络专用传感器网络的广泛应用，在节点为最大化自身性能而自私地调整CSMA/CA参数时，带来了可靠性方面的挑战。此类行为会降低系统的可靠性、能效，并违背电力系统严格的运行约束。现有的分析与仿真方法通常难以在异步、事件驱动且资源受限的条件下，对配置方案进行严格评估。为此，我们提出了一种验证框架，将随机时间混合自动机与带置信区间的统计模型检验（SMC）相结合，以形式化地评估在电网负载下CSMA/CA参数配置的性能。通过将节点级和系统级目标编码为时序逻辑，并借助大规模统计评估实现协议配置的自动化筛选，该方法能够认证对单方面偏离具有鲁棒性的纳什均衡策略。在变电站规模的场景中，与激进调参基准相比，经认证的均衡策略将效用值从0.862提升至0.914，数据投递率从89.5%提高到93.2%；相较于以投递率为导向的基准，它在保持相当投递性能的同时，将每个周期的平均能耗从152.8 mJ降低至149.2 mJ。经认证的配置方案在延迟、可靠性和能耗方面均满足约束条件，其鲁棒性系数超过0.97，效用值高于0.91。"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "SEAL: Symbolic Execution with Separation Logic (Competition Contribution)",
+    "authors": "Tomáš Brablec, Tomáš Dacík, Tomáš Vojnar",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.05703v1",
+    "source": "arXiv",
+    "abstract": "SEAL is a static analyser for the verification of programs that manipulate unbounded linked data structures. It is based on separation logic to represent abstract memory states and, unlike other separation-logic-based approaches, it employs a general-purpose separation logic solver Astral for satisfiability and entailment checking, which itself is based on translation to SMT. This design results in a modular architecture intended to be easier to extend and to combine with reasoning in other theories. Although still a prototype, SEAL achieved competitive results in the LinkedLists base category and was one of only four analysers capable of verifying programs with unbounded lists. We believe that the tool's extensibility, combined with further development, can lead to significant improvements in future competitions.",
+    "title_zh": "SEAL：基于分离逻辑的符号执行（竞赛贡献）",
+    "abstract_zh": "SEAL 是一个用于验证操作无界链式数据结构程序的静态分析工具。它基于分离逻辑来表示抽象内存状态，与其它基于分离逻辑的方法不同，SEAL 采用通用的分离逻辑求解器 Astral 进行可满足性和蕴含性检查，而该求解器本身基于向 SMT 的转换。这种设计形成了模块化的架构，旨在更易于扩展，并能与其他理论的推理相结合。尽管仍处于原型阶段，SEAL 在“LinkedLists”基础类别中取得了具有竞争力的结果，是仅有的四个能够验证包含无界列表程序的分析工具之一。我们相信，结合该工具良好的可扩展性以及进一步开发，未来有望在相关竞赛中实现显著提升。"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "Does Programming Language Matter? An Empirical Study of Fuzzing Bug Detection",
+    "authors": "Tatsuya Shirai, Olivier Nourry, Yutaro Kashiwa, Kenji Fujiwara, Hajimu Iida",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.05312v1",
+    "source": "arXiv",
+    "abstract": "Fuzzing has become a popular technique for automatically detecting vulnerabilities and bugs by generating unexpected inputs. In recent years, the fuzzing process has been integrated into continuous integration workflows (i.e., continuous fuzzing), enabling short and frequent testing cycles. Despite its widespread adoption, prior research has not examined whether the effectiveness of continuous fuzzing varies across programming languages. This study conducts a large-scale cross-language analysis to examine how fuzzing bug characteristics and detection efficiency differ among languages. We analyze 61,444 fuzzing bugs and 999,248 builds from 559 OSS-Fuzz projects categorized by primary language. Our findings reveal that (i) C++ and Rust exhibit higher fuzzing bug detection frequencies, (ii) Rust and Python show low vulnerability ratios but tend to expose more critical vulnerabilities, (iii) crash types vary across languages and unreproducible bugs are more frequent in Go but rare in Rust, and (iv) Python attains higher patch coverage but suffers from longer time-to-detection. These results demonstrate that fuzzing behavior and effectiveness are strongly shaped by language design, providing insights for language-aware fuzzing strategies and tool development.",
+    "title_zh": "编程语言重要吗？关于模糊测试缺陷检测的一项实证研究",
+    "abstract_zh": "模糊测试已成为一种通过生成意外输入来自动检测漏洞和缺陷的流行技术。近年来，模糊测试过程已被集成到持续集成工作流中（即持续模糊测试），从而实现短周期、高频次的测试。尽管该技术已被广泛采用，但先前的研究尚未探讨持续模糊测试的有效性在不同编程语言之间是否存在差异。本研究开展了一项大规模的跨语言分析，考察模糊测试缺陷的特征及检测效率在不同语言间的差异。我们分析了来自559个OSS-Fuzz项目的61,444个模糊测试缺陷和999,248次构建，这些项目按主要编程语言进行了分类。研究发现：（i）C++ 和 Rust 的模糊测试缺陷检测频率较高；（ii）Rust 和 Python 的漏洞比例较低，但更倾向于暴露关键性漏洞；（iii）不同语言的崩溃类型存在差异，Go语言中不可复现的缺陷更为常见，而Rust中则极为罕见；（iv）Python 的补丁覆盖率较高，但缺陷检测耗时较长。这些结果表明，语言设计对模糊测试的行为和有效性具有显著影响，为面向语言特性的模糊测试策略和工具开发提供了重要启示。"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "RocqSmith: Can Automatic Optimization Forge Better Proof Agents?",
+    "authors": "Andrei Kozyrev, Nikita Khramov, Denis Lochmelis, Valerio Morelli, Gleb Solovev, Anton Podkopaev",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.05762v1",
+    "source": "arXiv",
+    "abstract": "This work studies the applicability of automatic AI agent optimization methods to real-world agents in formal verification settings, focusing on automated theorem proving in Rocq as a representative and challenging domain. We evaluate how different automatic agent optimizers perform when applied to the task of optimizing a Rocq proof-generation agent, and assess whether parts of the fine-grained tuning of agentic systems, such as prompt design, contextual knowledge, and control strategies, can be automated. Our results show that while several optimizers yield measurable improvements, simple few-shot bootstrapping is the most consistently effective; however, none of the studied methods matches the performance of a carefully engineered state-of-the-art proof agent.",
+    "title_zh": "RocqSmith：自动优化能否打造出更优的证明智能体？",
+    "abstract_zh": "本研究探讨了自动化的AI智能体优化方法在形式化验证场景下真实智能体中的适用性，以Rocq中的自动定理证明作为典型且具有挑战性的领域进行分析。我们评估了不同自动优化器在优化Rocq证明生成智能体任务中的表现，并考察了智能体系统的细粒度调优（如提示设计、上下文知识和控制策略等部分）是否可以实现自动化。实验结果表明，尽管多种优化器均带来了可衡量的性能提升，但简单的少样本自举方法效果最为稳定；然而，所研究的方法均未能达到精心设计的最先进证明智能体的性能水平。"
+  },
+  {
+    "date": "2026-02-05",
+    "title": "A Guide to Large Language Models in Modeling and Simulation: From Core Techniques to Critical Challenges",
+    "authors": "Philippe J. Giabbanelli",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.05883v1",
+    "source": "arXiv",
+    "abstract": "Large language models (LLMs) have rapidly become familiar tools to researchers and practitioners. Concepts such as prompting, temperature, or few-shot examples are now widely recognized, and LLMs are increasingly used in Modeling & Simulation (M&S) workflows. However, practices that appear straightforward may introduce subtle issues, unnecessary complexity, or may even lead to inferior results. Adding more data can backfire (e.g., deteriorating performance through model collapse or inadvertently wiping out existing guardrails), spending time on fine-tuning a model can be unnecessary without a prior assessment of what it already knows, setting the temperature to 0 is not sufficient to make LLMs deterministic, providing a large volume of M&S data as input can be excessive (LLMs cannot attend to everything) but naive simplifications can lose information. We aim to provide comprehensive and practical guidance on how to use LLMs, with an emphasis on M&S applications. We discuss common sources of confusion, including non-determinism, knowledge augmentation (including RAG and LoRA), decomposition of M&S data, and hyper-parameter settings. We emphasize principled design choices, diagnostic strategies, and empirical evaluation, with the goal of helping modelers make informed decisions about when, how, and whether to rely on LLMs.",
+    "title_zh": "大型语言模型在建模与仿真中的应用指南：从核心技术到关键挑战",
+    "abstract_zh": "大型语言模型（LLM）已迅速成为研究人员和从业者的常用工具。诸如提示（prompting）、温度（temperature）设置、少样本示例（few-shot examples）等概念如今已广为人知，LLM在建模与仿真（M&S）工作流程中的应用也日益广泛。然而，一些看似简单的做法可能引入隐性问题、不必要的复杂性，甚至导致性能下降。例如，增加数据可能适得其反（如引发模型崩溃，或无意中破坏现有的安全机制）；在未充分评估模型已有知识的情况下进行微调可能徒劳无功；将温度设为0并不足以确保LLM的确定性；向模型输入大量M&S数据可能超出其处理能力（LLM无法关注所有内容），而过于简单的数据简化又可能导致信息丢失。本文旨在为LLM的使用提供全面且实用的指导，重点关注其在M&S领域的应用。我们将探讨常见的困惑来源，包括非确定性问题、知识增强方法（如RAG和LoRA）、M&S数据的分解策略以及超参数设置。我们强调应遵循原则性的设计决策、诊断方法和实证评估，以帮助建模者就是否、何时以及如何依赖LLM做出明智判断。"
+  },
+  {
+    "date": "2026-2-5",
+    "title": "From Stochastic to Semantic: Advanced Attribute-Guided Compiler Testing",
+    "authors": "Jiangchang Wu, Yibiao Yang, Maolin Sun, Qingyang Li, Kang Chen, Lei Xu, Yuming Zhou",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3793554",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "从随机到语义：基于属性引导的高级编译器测试",
+    "abstract_zh": "None"
+  }
+]
