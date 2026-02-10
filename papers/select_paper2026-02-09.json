@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-02-09",
+    "title": "DyMA-Fuzz: Dynamic Direct Memory Access Abstraction for Re-hosted Monolithic Firmware Fuzzing",
+    "authors": "Guy Farrelly, Michael Chesser, Seyit Camtepe, Damith C. Ranasinghe",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.08750v1",
+    "source": "arXiv",
+    "abstract": "The rise of smart devices in critical domains--including automotive, medical, industrial--demands robust firmware testing. Fuzzing firmware in re-hosted environments is a promising method for automated testing at scale, but remains difficult due to the tight coupling of code with a microcontroller's peripherals. Existing fuzzing frameworks primarily address input challenges in providing inputs for Memory-Mapped I/O or interrupts, but largely overlook Direct Memory Access (DMA), a key high-throughput interface used that bypasses the CPU. We introduce DyMA-Fuzz to extend recent advances in stream-based fuzz input injection to DMA-driven interfaces in re-hosted environments. It tackles key challenges--vendor-specific descriptors, heterogeneous DMA designs, and varying descriptor locations--using runtime analysis techniques to infer DMA memory access patterns and automatically inject fuzzing data into target buffers, without manual configuration or datasheets. Evaluated on 94 firmware samples and 8 DMA-guarded CVE benchmarks, DyMA-Fuzz reveals vulnerabilities and execution paths missed by state-of-the-art tools and achieves up to 122% higher code coverage. These results highlight DyMA-Fuzz as a practical and effective advancement in automated firmware testing and a scalable solution for fuzzing complex embedded systems.",
+    "title_zh": "DyMA-Fuzz：面向重托管单体内核固件模糊测试的动态直接内存访问抽象",
+    "abstract_zh": "智能设备在汽车、医疗、工业等关键领域的广泛应用，对固件测试的可靠性提出了更高要求。在重新托管（re-hosted）环境中对固件进行模糊测试（fuzzing）是一种极具前景的大规模自动化测试方法，但由于固件代码与微控制器外设之间存在紧密耦合，该方法仍面临巨大挑战。现有的模糊测试框架主要关注如何为内存映射I/O（Memory-Mapped I/O）或中断提供输入，却普遍忽视了直接内存访问（DMA）——一种绕过CPU、实现高吞吐量通信的关键接口。本文提出DyMA-Fuzz，将基于流的模糊测试输入注入技术扩展至重新托管环境中的DMA驱动接口。该方法通过运行时分析技术，推断DMA的内存访问模式，并自动将模糊测试数据注入目标缓冲区，无需人工配置或依赖数据手册，从而有效应对厂商特定描述符、异构DMA架构以及描述符位置多变等关键挑战。在94个固件样本和8个受DMA保护的CVE基准测试上的评估结果表明，DyMA-Fuzz能够发现现有先进工具遗漏的漏洞和执行路径，代码覆盖率最高提升达122%。实验结果证明，DyMA-Fuzz是自动化固件测试领域一项实用且有效的技术进步，为复杂嵌入式系统的模糊测试提供了可扩展的解决方案。"
+  },
+  {
+    "date": "2026-02-09",
+    "title": "Towards Real-World Industrial-Scale Verification: LLM-Driven Theorem Proving on seL4",
+    "authors": "Jianyu Zhang, Fuyuan Zhang, Jiayi Lu, Jilin Hu, Xiaoyi Yin, Long Zhang, Feng Yang, Yongwang Zhao",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.08384v1",
+    "source": "arXiv",
+    "abstract": "Formal methods (FM) are reliable but costly to apply, often requiring years of expert effort in industrial-scale projects such as seL4, especially for theorem proving. Recent advances in large language models (LLMs) have made automated theorem proving increasingly feasible. However, most prior work focuses on mathematics-oriented benchmarks such as miniF2F, with limited evaluation on real-world verification projects. The few studies that consider industrial-scale verification mostly rely on closed-source models with hundreds of billions of parameters, which cannot be locally deployed and incur substantial usage costs. In this paper, we propose AutoReal, an LLM-driven theorem proving method for real-world industrial-scale systems with support for lightweight local deployment. We evaluate AutoReal on the seL4-Isabelle verification project as a representative and challenging case study. AutoReal incorporates two key improvements: (1) chain-of-thought (CoT)-based proof training, which teaches the LLM the reasoning behind proof steps and enables step-wise explanations alongside proofs, and (2) context augmentation, which leverages proof context from the project to enhance LLM-driven proving. Based on the AutoReal methodology, we fine-tune a base model to obtain AutoReal-Prover, a compact 7B-scale prover for industrial-scale theorem proving. AutoReal-Prover achieves a 51.67% proof success rate on 660 theorems from seL4-designated Important Theories across all 10 seL4 proof categories, substantially outperforming prior attempts on seL4 (27.06%). To evaluate generalization, we further apply AutoReal-Prover to three security-related projects from the Archive of Formal Proofs (AFP), covering all 451 theorems and achieving a proof success rate of 53.88%. Overall, this work advances the application of LLM-driven theorem proving in real-world industrial-scale verification.",
+    "title_zh": "面向现实世界工业规模的验证：基于大语言模型的 seL4 定理证明",
+    "abstract_zh": "形式化方法（Formal Methods, FM）虽然可靠性高，但在实际应用中成本高昂，尤其是在seL4等工业级项目中进行定理证明时，往往需要专家投入数年努力。近年来，大语言模型（LLM）的进展使得自动定理证明变得越来越可行。然而，以往大多数研究集中在面向数学的基准测试（如miniF2F）上，在真实世界验证项目中的评估十分有限。少数关注工业级验证的研究大多依赖拥有数百亿参数的闭源模型，这些模型无法本地部署，且使用成本高昂。\n\n本文提出AutoReal，一种由大语言模型驱动、面向真实工业级系统的定理证明方法，支持轻量化的本地部署。我们以seL4-Isabelle验证项目作为典型且具有挑战性的案例，对AutoReal进行评估。AutoReal包含两项关键技术改进：（1）基于思维链（chain-of-thought, CoT）的证明训练，教会大语言模型理解证明步骤背后的推理逻辑，并在生成证明的同时提供逐步解释；（2）上下文增强（context augmentation），利用项目中的证明上下文信息来提升大语言模型驱动的证明能力。\n\n基于AutoReal方法论，我们对基础模型进行微调，得到AutoReal-Prover——一个专为工业级定理证明设计的紧凑型70亿参数规模的证明器。在涵盖全部10个seL4证明类别的660个定理（来自seL4指定的重要理论）上，AutoReal-Prover实现了51.67%的证明成功率，显著优于此前在seL4上的尝试（27.06%）。为评估泛化能力，我们进一步将AutoReal-Prover应用于Archive of Formal Proofs（AFP）中的三个安全相关项目，覆盖全部451个定理，取得了53.88%的证明成功率。\n\n总体而言，本研究推动了大语言模型驱动的定理证明在真实工业级系统验证中的实际应用，为高效、低成本的形式化验证提供了新的可行路径。"
+  },
+  {
+    "date": "2026-02-09",
+    "title": "On the Expressive Power of GNNs for Boolean Satisfiability",
+    "authors": "Saku Peltonen, Roger Wattenhofer",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.08745v1",
+    "source": "arXiv",
+    "abstract": "Machine learning approaches to solving Boolean Satisfiability (SAT) aim to replace handcrafted heuristics with learning-based models. Graph Neural Networks have emerged as the main architecture for SAT solving, due to the natural graph representation of Boolean formulas. We analyze the expressive power of GNNs for SAT solving through the lens of the Weisfeiler-Leman (WL) test. As our main result, we prove that the full WL hierarchy cannot, in general, distinguish between satisfiable and unsatisfiable instances. We show that indistinguishability under higher-order WL carries over to practical limitations for WL-bounded solvers that set variables sequentially. We further study the expressivity required for several important families of SAT instances, including regular, random and planar instances. To quantify expressivity needs in practice, we conduct experiments on random instances from the G4SAT benchmark and industrial instances from the International SAT Competition. Our results suggest that while random instances are largely distinguishable, industrial instances often require more expressivity to predict a satisfying assignment.",
+    "title_zh": "图神经网络在布尔可满足性问题中的表达能力研究",
+    "abstract_zh": "用于求解布尔可满足性问题（SAT）的机器学习方法旨在用基于学习的模型替代手工设计的启发式算法。由于布尔公式的自然图表示，图神经网络（GNN）已成为SAT求解的主要架构。本文通过Weisfeiler-Leman（WL）测试的视角，分析了GNN在SAT求解中的表达能力。作为主要结果，我们证明了在整个WL层次结构下，通常无法区分可满足与不可满足的实例。我们进一步表明，高阶WL下的不可区分性会转化为对按顺序赋值变量的WL受限求解器的实际限制。我们还研究了若干重要SAT实例类别（包括规则型、随机型和平面型实例）所需的表达能力。为了量化实际中的表达能力需求，我们在G4SAT基准中的随机实例以及国际SAT竞赛中的工业实例上进行了实验。实验结果表明，尽管随机实例在很大程度上是可区分的，但工业实例通常需要更强的表达能力才能预测出满足赋值。"
+  },
+  {
+    "date": "2026-02-09",
+    "title": "Craig Interpolation in Program Verification",
+    "authors": "Philipp Rümmer",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.08532v1",
+    "source": "arXiv",
+    "abstract": "Craig interpolation is used in program verification for automating key tasks such as the inference of loop invariants and the computation of program abstractions. This chapter covers some of the most important techniques that have been developed in this context over the last years, focusing on two aspects: the derivation of Craig interpolants modulo the theories and data types used in verification and the basic design of verification algorithms applying interpolation.",
+    "title_zh": "程序验证中的克雷格插值",
+    "abstract_zh": "克雷格插值在程序验证中被用于自动化一些关键任务，例如循环不变式推断和程序抽象的计算。本章介绍了近年来在此背景下发展出的一些最重要技术，重点关注两个方面：在验证所使用的理论和数据类型下推导克雷格插值项，以及应用插值的验证算法的基本设计。"
+  },
+  {
+    "date": "2026-02-09",
+    "title": "Towards CXL Resilience to CPU Failures",
+    "authors": "Antonis Psistakis, Burak Ocalan, Chloe Alverti, Fabien Chaix, Ramnatthan Alagappan, Josep Torrellas",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.08271v1",
+    "source": "arXiv",
+    "abstract": "Compute Express Link (CXL) 3.0 and beyond allows the compute nodes of a cluster to share data with hardware cache coherence and at the granularity of a cache line. This enables shared-memory semantics for distributed computing, but introduces new resilience challenges: a node failure leads to the loss of the dirty data in its caches, corrupting application state. Unfortunately, the CXL specification does not consider processor failures. Moreover, when a component fails, the specification tries to isolate it and continue application execution; there is no attempt to bring the application to a consistent state. To address these limitations, this paper extends the CXL specification to be resilient to node failures, and to correctly recover the application after node failures. We call the system ReCXL. To handle the failure of nodes, ReCXL augments the coherence transaction of a write with messages that propagate the update to a small set of other nodes (i.e., Replicas). Replicas save the update in a hardware Logging Unit. Such replication ensures resilience to node failures. Then, at regular intervals, the Logging Units dump the updates to memory. Recovery involves using the logs in the Logging Units to bring the directory and memory to a correct state. Our evaluation shows that ReCXL enables fault-tolerant execution with only a 30% slowdown over the same platform with no fault-tolerance support.",
+    "title_zh": "面向CXL对CPU故障的弹性",
+    "abstract_zh": "Compute Express Link (CXL) 3.0 及更高版本允许集群中的计算节点以硬件缓存一致性以及缓存行粒度共享数据。这为分布式计算提供了共享内存语义，但也带来了新的容错挑战：一旦某个节点发生故障，其缓存中的脏数据将丢失，从而破坏应用程序的状态。遗憾的是，CXL 规范并未考虑处理器故障的情况。此外，当某个组件发生故障时，该规范试图将其隔离并继续执行应用程序，而不会尝试将应用程序恢复到一致状态。为解决这些局限性，本文扩展了 CXL 规范，使其能够抵御节点故障，并在节点故障后正确恢复应用程序，我们称该系统为 ReCXL。为了应对节点故障，ReCXL 在写操作的相干性事务中增加了消息，将更新传播到一小部分其他节点（即副本）。这些副本将更新保存在硬件日志单元（Logging Unit）中。这种复制机制确保了对节点故障的容错能力。随后，日志单元会定期将更新转储到内存中。恢复过程则利用日志单元中的日志信息，使目录和内存恢复到正确的状态。我们的评估表明，ReCXL 能够实现容错执行，相较于无容错支持的相同平台，性能仅下降 30%。"
+  },
+  {
+    "date": "2026-02-09",
+    "title": "PBLean: Pseudo-Boolean Proof Certificates for Lean 4",
+    "authors": "Stefan Szeider",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.08692v1",
+    "source": "arXiv",
+    "abstract": "We present PBLean, a method for importing VeriPB pseudo-Boolean (PB) proof certificates into Lean 4. Key to our approach is reflection: a Boolean checker function whose soundness is fully proved in Lean and executed as compiled native code. Our method scales to proofs with tens of thousands of steps that would exhaust memory under explicit proof-term construction. Our checker supports all VeriPB kernel rules, including cutting-plane derivations and proof-by-contradiction subproofs. In contrast to external verified checkers that produce verdicts, our integration yields Lean theorems that can serve as composable lemmas in larger formal developments. To derive theorems about the original combinatorial problems rather than about PB constraints alone, we support verified encodings. This closes the trust gap between solver output and problem semantics since the constraint translation and its correctness proof are both formalized in Lean. We demonstrate the approach on various combinatorial problems.",
+    "title_zh": "PBLean：面向 Lean 4 的伪布尔证明证书",
+    "abstract_zh": "我们提出了PBLean，一种将VeriPB伪布尔（PB）证明证书导入Lean 4的方法。该方法的核心是反射：一个在Lean中具有完全形式化正确性证明的布尔值检查函数，并以编译后的原生代码执行。我们的方法可扩展至包含数万步的证明，而这些证明若采用显式证明项构造则会耗尽内存。我们的检查器支持所有VeriPB内核规则，包括割平面推导和反证法子证明。与仅输出判定结果的外部验证检查器不同，我们的集成方法生成的是Lean定理，这些定理可作为可组合的引理用于更大的形式化开发中。为了从原始组合问题中导出定理，而不仅仅是关于PB约束的定理，我们支持经过验证的编码。这填补了求解器输出与问题语义之间的信任鸿沟，因为约束转换及其正确性证明均在Lean中形式化。我们通过多个组合问题展示了该方法的有效性。"
+  },
+  {
+    "date": "2026-02-09",
+    "title": "A Comparative Analysis of the CERN ATLAS ITk MOPS Readout: A Feasibility Study on Production and Development Setups",
+    "authors": "Lukas Flad, Felix Sebastian Nitz, Tobias Krawutschke",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.08488v1",
+    "source": "arXiv",
+    "abstract": "The upcoming High-Luminosity upgrade of the Large Hadron Collider (LHC) necessitates a complete replacement of the ATLAS Inner Detector with the new Inner Tracker (ITk). This upgrade imposes stringent requirements on the associated Detector Control System (DCS), which is responsible for the monitoring, control, and safety of the detector. A critical component of the ITk DCS is the Monitoring of Pixel System (MOPS), which supervises the local voltages and temperatures of the new pixel detector modules. This paper introduces a dedicated testbed and verification methodology for the MOPS readout, defining a structured set of test cases for two DCS-readout architectures: a preliminary Raspberry Pi-based controller, the \"MOPS-Hub Mock-up\"(MH Mock-up), and the final production FPGA-based \"MOPS-Hub\" (MH). The methodology specifies the measurement chain for end-to-end latency, jitter, and data integrity across CAN and UART interfaces, including a unified time-stamping scheme, non-intrusive signal taps, and a consistent data-logging and analysis pipeline. This work details the load profiles and scalability scenarios (baseline operation, full-crate stress, and CAN Interface Card channel isolation), together with acceptance criteria and considerations for measurement uncertainty to ensure reproducibility. The objective is to provide a clear, repeatable procedure to qualify the MH architecture for production and deployment in the ATLAS ITk DCS. A companion paper will present the experimental results and the comparative analysis obtained using this testbed.",
+    "title_zh": "CERN ATLAS ITk MOPS读出系统的对比分析：关于生产和开发环境的可行性研究",
+    "abstract_zh": "大型强子对撞机（LHC）即将进行的高亮度升级，要求将ATLAS内层探测器完全替换为新的内层追踪器（ITk）。这一升级对相应的探测器控制系统（DCS）提出了极为严格的要求，该系统负责探测器的监控、控制与安全保障。ITk DCS中的一个关键组成部分是像素系统监控系统（MOPS），用于监测新型像素探测器模块的局部电压和温度。本文介绍了一套专为MOPS读出系统设计的测试平台及验证方法，针对两种DCS读出架构定义了结构化的测试用例：一种是基于树莓派的初步控制器“MOPS-Hub模拟装置”（MH模拟装置），另一种是最终投入生产的基于FPGA的“MOPS-Hub”（MH）。该方法明确了端到端延迟、抖动和数据完整性的测量链路，涵盖CAN和UART接口，并包括统一的时间戳方案、非侵入式信号采集点，以及一致的数据记录与分析流程。本文详细阐述了负载配置文件和可扩展性场景（基础运行、整机箱压力测试、CAN接口卡通道隔离），并提出了验收标准以及测量不确定度的考量，以确保实验结果的可重复性。本研究的目标是为MH架构在ATLAS ITk DCS中的生产与部署提供清晰、可重复的认证流程。相关实验结果及基于该测试平台的对比分析将在另一篇配套论文中呈现。"
+  }
+]
