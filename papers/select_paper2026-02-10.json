@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-02-10",
+    "title": "Eve-positional languages: putting order into Büchi automata",
+    "authors": "Olivier Idir",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.09896v1",
+    "source": "arXiv",
+    "abstract": "An $ω$-regular language is Eve-positional if, in all games with this language as objective, the existential player can play optimally without keeping any information from the previous moves. This notion plays a crucial role in verification, automata theory and synthesis. Casares and Ohlmann recently gave several characterizations of Eve-positionallity of $ω$-regular languages. For this, they introduce the notion $\\varepsilon$-complete parity automaton and show (among other results) that an $ω$-regular language is Eve-positional if and only if it can be recognized by some $\\varepsilon$-completion of a deterministic parity automaton. Colcombet and Idir extended on their work, and obtained a more direct semantic characterization of Eve-positionality. We introduce a new formalism that characterizes the Eve-positional languages, consisting in a restriction of non-deterministic Büchi automata. This allows us to complete a missing implication in Casares and Ohlmann's work. We then use this formalism to describe a determinization procedure for non-deterministic Büchi automaton recognizing such languages, with size blow-up at most factorial. We also show that this construction is, in a suitable sense, optimal.",
+    "title_zh": "Eve-位置语言：为Büchi自动机建立顺序",
+    "abstract_zh": "若一个ω-正则语言在所有以此语言为目标的博弈中，存在性玩家（existential player）可以无需记录先前移动的任何信息而进行最优策略，则称该语言是Eve-位置的（Eve-positional）。这一概念在验证、自动机理论和综合中起着关键作用。Casares和Ohlmann最近给出了ω-正则语言Eve-位置性（Eve-positionality）的多个刻画。为此，他们引入了ε-完备奇偶自动机（ε-complete parity automaton）的概念，并证明了（在其他结果中）一个ω-正则语言是Eve-位置的当且仅当它可被某个确定性奇偶自动机的ε-完备化所识别。Colcombet和Idir在此基础上进一步工作，得到了一个更直接的语义刻画。我们引入了一种新的形式化方法，用于刻画Eve-位置性语言，该方法基于对非确定性Büchi自动机的一种限制。利用这一新形式化，我们补全了Casares和Ohlmann工作中缺失的一个蕴含关系。随后，我们利用该形式化方法，为识别此类语言的非确定性Büchi自动机设计了一种确定化过程，其状态规模的增长最多为阶乘级。我们还证明了该构造在某种适当的意义下是最优的。"
+  },
+  {
+    "date": "2026-02-10",
+    "title": "Focus Session: LLM4PQC -- An Agentic Framework for Accurate and Efficient Synthesis of PQC Cores",
+    "authors": "Buddhi Perera, Zeng Wang, Weihua Xiao, Mohammed Nabeel, Ozgur Sinanoglu, Johann Knechtel, Ramesh Karri",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.09919v1",
+    "source": "arXiv",
+    "abstract": "The design of post-quantum cryptography (PQC) hardware is a complex and hierarchical process with many challenges. A primary bottleneck is the conversion of PQC reference codes from C to high-level synthesis (HLS) specifications, which requires extensive manual refactoring [1]-[3]. Another bottleneck is the scalability of synthesis for complex PQC primitives, including number theoretic transform (NTT) accelerators and wide memory interfaces. While large language models (LLMs) have shown remarkable results for coding in general-purpose languages like Python, coding for hardware design is more challenging; feedback-driven and agentic integration are key principles of successful state-of-the-art approaches. Here, we propose LLM4PQC, an LLM-based agentic framework that refactors high-level PQC specifications and reference C codes into HLS-ready and synthesizable C code. Our framework generates and verifies the resulting RTL code. For correctness, we leverage a hierarchy of checks, covering fast C compilation and simulation as well as RTL simulation. Case studies on NIST PQC reference designs demonstrate a reduction in manual effort and accelerated design-space exploration compared to traditional flows. Overall, LLM4PQC provides a powerful and efficient pathway for synthesizing complex hardware accelerators.",
+    "title_zh": "专题研讨：LLM4PQC——一种用于准确高效合成PQC核心的智能体框架",
+    "abstract_zh": "后量子密码学（PQC）硬件的设计是一个复杂且具有层次性的过程，面临诸多挑战。其中一个主要瓶颈是将PQC参考代码从C语言转换为高层次综合（HLS）规范，这一过程需要大量手动重构[1]-[3]。另一个瓶颈在于复杂PQC原语的综合可扩展性，包括数论变换（NTT）加速器和宽内存接口。尽管大语言模型（LLM）在Python等通用编程语言的代码生成方面已展现出显著成果，但硬件设计的代码生成更具挑战性；反馈驱动和基于智能体（agentic）的集成是当前先进方法的关键原则。本文提出LLM4PQC，一种基于大语言模型的智能体框架，可将高层PQC规范和参考C代码重构为适用于HLS且可综合的C代码。该框架还能生成并验证相应的RTL代码。为确保正确性，我们采用分层验证机制，涵盖快速的C代码编译与仿真，以及RTL级仿真。基于NIST PQC参考设计的案例研究表明，与传统流程相比，该方法显著减少了人工工作量，并加快了设计空间探索。总体而言，LLM4PQC为复杂硬件加速器的综合提供了一条高效且强大的实现路径。"
+  },
+  {
+    "date": "2026-02-10",
+    "title": "Accelerating Post-Quantum Cryptography via LLM-Driven Hardware-Software Co-Design",
+    "authors": "Yuchao Liao, Tosiron Adegbija, Roman Lysecky",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.09410v1",
+    "source": "arXiv",
+    "abstract": "Post-quantum cryptography (PQC) is crucial for securing data against emerging quantum threats. However, its algorithms are computationally complex and difficult to implement efficiently on hardware. In this paper, we explore the potential of Large Language Models (LLMs) to accelerate the hardware-software co-design process for PQC, with a focus on the FALCON digital signature scheme. We present a novel framework that leverages LLMs to analyze PQC algorithms, identify performance-critical components, and generate candidate hardware descriptions for FPGA implementation. We present the first quantitative comparison between LLM-driven synthesis and conventional HLS-based approaches for low-level compute-intensive kernels in FALCON, showing that human-in-the-loop LLM-generated accelerators can achieve up to 2.6x speedup in kernel execution time with shorter critical paths, while highlighting trade-offs in resource utilization and power consumption. Our results suggest that LLMs can minimize design effort and development time by automating FPGA accelerator design iterations for PQC algorithms, offering a promising new direction for rapid and adaptive PQC accelerator design on FPGAs.",
+    "title_zh": "通过大语言模型驱动的软硬件协同设计加速后量子密码学",
+    "abstract_zh": "后量子密码学（PQC）对于防范新兴的量子威胁、保障数据安全至关重要。然而，PQC算法计算复杂，难以在硬件上高效实现。本文探讨了利用大语言模型（LLM）加速PQC软硬件协同设计过程的潜力，重点关注FALCON数字签名方案。我们提出了一种新颖的框架，利用LLM分析PQC算法，识别性能关键组件，并生成适用于FPGA实现的候选硬件描述。本文首次对LLM驱动的综合方法与传统的基于高级综合（HLS）的方法在FALCON中低层次计算密集型核上的表现进行了定量比较。结果表明，在人工参与的闭环设计下，由LLM生成的加速器在内核执行时间上最高可实现2.6倍的加速，且关键路径更短，但也揭示了在资源利用率和功耗方面的权衡。实验结果表明，LLM可通过自动化PQC算法的FPGA加速器设计迭代，显著减少设计工作量和开发周期，为快速、自适应的PQC加速器FPGA设计提供了有前景的新方向。"
+  },
+  {
+    "date": "2026-02-10",
+    "title": "QEMI: A Quantum Software Stacks Testing Framework via Equivalence Modulo Inputs",
+    "authors": "Junjie Luo, Shangzhou Xia, Fuyuan Zhang, Jianjun Zhao",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.09942v1",
+    "source": "arXiv",
+    "abstract": "As quantum algorithms and hardware continue to evolve, ensuring the correctness of the quantum software stack (QSS) has become increasingly important. However, testing QSSes remains challenging due to the oracle problem, i.e., the lack of a reliable ground truth for expected program behavior. Existing metamorphic testing approaches often rely on equivalent circuit transformations, backend modifications, or parameter tuning to address this issue. In this work, inspired by Equivalence Modulo Inputs (EMI), we propose Quantum EMI (QEMI), a new testing approach for QSSes. Our key contributions include: (1) a random quantum program generator that produces code with dead code based on quantum control-flow structures, and (2) an adaptation of the EMI technique from classical compiler testing to generate variants by removing dead code. By comparing the behavior of these variants, we can detect potential bugs in QSS implementations. We applied QEMI to Qiskit, Q#, and Cirq, and successfully identified 11 crash bugs and 1 behavioral inconsistency. QEMI expands the limited set of testing techniques available for quantum software stacks by going beyond structural transformations and incorporating semantics-preserving ones into quantum program analysis.",
+    "title_zh": "QEMI：一种基于输入等价性的量子软件栈测试框架",
+    "abstract_zh": "随着量子算法和硬件的不断发展，确保量子软件栈（QSS）的正确性变得日益重要。然而，由于存在“预言机问题”——即缺乏程序预期行为的可靠真实标准——对QSS进行测试仍然具有挑战性。现有的基于蜕变测试的方法通常依赖等效电路变换、后端修改或参数调优来应对这一问题。在本研究中，我们受到“输入等价性”（Equivalence Modulo Inputs, EMI）的启发，提出了一种新的QSS测试方法——量子EMI（QEMI）。我们的主要贡献包括：（1）一种基于量子控制流结构生成包含死代码的随机量子程序的生成器；（2）将原本用于经典编译器测试的EMI技术引入量子领域，通过移除死代码来生成程序变体。通过比较这些变体的行为，我们可以检测QSS实现中的潜在缺陷。我们将QEMI应用于Qiskit、Q#和Cirq，成功发现了11个导致崩溃的缺陷和1个行为不一致问题。QEMI通过突破传统仅依赖结构变换的方法，将语义保持变换引入量子程序分析，从而拓展了当前有限的量子软件栈测试技术体系。"
+  },
+  {
+    "date": "2026-2-10",
+    "title": "Real-Time Readout System Design for the BULLKID-DM Experiment: Enhancing Dark Matter Search Capabilities",
+    "authors": "T. Muscheid, R. Gartmann, L. E. Ardila-Perez, A. Acevedo-Rentería, L. Bandiera, M. Calvo, M. Cappelli, R. Caravita, F. Carillo, U. Chowdhury, D. Crovo, A. Cruciani, A. D'Addabbo, M. De Lucia, G. Del Castello, M. del Gallo Roccagiovine, D. Delicato, F. Ferraro, M. Folcarelli, S. Fu, M. Grassi, V. Guidi, D. Helis, T. Lari, L. Malagutti, A. Mazzolari, A. Monfardini, D. Nicolò, F. Paolucci, D. Pasciuto, L. Pesce, V. Pettinacci, C. Puglia, D. Quaranta, C. M. A. Roda, S. Roddaro, M. Romagnoni, G. Signorelli, F. Simon, M. Tamisari, A. Tartari, E. Vázquez-Jáuregui, M. Vignati, K. Zhao",
+    "publish": "IEEE Transactions on Applied Superconductivity",
+    "url": "https://doi.org/10.1109/tasc.2026.3662789",
+    "source": "IEEE",
+    "abstract": "The BULLKID-DM experiment aims to detect WIMP-like potential Dark Matter particles with masses below 1 GeV/c<inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$^{2}$</tex-math></inline-formula>. Sensing these particles is challenging, as it requires nuclear recoil detectors characterized by high exposure and an energy threshold in the order of 100 eV, achieved with cryogenic phonon detectors. BULLKID-DM introduces a detector that combines the low energy threshold with a new scalable technology, reaching a total target mass of 800 g. The core detector of the BULLKID-DM experiment is composed of 16 100mm silicon wafers, each segmented in 145 dice for a total of more than 2000 units, each sensed by a Microwave Kinetic Inductance Detector (MKID). The MKIDs on each wafer are coupled to a single transmission line and read using a frequency division multiplexing approach by the room-temperature data acquisition. In this contribution, we describe and assess the design of the room-temperature readout electronics system, including the selected hardware components and the FPGA firmware which contains the real-time signal processing stages for tone generation, frequency demultiplexing, and event triggering. We evaluate the system on the ZCU216 board, a commercial evaluation card built around a Radio-Frequency System-on-Chip (RFSoC) with integrated high-speed DACs and ADCs, and connected it to a custom-designed analog front-end for signal conditioning.",
+    "title_zh": "BULLKID-DM实验的实时读出系统设计：提升暗物质探测能力",
+    "abstract_zh": "BULLKID-DM 实验旨在探测质量低于 1 GeV/c² 的类似弱相互作用大质量粒子（WIMP）的潜在暗物质粒子。由于这类粒子的探测极具挑战性，需要具备高曝光量且能量阈值在约 100 eV 水平的核反冲探测器，而这一目标可通过低温声子探测器实现。BULLKID-DM 引入了一种结合低能量阈值与新型可扩展技术的探测器，其总靶质量达到 800 克。BULLKID-DM 实验的核心探测器由 16 片直径 100 毫米的硅晶圆组成，每片晶圆被分割为 145 个独立单元，总计超过 2000 个探测单元，每个单元均由一个微波动能电感探测器（MKID）进行读出。每片晶圆上的 MKID 通过单一传输线耦合，并采用频率分复用技术，由室温数据采集系统进行读取。本文中，我们描述并评估了室温读出电子学系统的设计，包括所选用的硬件组件以及现场可编程门阵列（FPGA）固件，后者包含用于实时信号处理的多个阶段，如单频信号生成、频率解复用和事件触发。我们在 ZCU216 板上对系统进行了评估，该板是一款商用评估卡，基于集成了高速数模转换器（DAC）和模数转换器（ADC）的射频片上系统（RFSoC），并连接至一款自主设计的模拟前端电路以实现信号调理。"
+  },
+  {
+    "date": "2026-2-10",
+    "title": "Formal Reasoning Meets LLMs: Toward AI for Mathematics and Verification",
+    "authors": "Kaiyu Yang, Gabriel Poesia, Jingxuan He, Wenda Li, Kristin Lauter, Swarat Chaudhuri, Dawn Song",
+    "publish": "Communications of the ACM",
+    "url": "https://doi.org/10.1145/3750038",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "形式化推理遇见大语言模型：迈向数学与验证的AI",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-2-10",
+    "title": "A Highly Cost-Effective Online Error Detection and Mitigation Scheme for CNN Hardware Accelerators Based on Approximate PE",
+    "authors": "Wei-Ji Chao, Yen-Chieh Tseng, Tong-Yu Hsieh",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3793551",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "一种基于近似处理单元的高性价比CNN硬件加速器在线错误检测与缓解方案",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-2-10",
+    "title": "Commercial Cyber-Physical System Development Tool Chain Bug Detecting via Diversity-Guided Fuzzing Test",
+    "authors": "Huijiang Liu, Shikai Guo, Jiaxue Liu, Yifan Wang, Hongyi Cheng, Xiaochen Li, He Jiang",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3797030",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于多样性引导的模糊测试的商用信息物理系统开发工具链漏洞检测",
+    "abstract_zh": "None"
+  }
+]
