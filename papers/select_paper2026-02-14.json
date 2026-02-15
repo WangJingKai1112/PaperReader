@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-2-14",
+    "title": "A Logic-Driven Workflow Based on LLM Agents for High-Fidelity SMT Code Generation",
+    "authors": "Zhuwei Liu, Keming Wang",
+    "publish": "Proceedings of the 2025 International Conference on Embodied Intelligence and Large Models",
+    "url": "https://doi.org/10.1145/3788731.3788734",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于大语言模型代理的逻辑驱动工作流用于高保真SMT代码生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-2-14",
+    "title": "Machine Learning for Cybersecurity: A Comprehensive Literature Review",
+    "authors": "Simon Gökstorp, Sotirios Katsikeas, Pontus Johnson",
+    "publish": "ACM Computing Surveys",
+    "url": "https://doi.org/10.1145/3796543",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向网络安全的机器学习：一项全面的文献综述",
+    "abstract_zh": "None"
+  }
+]
