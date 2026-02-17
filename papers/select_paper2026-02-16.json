@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2026-02-16",
+    "title": "Beyond Eager Encodings: A Theory-Agnostic Approach to Theory-Lemma Enumeration in SMT",
+    "authors": "Emanuele Civini, Gabriele Masina, Giuseppe Spallitta, Roberto Sebastiani",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.14634v1",
+    "source": "arXiv",
+    "abstract": "Lifting Boolean-reasoning techniques to the SMT level most often requires producing theory lemmas that rule out theory-inconsistent truth assignments. With standard SMT solving, it is common to \"lazily\" generate such lemmas on demand during the search; with some harder SMT-level tasks -- such as unsat-core extraction, MaxSMT, T-OBDD or T-SDD compilation -- it may be beneficial or even necessary to \"eagerly\" pre-compute all the needed theory lemmas upfront. Whereas in principle \"classic\" eager SMT encodings could do the job, they are specific for very few and easy theories, they do not comply with theory combination, and may produce lots of unnecessary lemmas. In this paper, we present theory-agnostic methods for enumerating complete sets of theory lemmas tailored to a given formula. Starting from AllSMT as a baseline approach, we propose improved lemma-enumeration techniques, including divide&conquer, projected enumeration, and theory-driven partitioning, which are highly parallelizable and which may drastically improve scalability. An experimental evaluation demonstrates that these techniques significantly enhance efficiency and enable the method to scale to substantially more complex instances.",
+    "title_zh": "超越急切编码：SMT中与理论无关的理论引理枚举方法",
+    "abstract_zh": "将布尔推理技术提升到SMT（可满足性模理论）层面，通常需要生成理论引理，以排除在理论上不一致的真值赋值。在标准的SMT求解中，通常在搜索过程中“惰性地”按需生成此类引理；然而，对于某些更困难的SMT级任务——例如不可满足核提取、MaxSMT、T-OBDD或T-SDD编译——可能需要甚至必须“急切地”预先计算所有所需的理论引理。尽管原则上“经典”的急切SMT编码可以完成这项任务，但它们仅适用于极少数且简单的理论，无法支持理论组合，并可能产生大量不必要的引理。本文提出了一种与具体理论无关的方法，用于枚举针对给定公式定制的完整理论引理集合。以AllSMT作为基线方法，我们提出了改进的引理枚举技术，包括分而治之、投影枚举和理论驱动的划分方法，这些方法具有高度可并行性，可显著提升可扩展性。实验评估表明，这些技术显著提高了效率，并使该方法能够扩展到复杂得多的实例上。"
+  },
+  {
+    "date": "2026-2-16",
+    "title": "HLS-Based Algorithm-Hardware Co-Design of MIMO-OFDM Receiver for Tactical Jamming Suppression",
+    "authors": "J. Andrew Zhang, Jie Lei, Hao Zhang, Anh Tuyen Le, Kin-Ping Hui, Damien Phillips, Asanka Kekirigoda, Alan Allwright",
+    "publish": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "url": "https://doi.org/10.1109/tcsi.2026.3660017",
+    "source": "IEEE",
+    "abstract": "This paper presents an HLS-based algorithm-hardware co-design methodology and complete FPGA hardware accelerator for multi-user massive MIMO-OFDM receivers operating in contested tactical environments with jamming suppression capabilities. We develop a systematic bi-directional co-design methodology using high-level synthesis (HLS) where algorithms provide functional verification constraints while hardware synthesis feedback drives algorithmic complexity reduction, enabling efficient transformation from signal processing algorithms to optimized circuit implementations on the Xilinx ZCU111 radio frequency system-on-chip (RFSoC) platform. The primary contributions include: 1) hardware architecture innovations featuring QR decomposition-based synchronization achieving 330 MHz post-route operation and optimized frequency-domain minimum mean square error (FD-MMSE) equalization with systematic loop restructuring for data dependency removal in substitution modules, reducing hardware resources by 56% lookup tables (LUTs), 58% flip-flops (FFs), and 67% digital signal processing (DSP) blocks while maintaining real-time throughput; 2) systematic HLS-based co-design framework enabling automated architecture exploration with hardware-oriented algorithm adaptations including silent-period frame structure and Cholesky-based decision-feedback equalization; 3) complete system integration validated through field trials demonstrating 8 dB jamming suppression improvement with reliable spatial division multiple access (SDMA) communications. The presented methodology provides insights applicable to broader signal processing systems with stringent real-time constraints.",
+    "title_zh": "面向战术抗干扰的MIMO-OFDM接收机HLS算法-硬件协同设计",
+    "abstract_zh": "本文提出了一种基于高级综合（HLS）的算法-硬件协同设计方法学，以及面向多用户大规模MIMO-OFDM接收机的完整FPGA硬件加速器，适用于存在干扰抑制能力的对抗性战术环境。我们采用高阶综合（HLS）技术，建立了一套系统性的双向协同设计方法：算法为功能验证提供约束条件，而硬件综合的反馈则指导算法复杂度的降低，从而高效地将信号处理算法转化为在Xilinx ZCU111射频片上系统（RFSoC）平台上的优化电路实现。本文的主要贡献包括：1）硬件架构创新，采用基于QR分解的同步机制，实现布线后330 MHz的工作频率；并设计了优化的频域最小均方误差（FD-MMSE）均衡器，通过对代换模块中的循环结构进行系统性重构以消除数据依赖，使硬件资源减少56%的查找表（LUTs）、58%的触发器（FFs）和67%的数字信号处理（DSP）模块，同时保持实时吞吐能力；2）构建了基于HLS的系统性协同设计框架，支持自动化架构探索，并引入面向硬件的算法改进，如静默期帧结构和基于Cholesky分解的判决反馈均衡；3）完成了完整系统集成，并通过外场试验验证，实现了8 dB的干扰抑制性能提升，支持可靠的空分多址（SDMA）通信。本文提出的方法学为其他具有严格实时性要求的信号处理系统提供了有益的借鉴。"
+  },
+  {
+    "date": "2026-2-16",
+    "title": "A Coq-based Interactive Verification Tool for Analog Circuits",
+    "authors": "Jingwen Yang, Zihang Zhang, Hao Deng, Kangqi Zhou, Gang Chen",
+    "publish": "2025 16th International Conference on Software Engineering and Service Science (ICSESS)",
+    "url": "https://doi.org/10.1109/icsess67729.2025.11380695",
+    "source": "IEEE",
+    "abstract": "Printed circuit board design relies on EDA (Electronic Design Automation) tools, and ensuring the correctness of analog circuit design is a crucial step in the design process. This article introduces an interactive verification tool for analog circuits based on the Coq theorem prover, and develops a graphical user interface that combines formal verification. The interface enables users to draw analog circuit diagrams and automatically convert them into Coq description code, significantly enhancing the efficiency of the verification process. By using the tool, we draw a series of typical linear analog circuit diagrams and generate their Coq descriptions. Furthermore, we use theorem provers to verify that the physical quantities of the circuit design meet the expected standards. The experimental results indicate that formal verification can be effectively applied to analog circuit design, providing new research directions and practical methods for software engineering.",
+    "title_zh": "基于Coq的模拟电路交互式验证工具",
+    "abstract_zh": "印刷电路板设计依赖于电子设计自动化（EDA）工具，而确保模拟电路设计的正确性是设计过程中的关键步骤。本文介绍了一种基于Coq定理证明器的模拟电路交互式验证工具，并开发了一个结合形式化验证的图形用户界面。该界面允许用户绘制模拟电路图，并自动将其转换为Coq描述代码，显著提高了验证过程的效率。通过使用该工具，我们绘制了一系列典型的线性模拟电路图，并生成了相应的Coq描述。此外，我们利用定理证明器验证了电路设计中的物理量是否符合预期标准。实验结果表明，形式化验证能够有效应用于模拟电路设计，为软件工程领域提供了新的研究方向和实用方法。"
+  },
+  {
+    "date": "2026-2-16",
+    "title": "2025 Workshop on Fault Detection and Tolerance in Cryptography (FDTC)",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/fdtc68360.2025",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "2025年密码学中的故障检测与容错研讨会（FDTC）",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-2-16",
+    "title": "OpenCXD: An Open Real-Device-Guided Hybrid Evaluation Framework for CXL-SSDs",
+    "authors": "Hyunsun Chung, Junhyeok Park, Taewan Noh, Seonghoon Ahn, Kihwan Kim, Ming Zhao, Youngjae Kim",
+    "publish": "2025 33rd International Symposium on Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS)",
+    "url": "https://doi.org/10.1109/mascots67699.2025.11283378",
+    "source": "IEEE",
+    "abstract": "The advent of Compute Express Link (CXL) enables SSDs to participate in the memory hierarchy as large-capacity, byte-addressable memory devices. These CXL-enabled SSDs (CXL-SSDs) offer a promising new tier between DRAM and traditional storage, combining NAND flash density with memory-like access semantics. However, evaluating the performance of CXLSSDs remains difficult due to the lack of hardware that natively supports the CXL.mem protocol on SSDs. As a result, most prior work relies on hybrid simulators combining CPU models augmented with CXL.mem semantics and SSD simulators that approximate internal flash behaviors. While effective for early-stage exploration, this approach cannot faithfully model firmware-level interactions and low-level storage dynamics critical to CXLSSD performance. In this paper, we present OpenCXD, a real-device-guided hybrid evaluation framework that bridges the gap between simulation and hardware. OpenCXD integrates a cycleaccurate CXL.mem simulator on the host side with a physical OpenSSD platform running real firmware. This enables in-situ firmware execution triggered by simulated memory requests. Through these contributions, OpenCXD reflects device-level phenomena unobservable in simulation-only setups, providing critical insights for future firmware design tailored to CXL-SSDs.",
+    "title_zh": "OpenCXD：一种面向CXL-SSD的开放真实设备引导的混合评估框架",
+    "abstract_zh": "计算快速链接（Compute Express Link，CXL）的出现使得固态硬盘（SSD）能够作为大容量、字节可寻址的内存设备参与内存层次结构。这些支持CXL的SSD（CXL-SSD）在DRAM与传统存储之间提供了一个极具前景的新层级，结合了NAND闪存的高密度与类似内存的访问语义。然而，由于目前缺乏原生支持CXL.mem协议的SSD硬件，对CXL-SSD性能的评估仍然十分困难。因此，大多数前期研究依赖于混合仿真器，将增强CXL.mem语义的CPU模型与模拟闪存内部行为的SSD仿真器相结合。尽管这种方法适用于早期探索，却无法准确建模对CXL-SSD性能至关重要的固件级交互和底层存储动态。\n\n本文提出OpenCXD，一种以真实设备为导向的混合评估框架，旨在弥合仿真与实际硬件之间的差距。OpenCXD在主机端集成了一个周期精确的CXL.mem仿真器，并与运行真实固件的物理OpenSSD平台相连接。该设计使得仿真生成的内存请求能够触发固件在真实设备上的就地执行。通过上述创新，OpenCXD能够揭示纯仿真环境无法观察到的设备级现象，为面向CXL-SSD的未来固件设计提供了关键洞察。"
+  },
+  {
+    "date": "2026-2-16",
+    "title": "HyDRASim: A Versatile and Cycle-Accurate Simulator for Hybrid DRAM PIM-CPU Systems",
+    "authors": "Jihoon Jang, Inseong Hwang, Hyun Kim",
+    "publish": "2025 33rd International Symposium on Modeling, Analysis and Simulation of Computer and Telecommunication Systems (MASCOTS)",
+    "url": "https://doi.org/10.1109/mascots67699.2025.11283206",
+    "source": "IEEE",
+    "abstract": "Recent advancements in deep neural networks (DNNs) have exacerbated the data movement bottleneck inherent in traditional von Neumann architectures. Processing-in-memory (PIM) has emerged as a promising paradigm by integrating computation within memory to alleviate this challenge. However, the lack of versatile and cycle-accurate simulation frameworks significantly limits the evaluation and optimization of diverse PIM designs. Existing in-house PIM simulators tend to be narrowly tailored to specific architectures, lacking generality and extensibility across hybrid computing environments. In this paper, we introduce HyDRASim, a cycle-accurate and extensible PIM-CPU simulator designed to support a wide range of PIM architectural features. HyDRASim integrates ZSim for detailed CPU modeling with DRAMSim3 for accurate memory modeling to enable flexible simulation across CPU-only, PIM-only, and PIM-CPU hybrid configurations. Validation experiments using GEMV workloads of varying sizes demonstrate that HyDRASim achieves cycle-level fidelity, with average latency and power errors of just $5.92 \\%$ and $5.61 \\%$, respectively, compared to established in-house baselines. Furthermore, system-level performance evaluations with diverse DNN workloads reveal that transformer-based models achieve $2.21 \\times$ greater acceleration compared to convolutional neural networks under hybrid configurations modeled with HyDRASim. These results establish HyDRASim as a reliable and powerful tool for accurately modeling, evaluating, and optimizing emerging PIM-CPU hybrid architectures, providing critical insights into the future of memory-centric system design. We open-source HyDRASim at https://github.com/IDSL-SeoulTech/HyDRASim",
+    "title_zh": "HyDRASim：一种用于混合型DRAM PIM-CPU系统的多功能且周期精确的模拟器",
+    "abstract_zh": "近年来，深度神经网络（DNN）的快速发展加剧了传统冯·诺依曼架构中固有的数据移动瓶颈问题。存内计算（Processing-in-Memory, PIM）通过将计算功能集成到存储器内部，成为缓解这一挑战的有前景的解决方案。然而，目前缺乏通用且周期精确的仿真框架，严重限制了对多样化PIM架构的评估与优化。现有的内部开发PIM仿真器通常仅针对特定架构设计，难以在混合计算环境中实现通用性和可扩展性。\n\n本文提出了HyDRASim，一种周期精确且高度可扩展的PIM-CPU协同仿真平台，能够支持广泛的PIM架构特性。HyDRASim结合了用于精细CPU建模的ZSim与用于精确内存建模的DRAMSim3，从而实现了对纯CPU、纯PIM以及PIM-CPU混合配置的灵活仿真。通过对不同规模的GEMV工作负载进行验证实验，结果表明HyDRASim具有周期级精度，其平均延迟和功耗误差分别仅为5.92%和5.61%，相较于成熟的内部基准工具表现出高度一致性。此外，基于多种DNN工作负载的系统级性能评估显示，在HyDRASim建模的混合配置下，基于Transformer的模型相比卷积神经网络（CNN）可实现高达2.21倍的加速效果。\n\n上述结果证明，HyDRASim是一个可靠且强大的工具，可用于准确建模、评估和优化新兴的PIM-CPU混合架构，为未来以内存为中心的系统设计提供关键洞察。我们已将HyDRASim开源，项目地址：https://github.com/IDSL-SeoulTech/HyDRASim"
+  },
+  {
+    "date": "2026-2-16",
+    "title": "From NOP to ADD and Beyond: A Novel Fault-Model Comprising Variable-Length Instruction Sets",
+    "authors": "Xhani Marvin Sas, Thomas Martin Johannes Lehrach, Jean-Pierre Seifert",
+    "publish": "2025 Workshop on Fault Detection and Tolerance in Cryptography (FDTC)",
+    "url": "https://doi.org/10.1109/fdtc68360.2025.00013",
+    "source": "IEEE",
+    "abstract": "Fault Injection Attacks (FIAs) pose significant security threats to embedded devices, compromising the security of critical systems. Although the implications of Fault Injection (FI) are well understood for embedded platforms exhibiting Reduced Instruction Set Computer (RISC) architectures, Complex Instruction Set Computer (CISC) platforms have received much less attention in security research. Modern x86 processors employ variable-length instructions spanning 1 to 15 bytes, creating unique vulnerability patterns that remain largely unexplored in existing FI research.We present the first systematic study of Electro-Magnetic Fault Injection (EMFI) attacks against variable-length Instruction Set Architectures (ISAs), highlighting misalignment effects. Our research introduces a novel fault model that demonstrates how strategically induced bit flips in instruction opcodes cause decoder misalignment, ultimately leading to the execution of completely different code sequences. We provide proof-of-concept evidence on Intel N100 hardware, showing how EMFI can transform a NOP instruction sequence into an equivalent-length ADD sequence, demonstrating novel misalignment vulnerabilities specific to variable-length ISAs.",
+    "title_zh": "从NOP到ADD及更远：一种涵盖变长指令集的新型故障模型",
+    "abstract_zh": "故障注入攻击（Fault Injection Attacks, FIAs）对嵌入式设备构成重大安全威胁，可能危及关键系统的安全性。尽管针对采用精简指令集计算机（RISC）架构的嵌入式平台，故障注入（FI）的影响已被广泛研究，复杂指令集计算机（CISC）平台在安全研究中却较少受到关注。现代x86处理器采用长度可变的指令，范围从1到15字节，这种特性形成了独特的漏洞模式，而现有故障注入研究对此仍缺乏深入探索。本文首次系统性地研究了针对变长指令集架构（ISA）的电磁故障注入（Electro-Magnetic Fault Injection, EMFI）攻击，重点揭示了指令对齐错位（misalignment）效应。我们提出了一种新颖的故障模型，展示了在指令操作码中策略性地引入位翻转如何导致指令解码器的错位，最终引发完全不同的代码序列被执行。我们在Intel N100硬件上提供了概念验证的实验证据，展示了EMFI如何将一段NOP（空操作）指令序列转变为等长的ADD（加法）指令序列，揭示了变长指令集架构所特有的新型错位漏洞。"
+  },
+  {
+    "date": "2026-2-16",
+    "title": "SETBVE: Quality-Diversity Driven Exploration of Software Boundary Behaviors",
+    "authors": "Sabinakhon Akbarova, Felix Dobslaw, Francisco Gomes de Oliveira Neto, Robert Feldt",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3797890",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SETBVE：面向软件边界行为的质量-多样性驱动探索",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-2-16",
+    "title": "Reed-Muller Error-Correction Code Encoder for SFQ-to-CMOS Interface Circuits",
+    "authors": "Yerzhan Mustafa, Berker Peköz, Selçuk Köse",
+    "publish": "IEEE Transactions on Applied Superconductivity",
+    "url": "https://doi.org/10.1109/tasc.2026.3664826",
+    "source": "IEEE",
+    "abstract": "Data transmission from superconducting digital electronics such as single flux quantum (SFQ) logic to semiconductor (CMOS) circuits is subject to bit errors due to, e.g., flux trapping, process parameter variations (PPV), and fabrication defects. In this paper, a lightweight hardware-efficient error-correction code encoder is designed and analyzed. Particularly, a Reed-Muller code RM(1,3) encoder is implemented with SFQ digital logic. The proposed RM(1,3) encoder converts a 4-bit message into an 8-bit codeword and can detect and correct up to 3- and 1-bit errors, respectively. This encoder circuit is designed using MIT-LL SFQ5ee process and SuperTools/ColdFlux RSFQ cell library. A simulation framework integrating JoSIM simulator and MATLAB script for automated data collection and analysis, is proposed to study the performance of RM(1,3) encoder. The proposed encoder improves the probability of having no bit errors by 6.7% as compared to an encoder-less design under <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$\\pm$</tex-math></inline-formula>20% PPV. With <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><tex-math notation=\"LaTeX\">$\\pm$</tex-math></inline-formula>15% and lower PPV, the proposed encoder could correct all errors with at least 99.1% probability. The impact of fabrication defects such as open circuit faults on the encoder circuit is also studied using the proposed framework.",
+    "title_zh": "用于SFQ到CMOS接口电路的Reed-Muller纠错码编码器",
+    "abstract_zh": "由于通量捕获、工艺参数变化（PPV）和制造缺陷等原因，从单通量量子（SFQ）逻辑等超导数字电子器件向半导体（CMOS）电路传输数据时容易发生比特错误。本文设计并分析了一种轻量级、硬件高效的纠错码编码器。具体而言，采用SFQ数字逻辑实现了一种Reed-Muller码RM(1,3)编码器。所提出的RM(1,3)编码器可将4位信息转换为8位码字，最多可检测3位错误并纠正1位错误。该编码器电路基于MIT-LL的SFQ5ee工艺以及SuperTools/ColdFlux的RSFQ单元库设计而成。本文提出了一种集成JoSIM仿真器与MATLAB脚本的仿真框架，用于实现自动化的数据采集与分析，以研究RM(1,3)编码器的性能。在±20%的PPV条件下，与无编码器的设计相比，所提出的编码器将无比特错误的概率提高了6.7%。在±15%及更低的PPV条件下，该编码器能够以至少99.1%的概率纠正所有错误。此外，利用所提出的仿真框架还研究了开路故障等制造缺陷对编码器电路性能的影响。"
+  },
+  {
+    "date": "2026-2-16",
+    "title": "Fault attacks against UOV-based signatures",
+    "authors": "Sven Bauer, Fabrizio De Santis, Kristjane Koleci",
+    "publish": "2025 Workshop on Fault Detection and Tolerance in Cryptography (FDTC)",
+    "url": "https://doi.org/10.1109/fdtc68360.2025.00014",
+    "source": "IEEE",
+    "abstract": "The Unbalanced Oil and Vinegar (UOV) construction is the foundation of several post-quantum digital signature algorithms currently under consideration in NIST’s standardization process for additional post-quantum digital signature schemes. This paper introduces new single fault injection attacks against the signing procedure of deterministic variants of signature schemes based on the UOV construction. We show how these attacks can be applied to attack MAYO and PROV, two signature schemes submitted to the NIST call for additional post-quantum signature schemes. The attacks are demonstrated with reference implementations that run on an ARM Cortex-M4 processor. Our attacks do not require precise triggering or precise fault injection capabilities. Any type of fault in large portions of the code has the potential to result in successful key recovery. We demonstrate our attacks with very cheap equipment and simple clock glitching techniques, enabling the recovery of the secret key with either two faulty signatures or one correct signature and one faulty signature in the case of MAYO and one correct signature and two faulty signatures in case of PROV. The fact that our attacks do not require precise fault injection capabilities and can be successful with only a few signatures makes them particularly powerful, hence harmful for the implementation security of post-quantum digital signature schemes.",
+    "title_zh": "针对基于UOV的签名的故障攻击",
+    "abstract_zh": "不平衡油醋（UOV）构造是目前NIST在对额外后量子数字签名方案进行标准化过程中所考虑的多个后量子数字签名算法的基础。本文提出了一种针对基于UOV构造的确定性变体签名方案签名过程的新型单次故障注入攻击。我们展示了这些攻击如何应用于攻击MAYO和PROV这两种提交给NIST额外后量子签名方案征集活动的签名方案。攻击通过在ARM Cortex-M4处理器上运行的参考实现进行了验证。我们的攻击不需要精确的触发或精确的故障注入能力。代码大部分区域内的任何类型故障都有可能导致成功的密钥恢复。我们使用非常廉价的设备和简单的时钟毛刺技术进行了攻击演示，对于MAYO方案，仅需两个错误签名，或一个正确签名加一个错误签名即可恢复私钥；对于PROV方案，则需要一个正确签名加两个错误签名。由于我们的攻击无需精确的故障注入能力，且仅需少量签名即可成功，因此具有极强的破坏力，对后量子数字签名方案的实现安全构成了严重威胁。"
+  }
+]
