@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2026-02-17",
+    "title": "Hennessy-Milner Logic in CSLib, the Lean Computer Science Library",
+    "authors": "Fabrizio Montesi, Marco Peressotti, Alexandre Rademaker",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.15409v1",
+    "source": "arXiv",
+    "abstract": "We present a library-level formalisation of Hennessy-Milner Logic (HML) - a foundational logic for labelled transition systems (LTSs) - for the Lean Computer Science Library (CSLib). Our development includes the syntax, satisfaction relation, and denotational semantics of HML, as well as a complete metatheory including the Hennessy-Milner theorem - bisimilarity coincides with theory equivalence for image-finite LTSs. Our development emphasises generality and reusability: it is parametric over arbitrary LTSs, definitions integrate with CSLib's infrastructure (such as the formalisation of bisimilarity), and proofs leverage Lean's automation (notably the grind tactic). All code is publicly available in CSLib and can be readily applied to systems that use its LTS API.",
+    "title_zh": "CSLib，即Lean计算机科学库中的Hennessy-Milner逻辑",
+    "abstract_zh": "我们提出了针对Lean计算机科学库（CSLib）的Hennessy-Milner逻辑（HML）——一种用于标记迁移系统（LTS）的基础逻辑——的库级形式化。我们的工作包含了HML的语法、满足关系和指称语义，以及完整的元理论，其中包括Hennessy-Milner定理：对于像有限的标记迁移系统，互模拟等价性与理论等价性一致。我们的开发强调通用性和可重用性：形式化过程对任意LTS参数化，定义与CSLib的基础设施（例如互模拟的形式化）相集成，证明充分利用了Lean的自动化功能（特别是grind策略）。所有代码均在CSLib中公开，可直接应用于使用其LTS API的系统。"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Req2Road: A GenAI Pipeline for SDV Test Artifact Generation and On-Vehicle Execution",
+    "authors": "Denesa Zyberaj, Lukasz Mazur, Pascal Hirmer, Nenad Petrovic, Marco Aiello, Alois Knoll",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.15591v1",
+    "source": "arXiv",
+    "abstract": "Testing functionality in Software-Defined Vehicles is challenging because requirements are written in natural language, specifications combine text, tables, and diagrams, while test assets are scattered across heterogeneous toolchains. Large Language Models and Vision-Language Models are used to extract signals and behavioral logic to automatically generate Gherkin scenarios, which are then converted into runnable test scripts. The Vehicle Signal Specification (VSS) integration standardizes signal references, supporting portability across subsystems and test benches. The pipeline uses retrieval-augmented generation to preselect candidate VSS signals before mapping. We evaluate the approach on the safety-relevant Child Presence Detection System, executing the generated tests in a virtual environment and on an actual vehicle. Our evaluation covers Gherkin validity, VSS mapping quality, and end-to-end executability. Results show that 32 of 36 requirements (89\\%) can be transformed into executable scenarios in our setting, while human review and targeted substitutions remain necessary. This paper is a feasibility and architectural demonstration of an end-to-end requirements-to-test pipeline for SDV subsystems, evaluated on a CPDS case in simulation and Vehicle-in-the-Loop settings.",
+    "title_zh": "Req2Road：一种用于生成SDV测试产物并实现车载执行的生成式AI流水线",
+    "abstract_zh": "在软件定义车辆中，功能测试面临挑战，因为需求通常以自然语言编写，规范中混合了文本、表格和图表，而测试资源则分散在异构的工具链中。本文利用大语言模型（LLM）和视觉语言模型（VLM）来提取信号和行为逻辑，自动生成Gherkin测试场景，并进一步转换为可执行的测试脚本。通过集成车辆信号规范（VSS）标准，统一了信号引用，从而支持在不同子系统和测试平台间的可移植性。该流程采用检索增强生成（RAG）技术，在映射前预选候选VSS信号。我们在与安全相关的孩子遗留检测系统（CPDS）上评估了该方法，生成的测试在虚拟环境和实车中均得以执行。评估涵盖了Gherkin场景的有效性、VSS映射质量以及端到端的可执行性。结果表明，在我们的设置下，36项需求中的32项（89%）可成功转化为可执行的测试场景，但仍需人工审查和有针对性的替换。本文展示了面向软件定义车辆子系统的端到端“需求到测试”流程的可行性与系统架构，并在仿真环境和车辆在环（Vehicle-in-the-Loop）场景下以CPDS案例进行了验证。"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Latent Regularization in Generative Test Input Generation",
+    "authors": "Giorgi Merabishvili, Oliver Weißl, Andrea Stocco",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.15552v1",
+    "source": "arXiv",
+    "abstract": "This study investigates the impact of regularization of latent spaces through truncation on the quality of generated test inputs for deep learning classifiers. We evaluate this effect using style-based GANs, a state-of-the-art generative approach, and assess quality along three dimensions: validity, diversity, and fault detection. We evaluate our approach on the boundary testing of deep learning image classifiers across three datasets, MNIST, Fashion MNIST, and CIFAR-10. We compare two truncation strategies: latent code mixing with binary search optimization and random latent truncation for generative exploration. Our experiments show that the latent code-mixing approach yields a higher fault detection rate than random truncation, while also improving both diversity and validity.",
+    "title_zh": "生成测试输入生成中的潜在正则化",
+    "abstract_zh": "本研究探讨了通过对潜在空间进行截断正则化，对生成用于深度学习分类器的测试输入质量所产生的影响。我们采用基于风格的生成对抗网络（style-based GANs）这一先进的生成方法，从有效性、多样性以及故障检测能力三个维度评估生成结果的质量。我们在MNIST、Fashion MNIST和CIFAR-10三个数据集上，针对深度学习图像分类器的边界测试对所提出方法进行了评估。我们比较了两种截断策略：结合二分搜索优化的潜在编码混合方法，以及用于生成探索的随机潜在截断方法。实验结果表明，与随机截断相比，潜在编码混合方法在提高生成样本多样性和有效性的同时，能够实现更高的故障检测率。"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Space-filling lattice designs for computer experiments",
+    "authors": "Naoki Sakai, Takashi Goda",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.15390v1",
+    "source": "arXiv",
+    "abstract": "This paper investigates the construction of space-filling designs for computer experiments. The space-filling property is characterized by the covering and separation radii of a design, which are integrated through the unified criterion of quasi-uniformity. We focus on a special class of designs, known as quasi-Monte Carlo (QMC) lattice point sets, and propose two construction algorithms. The first algorithm generates rank-1 lattice point sets as an approximation of quasi-uniform Kronecker sequences, where the generating vector is determined explicitly. As a byproduct of our analysis, we prove that this explicit point set achieves an isotropic discrepancy of $O(N^{-1/d})$. The second algorithm utilizes Korobov lattice point sets, employing the Lenstra--Lenstra--Lovász (LLL) basis reduction algorithm to identify the generating vector that ensures quasi-uniformity. Numerical experiments are provided to validate our theoretical claims regarding quasi-uniformity. Furthermore, we conduct empirical comparisons between various QMC point sets in the context of Gaussian process regression, showcasing the efficacy of the proposed designs for computer experiments.",
+    "title_zh": "用于计算机实验的空间填充格子设计",
+    "abstract_zh": "本文研究了用于计算机试验的空间填充设计的构造方法。空间填充性通过设计的覆盖半径和分离半径来刻画，并通过拟均匀性这一统一准则进行整合。我们聚焦于一类特殊的设计，即拟蒙特卡罗（QMC）格子点集，并提出了两种构造算法。第一种算法生成秩-1格子点集，作为拟均匀Kronecker序列的近似，其中生成向量被显式确定。作为分析的副产品，我们证明了该显式点集可达到$O(N^{-1/d})$阶的各向同性偏差。第二种算法利用Korobov格子点集，采用Lenstra--Lenstra--Lovász（LLL）基约化算法来确定能够保证拟均匀性的生成向量。本文提供了数值实验以验证关于拟均匀性的理论结论。此外，我们在高斯过程回归的背景下对多种QMC点集进行了实证比较，展示了所提出设计在计算机试验中的有效性。"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Iterative LLM-Based Assertion Generation Using Syntax-Semantic Representations for Functional Coverage-Guided Verification",
+    "authors": "Yonghao Wang, Jiaxin Zhou, Yang Yin, Hongqin Lyu, Zhiteng Chao, Wenchao Ding, Jing Ye, Tiancheng Wang, Huawei Li",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.15388v1",
+    "source": "arXiv",
+    "abstract": "While leveraging LLMs to automatically generate SystemVerilog assertions (SVAs) from natural language specifications holds great potential, existing techniques face a key challenge: LLMs often lack sufficient understanding of IC design, leading to poor assertion quality in a single pass. Therefore, verifying whether the generated assertions effectively cover the functional specifications and designing feedback mechanisms based on this coverage remain significant hurdles. To address these limitations, this paper introduces CoverAssert, a novel iterative framework for optimizing SVA generation with LLMs. The core contribution is a lightweight mechanism for matching generated assertions with specific functional descriptions in the specifications. CoverAssert achieves this by clustering the joint representations of semantic features of LLM-generated assertions and structural features extracted from abstract syntax trees (ASTs) about signals related to assertions, and then mapping them back to the specifications to analyze functional coverage quality. Leveraging this capability, CoverAssert constructs a feedback loop based on functional coverage to guide LLMs in prioritizing uncovered functional points, thereby iteratively improving assertion quality. Experimental evaluations on four open-source designs demonstrate that integrating CoverAssert with state-of-the-art generators, AssertLLM and Spec2Assertion, achieves average improvements of 9.57 % in branch coverage, 9.64 % in statement coverage, and 15.69 % in toggle coverage.",
+    "title_zh": "基于迭代式大语言模型的断言生成方法：利用语法-语义表示进行功能覆盖率引导的验证",
+    "abstract_zh": "尽管利用大语言模型（LLM）从自然语言规范自动生成SystemVerilog断言（SVAs）具有巨大潜力，但现有技术面临一个关键挑战：LLM通常对集成电路（IC）设计缺乏足够的理解，导致单次生成的断言质量较差。因此，验证生成的断言是否有效覆盖功能规范，并基于此覆盖率设计反馈机制，仍是亟待解决的难题。为应对这些局限性，本文提出CoverAssert——一种用于优化LLM生成SVA的新颖迭代框架。其核心贡献是一种轻量级机制，能够将生成的断言与规范中的具体功能描述进行匹配。CoverAssert通过聚类LLM生成断言的语义特征与从断言相关信号的抽象语法树（AST）中提取的结构特征的联合表示，并将其映射回原始规范，从而分析功能覆盖的质量。基于这一能力，CoverAssert构建了一个以功能覆盖为导向的反馈循环，指导LLM优先补全未被覆盖的功能点，进而迭代提升断言质量。在四个开源设计上的实验评估表明，将CoverAssert与当前最先进的生成器AssertLLM和Spec2Assertion结合后，分支覆盖率平均提升9.57%，语句覆盖率提升9.64%，翻转覆盖率提升15.69%。"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "Human-AI Interaction: Evaluating LLM Reasoning on Digital Logic Circuit included Graph Problems, in terms of creativity in design and analysis",
+    "authors": "Yogeswar Reddy Thota, Setareh Rafatirad, Homayoun Houman, Tooraj Nikoubin",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.15336v1",
+    "source": "arXiv",
+    "abstract": "Large Language Models (LLMs) are increasingly used by undergraduate students as on-demand tutors, yet their reliability on circuit- and diagram-based digital logic problems remains unclear. We present a human- AI study evaluating three widely used LLMs (GPT, Gemini, and Claude) on 10 undergraduate-level digital logic questions spanning non-standard counters, JK-based state transitions, timing diagrams, frequency division, and finite-state machines. Twenty-four students performed pairwise model comparisons, providing per-question judgments on (i) preferred model, (ii) perceived correctness, (iii) consistency, (iv) verbosity, and (v) confidence, along with global ratings of overall model quality, satisfaction across multiple dimensions (e.g., accuracy and clarity), and perceived mental effort required to verify answers. To benchmark technical validity, we applied an independent judge-based evaluation against official solutions for all ten questions, using strict correctness criteria. Results reveal a consistent gap between perceived helpfulness and formal correctness: for the most sequentially demanding problems (Q1- Q7), none of the evaluated LLMs matched the official answers, despite producing confident, well-structured explanations that students often rated favorably. Error analysis indicates that models frequently default to canonical textbook templates (e.g., standard ripple counters) and struggle to translate circuit structure into exact state evolution and timing behavior. These findings suggest that, without verification scaffolds, LLMs may be unreliable for core digital logic topics and can inadvertently reinforce misconceptions in undergraduate instruction.",
+    "title_zh": "人机交互：评估大语言模型在包含图问题的数字逻辑电路中的推理能力——基于设计与分析创造性的视角",
+    "abstract_zh": "大型语言模型（LLM）正日益被本科生用作按需辅导工具，但其在基于电路和图示的数字逻辑问题上的可靠性仍不明确。本文通过一项人机协同研究，评估了三种广泛使用的LLM（GPT、Gemini和Claude）在10道本科水平数字逻辑题目上的表现，题目涵盖非标准计数器、基于JK触发器的状态转换、时序图、频率分频以及有限状态机等内容。24名学生参与了成对模型比较，针对每道题目对模型在（i）偏好选择、（ii）感知正确性、（iii）一致性、（iv）回答冗长度和（v）信心程度等方面进行评判，并对模型的整体质量、多个维度的满意度（如准确性与清晰度）以及验证答案所需的心理负荷进行了全局评分。为建立技术有效性的基准，我们采用独立评审方式，依据十道题目的官方解答，使用严格的正确性标准对模型输出进行评估。结果揭示了感知帮助性与形式正确性之间存在持续差距：在对顺序逻辑要求最高的问题（Q1–Q7）中，尽管模型生成了自信且结构良好的解释，并常被学生积极评价，但无一模型能够完全匹配官方答案。错误分析表明，模型往往倾向于套用标准教科书模板（例如标准异步计数器），难以准确将电路结构转化为具体的状态演化和时序行为。这些发现表明，在缺乏验证支持机制的情况下，LLM在核心数字逻辑教学中的应用可能不可靠，并可能无意中强化本科生学习中的错误概念。"
+  },
+  {
+    "date": "2026-2-17",
+    "title": "Design of a Secure Systolic Array matrix multiplication Accelerator for Neural Network Based on Merkle Tree Verification",
+    "authors": "Qiuyan Xu, Xiang Wu, Xiang Li, Junyu Tang, Hao Guo, Wentao Xu",
+    "publish": "2025 6th International Conference on Artificial Intelligence and Computer Engineering (ICAICE)",
+    "url": "https://doi.org/10.1109/icaice68195.2025.11382429",
+    "source": "IEEE",
+    "abstract": "Systolic array accelerators, a key implementation platform for modern neural networks, are vulnerable to malicious attacks such as directed bit flips and fault injections. These attacks compromise model weights and computation processes, causing severe degradation in model accuracy. To address this security risk, a secure systolic array architecture is proposed, integrating a Merkle-tree-based verification mechanism. The architecture incorporates hardware-level cryptographic techniques, to ensure the real-time integrity of input data, model weights, and all intermediate and final computation results. The proposed design maintains robust security while achieving acceptable performance and hardware costs. Compared with a baseline architecture lacking security features, computational latency increases by 3.68%, while hardware area and power consumption increases remain within 62.9% and 23%, respectively. This design provides a hardware foundation for building Trustworthy Artificial Intelligence systems.",
+    "title_zh": "基于Merkle树验证的神经网络安全脉动阵列矩阵乘法加速器设计",
+    "abstract_zh": "作为现代神经网络的关键实现平台，脉动阵列加速器容易受到定向比特翻转和故障注入等恶意攻击。这些攻击会破坏模型权重和计算过程，导致模型精度严重下降。为应对这一安全风险，本文提出了一种集成基于Merkle树验证机制的安全脉动阵列架构。该架构引入了硬件级加密技术，确保输入数据、模型权重以及所有中间和最终计算结果的实时完整性。所提出的方案在保持强大安全性的同时，实现了可接受的性能和硬件开销。与缺乏安全特性的基准架构相比，计算延迟仅增加3.68%，硬件面积和功耗的增加分别控制在62.9%和23%以内。该设计为构建可信人工智能系统提供了硬件基础。"
+  },
+  {
+    "date": "2026-2-17",
+    "title": "Two Hardware Trojan Detection Algorithms: Based on Image Features or Erosion",
+    "authors": "Chao Yu, Chen Sun, Liwei Wang",
+    "publish": "2025 5th International Conference on Measurement Control and Instrumentation (MCAI)",
+    "url": "https://doi.org/10.1109/mcai66356.2025.11381963",
+    "source": "IEEE",
+    "abstract": "Hardware Trojans covertly implanted in chip supply chains pose significant security threats to critical systems. Addressing the limitations of existing methods that rely on golden chips and complex testing environments, this paper proposes two image processing-based algorithms for comparing layout and SEM images. The first method uses connected region feature extraction with Hungarian algorithm matching to identify structural anomalies. The second method applies iterative morphological erosion to difference images to expose suspicious regions. Experiments on 20,000 image pairs from the REFICS dataset (90nm node) demonstrate that both algorithms achieve high detection accuracy (96.85% and 94.2%) with strong batch processing capabilities. The feature extraction method offers superior accuracy and speed, while the erosion-based method provides better noise resistance. This work enables practical, large-scale hardware Trojan screening for engineering applications.",
+    "title_zh": "两种硬件木马检测算法：基于图像特征或腐蚀的检测方法",
+    "abstract_zh": "在芯片供应链中被秘密植入的硬件木马对关键系统构成重大安全威胁。针对现有方法依赖基准芯片和复杂测试环境的局限性，本文提出两种基于图像处理的算法，用于比对版图图像与扫描电镜（SEM）图像。第一种方法采用连通区域特征提取结合匈牙利算法匹配，以识别结构异常；第二种方法则对差分图像进行迭代形态学腐蚀处理，以揭示可疑区域。在REFICS数据集（90纳米节点）的20,000对图像上的实验表明，两种算法均实现了较高的检测准确率（分别为96.85%和94.2%），并具备强大的批量处理能力。其中，特征提取方法在精度和速度方面表现更优，而基于腐蚀的方法具有更强的抗噪能力。本研究为工程应用中的大规模硬件木马筛查提供了切实可行的解决方案。"
+  },
+  {
+    "date": "2026-2-17",
+    "title": "GARNETT: Graph-based Fast yet Accurate Post-Placement Toggle Rate Prediction Model from RTL without Technology-dependent Logic Synthesis and Placement",
+    "authors": "M B Rakesh, Anant Terkar, Pabitra Das, Amit Acharyya",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2026.3665686",
+    "source": "IEEE",
+    "abstract": "We propose a novel high-speed yet accurate GrAph-assisted post-placement prediction model that predicts the average Toggle rate of ASIC Design from RTL, skipping placEmenT, logic syNthesis and gate-level simulation. We present an efficient graph representation learning solution by sufficiently training the proposed GARNETT using a custom features-assisted graph neural network (GNN) architecture on the unbiased distribution of logic cells in translated technology-independent (TTI) netlist, achieved by bypassing technology-dependent logic synthesis and placement. This unbiased training ensures GARNETT’s efficient learning to propagate the toggle rates with our GNN by effectively embedding the feature values as vectors on each logic cell, unlike the biased training with post-synthesized netlist files in state-of-the-art (SoA) architectures, GRANNITE, Method, and GRIPT. The proposed GARNETT achieves a mean improvement in accuracy of 23.31%, 4.47%, 2.1% and 2.74% higher than the commercial RTL toggle rate estimation tool, GRANNITE, SoA Method, and GRIPT in predicting the average toggle rate, respectively. The proposed GARNETT is faster than the commercial placement-level toggle rate estimation tool, GRANNITE, SoA Method, and GRIPT, in inference latency, with a mean improvement of 6.08X, 4.05X, 4.09X, and 4.03X, respectively.",
+    "title_zh": "GARNETT：基于图的快速且准确的RTL级布线后翻转率预测模型，无需依赖工艺的逻辑综合与布局",
+    "abstract_zh": "我们提出了一种新颖的高速且高精度的图辅助（GrAph-assisted）布局后翻转率预测模型GARNETT，该模型可直接从RTL（寄存器传输级）预测ASIC设计的平均翻转率（Toggle rate），无需经过逻辑综合、布局（placement）和门级仿真。我们提出了一种高效的图表示学习方法，通过在技术无关转换后网表（TTI netlist）中逻辑单元的无偏分布上，利用定制特征辅助的图神经网络（GNN）架构对GARNETT进行充分训练。该方法通过跳过技术依赖的逻辑综合与布局步骤，实现了训练数据的无偏性，从而确保GARNETT能够高效地通过GNN传播翻转率——具体做法是将每个逻辑单元的特征值有效嵌入为向量表示。相比之下，现有最先进（SoA）架构GRANNITE、Method和GRIPT均基于综合后的网表进行有偏训练，性能受限。实验结果表明，与商用RTL级翻转率估计算具、GRANNITE、SoA Method和GRIPT相比，GARNETT在预测平均翻转率时的平均精度分别提升了23.31%、4.47%、2.1%和2.74%。在推理延迟方面，GARNETT也显著更快，相较于上述四种方法，平均速度分别提升了6.08倍、4.05倍、4.09倍和4.03倍。"
+  },
+  {
+    "date": "2026-2-17",
+    "title": "VLSI Architecture for High-Speed Soft-Decision Decoding Using ORBGRAND",
+    "authors": "S. Palanivel Rajan, M. Paramaiyappan",
+    "publish": "2025 2nd International Conference on Artificial Intelligence and Knowledge Discovery in Concurrent Engineering (ICECONF)",
+    "url": "https://doi.org/10.1109/iceconf65644.2025.11379479",
+    "source": "IEEE",
+    "abstract": "Soft-decision decoding plays a crucial role in achieving near-capacity error correction performance for modern communication standards such as 5G and 6G. However, existing soft-decision decoders often suffer from high complexity, large area overhead, and limited throughput, making them less suitable for high-speed applications. This paper proposes a high-throughput VLSI architecture for soft-decision decoding based on the Ordered Reliability Bits Guessing Random Additive Noise Decoding (ORBGRAND) algorithm. The novelty of the proposed approach lies in its pipelined and parallelized noise-guessing engine, lightweight reliability sorting mechanism, and optimized memory hierarchy, which collectively minimize latency and improve energy efficiency. The overall methodology involves algorithmic optimization, architecture design in HDL, simulation under AWGN channels, FPGA synthesis, and benchmarking against existing GRAND-based decoders. Experimental results demonstrate that the proposed architecture achieves multi -Gbps throughput, lower decoding latency, and superior error-correction performance with reduced area and power consumption. These results highlight its potential as an efficient solution for next-generation high-speed communication systems.",
+    "title_zh": "用于高速软判决解码的基于ORBGRAND的VLSI架构",
+    "abstract_zh": "软判决译码在实现5G和6G等现代通信标准的近容量纠错性能方面发挥着关键作用。然而，现有的软判决译码器通常面临复杂度高、面积开销大以及吞吐量有限等问题，难以满足高速应用的需求。本文提出了一种基于有序可靠性比特猜测随机加性噪声译码（ORBGRAND）算法的高吞吐量VLSI架构。该方法的创新之处在于其流水线化与并行化的噪声猜测引擎、轻量级的可靠性排序机制以及优化的存储器层次结构，这些设计共同有效降低了译码延迟并提升了能效。整体研究方法包括算法优化、HDL架构设计、在AWGN信道下的仿真、FPGA综合，以及与现有基于GRAND的译码器进行性能对比。实验结果表明，所提出的架构实现了数Gbps的吞吐量，具有更低的译码延迟、更优的纠错性能，同时面积和功耗显著降低。这些结果表明该架构有望成为下一代高速通信系统中一种高效的解决方案。"
+  },
+  {
+    "date": "2026-2-17",
+    "title": "FPGA-Optimized VHDL Implementation of an ITU-T G. 707 STM-1 Multiplexer/Demultiplexer With Comparative Performance Analysis",
+    "authors": "Alaa Elshafey, Hatem Zakaria, Abdelhady Mhmoud",
+    "publish": "2025 International Conference on Future Telecommunications and Artificial Intelligence (IC-FTAI)",
+    "url": "https://doi.org/10.1109/ic-ftai67960.2025.11384440",
+    "source": "IEEE",
+    "abstract": "The growing demand for high-capacity and reliable backbone networks has reinforced the importance of Synchronous Digital Hierarchy (SDH) as a standardized and robust transport technology. While STM-1 framer/deframer designs have been studied, most implementations either focus on partial subsystems or lack benchmarking against FPGA platforms and ITU-T standards. This paper presents a complete VHDL-based implementation of an STM-1 multiplexer and demultiplexer fully compliant with ITU-T G.707. The design introduces a hierarchical coding methodology to improve portability across FPGA/ASIC platforms and integrates faultresilient synchronization to enhance reliability. Functional verification is performed using a pseudo-random binary sequence (PRBS) testbench, enabling end-to-end bit error monitoring across regenerator, multiplex, and path layers. The architecture was synthesized on an Xilinx Artix-7 FPGA, achieving the ITU-T line rate of 155.52 Mbps while utilizing only 25.03% LUTs and 16.48% FFs. Comparative benchmarking against state-of-the-art designs demonstrates superior logic efficiency, competitive throughput, and robust error detection. Although FPGA-based power estimation was higher than ASIC counterparts, this is attributed to prototyping artifacts and can be mitigated through low-power design techniques in future hardware migrations.",
+    "title_zh": "面向FPGA优化的ITU-T G.707 STM-1复用器/解复用器VHDL实现及性能对比分析",
+    "abstract_zh": "对大容量、高可靠性骨干网络日益增长的需求，进一步凸显了同步数字体系（SDH）作为一种标准化且稳健的传输技术的重要性。尽管已有对STM-1成帧器/解帧器设计的研究，但大多数实现要么仅关注部分子系统，要么缺乏在FPGA平台和ITU-T标准下的基准对比。本文提出了一种完全符合ITU-T G.707标准的STM-1复用器与解复用器的完整VHDL实现方案。该设计采用分层编码方法，提升了在FPGA/ASIC平台间的可移植性，并集成了具备容错能力的同步机制以增强系统可靠性。功能验证通过伪随机二进制序列（PRBS）测试平台完成，实现了对再生段、复用段和通道层的端到端比特错误监测。该架构在Xilinx Artix-7 FPGA上综合实现，达到了ITU-T规定的155.52 Mbps线路速率，仅占用25.03%的查找表（LUTs）和16.48%的触发器（FFs）。与现有先进设计的对比基准测试表明，本设计在逻辑资源利用效率方面表现更优，吞吐量具有竞争力，并具备强大的错误检测能力。尽管基于FPGA的功耗估计高于ASIC实现，但这是原型设计固有的问题，未来可通过低功耗设计技术在硬件迁移中加以优化缓解。"
+  },
+  {
+    "date": "2026-2-17",
+    "title": "Automated Software Flaw Estimation and Detection using Deep Learning",
+    "authors": "C. Karthikeyan, V. Karthi, K. Vinoth, V. Adhithya, M. Ponkarthikeyan, D. Yogeshwaran",
+    "publish": "2025 2nd International Conference on Artificial Intelligence and Knowledge Discovery in Concurrent Engineering (ICECONF)",
+    "url": "https://doi.org/10.1109/iceconf65644.2025.11379532",
+    "source": "IEEE",
+    "abstract": "This research develops an automated system for deep learning-based estimation and detection of software flaws that enhance reliability and minimize vulnerabilities. It compares LSTM (Group 1) with Random Forest Regression (Group 2), where LSTM achieved 73.5 % accuracy with 45 samples, while RF attained 94.4 % accuracy with 56 samples. The dataset contains diverse software projects with annotated flaws. RF outperformed LSTM in terms of accuracy (91.40 %-94.40 % vs. <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$73.50 \\%-78.30 \\%$</tex>) and training time (315-330s vs. 400-430s) at a significance value of 0.000. The model proposed uses convolution layers for feature extraction purposes and fully connected layers for classification. RF also proves more effective in detecting flaws; it reduces its deployment risks and surpasses LSTM in terms of accuracy, efficiency, and adaptability. Thus, it has taken the position of the benchmark method in the real world.",
+    "title_zh": "使用深度学习进行自动化软件缺陷估计与检测",
+    "abstract_zh": "本研究开发了一种基于深度学习的自动化系统，用于估计和检测软件缺陷，以提高软件可靠性并减少漏洞。研究中比较了LSTM（第一组）与随机森林回归（第二组，Random Forest Regression），其中LSTM在45个样本上达到了73.5%的准确率，而随机森林（RF）在56个样本上达到了94.4%的准确率。数据集包含多个具有缺陷标注的多样化软件项目。在显著性水平为0.000的条件下，随机森林在准确率（91.40%–94.40% 对比 LSTM 的73.50%–78.30%）和训练时间（315–330秒 对比 400–430秒）方面均优于LSTM。所提出的模型采用卷积层进行特征提取，并使用全连接层进行分类。此外，随机森林在缺陷检测方面也表现出更强的有效性，能够降低部署风险，在准确性、效率和适应性方面均优于LSTM。因此，随机森林已成为现实应用中的基准方法。"
+  },
+  {
+    "date": "2026-2-17",
+    "title": "Dual-Band Antennas for AI-Enabled Autonomous Vehicle-to-Infrastructure Communication",
+    "authors": "Koppisetti Giridhar, Dheepika G B, Anusha Preetham, Monica G K, Arun Kumar N, N. Nandhagopal",
+    "publish": "2025 2nd International Conference on Artificial Intelligence and Knowledge Discovery in Concurrent Engineering (ICECONF)",
+    "url": "https://doi.org/10.1109/iceconf65644.2025.11379451",
+    "source": "IEEE",
+    "abstract": "The complexity of the modern systems also needs more effective optimization techniques which must scale, be accurate and robust in a single product. Traditional techniques have discouraged the ability to deal with large sizes in the search space and reaching. the best solutions. To eliminate these shortcomings, topresent an innovative hybrid structure of optimization between quasi -oppositional learning and genetic search to improve performance in GUI test case generation. The validation of the proposed technique was applied to the benchmark datasets and experimental simulations. The findings have indicated that the performance indicators have been improved greatly based on the current approaches: 97.8% accuracy, 96.9% precision, 97.4% recall, and an F1-score of 97.2%. The increase in system efficiency was 15%, the reduction of the computational overhead by 12%, and the adaptability to varied testing environments by 18%. The results justify the effectiveness of the proposed solution and present a feasible and smart model that can be used to perform dependable software testing.",
+    "title_zh": "用于支持人工智能的自动驾驶车辆与基础设施通信的双频段天线",
+    "abstract_zh": "现代系统的复杂性需要更有效的优化技术，这些技术必须在单一产品中具备可扩展性、准确性和鲁棒性。传统技术难以处理搜索空间中的大规模问题，也难以找到最优解。为克服这些不足，本文提出了一种创新的混合优化结构，将准反向学习（quasi-oppositional learning）与遗传搜索相结合，以提升图形用户界面（GUI）测试用例生成的性能。所提出技术的有效性通过基准数据集和实验仿真进行了验证。研究结果表明，与现有方法相比，各项性能指标显著提升：准确率达到97.8%，精确率达到96.9%，召回率达到97.4%，F1分数达到97.2%。系统效率提高了15%，计算开销降低了12%，对不同测试环境的适应性提升了18%。实验结果证明了所提方案的有效性，展示了一种可行且智能的模型，可用于实现可靠的软件测试。"
+  }
+]
