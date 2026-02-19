@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-02-18",
+    "title": "SPARC: Scenario Planning and Reasoning for Automated C Unit Test Generation",
+    "authors": "Jaid Monwar Chowdhury, Chi-An Fu, Reyhaneh Jabbarvand",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.16671v1",
+    "source": "arXiv",
+    "abstract": "Automated unit test generation for C remains a formidable challenge due to the semantic gap between high-level program intent and the rigid syntactic constraints of pointer arithmetic and manual memory management. While Large Language Models (LLMs) exhibit strong generative capabilities, direct intent-to-code synthesis frequently suffers from the leap-to-code failure mode, where models prematurely emit code without grounding in program structure, constraints, and semantics. This will result in non-compilable tests, hallucinated function signatures, low branch coverage, and semantically irrelevant assertions that cannot properly capture bugs. We introduce SPARC, a neuro-symbolic, scenario-based framework that bridges this gap through four stages: (1) Control Flow Graph (CFG) analysis, (2) an Operation Map that grounds LLM reasoning in validated utility helpers, (3) Path-targeted test synthesis, and (4) an iterative, self-correction validation loop using compiler and runtime feedback. We evaluate SPARC on 59 real-world and algorithmic subjects, where it outperforms the vanilla prompt generation baseline by 31.36% in line coverage, 26.01% in branch coverage, and 20.78% in mutation score, matching or exceeding the symbolic execution tool KLEE on complex subjects. SPARC retains 94.3% of tests through iterative repair and produces code with significantly higher developer-rated readability and maintainability. By aligning LLM reasoning with program structure, SPARC provides a scalable path for industrial-grade testing of legacy C codebases.",
+    "title_zh": "SPARC：用于自动化C单元测试生成的场景规划与推理",
+    "abstract_zh": "针对C语言的自动化单元测试生成仍面临巨大挑战，其根源在于程序高层意图与指针运算、手动内存管理等严格的语法约束之间存在语义鸿沟。尽管大语言模型（LLM）展现出强大的代码生成能力，但直接从意图到代码的合成常常陷入“跳跃式生成”（leap-to-code）的失败模式：模型在未充分理解程序结构、约束和语义的情况下便过早输出代码，导致生成的测试无法编译、函数签名虚构、分支覆盖率低，以及断言在语义上无关，难以有效捕捉真实缺陷。为此，我们提出了SPARC——一种基于神经符号架构、以场景为导向的测试生成框架，通过四个阶段弥合上述鸿沟：（1）控制流图（CFG）分析；（2）操作映射（Operation Map），将LLM的推理过程锚定于经过验证的实用辅助函数之上；（3）面向路径的测试合成；（4）利用编译器和运行时反馈进行迭代式自我修正的验证循环。我们在59个真实世界和算法类程序上对SPARC进行了评估，结果表明，其在行覆盖率上比基础提示生成方法高出31.36%，分支覆盖率高出26.01%，变异得分高出20.78%，在复杂程序上的表现达到甚至超过了符号执行工具KLEE。SPARC通过迭代修复保留了94.3%的测试用例，生成的代码在开发者评分中表现出显著更高的可读性和可维护性。通过将LLM的推理过程与程序结构对齐，SPARC为大规模工业级遗留C代码库的测试提供了一条可扩展的可行路径。"
+  },
+  {
+    "date": "2026-02-18",
+    "title": "Reintroducing the Second Player in EPR",
+    "authors": "Leroy Chew, Mikoláš Janota, Miroslav Olšák, Martin Suda",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.16410v1",
+    "source": "arXiv",
+    "abstract": "In this work we investigate the computational complexity of the satisfiability problem of sub-fragments of the Bernays-Schoenfinkel class of first-order logic, also known as EPR (Effectively Propositional). While Bernays-Schoenfinkel is NEXPTIME-complete, we already can obtain fragments that are PSPACE-complete by restricting our clauses to DET-HORN or KROM. However such restrictions yield very different formulas to the canonical PSPACE-complete language of Quantified Boolean Formulas (QBF). This is despite Bernays-Schoenfinkel having a natural connection to an extension of QBF known as Dependency QBF. Our main contribution is the definition of a PSPACE-complete sub-fragment of Bernays-Schoenfinkel that extends from a translation of QBF, retains a similar two-player game evaluation for its semantics and can be restricted in various ways to obtain other complete problems, particularly those at different levels in the polynomial hierarchy. We use this definition to identify problems in the TPTP library that fall into this fragment and their level in the polynomial hierarchy.",
+    "title_zh": "在EPR中重新引入第二位玩家",
+    "abstract_zh": "本文研究了伯奈斯-舒恩费尔克（Bernays-Schoenfinkel）一阶逻辑类（亦称EPR，即“有效命题”）的子片段的可满足性问题的计算复杂性。尽管完整的Bernays-Schoenfinkel类是NEXPTIME完全的，但通过将子句限制为DET-HORN或KROM形式，我们已经可以获得PSPACE完全的片段。然而，这些限制所得到的公式与典型的PSPACE完全语言——量化布尔公式（QBF）——在形式上有很大差异。尽管如此，Bernays-Schoenfinkel类与一种称为“依赖性QBF”（Dependency QBF）的QBF扩展形式具有天然的联系。本文的主要贡献是定义了一个PSPACE完全的Bernays-Schoenfinkel子片段，该片段源自QBF的翻译，保留了类似双人博弈的语义求值方式，并可通过多种方式进一步限制，从而得到多项式层次结构中不同层级上的其他完全问题。我们利用这一定义，识别了TPTP库中属于该片段的问题，并确定了它们在多项式层次结构中的具体层级。"
+  },
+  {
+    "date": "2026-02-18",
+    "title": "Inductive Satisfiability Certification for Universal Quantifiers and Uninterpreted Function Symbols",
+    "authors": "Stefan Ratschan, Anggha Nugraha, Mikoláš Janota, Marek Dančo",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.16335v1",
+    "source": "arXiv",
+    "abstract": "The combination of uninterpreted function symbols and universal quantification occurs in many applications of automated reasoning, for example, due to their ability to reason about arrays. Yet the satisfiability of such formulas is, in general, undecidable. In practice, SMT solvers are often successful in the unsatisfiable case, using heuristics. However, in the satisfiable case, they rely on explicit model construction, which fails for formulas whose smallest model is not small enough. We introduce an alternative approach that certifies satisfiability using induction arguments, and apply it to the case of linear integer arithmetic. The resulting algorithm is able to prove satisfiability of formulas that are out of reach for current SMT solvers.",
+    "title_zh": "全称量词与无解释函数符号的归纳可满足性验证",
+    "abstract_zh": "在许多自动推理应用中，都会遇到未解释函数符号与全称量词的组合，例如，由于其能够对数组进行推理。然而，这类公式的可满足性问题通常是不可判定的。在实践中，SMT求解器在不可满足的情况下常常能成功，通常借助启发式方法；但在可满足的情况下，它们依赖于显式模型构造，而当公式最小模型过大时，这种方法就会失败。我们提出一种替代方法，利用归纳论证来证明可满足性，并将其应用于线性整数算术的情形。所得到的算法能够证明当前SMT求解器无法处理的公式的可满足性。"
+  },
+  {
+    "date": "2026-2-18",
+    "title": "Energy-Efficient Multiply-Accumulate Architecture Using Compressor Logic for FPGA-Based Systems",
+    "authors": "Sakthi G, Abhishek N Tripathi, Jagana Bihari Padhy, Indrasen Singh, Vivek Rajpoot",
+    "publish": "2025 IEEE 3rd International Symposium on Sustainable Energy, Signal Processing and Cybersecurity",
+    "url": "https://doi.org/10.1109/isssc66652.2025.11388703",
+    "source": "IEEE",
+    "abstract": "Multiply and Accumulate (MAC) units form the computational backbone of modern digital systems such as digital signal processors, machine learning accelerators, and embedded IoT devices. As performance and efficiency become increasingly critical, conventional MAC architectures face limitations due to sequential accumulation delays, increased area, and underutilized hardware. This work addresses these challenges by proposing a high-speed and area-efficient MAC unit that eliminates loop delays through a compressor-based architecture. The design integrates accumulation directly within the multipliers summation network using 4:2 and 5:2 compressors, supported by Half and Full Adders and a Carry Save Adder (CSA), thus avoiding idle cycles and improving throughput. An 88-bit MAC unit was modeled in Verilog HDL, functionally verified through simulation, and synthesized on the Nexys 4 DDR (Artix-7) FPGA using the Vivado Design Suite. The architecture achieves a reduction in area utilization and an improvement in critical path delay compared to existing designs, with a moderate increase in power due to the parallel compression logic. This trade-off makes it highly suitable for real-time, performance-critical applications. This work also aligns with Sustainable Development Goals (SDGs) 9 (Industry, Innovation and Infrastructure) and 12 (Responsible Consumption and Production), contributing to energy-efficient hardware designs.",
+    "title_zh": "基于压缩器逻辑的FPGA系统节能乘累加架构",
+    "abstract_zh": "乘加（MAC）单元构成了现代数字系统（如数字信号处理器、机器学习加速器和嵌入式物联网设备）的计算核心。随着性能和效率变得日益重要，传统的MAC架构由于顺序累加延迟、面积增加以及硬件利用率不足而面临局限性。本文针对这些挑战，提出了一种高速且面积高效的MAC单元，通过基于压缩器的架构消除循环延迟。该设计在乘法器的求和网络中直接集成了累加功能，采用4:2和5:2压缩器，并辅以半加器、全加器和进位保存加法器（CSA），从而避免了空闲周期，提高了吞吐量。一个88位的MAC单元使用Verilog HDL建模，通过仿真进行了功能验证，并在Nexys 4 DDR（Artix-7）FPGA上使用Vivado设计套件完成综合。与现有设计相比，该架构在面积占用和关键路径延迟方面均有改善，尽管由于并行压缩逻辑导致功耗略有增加。这种权衡使其非常适用于实时、性能关键的应用场景。本研究还契合联合国可持续发展目标（SDGs）中的目标9（产业、创新和基础设施）和目标12（负责任消费和生产），为节能型硬件设计做出了贡献。"
+  },
+  {
+    "date": "2026-2-18",
+    "title": "Securing IJTAG with Dynamic Priority Control and Path-Integrated Validation",
+    "authors": "Hewei Cui, Ying Zhang, Jie Deng, Yuan Chen, Hai Yang, Donglai Zhou, Xin Chen",
+    "publish": "2026 International Conference on Electronics, Information, and Communication (ICEIC)",
+    "url": "https://doi.org/10.1109/iceic69189.2026.11386319",
+    "source": "IEEE",
+    "abstract": "The reconfigurability of IEEE 1687 (IJTAG) enhances test flexibility but also exposes scan paths to security threats such as data sniffing, tampering, and unauthorized access. To mitigate these risks, this paper presents a two-tier secure IJTAG architecture that combines dynamic priority arbitration with a parallel CRC (Cyclic Redundancy Check)-protected scan core. The arbitration module restricts scan participation to instruments with valid configuration bits and priority tokens, providing fine-grained access control. However, while effective against unauthorized access and path manipulation, it cannot detect data tampering. To address this, lightweight checksums are appended at scan-in and verified at scan-out to detect data modifications. Together, these mechanisms block a wider range of attacks and ensure end-to-end scan data integrity. Simulations show that the architecture effectively prevents attacks such as data sniffing and tampering, even when malicious instruments are embedded within the scan path. When implemented in 65 nm CMOS technology, the design incurs less than 35% area overhead, offering robust security with minimal impact on IJTAG compatibility and performance.",
+    "title_zh": "通过动态优先级控制和路径集成验证确保IJTAG安全",
+    "abstract_zh": "IEEE 1687（IJTAG）的可重构性增强了测试灵活性，但同时也使扫描路径面临数据窃听、篡改和未授权访问等安全威胁。为缓解这些风险，本文提出了一种双层安全IJTAG架构，该架构结合了动态优先级仲裁机制与并行CRC（循环冗余校验）保护的扫描核心。仲裁模块仅允许具有有效配置位和优先级令牌的仪器参与扫描，从而实现细粒度的访问控制。然而，尽管该机制能有效防御未授权访问和路径操纵，却无法检测数据篡改。为此，本文在扫描输入时附加轻量级校验和，并在扫描输出时进行验证，以检测数据是否被修改。上述两种机制协同工作，可阻断更广泛的攻击行为，并确保端到端的扫描数据完整性。仿真结果表明，该架构能够有效抵御数据窃听和篡改等攻击，即使扫描路径中嵌入恶意仪器也能保持防护能力。在采用65 nm CMOS工艺实现时，该设计的面积开销低于35%，在对IJTAG兼容性和性能影响最小的前提下，提供了强大的安全性。"
+  },
+  {
+    "date": "2026-2-18",
+    "title": "Voice Controlled Event Scheduler Using Cyclone IV FPGA",
+    "authors": "Parthipan V, Ishwarya Niranjana M, Yugesh G, Vishnu Karthick G, Tamizh Iniyan M, Thinakar Subramanian",
+    "publish": "2025 International Conference on Advances in Next-Gen Computer Science (ICANCS)",
+    "url": "https://doi.org/10.1109/icancs65819.2025.11377290",
+    "source": "IEEE",
+    "abstract": "Being somewhat natural and hands-free, voicecontrolled systems are gaining high importance in humancomputer interaction. This paper discusses the design and implementation of a voice-activated scheduling system on an Intel Cyclone-IV Field Programmable Gate Array hardware platform. Setting alarms or reminders by voice commands is converted into text by a custom-created Python speech-to-text framework and is sent to the FPGA board for further processing using serial communication over UART. The Cyclone-IV FPGA receives the times of setting, decodes them, stores them momentarily, and compares them continuously with its internal system clock; when a match occurs, it signals an alarm. Intuitive voice commands fused with deterministic parallel processing power of FPGA hardware gives rise to a dependable scheduling system capable of real-time operations. Simulation was done to verify the system, and then the implementation was carried out on a Cyclone-IV board to prove that the design is sound, accurate, and efficient during operation.",
+    "title_zh": "基于Cyclone IV FPGA的语音控制事件调度器",
+    "abstract_zh": "由于语音控制系统具有一定的自然性和免提操作优势，在人机交互中正变得越来越重要。本文讨论了一种基于Intel Cyclone-IV现场可编程门阵列（FPGA）硬件平台的语音激活调度系统的设计与实现。通过语音命令设置闹钟或提醒，由自定义开发的Python语音转文本框架转换为文本，并通过UART串行通信发送至FPGA板进行进一步处理。Cyclone-IV FPGA接收设定的时间，对其进行解码，临时存储，并持续与内部系统时钟进行比对；当时间匹配时，即触发报警信号。直观的语音命令与FPGA硬件确定性的并行处理能力相结合，构建出一个可靠且支持实时操作的调度系统。本文通过仿真验证了系统的正确性，随后在Cyclone-IV开发板上完成了实际部署，证明了该设计在运行过程中具有良好的稳定性、准确性和高效性。"
+  },
+  {
+    "date": "2026-2-18",
+    "title": "Aging Aware Test Generation Procedure for Multicycle Scan-Based Tests",
+    "authors": "Irith Pomeranz",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3666146",
+    "source": "IEEE",
+    "abstract": "Storage of a compressed deterministic scan-based test set in an on-chip memory allows compact test sets with complete fault coverage of target faults to be applied in-field.With in-field test periods varying in duration, short in-field test periods should detect the faults that are the most likely to occur as a chip ages. This can be addressed by a procedure that generates a test set such that subsets with increasing numbers of tests detect subsets of increasing numbers of the faults that are the most likely to occur with aging. Such a procedure was described for a two-cycle scan-based transition fault test set. This article suggests for the first time the use of multicycle scan-based tests for this purpose. A multicycle test has several functional capture cycles between scan operations. A larger number of functional capture cycles allows a multicycle test to detect more faults. In the context of this article, more of the faults that are the most susceptible to aging are detected with each additional test. The test data compression logic used in this article allows both scan-in states and primary input sequences of multicycle tests to be compressed together. However, it also requires compressed tests to be generated directly, and the aging aware test generation procedure must continue increasing the fault coverage as it addresses aging. The procedure was implemented in an academic simulation environment and applied to transition faults in benchmark circuits to demonstrate its effectiveness.",
+    "title_zh": "面向多周期基于扫描测试的老化感知测试生成方法",
+    "abstract_zh": "在芯片内存储器中存储基于扫描的压缩确定性测试集，可以在现场应用具有完整目标故障覆盖率的紧凑测试集。由于现场测试周期的持续时间各不相同，较短的现场测试周期应优先检测那些随着芯片老化最有可能出现的故障。这一需求可通过一种生成测试集的方法来满足，该方法生成的测试子集随着测试数量的增加，逐步覆盖越来越多的老化相关故障。此前已有研究针对两周期扫描式转换故障测试集提出了此类方法。本文首次提出将多周期扫描测试用于此目的。多周期测试在扫描操作之间包含多个功能捕获周期，更多的功能捕获周期使多周期测试能够检测更多故障。在本文背景下，每增加一个测试，就能检测到更多对老化敏感的故障。本文采用的测试数据压缩逻辑可同时压缩多周期测试的扫描输入状态和主输入序列。然而，该压缩方法也要求直接生成压缩后的测试，并且老化感知的测试生成过程必须在应对老化问题的同时持续提升故障覆盖率。该方法已在学术仿真环境中实现，并应用于基准电路中的转换故障，以验证其有效性。"
+  },
+  {
+    "date": "2026-2-18",
+    "title": "A Critical Review and Evaluation of LLMs for RTL Generation",
+    "authors": "Arun Ravindran, Aditya Patra, Vahid Babaey, Suresh Purini",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3665894",
+    "source": "IEEE",
+    "abstract": "Large language models (LLMs) are emerging as powerful tools for hardware design, with recent work exploring their ability to generate register-transfer level (RTL) code directly from natural-language specifications. This paper presents a critical review and empirical evaluation of LLM-based RTL generation. We examine thirty-one published efforts, classifying their use of techniques such as fine-tuning, reinforcement learning, retrieval-augmented prompting, and multi-agent orchestration across eight methodological dimensions including debugging support, post-RTL metrics, and benchmark development. Building on this synthesis, we experimentally evaluate frontier commercial and open-weight models—GPT-4.1, GPT-4.1-mini, Claude Sonnet 4, and Llama 4 Maverick —on the VerilogEvalV2 and RTLLMv2.0 benchmarks under both single-shot generation and a lightweight ReAct-style reflection loop, with compilation and simulation performed through Icarus Verilog interfaced via the Model Context Protocol (MCP). Results show that these models achieve up to 89.74% on VerilogEval and 96.08% on RTLLM, matching or exceeding prior domain-specific pipelines without specialized fine-tuning. Detailed failure analysis reveals systematic error modes, including FSM mis-sequencing, handshake drift, blocking vs. non-blocking misuse, and state-space oversimplification. Finally, we outline a forward-looking research roadmap toward natural-language-to-System-on-Chip (SoC) design, emphasizing realistic benchmarks and open flows, richer specification formalisms, AI–human collaborative design environments, and system-level feedback that spans physical design, firmware, and design space exploration. Together, this work provides both a synthesis of recent advances and a baseline evaluation of frontier LLMs, highlighting opportunities and challenges in moving toward AI-native electronic design automation.",
+    "title_zh": "用于RTL生成的大语言模型的批判性综述与评估",
+    "abstract_zh": "大型语言模型（LLM）正逐渐成为硬件设计领域的强大工具，近期研究开始探索其根据自然语言描述直接生成寄存器传输级（RTL）代码的能力。本文对基于大语言模型的RTL生成技术进行了批判性综述和实证评估。我们系统分析了三十一项已发表的研究工作，从八个方法论维度对其技术使用情况进行分类，包括微调、强化学习、检索增强提示、多智能体协同等，并涵盖调试支持、RTL后端指标、基准测试构建等方面。在此基础上，我们实验评估了前沿的商业和开源权重模型——GPT-4.1、GPT-4.1-mini、Claude Sonnet 4 和 Llama 4 Maverick——在 VerilogEvalV2 和 RTLLMv2.0 基准测试中的表现，采用单次生成和轻量级 ReAct 风格反思循环两种模式，并通过 Model Context Protocol (MCP) 接口调用 Icarus Verilog 进行编译与仿真。结果表明，这些模型在 VerilogEval 上最高达到 89.74% 的准确率，在 RTLLM 上达到 96.08%，在无需领域特定微调的情况下，性能已达到甚至超过此前专用的领域内流程。详细的失败案例分析揭示出若干系统性错误模式，包括有限状态机（FSM）时序错误、握手信号漂移、阻塞与非阻塞赋值误用，以及状态空间过度简化等问题。最后，本文提出了一条面向未来的研究路线图，旨在实现从自然语言到系统级芯片（SoC）设计的端到端自动化，强调构建更贴近实际的基准测试与开放流程、发展更丰富的规格描述形式、打造人工智能与人类协同的设计环境，以及涵盖物理设计、固件和设计空间探索的系统级反馈机制。本研究综合梳理了该领域的最新进展，为前沿大语言模型提供了基准评估，揭示了迈向AI原生电子设计自动化（EDA）过程中的机遇与挑战。"
+  }
+]
