@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2026-02-19",
+    "title": "SimulatorCoder: DNN Accelerator Simulator Code Generation and Optimization via Large Language Models",
+    "authors": "Yuhuan Xia, Tun Li, Hongji Zhou, Xianfa Zhou, Chong Chen, Ruiyu Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.17169v1",
+    "source": "arXiv",
+    "abstract": "This paper presents SimulatorCoder, an agent powered by large language models (LLMs), designed to generate and optimize deep neural network (DNN) accelerator simulators based on natural language descriptions. By integrating domain-specific prompt engineering including In-Context Learning (ICL), Chain-of-Thought (CoT) reasoning, and a multi-round feedback-verification flow, SimulatorCoder systematically transforms high-level functional requirements into efficient, executable, and architecture-aligned simulator code. Experiments based on the customized SCALE-Sim benchmark demonstrate that structured prompting and feedback mechanisms substantially improve both code generation accuracy and simulator performance. The resulting simulators not only maintain cycle-level fidelity with less than 1% error compared to manually implemented counterparts, but also consistently achieve lower simulation runtimes, highlighting the effectiveness of LLM-based methods in accelerating simulator development. Our code is available at https://github.com/xiayuhuan/SimulatorCoder.",
+    "title_zh": "SimulatorCoder：基于大语言模型的深度神经网络加速器仿真器代码生成与优化",
+    "abstract_zh": "本文提出了一种名为SimulatorCoder的智能体，该智能体基于大语言模型（LLM），旨在根据自然语言描述生成并优化深度神经网络（DNN）加速器的模拟器。通过结合领域特定的提示工程方法，包括上下文学习（In-Context Learning, ICL）、思维链推理（Chain-of-Thought, CoT）以及多轮反馈验证流程，SimulatorCoder能够系统性地将高层次功能需求转化为高效、可执行且与目标架构对齐的模拟器代码。基于自定义SCALE-Sim基准的实验表明，结构化提示与反馈机制显著提升了代码生成的准确性和模拟器的性能。所生成的模拟器不仅在周期级精度上与人工实现的版本误差小于1%，而且在模拟运行时间上持续更短，凸显了基于大语言模型的方法在加速模拟器开发方面的有效性。我们的代码已公开，地址为：https://github.com/xiayuhuan/SimulatorCoder。"
+  },
+  {
+    "date": "2026-02-19",
+    "title": "Efficient Parallel Algorithm for Decomposing Hard CircuitSAT Instances",
+    "authors": "Victor Kondratiev, Irina Gribanova, Alexander Semenov",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.17130v1",
+    "source": "arXiv",
+    "abstract": "We propose a novel parallel algorithm for decomposing hard CircuitSAT instances. The technique employs specialized constraints to partition an original SAT instance into a family of weakened formulas. Our approach is implemented as a parameterized parallel algorithm, where adjusting the parameters allows efficient identification of high-quality decompositions, guided by hardness estimations computed in parallel. We demonstrate the algorithm's practical efficacy on challenging CircuitSAT instances, including those encoding Logical Equivalence Checking of Boolean circuits and preimage attacks on cryptographic hash functions.",
+    "title_zh": "分解困难电路SAT实例的高效并行算法",
+    "abstract_zh": "我们提出了一种用于分解困难的CircuitSAT实例的新型并行算法。该技术采用专门设计的约束条件，将原始SAT实例划分为一组弱化公式。我们的方法实现为一种可参数化的并行算法，通过调整参数，可在并行计算的难度估计指导下，高效地识别出高质量的分解方案。我们在一系列具有挑战性的CircuitSAT实例上验证了该算法的实际有效性，包括用于布尔电路逻辑等价性检查的实例以及针对密码学哈希函数的原像攻击实例。"
+  },
+  {
+    "date": "2026-02-19",
+    "title": "BMC4TimeSec: Verification Of Timed Security Protocols",
+    "authors": "Agnieszka M. Zbrzezny",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.17590v1",
+    "source": "arXiv",
+    "abstract": "We present BMC4TimeSec, an end-to-end tool for verifying Timed Security Protocols (TSP) based on SMT-based bounded model checking and multi-agent modelling in the form of Timed Interpreted Systems (TIS) and Timed Interleaved Interpreted Systems (TIIS). In BMC4TimeSec, TSP executions implement the TIS/TIIS environment (join actions, interleaving, delays, lifetimes), and knowledge automata implement the agents (evolution of participant knowledge, including the intruder). The code is publicly available on \\href{https://github.com/agazbrzezny/BMC4TimeSec}{GitHub}, as is a \\href{https://youtu.be/aNybKz6HwdA}{video} demonstration.",
+    "title_zh": "BMC4TimeSec：定时安全协议的验证",
+    "abstract_zh": "我们提出了BMC4TimeSec，这是一种基于SMT的有界模型检验和多智能体建模（以带时间解释系统TIS和带时间交错解释系统TIIS的形式）的端到端工具，用于验证时间安全协议（TSP）。在BMC4TimeSec中，TSP的执行实现了TIS/TIIS环境（包括联合动作、交错、延迟和生命周期），而知识自动机则实现了各智能体的行为（包括入侵者在内的参与者知识演化过程）。该工具的代码已公开发布在\\href{https://github.com/agazbrzezny/BMC4TimeSec}{GitHub}上，同时提供了一个\\href{https://youtu.be/aNybKz6HwdA}{视频}演示。"
+  },
+  {
+    "date": "2026-02-19",
+    "title": "Disjunction Composition of BDD Transition Systems for Model-Based Testing",
+    "authors": "Tannaz Zameni, Petra van den Bos, Arend Rensink",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.17237v1",
+    "source": "arXiv",
+    "abstract": "We introduce a compositional approach to model-based test generation in Behavior-Driven Development (BDD). BDD is an agile methodology in which system behavior is specified through textual scenarios that, in our approach, are translated into transition systems used for model-based testing. This paper formally defines disjunction composition, to combine BDD transition systems that represent alternative system behaviors. Disjunction composition allows for modeling and testing the integrated behavior while ensuring that the testing power of the original set of scenarios is preserved. This is proved using a symbolic semantics for BDD transition systems, with the property that the symbolic equivalence of two BDD transition systems guarantees that they fail the same test cases. Also, we demonstrate the potential of disjunction composition by applying the composition in an industrial case study.",
+    "title_zh": "基于BDD迁移系统的析取组合在基于模型测试中的应用",
+    "abstract_zh": "本文提出了一种基于行为驱动开发（BDD）的模型化测试生成的组合式方法。BDD是一种敏捷开发方法，其中系统行为通过文本形式的场景进行描述；在我们的方法中，这些场景被转换为用于基于模型测试的迁移系统。本文形式化地定义了析取组合（disjunction composition），用于合并代表系统不同可选行为的BDD迁移系统。析取组合能够在确保原始场景集测试能力得以保留的前提下，对集成行为进行建模和测试。我们通过为BDD迁移系统引入符号语义来证明这一点：若两个BDD迁移系统在符号意义上等价，则它们将失败于相同的测试用例。此外，我们通过在一个工业案例研究中应用该组合方法，展示了析取组合的潜力。"
+  },
+  {
+    "date": "2026-2-19",
+    "title": "Performance Evaluation and Optimization of the Sampling Process of an Neuropredictive SAR ADC",
+    "authors": "Alexander Spielberger, Lucas Spitzkopf, Albert-Marcel Schrotz, Christof Pfannenmüller, Robert Weigel, Norman Franchi",
+    "publish": "2025 IEEE Asia Pacific Conference on Circuits and Systems (APCCAS)",
+    "url": "https://doi.org/10.1109/apccas67402.2025.11377187",
+    "source": "IEEE",
+    "abstract": "The functionality of the sampling process of a neuropredictive SAR ADC is analyzed and the behavior of the Neuromorphic ADC is modeled in a Python simulation and verified through measurements with different parameters. By checking the boundary values of the prediction window, clock cycles can be saved even if the prediction is incorrect. Simulative modeling enables training of the neural networks close to the hardware. The influence of the prediction window is optimized with the help of the simulation to reduce the conversion time. The maximum cycle saving for a noisy ADC is reduced from 60% to 52% for an 16b ADC with an SNR of 70 dB.",
+    "title_zh": "神经预测型SAR ADC采样过程的性能评估与优化",
+    "abstract_zh": "对神经预测型SAR ADC的采样过程功能进行了分析，并在Python仿真中对神经形态ADC的行为进行建模，通过不同参数的测量结果进行了验证。通过检查预测窗口的边界值，即使预测错误也能节省时钟周期。仿真建模使得神经网络可以在接近硬件的条件下进行训练。借助仿真优化了预测窗口的影响，以缩短转换时间。对于信噪比（SNR）为70 dB的16位噪声ADC，最大周期节省量从60%降低至52%。"
+  },
+  {
+    "date": "2026-2-19",
+    "title": "Extending gem5 for Accurate PCIe-Based Device Modeling in Heterogeneous Architectures",
+    "authors": "Seunghyun Song, Junehyuk Boo, Yeongwoo Jang, Daye Jung, Jangwoo Kim",
+    "publish": "2025 16th International Conference on Information and Communication Technology Convergence (ICTC)",
+    "url": "https://doi.org/10.1109/ictc66702.2025.11388313",
+    "source": "IEEE",
+    "abstract": "The growing demand for heterogeneous computing in AI workloads has heightened the need for efficient CPU–accelerator communication. For this purpose, PCI Express (PCIe) has emerged as the dominant interconnect in recent systems. However, current architectural simulators provide limited support for accurate performance evaluation of PCIe devices. In this paper, we present a guideline to extend the gem5 simulator for arbitrary PCIe device integration. While gem5 is widely used for CPU simulation and architectural exploration, it only supports a limited set of PCI devices and lacks a standardized framework. By analyzing the mechanisms of gem5, particularly its support for AMD GPUs, we identify key components involved in communication: MMIO, DMA, and interrupts. Based on these insights, we propose a methodology for integrating arbitrary PCIe device simulators into gem5, enabling development of heterogeneous systems.",
+    "title_zh": "面向异构架构中基于PCIe设备精确建模的gem5扩展",
+    "abstract_zh": "人工智能工作负载对异构计算日益增长的需求，提高了对高效CPU-加速器通信的需求。为此，PCI Express（PCIe）已成为近期系统中的主流互连技术。然而，当前的架构模拟器对PCIe设备的性能评估支持有限。本文提出了一种扩展gem5模拟器以集成任意PCIe设备的指导方法。尽管gem5被广泛用于CPU模拟和架构探索，但它仅支持有限的PCI设备集合，且缺乏标准化的框架。通过分析gem5的机制，特别是其对AMD GPU的支持，我们识别出通信中的关键组件：MMIO（内存映射I/O）、DMA（直接内存访问）和中断。基于这些分析，我们提出了一种将任意PCIe设备模拟器集成到gem5中的方法，从而支持异构系统的开发。"
+  },
+  {
+    "date": "2026-2-19",
+    "title": "Analysis of Novel Curve Fitting-Based Real Number Modeling Technique for High-Switching Applications in Analog Mixed-Signal Systems",
+    "authors": "Tamil Surya B, Devadarsan A M, Venkateswaran Padmanabhan, Guha Lakshmanan, Santhanalakshmi Mahalingam, Rajalakshmi Karuppuswamy",
+    "publish": "2025 International Conference on Intelligent Innovations in Engineering and Technology (ICIIET)",
+    "url": "https://doi.org/10.1109/iciiet65921.2025.11379037",
+    "source": "IEEE",
+    "abstract": "Increasing demand for complex and high-performance Analog and Mixed-Signal (AMS) designs has created a significant need for efficient verification methodologies. As modern IC designs integrate more functionality, the time and resources required for verification continue to escalate. Ensuring accurate functionality at different abstraction levels is crucial in system design. In addition, simulation tools often involve a trade-off between simulation speed and accuracy. This trade-off is too extreme for analog simulation especially, due to non-linear behaviour and the possibility of wide range of values at each node, making these simulations time-consuming. A black-box model leveraging polynomial regression technique has been proposed to address this issue. Charge Pump and Ring Oscillator circuits are selected for the verification of the proposed technique. Although analog simulator takes significant overhead in simulation time, Spectre has been used for benchmarking the circuits due to its high accuracy. The black-box model proposed is developed using the data collected from Spectre with a focus on output parameters without considering the intermediate nodes. The regression technique relates the input and the output parameters using a multi-degree polynomial to obtain average output values. This is implemented in SystemVerilog using Real Number Modeling (RNM). Then the average output values are assigned to EEnet (U ser Defined N ettype) by behavioral modeling. This novel curve fitting polynomial approach reduces the prolonged simulation time thereby meeting the Time-to-Market requirements.",
+    "title_zh": "基于新型曲线拟合的实数建模技术在模拟混合信号系统高频开关应用中的分析",
+    "abstract_zh": "对复杂且高性能模拟与混合信号（AMS）设计日益增长的需求，催生了对高效验证方法的迫切需要。随着现代集成电路（IC）设计集成的功能越来越多，验证所需的时间和资源持续上升。在系统设计中，确保不同抽象层次上的功能准确性至关重要。此外，仿真工具通常需要在仿真速度与精度之间进行权衡。对于模拟仿真而言，这种权衡尤为突出，因为模拟电路具有非线性行为，且每个节点的取值范围广泛，导致仿真过程耗时较长。为解决这一问题，本文提出了一种基于多项式回归技术的黑箱模型。所提出的方法以电荷泵（Charge Pump）和环形振荡器（Ring Oscillator）电路作为验证对象。尽管模拟仿真器在仿真时间上开销较大，但为了获得高精度的基准结果，本文仍采用Spectre仿真器进行电路性能对比。所提出的黑箱模型基于Spectre仿真所得的数据构建，重点关注输出参数，而忽略中间节点信息。该回归技术通过多阶多项式建立输入与输出参数之间的关系，以获得平均输出值，并在SystemVerilog中利用实数建模（RNM）实现。随后，通过行为级建模将平均输出值赋给EEnet（用户自定义网络类型）。这种新颖的曲线拟合多项式方法显著缩短了漫长的仿真时间，从而满足了产品上市时间（Time-to-Market）的要求。"
+  },
+  {
+    "date": "2026-2-19",
+    "title": "A Simulation-Based Study on Impact of DVS for Side-Channel Attacks",
+    "authors": "Ryoma Katsube, Shinichi Nishizawa, Toshinori Sato, Tomoaki Ukezono",
+    "publish": "2025 IEEE Asia Pacific Conference on Circuits and Systems (APCCAS)",
+    "url": "https://doi.org/10.1109/apccas67402.2025.11376956",
+    "source": "IEEE",
+    "abstract": "This paper discuss the impact of supply voltage on the difference in tamper resistance against power analysis attacks in cryptographic circuits. It also investigated whether high tamper resistance against power analysis attacks can be obtained by switching the power supply voltage during cryptographic processing. We target circuits without countermeasures and circuits with countermeasures using wave dynamic differential Logic, collected their traces under different power supply voltages, and compare the success rate of key estimation by Correlation Power Analysis (CPA). We created virtual traces that switched the voltage during cryptographic processing and examined the effect of dynamic voltage scaling on CPA resistance. Result showed that a higher tamper resistance could be obtained at a low voltage of 0.9V, and that high tamper resistance could be obtained by dynamic power scaling.",
+    "title_zh": "基于仿真的动态电压调节对侧信道攻击影响的研究",
+    "abstract_zh": "本文讨论了电源电压对密码电路抵抗功耗分析攻击的防篡改能力差异的影响，并研究了在密码运算过程中通过切换电源电压是否能够获得更高的防篡改能力。我们以未采用防护措施的电路以及采用波动态差分逻辑（Wave Dynamic Differential Logic）防护措施的电路为研究对象，在不同电源电压下采集其功耗轨迹，并通过相关功耗分析（CPA）比较密钥恢复的成功率。我们还构建了在密码运算过程中切换电压的虚拟轨迹，考察了动态电压调节对CPA抵抗能力的影响。实验结果表明，在0.9V的低电压下可获得更高的防篡改能力，且通过动态电源电压调节能够实现较强的抗攻击性能。"
+  },
+  {
+    "date": "2026-2-19",
+    "title": "Implementation of SPI Protocol with Adaptive Baud Rate and Configurable N-Bit Transmission",
+    "authors": "Singam Aruna, Kethavathu Srinivasa Naik, J Divya Harika, Ponnada Divya",
+    "publish": "2025 International Conference on Intelligent Innovations in Engineering and Technology (ICIIET)",
+    "url": "https://doi.org/10.1109/iciiet65921.2025.11378483",
+    "source": "IEEE",
+    "abstract": "Serial peripheral interface (SPI) protocol is very common in embedded systems based on its simplicity, speediness and capability of being full-duplex in communication. A better SPI design is introduced in this work which accommodates an amenable baud rate producer and adjustable N -bit data transmission. Adaptive baud rate mechanism adjusts clock frequency dynamically and allows reliable communication among devices with varying speed needs as well as enhancing flexibility of the system. The design also has a programmable word length which can be conveniently used to transmit variable sizes of data in the word which is longer than the traditional 8-bit word format. The implementation is provided in the form of Verilog HDL and it is tested by simulation hence ensuring that it operates correctly in various configurations. This design has rendered the SPI controller applicable in a large variety of devices which includes sensor interfacing, multimedia data transfer, and FPGA-based communication systems, where scalability and flexibility is of pivotal concern.",
+    "title_zh": "SPI协议的实现及其自适应波特率与可配置N位传输",
+    "abstract_zh": "串行外设接口（SPI）协议由于其结构简单、传输速度快以及支持全双工通信，在嵌入式系统中非常常见。本文提出了一种改进的SPI设计，该设计包含一个易于调节的波特率生成器和可调节的N位数据传输功能。自适应波特率机制能够动态调整时钟频率，使不同速度需求的设备之间实现可靠通信，同时增强了系统的灵活性。该设计还支持可编程字长，可方便地传输超过传统8位字长格式的可变长度数据。该设计以Verilog HDL语言实现，并通过仿真测试，确保其在各种配置下均能正确运行。该设计使SPI控制器适用于多种设备，包括传感器接口、多媒体数据传输以及基于FPGA的通信系统，在这些应用中可扩展性和灵活性至关重要。"
+  },
+  {
+    "date": "2026-2-19",
+    "title": "Memory-Efficient Differential Privacy Accelerator",
+    "authors": "Muhammad Hamis Haider, Nam-joon Kim, Hao Zhang, Janier Arias-Garcia, Hyuk-Jae Lee, Seok-bum Ko",
+    "publish": "2025 IEEE Asia Pacific Conference on Circuits and Systems (APCCAS)",
+    "url": "https://doi.org/10.1109/apccas67402.2025.11378315",
+    "source": "IEEE",
+    "abstract": "This paper introduces a memory-efficient accelerator for differentially private machine learning that significantly reduces memory overhead through in-line noise generation and approximate gradient computation. The core of the design is a metastability-driven Gaussian noise generator paired with an approximate computation unit, both implemented on FPGA and modeled in Pytorch extension library. We leverage controlled clock phase mismatches to induce entropy in flip-flop arrays. These metastable outputs are processed through a pipelined Box-Muller transform to produce scalable, high-throughput noise samples at configurable privacy levels. By integrating noise addition into the computational pipeline, the system avoids the traditional need for separate noise sampling and post-processing stages, reducing per-epoch memory operations by up to <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{1 2. 5 \\%}$</tex> in simulation and a <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{2 6 \\%}$</tex> improvement in throughput of the accelerator. The proposed approach offers a scalable and practical solution for hardware-accelerated private learning with strict memory and power constraints.",
+    "title_zh": "内存高效的差分隐私加速器",
+    "abstract_zh": "本文提出了一种用于差分隐私机器学习的内存高效型加速器，通过在线噪声生成和近似梯度计算，显著降低了内存开销。该设计的核心是一个基于亚稳态的高斯噪声发生器，结合一个近似计算单元，二者均在FPGA上实现，并通过Pytorch扩展库进行建模。我们利用可控的时钟相位失配在触发器阵列中引入熵，这些亚稳态输出通过流水线化的Box-Muller变换进行处理，从而在可配置的隐私级别下生成可扩展、高吞吐量的噪声样本。通过将噪声添加集成到计算流水线中，系统避免了传统方法中独立的噪声采样和后处理阶段，仿真结果显示每个训练周期的内存操作最多减少了12.5%，加速器吞吐量提升了26%。所提出的方法为在严格内存和功耗限制下的硬件加速隐私学习提供了一种可扩展且实用的解决方案。"
+  },
+  {
+    "date": "2026-2-19",
+    "title": "A Memory-Efficient Framework for Deformable Transformer with Neural Architecture Search",
+    "authors": "Wendong Mao, Mingfan Zhao, Jianfeng Guan, Qiwei Dong, Zhongfeng Wang",
+    "publish": "2025 IEEE Asia Pacific Conference on Circuits and Systems (APCCAS)",
+    "url": "https://doi.org/10.1109/apccas67402.2025.11377021",
+    "source": "IEEE",
+    "abstract": "Deformable Attention Transformers (DAT) have shown remarkable performance in computer vision tasks by adaptively focusing on informative image regions. However, their data-dependent sampling mechanism introduces irregular memory access patterns, posing significant challenges for efficient hardware deployment. Existing acceleration methods either incur high hardware overhead or compromise model accuracy. To address these issues, this paper proposes a hardware-friendly optimization framework for DAT. First, a neural architecture search (NAS)-based method with a new slicing strategy is proposed to automatically divide the input feature into uniform patches during the inference process, avoiding memory conflicts without modifying model architecture. The method explores the optimal slice configuration by jointly optimizing hardware cost and inference accuracy. Secondly, an FPGA-based verification system is designed to test the performance of this framework on edge-side hardware. Algorithm experiments on the ImageNet-1K dataset demonstrate that our hardware-friendly framework can maintain have only 0.2% accuracy drop compared to the baseline DAT. Hardware experiments on Xilinx FPGA show the proposed method reduces DRAM access times to 18% compared with existing DAT acceleration methods.",
+    "title_zh": "一种基于神经架构搜索的内存高效可变形Transformer框架",
+    "abstract_zh": "可变形注意力变换器（Deformable Attention Transformers, DAT）通过自适应地关注图像中的重要区域，在计算机视觉任务中表现出色。然而，其数据依赖的采样机制导致了不规则的内存访问模式，给高效硬件部署带来了显著挑战。现有的加速方法要么带来较高的硬件开销，要么会牺牲模型精度。为解决这些问题，本文提出了一种面向硬件友好的DAT优化框架。首先，提出一种基于神经架构搜索（NAS）的方法，并结合新的分块策略，在推理过程中自动将输入特征划分为均匀的子区域，从而在不修改模型结构的前提下避免内存冲突。该方法通过联合优化硬件成本与推理精度，探索最优的分块配置。其次，设计了一套基于FPGA的验证系统，用于在边缘端硬件上测试该框架的性能。在ImageNet-1K数据集上的算法实验表明，所提出的硬件友好型框架相比基准DAT模型仅带来0.2%的精度下降。在Xilinx FPGA上的硬件实验结果显示，与现有的DAT加速方法相比，该方法将DRAM访问次数减少了至原来的18%。"
+  },
+  {
+    "date": "2026-2-19",
+    "title": "Autonomous Digital Design Implementation on FPGA Using Large Language Models",
+    "authors": "Moulee Sudharsan R Y, Nithish Kumar K, Visalakshi P",
+    "publish": "2025 International Conference on Intelligent Innovations in Engineering and Technology (ICIIET)",
+    "url": "https://doi.org/10.1109/iciiet65921.2025.11378618",
+    "source": "IEEE",
+    "abstract": "The increasing complexity of digital systems and the need for rapid prototyping have highlighted the demand for automation in hardware design workflows. This proposed work provides a fully autonomous system for implementing digital designs on Field-Programmable Gate Arrays (FPGAs). The system gets a high-level input describing a digital circuit from the user and makes use of Large Language Model (LLM) to generate the TCL file containing corresponding Verilog HDL code. This TCL file is then passed through a TCL-scripted Vivado workflow, which automates project creation, synthesis, implementation, and bitstream generation without any manual intervention. The proposed method removes the need for users to interact with the Vivado GUI thereby reducing development time and human error. Additionally, the system supports storing the generated files in the GitHub cloud for future references. By bridging AI and EDA toolchains, this research work gives the foundation for a next-generation design-as-code paradigm in hardware development.",
+    "title_zh": "基于大语言模型的现场可编程门阵列自主数字设计实现",
+    "abstract_zh": "数字系统的日益复杂以及快速原型设计的需求，凸显了硬件设计工作流程自动化的重要性。本文提出了一种完全自主的系统，用于在现场可编程门阵列（FPGA）上实现数字设计。该系统接收用户提供的描述数字电路的高级输入，并利用大语言模型（LLM）生成包含相应Verilog硬件描述语言（HDL）代码的TCL文件。随后，该TCL文件通过基于TCL脚本的Vivado流程进行处理，自动完成项目创建、综合、实现和比特流生成，全程无需人工干预。所提出的方法消除了用户与Vivado图形用户界面（GUI）交互的必要性，从而缩短了开发时间并减少了人为错误。此外，该系统支持将生成的文件存储至GitHub云端，便于后续查阅。通过连接人工智能（AI）与电子设计自动化（EDA）工具链，本研究为硬件开发领域中下一代“设计即代码”范式奠定了基础。"
+  },
+  {
+    "date": "2026-2-19",
+    "title": "BIPSec: An End-to-End Formal Verification Framework for AH/ESP in Industrial-Grade IPSec Protocol Stacks",
+    "authors": "Chuan Li, Yang Zhang, Rui Yao, Xia Yang, Wensheng Guo, Haiyong Sun",
+    "publish": "2025 IEEE International Conference on Blockchain Technology and Information Security (ICBCTIS)",
+    "url": "https://doi.org/10.1109/icbctis66509.2025.11387724",
+    "source": "IEEE",
+    "abstract": "IPSec, as a significant network-layer security standard, has been widely deployed. Formal verification methods play a crucial role in the analysis of security protocols. However, existing work still falls short in the end-to-end formal verification of industrial-grade complex protocols. This paper proposes the BIPSec framework, which applies the Behavior-Interaction-Priority (BIP) architecture to collaborative verification of IPSec protocols. The framework employs a three-layer design: 1) Establishing atomic components to model AH/ESP protocol entities, using connectors to constrain transport/tunnel mode data flow paths, and handling resource contention through priority rules; 2) Introducing a bidirectional mapping mechanism between BIP models and strongSwan/XFRM implementations, adopting Netlink message flow control plane verification and Tracepoints data plane evidence collection methods to achieve semantic alignment between formal models and actual code; 3) Employing hierarchical component design and state optimization strategies to effectively manage verification complexity. Experimental results show that BIPSec efficiently verifies the three core properties of AH/ESP, achieving high consistency between protocol layer and implementation layer in test cases, providing an effective verification solution for industrial-grade IPSec protocol stacks.",
+    "title_zh": "BIPSec：一种用于工业级IPSec协议栈中AH/ESP的端到端形式化验证框架",
+    "abstract_zh": "IPSec 作为一种重要的网络层安全标准，已得到广泛应用。形式化验证方法在安全协议分析中发挥着关键作用，但现有研究在工业级复杂协议的端到端形式化验证方面仍存在不足。本文提出了 BIPSec 框架，该框架将行为-交互-优先级（Behavior-Interaction-Priority, BIP）架构应用于 IPSec 协议的协同验证。该框架采用三层设计：1）建立原子组件以建模 AH/ESP 协议实体，利用连接器约束传输模式/隧道模式下的数据流路径，并通过优先级规则处理资源竞争问题；2）引入 BIP 模型与 strongSwan/XFRM 实现之间的双向映射机制，采用 Netlink 消息流进行控制平面验证，并结合 Tracepoints 技术收集数据平面证据，实现形式化模型与实际代码之间的语义对齐；3）采用分层组件设计和状态优化策略，有效管理验证复杂性。实验结果表明，BIPSec 能高效验证 AH/ESP 的三个核心安全属性，在测试用例中实现了协议层与实现层的高度一致性，为工业级 IPSec 协议栈提供了有效的验证解决方案。"
+  }
+]
