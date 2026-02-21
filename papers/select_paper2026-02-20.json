@@ -1,0 +1,123 @@
+[
+  {
+    "date": "2026-2-20",
+    "title": "Machine Learning in Safety-Critical Applications: Beyond Traditional Worst-Case Design",
+    "authors": "Rolf Ernst, Robin Hapka",
+    "publish": "Computer",
+    "url": "https://doi.org/10.1109/mc.2025.3604078",
+    "source": "IEEE",
+    "abstract": "As semiconductor technology advances below 10 nm, the failure to capture the full range of system timing behaviors proposes a challenge for performance-demanding critical real-time applications such as neural networks. This article proposes a dual timing model for design, verification, and monitoring of real-time neural network systems.",
+    "title_zh": "安全关键应用中的机器学习：超越传统的最坏情况设计",
+    "abstract_zh": "随着半导体技术发展到10纳米以下，若无法完整捕捉系统的全部时序行为，将对神经网络等高性能要求的关键实时应用构成挑战。本文提出一种用于实时神经网络系统设计、验证和监控的双时序模型。"
+  },
+  {
+    "date": "2026-2-20",
+    "title": "Development of Secure-by-Design RISC-V Architectures with Embedded Hardware Roots-of-Trust for Next-Generation Smart Devices",
+    "authors": "Dola Jyothi, M. Nagaraju Naik, S. Mallesh Narayan, K Subramanayam Chari",
+    "publish": "2025 International Conference on Innovations and Emerging Technologies In AI &amp;amp; Communication Systems (IETACS)",
+    "url": "https://doi.org/10.1109/ietacs68750.2025.11385713",
+    "source": "IEEE",
+    "abstract": "The ever-growing spread of smart devices in safety-critical areas like healthcare, industry, and defence has accentuated the demand for safe, dependable computing platforms. In this paper, we propose ANCHOR-RV, a novel secure-by-design RISC-V ISA that incorporates embedded hardware Roots of Trust (RoT) to overcome the shortcomings of traditional security models. In contrast to the current solutions based on fixed trust anchors and inflexible boot mechanisms, ANCHOR-RV proposes an amazingly flexible and dynamic security system comprised of a Context-Aware Trust Engine (CATE), a Nonlinear PUF-Enhanced Identity Vault, a Secure DMA Isolation Bubble (SDIB) and a Trust-Aware Boot Chain with Mutation (TAB-CM). In combination, these modules can offer real-time threat monitoring, per-device identity verification, secure peripheral isolation, and highstrength boot integrity, and are enhanced by a custom RISC-V ISA extension (RV-TISA) to support more secure firmware-software communication. ANCHOR-RV enables the self-configuration of intelligent devices to dynamically changing threat situations with a minimal power and space footprint, making it particularly useful for prototyping and simulation in low-resource environments. The architecture is prototyped and simulated with the FPGA to test its security robustness, performance and efficiency. The experimental data convincingly show that ANCHOR-RV can deliver significant improvements in trust flexibility and attack resistance, and that it is more efficient than traditional constant RoT deployments in dynamic environments. Mutation of the boot mechanism employed in the architecture and context-aware trust management provides a new defence against side-channel attacks, persistent threats, and boot-time attacks. The work will lay the foundation for future resilient RISC-V-based computing systems, enabling a flexible, extensible, and resilient next-generation smart device platform. The subsequent steps will include an ASIC implementation, optimisation of the machine learning models, and integration with real-world smart device platforms.",
+    "title_zh": "面向下一代智能设备的基于安全设计的RISC-V架构与嵌入式硬件信任根的开发",
+    "abstract_zh": "在医疗、工业和国防等安全关键领域，智能设备的日益普及加剧了对安全、可靠计算平台的需求。本文提出了一种新型“安全设计”的RISC-V指令集架构ANCHOR-RV，该架构集成了嵌入式硬件信任根（Roots of Trust, RoT），以克服传统安全模型的不足。与当前基于固定信任锚点和僵化启动机制的解决方案不同，ANCHOR-RV提出了一套极为灵活且动态的安全体系，包括上下文感知信任引擎（CATE）、非线性PUF增强型身份保险库、安全DMA隔离气泡（SDIB）以及具备变异能力的信任感知启动链（TAB-CM）。这些模块协同工作，可实现威胁实时监控、设备级身份验证、外设安全隔离和高强度启动完整性保障，并通过定制的RISC-V ISA扩展（RV-TISA）增强固件与软件间的安全通信。ANCHOR-RV使智能设备能够根据动态变化的威胁环境实现自我配置，同时保持极低的功耗和空间占用，特别适用于资源受限环境中的原型设计与仿真。该架构已在FPGA平台上完成原型实现与仿真，以测试其安全性、性能和效率。实验数据有力表明，ANCHOR-RV在信任灵活性和抗攻击能力方面均有显著提升，且在动态环境中比传统的固定RoT部署更加高效。架构中采用的启动机制变异和上下文感知信任管理，为抵御侧信道攻击、持续性威胁和启动时攻击提供了新的防御手段。本研究将为未来具备弹性的RISC-V计算系统奠定基础，推动构建灵活、可扩展且具备韧性的下一代智能设备平台。后续工作将包括ASIC实现、机器学习模型的优化，以及与真实世界智能设备平台的集成。"
+  },
+  {
+    "date": "2026-2-20",
+    "title": "IEEE Transactions on Computer",
+    "authors": "N/A",
+    "publish": "Computer",
+    "url": "https://doi.org/10.1109/mc.2026.3658920",
+    "source": "IEEE",
+    "abstract": null,
+    "title_zh": "IEEE计算机汇刊",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-2-20",
+    "title": "Formal Verification and Implementation of GeoFC-NIRF: Geospatial Fog-Cloud assisted Framework for SDG #4",
+    "authors": "Sreeya Dash, Jnyana R. Mohanty, Ratan Lal, Rabindra K. Barik",
+    "publish": "2025 Second International Conference on Pioneering Developments in Computer Science &amp;amp; Digital Technologies (IC2SDT)",
+    "url": "https://doi.org/10.1109/ic2sdt68218.2025.11383699",
+    "source": "IEEE",
+    "abstract": "Introduction of a Cloud-Fog paradigm is vital to seamlessly bridge the gap between growing Geospatial data and the need for secure and scalable computing resources. In view of this, it proposes the GeoFC-NIRF, a Geospatial Fog-Cloud assisted framework for the National Institutional Ranking Framework. The framework is designed to respond in real-time for large-scale geospatial applications. The addition of a Fog layer reduces latency and speeds up processing of data from the data source. This reduces reliance on distant cloud infrastructures and enhances responsiveness for end-users. The significant contribution of the paper is the formal verification of Fog layer, that assures accuracy, consistency and robustness of the model-based analysis. Formal methods are considered in the planning process to make the system more reliable and lower the risk of errors in distributed geospatial applications. A preliminary implementation aimed at Sustainable Development Goal #4 illustrates the applicability of GeoFC-NIRF, demonstrating how the framework improves intelligent educational services, decision-making for both students and policymakers, and advances fair access to geospatial learning resources. The results show that GeoFC-NIRF provides a scalable, reliable, and useful basis for domain-specific applications. Although this study focuses on education, the framework can be applied to other important sectors.",
+    "title_zh": "GeoFC-NIRF的正式验证与实现：用于可持续发展目标4的地理空间雾-云辅助框架",
+    "abstract_zh": "引入云-雾（Cloud-Fog）范式对于弥合不断增长的地理空间数据与对安全、可扩展计算资源需求之间的差距至关重要。为此，本文提出了GeoFC-NIRF，即一种由地理空间雾-云协同支持的国家高校排名框架。该框架旨在为大规模地理空间应用提供实时响应能力。通过增加雾层，可降低延迟并加快对数据源数据的处理速度，从而减少对远程云基础设施的依赖，提升终端用户的响应效率。本文的重要贡献在于对雾层进行了形式化验证，确保了基于模型分析的准确性、一致性和鲁棒性。在系统规划过程中引入形式化方法，有助于提高系统的可靠性，并降低分布式地理空间应用中出现错误的风险。一项针对可持续发展目标4（优质教育）的初步实施展示了GeoFC-NIRF的适用性，表明该框架能够改善智能化教育服务，辅助学生和政策制定者进行决策，并促进公平获取地理空间学习资源。实验结果表明，GeoFC-NIRF为特定领域应用提供了可扩展、可靠且实用的基础架构。尽管本研究聚焦于教育领域，但该框架亦可推广应用于其他重要行业。"
+  },
+  {
+    "date": "2026-2-20",
+    "title": "FPGA Implementation of Programmable LFSR",
+    "authors": "Sambhav Langote, Sakshi Cholli, Suhas Shirol, Rajeshwari M",
+    "publish": "2025 International Conference on Computing and Communications (COMPUTINGCON)",
+    "url": "https://doi.org/10.1109/computingcon64838.2025.11376836",
+    "source": "IEEE",
+    "abstract": "As the complexity of IC increases with advances in VLSI, efficient and flexible testing methods are essential. Linear Feedback Shift Registers (LFSRs) are widely used in BIST systems for their simplicity and ability to generate pseudorandom patterns. This work proposes a reconfigurable LFSR (R-LFSR) architecture that allows for the dynamic modification of bit width and feedback polynomial at runtime, enabling the generation of tailored or maximum-length sequences without requiring hardware changes. This adaptability makes it ideal for multi-mode and adaptive testing environments. The R-LFSR is implemented on an FPGA, enabling rapid prototyping and flexibility. Analysis of resource usage, reconfiguration latency, and pattern quality confirms the design's efficiency. The proposed architecture supports diverse testing needs, reduces design costs, and improves reusability, making it well-suited for modern VLSI testing applications.",
+    "title_zh": "可编程LFSR的FPGA实现",
+    "abstract_zh": "随着VLSI技术的进步，集成电路的复杂性不断增加，高效且灵活的测试方法变得至关重要。线性反馈移位寄存器（LFSR）因其结构简单且能够生成伪随机序列，被广泛应用于内建自测试（BIST）系统中。本文提出了一种可重构LFSR（R-LFSR）架构，能够在运行时动态修改位宽和反馈多项式，从而无需更改硬件即可生成定制化或最大长度的序列。这种可适应性使其非常适合多模式和自适应测试环境。该R-LFSR在FPGA上实现，支持快速原型开发和灵活配置。对资源占用、重构延迟和生成序列质量的分析验证了该设计的高效性。所提出的架构能够满足多样化的测试需求，降低设计成本并提高可重用性，非常适合现代VLSI测试应用。"
+  },
+  {
+    "date": "2026-2-20",
+    "title": "Enhancing Autonomous Vehicle Security: An Adaptive CAN Bus Testbed Architecture",
+    "authors": "Bastien Morantin, Robin Hatier, Tarek Ould-Bachir, Nora Boulahia-Cuppens, Frédéric Cuppens",
+    "publish": "2025 IEEE 4th Industrial Electronics Society Annual On-Line Conference (ONCON)",
+    "url": "https://doi.org/10.1109/oncon68412.2025.11384646",
+    "source": "IEEE",
+    "abstract": "This paper introduces a versatile CAN Bus testbed to enhance autonomous vehicle security. Our testbed offers significant flexibility by easily creating new datasets from DBC files through random value generation, supporting diverse usage scenarios beyond pre-established logs. The automatic API generation from DBC files allows quick adaptations for different vehicles, while our system supports comprehensive CAN Bus protocols, including Extended IDs, with minimal delay and packet loss. The testbed stands out with its low deployment cost, using an inexpensive USB CAN interface. Our innovative approach also facilitates the integration of various attack scenarios, such as DoS, Flooding, Fuzzing, Replay, and Suspension, without additional hardware costs. With up to eleven nodes in simulation, the testbed effectively supports comprehensive research without constraints from physical transmission arbitration. This work highlights the feasibility and benefits of a low-cost, flexible, and adaptive CAN Bus testbed for advancing autonomous vehicle security research.",
+    "title_zh": "增强自动驾驶汽车安全性：一种自适应的CAN总线测试平台架构",
+    "abstract_zh": "本文介绍了一种多功能的CAN总线测试平台，以增强自动驾驶汽车的安全性。该测试平台具有高度灵活性，可通过DBC文件自动生成随机数值，轻松创建新的数据集，支持超出预设日志的多样化应用场景。通过从DBC文件自动生成API，平台可快速适配不同车辆，同时系统全面支持包括扩展ID在内的各种CAN总线协议，且延迟极低、丢包率小。该测试平台的一大优势在于部署成本低，仅需使用廉价的USB-CAN接口即可实现。我们的创新方法还可在无需额外硬件投入的情况下，方便地集成多种攻击场景，如拒绝服务（DoS）、泛洪（Flooding）、模糊测试（Fuzzing）、重放（Replay）和暂停（Suspension）攻击。测试平台支持最多达11个节点的仿真，有效支持全面的研究工作，不受物理传输仲裁的限制。本研究突显了低成本、灵活且自适应的CAN总线测试平台在推动自动驾驶汽车安全研究方面的可行性与优势。"
+  },
+  {
+    "date": "2026-2-20",
+    "title": "Requirements Coverage-Guided Minimization for Natural Language Test Cases",
+    "authors": "Rongqi Pan, Feifei Niu, Lionel C. Briand, Hanyang Hu",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3798164",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向需求覆盖引导的自然语言测试用例最小化",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-2-20",
+    "title": "TRAIL-D: Ternary Restoring Array Integrated Logic – Division",
+    "authors": "Karthik R Varma, Rishi Agrawal, Sreehari Veeramachaneni, Syed Ershad Ahmed",
+    "publish": "2025 IEEE 22nd India Council International Conference (INDICON)",
+    "url": "https://doi.org/10.1109/indicon68490.2025.11393047",
+    "source": "IEEE",
+    "abstract": "Division is widely used in digital signal processing tasks, such as calculating filter coefficients, normalizing signals, and scaling data, which are key steps in improving audio quality or processing images. By allowing accurate adjustments and fine-tuning of signal values, division helps ensure that processed signals closely match the original, reducing errors and maintaining quality. Despite growing advancements in ternary logic implementations using carbon nanotube field-effect transistors (CNTFETs), ternary restoring division lacks systematic exploration. This work advances the field by proposing a ternary restoring division algorithm and a novel designed circuit architecture, adapting binary division principles to ternary logic. Novel modules for division specific subtraction and control logic are introduced, complemented by optimized reuse of existing ternary combinational circuits. The proposed architecture demonstrates inherent scalability for 2n/n digit divisions through modular replication. Functional correctness of the circuit is verified via exhaustive HSPICE simulations for 6/3 and 8/4 division operations.",
+    "title_zh": "TRAIL-D：三元恢复型阵列集成逻辑——除法",
+    "abstract_zh": "除法在数字信号处理任务中被广泛应用，例如计算滤波器系数、信号归一化以及数据缩放，这些是提升音频质量或图像处理的关键步骤。通过实现对信号值的精确调整和微调，除法有助于确保处理后的信号尽可能接近原始信号，从而减少误差并保持质量。尽管基于碳纳米管场效应晶体管（CNTFET）的三值逻辑实现技术不断进步，三值恢复除法仍缺乏系统性的研究。本文通过提出一种三值恢复除法算法及一种新颖的电路架构，推动了该领域的发展，将二进制除法原理拓展至三值逻辑。文中引入了专用于除法的减法模块和控制逻辑模块，并结合优化复用现有的三值组合电路。所提出的架构通过模块化复制，天然支持2n/n位的可扩展除法运算。通过HSPICE对6/3位和8/4位除法操作进行详尽的仿真，验证了电路功能的正确性。"
+  },
+  {
+    "date": "2026-2-20",
+    "title": "Efficient and Representative Mission profiles generation from Historical Field Data",
+    "authors": "Xiao Ma, Niels Divens, Koen Laurijssen, Jan Stroobants",
+    "publish": "2025 IEEE Smart World Congress (SWC)",
+    "url": "https://doi.org/10.1109/swc65939.2025.00271",
+    "source": "IEEE",
+    "abstract": "Accurate product validation and performance estimation require representative usage data, as real-world conditions differ from laboratory settings. This paper proposes an efficient heuristic greedy-based algorithm that combines self-weighted Monte Carlo simulation with KL divergence to generate mission profiles from historical field data. Validated through industrial case studies, the method significantly reduces data volume while preserving key operational features. It enables the creation of effective, representative inputs for Digital Twin applications and virtual testing, enhancing the utility and efficiency of existing field data.",
+    "title_zh": "基于历史现场数据的高效且具代表性的任务剖面生成",
+    "abstract_zh": "准确的产品验证和性能评估需要具有代表性的使用数据，因为实际使用环境与实验室条件存在差异。本文提出了一种高效的基于启发式贪心算法的方法，该方法结合了自加权蒙特卡洛模拟与KL散度，从历史现场数据中生成任务剖面。通过工业案例研究验证，该方法在保留关键运行特征的同时显著减少了数据量。它能够为数字孪生应用和虚拟测试生成有效且具代表性的输入，从而提升现有现场数据的利用价值和使用效率。"
+  },
+  {
+    "date": "2026-2-20",
+    "title": "Integration of AI and ML for Anomaly Detection in SSD Validation Logs",
+    "authors": "Ritesh Deshmukh",
+    "publish": "2025 International Conference on Computing and Communications (COMPUTINGCON)",
+    "url": "https://doi.org/10.1109/computingcon64838.2025.11376745",
+    "source": "IEEE",
+    "abstract": "The explosive growth of data-intensive workloads has made solid-state drives (SSDs) a critical infrastructure building block that requires unprecedented monitoring for reliability. This work proposes SMART (SSD Monitoring and Anomaly Recognition Technology), an end-to-end AI-based system that achieves 96.7 % detection accuracy with 4.2 % false positive, far superior to prior threshold-based schemes. Our ensemble system combines gradient boosting machines, isolation forests, and deep neural networks with explainable AI features for real-time anomaly detection across heterogeneous SSD populations. Scalable validation across <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\text{5, 0 0 0}$</tex> production validation logs results in 35% reduced surprise failures, 28% in maintenance cost, and 23 % system availability gain. The adaptive learning and distributed design enable scalable monitoring of up to <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\text{5, 0 0 0}$</tex> SSDs in parallel with sub-second response time.",
+    "title_zh": "人工智能与机器学习在SSD验证日志异常检测中的集成",
+    "abstract_zh": "数据密集型工作负载的爆炸式增长使得固态硬盘（SSD）成为关键的基础设施组件，亟需前所未有的可靠性监控。本文提出SMART（SSD监控与异常识别技术），这是一种端到端的基于人工智能的系统，在检测准确率上达到96.7%，误报率仅为4.2%，显著优于以往基于阈值的方案。我们的集成系统结合了梯度提升机、孤立森林和深度神经网络，并引入可解释的人工智能特性，可在异构SSD设备群体中实现实时异常检测。在5,000条生产验证日志上的可扩展性验证表明，该系统使意外故障减少35%，维护成本降低28%，系统可用性提升23%。其自适应学习机制与分布式设计支持并行监控多达5,000块SSD，响应时间低于一秒。"
+  },
+  {
+    "date": "2026-2-20",
+    "title": "Development of Dependable Systems Using Constrained Colored Petri Nets",
+    "authors": "Carolina Lagartinho-Oliveira, Filipe Moutinho, Luís Gomes",
+    "publish": "2025 IEEE 4th Industrial Electronics Society Annual On-Line Conference (ONCON)",
+    "url": "https://doi.org/10.1109/oncon68412.2025.11384468",
+    "source": "IEEE",
+    "abstract": "This paper introduces constrained colored Petri nets (CCP-nets), a high-level Petri net formalism that facilitates the creation and deployment of dependable systems. CCP-nets employ abstraction mechanisms such as colors, colored tokens, and variables, which are subject to explicit constraints. This enables compact modeling of complex behaviors, simplifying design, and ensures compatibility with unfolding techniques, allowing models to be integrated with verification and implementation tools. Here, we define the syntax and semantics of CCP-nets and clarify their role within the adopted model-driven development approach. Through an example, we discuss how CCP-nets' highlevel features reduce design effort while supporting state-space analysis and code generation for target platforms.",
+    "title_zh": "使用受限有色Petri网开发可靠系统",
+    "abstract_zh": "本文介绍了受约束的有色Petri网（CCP-nets），这是一种高级Petri网形式化方法，有助于可靠系统的构建与部署。CCP-nets采用颜色、有色令牌和变量等抽象机制，并将这些机制置于显式约束之下。这使得复杂行为能够以紧凑的方式建模，简化了系统设计，同时确保与展开技术的兼容性，从而可将模型与验证和实现工具集成。本文定义了CCP-nets的语法和语义，并阐明了其在所采用的模型驱动开发方法中的作用。通过一个实例，我们讨论了CCP-nets的高级特性如何在支持状态空间分析和面向目标平台的代码生成的同时，降低设计工作量。"
+  }
+]
