@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-2-23",
+    "title": "A Hybrid Requirements Engineering Methodology for Certification of Medical Device Software",
+    "authors": "Pablo F. Del Hierro Cadena",
+    "publish": "2025 Fifth International Conference on Information Systems and Software Technologies (ICI2ST)",
+    "url": "https://doi.org/10.1109/ici2st68465.2025.00010",
+    "source": "IEEE",
+    "abstract": "This paper introduces a novel hybrid requirements engineering methodology designed to address the challenges of meeting stringent certification requirements for safety-critical medical device software. The methodology integrates User Stories, Use Case Diagrams, and Problem Frames for comprehensive requirements elicitation, followed by the Box Structure Development Method (BSDM) and Sequence-Based Specification (SBS) for precise behaviour modelling. This structured process enables a seamless and traceable translation into formal Communicating Sequential Processes (CSP), with automated verification performed using the Failures-Divergence Refinement (FDR) model checker. The approach reduces ambiguity, enhances traceability, and strengthens safety assurance, thereby providing objective evidence for certification. An infusion pump case study demonstrates the methodology’s practical applicability and benefits in supporting certification, highlighting its potential to improve software quality and reduce certification costs.",
+    "title_zh": "一种用于医疗器械软件认证的混合型需求工程方法",
+    "abstract_zh": "本文提出了一种新颖的混合型需求工程方法，旨在应对安全关键型医疗设备软件在满足严格认证要求方面所面临的挑战。该方法结合用户故事（User Stories）、用例图（Use Case Diagrams）和问题框架（Problem Frames）进行全面的需求获取，随后采用盒结构开发方法（Box Structure Development Method, BSDM）和基于序列的规范（Sequence-Based Specification, SBS）进行精确的行为建模。这一结构化流程能够无缝且可追溯地转换为形式化的通信顺序进程（Communicating Sequential Processes, CSP），并利用失效-发散精化（Failures-Divergence Refinement, FDR）模型检测工具实现自动化验证。该方法降低了需求的模糊性，增强了可追溯性，强化了安全性保障，从而为认证提供了客观证据。通过输液泵的案例研究，验证了该方法在支持认证方面的实际适用性和优势，凸显了其在提升软件质量、降低认证成本方面的潜力。"
+  },
+  {
+    "date": "2026-2-23",
+    "title": "DFT AI: Machine Learning-Guided Test Point Insertion for Pre-Silicon Debug and Post-Silicon Diagnosis in Complex VLSI Systems",
+    "authors": "Deepika Bhatia",
+    "publish": "2026 IEEE 5th International Conference on AI in Cybersecurity (ICAIC)",
+    "url": "https://doi.org/10.1109/icaic67076.2026.11395827",
+    "source": "IEEE",
+    "abstract": "The rising complexity of modern System-on-Chip (SoC) designs has made it increasingly important to deploy intelligent Design-for-Testability (DFT) strategies that support both pre-silicon debug and post-silicon fault diagnosis. Conventional test point insertion (TPI) techniques are typically driven by static heuristics or ATPG-based analyses, and often struggle to scale in the presence of diverse microarchitectures, tight timing budgets, and strict area constraints. This paper introduces DFT AI, a machine learning–guided framework that automates TPI using data-driven reasoning and structural learning. The approach combines gradient-boosted decision trees with graph neural networks (GNNs) to estimate signal importance from structural, dynamic, and contextual features extracted from synthesized RTL designs. A constraint-aware selector ensures that only high-impact, timing-safe test points are chosen. We evaluate DFT AI on ITC’99 and OpenCores benchmark suites and observe up to 28% improvement in observability gain and a 27% reduction in diagnostic ambiguity over state-of-the-art methods, with modest area penalty and significantly reduced runtime. The framework generalizes well across heterogeneous designs and provides interpretability via SHAP-based signal analysis, offering a scalable and trustworthy solution for lifecycle-wide DFT automation.",
+    "title_zh": "DFT AI：面向复杂VLSI系统的机器学习引导的测试点插入技术，用于硅前调试与硅后诊断",
+    "abstract_zh": "现代片上系统（SoC）设计的复杂性日益增加，使得部署智能的可测性设计（DFT）策略变得愈发重要，以支持硅前调试和硅后故障诊断。传统的测试点插入（TPI）技术通常依赖于静态启发式方法或基于自动测试图样生成（ATPG）的分析，在面对多样化的微架构、紧张的时序预算和严格的面积限制时，往往难以扩展。本文提出DFT AI，一种由机器学习驱动的框架，通过数据驱动推理与结构学习实现TPI的自动化。该方法结合梯度提升决策树与图神经网络（GNN），从综合后的RTL设计中提取的结构、动态和上下文特征来估计信号的重要性。一个具备约束感知能力的选择器确保仅选入对时序安全且影响重大的测试点。我们在ITC’99和OpenCores基准测试集上对DFT AI进行评估，结果表明，与现有最先进方法相比，可观测性增益最高提升28%，诊断模糊性降低27%，同时带来较小的面积开销和显著减少的运行时间。该框架在异构设计中表现出良好的泛化能力，并通过基于SHAP的信号分析提供可解释性，为全生命周期的DFT自动化提供了一种可扩展且可信的解决方案。"
+  },
+  {
+    "date": "2026-2-23",
+    "title": "MBIST++: An Adaptive March Algorithm Generator for Memory Test Coverage Enhancement in Post-Silicon Validation",
+    "authors": "Deepika Bhatia",
+    "publish": "2026 IEEE 5th International Conference on AI in Cybersecurity (ICAIC)",
+    "url": "https://doi.org/10.1109/icaic67076.2026.11395879",
+    "source": "IEEE",
+    "abstract": "As embedded memories continue to dominate System-on-Chip (SoC) designs, their testing and validation have become critical bottlenecks for post-silicon reliability. Conventional Memory Built-In Self Test (MBIST) architectures typically rely on static March algorithms which, although effective for classical fault models, struggle to expose complex or emergent defects introduced by advanced technology nodes and layout-dependent anomalies. This paper proposes MBIST++, a dynamic and hardware-efficient framework that generates adaptive March test sequences guided by runtime fault profiling. In contrast to traditional approaches, MBIST++ embeds an on-chip evolutionary engine that synthesizes high-coverage test patterns by learning from post-silicon fault signatures in real time. The architecture couples a microcoded execution engine with a feedback-driven generator and fault classification module, enabling responsive and targeted validation of embedded memory blocks. Experimental results on industrial-grade memory macros show that MBIST++ achieves up to 96.2% fault coverage, outperforming March SS and machine-learning-enhanced BIST methods, while preserving competitive test latency and incurring only modest area overhead. These findings suggest that MBIST++ offers a scalable path toward post-silicon resilience and adaptive memory test automation for emerging semiconductor platforms.",
+    "title_zh": "MBIST++：一种用于提升硅后验证中存储器测试覆盖率的自适应March算法生成器",
+    "abstract_zh": "随着嵌入式存储器在片上系统（SoC）设计中占据主导地位，其测试与验证已成为制约芯片后硅阶段可靠性的关键瓶颈。传统的存储器内建自测试（MBIST）架构通常依赖静态的March算法，这些算法虽然对经典故障模型有效，但在应对由先进工艺节点和布局相关异常所引入的复杂或新型缺陷时表现乏力。本文提出MBIST++，一种动态且硬件高效的框架，能够根据运行时的故障特征分析，生成自适应的March测试序列。与传统方法不同，MBIST++嵌入了一个片上进化引擎，能够实时学习后硅阶段的故障特征，从而综合生成高覆盖率的测试模式。该架构结合了微码执行引擎、反馈驱动的测试生成器以及故障分类模块，实现了对嵌入式存储器模块的快速、精准验证。在工业级存储宏上的实验结果表明，MBIST++的故障覆盖率最高可达96.2%，优于March SS算法以及基于机器学习增强的BIST方法，同时保持了具有竞争力的测试延迟，且仅引入适度的面积开销。这些结果表明，MBIST++为新兴半导体平台实现可扩展的后硅可靠性保障和自适应存储器测试自动化提供了一条可行路径。"
+  },
+  {
+    "date": "2026-2-23",
+    "title": "Codebase Aware Generative Agents for the SDLC: Automating Documentation, Dependency Analysis and Test Generation",
+    "authors": "Vatsal Kishorbhai Mavani",
+    "publish": "2026 IEEE 5th International Conference on AI in Cybersecurity (ICAIC)",
+    "url": "https://doi.org/10.1109/icaic67076.2026.11395666",
+    "source": "IEEE",
+    "abstract": "Autonomous agents are becoming common in software development, but they often struggle to maintain context in large, changing codebases. To solve this, we propose CA-SAF (Codebase-Aware Self-Adapting Framework), a multi-agent system designed to fix this architectural \"blindness\" by actively retrieving precise code details. Our core innovation is ZSDM (Zero-Shot Dependency Mapping). This hybrid method combines AST parsing with strict LLM extraction to map every entity and relationship into a queryable Knowledge Graph. By using structured code summaries, we achieved roughly 80% data compression, ensuring the context remains efficient. We benchmarked the system against GPT-4o, LLaMA 3.1, and Claude 3 Opus. We found that Claude 3 Opus, with its 200,000 - token window, slightly outperformed the others (capped at 128,000) on complex, non-local mapping tasks. Over a six-month operational study, using CA-SAF led to a measurable drop in both Cycle Time and Lead Time for maintenance work. Crucially, the framework used this codebase awareness to balance speed with quality, actively reducing the number of critical bugs that high-speed LLM generation often introduces.",
+    "title_zh": "面向代码库的生成式智能体在软件开发生命周期中的应用：自动化文档生成、依赖性分析与测试用例生成",
+    "abstract_zh": "自主智能体在软件开发中正变得越来越普遍，但它们在处理庞大且不断变化的代码库时，往往难以维持上下文理解。为解决这一问题，我们提出了CA-SAF（代码库感知自适应框架），这是一种多智能体系统，旨在通过主动检索精确的代码细节，克服架构层面的“失明”问题。我们的核心创新是ZSDM（零样本依赖映射），该混合方法结合了AST解析与严格的LLM信息提取，将每个代码实体及其关系映射为可查询的知识图谱。通过使用结构化代码摘要，我们实现了约80%的数据压缩，确保上下文保持高效。我们在GPT-4o、LLaMA 3.1和Claude 3 Opus上对系统进行了基准测试，发现具有20万token上下文窗口的Claude 3 Opus在复杂的非局部映射任务上略优于其他模型（上限为12.8万token）。在为期六个月的运行研究中，使用CA-SAF显著降低了维护工作的周期时间和前置时间。更重要的是，该框架利用代码库感知能力，在速度与质量之间实现了有效平衡，主动减少了高速LLM生成常引入的关键缺陷数量。"
+  },
+  {
+    "date": "2026-2-23",
+    "title": "LLM-Powered Autonomous Security Agents for Next-Generation Cyber Defence",
+    "authors": "Tanvir H. Sardar, Bishwajeet Pandey, Laura Aldasheva",
+    "publish": "2026 IEEE 5th International Conference on AI in Cybersecurity (ICAIC)",
+    "url": "https://doi.org/10.1109/icaic67076.2026.11395792",
+    "source": "IEEE",
+    "abstract": "The paper proposes a new system design of rolling out Large Language Model (LLM)-driven autonomous security agents in enterprise cybersecurity. Cyber threats are becoming more complex and security operations centres (SOCs) are being overwhelmed by alerts, which is why traditional Security Orchestration, Automation, and Response (SOAR) systems based on those originally relying on rules are no longer able to cope with new attack patterns. We introduce SENTINEL (Security-Enabled Neural Threat Intelligence and Learning), an architecture, which uses LLMs as the reasoning engine to handle autonomous threat investigation, incident triage, and coordinated autonomous response. Our framework deals with such issues as reliability of agents, resistance to adversarial manipulation, and reasonable limits of human control. A three-environment experimental assessment shows that SENTINEL can be used to classify threats with an accuracy of 94.2% and is able to minimize the mean time to respond (MTTR) by 73-percent and detect 89-percent of new attack measures that could not be detected by traditional systems. We also present a formal verification scheme on how to ensure that agent behavior does not exceed specified safety limits so as to allow reliable autonomous behavior in the production security setting.",
+    "title_zh": "用于下一代网络防御的基于大语言模型的自主安全代理",
+    "abstract_zh": "本文提出了一种在企业网络安全中部署由大语言模型（LLM）驱动的自主安全代理的新系统设计。随着网络威胁日益复杂，安全运营中心（SOC）面临着海量告警的困扰，传统基于规则的安全编排、自动化与响应（SOAR）系统已难以应对新型攻击模式。为此，我们提出了SENTINEL（安全增强型神经威胁情报与学习）架构，该架构以大语言模型作为推理引擎，实现自主威胁调查、事件分级和协同自动化响应。我们的框架解决了代理的可靠性、对抗性操纵的抵御能力以及人类控制的合理边界等关键问题。通过三环境的实验评估表明，SENTINEL能够以94.2%的准确率对威胁进行分类，将平均响应时间（MTTR）缩短73%，并检测出传统系统无法识别的89%的新攻击手段。此外，我们还提出了一种形式化验证机制，用以确保代理行为不超出预设的安全边界，从而在实际生产安全环境中实现可靠、可控的自主行为。"
+  },
+  {
+    "date": "2026-2-23",
+    "title": "A Step toward Stateful HW-SW Migration: An Architecture-agnostic Checkpointing-rollback Toolchain",
+    "authors": "Maxime France-Pillois, Zihan Huang, Jiaxun Yang, Edson Horta, Binoy Ravindran, Antonio Barbalace",
+    "publish": "ACM Transactions on Architecture and Code Optimization",
+    "url": "https://doi.org/10.1145/3798281",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "迈向有状态硬件-软件迁移的一步：一种与架构无关的检查点-回滚工具链",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-2-23",
+    "title": "Application Validation of 28-bit Programmable Data Strobe Parallel-to-Serial Converter",
+    "authors": "Duan wei",
+    "publish": "2025 Cross Strait Radio Science and Wireless Technology Conference (CSRSWTC)",
+    "url": "https://doi.org/10.1109/csrswtc67757.2025.11384257",
+    "source": "IEEE",
+    "abstract": "In order to validate the application ability of Parallel-to-Serial Converter in different harsh environments. This paper proposes a full-function verification scheme for one kind of Parallel-to-Serial Converter, carries out the hardware design of the verification board, and finally verifies the application ability of a Converter device through 9 categories of project tests such as electrical performance, working stability, thermal and mechanical environment. The test results demonstrate the validation effectiveness.",
+    "title_zh": "28位可编程数据选通并行转串行转换器的应用验证",
+    "abstract_zh": "为了验证并串转换器在不同恶劣环境下的应用能力，本文提出了一种针对某类并串转换器的全功能验证方案，完成了验证板的硬件设计，并最终通过电气性能、工作稳定性、热环境和机械环境等9大类项目测试，对转换器器件的应用能力进行了验证。测试结果表明了该验证方案的有效性。"
+  },
+  {
+    "date": "2026-2-23",
+    "title": "LLM-VeriOpt: Verification-Guided Reinforcement Learning for LLM-Based Compiler Optimization",
+    "authors": "Xiangxin Fang, Jiaqin Kang, Rodrigo Rocha, Sam Ainsworth, Lev Mukhanov",
+    "publish": "2026 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)",
+    "url": "https://doi.org/10.1109/cgo68049.2026.11395239",
+    "source": "IEEE",
+    "abstract": "Large Language Models (LLMs) for compiler optimization have recently emerged as a frontier research direction, with many studies demonstrating their potential to automate and improve low-level code transformations. While various techniques have been proposed to enhance LLMs’ ability to optimize LLVM IR or assembly code, ensuring the semantic equivalence of transformed instructions remains a fundamental prerequisite for safe and effective performance improvement. At the same time, code generated by LLMs is often so far away from being correct that it is very difficult to work out how to improve them to proceed in generating optimizations using the output.In this work, we present LLM-VeriOpt, a novel reinforcement-learning methodology that incorporates feedback from a formal verifier, Alive2, to guide the training of a small-scale model, Qwen-3B. This facilitates the use of Guided Reinforcement via Group Relative Policy Optimization (GRPO), using semantic-equivalence signals from the Alive2 formal verification tool as part of the reward function. This allows the model to self-correct based on observing and subsequently learning to give correctness feedback during training, giving high code coverage by successfully transforming large amounts of code, while also optimizing it significantly.We demonstrate our technique by designing an LLM-based peephole optimizer over LLVM-IR. Our method significantly improves the correctness of IR optimizations versus the base LLM Qwen-3B applied with just a prompt and no fine-tuning — achieving a 5.4× improvement in code successfully modified. The resulting model produces verifiably correct output 90% of the time, comfortably outperforming larger state-of-the-art LLMs, including Meta’s LLM Compiler. This yields speedups of 2.3× over O0-optimized code, comparable to the handwritten LLVM-instcombine pass, and producing emergent optimizations that outperform it in 20% of cases.",
+    "title_zh": "LLM-VeriOpt：基于验证引导的强化学习用于LLM驱动的编译器优化",
+    "abstract_zh": "大型语言模型（LLMs）在编译器优化中的应用最近成为前沿研究方向，许多研究已展示了其在自动化和改进底层代码转换方面的潜力。尽管已有多种技术被提出以增强LLMs优化LLVM IR或汇编代码的能力，但确保变换后指令的语义等价性仍是实现安全且有效性能提升的基本前提。与此同时，LLMs生成的代码往往距离正确性相去甚远，导致很难判断如何改进这些输出以持续推进优化生成。\n\n在本研究中，我们提出了LLM-VeriOpt，一种新颖的强化学习方法，该方法引入形式化验证工具Alive2的反馈，用于指导小型模型Qwen-3B的训练。该方法采用“基于组相对策略优化的引导式强化学习”（GRPO），并将来自Alive2形式化验证工具的语义等价性信号纳入奖励函数中。这使得模型能够在训练过程中通过观察并学习正确性反馈实现自我修正，从而在成功转换大量代码的同时实现高代码覆盖率和显著优化。\n\n我们通过设计一个基于LLM的LLVM-IR窥孔优化器来验证该技术的有效性。与仅通过提示词使用、未经微调的基础LLM Qwen-3B相比，我们的方法显著提升了IR优化的正确率——成功修改的代码量提升了5.4倍。最终得到的模型有90%的时间能生成可验证正确的输出，明显优于包括Meta的LLM Compiler在内的更大规模的最先进LLM。该优化器在O0级别优化代码基础上实现了2.3倍的加速，性能可与手工编写的LLVM instcombine优化遍相媲美，并在20%的情况下展现出超越后者的新兴优化能力。"
+  },
+  {
+    "date": "2026-2-23",
+    "title": "Towards Path-Aware Coverage-Guided Fuzzing",
+    "authors": "Giacomo Priamo, Daniele Cono D’Elia, Mathias Payer, Leonardo Querzoni",
+    "publish": "2026 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)",
+    "url": "https://doi.org/10.1109/cgo68049.2026.11395191",
+    "source": "IEEE",
+    "abstract": "Automated fuzz testing is now standard practice, yet key blind spots persist. Coverage-guided fuzzers typically rely on edge coverage as a lightweight proxy for program behavior. However, this metric captures path variations only weakly: it cannot differentiate executions that follow distinct control-flow paths but traverse the same edges—causing many path-dependent bugs to go undetected. Path awareness would offer a richer coverage view but has been considered too costly for fuzzing.We introduce a lightweight method for tracking intra-procedural execution paths, enabling efficient path-aware feedback. This enhances the fuzzer’s ability to detect subtle bugs, even in well-tested software. To counter the resulting seed explosion, we evaluate two strategies—culling and opportunistic path-aware fuzzing—that balance precision and throughput. Our findings show that path-aware fuzzing, when properly guided, uncovers more bugs and reveals untapped potential in fuzzing research.",
+    "title_zh": "面向路径感知的覆盖引导模糊测试",
+    "abstract_zh": "自动化模糊测试如今已成为标准实践，但关键的盲点依然存在。基于覆盖率的模糊测试工具通常依赖边覆盖（edge coverage）作为程序行为的轻量级代理指标。然而，这一指标对路径变化的捕捉能力较弱：它无法区分那些遵循不同控制流路径但经过相同边的执行过程，导致许多与路径相关的缺陷未能被发现。尽管具备路径感知能力可提供更丰富的覆盖视图，但人们普遍认为其开销过高，难以应用于模糊测试。\n\n我们提出了一种轻量级的函数内执行路径跟踪方法，实现了高效的路径感知反馈机制。该方法增强了模糊测试器检测细微缺陷的能力，即使在经过充分测试的软件中也能发现潜在问题。为应对由此引发的种子数量激增问题，我们评估了两种策略——剪枝（culling）和机会式路径感知模糊测试（opportunistic path-aware fuzzing），以在精确性与吞吐量之间取得平衡。研究结果表明，在合理引导下，路径感知模糊测试能够发现更多缺陷，并揭示出模糊测试研究中尚未被充分挖掘的潜力。"
+  }
+]
