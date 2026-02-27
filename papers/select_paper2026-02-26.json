@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-02-26",
+    "title": "EvolveGen: Algorithmic Level Hardware Model Checking Benchmark Generation through Reinforcement Learning",
+    "authors": "Guangyu Hu, Xiaofeng Zhou, Wei Zhang, Hongce Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.22609v1",
+    "source": "arXiv",
+    "abstract": "Progress in hardware model checking depends critically on high-quality benchmarks. However, the community faces a significant benchmark gap: existing suites are limited in number, often distributed only in representations such as BTOR2 without access to the originating register-transfer-level (RTL) designs, and biased toward extreme difficulty where instances are either trivial or intractable. These limitations hinder rigorous evaluation of new verification techniques and encourage overfitting of solver heuristics to a narrow set of problems. To address this, we introduce EvolveGen, a framework for generating hardware model checking benchmarks by combining reinforcement learning (RL) with high-level synthesis (HLS). Our approach operates at an algorithmic level of abstraction in which an RL agent learns to construct computation graphs. By compiling these graphs under different synthesis directives, we produce pairs of functionally equivalent but structurally distinct hardware designs, inducing challenging model checking instances. Solver runtime is used as the reward signal, enabling the agent to autonomously discover and generate small-but-hard instances that expose solver-specific weaknesses. Experiments show that EvolveGen efficiently creates a diverse benchmark set in standard formats (e.g., AIGER and BTOR2) and effectively reveals performance bottlenecks in state-of-the-art model checkers.",
+    "title_zh": "EvolveGen：通过强化学习生成算法级硬件模型检测基准",
+    "abstract_zh": "硬件模型检验的进步在很大程度上依赖于高质量的基准测试。然而，当前学术界面临显著的基准测试缺口：现有的测试集数量有限，通常仅以BTOR2等中间表示形式发布，缺乏对应的寄存器传输级（RTL）设计源码；同时，这些测试集在难度上存在严重偏差，实例往往要么过于简单，要么难以处理。这些局限性阻碍了对新型验证技术的严格评估，并导致求解器的启发式策略过度拟合于狭窄的问题集合。为解决这一问题，我们提出了EvolveGen——一种结合强化学习（RL）与高级综合（HLS）的硬件模型检验基准生成框架。我们的方法在算法级抽象层面运行，其中强化学习智能体学习构建计算图。通过在不同综合指令下编译这些计算图，我们生成功能等价但结构各异的硬件设计，从而产生具有挑战性的模型检验实例。以求解器的运行时间为奖励信号，智能体能够自主发现并生成“小而难”的实例，有效暴露特定求解器的弱点。实验表明，EvolveGen能够高效生成多样化的标准格式（如AIGER和BTOR2）基准测试集，并显著揭示当前最先进模型检验工具的性能瓶颈。"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "RandSet: Randomized Corpus Reduction for Fuzzing Seed Scheduling",
+    "authors": "Yuchong Xie, Kaikai Zhang, Yu Liu, Rundong Yang, Ping Chen, Shuai Wang, Dongdong She",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.22729v1",
+    "source": "arXiv",
+    "abstract": "Seed explosion is a fundamental problem in fuzzing seed scheduling, where a fuzzer maintains a huge corpus and fails to choose promising seeds. Existing works focus on seed prioritization but still suffer from seed explosion since corpus size remains huge. We tackle this from a new perspective: corpus reduction, i.e., computing a seed corpus subset. However, corpus reduction could lead to poor seed diversity and large runtime overhead. Prior techniques like cull_queue, AFL-Cmin, and MinSet suffer from poor diversity or prohibitive overhead, making them unsuitable for high-frequency seed scheduling. We propose RandSet, a novel randomized corpus reduction technique that reduces corpus size and yields diverse seed selection simultaneously with minimal overhead. Our key insight is introducing randomness into corpus reduction to enjoy two benefits of a randomized algorithm: randomized output (diverse seed selection) and low runtime cost. Specifically, we formulate corpus reduction as a set cover problem and compute a randomized subset covering all features of the entire corpus. We then schedule seeds from this small, randomized subset rather than the entire corpus, effectively mitigating seed explosion. We implement RandSet on three popular fuzzers: AFL++, LibAFL, and Centipede, and evaluate it on standalone programs, FuzzBench, and Magma. Results show RandSet achieves significantly more diverse seed selection than other reduction techniques, with average subset ratios of 4.03% and 5.99% on standalone and FuzzBench programs. RandSet achieves a 16.58% coverage gain on standalone programs and up to 3.57% on FuzzBench in AFL++, triggers up to 7 more ground-truth bugs than the state-of-the-art on Magma, while introducing only 1.17%-3.93% overhead.",
+    "title_zh": "RandSet：用于模糊测试种子调度的随机化语料库缩减",
+    "abstract_zh": "种子爆炸是模糊测试种子调度中的一个根本性问题，即模糊器维护着庞大的种子语料库，却难以选出有潜力的种子。现有工作主要关注种子优先级排序，但由于语料库规模依然巨大，仍无法避免种子爆炸问题。我们从一个新视角应对该问题：语料库缩减，即计算一个种子语料库的子集。然而，语料库缩减可能导致种子多样性下降和运行时开销过大。以往的技术如cull_queue、AFL-Cmin和MinSet，或因多样性差，或因开销过高，难以适用于高频的种子调度场景。我们提出了RandSet，一种新颖的随机化语料库缩减技术，能够在显著减小语料库规模的同时实现多样化的种子选择，且开销极低。我们的核心洞察是将随机性引入语料库缩减过程，从而获得随机算法的两大优势：随机化输出（实现多样化的种子选择）和低运行时成本。具体而言，我们将语料库缩减建模为集合覆盖问题，并计算一个覆盖整个语料库所有特性的随机子集。随后，我们从这个小规模的随机子集中进行种子调度，而非在整个语料库中选择，从而有效缓解种子爆炸问题。我们在三种主流模糊器AFL++、LibAFL和Centipede上实现了RandSet，并在独立程序、FuzzBench和Magma平台上进行了评估。实验结果表明，相比其他缩减技术，RandSet实现了显著更高的种子选择多样性，在独立程序和FuzzBench上的平均子集比例分别为4.03%和5.99%。在AFL++中，RandSet在独立程序上取得了16.58%的覆盖率提升，在FuzzBench上最高提升达3.57%，在Magma上最多触发了7个比当前最优方法更多的真实漏洞，而引入的运行开销仅为1.17%至3.93%。"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "Verification of Unbounded Client-Server Systems with Distinguishable Clients",
+    "authors": "Ramchandra Phawade, Tephilla Prince, S Sheerazuddin",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2602.23054v1",
+    "source": "arXiv",
+    "abstract": "Client-server systems are a computing paradigm in concurrent and distributed systems. We deal with unbounded client-server systems (UCS) where all clients are of the same type, interact with a single server and they may enter and exit the system dynamically. At any point in time, the number of clients is bounded, but their exact number is unknown and dynamic. To model these systems, simple Petri nets are not directly usable, so we use unbounded $ν$-nets. Owing to the distinguishability of clients in UCS, it is not straightforward to express their properties in LTL or CTL. To address this, we propose the logic $\\mathsf{FOTL_1}$, a monodic fragment of Monadic First Order Temporal Logic (MFOTL). In this work, we provide the SMT encodings of $ν$-nets and $\\mathsf{FOTL_1}$ to do Bounded Model Checking (BMC). We also build an accompanying open source tool to perform BMC of UCS.",
+    "title_zh": "具有可区分客户端的无界客户端-服务器系统的验证",
+    "abstract_zh": "客户端-服务器系统是并发与分布式系统中的一种计算范式。我们研究的是无界客户端-服务器系统（UCS），其中所有客户端类型相同，与单一服务器交互，并可动态地进入和退出系统。在任意时刻，客户端的数量是有界的，但其确切数量未知且动态变化。为了对这类系统进行建模，简单的Petri网无法直接使用，因此我们采用无界ν网（ν-nets）。由于UCS中客户端具有可区分性，使用LTL或CTL逻辑表达其性质并不直观。为此，我们提出了一种逻辑FOTL₁，它是单变量一阶时态逻辑（MFOTL）的一个单子片段。在本研究中，我们给出了ν网和FOTL₁的SMT编码，以实现有界模型检测（BMC），并开发了一个配套的开源工具，用于对UCS进行BMC分析。"
+  },
+  {
+    "date": "2026-2-26",
+    "title": "Test Data Generation Based on Artificial Bee Colonyoptimized Genetic Algorithm",
+    "authors": "ZhiWei Liu, QiuLian Chen",
+    "publish": "2025 5th International Conference on Computer Science, Electronic Information Engineering and Intelligent Control Technology (CEI)",
+    "url": "https://doi.org/10.1109/cei66465.2025.11398513",
+    "source": "IEEE",
+    "abstract": "With the growing complexity of software systems, automatic test data generation - a critical step in software testing - directly dictates the cost of testing efforts and the overall software quality. To mitigate the issues of premature convergence and inadequate local search capability in traditional genetic algorithms (GAS) for test data generation, this paper proposes an automated test data generation method based on an improved artificial bee colony (ABC)-optimized genetic algorithm. It sustains population diversity via a phased search strategy of the bee colony and leverages genetic operations to strengthen local search performance. Experimental results indicate that compared with conventional GAS, the proposed method yields substantial enhancements in key metrics including path coverage, convergence generation, and execution time, particularly exhibiting superior coverage for complex path conditions.",
+    "title_zh": "基于人工蜂群优化遗传算法的测试数据生成",
+    "abstract_zh": "随着软件系统复杂性的不断增加，自动测试数据生成作为软件测试中的关键步骤，直接影响着测试成本和整体软件质量。针对传统遗传算法（GA）在测试数据生成中存在早熟收敛以及局部搜索能力不足的问题，本文提出了一种基于改进的人工蜂群（ABC）优化遗传算法的自动化测试数据生成方法。该方法通过蜂群的分阶段搜索策略维持种群多样性，并结合遗传操作增强局部搜索性能。实验结果表明，与传统遗传算法相比，所提出的方法在路径覆盖率、收敛代数和执行时间等关键指标上均有显著提升，尤其在复杂路径条件下的覆盖率表现更为优异。"
+  },
+  {
+    "date": "2026-2-26",
+    "title": "Research on On-Site Automatic Inspection Technology for Secondary Equipment Based on New-Generation Substations",
+    "authors": "Huihai Liu, Ye Xia, Xiaoli Zhang, Wen Shi, Xuecheng Dong, Jiashu Zhang",
+    "publish": "2025 2nd international conference on DC technologies and systems (DCTS)",
+    "url": "https://doi.org/10.1109/ieeeconf68944.2025.11398750",
+    "source": "IEEE",
+    "abstract": "Rapid and efficient on-site inspection of relay protection is a crucial step in ensuring the safe operation of secondary equipment. Traditional manual inspection methods are time-consuming, difficult to control quality, and challenging to digitize, thus no longer meeting the needs of onsite inspection for the new generation of substation secondary equipment. This paper proposes a design scheme for automatic on-site inspection of the new generation of substation secondary equipment, exploring new technologies such as intelligent configuration based on the entire substation system configuration file, intelligent generation of test cases, automatic verification of ICD models, identification of setting files, and standardized information exchange. This paper has developed the PMS3.0 automatic testing system, which utilizes mobile operation and maintenance terminals and intelligent testers as carriers. By adopting innovative ideas such as “paperless”, “automated”, and “closed-loop process online”, it revolutionizes the inspection mode of secondary equipment, addressing challenges such as device differences, complex verification files, and information exchange. It achieves functions such as automatic generation of operation instructions, automatic inspection throughout the entire process, and data sharing, supporting on-site inspection and commissioning of all types of secondary equipment across all voltage levels, and ensuring the safe and stable operation of the equipment.",
+    "title_zh": "基于新一代变电站的二次设备现场自动巡检技术研究",
+    "abstract_zh": "快速高效的继电保护现场检验是保障二次设备安全运行的关键环节。传统的手工检验方式耗时长、质量难以控制、数字化困难，已无法满足新一代变电站二次设备的现场检验需求。本文提出了一种面向新一代变电站二次设备的自动现场检验设计方案，探索了基于全站系统配置文件的智能配置、测试用例智能生成、ICD模型自动校验、定值文件识别以及标准化信息交互等新技术。基于此，研发了PMS3.0自动化测试系统，以移动运维终端和智能测试仪为载体，采用“无纸化”、“自动化”、“闭环流程在线化”等创新理念，彻底革新了二次设备的检验模式，有效解决了设备差异、校验文件复杂、信息交互困难等难题。系统实现了操作指令自动生成、全过程自动检验和数据共享等功能，可支持各电压等级各类二次设备的现场检验与调试，保障设备安全稳定运行。"
+  },
+  {
+    "date": "2026-2-26",
+    "title": "Trace-Aware LSTM Model Checking for Safety-Critical Systems",
+    "authors": "Chaker Nasri, Ahlem Ben Younes, Leila Ben Ayed",
+    "publish": "2025 International Conference on Research in Computing at Feminine (RIF)",
+    "url": "https://doi.org/10.1109/rif68108.2025.11406792",
+    "source": "IEEE",
+    "abstract": "This paper presents a hybrid verification methodology integrating NuSMV symbolic model checking with Long Short-Term Memory (LSTM) networks to alleviate scalability limitations in safety-critical systems. Temporal execution traces from NuSMV are leveraged to train LSTMs for intelligent filtering and prioritization of system paths, reducing verification workload by nearly half.A case study on an aircraft landing gear controller evaluates the CTL property AG (gear_down → AF gear_locked). The dataset, derived from correct and faulty SMV models, trains and validates the LSTM, achieving high predictive accuracy (>98%) and a significant reduction in verification effort.Our pipeline contributes three key aspects: (i) explainable predictions for fault localization, (ii) automated patching for model correction, and (iii) visualization for interpretable verification outcomes. Limitations and future directions, including transformer-based models and additional safety-critical benchmarks, are discussed.",
+    "title_zh": "面向安全关键系统的轨迹感知LSTM模型检测",
+    "abstract_zh": "本文提出了一种混合验证方法，将NuSMV符号模型检测与长短期记忆（LSTM）网络相结合，以缓解在安全关键系统中可扩展性方面的局限性。该方法利用来自NuSMV的时序执行轨迹训练LSTM网络，实现对系统路径的智能过滤与优先级排序，使验证工作量减少了近一半。通过对飞机起落架控制器的案例研究，评估了CTL属性AG (gear_down → AF gear_locked)。数据集来源于正确和存在故障的SMV模型，用于训练和验证LSTM模型，实现了高预测准确率（>98%），并显著降低了验证开销。本文提出的验证流程在三个方面做出了贡献：（i）提供可解释的预测结果以支持故障定位；（ii）实现模型错误的自动修复；（iii）通过可视化手段增强验证结果的可解释性。文章还讨论了当前方法的局限性及未来研究方向，包括基于Transformer的模型以及更多安全关键系统的基准测试。"
+  },
+  {
+    "date": "2026-2-26",
+    "title": "A Test Case Generation Approach for ChaoJi Charging Systems Based on FRETish Specification",
+    "authors": "Wei Yan, Yang Zhang, Le Yu, Zhuangling Yang, Hai Hu, Bing Zhou, Xiaoyu Zhou",
+    "publish": "2025 5th International Conference on Computer Science, Electronic Information Engineering and Intelligent Control Technology (CEI)",
+    "url": "https://doi.org/10.1109/cei66465.2025.11398487",
+    "source": "IEEE",
+    "abstract": "The ChaoJi charging standard is a standard that constrains the business processes of charging piles for different enterprises. Currently, compliance testing relies on manual design by experts, primarily targeting individual charging steps. Existing methods that describe standard requirements as formal languages such as linear sequential logic to automatically construct tests place excessive demands on mathematical foundations, making practical application difficult. This paper proposes using FRETish, a temporal specification language with a restricted natural language style, to describe the ChaoJi charging standard. An innovative method is designed to first convert the FRETish specification into a Simulink/Stateflow requirement state diagram, and then automatically generate test cases based on the state diagram. To address the challenge of existing Simulink/Stateflow-based test generation methods for constructing high-coverage tests from nested and concurrent state diagrams, a semantic preserved state diagram execution path unfolding method is proposed. Case study on ChaoJi charging confirms the effectiveness of the proposed testing framework, and experimental analysis also shows that the improved state diagram unfolding algorithm can effectively increase test coverage, particularly in covering the interaction processes among different functional modules.",
+    "title_zh": "一种基于FRETish规范的ChaoJi充电系统测试用例生成方法",
+    "abstract_zh": "超充（ChaoJi）充电标准是一项约束不同企业充电桩业务流程的技术规范。目前，合规性测试主要依赖专家手工设计，且多针对单个充电步骤进行。现有方法将标准需求描述为线性时序逻辑等形式化语言以自动生成测试用例，但对数学基础要求过高，难以实际应用。本文提出采用FRETish——一种具有受限自然语言风格的时序规约语言，来描述ChaoJi充电标准。并设计了一种创新方法：首先将FRETish规约转换为Simulink/Stateflow需求状态图，再基于该状态图自动生成测试用例。为应对现有基于Simulink/Stateflow的测试生成方法在处理嵌套和并发状态图时难以构造高覆盖率测试的挑战，本文提出了一种语义保持的状态图执行路径展开方法。在ChaoJi充电案例上的研究验证了所提测试框架的有效性，实验分析也表明，改进后的状态图展开算法能有效提升测试覆盖率，尤其在覆盖不同功能模块间的交互过程方面表现突出。"
+  },
+  {
+    "date": "2026-2-26",
+    "title": "Cyber Physical Systems Security: Bridging Privacy, Verification, Intelligence, and Forensics",
+    "authors": "K Ramya, Sutirth Rath, P.B. Venkataraman, Ratnesh Kumar",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3668412",
+    "source": "IEEE",
+    "abstract": "Cyber Physical Systems (CPS) now underpin critical sectors including energy, healthcare, transportation, and industrial automation, yet their tight coupling of computational intelligence with physical processes exposes them to sophisticated, multi-layer attacks. This survey provides a unified, end-to-end examination of CPS security by consolidating advances in privacy-preserving computation, hardware-rooted trust, intelligent intrusion detection, formal assurance, and digital forensics. To the best of our knowledge, this is the first survey to holistically interconnect these pillars within a comprehensive CPS security framework. The review introduces a structured taxonomy linking CPS security attributes to system assets, attack vectors, and defence strategies, and surveys publicly available CPS datasets, benchmarking environments, and experimental testbeds that support reproducible evaluation. It traces the evolution of differential privacy for data protection, physically unclonable functions for device identity, blockchain for integrity and provenance, AI/ML for adaptive threat detection, and formal verification for correctness and safety, while highlighting the emerging role of forensic readiness. Despite notable progress, CPS security faces persistent challenges in scalability, adversarial robustness, real-time deployment, interoperability, and benchmarking. To address these gaps, the article outlines a research roadmap emphasizing hybrid defence architectures, standardized datasets and testbeds, benchmarking standards, and adaptive governance models for resilient CPS ecosystems.",
+    "title_zh": "信息物理系统安全：连接隐私、验证、智能与取证",
+    "abstract_zh": "网络物理系统（CPS）如今支撑着能源、医疗、交通和工业自动化等关键领域，但其计算智能与物理过程的紧密耦合也使其面临复杂且多层次的攻击威胁。本文对CPS安全进行了统一、端到端的综述，整合了隐私保护计算、基于硬件的信任机制、智能入侵检测、形式化保障以及数字取证等方面的最新进展。据我们所知，这是首篇将这些支柱性技术在一个全面的CPS安全框架内进行整体性关联的综述文章。本文提出了一种结构化的分类体系，将CPS安全属性与系统资产、攻击向量和防御策略相互关联，并调研了公开可用的CPS数据集、基准测试环境和实验测试平台，以支持可重复的安全评估研究。文章梳理了差分隐私在数据保护中的演进、物理不可克隆函数在设备身份认证中的应用、区块链在完整性与溯源中的作用、人工智能/机器学习在自适应威胁检测中的实践，以及形式化验证在正确性与安全性保障中的发展，同时强调了取证准备就绪（forensic readiness）这一新兴方向的重要性。尽管已取得显著进展，CPS安全仍面临可扩展性、对抗鲁棒性、实时部署、互操作性及基准测试等方面的持续挑战。为应对这些不足，本文提出了一项研究路线图，强调构建混合防御架构、建立标准化的数据集与测试平台、制定统一的基准测试标准，以及发展适应性强的治理模型，以支撑更具韧性的CPS生态系统。"
+  }
+]
