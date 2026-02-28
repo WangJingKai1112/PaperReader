@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-2-27",
+    "title": "Design and Implementation of A DSP-Enhanced RISC-V Pipelined Processor Using Verilog HDL",
+    "authors": "Aditya Goswami, Kumar Rishi, Vineet Kumar, Nikhat Anjum, Pragyan Parimita Padhan, Prashant Pranav, Pooja Kumari, Pratyush Pranjal, Vijay Nath",
+    "publish": "2025 13th International Conference on Intelligent Systems and Embedded Design (ISED)",
+    "url": "https://doi.org/10.1109/ised67359.2025.11404836",
+    "source": "IEEE",
+    "abstract": "This paper presents the design and implementation of a 5-stage pipelined RISC-V processor architecture augmented with DSP (Digital Signal Processing) capabilities using Verilog HDL. The processor architecture integrates essential pipeline stages-Instruction Fetch, Decode, Execute, Memory Access, and Write Back-enhanced by advanced modules such as hazard detection and forwarding units to support efficient instructionlevel parallelism. A specialised ALU is developed to support both arithmetic/logical operations, as well as DSP-centric computations, optimising performance for signal processing applications. The system is verified using a custom testbench in Vivado 2025.1, and waveform analysis confirms accurate pipeline behaviour and DSP instruction execution. This processor is targeted for embedded and real-time systems requiring lowpower, high-performance computation with programmable logic integration.",
+    "title_zh": "基于Verilog HDL的DSP增强型RISC-V流水线处理器设计与实现",
+    "abstract_zh": "本文介绍了一种采用Verilog HDL设计并实现的5级流水线RISC-V处理器架构，该架构增强了数字信号处理（DSP）功能。该处理器集成了指令取指、译码、执行、访存和写回等基本流水线阶段，并通过增加冲突检测和数据前递等高级模块，有效支持指令级并行，提升执行效率。设计中开发了一个专用的算术逻辑单元（ALU），不仅支持常规的算术与逻辑运算，还支持面向DSP的核心计算操作，从而优化了信号处理应用的性能。整个系统在Vivado 2025.1平台上通过自定义测试平台进行功能验证，波形分析结果表明流水线行为正确，DSP指令能够准确执行。该处理器面向需要低功耗、高性能计算及可编程逻辑集成的嵌入式和实时系统应用。"
+  },
+  {
+    "date": "2026-2-27",
+    "title": "Design and Implementation of a Small-Scale Batch Mixing System using RISC-V Architecture",
+    "authors": "Angira Mukherjee, Debjit Kar, Pragyan Parimita Padhan, Vineet Kumar, Nutan Lata, Prashant Pranav, Apurva Smita, Nikhat Anjum, Priyanshu Kumar, Aditya Sankar Sengupta, Pooja Kumari, Vijay Nath",
+    "publish": "2025 13th International Conference on Intelligent Systems and Embedded Design (ISED)",
+    "url": "https://doi.org/10.1109/ised67359.2025.11404939",
+    "source": "IEEE",
+    "abstract": "This paper presents the design and simulation of a low-cost, small-scale batch mixing control system, targeting niche manufacturing applications such as custom cosmetics, specialty adhesives, and artisanal food products. At the core of the system is a custom-designed 32-bit non-pipelined RISC-V processor based on the RV32I instruction set architecture. The processor executes a finite state machine (FSM) to control multiple valves for ingredient dispensing, activate mixing and heating units, and follow user-defined recipes entered through a basic digital interface. While the physical hardware such as valves, sensors, and heaters was not implemented, the processor was fully developed and simulated to validate its ability to manage the automation sequence. This work demonstrates that even simple, non-pipelined RISC architectures can effectively support real-time automation tasks in resource-constrained, small-scale production environments. The proposed design offers improved process consistency, reduced manual effort, and scalability for additional ingredients or stages.",
+    "title_zh": "基于RISC-V架构的小型批处理混合系统的设计与实现",
+    "abstract_zh": "本文介绍了一种低成本、小规模批次混合控制系统的设计与仿真，适用于定制化妆品、特种胶粘剂和手工食品等小众制造领域的应用。该系统的核心是一个基于RV32I指令集架构定制设计的32位非流水线RISC-V处理器。该处理器通过执行有限状态机（FSM）来控制多个原料分配阀门，启动搅拌和加热装置，并根据通过基本数字界面输入的用户自定义配方进行操作。尽管阀门、传感器和加热器等物理硬件未实际搭建，但处理器已完全开发并进行了仿真，以验证其管理自动化流程的能力。本研究表明，即使采用简单的非流水线RISC架构，也能在资源受限的小规模生产环境中有效支持实时自动化任务。所提出的方案可提高工艺一致性，减少人工干预，并具备扩展性，便于增加原料种类或处理阶段。"
+  },
+  {
+    "date": "2026-2-27",
+    "title": "A ROS-Based Hardware Abstraction Layer for Multifunction End-Effector Integration\n                    <sup>*</sup>",
+    "authors": "Victor R. Passos, Wesley R. De Oliveira",
+    "publish": "2026 IEEE/SICE International Symposium on System Integration (SII)",
+    "url": "https://doi.org/10.1109/sii64115.2026.11404519",
+    "source": "IEEE",
+    "abstract": "This paper brings the architecture for a ROSbased Hardware Abstraction Layer (HAL) to interface with the devices of a mechatronic end-effector. A HAL is a middleware between an application and the hardware, responsible for abstracting low-level operations for the client applications. A key feature of this approach is the scalability and modularity delivered by the ROS framework. To illustrate this, the paper presents a case study related to the modeling and integration of a critical-safety gripping function of the given robotic end-effector. This function is modelled and simulated using the timed automata formalism in UPPAAL, which is then implemented within the HAL using the proposed architecture. The system’s HAL controller is implemented and tested directly on the Toradex Verdin hardware. The results highlight how this design approach enables the early verification of critical mechatronic functions in robotic systems.",
+    "title_zh": "基于ROS的多功能末端执行器集成硬件抽象层*",
+    "abstract_zh": "本文提出了一种基于ROS的硬件抽象层（HAL）架构，用于与机电末端执行器的设备进行接口。HAL是应用程序与硬件之间的中间件，负责为客户端应用程序抽象底层操作。该方法的一个关键特点是ROS框架所提供的可扩展性和模块化能力。为说明这一点，本文展示了一个案例研究，涉及给定机器人末端执行器中关键安全抓取功能的建模与集成。该功能使用UPPAAL中的时间自动机形式化方法进行建模和仿真，并基于所提出的架构在HAL中实现。系统的HAL控制器直接在Toradex Verdin硬件上实现并测试。实验结果表明，该设计方法能够实现对机器人系统中关键机电功能的早期验证。"
+  },
+  {
+    "date": "2026-2-27",
+    "title": "A Decentralized Framework for Inter-Domain Authentication Using Blockchain",
+    "authors": "Poonam Yerpude, Preeti Chandrakar",
+    "publish": "2025 13th International Conference on Intelligent Systems and Embedded Design (ISED)",
+    "url": "https://doi.org/10.1109/ised67359.2025.11405206",
+    "source": "IEEE",
+    "abstract": "In intelligent transportation systems, vehicle-tovehicle and vehicle-to-infrastructure communication play vital roles. The rapid evolution of VANET systems and increasing demand for interoperability need data security. Most of the conventional systems employ centralized authentication methods that suffer from scalability and are vulnerable in inter-domain and intra-domain communication. These systems lack revocation monitoring, increasing the unauthorized access to the vehicle during the inter-domain transfer. To address these issues, we provide the decentralized framework for inter-domain vehicle communication and direct authentication system using blockchain. Our system utilizes elliptic curve cryptography (ECC) and digital signatures for secure and reliable communication between vehicles and other domain infrastructures (V2I). This system can revoke access of vehicles that remain unregistered after a number of unsuccessful attempts. This system utilizes the lower communication and computation cost as compared with others and also calculates the gas efficiency. To validate the security and robustness of our authentication protocols, we perform formal analysis using scyther simulation it proves the system is resistant to different attacks.",
+    "title_zh": "一种基于区块链的跨域认证去中心化框架",
+    "abstract_zh": "在智能交通系统中，车与车之间以及车与基础设施之间的通信起着至关重要的作用。随着车载自组织网络（VANET）系统的快速发展以及对互操作性需求的不断增长，数据安全变得尤为关键。大多数传统系统采用集中式认证方法，存在可扩展性差的问题，并且在跨域和域内通信中容易受到攻击。此外，这些系统缺乏有效的撤销监控机制，导致车辆在跨域切换过程中更容易遭受未授权访问。为解决上述问题，本文提出了一种基于区块链的去中心化框架，用于实现跨域车辆通信和直接认证系统。本系统采用椭圆曲线密码学（ECC）和数字签名技术，确保车辆与其它域基础设施（V2I）之间通信的安全性和可靠性。当车辆在多次尝试后仍未注册时，系统可自动撤销其访问权限。与现有系统相比，本系统具有更低的通信和计算开销，并对燃气效率（gas efficiency）进行了优化计算。为验证所提出认证协议的安全性和鲁棒性，我们使用Scyther工具进行了形式化安全分析，结果证明该系统能够有效抵御多种攻击。"
+  },
+  {
+    "date": "2026-2-27",
+    "title": "A Survey on Formal Methods for Railway Interlockings: From Relays to Satellite-Based Moving Block Signaling",
+    "authors": "Wan Fokkink",
+    "publish": "IEEE Transactions on Intelligent Transportation Systems",
+    "url": "https://doi.org/10.1109/tits.2026.3661866",
+    "source": "IEEE",
+    "abstract": "An interlocking constitutes an arrangement of railway signaling equipment with the aim to guarantee the safe movement of trains. A wide range of formal methods have been applied in the analysis of interlockings, often in close collaboration with industry. Moreover, different formal frameworks and techniques have been developed that target the efficient analysis of interlockings and the integration of such mathematically rigorous methods into industrial design processes. This survey provides a comprehensive overview of this field, including a wide variety of case studies, ranging from relay-based interlocking systems to recent developments regarding satellite-based moving block technologies. It is also explained how computer-based interlockings for different railway yards can be developed in a uniform, object-oriented fashion, based on their track layouts. Furthermore, an overview is given of domain-specific languages for developing and analyzing interlockings using formal methods and tools in an industrial setting. The main aim is to fit the wide range of papers in this research area into coherent narratives, showing how the employment of formal methods to interlockings has progressed in the last decades. This survey concludes with discussing research gaps and important directions for future research.",
+    "title_zh": "铁路联锁系统形式化方法综述：从继电器到基于卫星的移动闭塞信号系统",
+    "abstract_zh": "联锁系统是一种铁路信号设备的配置，旨在确保列车运行的安全。在联锁系统的分析中，已广泛应用了多种形式化方法，并且通常与工业界密切合作。此外，还开发了不同的形式化框架和技术，以实现对联锁系统的高效分析，并将这些数学上严谨的方法整合到工业设计流程中。本综述全面概述了该领域，涵盖了从基于继电器的联锁系统到基于卫星的移动闭塞技术等最新发展的大量案例研究。文中还解释了如何基于轨道布局，以统一的、面向对象的方式为不同铁路站场开发基于计算机的联锁系统。此外，本文还概述了在工业环境中使用形式化方法和工具开发与分析联锁系统的领域专用语言。主要目标是将该研究领域的大量论文整合成连贯的叙述，展示过去几十年来形式化方法在联锁系统中的应用进展。本综述最后讨论了当前研究的空白以及未来研究的重要方向。"
+  },
+  {
+    "date": "2026-2-27",
+    "title": "Adaptive LBIST for Aging-Induced Fault Dynamics in Deep-Submicron VLSI Circuits",
+    "authors": "Aswinth Narayan A, Kailas Krishna K. S, Nihaal Salim, Nikhil S, Sooraj S. Kumar, Geethu R. S",
+    "publish": "2025 IEEE DELCON - International Conference on Recent Smart Technologies in Engineering for Sustainable Development",
+    "url": "https://doi.org/10.1109/delcon68055.2025.11400189",
+    "source": "IEEE",
+    "abstract": "Long-term reliability in deep-submicron technologies is increasingly compromised by aging mechanisms like NBTI, HCI, and EM, which degrade circuit timing and elevate the risk of delay-sensitive faults. Conventional logic built-in self-test (LBIST), designed for manufacturing-time defects, employs static schedules ill-suited for these evolving, in-field fault dynamics. To address this gap, this paper proposes a concept for an adaptive LBIST framework. By integrating lightweight on-chip aging monitors with a risk-driven scheduling policy, the architecture dynamically prioritizes aging-prone regions and adjusts test patterns and intervals based on real-time degradation. This adaptive approach promises to sustain high fault coverage throughout a product's lifetime with minimal overhead, significantly enhancing in-field reliability for mission-critical VLSI systems.",
+    "title_zh": "面向深亚微米VLSI电路中老化引起故障动态的自适应内建自测试",
+    "abstract_zh": "随着深亚微米技术的发展，NBTI、HCI和EM等老化机制日益影响着电路的长期可靠性，导致时序性能退化，并增加对延迟敏感故障的风险。传统的逻辑内建自测试（LBIST）主要针对制造阶段的缺陷设计，采用静态测试调度，难以适应此类不断变化的现场故障动态。为弥补这一不足，本文提出一种自适应LBIST框架的概念。该架构通过集成轻量级片上老化监测器与基于风险的调度策略，能够动态优先测试易老化区域，并根据实时退化情况调整测试模式和测试间隔。这种自适应方法有望在整个产品生命周期内以极低的开销维持高故障覆盖率，显著提升关键任务型VLSI系统的现场可靠性。"
+  }
+]
