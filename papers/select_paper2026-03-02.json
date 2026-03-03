@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-03-02",
+    "title": "Generative AI in Software Testing: Current Trends and Future Directions",
+    "authors": "Tanish Singla, Qusay H. Mahmoud",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.02141v1",
+    "source": "arXiv",
+    "abstract": "This paper investigates current software testing systems and explores how artificial intelligence, specifically Generative AI, can be integrated to enhance these systems. It begins by examining different types of AI systems and focuses on the potential of Generative AI to transform software testing processes by improving test coverage, increasing efficiency, and reducing costs. The study provides a com-prehensive overview of the current applications of AI in software testing, emphasizing its significant contributions in areas such as test case generation and validation. Through an extensive literature re-view, it highlights how Generative AI can streamline these processes, resulting in more robust and thorough testing outcomes. The paper also examines methods to improve the efficiency of Generative AI systems, such as prompt engineering and fine-tuning. Additionally, it explores the use of AI in specific tasks, including input generation, oracle generation, data generation, test data creation, and test case prioritization. By analyzing the current landscape and identifying both the opportunities and challenges in integrating Generative AI, this paper provides valuable insights and recommendations for practitioners and researchers. It underscores the need for ongoing advancements and targeted development efforts to overcome existing hurdles and fully leverage AI's capabilities. The findings further show that with continued innovation and careful implementation, Generative AI has the potential to significantly enhance the efficiency, effectiveness, and reliability of software testing, particularly in the rapidly evolving field of IoT testing.",
+    "title_zh": "软件测试中的生成式人工智能：当前趋势与未来方向",
+    "abstract_zh": "本文研究了当前的软件测试系统，并探讨了如何将人工智能（特别是生成式人工智能）集成到这些系统中以增强其性能。文章首先考察了不同类型的人工智能系统，重点分析了生成式AI在改进测试覆盖率、提高效率和降低成本方面变革软件测试流程的潜力。通过全面回顾人工智能在软件测试中的现有应用，本文强调了AI在测试用例生成与验证等关键领域的重要贡献。借助广泛的文献综述，文章阐明了生成式AI如何优化这些流程，从而实现更稳健、更全面的测试结果。此外，本文还探讨了提升生成式AI系统效率的方法，例如提示工程（prompt engineering）和模型微调（fine-tuning）。同时，研究分析了AI在具体任务中的应用，包括输入生成、预言生成（oracle generation）、数据生成、测试数据创建以及测试用例优先级排序。通过对当前发展现状的分析，本文识别出在集成生成式AI过程中存在的机遇与挑战，为从业者和研究人员提供了有价值的见解与建议。文章强调，需要持续的技术进步和有针对性的研发投入，以克服现有障碍，充分释放人工智能的潜力。研究结果进一步表明，通过持续创新和审慎实施，生成式AI有望显著提升软件测试的效率、有效性和可靠性，尤其是在快速发展的物联网（IoT）测试领域。"
+  },
+  {
+    "date": "2026-03-02",
+    "title": "MIST-RL: Mutation-based Incremental Suite Testing via Reinforcement Learning",
+    "authors": "Sicheng Zhu, Jiajun Wang, Jiawei Ai, Xin Li",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.01409v1",
+    "source": "arXiv",
+    "abstract": "Large Language Models (LLMs) often fail to generate correct code on the first attempt, which requires using generated unit tests as verifiers to validate the solutions. Despite the success of recent verification methods, they remain constrained by a \"scaling-by-quantity\" paradigm. This brute-force approach suffers from a critical limitation: it yields diminishing returns in fault detection while causing severe test redundancy. To address this, we propose MIST-RL (Mutation-based Incremental Suite Testing via Reinforcement Learning), a framework that shifts the focus to \"scaling-by-utility\". We formulate test generation as a sequential decision process optimized via Group Relative Policy Optimization (GRPO). Specifically, we introduce a novel incremental mutation reward combined with dynamic penalties, which incentivizes the model to discover new faults while it suppresses functionally equivalent assertions. Experiments on HumanEval+ and MBPP+ demonstrate that MIST-RL outperforms state-of-the-art baselines. It achieves a +28.5% higher mutation score while reducing the number of test cases by 19.3%. Furthermore, we show that these compact, high-utility tests serve as superior verifiers, which improves downstream code reranking accuracy on HumanEval+ by 3.05% over the SOTA baseline with 10 candidate samples. The source code and data are provided in the supplementary material.",
+    "title_zh": "MIST-RL：基于变异的增量式测试套件生成方法通过强化学习实现",
+    "abstract_zh": "大型语言模型（LLMs）在首次生成代码时常常无法产生正确的结果，因此需要利用生成的单元测试作为验证器来检验解决方案的正确性。尽管近期的验证方法取得了一定成功，但它们仍受限于“数量扩展”（scaling-by-quantity）的范式。这种暴力式方法存在一个关键缺陷：在故障检测上收益递减，同时导致严重的测试冗余。为解决这一问题，我们提出了MIST-RL（基于强化学习的基于变异的增量测试套件生成框架），该框架将重点转向“效用扩展”（scaling-by-utility）。我们将测试生成建模为一个通过组相对策略优化（Group Relative Policy Optimization, GRPO）进行优化的序列决策过程。具体而言，我们引入了一种新颖的增量变异奖励机制，并结合动态惩罚项，激励模型发现新的缺陷，同时抑制功能上等价的断言。在HumanEval+和MBPP+上的实验表明，MIST-RL优于当前最先进的基线方法：变异得分提高了28.5%，同时测试用例数量减少了19.3%。此外，我们还证明了这些紧凑且高效用的测试可作为更优的验证器，在HumanEval+数据集上使用10个候选样本进行代码重排序时，准确率比当前最优基线提升了3.05%。源代码和数据已包含在补充材料中。"
+  },
+  {
+    "date": "2026-3-2",
+    "title": "A New Secure Scan Architecture Based on Dynamic Exchange for VLSI Test",
+    "authors": "Le Zhang, Jing Hu, Siyue Wang",
+    "publish": "2025 5th International Conference on Communication Technology and Information Technology (ICCTIT)",
+    "url": "https://doi.org/10.1109/icctit68197.2025.11406512",
+    "source": "IEEE",
+    "abstract": "The continuous scaling of integrated circuits (ICs) into very-large-scale integration (VLSI) has significantly increased test complexity and raised serious security concerns. Although design-for-testability (DFT) improves controllability and observability through scan chains, it also exposes internal states to potential scan-based attacks. This paper proposes a secure scan architecture based on dynamic exchange, incorporating key authorization, nonlinear random sequence generation, and protected flip-flop swapping. Only after successful key verification can normal test operations proceed; otherwise, a dynamic exchange mechanism disrupts scan data to prevent information leakage. Experimental analysis demonstrates that the proposed scheme enhances scan-chain security with minimal impact on testability and low hardware overhead.",
+    "title_zh": "一种基于动态交换的VLSI测试新安全扫描架构",
+    "abstract_zh": "随着集成电路（IC）不断向超大规模集成（VLSI）发展，测试复杂性显著增加，并引发了严重的安全问题。尽管可测性设计（DFT）通过扫描链提高了电路的可控性和可观测性，但也使内部状态暴露于潜在的基于扫描的攻击之下。本文提出了一种基于动态交换的扫描安全架构，结合了密钥授权、非线性随机序列生成以及受保护的触发器交换机制。只有在密钥验证成功后，才能执行正常的测试操作；否则，动态交换机制将扰乱扫描数据，防止信息泄露。实验分析表明，所提出的方案在对可测性影响极小且硬件开销较低的情况下，显著增强了扫描链的安全性。"
+  },
+  {
+    "date": "2026-3-2",
+    "title": "Enhancing AES Security Through Simulated Power Trace Analysis and DPA Resistance",
+    "authors": "Chella Amala, Jayaram Kandukuri, Burra Subbarao, Trinadh Sundar Katta, Jayendra Kumar, Priyanka Singh, Banee Bandana Das, Saswat Kumar Ram, Saraju P Mohanty",
+    "publish": "2025 OITS International Conference on Information Technology (OCIT)",
+    "url": "https://doi.org/10.1109/ocit66168.2025.11400217",
+    "source": "IEEE",
+    "abstract": "This research presents a simulated AES encryption and decryption system designed to protect against side-channel attacks using advanced masking and redundancy techniques. Two power trace generators were developed: one simulates power consumption with adjustable noise and scaling, and the other enhances security through masking and least significant bit (LSB) randomization. A Differential Power Analysis (DPA) attack model was used to test the system's resistance by analyzing differences in power trace patterns. Implemented in Python, the simulation results show that the proposed system effectively hides power consumption behavior and significantly lowers the success rate of DPA attacks. By shuffling bits during each encryption round and spreading power usage across multiple paths, the system makes it harder for attackers to identify keyrelated activity. These countermeasures provide a strong defense compared to standard AES and show promise for future realworld and hardware-based cryptographic applications.",
+    "title_zh": "通过模拟功耗轨迹分析和抗差分功耗攻击设计增强AES安全性",
+    "abstract_zh": "本研究提出了一种模拟的AES加解密系统，旨在通过先进的掩码和冗余技术来抵御旁道攻击。系统开发了两个功耗轨迹生成器：其中一个可模拟具有可调噪声和缩放比例的功耗；另一个则通过掩码和最低有效位（LSB）随机化来增强安全性。研究采用差分功耗分析（DPA）攻击模型，通过分析功耗轨迹模式的差异来测试系统的抗攻击能力。该系统使用Python实现，仿真结果表明，所提出的方案能有效隐藏功耗行为，显著降低DPA攻击的成功率。通过在每轮加密过程中打乱比特位，并将功耗分散到多条路径上，系统使得攻击者难以识别与密钥相关的操作活动。与标准AES相比，这些防护措施提供了更强的安全性，对未来实际应用及基于硬件的密码系统具有良好的应用前景。"
+  },
+  {
+    "date": "2026-3-2",
+    "title": "A Review of Visual Perception and Generation Technologies in Intelligent Transportation Scenarios",
+    "authors": "Guo Yang, Yunjie Wang, Bo Qiu, Jian-Ping Wu, Shaojiang Zheng, Jia-Wei Liu",
+    "publish": "2025 8th International Conference on Algorithms, Computing and Artificial Intelligence (ACAI)",
+    "url": "https://doi.org/10.1109/acai68217.2025.11406561",
+    "source": "IEEE",
+    "abstract": "Autonomous driving, situated at the intersection of artificial intelligence and robotics, holds vast potential across transportation, manufacturing, agriculture, and modern services. As a foundational component, vision-based environmental perception systems have made notable strides from 2015 to 2025. This report critically reviews key advances and trends in visual perception for autonomous driving, focusing on four dimensions: (1) visual scene generation using generative AI, particularly diffusion models, to provide high-fidelity data for system testing; (2) 3D occupancy prediction for fine-grained scene understanding and its benchmark performance; (3) end-to-end driving models that integrate perception and planning, evaluated in complex scenarios; and (4) large-scale models, including world models and multimodal foundation models, and their potential to enhance cognitive intelligence in autonomous systems. Each section discusses underlying principles, representative models, metrics, and application prospects, concluding with future directions for visual perception in autonomous driving.",
+    "title_zh": "智能交通场景中视觉感知与生成技术综述",
+    "abstract_zh": "自动驾驶技术处于人工智能与机器人技术的交汇点，在交通、制造、农业及现代服务业等领域具有广阔的应用前景。作为其基础组成部分，基于视觉的环境感知系统在2015至2025年间取得了显著进展。本报告从四个维度对自动驾驶视觉感知领域的关键技术进展与发展趋势进行系统性评述：（1）利用生成式人工智能（特别是扩散模型）进行视觉场景生成，为系统测试提供高保真数据；（2）面向精细化场景理解的三维占据预测技术及其基准性能表现；（3）融合感知与规划的端到端驾驶模型在复杂场景下的评估与应用；（4）大规模模型（包括世界模型与多模态基础模型）及其在提升自动驾驶系统认知智能方面的潜力。各部分均围绕其基本原理、代表性模型、评估指标与应用前景展开讨论，并在此基础上总结视觉感知技术在自动驾驶领域未来的发展方向。"
+  },
+  {
+    "date": "2026-3-2",
+    "title": "Making Root Cause Localization on FPGA Simulation Tools Robust",
+    "authors": "Xinlong Zhang, Shikai Guo, Zhenkan Fu, Pingchu Dong, Ning Wang, Xiaochen Li, He Jiang",
+    "publish": "ACM Transactions on Architecture and Code Optimization",
+    "url": "https://doi.org/10.1145/3799984",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "提高FPGA仿真工具中根本原因定位的鲁棒性",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-2",
+    "title": "Empirical Evaluation of AI-Assisted Risk Reasoning for ICPS Software Security",
+    "authors": "Padma Iyenghar",
+    "publish": "IEEE Transactions on Industrial Cyber-Physical Systems",
+    "url": "https://doi.org/10.1109/ticps.2026.3669084",
+    "source": "IEEE",
+    "abstract": "Operational Technology (OT) systems form the control and actuation layer of Industrial Cyber-Physical Systems (ICPS), linking computational intelligence with physical processes. Typical OT components (e.g., PLCs) with embedded dedicated control software operate in safety-critical environments where software reliability and cybersecurity are essential for overall system trustworthiness. However, existing OT security resources emphasize taxonomies and threat catalogs rather than reproducible benchmarks for empirical risk reasoning, particularly in evaluating Artificial Intelligence (AI)-assisted methods for cybersecurity risk assessment. In this context, this study introduces a reproducible, standards-aligned benchmark designed to evaluate AI-assisted risk reasoning in OT software within ICPS environments. This paper presents two main contributions toward advancing trustworthy and reliable ICPS. The first is the design of <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">EmbSoftOTBench</i>, a standards-aligned benchmark dataset for ICPS software risk reasoning that operationalizes IEC 62443-3-2 through machine-readable scenarios derived from MITRE EMB3D Embedded Systems Threat Matrix (EMB3D). The benchmark provides paired threat and benign scenarios with quantitative factors and expert rationales, enabling structured and reproducible evaluation of AI-assisted security reasoning within ICPS engineering workflows. The second contribution is an experimental evaluation of state-of-the-art Large Language Models (LLMs) employing the benchmark dataset. Results reveal systematic trade-offs between sensitivity, specificity, and calibration, establishing first baselines for AI-empowered ICPS software risk reasoning. The dataset is publicly released under the CC BY 4.0 license to support reproducible research, engineering practice, and education in safety-critical ICPS environments.",
+    "title_zh": "面向ICPS软件安全的人工智能辅助风险推理实证评估",
+    "abstract_zh": "运营技术（OT）系统构成了工业信息物理系统（ICPS）的控制与执行层，连接了计算智能与物理过程。典型的OT组件（如可编程逻辑控制器PLC）搭载专用嵌入式控制软件，在安全关键环境中运行，其软件可靠性与网络安全对于整个系统的可信性至关重要。然而，现有的OT安全资源多集中于分类体系和威胁目录，缺乏用于实证风险推理的可复现基准，尤其是在评估人工智能（AI）辅助的网络安全风险评估方法方面。针对这一问题，本研究提出了一种可复现且符合标准的基准，旨在评估ICPS环境中OT软件中AI辅助风险推理的能力。\n\n本文在提升ICPS可信性与可靠性方面做出了两项主要贡献。第一项贡献是设计了<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">EmbSoftOTBench</i>，这是一个符合标准的基准数据集，用于支持ICPS软件风险推理。该数据集基于MITRE EMB3D嵌入式系统威胁矩阵（EMB3D）构建机器可读的场景，并落实IEC 62443-3-2标准要求。该基准包含成对的威胁场景与良性场景，附带量化因子及专家推理依据，能够在ICPS工程工作流中实现对AI辅助安全推理的结构化、可复现评估。第二项贡献是利用该基准数据集对当前最先进的大语言模型（LLMs）进行了实验评估。结果揭示了敏感性、特异性与校准性之间的系统性权衡，为AI赋能的ICPS软件风险推理建立了首个基准线。该数据集已依据CC BY 4.0许可公开发布，以支持在安全关键型ICPS环境中的可复现研究、工程实践与教育应用。"
+  },
+  {
+    "date": "2026-3-2",
+    "title": "RISC-V Based Modular ALU Framework: Simulation of Complete ISA and FPGA-Based ALU Operation Implementation",
+    "authors": "Venu Gopala Krishna Davala, Manikanta Reddy Medagam, Shyamosree Goswami, Anup Dandapat",
+    "publish": "2025 IEEE 2nd International Conference for Women in Computing (InCoWoCo)",
+    "url": "https://doi.org/10.1109/incowoco68239.2025.11407137",
+    "source": "IEEE",
+    "abstract": "In this paper, we present the process of designing, simulating, and implementing a 32-bit single-cycle RISC-V processor with ALU custom operation logic using Zynq-7000 XC7Z020CLG484-1 FPGA. We designed the processor to support a typical instruction set with R-type, I-type, S-type, and B-type operation instructions and to use custom ALU operations: NAND, NOR, XOR, AND, OR, addition, subtraction, and multiplication. The model is provided in Verilog HDL, and the design was developed using Xilinx Vivado 2019.2. The ALU output and the debug state of the Program Counter (PC) output were connected to the ZC702 board LEDs, which enabled viewing processor activity in real-time. The project was validated using functional simulation with GTKWave, along with hardware debugging with the FPGA, ensuring correctness. This work provided an excellent example of extending RISC-V modularity and an end-to-end project of a single-cycle processor and a foundation for custom processor designs and educational projects.",
+    "title_zh": "基于RISC-V的模块化ALU框架：完整ISA的仿真与基于FPGA的ALU操作实现",
+    "abstract_zh": "本文介绍了使用Zynq-7000 XC7Z020CLG484-1 FPGA设计、仿真并实现一款支持自定义ALU操作逻辑的32位单周期RISC-V处理器的过程。该处理器设计支持典型的指令集，包括R型、I型、S型和B型操作指令，并在ALU中实现了自定义运算功能：NAND（与非）、NOR（或非）、XOR（异或）、AND（与）、OR（或）、加法、减法和乘法。整个模型采用Verilog HDL语言描述，设计过程使用Xilinx Vivado 2019.2工具完成。ALU的输出以及程序计数器（PC）的调试状态被连接至ZC702开发板的LED灯，从而实现实时观察处理器运行状态。项目通过GTKWave进行功能仿真，并结合FPGA硬件调试完成验证，确保了设计的正确性。本工作为扩展RISC-V架构的模块化特性提供了优秀范例，实现了单周期处理器的端到端设计，为定制化处理器开发及教学实践项目奠定了良好基础。"
+  }
+]
