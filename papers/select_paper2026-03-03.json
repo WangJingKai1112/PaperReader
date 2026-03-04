@@ -1,0 +1,167 @@
+[
+  {
+    "date": "2026-03-03",
+    "title": "SpecLoop: An Agentic RTL-to-Specification Framework with Formal Verification Feedback Loop",
+    "authors": "Fu-Chieh Chang, Yu-Hsin Yang, Hung-Ming Huang, Yun-Chia Hsu, Yin-Yu Lin, Ming-Fang Tsai, Chun-Chih Yang, Pei-Yuan Wu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.02895v1",
+    "source": "arXiv",
+    "abstract": "RTL implementations frequently lack up-to-date or consistent specifications, making comprehension, maintenance, and verification costly and error-prone. While prior work has explored generating specifications from RTL using large language models (LLMs), ensuring that the generated documents faithfully capture design intent remains a major challenge. We present SpecLoop, an agentic framework for RTL-to-specification generation with a formal-verification-driven iterative feedback loop. SpecLoop first generates candidate specifications and then reconstructs RTL from these specifications; it uses formal equivalence checking tools between the reconstructed RTL and the original design to validate functional consistency. When mismatches are detected, counterexamples are fed back to iteratively refine the specifications until equivalence is proven or no further progress can be made. Experiments across multiple LLMs and RTL benchmarks show that incorporating formal verification feedback substantially improves specification correctness and robustness over LLM-only baselines, demonstrating the effectiveness of verification-guided specification generation.",
+    "title_zh": "SpecLoop：一种具有形式化验证反馈循环的代理式RTL到规范框架",
+    "abstract_zh": "RTL 实现通常缺乏最新或一致的规范，导致理解、维护和验证成本高昂且容易出错。尽管已有研究探索利用大语言模型（LLM）从 RTL 生成规范，但确保生成的文档能够准确反映设计意图仍是一个重大挑战。本文提出 SpecLoop，一种基于智能体框架的 RTL 到规范生成方法，结合形式化验证驱动的迭代反馈机制。SpecLoop 首先生成候选规范，然后从这些规范中重建 RTL；接着利用形式化等价性检查工具，对比重建的 RTL 与原始设计，以验证功能一致性。当检测到不匹配时，将反例反馈回系统，用于迭代优化规范，直至证明等价或无法进一步改进。在多个大语言模型和 RTL 基准测试上的实验表明，相比仅依赖大语言模型的基线方法，引入形式化验证反馈显著提升了生成规范的正确性和鲁棒性，验证了验证引导的规范生成方法的有效性。"
+  },
+  {
+    "date": "2026-03-03",
+    "title": "Saarthi for AGI: Towards Domain-Specific General Intelligence for Formal Verification",
+    "authors": "Aman Kumar, Deepak Narayan Gadde, Luu Danh Minh, Vaisakh Naduvodi Viswambharan, Keerthan Kopparam Radhakrishna, Sivaram Pothireddypalli",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.03175v1",
+    "source": "arXiv",
+    "abstract": "Saarthi is an agentic AI framework that uses multi-agent collaboration to perform end-to-end formal verification. Even though the framework provides a complete flow from specification to coverage closure, with around 40% efficacy, there are several challenges that need to be addressed to make it more robust and reliable. Artificial General Intelligence (AGI) is still a distant goal, and current Large Language Model (LLM)-based agents are prone to hallucinations and making mistakes, especially when dealing with complex tasks such as formal verification. However, with the right enhancements and improvements, we believe that Saarthi can be a significant step towards achieving domain-specific general intelligence for formal verification. Especially for problems that require Short Term, Short Context (STSC) capabilities, such as formal verification, Saarthi can be a powerful tool to assist verification engineers in their work. In this paper, we present two key enhancements to the Saarthi framework: (1) a structured rulebook and specification grammar to improve the accuracy and controllability of SystemVerilog Assertion (SVA) generation, and (2) integration of advanced Retrieval Augmented Generation (RAG) techniques, such as GraphRAG, to provide agents with access to technical knowledge and best practices for iterative refinement and improvement of outputs. We also benchmark these enhancements for the overall Saarthi framework using challenging test cases from NVIDIA's CVDP benchmark targeting formal verification. Our benchmark results stand out with a 70% improvement in the accuracy of generated assertions, and a 50% reduction in the number of iterations required to achieve coverage closure.",
+    "title_zh": "面向通用人工智能的Saarthi：迈向形式化验证领域的特定领域通用智能",
+    "abstract_zh": "Saarthi 是一个基于多智能体协作的智能AI框架，用于执行端到端的形式化验证。尽管该框架提供了从规范到覆盖率闭合的完整流程，且已有约40%的有效性，但仍存在若干挑战，需要进一步解决以提升其鲁棒性和可靠性。目前，通用人工智能（AGI）仍是一个遥远的目标，基于大语言模型（LLM）的智能体在处理形式化验证等复杂任务时，容易出现幻觉和错误。然而，通过适当的增强与改进，我们相信Saarthi有望成为实现形式化验证领域专用通用智能的重要一步。特别是对于需要短期、短上下文（STSC）能力的问题，Saarthi 可成为辅助验证工程师工作的强大工具。本文中，我们提出了对Saarthi框架的两项关键增强：（1）引入结构化规则手册和规范语法，以提高SystemVerilog断言（SVA）生成的准确性和可控性；（2）集成先进的检索增强生成（RAG）技术（如GraphRAG），使智能体能够访问技术知识和最佳实践，从而对输出进行迭代优化和改进。我们还使用NVIDIA CVDP基准中具有挑战性的测试用例，对这些增强后的Saarthi框架整体性能进行了基准测试。测试结果显著：生成断言的准确率提升了70%，实现覆盖率闭合所需的迭代次数减少了50%。"
+  },
+  {
+    "date": "2026-03-03",
+    "title": "Agentic AI-based Coverage Closure for Formal Verification",
+    "authors": "Sivaram Pothireddypalli, Ashish Raman, Deepak Narayan Gadde, Aman Kumar",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.03147v1",
+    "source": "arXiv",
+    "abstract": "Coverage closure is a critical requirement in Integrated Chip (IC) development process and key metric for verification sign-off. However, traditional exhaustive approaches often fail to achieve full coverage within project timelines. This study presents an agentic AI-driven workflow that utilizes Large Language Model (LLM)-enabled Generative AI (GenAI) to automate coverage analysis for formal verification, identify coverage gaps, and generate the required formal properties. The framework accelerates verification efficiency by systematically addressing coverage holes. Benchmarking open-source and internal designs reveals a measurable increase in coverage metrics, with improvements correlated to the complexity of the design. Comparative analysis validates the effectiveness of this approach. These results highlight the potential of agentic AI-based techniques to improve formal verification productivity and support comprehensive coverage closure.",
+    "title_zh": "基于自主智能体AI的形式化验证覆盖率闭环",
+    "abstract_zh": "覆盖闭合是集成电路（IC）开发过程中的关键要求，也是验证签核的重要指标。然而，传统的穷举方法通常难以在项目周期内实现完整的覆盖率。本研究提出了一种基于智能体的AI驱动工作流，利用大语言模型（LLM）支持的生成式人工智能（GenAI）来自动化形式验证中的覆盖率分析，识别覆盖缺口，并生成所需的形式化属性。该框架通过系统性地解决覆盖漏洞，显著提升了验证效率。通过对开源设计和内部设计进行基准测试，结果显示覆盖率指标有明显提升，且提升程度与设计复杂度呈正相关。对比分析进一步验证了该方法的有效性。研究结果表明，基于智能体的AI技术有望显著提高形式验证的生产力，支持实现全面的覆盖闭合。"
+  },
+  {
+    "date": "2026-03-03",
+    "title": "Pecker: Bug Localization Framework for Sequential Designs via Causal Chain Reconstruction",
+    "authors": "Jiaping Tang, Jianan Mu, Tianyun Ma, Zhiteng Chao, Jing Ye, Huawei Li",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.02583v1",
+    "source": "arXiv",
+    "abstract": "Debugging represents a time-consuming and labor-intensive task in hardware design, with bug localization constituting a substantial portion of this process. While spectrum-based bug localization techniques have achieved remarkable success in software domains and shown promise for hardware description languages, their effectiveness severely degrades in sequential designs. Unlike software programs, hardware designs exhibit intrinsic temporal characteristics that create fundamental challenges: timing misalignment between bug activation and observation, and progressive error propagation through state elements that obscures the root cause. To address these limitations, we propose Pecker, a novel bug localization framework that reconstructs the broken causal chain in sequential designs. Our approach introduces two key innovations: temporal backtracking using Estimated Minimal Propagation Cycles to identify potential activation cycles, strategic trace pruning to eliminate state pollution effects. We evaluate Pecker on comprehensive benchmarks comprising both combinational and sequential circuits. Experimental results demonstrate that Pecker effectively localizes 51%/80%/85% bugs within Top-1/3/5 ranks respectively, significantly outperforming state-of-the-art techniques. Notably, Pecker maintains robust performance across circuit complexities while existing methods exhibit severe degradation on sequential designs.",
+    "title_zh": "Pecker：基于因果链重构的时序设计缺陷定位框架",
+    "abstract_zh": "调试在硬件设计中是一项耗时且劳动密集的任务，其中错误定位占据了该过程的很大一部分。尽管基于频谱的错误定位技术在软件领域已取得显著成功，并在硬件描述语言中展现出应用潜力，但其在时序电路设计中的有效性却大幅下降。与软件程序不同，硬件设计具有内在的时间特性，带来了两个根本性挑战：错误激活与错误观测之间的时间错位，以及通过状态元件进行的渐进式错误传播，这使得根本原因难以追溯。为解决这些局限性，我们提出了Pecker——一种新颖的错误定位框架，旨在重构时序设计中被破坏的因果链。该方法包含两项关键技术革新：利用“估计最小传播周期”进行时间回溯，以识别潜在的错误激活周期；以及采用策略性轨迹剪枝，消除状态污染的影响。我们在包含组合逻辑与时序电路的综合基准测试集上对Pecker进行了评估。实验结果表明，Pecker能够在Top-1/3/5排名中分别有效定位51%、80%和85%的错误，显著优于当前最先进的技术。值得注意的是，Pecker在不同复杂度的电路中均表现出稳健的性能，而现有方法在时序设计上的表现则严重退化。"
+  },
+  {
+    "date": "2026-03-03",
+    "title": "StitchCUDA: An Automated Multi-Agents End-to-End GPU Programing Framework with Rubric-based Agentic Reinforcement Learning",
+    "authors": "Shiyang Li, Zijian Zhang, Winson Chen, Yuebo Luo, Mingyi Hong, Caiwen Ding",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.02637v1",
+    "source": "arXiv",
+    "abstract": "Modern machine learning (ML) workloads increasingly rely on GPUs, yet achieving high end-to-end performance remains challenging due to dependencies on both GPU kernel efficiency and host-side settings. Although LLM-based methods show promise on automated GPU kernel generation, prior works mainly focus on single-kernel optimization and do not extend to end-to-end programs, hindering practical deployment. To address the challenge, in this work, we propose StitchCUDA, a multi-agent framework for end-to-end GPU program generation, with three specialized agents: a Planner to orchestrate whole system design, a Coder dedicated to implementing it step-by-step, and a Verifier for correctness check and performance profiling using Nsys/NCU. To fundamentally improve the Coder's ability in end-to-end GPU programming, StitchCUDA integrates rubric-based agentic reinforcement learning over two atomic skills, task-to-code generation and feedback-driven code optimization, with combined rubric reward and rule-based reward from real executions. Therefore, the Coder learns how to implement advanced CUDA programming techniques (e.g., custom kernel fusion, cublas epilogue), and we also effectively prevent Coder's reward hacking (e.g., just copy PyTorch code or hardcoding output) during benchmarking. Experiments on KernelBench show that StitchCUDA achieves nearly 100% success rate on end-to-end GPU programming tasks, with 1.72x better speedup over the multi-agent baseline and 2.73x than the RL model baselines.",
+    "title_zh": "StitchCUDA：一种基于评分标准的自主强化学习的自动化多智能体端到端GPU编程框架",
+    "abstract_zh": "现代机器学习（ML）工作负载日益依赖GPU，但由于性能同时受GPU内核效率和主机端设置的影响，实现端到端的高性能仍然具有挑战性。尽管基于大语言模型（LLM）的方法在自动化生成GPU内核方面展现出潜力，但先前的研究主要集中在单个内核的优化上，未能扩展到完整的端到端程序，限制了其实际部署。为应对这一挑战，本文提出了StitchCUDA——一种用于端到端GPU程序生成的多智能体框架，包含三个专业智能体：负责统筹系统设计的“规划者”（Planner）、逐步实现代码的“编码者”（Coder），以及利用Nsys/NCU进行正确性验证和性能分析的“验证者”（Verifier）。为了从根本上提升编码者在端到端GPU编程方面的能力，StitchCUDA引入了基于评分标准的智能体强化学习机制，针对两项基础技能——“任务到代码生成”和“反馈驱动的代码优化”——结合来自真实执行的评分奖励与规则奖励进行训练。因此，编码者能够学会实现高级CUDA编程技术（如自定义内核融合、cublas尾声操作），同时在基准测试中有效防止了奖励欺骗行为（例如直接复制PyTorch代码或硬编码输出）。在KernelBench上的实验表明，StitchCUDA在端到端GPU编程任务中实现了接近100%的成功率，相比多智能体基线平均提速1.72倍，相比强化学习模型基线提速达2.73倍。"
+  },
+  {
+    "date": "2026-3-3",
+    "title": "15.6 A 36GB 3.3TB/S HBM4 DRAM with Per-Channel TSV RDQS Auto Calibration and Fully-Programmable MBIST",
+    "authors": "Sunghwan Joo, Jinyeon Kim, Yongsun Lee, Ji-Young Kim, Youngsik Lee, Yong-Min Kim, ChiSung Oh, Kyu-Ha Shim, Haesuk Lee, Young-Yong Byun, ChangHyun Bae, Joohwan Kim, Je-Min Ryu, Shin-haeng Kang, Jaehoon Lee, Young-Uk Chang, JaeKyung Lee, JongTae Hwang, Daehwan Seo, Ki-Heon Na, Young Guen Song, Daihyun Lim, Kyung-Soo Ha, Young-Soo Sohn, Sang-Joon Hwang",
+    "publish": "2026 IEEE International Solid-State Circuits Conference (ISSCC)",
+    "url": "https://doi.org/10.1109/isscc49663.2026.11409139",
+    "source": "IEEE",
+    "abstract": "LLM-based generative AI requires high-capacity and high-bandwidth memory. We propose an HBM4 with 2048 I/Os, 3.3TB/s bandwidth, and 36GB cube density. Core die uses the 6<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">th</sup> gen. DRAM and the base die uses a 4nm Fin-FET process. TSV count and data window are doubled for high-frequency margin. t<inf xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">CCDR</inf> is improved via per-channel TSV-RDQS auto calibration, enhancing rank-to-rank access. PMBIST enables at-speed testing in CoW and SiP. The on-die WDQS skew cancellation ensures robust timing, enabling reliable highspeed operation and improved yield.",
+    "title_zh": "15.6 一款36GB、3.3TB/s的HBM4 DRAM，支持每通道TSV RDQS自动校准和完全可编程的MBIST",
+    "abstract_zh": "基于大语言模型（LLM）的生成式人工智能需要高容量、高带宽的存储器。我们提出了一种HBM4，具备2048个I/O，带宽达3.3TB/s，堆栈密度为36GB。核心芯片采用第6代DRAM，基底芯片则采用4nm Fin-FET工艺。为提升高频工作裕量，TSV数量和数据窗口均增加一倍。通过每通道TSV-RDQS自动校准，改善了tCCDR，增强了多列（rank-to-rank）访问性能。PMBIST可在CoW和SiP中实现全速测试。芯片内的WDQS偏移消除技术确保了稳定的时序，从而实现可靠的高速运行并提高良率。"
+  },
+  {
+    "date": "2026-3-3",
+    "title": "Large Language Model-Assisted Security Testing for Embedded Systems",
+    "authors": "Xing Liu, Jian Lin, Weiyu Dong, Zhizhuo Tang, Yonghao Wang",
+    "publish": "2025 International Conference on Signal Processing, Computer Networks and Communications (SPCNC)",
+    "url": "https://doi.org/10.1109/spcnc68200.2025.11406662",
+    "source": "IEEE",
+    "abstract": "Fuzzing of embedded systems in a system simulation environment is currently a mainstream security testing method. To address the limitations of traditional embedded system fuzzing, such as random byte perturbation existing in traditional embedded system fuzzing technologies, this paper proposes a large language model-assisted fuzzing method. Firstly, static analysis is used to extract the semantic information of data register-related functions and decompiled code, which serve as the input basis for constructing prompts; Secondly, various types of peripheral protocols are analyzed to generate initial seeds that are more in line with the firmware input format; Finally, dynamic detection of coverage is performed, and the large language model is used to assist in generating test cases in a timely manner, helping to increase the number of paths explored by firmware execution. Experiments show that this method improves the code coverage of the tested firmware by 14.2%~52.9% and effectively enhances the generation quality of test cases.",
+    "title_zh": "基于大语言模型的嵌入式系统安全测试",
+    "abstract_zh": "在系统仿真环境中对嵌入式系统进行模糊测试目前是一种主流的安全测试方法。针对传统嵌入式系统模糊测试技术中存在的随机字节扰动等局限性，本文提出了一种大语言模型辅助的模糊测试方法。首先，通过静态分析提取与数据寄存器相关的函数及反编译代码的语义信息，作为构建提示（prompt）的输入基础；其次，分析多种外设协议，生成更符合固件输入格式的初始种子；最后，通过动态检测覆盖率，并利用大语言模型及时辅助生成测试用例，有助于增加固件执行过程中探索的路径数量。实验结果表明，该方法可将被测固件的代码覆盖率提高14.2%~52.9%，并有效提升了测试用例的生成质量。"
+  },
+  {
+    "date": "2026-3-3",
+    "title": "Buffer Overflow Fuzzing Guided by Directed Identification Metric",
+    "authors": "Xiamin Guo, Mingke Zhang, Wei Zhang",
+    "publish": "2025 International Conference on Signal Processing, Computer Networks and Communications (SPCNC)",
+    "url": "https://doi.org/10.1109/spcnc68200.2025.11406431",
+    "source": "IEEE",
+    "abstract": "Fuzzing serves as a prevalent automated approach for uncovering software vulnerabilities. However, traditional fuzzing often exhibit a lack of directional focus when applied to particular vulnerability types, leading to inefficient triggering performance and suboptimal allocation of testing resources. This paper introduces a directed identification metric guided fuzzing aimed specifically at detecting buffer overflow vulnerabilities. We add source-level instrumentation that computes a runtime identification metric and feed that information back into the fuzzing loop to bias seed selection and mutation toward code areas that appear close to unsafe memory accesses. Based on the AFL++ framework, experimental evaluations demonstrate that the proposed technique accelerates crash detection markedly compared to existing fuzzing, confirming the practicality and efficacy of the directed identification metric in enhancing fuzzing.",
+    "title_zh": "基于定向识别度量的缓冲区溢出模糊测试",
+    "abstract_zh": "模糊测试是一种广泛使用的自动化方法，用于发现软件漏洞。然而，传统的模糊测试在针对特定类型的漏洞时往往缺乏方向性，导致触发效率低下，测试资源分配不理想。本文提出了一种基于导向性识别度量的模糊测试方法，专门用于检测缓冲区溢出漏洞。我们添加了源码级插装，用于计算运行时的识别度量，并将该信息反馈到模糊测试循环中，以引导种子选择和变异过程，使其偏向于接近不安全内存访问的代码区域。基于AFL++框架的实验评估表明，与现有模糊测试方法相比，所提出的技术显著加快了崩溃检测速度，验证了导向性识别度量在提升模糊测试效果方面的实用性和有效性。"
+  },
+  {
+    "date": "2026-3-3",
+    "title": "OmniCrypt: A 435.86M-GOPS/W Bootstrappable Multi-Scheme FHE Accelerator with on-Chip Data Generation for Privacy-Preserving Computation",
+    "authors": "Adiwena Putra, Hyunjun Cho, Sungwoong Yune, Cuong Manh Duong, Jaeho Jeon, Joo-Young Kim",
+    "publish": "2026 IEEE International Solid-State Circuits Conference (ISSCC)",
+    "url": "https://doi.org/10.1109/isscc49663.2026.11409329",
+    "source": "IEEE",
+    "abstract": "OmniCrypt is a silicon-proven multi-scheme FHE accelerator that supports both bootstrapping and scheme switching. Fabricated in 28nm CMOS (12.96 mm<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup>), it integrates three specialized engines for efficient external product computation, on-chip data generation, and the SAM3 modular multiplier to minimize memory and compute overhead. OmniCrypt achieves 252.8M-GOPS, 19.5M-GOPS/mm<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup>, and 435.9 M-GOPS/W, delivering the highest CKKS bootstrapping throughput and <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$107 \\times$</tex> CPU speedup in application benchmarks.",
+    "title_zh": "OmniCrypt：一款支持片上数据生成、用于隐私保护计算的435.86亿GOPS/W可引导多方案全同态加密加速器",
+    "abstract_zh": "OmniCrypt 是一款经过硅验证的多方案全同态加密（FHE）加速器，支持引导（bootstrapping）和方案切换（scheme switching）。该加速器采用 28nm CMOS 工艺制造（面积为 12.96 mm²），集成了三个专用引擎，用于高效执行外部乘积计算、片上数据生成，并采用 SAM3 模块化乘法器以最小化存储和计算开销。OmniCrypt 实现了 2.528 亿 GOPS 的计算吞吐量、1950 万 GOPS/mm² 的能效密度以及 4.359 亿 GOPS/W 的能效，提供了目前最高的 CKKS 引导吞吐量，并在应用基准测试中实现了比 CPU 快 107 倍的加速。"
+  },
+  {
+    "date": "2026-3-3",
+    "title": "TIDE-S: Telemetry Informed Delay Testing With Optimized Sensor Placement",
+    "authors": "Deepesh Sahoo, Eduardo Ortega, Peter Domanski, Farshad Firouzi, Krishnendu Chakrabarty",
+    "publish": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "url": "https://doi.org/10.1109/tvlsi.2026.3661384",
+    "source": "IEEE",
+    "abstract": "Silent data corruption (SDC) refers to undetected errors that yield incorrect results without triggering system alerts or error logs. Existing test methodologies are inadequate for capturing dynamic voltage fluctuations that occur under realistic workload conditions, thereby limiting their effectiveness for detecting SDCs. We present TIDE-S, a telemetry-informed delay testing (TIDE) framework that integrates presilicon sensor placement strategies to improve telemetry accuracy. By evaluating different sensor allocation schemes—uniform, <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$K$</tex-math> </inline-formula>-means, and energy-aware clustering—TIDE-S improves the spatial granularity of voltage observation, enabling more accurate correlation between voltage fluctuations and path delay behavior. The combined telemetry- and sensor-aware methodology significantly improves the detection of timing-sensitive SDCs. The proposed framework incurs minimal infrastructure overhead by leveraging standard pad-based voltage observation, making it practical for real system-on-chip (SoC) designs. We demonstrate the effectiveness of TIDE-S across multiple RISC-V-based SoCs and a diverse set of real-world benchmarks, showing quantifiable improvements in voltage estimation, slack prediction, and test coverage.",
+    "title_zh": "TIDE-S：基于遥测信息的延迟测试与优化传感器布局",
+    "abstract_zh": "静默数据损坏（SDC）是指未被检测到的错误，这些错误导致结果不正确，但不会触发系统警报或错误日志。现有的测试方法难以捕捉在真实工作负载条件下发生的动态电压波动，从而限制了其检测SDC的有效性。本文提出了TIDE-S，一种基于遥测信息的延迟测试（TIDE）框架，该框架结合了硅前传感器布局策略，以提高遥测精度。通过评估不同的传感器分配方案——均匀分布、K均值聚类和能量感知聚类——TIDE-S提升了电压观测的空间粒度，从而更准确地关联电压波动与路径延迟行为。这种结合遥测与传感器感知的方法显著提高了对时序敏感型SDC的检测能力。所提出的框架利用标准的基于焊盘的电压观测方式，仅引入极小的基础设施开销，因此适用于实际的片上系统（SoC）设计。我们在多个基于RISC-V的SoC以及一系列真实世界基准测试中验证了TIDE-S的有效性，结果表明其在电压估计、时序裕量预测和测试覆盖率方面均实现了可量化的提升。"
+  },
+  {
+    "date": "2026-3-3",
+    "title": "VelKoz: Generating Accelerators for Rigid-Flexible Robots through Domain Specific High-level Synthesis",
+    "authors": "Guoshuai Geng, Yuhui Hao, Yinhe Han, Yu Feng, Yiming Gan",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3797482",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "VelKoz：通过领域特定的高级综合为刚柔耦合机器人生成加速器",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-3",
+    "title": "Memory Trace Synthesis via Deep Learning for Memory Controller Simulation",
+    "authors": "Xiaofen Hua, Yaze Song, Jundi Zou, Shengtao Wu, Yuheng Zhao, Peng Wang",
+    "publish": "2025 International Conference on Signal Processing, Computer Networks and Communications (SPCNC)",
+    "url": "https://doi.org/10.1109/spcnc68200.2025.11406640",
+    "source": "IEEE",
+    "abstract": "As a bridge between processors and memory, the memory controller is crucial for system performance, which is determined by memory access behavior. To guide its design and optimization, the memory controller requires workloads that reflect real access patterns. However, in traditional simulation environments, workloads are often manually designed with simple access patterns (e.g., random or sequential), making it difficult to model the complex behaviors of real workloads effectively. Using real workloads is also impractical due to the challenges of data transfer and large-scale storage. To address these issues, we propose the first deep learning framework for automated memory trace generation in memory controller verification. Our approach introduces two key innovations: 1)Jointly modeling bank switching behavior and row spatial locality to capture fine-grained memory access patterns; 2)Decomposing physical memory traces into 12 timing-sensitive mode streams (e.g., Cross-Bank-Write-After-Read) instead of injecting random read/write operations, which accurately replicates real-world read/write overlap characteristics. Experiments show that synthetic traces closely match real workloads in page hit rate ($99.2 \\%$ similarity), read/write distribution (KLD $=0.119$), throughput ($98.7 \\%$ similarity), bus utilization ($98.6 \\%$ similarity), and latency ($98.8 \\%$ similarity). Deployed in an HPC SoC DDR controller verification flow, our framework replaces physical traces while maintaining workload validity and avoiding massive data collection.",
+    "title_zh": "基于深度学习的内存控制器仿真中的内存轨迹合成",
+    "abstract_zh": "作为处理器与内存之间的桥梁，内存控制器对系统性能至关重要，而其性能由内存访问行为决定。为了指导内存控制器的设计与优化，需要能够反映真实访问模式的工作负载。然而，在传统的仿真环境中，工作负载通常由人工设计，访问模式较为简单（例如随机或顺序访问），难以有效建模真实工作负载的复杂行为。同时，直接使用真实工作负载也面临数据传输和大规模存储的困难，因而不具可行性。为解决这些问题，我们提出了首个用于内存控制器验证的自动化内存轨迹生成深度学习框架。本方法包含两项关键创新：1）联合建模存储体（bank）切换行为与行级空间局部性，以捕捉细粒度的内存访问模式；2）将物理内存轨迹分解为12个对时序敏感的模式流（例如“跨存储体写后读”），而非简单注入随机的读写操作，从而精确复现真实场景中读写操作的重叠特征。实验结果表明，生成的合成轨迹在页面命中率（99.2%相似度）、读写分布（KLD=0.119）、吞吐量（98.7%相似度）、总线利用率（98.6%相似度）和延迟（98.8%相似度）等方面均与真实工作负载高度接近。该框架已部署于高性能计算SoC的DDR控制器验证流程中，可替代物理轨迹，在保持工作负载有效性的同时避免大规模数据采集。"
+  },
+  {
+    "date": "2026-3-3",
+    "title": "Research and Engineering Implementation of Electronic Product Testing Method Based on State Machine Model",
+    "authors": "Yi Du, Yutong Zhao, Yani Zhang",
+    "publish": "2025 7th International Conference on Intelligent Control, Measurement and Signal Processing (ICMSP)",
+    "url": "https://doi.org/10.1109/icmsp68723.2025.11407683",
+    "source": "IEEE",
+    "abstract": "Building upon the current state of development in testing technologies globally and relevant domestic engineering applications, this paper leverages Model-Based Systems Engineering (MBSE) theory and synthesizes relevant technologies and standards. Focusing on the application scenario of universal testing for electronic products, it conducts research and engineering implementation of State Machine Model-Based testing for Units Under Test (UUTs). Following the MBSE methodology, the process is as follows: Firstly, requirements for the entire testing process are captured, considering the simulation needs for usage scenarios and environmental characteristics. This involves collecting requirements for simulating the UUT's full range of static/dynamic environments and related general quality attributes (e.g., reliability, maintainability) during testing. Secondly, modeling software based on the state machine model is developed, enabling test modeling and test case generation according to the captured requirements. Finally, test case execution is performed. By constructing a universal, integrated software-hardware testing platform, test cases are executed, enabling the identification, processing, and management of process data and result data from the model-based testing. Ultimately, this approach achieves practical enhancement in testing capabilities, ensuring test traceability, controllable testing processes, and reliable test results.",
+    "title_zh": "基于状态机模型的电子产品测试方法研究与工程实现",
+    "abstract_zh": "在当前全球测试技术发展现状及国内相关工程应用的基础上，本文基于基于模型的系统工程（MBSE）理论，融合相关技术与标准，面向电子产品通用测试的应用场景，开展针对被测单元（UUT）的基于状态机模型的测试方法研究与工程实践。按照MBSE方法论，具体实施过程如下：首先，捕获整个测试流程的需求，综合考虑使用场景和环境特性的仿真需求，收集在测试过程中对被测单元全范围静态/动态环境以及相关通用质量属性（如可靠性、可维护性等）的模拟需求；其次，开发基于状态机模型的建模软件，依据所获取的需求进行测试建模并生成测试用例；最后，执行测试用例。通过构建通用化、软硬件一体化的测试平台，实现基于模型测试过程中测试用例的执行，完成过程数据与结果数据的识别、处理与管理。最终，该方法切实提升了测试能力，实现了测试过程的可追溯性、可控性以及测试结果的可靠性。"
+  },
+  {
+    "date": "2026-3-3",
+    "title": "Design Automation Systems for Rapid Single Flux Quantum Logic",
+    "authors": "Shucheng Yang, Jie Ren, Xiaoping Gao, Yuntian Gao, Yuxiang Lin, Muen Wang, Wenbo Zhao",
+    "publish": "IEEE Transactions on Applied Superconductivity",
+    "url": "https://doi.org/10.1109/tasc.2026.3670074",
+    "source": "IEEE",
+    "abstract": "We present JSIC(Josephson-junction-based Superconductor Integrated Circuits)-EDA, a specialized EDA suite for superconducting digital integrated circuits, developed based on validated cell libraries of different processes including SIMIT-Nb03, SIMIT-Nb03P, and SIMIT-Nb04. The system integrates 3D superconductor process models, digital PDKs, and advanced timing, logic, and physical models, enabling full automation for digital design on these processes. JSIC-EDA supports seamless tool integration and automated workflow scheduling. The JSICcompiler platform provides an RTL-to GDSII synthesis flow for RSFQ circuits, featuring logic synthesis, placement, clock tree synthesis, and JTL/PTL routing for 3D processes. A developer tool, JSIClibrary, is built upon this foundation to facilitate custom cell library design. JSICsim supports RCSJ and RCLSJ junction models with large-scale parallel simulation, serving as the analog engine for tools like JSICpower, which performs power grid modeling, dynamic current analysis, and magnetic/flux analysis. JSICtime offers static, dynamic, and Monte-Carlo timing analysis for RSFQ logic, supporting both design verification and post-fabrication testing. JSICvision enables automated testing and response analysis, validated on fabricated superconducting chips. Built on a scalable framework, JSIC-EDA is actively expanding with new algorithmic modules to advance automation in superconducting IC design, analysis, and testing.",
+    "title_zh": "快速单磁通量子逻辑的设计自动化系统",
+    "abstract_zh": "我们推出了JSIC（基于约瑟夫森结的超导集成电路）-EDA，这是一个专为超导数字集成电路设计的电子设计自动化（EDA）套件，基于经过验证的多种工艺单元库（包括SIMIT-Nb03、SIMIT-Nb03P和SIMIT-Nb04）开发而成。该系统集成了三维超导工艺模型、数字PDK（工艺设计套件）以及先进的时序、逻辑和物理模型，实现了上述工艺下数字设计的全流程自动化。JSIC-EDA支持工具间的无缝集成与自动化工作流调度。JSICcompiler平台提供了从寄存器传输级（RTL）到GDSII的RSFQ电路综合流程，涵盖逻辑综合、布局、时钟树综合以及针对三维工艺的JTL/PTL布线。在此基础上构建的开发工具JSIClibrary，可支持用户自定义单元库的设计。JSICsim支持RCSJ和RCLSJ结模型的大规模并行仿真，作为JSICpower等工具的模拟引擎，实现电源网络建模、动态电流分析以及磁/磁通分析。JSICtime提供针对RSFQ逻辑的静态、动态及蒙特卡洛时序分析，支持设计验证和流片后的测试。JSICvision支持自动化测试与响应分析，并已在实际制造的超导芯片上完成验证。JSIC-EDA建立在可扩展的框架之上，正持续引入新的算法模块，以推动超导集成电路在设计、分析与测试方面的自动化发展。"
+  },
+  {
+    "date": "2026-3-3",
+    "title": "Introduction to the Special Issue on Specification and Design Languages",
+    "authors": "Sara Vinco, David Broman",
+    "publish": "ACM Transactions on Embedded Computing Systems",
+    "url": "https://doi.org/10.1145/3789512",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "《关于规范与设计语言的特刊导论》",
+    "abstract_zh": "None"
+  }
+]
