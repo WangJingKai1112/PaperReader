@@ -1,0 +1,156 @@
+[
+  {
+    "date": "2026-03-04",
+    "title": "A Digital Twin of the FPGA Digital Signal Processing Chain for MKIDs Readout: Root-Cause Analysis and Mitigation of Spurs",
+    "authors": "Mounir Abdkrimi, Olivier Rossetto, Olivier Bourrion, Christophe Vescovi, Christophe Hoarau",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.04087v1",
+    "source": "arXiv",
+    "abstract": "The KID_READOUT board, developed for the CONCERTO millimeter-wave astronomy instrument, implements FPGA-based digital frequency multiplexing to read out large arrays of Microwave Kinetic Inductance Detectors (MKIDs). The complexity of the implemented multirate DSP chain, which combines tones synthesis, interpolation, digital frequency translation, polyphase filter-bank (PFB) channelization, and digital down-conversion (DDC), makes analytical performance optimization difficult. To address this, we developed a cycle-and bitaccurate, Python-based digital twin of the FPGA readout firmware DSP chain. Using this model, we identified the origin of previously measured and unexplained spurs in the readout channels, tracing them to periodicity mismatches between the excitation and analysis paths and to insufficient suppression of negative-frequency components by the DDC filters. Based on these insights, we implemented a mitigation strategy that aligns the periodicities and improves the DDC filter characteristics, effectively eliminating the spurs with a minor increase in FPGA resource usage.",
+    "title_zh": "用于MKID读出的FPGA数字信号处理链的数字孪生：杂散信号的根源分析与抑制",
+    "abstract_zh": "为毫米波天文仪器CONCERTO开发的KID_READOUT板，采用基于FPGA的数字频率复用技术，用于读取大规模微波动力学电感探测器（MKID）阵列。该系统实现的多速率数字信号处理（DSP）链结构复杂，集成了音调合成、插值、数字频率转换、多相滤波器组（PFB）信道化以及数字下变频（DDC）等功能，导致难以通过分析方法进行性能优化。为解决这一问题，我们开发了一个基于Python、精确到时钟周期和比特位的FPGA读出固件DSP链数字孪生模型。利用该模型，我们识别出此前测量中出现但未被解释的读出信道杂散信号的来源，发现其根源在于激励路径与分析路径之间的周期性不匹配，以及DDC滤波器对负频率分量抑制不足。基于这些发现，我们提出了一种缓解策略，通过匹配周期性并改进DDC滤波器特性，有效消除了杂散信号，仅略微增加了FPGA资源的使用。"
+  },
+  {
+    "date": "2026-03-04",
+    "title": "JANUS: Structured Bidirectional Generation for Guaranteed Constraints and Analytical Uncertainty",
+    "authors": "Taha Racicot",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.03748v1",
+    "source": "arXiv",
+    "abstract": "High-stakes synthetic data generation faces a fundamental Quadrilemma: achieving Fidelity to the original distribution, Control over complex logical constraints, Reliability in uncertainty estimation, and Efficiency in computational cost -- simultaneously. State-of-the-art Deep Generative Models (CTGAN, TabDDPM) excel at fidelity but rely on inefficient rejection sampling for continuous range constraints. Conversely, Structural Causal Models offer logical control but struggle with high-dimensional fidelity and complex noise inversion. We introduce JANUS (Joint Ancestral Network for Uncertainty and Synthesis), a framework that unifies these capabilities using a DAG of Bayesian Decision Trees. Our key innovation is Reverse-Topological Back-filling, an algorithm that propagates constraints backwards through the causal graph, achieving 100% constraint satisfaction on feasible constraint sets without rejection sampling. This is paired with an Analytical Uncertainty Decomposition derived from Dirichlet priors, enabling 128x faster uncertainty estimation than Monte Carlo methods. Across 15 datasets and 523 constrained scenarios, JANUS achieves state-of-the-art fidelity (Detection Score 0.497), eliminates mode collapse on imbalanced data, and provides exact handling of complex inter-column constraints (e.g., Salary_offered >= Salary_requested) where baselines fail entirely.",
+    "title_zh": "JANUS：用于保证约束和解析不确定性的结构化双向生成",
+    "abstract_zh": "高风险场景下的合成数据生成面临一个根本性的四难困境：需要同时实现对原始分布的保真度（Fidelity）、对复杂逻辑约束的可控性（Control）、不确定性估计的可靠性（Reliability），以及计算成本的高效性（Efficiency）。当前最先进的深度生成模型（如CTGAN、TabDDPM）虽然在保真度方面表现出色，但在处理连续范围约束时依赖低效的拒绝采样方法。相反，结构因果模型（Structural Causal Models）虽能提供逻辑控制能力，却在高维数据的保真度和复杂噪声逆向建模方面表现不佳。本文提出JANUS（联合祖先网络用于不确定性估计与数据生成），该框架通过贝叶斯决策树构成的有向无环图（DAG），统一实现了上述四项能力。我们的核心创新是“逆拓扑回填”（Reverse-Topological Back-filling）算法，该算法通过因果图反向传播约束条件，能够在可行约束集上实现100%的约束满足，且无需使用拒绝采样。该方法还结合了基于狄利克雷先验的解析不确定性分解技术，使不确定性估计速度比蒙特卡洛方法快128倍。在15个数据集和523种带约束场景下的实验表明，JANUS在保真度方面达到最先进水平（检测得分0.497），在不平衡数据上消除了模式崩溃，并能精确处理基线模型完全失效的复杂列间约束（例如：提供薪资 ≥ 要求薪资）。"
+  },
+  {
+    "date": "2026-03-04",
+    "title": "Can LLM Aid in Solving Constraints with Inductive Definitions?",
+    "authors": "Weizhi Feng, Shidong Shen, Jiaxiang Liu, Taolue Chen, Fu Song, Zhilin Wu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.03668v1",
+    "source": "arXiv",
+    "abstract": "Solving constraints involving inductive (aka recursive) definitions is challenging. State-of-the-art SMT/CHC solvers and first-order logic provers provide only limited support for solving such constraints, especially when they involve, e.g., abstract data types. In this work, we leverage structured prompts to elicit Large Language Models (LLMs) to generate auxiliary lemmas that are necessary for reasoning about these inductive definitions. We further propose a neuro-symbolic approach, which synergistically integrates LLMs with constraint solvers: the LLM iteratively generates conjectures, while the solver checks their validity and usefulness for proving the goal. We evaluate our approach on a diverse benchmark suite comprising constraints originating from algebrai data types and recurrence relations. The experimental results show that our approach can improve the state-of-the-art SMT and CHC solvers, solving considerably more (around 25%) proof tasks involving inductive definitions, demonstrating its efficacy.",
+    "title_zh": "大语言模型能否辅助求解带有归纳定义的约束问题？",
+    "abstract_zh": "求解涉及归纳（即递归）定义的约束具有挑战性。当前最先进的SMT/CHC求解器和一阶逻辑定理证明工具对这类约束的求解支持有限，尤其是在涉及抽象数据类型等场景时。在本研究中，我们利用结构化提示引导大语言模型（LLMs）生成对推理这些归纳定义所必需的辅助引理。我们进一步提出了一种神经符号方法，将大语言模型与约束求解器协同结合：大语言模型迭代生成猜想，而求解器则验证这些猜想的有效性及其对证明目标的有用性。我们在一个多样化的基准测试集上评估了该方法，该测试集包含源自代数数据类型和递推关系的约束。实验结果表明，我们的方法能够显著提升现有最先进的SMT和CHC求解器的性能，成功解决了更多（约25%）涉及归纳定义的证明任务，验证了其有效性。"
+  },
+  {
+    "date": "2026-03-04",
+    "title": "Specification-Driven Generation and Evaluation of Discrete-Event World Models via the DEVS Formalism",
+    "authors": "Zheyu Chen, Zhuohuan Li, Chuanhao Li",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.03784v1",
+    "source": "arXiv",
+    "abstract": "World models are essential for planning and evaluation in agentic systems, yet existing approaches lie at two extremes: hand-engineered simulators that offer consistency and reproducibility but are costly to adapt, and implicit neural models that are flexible but difficult to constrain, verify, and debug over long horizons. We seek a principled middle ground that combines the reliability of explicit simulators with the flexibility of learned models, allowing world models to be adapted during online execution. By targeting a broad class of environments whose dynamics are governed by the ordering, timing, and causality of discrete events, such as queueing and service operations, embodied task planning, and message-mediated multi-agent coordination, we advocate explicit, executable discrete-event world models synthesized directly from natural-language specifications. Our approach adopts the DEVS formalism and introduces a staged LLM-based generation pipeline that separates structural inference of component interactions from component-level event and timing logic. To evaluate generated models without a unique ground truth, simulators emit structured event traces that are validated against specification-derived temporal and semantic constraints, enabling reproducible verification and localized diagnostics. Together, these contributions produce world models that are consistent over long-horizon rollouts, verifiable from observable behavior, and efficient to synthesize on demand during online execution.",
+    "title_zh": "基于规范的离散事件世界模型生成与评估：通过DEVS形式化方法",
+    "abstract_zh": "世界模型对于智能体系统中的规划与评估至关重要，但现有方法往往处于两个极端：一类是人工设计的模拟器，虽然具有一致性和可复现性，但适应成本高昂；另一类是隐式的神经网络模型，虽然灵活，但在长时程上难以约束、验证和调试。我们旨在寻求一种有原则的中间路径，将显式模拟器的可靠性与学习模型的灵活性相结合，使世界模型能够在在线执行过程中动态适应。我们聚焦于一大类由离散事件的顺序、时序和因果关系所主导的环境，例如排队与服务操作、具身任务规划以及基于消息传递的多智能体协调，提出直接从自然语言描述中生成显式、可执行的离散事件世界模型。我们的方法采用DEVS形式化框架，并引入一种分阶段的基于大语言模型（LLM）的生成流程，将组件间交互结构的推断与组件层面的事件及时序逻辑分开处理。为了在缺乏唯一真实模型的情况下评估生成的模型，模拟器会输出结构化的事件轨迹，并依据从规范中导出的时序与语义约束进行验证，从而实现可复现的验证和局部化诊断。上述贡献共同实现了在长时程模拟中保持一致、可通过可观测行为进行验证，并能在在线执行时按需高效生成的世界模型。"
+  },
+  {
+    "date": "2026-03-04",
+    "title": "Quantum anomaly for benchmarking quantum computing",
+    "authors": "Tomoya Hayata, Arata Yamamoto",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.03697v1",
+    "source": "arXiv",
+    "abstract": "Given the rapid advances in quantum computing hardware, establishing systematic strategies for verifying the correctness of quantum computations has become increasingly important. Exploiting the fact that the axial anomaly in gauge theories is exact to all orders in perturbation theory, we propose the axial anomaly as a nontrivial benchmark for quantum simulations of lattice gauge theories. We simulate anomalous axial-charge production in ${\\mathbb Z}_N$ lattice gauge theories on the trapped-ion quantum computer ``Reimei''. After taking the U(1), infinitesimal time, and infinite volume limits, we successfully reproduce the anomaly coefficient within statistical uncertainties, even without error mitigation. Our results demonstrate that the axial anomaly can be simulated on current quantum computers and serves as a verification test of quantum computations.",
+    "title_zh": "用于量子计算基准测试的量子反常",
+    "abstract_zh": "鉴于量子计算硬件的快速发展，建立系统性的策略来验证量子计算的正确性变得愈发重要。我们利用规范理论中的轴矢反常在微扰论所有阶次上都是精确的这一特性，提出将轴矢反常作为格点规范理论量子模拟的一个非平庸基准。我们在离子阱量子计算机“Reimei”上模拟了ℤ_N格点规范理论中的反常轴向荷产生。在取U(1)极限、无穷小时间步长极限和无限体积极限后，即使不采用误差缓解技术，我们仍能在统计误差范围内成功复现反常系数。我们的结果表明，轴矢反常可以在当前的量子计算机上进行模拟，并可作为量子计算的一种验证性测试。"
+  },
+  {
+    "date": "2026-3-4",
+    "title": "Combined AES-256 Encryption with MATLAB and Verilog HDL Biometric Authentication",
+    "authors": "Pasuluri Bindu Swetha, Vasagiri Shivani, Kuruva Shivani, Shaik Mubashira, Charan Sai Raja Vennakandla, S. Fowzia Sultana",
+    "publish": "2026 7th International Conference on Mobile Computing and Sustainable Informatics (ICMCSI)",
+    "url": "https://doi.org/10.1109/icmcsi67283.2026.11412836",
+    "source": "IEEE",
+    "abstract": "This research provides a Biometric-based AES-256 Encryption and Decryption Authentication System that combines cutting-edge cryptographic methods with fingerprint identification to offer dual-layered security. Verilog HDL implements hardware-level biometric matching and AES-256 encryption/decryption modules, while MATLAB preprocesses fingerprint images and converts them into 128-bit hexadecimal templates. The architecture was synthesized and simulated using Xilinx Vivado and includes a 256-bit key AES-256 core, a fingerprint matcher, and a Finite State Machine (FSM) controller that ensures cryptographic operations only take place when biometric authentication is completed. While study of the FPGA implementation demonstrates effective resource use, low power consumption, and minimal latency, simulation results show correct encryption, decryption, and access control.",
+    "title_zh": "结合MATLAB与Verilog HDL生物特征认证的AES-256加密技术",
+    "abstract_zh": "本研究提出了一种基于生物特征的AES-256加密与解密认证系统，该系统结合了先进的密码学方法与指纹识别技术，实现双层安全防护。系统采用Verilog HDL实现硬件级的指纹匹配与AES-256加解密模块，利用MATLAB对指纹图像进行预处理，并将其转换为128位十六进制模板。该架构使用Xilinx Vivado进行综合与仿真，包含一个256位密钥的AES-256核心、指纹匹配模块以及有限状态机（FSM）控制器，确保仅在完成生物特征认证后才执行加密操作。现场可编程门阵列（FPGA）实现结果表明，该系统资源利用率高，功耗低，延迟小；仿真结果验证了加密、解密及访问控制功能的正确性。"
+  },
+  {
+    "date": "2026-3-4",
+    "title": "PinDrop: Breaking the Silence on SDCs in a Large-Scale Fleet",
+    "authors": "Peter W. Deutsch, Harish D. Dixit, Gautham Vunnam, Carl Moran, Eleanor Ozer, Sriram Sankar",
+    "publish": "2026 IEEE International Symposium on High Performance Computer Architecture (HPCA)",
+    "url": "https://doi.org/10.1109/hpca68181.2026.11408620",
+    "source": "IEEE",
+    "abstract": "Silent Data Corruptions (SDCs) pose a significant and often hidden threat to the reliability of large-scale computing infrastructure, as they can silently compromise data integrity without immediate detection. Detecting such behaviors at hyperscale is often challenging due to their intermittent nature and the vast diversity of hardware and workloads in a large-scale fleet. This work addresses these challenges by introducing PinDrop, a characterization methodology that leverages continuous, high-frequency testing infrastructure across millions of servers to gather information about SDCs at scale. By leveraging extensive test-suites tailored to mimic real-world applications and exercise a wide range of CPU features, we provide the most comprehensive characterization of SDC failures to date, analyzing over 500 million test executions across millions of devices. Our findings reveal that 0.035% of tested machines suffer from at least one SDC failure during their lifetime. Examining years of data (rather than just a testing snapshot in time), we observe SDCs emerging long after initial deployment and persisting over time. Detailed analysis shows that an average of 0.0024% of tested machines begin failing in each quarter they are tested beyond an initial burn-in period, confirming a fundamental need for continuous testing. Our findings also provide further insights into SDC behaviors at-scale, including failure breakdowns across architectures, test families, specific core IDs, and output-level behaviors.",
+    "title_zh": "PinDrop：在大规模集群中打破对SDC的沉默",
+    "abstract_zh": "静默数据损坏（Silent Data Corruptions, SDCs）对大规模计算基础设施的可靠性构成了严重且常常隐蔽的威胁，因为它们可能在未被立即察觉的情况下悄然破坏数据完整性。在超大规模系统中检测此类行为通常十分困难，原因在于其发生具有间歇性，且大规模设备集群中硬件类型和工作负载的多样性极高。本文通过提出PinDrop——一种表征方法论，应对上述挑战。PinDrop利用覆盖数百万台服务器的持续高频测试基础设施，大规模收集有关SDC的信息。通过采用专门设计以模拟真实应用场景并充分激发CPU各类特性的广泛测试套件，我们实现了迄今为止最全面的SDC故障表征分析，涵盖在数百万设备上执行的超过5亿次测试。研究发现，0.035%的被测机器在其生命周期内至少经历一次SDC故障。通过分析多年累积的数据（而非仅某一时间点的测试快照），我们观察到SDC在设备初始部署后很长时间才出现，并具有持续存在的特性。详细分析表明，在度过初始老化期后，被测机器平均每季度有0.0024%开始出现故障，这证实了持续性测试的根本必要性。此外，本研究还深入揭示了大规模环境下SDC的行为特征，包括在不同架构、测试类别、特定核心ID以及输出层面的故障分布情况。"
+  },
+  {
+    "date": "2026-3-4",
+    "title": "An 8-Bit ALU Based in AXI4-Lite for Applications Along with SOCs",
+    "authors": "Pasuluri Bindu Swetha, Shaik Mohammad Shoaib, ChandraMouli R, K Siva Rama Prasad, Charan Sai Raja Vennakandla, S. Fowzia Sultana",
+    "publish": "2026 7th International Conference on Mobile Computing and Sustainable Informatics (ICMCSI)",
+    "url": "https://doi.org/10.1109/icmcsi67283.2026.11412459",
+    "source": "IEEE",
+    "abstract": "The phenomenal upsurge in embedded, portable, and System-on-Chip (SoC) platforms has been a great encouragement in the demand for computational units whose output power is less while the functionality is more phenomenal. The Arithmetic Logic Unit (ALU), as an integral constituent of any digital processor, greatly affects the entire consumption of energy and its performance. This paper presents the IEEE journal-formatted design and simulation of a low-power 8-bit ALU integrated with an AMBA AXI4-Lite slave interface using Verilog HDL. The power-saving architecture supports arithmetic and logical operations that include addition, subtraction, AND, OR, XOR, and shift operations together with power optimization techniques such as clock gating and operand isolation. The AXI4-Lite interface provides standardized, low-overhead communication with external masters, realizing SoC integration. Functional verification and synthesis have been performed on FPGA design tools, and power analysis confirms measurable dynamic power consumption reduction without compromising timing constraints. Scalable and modular, the proposed ALU architecture can be used for energy-efficient embedded and FPGA-based applications.",
+    "title_zh": "一种基于AXI4-Lite的8位ALU，用于片上系统（SOC）应用",
+    "abstract_zh": "嵌入式、便携式及片上系统（SoC）平台的迅猛发展，极大地推动了对高功能、低功耗计算单元的需求。算术逻辑单元（ALU）作为任何数字处理器的核心组成部分，对其整体能耗和性能具有重要影响。本文提出了一种符合IEEE期刊格式的低功耗8位ALU设计与仿真，该ALU集成了AMBA AXI4-Lite从接口，并采用Verilog HDL实现。该节能架构支持加法、减法、与（AND）、或（OR）、异或（XOR）以及移位等算术和逻辑运算，同时采用了时钟门控和操作数隔离等功耗优化技术。AXI4-Lite接口提供了与外部主设备之间的标准化、低开销通信，便于实现SoC集成。该设计已在FPGA设计工具上完成功能验证与综合，功耗分析结果表明，在不牺牲时序约束的前提下，动态功耗显著降低。所提出的ALU架构具有可扩展性和模块化特点，适用于高能效的嵌入式系统及基于FPGA的应用。"
+  },
+  {
+    "date": "2026-3-4",
+    "title": "Verilog-Enabled Simulation and RTL Synthesis of SPECK Algorithm for Robust and High-Speed Cryptographic Operations in VLSI",
+    "authors": "Pravin A. Dwaramwar, Ashish Avasthi, Somu Chinnusamy, Prasanna Kumar Sistla, Chitranjan Dwivedi, T.C. Manjunath",
+    "publish": "2025 International Conference on Power Electronics and Energy (ICPEE)",
+    "url": "https://doi.org/10.1109/icpee65973.2025.11411167",
+    "source": "IEEE",
+    "abstract": "The article displays an comprehensive approaches for the $h / w$ realizing of the SPECK based lighter weighted block-cipher based verilog simulated & the RTL synthesized applications in the VLSI depended cryptographical systems. The proposed method will consists of the designing of the SPECK also & its functional evaluations, thus aiming very higher through puts & the robust type of encryptions which are suitable for the resources based constrained environment. The results of experimentation demonstrates the algo’s suitable parameters for their $h / w$ realization or the implementations, thus exhibiting very lesser area in the overheads, having higher speed of operations & very much secured strength in the cryptographic features, thus making this algo very much ideal for current technological VLSI depended solutions for the security needs. Apart from this, to prove its efficiency, the verilog dependent RTL implementations of the SPECK algos is very much ideal for the constrained resourced VLSI environment, where the performance & the security of the algo matters a lot. In order to leverage this algo’s simple concepts, such as the ARC, Addition, Rotation, XOR operation, the designed model will minimize the $h / w$ complexity in design aspects. The Speck’s flexibilities also allow the performances in the scaling concept across a wide range in the $h / w$ target, that too from the FPGA’s to the ASIC’s, in the sense not too much sacrifice is done in the robustness to the cryptographic need. Therefore, the conducted research will not only do the validation of the feasibility in the practical aspects of the higher speeds SPECKs deploying in the current technological cryptographical circuit, which also will demonstrate the potential for a wider spreading in the adoption w.r.t. the demonstration of the potentials in a no. of applications such as IoT, embedded systems, next generation secured communications frameworks where there is a $\\mathbf{h} / \\mathbf{w}$ efficiency & protection of the datas which are more critical in priority.",
+    "title_zh": "适用于VLSI中鲁棒且高速加密操作的SPECK算法的Verilog实现仿真与RTL综合",
+    "abstract_zh": "本文展示了一种综合性方法，用于实现基于SPECK的轻量级分组密码在Verilog仿真及RTL综合应用中的硬件/软件（h/w）优化，适用于依赖VLSI的密码系统。所提出的方法包括SPECK算法的设计及其功能评估，旨在实现极高的吞吐量和强健的加密性能，适用于资源受限的环境。实验结果表明，该算法在h/w实现和部署方面具有良好的参数表现，展现出极低的面积开销、更高的运算速度以及强大的密码学安全性，使其成为满足当前技术需求的VLSI密码安全解决方案的理想选择。此外，为验证其高效性，基于Verilog的SPECK算法RTL实现非常适合资源受限的VLSI环境，其中算法的性能与安全性至关重要。通过利用该算法的简单结构，如模加（ARX：模加、循环移位、异或）操作，所设计的模型可在设计层面显著降低h/w复杂度。SPECK算法的灵活性还支持其在广泛的h/w目标平台上进行性能扩展，从FPGA到ASIC均可适用，且无需在密码学强度上做出过多妥协。因此，本研究不仅验证了高速SPECK算法在现代密码电路中实际应用的可行性，还展示了其在多个应用领域广泛推广的潜力，例如物联网（IoT）、嵌入式系统以及下一代安全通信架构等，在这些场景中，h/w效率与数据保护具有极高的优先级。"
+  },
+  {
+    "date": "2026-3-4",
+    "title": "Nugget: Portable Program Snippets",
+    "authors": "Zhantong Qiu, Mahyar Samani, Jason Lowe-Power",
+    "publish": "2026 IEEE International Symposium on High Performance Computer Architecture (HPCA)",
+    "url": "https://doi.org/10.1109/hpca68181.2026.11408606",
+    "source": "IEEE",
+    "abstract": "Evaluating architectural ideas on realistic workloads is increasingly challenging due to the prohibitive cost of detailed simulation and the lack of portable sampling tools. Existing targeted sampling techniques are often tied to specific binaries, incur significant overhead, and make rapid validation across systems infeasible. To address these limitations, we introduce Nugget, a flexible framework that enables portable sampling across simulators, hardware, architectural differences, and libraries. Nugget leverages LLVM IR to perform binary-independent interval analysis, then generates lightweight, cross-platform executable snippets, nuggets, that can be validated natively on real hardware before use in simulation. This approach decouples samples from specific binaries, dramatically reduces analysis overhead, and allows researchers to iterate on sampling methodologies while efficiently validating samples across diverse systems.",
+    "title_zh": "Nugget：便携式程序片段",
+    "abstract_zh": "在真实工作负载上评估架构设计思想正变得越来越具有挑战性，原因在于细粒度仿真成本过高，且缺乏可移植的采样工具。现有的针对性采样技术通常依赖于特定的二进制文件，带来显著的开销，使得在不同系统之间快速验证变得不可行。为解决这些局限，我们提出了Nugget——一种灵活的框架，能够在不同的仿真器、硬件平台、架构差异和库之间实现可移植的采样。Nugget利用LLVM IR进行与二进制无关的区间分析，然后生成轻量级、跨平台的可执行代码片段（称为“nuggets”），这些片段可在真实硬件上原生验证后用于仿真。该方法将采样结果与特定二进制文件解耦，显著降低了分析开销，并使研究人员能够在不同系统上高效验证采样结果的同时，快速迭代改进采样方法。"
+  },
+  {
+    "date": "2026-3-4",
+    "title": "Hardware in Loop Validation for Dfig Control Under Normal and Abnormal Grid Conditions",
+    "authors": "Jitendra Kumar Mahawar, Gururaj Mirle Vishwanath, Saikat Chakrabarti",
+    "publish": "2025 IEEE International Conference on Energy Technologies for Future Grids (ETFG)",
+    "url": "https://doi.org/10.1109/etfg61999.2025.11401962",
+    "source": "IEEE",
+    "abstract": "Doubly fed induction generator (DFIG)-based wind turbines contribute significant power to power systems. These networks frequently experience both balanced and unbalanced load variations, which can impact system stability and performance. This paper presents a hardware-in-the-loop (HIL) validation of a DFIG control under balanced and unbalanced load conditions and different operating conditions of DFIG. The HIL setup consists of a real-time digital simulator, a 2.5 kW DFIG, and an FPGA-based controller that controls the DFIG in real time. Unbalanced load changes may result in voltage unbalance at the point of common coupling, leading to oscillations in operating quantities of the DFIG. To minimize these effects, a negative-sequence rotor current minimization technique is implemented in the rotor side control of the DFIG. This approach effectively reduces the magnitude of oscillations in the DFIG's operating quantities, enhancing performance under unbalanced grid conditions.",
+    "title_zh": "正常与异常电网条件下双馈感应发电机控制的硬件在环验证",
+    "abstract_zh": "基于双馈感应发电机（DFIG）的风力发电机组向电力系统提供了大量电能。这些网络经常出现平衡和不平衡的负荷变化，可能影响系统的稳定性和性能。本文提出了一种在平衡与不平衡负载条件下以及DFIG不同运行工况下，对DFIG控制策略进行硬件在环（HIL）验证的方法。该HIL实验平台由实时数字仿真器、一台2.5 kW的DFIG以及基于FPGA的控制器组成，后者用于实时控制DFIG。不平衡负载变化可能导致公共耦合点电压不平衡，从而引起DFIG运行量的振荡。为减小这些影响，在DFIG转子侧控制中采用了负序转子电流最小化技术。该方法有效降低了DFIG运行量的振荡幅度，从而提升了其在电网不平衡条件下的运行性能。"
+  },
+  {
+    "date": "2026-3-4",
+    "title": "C³: CXL Coherence Controllers for Heterogeneous Architectures",
+    "authors": "Anatole Lefort, David Schall, Nicolò Carpentieri, Julian Pritzi, Soham Chakraborty, Nicolai Oswald, Pramod Bhatotia",
+    "publish": "2026 IEEE International Symposium on High Performance Computer Architecture (HPCA)",
+    "url": "https://doi.org/10.1109/hpca68181.2026.11408469",
+    "source": "IEEE",
+    "abstract": "We introduce <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{C}^{\\mathbf{3}}$</tex>, a systematic methodology for designing Compute Express Link (CXL) coherence controllers, to overcome interoperability challenges that arise from the mismatch of coherence protocols and memory consistency models in heterogeneous CXL-connected systems. Crucially, CXL lacks a unified heterogeneous computing interface, which can lead to unpredictable and inconsistent behavior when multiple heterogeneous devices decide to share cache-coherent CXL memory. C <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$^{3}$</tex> acts as a pivotal interface between diverse heterogeneous compute units, bridging the semantic differences without necessitating disruptive changes to existing system architectures. Our approach hinges on two key principles: delegating memory operations across coherence domains and enforcing atomicity at domain boundaries, thereby preserving the native memory consistency model semantics of each unit. We implement <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{C}^{\\mathbf{3}}$</tex> as a generic gem5 model and validate its correctness through exhaustive litmus testing. We also show that <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{C}^{\\mathbf{3}}$</tex> incurs minimal performance overhead compared to unified native coherence protocols.",
+    "title_zh": "面向异构架构的C³：CXL一致性控制器",
+    "abstract_zh": "我们提出了 $\\mathbf{C}^{\\mathbf{3}}$，一种用于设计 Compute Express Link（CXL）一致性控制器的系统性方法，旨在解决异构 CXL 互联系统中因一致性协议和内存一致性模型不匹配而导致的互操作性挑战。关键在于，CXL 缺乏统一的异构计算接口，当多个异构设备决定共享缓存一致性的 CXL 内存时，可能导致不可预测和不一致的行为。$\\mathbf{C}^{\\mathbf{3}}$ 作为多种异构计算单元之间的关键接口，能够在不改变现有系统架构的前提下，弥合语义差异。我们的方法基于两个核心原则：在不同一致性域之间委派内存操作，并在域边界强制执行原子性，从而保留各个计算单元原有的内存一致性模型语义。我们将 $\\mathbf{C}^{\\mathbf{3}}$ 实现为一个通用的 gem5 模型，并通过详尽的汇编级测试（litmus testing）验证了其正确性。实验结果还表明，与统一的原生一致性协议相比，$\\mathbf{C}^{\\mathbf{3}}$ 仅引入了极小的性能开销。"
+  },
+  {
+    "date": "2026-3-4",
+    "title": "IntelliVend Algorithm Based FSM Model for Book Vending Machine",
+    "authors": "Anjusha Ashish Mahambrey, Putcha Pasyanthi, Paramasivam C.",
+    "publish": "2026 7th International Conference on Mobile Computing and Sustainable Informatics (ICMCSI)",
+    "url": "https://doi.org/10.1109/icmcsi67283.2026.11412784",
+    "source": "IEEE",
+    "abstract": "The setting of book vending machines in libraries is of great importance because they offer easy access to reading materials that encourage learning outside of regular library hours. This research uses IntelliVend Algorithm-based RTL(Register Transfer Level)design of a book vending machine which uses Finite State Machine (FSM). This dual purpose Vending Machine has the ability to dispense a book while buying or has a book drop system while renting. This design has a variety of user actions such as book selection, payment processing, rental tracking, and change return. Cadence Incisive tool is used for simulation followed by Genus for synthesis and Innovus for physical design, including placement and routing, to meet the design's timing, power and area constraints. Overall the design provides a reliable and efficient solution for users to purchase or rent books from the machine.",
+    "title_zh": "基于IntelliVend算法的图书自动售货机有限状态机模型",
+    "abstract_zh": "在图书馆设置图书自动售货机具有重要意义，因为它能够方便地获取阅读材料，鼓励人们在图书馆正常开放时间之外进行学习。本研究采用基于IntelliVend算法的RTL（寄存器传输级）设计，实现了一种使用有限状态机（FSM）的图书自动售货机。该售货机具备双重功能，既可在购买时发放书籍，也可在租借时提供图书归还功能。该设计涵盖了多种用户操作，包括图书选择、支付处理、租借记录跟踪以及找零功能。设计过程中使用Cadence Incisive工具进行仿真，随后采用Genus进行综合，并使用Innovus完成物理设计，包括布局与布线，以满足设计在时序、功耗和面积方面的约束。总体而言，该设计为用户从机器中购买或租借图书提供了一种可靠且高效的解决方案。"
+  },
+  {
+    "date": "2026-3-4",
+    "title": "SSBleed: Non-Speculative Side-Channel Attacks via Speculative Store Bypass on Armv9 CPUs",
+    "authors": "Chang Liu, Hongpei Zheng, Xin Zhang, Dapeng Ju, Dongsheng Wang, Yinqian Zhang, Trevor E. Carlson",
+    "publish": "2026 IEEE International Symposium on High Performance Computer Architecture (HPCA)",
+    "url": "https://doi.org/10.1109/hpca68181.2026.11408465",
+    "source": "IEEE",
+    "abstract": "Modern CPUs employ Speculative Store Bypass (SSB) to reduce load latency and improve performance. In response to transient attacks such as Spectre, CPU vendors have also introduced mitigations to prevent incorrect speculation from leaking data. In this work, we show that the SSB on Armv9 CPUs introduces a previously unexplored form of non-speculative data leakage. Specifically, we find that the SSB on Armv9 performance cores is governed by an undocumented predictor. Through reverse engineering, we uncover the design of this predictor and show that it lacks isolation across security domains. Furthermore, existing mitigations such as SSBS are insufficient to prevent leaks. Based on this, we present SSBleed, the first non-speculative side-channel attack via SSB on Armv9 CPUs. We validate the practicality of SSBleed through five case studies, including crossprocess RSA signature and key generation attacks on the latest version of MbedTLS and WolfSSL, interrupt detection, and improved data transmission in two transient attacks. Finally, we propose a flush-based mitigation through a kernel patch, which incurs an average performance overhead of 0.46 %.",
+    "title_zh": "SSBleed：基于Arm v9 CPU上通过推测性存储绕过实现的非推测性侧信道攻击",
+    "abstract_zh": "现代CPU采用推测性存储绕过（Speculative Store Bypass, SSB）技术以降低加载延迟并提升性能。为应对Spectre等瞬态攻击，CPU厂商也引入了相应的缓解措施，以防止错误推测导致数据泄露。在本研究中，我们发现Armv9架构CPU上的SSB会引发一种此前未被探索的非推测性数据泄露形式。具体而言，我们发现Armv9性能核心上的SSB由一个未公开文档说明的预测器控制。通过逆向工程，我们揭示了该预测器的设计，并发现其在不同安全域之间缺乏隔离机制。此外，现有的缓解措施（如SSBS）不足以阻止此类泄露。基于上述发现，我们提出了SSBleed——首个通过Armv9 CPU上SSB实现的非推测性侧信道攻击。我们通过五个案例研究验证了SSBleed的实用性，包括针对最新版本MbedTLS和WolfSSL的跨进程RSA签名与密钥生成攻击、中断检测，以及在两种瞬态攻击中实现更高效的数据传输。最后，我们提出了一种基于刷新操作的缓解方案，通过内核补丁实现，平均性能开销仅为0.46%。"
+  }
+]
