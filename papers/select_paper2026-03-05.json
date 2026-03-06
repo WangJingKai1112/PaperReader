@@ -1,0 +1,156 @@
+[
+  {
+    "date": "2026-03-05",
+    "title": "A framework for assessing the capabilities of code generation of constraint domain-specific languages with large language models",
+    "authors": "David Delgado, Lola Burgueño, Robert Clarisó",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.05278v1",
+    "source": "arXiv",
+    "abstract": "Large language models (LLMs) can be used to support software development tasks, e.g., through code completion or code generation. However, their effectiveness drops significantly when considering less popular programming languages such as domain-specific languages (DSLs). In this paper, we propose a generic framework for evaluating the capabilities of LLMs generating DSL code from textual specifications. The generated code is assessed from the perspectives of well-formedness and correctness. This framework is applied to a particular type of DSL, constraint languages, focusing our experiments on OCL and Alloy and comparing their results to those achieved for Python, a popular general-purpose programming language. Experimental results show that, in general, LLMs have better performance for Python than for OCL and Alloy. LLMs with smaller context windows such as open-source LLMs may be unable to generate constraint-related code, as this requires managing both the constraint and the domain model where it is defined. Moreover, some improvements to the code generation process such as code repair (asking an LLM to fix incorrect code) or multiple attempts (generating several candidates for each coding task) can improve the quality of the generated code. Meanwhile, other decisions like the choice of a prompt template have less impact. All these dimensions can be systematically analyzed using our evaluation framework, making it possible to decide the most effective way to set up code generation for a particular type of task.",
+    "title_zh": "一种用于评估基于大语言模型的约束领域特定语言代码生成能力的框架",
+    "abstract_zh": "大型语言模型（LLMs）可用于支持软件开发任务，例如代码补全或代码生成。然而，当涉及较不流行的编程语言（如领域特定语言（DSLs））时，其有效性显著下降。本文提出了一种通用框架，用于评估LLMs根据文本规范生成DSL代码的能力。生成的代码将从结构良好性（well-formedness）和正确性（correctness）两个角度进行评估。该框架应用于一类特定的DSL——约束语言，实验聚焦于OCL和Alloy，并将其结果与广泛使用的通用编程语言Python进行对比。实验结果表明，总体而言，LLMs在Python上的表现优于OCL和Alloy。具有较小上下文窗口的LLMs（如开源模型）可能无法生成与约束相关的代码，因为这类任务需要同时处理约束本身及其所定义的领域模型。此外，一些改进代码生成过程的方法，例如代码修复（让LLM修正错误代码）或多轮尝试（为每个编程任务生成多个候选代码），能够提升生成代码的质量。而其他因素，如提示模板（prompt template）的选择，则影响较小。通过我们提出的评估框架，可以系统地分析上述各个维度，从而确定针对特定任务设置代码生成的最有效方式。"
+  },
+  {
+    "date": "2026-03-05",
+    "title": "NL2GDS: LLM-aided interface for Open Source Chip Design",
+    "authors": "Max Eland, Jeyan Thiyagalingam, Dinesh Pamunuwa, Roshan Weerasekera",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.05489v1",
+    "source": "arXiv",
+    "abstract": "The growing complexity of hardware design and the widening gap between high-level specifications and register-transfer level (RTL) implementation hinder rapid prototyping and system design. We introduce NL2GDS (Natural Language to Layout), a novel framework that leverages large language models (LLMs) to translate natural language hardware descriptions into synthesizable RTL and complete GDSII layouts via the open-source OpenLane ASIC flow. NL2GDS employs a modular pipeline that captures informal design intent, generates HDL using multiple LLM engines and verifies them, and orchestrates automated synthesis and layout. Evaluations on ISCAS'85 and ISCAS'89 benchmark designs demonstrate up to 36% area reduction, 35% delay reduction, and 70% power savings compared to baseline designs, highlighting its potential to democratize ASIC design and accelerate hardware innovation.",
+    "title_zh": "NL2GDS：面向开源芯片设计的LLM辅助接口",
+    "abstract_zh": "硬件设计日益复杂，高级别设计规范与寄存器传输级（RTL）实现之间的鸿沟不断扩大，这严重阻碍了快速原型开发和系统设计的进程。为此，我们提出了NL2GDS（自然语言到版图）框架，该框架创新性地利用大语言模型（LLMs），将自然语言描述的硬件设计直接转换为可综合的RTL代码，并通过开源的OpenLane ASIC流程生成完整的GDSII版图。NL2GDS采用模块化流水线架构，能够捕捉非正式的设计意图，调用多个LLM引擎生成硬件描述语言（HDL）代码并进行验证，进而协调自动化的综合与版图生成流程。在ISCAS'85和ISCAS'89基准电路上的实验结果表明，与基线设计相比，NL2GDS可实现最高36%的面积缩减、35%的延迟降低以及70%的功耗节省，充分展现了其在降低ASIC设计门槛、加速硬件创新方面的巨大潜力。"
+  },
+  {
+    "date": "2026-03-05",
+    "title": "Distilling Formal Logic into Neural Spaces: A Kernel Alignment Approach for Signal Temporal Logic",
+    "authors": "Sara Candussio, Gabriele Sarti, Gaia Saveri, Luca Bortolussi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.05198v1",
+    "source": "arXiv",
+    "abstract": "We introduce a framework for learning continuous neural representations of formal specifications by distilling the geometry of their semantics into a latent space. Existing approaches rely either on symbolic kernels -- which preserve behavioural semantics but are computationally prohibitive, anchor-dependent, and non-invertible -- or on syntax-based neural embeddings that fail to capture underlying structures. Our method bridges this gap: using a teacher-student setup, we distill a symbolic robustness kernel into a Transformer encoder. Unlike standard contrastive methods, we supervise the model with a continuous, kernel-weighted geometric alignment objective that penalizes errors in proportion to their semantic discrepancies. Once trained, the encoder produces embeddings in a single forward pass, effectively mimicking the kernel's logic at a fraction of its computational cost. We apply our framework to Signal Temporal Logic (STL), demonstrating that the resulting neural representations faithfully preserve the semantic similarity of STL formulae, accurately predict robustness and constraint satisfaction, and remain intrinsically invertible. Our proposed approach enables highly efficient, scalable neuro-symbolic reasoning and formula reconstruction without repeated kernel computation at runtime.",
+    "title_zh": "将形式逻辑提炼至神经空间：一种面向信号时序逻辑的核对齐方法",
+    "abstract_zh": "我们提出了一种框架，通过将形式化规范语义的几何结构蒸馏到潜在空间中，来学习其连续的神经表征。现有方法要么依赖符号核函数——虽能保持行为语义，但计算成本高昂、依赖锚点且不可逆；要么采用基于语法的神经嵌入，却难以捕捉底层结构。我们的方法弥合了这一差距：采用教师-学生架构，将符号化的鲁棒性核函数蒸馏进一个Transformer编码器中。与标准的对比学习方法不同，我们使用一种连续的、基于核函数加权的几何对齐目标来监督模型，使误差惩罚与语义差异成比例。训练完成后，该编码器可通过单次前向传播生成嵌入，以极低的计算代价有效模拟核函数的逻辑。我们将该框架应用于信号时序逻辑（STL），结果表明所得到的神经表征能够忠实地保持STL公式之间的语义相似性，准确预测鲁棒性和约束满足情况，并保持内在的可逆性。我们提出的方法实现了高效、可扩展的神经-符号推理与公式重构，无需在运行时重复进行核函数计算。"
+  },
+  {
+    "date": "2026-03-05",
+    "title": "Behaviour Driven Development Scenario Generation with Large Language Models",
+    "authors": "Amila Rathnayake, Mojtaba Shahin, Golnoush Abaei",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.04729v1",
+    "source": "arXiv",
+    "abstract": "This paper presents an evaluation of three LLMs, GPT-4, Claude 3, and Gemini, for automated Behaviour-Driven Development (BDD) scenarios generation. To support this evaluation, we constructed a dataset of 500 user stories, requirement descriptions, and their corresponding BDD scenarios, drawn from four proprietary software products. We assessed the quality of BDD scenarios generated by LLMs using a multidimensional evaluation framework encompassing text and semantic similarity metrics, LLM-based evaluation, and human expert assessment. Our findings reveal that although GPT-4 achieves higher scores in text and semantic similarity metrics, Claude 3 produces scenarios rated highest by both human experts and LLM-based evaluators. LLM-based evaluators, particularly DeepSeek, show a stronger correlation with human judgment than with text similarity and semantic similarity metrics. The effectiveness of prompting techniques is model-specific: GPT-4 performs best with zero-shot, Claude 3 benefits from chain-of-thought reasoning, and Gemini achieves optimal results with few-shot examples. Input quality determines the effectiveness of BDD scenario generation: detailed requirement descriptions alone yield high-quality scenarios, whereas user stories alone yield low-quality scenarios. Our experiments indicate that setting temperature to 0 and top_p to 1.0 produced the highest-quality BDD scenarios across all models.",
+    "title_zh": "基于大语言模型的行为驱动开发场景生成",
+    "abstract_zh": "本文对三种大语言模型（GPT-4、Claude 3 和 Gemini）在自动化行为驱动开发（BDD）场景生成方面的表现进行了评估。为支持此项评估，我们构建了一个包含500个用户故事、需求描述及其对应BDD场景的数据集，这些数据来源于四个专有软件产品。我们采用一个多维度评估框架来衡量大语言模型生成BDD场景的质量，该框架包括文本和语义相似性指标、基于大语言模型的评估以及人类专家评估。研究结果表明，尽管GPT-4在文本和语义相似性指标上得分更高，但Claude 3生成的场景在人类专家和基于大语言模型的评估者评分中均获得最高评价。基于大语言模型的评估者（尤其是DeepSeek）与人类判断的相关性明显高于与文本相似性和语义相似性指标的相关性。提示技术的有效性因模型而异：GPT-4在零样本（zero-shot）设置下表现最佳，Claude 3从思维链（chain-of-thought）推理中受益显著，而Gemini在使用少量样本（few-shot）示例时达到最优效果。输入内容的质量决定了BDD场景生成的效果：仅使用详细的需求描述即可生成高质量的场景，而仅依赖用户故事则生成质量较低的场景。我们的实验表明，将生成温度（temperature）设为0、top_p设为1.0时，所有模型生成的BDD场景质量均达到最高。"
+  },
+  {
+    "date": "2026-3-5",
+    "title": "Evaluating Functional Coverage of Accelerator Design for DT-based ML Implementations",
+    "authors": "Ayush Dixit, Raushan Kumar, Abhishek Yadav, Binod Kumar",
+    "publish": "2025 8th World Engineering Conference on Contemporary Technologies (WECON)",
+    "url": "https://doi.org/10.1109/wecon68556.2025.11414559",
+    "source": "IEEE",
+    "abstract": "This work explores the functional coverage assessment of Decision Tree(DT)-based classification accelerator designs. Our investigation demonstrates that decision tree algorithms can be efficiently implemented in hardware with minimal resource utilization while maintaining high classification accuracy. The proposed accelerator design achieves 96.66% accuracy on the benchmark Iris dataset using Python libraries (Pandas, Scikit-learn, and Matplotlib) while consuming only 0.96 W of power in Vivado 2022.1 and utilizing just 0.07% of available look-up tables (LUTs) and 0.01% of flip-flops (FFs) on the Basys3 Field Programmable Gate Array (FPGA) platform. Comprehensive functional coverage analysis using the Synopsys VCS tool confirms 100% coverage across all variables by incorporating a new reference model for coverage collection in addition to the conventional universal verification methodology (UVM) testbench architecture, ensuring robust verification. The findings highlight the potential of decision tree-based accelerators for resource-constrained applications where power and area constraints are critical. Codes and subsequent files are available at GitHub Repository.",
+    "title_zh": "基于决策树的机器学习实现中加速器设计的功能覆盖率评估",
+    "abstract_zh": "本研究探讨了基于决策树（Decision Tree, DT）的分类加速器设计的功能覆盖率评估。研究结果表明，决策树算法可以高效地在硬件上实现，在保持高分类精度的同时，资源占用极低。所提出的加速器设计在基准Iris数据集上使用Python库（Pandas、Scikit-learn和Matplotlib）实现了96.66%的准确率，在Vivado 2022.1环境中功耗仅为0.96 W，并在Basys3现场可编程门阵列（FPGA）平台上仅占用0.07%的查找表（LUTs）和0.01%的触发器（FFs）。通过使用Synopsys VCS工具进行综合功能覆盖率分析，结合一种用于覆盖率收集的新参考模型与传统的通用验证方法学（UVM）测试平台架构，实现了所有变量100%的覆盖率，确保了验证的充分性和鲁棒性。研究结果突显了基于决策树的加速器在资源受限应用中的潜力，尤其适用于对功耗和面积要求严苛的场景。相关代码及后续文件可在GitHub代码仓库获取。"
+  },
+  {
+    "date": "2026-3-5",
+    "title": "Reliable AI Accelerator Design Using Multiple Fault-Tolerance Techniques on SRAM-Based APSoCs",
+    "authors": "Eduardo Marañon, Fabio Benevenuti, Nilberto H. Medina, Nemitala Added, Vitor Ângelo P. Aguiar, Saulo G. P. N. Alberton, João Vitor Schervenin, Matheus S. Pereira, Fernanda L. Kastensmidt",
+    "publish": "IEEE Transactions on Nuclear Science",
+    "url": "https://doi.org/10.1109/tns.2026.3671122",
+    "source": "IEEE",
+    "abstract": "As Convolutional Neural Networks (CNNs) implemented on All Programmable System on Chips (APSoCs) are increasingly adopted in space mission-critical systems due to their flexibility and parallelism, selecting a fault-tolerant design that balances reliability, area, and power is essential to address radiation-induced faults and resource constraints. However, the literature offers limited exploration of the combined use of multiple fault-tolerance techniques within a single AI accelerator, making it difficult to identify the most effective strategies. To address this, we propose a generalizable design flow and apply it to the ZynqNet accelerator which is generated using High-Level Synthesis (HLS). ZynqNet implements a 4-layer CNN trained on the SAT-6 dataset for aerial image classification. The goal is to evaluate the impact of several fault-tolerance strategies applied at different levels of architectural granularity based on Triple Modular Redundancy (TMR), including Modular TMR (MTMR), Coarse-Grained TMR (CGTMR), and Distributed TMR (DTMR), targeting bit flips in the configuration memory (CRAM) of the Field-Programmable Gate Array (FPGA). Additionally, memory scrubbing was implemented to correct and prevent the accumulation of CRAM faults over time, while error detection and correction codes (EDAC) were employed to protect volatile data stored in caches. The evaluation was validated through both fast, low-cost emulated fault injection and real heavy-ion irradiation experiments. Results show that the combination of DTMR, EDAC, and CRAM scrubbing at a reliability above 90% improves the expected mission image by 4.8× in emulation and 6.31× in irradiation.",
+    "title_zh": "基于SRAM的APSoC上采用多种容错技术的可靠AI加速器设计",
+    "abstract_zh": "由于卷积神经网络（CNN）在全可编程片上系统（APSoC）中的实现因其灵活性和并行性而越来越多地被应用于航天任务关键系统中，因此选择一种在可靠性、面积和功耗之间取得平衡的容错设计，对于应对辐射引起的故障和资源限制至关重要。然而，现有文献对在单一AI加速器中结合使用多种容错技术的研究仍十分有限，导致难以确定最有效的策略。为解决这一问题，本文提出了一种具有通用性的设计流程，并将其应用于基于高级综合（HLS）生成的ZynqNet加速器。ZynqNet实现了一个4层CNN，使用SAT-6数据集进行训练，用于航空图像分类。本文旨在评估在不同架构粒度级别上应用的多种基于三模冗余（TMR）的容错策略的影响，包括模块级TMR（MTMR）、粗粒度TMR（CGTMR）和分布式TMR（DTMR），以应对现场可编程门阵列（FPGA）配置存储器（CRAM）中的位翻转故障。此外，还实现了存储器刷新技术，以随时间纠正并防止CRAM故障的累积，同时采用错误检测与纠正码（EDAC）来保护缓存中存储的易失性数据。评估通过低成本、快速的仿真故障注入以及真实的重离子辐照实验进行验证。结果表明，在可靠性高于90%的条件下，结合使用DTMR、EDAC和CRAM刷新技术，可在仿真中使预期任务图像提升4.8倍，在辐照实验中提升6.31倍。"
+  },
+  {
+    "date": "2026-3-5",
+    "title": "Formal Methods - My 50+ Years as an Engineer, Researcher and Scientist",
+    "authors": "Dines Bjorner",
+    "publish": "Formal Aspects of Computing",
+    "url": "https://doi.org/10.1145/3796228",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "形式化方法——我作为工程师、研究者和科学家的五十多年经历",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-5",
+    "title": "A Graph Neural Network Approach for Hybrid Node-Edge Fault Diagnosis in Interconnection Networks under the HPMC∗ Model",
+    "authors": "Xueli Sun, Shuangxiang Kan, Weibei Fan, Jin Qi, Zhenjiang Dong, Jianxi Fan",
+    "publish": "IEEE Transactions on Networking",
+    "url": "https://doi.org/10.1109/ton.2026.3670807",
+    "source": "IEEE",
+    "abstract": "Fault diagnosis is crucial for ensuring the reliability of interconnection networks. Traditional diagnostic models usually assume that edges connected to faulty nodes are fault-free, which is unrealistic in practice where both node and edge failures can occur simultaneously. The recently proposed HPMC* diagnostic model provides a more realistic framework by considering both node and edge failures simultaneously, but existing diagnostic approaches under this model have significant limitations in handling complex fault scenarios. This paper proposes HYBRID-GNN, the first graph neural network-based approach for hybrid fault diagnosis under the HPMC* model. HYBRID-GNN employs an edge-enhanced GraphSAGE with comprehensive feature engineering that extracts diagnostic characteristics from HPMC* syndrome data and enables joint training for node and edge fault prediction. HYBRID-GNN learns complex fault patterns from syndrome data, overcoming traditional diagnosability constraints. Experiments on multiple interconnection network topologies show that HYBRID-GNN matches the traditional algorithm in node fault diagnosis (achieving over 99% accuracy within the hybrid diagnosability bound), while delivering substantially higher performance in link fault diagnosis (with accuracy above 97%). Even beyond the diagnosability bound, HYBRID-GNN remains robust, maintaining over 98% node accuracy and over 83% link precision under high fault rates. Furthermore, results on real-world networks further validate its practical effectiveness, achieving over 99% node accuracy and over 95% link accuracy.",
+    "title_zh": "一种基于图神经网络的混合节点-边故障诊断方法在HPMC∗模型下的互连网络中的应用",
+    "abstract_zh": "故障诊断对于确保互连网络的可靠性至关重要。传统的诊断模型通常假设与故障节点相连的边是无故障的，这在现实中并不合理，因为在实际情况下，节点和边的故障可能同时发生。最近提出的HPMC*诊断模型通过同时考虑节点和边的故障，提供了一个更贴近实际的框架。然而，现有基于该模型的诊断方法在处理复杂故障场景时仍存在显著局限性。本文提出了HYBRID-GNN，这是首个基于图神经网络（GNN）的、用于HPMC*模型下混合故障诊断的方法。HYBRID-GNN采用了一种边增强的GraphSAGE架构，并结合全面的特征工程，从HPMC*综合征数据中提取诊断特征，实现对节点和边故障的联合预测与训练。该方法能够从综合征数据中学习复杂的故障模式，突破传统可诊断性理论的限制。在多种互连网络拓扑结构上的实验表明，HYBRID-GNN在节点故障诊断方面与传统算法性能相当（在混合可诊断性界限内达到99%以上的准确率），而在链路故障诊断方面性能显著更优（准确率超过97%）。即使超出可诊断性界限，在高故障率情况下，HYBRID-GNN仍保持稳健，节点诊断准确率超过98%，链路诊断精确率超过83%。此外，在真实网络上的实验结果进一步验证了其实际有效性，节点准确率超过99%，链路准确率超过95%。"
+  },
+  {
+    "date": "2026-3-5",
+    "title": "Research on Compiler Fuzzing Based on Syntax-semantics Dual-Dimensional Classification",
+    "authors": "Shiyu Wang, Lin Han, Mengyao Chen, Haoran Li",
+    "publish": "2025 5th International Conference on Electronic Information Engineering and Computer Communication (EIECC)",
+    "url": "https://doi.org/10.1109/eiecc67963.2025.11409518",
+    "source": "IEEE",
+    "abstract": "Fuzz testing is an effective method for compiler testing, but existing tools generate test programs with low syntactic correctness due to a lack of program semantic awareness. To address this, this paper proposes a syntax-semantic aware gray-box fuzz testing method and designs the improved tool VarFuzz based on AFL: replacing AFL's character-level mutations with semantic mutations, and integrating a semantic distance matrix with Thompson sampling for dynamic operator probability allocation. Experiments show that, compared to AFL and GrayC, VarFuzz increases code coverage on GCC and LLVM compilers by approximately 10.46% and 6.2%, respectively.",
+    "title_zh": "基于语法-语义双维度分类的编译器模糊测试研究",
+    "abstract_zh": "模糊测试是编译器测试的一种有效方法，但现有工具由于缺乏对程序语义的认知，生成的测试程序语法正确性较低。为解决这一问题，本文提出了一种语法-语义感知的灰盒模糊测试方法，并基于AFL设计了改进工具VarFuzz：将AFL的字符级变异替换为语义级变异，并结合语义距离矩阵与汤普森采样实现动态算子概率分配。实验表明，与AFL和GrayC相比，VarFuzz在GCC和LLVM编译器上的代码覆盖率分别提升了约10.46%和6.2%。"
+  },
+  {
+    "date": "2026-3-5",
+    "title": "RustSFQ: A Rust-based Domain-Specific Language for Efficient SFQ Circuit Design",
+    "authors": "Mebuki Oishi, Sun Tanaka, Shinya Takamaeda-Yamazaki",
+    "publish": "IEEE Micro",
+    "url": "https://doi.org/10.1109/mm.2026.3670513",
+    "source": "IEEE",
+    "abstract": "Single-flux-quantum (SFQ) circuits have a strict fan-out constraint, called I/O consistency. It requires every output to be connected to exactly one input. Despite this distinctive constraint, no dedicated tools for describing SFQ circuits exist, and SPICE netlists for analog circuits are still used, leading to reduced productivity. We propose RustSFQ, a domain-specific language embedded in Rust that statically verifies the I/O consistency by leveraging Rust’s ownership system. While gates are represented as functions, wires are represented as variables and managed under the ownership system. For example, if a wire is connected to multiple inputs, a corresponding variable is used multiple times, which is detected as an ownership error. RustSFQ enables immediate detection of design errors and supports abstraction over cell libraries, improving the efficiency of SFQ circuit design. As a case study, a 4-bit Reed–Solomon encoder was implemented using RustSFQ, and simulation confirmed correct operation at 10 GHz.",
+    "title_zh": "RustSFQ：一种基于Rust的领域特定语言，用于高效的SFQ电路设计",
+    "abstract_zh": "单磁通量子（SFQ）电路具有一种严格的扇出约束，称为I/O一致性，要求每个输出必须且只能连接到一个输入。尽管存在这一独特约束，目前仍缺乏专门用于描述SFQ电路的工具，设计者仍普遍使用模拟电路的SPICE网表，导致设计效率低下。为此，我们提出了RustSFQ，这是一种嵌入在Rust语言中的领域专用语言，利用Rust的所有权系统在编译时静态验证I/O一致性。在RustSFQ中，逻辑门被表示为函数，而连线则表示为变量，并由所有权系统进行管理。例如，若某根连线被连接到多个输入端，对应的变量将被多次使用，这会触发所有权错误并被编译器检测到。RustSFQ能够即时发现设计错误，并支持对单元库的抽象，显著提升了SFQ电路设计的效率。在一个案例研究中，我们使用RustSFQ实现了一个4位里德-所罗门编码器，仿真结果验证了其在10 GHz频率下的正确运行。"
+  },
+  {
+    "date": "2026-3-5",
+    "title": "An Automated Soft Error Evaluation Method for Single Event Effects",
+    "authors": "Peng Zhang, Xin Chen, Yibo Sheng",
+    "publish": "2025 5th International Conference on Electronic Information Engineering and Computer Communication (EIECC)",
+    "url": "https://doi.org/10.1109/eiecc67963.2025.11409526",
+    "source": "IEEE",
+    "abstract": "Space radiation-induced Single Event Effects (SEEs) pose a significant threat to circuit reliability, primarily because soft errors—such as Single Event Upsets (SEUs)—possess low energy thresholds and high probabilities of occurrence. To address this, this paper proposes an automated Register Transfer Level (RTL) SEE evaluation method. This approach facilitates the precise generation of faulty and reference circuits while enhancing the controllability and efficiency of SEU injection. The method is validated using a SHA-256 hash circuit containing 1,617 flip-flops, implemented in a TSMC 28nm process. A total of 1.73 million fault injection experiments were conducted. Experimental results indicate a total SEU error rate of 52.18%, comprising 449,741 Failure cases, 323,415 Silent cases, and 88,705 Latent cases. These findings demonstrate that the platform can efficiently evaluate the SEE sensitivity of large-scale circuits, providing robust support for the optimization of radiation-hardened designs.",
+    "title_zh": "一种用于单粒子效应的自动软错误评估方法",
+    "abstract_zh": "空间辐射引起的单粒子效应（SEEs）对电路可靠性构成重大威胁，主要原因是软错误（如单粒子翻转SEU）具有较低的能量阈值和较高的发生概率。为应对这一问题，本文提出了一种自动化的寄存器传输级（RTL）单粒子效应评估方法。该方法能够精确生成故障电路和参考电路，同时提高了SEU注入的可控性和效率。该方法在采用台积电28nm工艺实现的包含1,617个触发器的SHA-256哈希电路上进行了验证，共进行了173万次故障注入实验。实验结果表明，SEU总错误率为52.18%，其中包括449,741次失效（Failure）情况、323,415次静默（Silent）情况和88,705次潜伏（Latent）情况。研究结果表明，该平台能够高效评估大规模电路的单粒子效应敏感性，为抗辐射加固设计的优化提供了有力支持。"
+  },
+  {
+    "date": "2026-3-5",
+    "title": "An Implementing Traffic Light Signal Control Verilog-Based System",
+    "authors": "Xinyang Liu",
+    "publish": "2025 2nd International Conference on Computer Communication, Networks and Information Science (CCNIS)",
+    "url": "https://doi.org/10.1109/ccnis69465.2025.00102",
+    "source": "IEEE",
+    "abstract": "With the continued expansion of urban intersections, flexible and reliable traffic-signal control has become essential for improving traffic flow and maintaining orderly intersection operations. Field-programmable gate array (FPGA)-based traffic-signal systems are well suited to these requirements, but conventional FPGA design workflows typically require manual digital-circuit design and Karnaugh-map (K-map) logic minimization-tasks that are both technically demanding and time-consuming. To accelerate the development process, this paper presents a Verilog generation framework implemented in Python and integrated with the Vivado toolchain. Given a user-specified truth table, the framework automatically produces synthesizable Verilog module files, corresponding simulation testbenches, and waveform outputs within Vivado, thereby obviating the need for manual logic simplification and low-level circuit design. By reducing implementation complexity and lowering the required learning investment, the proposed approach substantially shortens development time and improves engineering efficiency. The framework was validated through three iterative design-verification cycles: in each cycle, the generated simulation waveforms were checked against the original specifications and found to satisfy the design requirements. Experimental results indicate that the system can effectively reduce development difficulty and time cost for FPGA-based traffic-signal systems, offering practical support for the rapid deployment of intersection control infrastructure.",
+    "title_zh": "基于Verilog的交通信号灯控制系统实现",
+    "abstract_zh": "随着城市交叉路口的持续扩展，灵活可靠的交通信号控制对于改善交通流和维持路口有序运行变得至关重要。基于现场可编程门阵列（FPGA）的交通信号系统非常适合满足这些需求，但传统的FPGA设计流程通常需要手动进行数字电路设计以及卡诺图（K-map）逻辑化简，这些任务技术要求高且耗时。为加速开发过程，本文提出了一种基于Python实现并集成Vivado工具链的Verilog代码生成框架。该框架在给定用户指定的真值表后，可自动生成可综合的Verilog模块文件、相应的仿真测试平台以及Vivado中的波形输出，从而避免了手动逻辑化简和底层电路设计。通过降低实现复杂度和减少学习成本，该方法显著缩短了开发周期，提高了工程效率。该框架通过三个迭代的设计-验证循环进行了验证：在每个循环中，生成的仿真波形均与原始设计规范进行比对，结果均满足设计要求。实验结果表明，该系统能有效降低基于FPGA的交通信号系统的开发难度和时间成本，为交叉路口控制基础设施的快速部署提供了实用支持。"
+  },
+  {
+    "date": "2026-3-5",
+    "title": "cGenEDA: Code-Generation for Electronic Design Optimization",
+    "authors": "Philipp Tremuel, Fernando Benites, Christoph Würsch, Ulf Hügel, Florian Wolf, Andreas Büchel, Efstratios Gavves",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3800953",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "cGenEDA：用于电子设计优化的代码生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-5",
+    "title": "Test Requirement Modeling and Verification Method Oriented Towards Intelligent Characteristics of Autonomous Unmanned Equipment",
+    "authors": "Jie You, Jiayu Tong, Tong Yang, Hongbin Wang",
+    "publish": "2025 5th International Conference on Electronic Information Engineering and Computer Communication (EIECC)",
+    "url": "https://doi.org/10.1109/eiecc67963.2025.11409501",
+    "source": "IEEE",
+    "abstract": "Addressing the challenges of state space explosion and the lack of test oracles in testing the intelligent characteristics of autonomous unmanned equipment, this paper proposes a fullprocess methodology for test requirement modeling and verification. The approach first utilizes Natural Language Processing (NLP) technology to construct a requirement graph, achieving formal modeling through a dual-view approach involving State Machines (STM) and Binary Decision Diagrams (BDD). Subsequently, an intelligent test case generation strategy is designed by integrating Particle Swarm Optimization (PSO) with Metamorphic Testing, followed by reduction using Pearson correlation coefficients. Finally, closed-loop verification is implemented on a simulation platform based on the Functional Mock-up Unit (FMU) standard and Lua scripting. Experimental results demonstrate that this method effectively covers intelligent decision-making paths and significantly enhances the completeness and efficiency of testing.",
+    "title_zh": "面向自主无人装备智能特性的测试需求建模与验证方法",
+    "abstract_zh": "针对自主无人装备智能特性测试中存在的状态空间爆炸以及缺乏测试预言（test oracles）的挑战，本文提出了一种面向测试需求建模与验证的全流程方法。该方法首先利用自然语言处理（NLP）技术构建需求图，通过状态机（STM）与二元决策图（BDD）相结合的双重视角实现需求的规范化建模；随后，融合粒子群优化（PSO）算法与蜕变测试（Metamorphic Testing）设计智能测试用例生成策略，并采用皮尔逊相关系数进行用例约简；最后，在基于功能模型单元（FMU）标准与Lua脚本的仿真平台上实现闭环验证。实验结果表明，该方法能够有效覆盖智能决策路径，显著提升测试的完整性与效率。"
+  }
+]
