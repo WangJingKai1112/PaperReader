@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-3-6",
+    "title": "CoverFL: Enhancing Fault Localization via Deep Coverage Relation",
+    "authors": "Wei Chen, Jiamou Liu, Kaiqi Zhao, Mingyue Zhang, Wu Chen",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3787964",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "CoverFL：通过深度覆盖关系增强错误定位",
+    "abstract_zh": "None"
+  }
+]
