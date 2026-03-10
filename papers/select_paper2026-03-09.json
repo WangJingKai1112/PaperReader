@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-03-09",
+    "title": "OSS-CRS: Liberating AIxCC Cyber Reasoning Systems for Real-World Open-Source Security",
+    "authors": "Andrew Chin, Dongkwan Kim, Yu-Fu Fu, Fabian Fleischer, Youngjoon Kim, HyungSeok Han, Cen Zhang, Brian Junekyu Lee, Hanqing Zhao, Taesoo Kim",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.08566v1",
+    "source": "arXiv",
+    "abstract": "DARPA's AI Cyber Challenge (AIxCC) showed that cyber reasoning systems (CRSs) can go beyond vulnerability discovery to autonomously confirm and patch bugs: seven teams built such systems and open-sourced them after the competition. Yet all seven open-sourced CRSs remain largely unusable outside their original teams, each bound to the competition cloud infrastructure that no longer exists. We present OSS-CRS, an open, locally deployable framework for running and combining CRS techniques against real-world open-source projects, with budget-aware resource management. We ported the first-place system (Atlantis) and discovered 10 previously unknown bugs (three of high severity) across 8 OSS-Fuzz projects. OSS-CRS is publicly available.",
+    "title_zh": "OSS-CRS：为现实世界开源安全解放AIxCC网络推理系统",
+    "abstract_zh": "DARPA的人工智能网络挑战赛（AIxCC）表明，网络推理系统（CRS）的能力已超越漏洞发现，能够自主确认并修复缺陷：共有七支团队构建了此类系统，并在比赛结束后将其开源。然而，这七个开源的CRS系统在原团队之外仍然基本无法使用，因为它们都依赖于现已不复存在的竞赛专用云基础设施。本文提出了OSS-CRS，这是一个开放的、可在本地部署的框架，用于在真实世界的开源项目上运行和组合CRS技术，并具备资源使用预算感知的管理能力。我们移植了获得第一名的系统（Atlantis），并在8个OSS-Fuzz项目中发现了10个此前未知的漏洞（其中3个为高危漏洞）。OSS-CRS现已公开发布。"
+  },
+  {
+    "date": "2026-03-09",
+    "title": "ConnChecker: Automated Root-Cause Analysis for Formal Connectivity Check via Graph",
+    "authors": "Do Ngoc Tiep, Nguyen Linh Anh, Luu Danh Minh",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.07943v1",
+    "source": "arXiv",
+    "abstract": "Formal connectivity checking offers scalable verification of signal paths in complex SoC designs, but debugging counterexamples remains a manual and time-consuming process. ConnChecker introduces a new graph-based perspective for automating root-cause analysis by integrating formal tool outputs such as structural/functional dependency graphs and counterexamples report. It begins with automatic failure categorization, routing each counterexample to one of three targeted analysis flows. These flows localize failure points and suggest corrective actions or hints for manual inspection. Evaluated on two industrial SoCs, ConnChecker achieved up to 80\\% reduction in debugging time, especially for complex cases, demonstrating its scalability and effectiveness across diverse connectivity scenarios.",
+    "title_zh": "ConnChecker：通过图实现形式化连接性检查的自动化根本原因分析",
+    "abstract_zh": "形式化连通性检查能够对复杂SoC设计中的信号路径进行可扩展的验证，但反例调试仍是一个手动且耗时的过程。ConnChecker引入了一种基于图的新方法，通过整合形式化工具的输出（如结构/功能依赖图和反例报告），实现根因分析的自动化。该方法首先自动对故障进行分类，将每个反例路由到三种针对性分析流程之一。这些流程能够定位故障点，并提出纠正措施或为人工检查提供提示。在两个工业级SoC上的评估结果表明，ConnChecker可将调试时间最多减少80%，尤其在复杂案例中表现出良好的可扩展性和有效性，适用于多种连通性场景。"
+  },
+  {
+    "date": "2026-03-09",
+    "title": "Local Constrained Bayesian Optimization",
+    "authors": "Jing Jingzhe, Fan Zheyi, Szu Hui Ng, Qingpei Hu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.07965v1",
+    "source": "arXiv",
+    "abstract": "Bayesian optimization (BO) for high-dimensional constrained problems remains a significant challenge due to the curse of dimensionality. We propose Local Constrained Bayesian Optimization (LCBO), a novel framework tailored for such settings. Unlike trust-region methods that are prone to premature shrinking when confronting tight or complex constraints, LCBO leverages the differentiable landscape of constraint-penalized surrogates to alternate between rapid local descent and uncertainty-driven exploration. Theoretically, we prove that LCBO achieves a convergence rate for the Karush-Kuhn-Tucker (KKT) residual that depends polynomially on the dimension $d$ for common kernels under mild assumptions, offering a rigorous alternative to global BO where regret bounds typically scale exponentially. Extensive evaluations on high-dimensional benchmarks (up to 100D) demonstrate that LCBO consistently outperforms state-of-the-art baselines.",
+    "title_zh": "局部约束贝叶斯优化",
+    "abstract_zh": "对于高维约束问题，贝叶斯优化（BO）由于维度灾难而仍面临重大挑战。我们提出了局部约束贝叶斯优化（LCBO），这是一种专为此类场景设计的新颖框架。与在面对紧致或复杂约束时容易过早缩小搜索区域的信任域方法不同，LCBO利用约束惩罚代理模型的可微性，交替进行快速局部下降和基于不确定性的探索。理论上，我们在温和假设下证明，对于常见核函数，LCBO在Karush-Kuhn-Tucker（KKT）残差上的收敛速度仅以维度d的多项式形式依赖，为全局贝叶斯优化提供了一个严格的替代方案——后者的遗憾界通常随维度呈指数增长。在高维基准问题（高达100维）上的大量实验表明，LCBO始终优于当前最先进的基线方法。"
+  },
+  {
+    "date": "2026-03-09",
+    "title": "Coverage-Guided Multi-Agent Harness Generation for Java Library Fuzzing",
+    "authors": "Nils Loose, Nico Winkel, Kristoffer Hempel, Felix Mächtle, Julian Hans, Thomas Eisenbarth",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.08616v1",
+    "source": "arXiv",
+    "abstract": "Coverage-guided fuzzing has proven effective for software testing, but targeting library code requires specialized fuzz harnesses that translate fuzzer-generated inputs into valid API invocations. Manual harness creation is time-consuming and requires deep understanding of API semantics, initialization sequences, and exception handling contracts. We present a multi-agent architecture that automates fuzz harness generation for Java libraries through specialized LLM-powered agents. Five ReAct agents decompose the workflow into research, synthesis, compilation repair, coverage analysis, and refinement. Rather than preprocessing entire codebases, agents query documentation, source code, and callgraph information on demand through the Model Context Protocol, maintaining focused context while exploring complex dependencies. To enable effective refinement, we introduce method-targeted coverage that tracks coverage only during target method execution to isolate target behavior, and agent-guided termination that examines uncovered source code to distinguish productive refinement opportunities from diminishing returns. We evaluated our approach on seven target methods from six widely-deployed Java libraries totaling 115,000+ Maven dependents. Our generated harnesses achieve a median 26\\% improvement over OSS-Fuzz baselines and outperform Jazzer AutoFuzz by 5\\% in package-scope coverage. Generation costs average \\$3.20 and 10 minutes per harness, making the approach practical for continuous fuzzing workflows. During a 12-hour fuzzing campaign, our generated harnesses discovered 3 bugs in projects that are already integrated into OSS-Fuzz, demonstrating the effectiveness of the generated harnesses.",
+    "title_zh": "面向Java库模糊测试的覆盖引导多智能体测试程序生成",
+    "abstract_zh": "基于覆盖率的模糊测试已被证明对软件测试非常有效，但针对库代码进行测试需要专门的模糊测试驱动程序（fuzz harness），将模糊器生成的输入转换为有效的API调用。手动编写这些驱动程序耗时且费力，需要深入理解API语义、初始化顺序以及异常处理契约。为此，我们提出了一种多智能体架构，通过由大语言模型（LLM）驱动的专用智能体，实现Java库模糊测试驱动程序的自动生成。该架构包含五个ReAct智能体，将整个流程分解为研究、合成、编译修复、覆盖率分析和优化改进五个阶段。智能体不预处理整个代码库，而是按需通过模型上下文协议（Model Context Protocol）查询文档、源码和调用图信息，从而在探索复杂依赖关系时保持聚焦的上下文。为了实现有效的迭代优化，我们引入了“方法级定向覆盖率”机制，仅在目标方法执行期间追踪覆盖率，以隔离并精确评估目标行为；同时还提出了“智能体引导的终止机制”，通过分析未覆盖的源代码来区分具有潜力的优化机会与收益递减的情况。\n\n我们在六个广泛部署的Java库中的七个目标方法上评估了该方法，这些库共拥有超过11.5万个Maven依赖项目。实验结果显示，我们生成的驱动程序在覆盖率方面相比OSS-Fuzz基线中位数提升了26%，在包级别覆盖率上比Jazzer AutoFuzz高出5%。每个驱动程序的平均生成成本为3.20美元和10分钟，表明该方法适用于持续模糊测试流程。在为期12小时的模糊测试实验中，我们生成的驱动程序在已集成到OSS-Fuzz的项目中发现了3个新漏洞，验证了所生成驱动程序的有效性。"
+  }
+]
