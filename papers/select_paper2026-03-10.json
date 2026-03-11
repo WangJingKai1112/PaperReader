@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-03-10",
+    "title": "Wrong Code, Right Structure: Learning Netlist Representations from Imperfect LLM-Generated RTL",
+    "authors": "Siyang Cai, Cangyuan Li, Yinhe Han, Ying Wang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.09161v1",
+    "source": "arXiv",
+    "abstract": "Learning effective netlist representations is fundamentally constrained by the scarcity of labeled datasets, as real designs are protected by Intellectual Property (IP) and costly to annotate. Existing work therefore focuses on small-scale circuits with clean labels, limiting scalability to realistic designs. Meanwhile, Large Language Models (LLMs) can generate Register-Transfer-Level (RTL) at scale, but their functional incorrectness has hindered their use in circuit analysis. In this work, we make a key observation: even when LLM-Generated RTL is functionally imperfect, the synthesized netlists still preserve structural patterns that are strongly indicative of the intended functionality. Building on this insight, we propose a cost-effective data augmentation and training framework that systematically exploits imperfect LLM-Generated RTL as training data for netlist representation learning, forming an end-to-end pipeline from automated code generation to downstream tasks. We conduct evaluations on circuit functional understanding tasks, including sub-circuit boundary identification and component classification, across benchmarks of increasing scales, extending the task scope from operator-level to IP-level. The evaluations demonstrate that models trained on our noisy synthetic corpus generalize well to real-world netlists, matching or even surpassing methods trained on scarce high-quality data and effectively breaking the data bottleneck in circuit representation learning.",
+    "title_zh": "代码错误，结构正确：从不完美的大语言模型生成的RTL中学习网表表示",
+    "abstract_zh": "由于真实电路设计受到知识产权（IP）保护且标注成本高昂，标注数据集的稀缺性从根本上限制了有效网表表示的学习。因此，现有研究主要集中在具有干净标签的小规模电路上，难以扩展到实际规模的设计。与此同时，大语言模型（LLM）虽能大规模生成寄存器传输级（RTL）代码，但其功能上的不正确性阻碍了其在电路分析中的应用。本文中，我们提出一个关键观察：即使LLM生成的RTL在功能上不完美，其综合得到的网表仍保留了能够强烈反映预期功能的结构模式。基于这一洞察，我们提出一种成本低廉的数据增强与训练框架，系统性地利用不完美的LLM生成RTL作为网表表示学习的训练数据，构建了从自动化代码生成到下游任务的端到端流程。我们在电路功能理解任务上进行了评估，包括子电路边界识别和元件分类，覆盖了从操作符级到IP级、规模逐步增加的多个基准测试。实验结果表明，使用我们构建的含噪声合成语料训练的模型能够很好地泛化到真实网表上，在性能上达到甚至超过使用稀少高质量数据训练的方法，有效突破了电路表示学习中的数据瓶颈。"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Avoiding Big Integers: Parallel Multimodular Algebraic Verification of Arithmetic Circuits",
+    "authors": "Clemens Hofstadler, Daniela Kaufmann, Chen Chen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.09501v1",
+    "source": "arXiv",
+    "abstract": "Word-level verification of arithmetic circuits with large operands typically relies on arbitrary-precision arithmetic, which can lead to significant computational overhead as word sizes grow. In this paper, we present a hybrid algebraic verification technique based on polynomial reasoning that combines linear and nonlinear rewriting. Our approach relies on multimodular reasoning using homomorphic images, where computations are performed in parallel modulo different primes, thereby avoiding any large-integer arithmetic. We implement the proposed method in the verification tool TalisMan2.0 and evaluate it on a suite of multiplier benchmarks. Our results show that hybrid multimodular reasoning significantly improves upon existing approaches.",
+    "title_zh": "避免大整数：算术电路的并行多模代数验证",
+    "abstract_zh": "对于具有大操作数的算术电路，逐字验证通常依赖于任意精度算术运算，随着字长增加，这可能导致显著的计算开销。本文提出了一种基于多项式推理的混合代数验证技术，结合了线性与非线性重写方法。该方法采用基于同态像的多模数推理，在不同素数模下并行执行计算，从而完全避免了大整数运算。我们将所提出的方法实现在验证工具TalisMan2.0中，并在一组乘法器基准电路上进行了评估。实验结果表明，混合多模数推理方法相较于现有方法具有显著改进。"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "EmbC-Test: How to Speed Up Embedded Software Testing Using LLMs and RAG",
+    "authors": "Maximilian Harnot, Sebastian Komarnicki, Michal Polok, Timo Oksanen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.09497v1",
+    "source": "arXiv",
+    "abstract": "Manual development of automatic tests for embedded C software is a strenuous and time-consuming task that does not scale well. With the accelerating pace of software release cycles, verification increasingly becomes the bottleneck in the embedded development workflow. This paper presents a Retrieval-Augmented Generation (RAG) pipeline as a solution for partial automation of the verification process. By grounding a large language model in project-specific artifacts, the approach reduces hallucinations and improves project alignment. An industrial evaluation showed that the generated tests are 100 % syntactically correct, with 85 % successfully passing runtime validation. The proposed solution has the potential to save up to 66 % of the testing time compared to manual test writing while generating 270 tests per hour.",
+    "title_zh": "EmbC-测试：如何利用大语言模型和RAG加速嵌入式软件测试",
+    "abstract_zh": "手动为嵌入式C语言软件开发自动化测试是一项繁重且耗时的任务，难以有效扩展。随着软件发布周期不断加快，验证环节正日益成为嵌入式开发流程中的瓶颈。本文提出了一种基于检索增强生成（Retrieval-Augmented Generation, RAG）的流水线方案，以实现验证过程的部分自动化。该方法通过将大语言模型与项目特定的工件相结合，降低了生成内容的虚构性，并提高了与项目的契合度。工业环境下的评估结果显示，所生成的测试用例100%在语法上正确，其中85%成功通过了运行时验证。相比手工编写测试，该方案最多可节省66%的测试时间，每小时可生成270个测试用例。"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Synergistic Directed Execution and LLM-Driven Analysis for Zero-Day AI-Generated Malware Detection",
+    "authors": "George Edwards, Mahdi Eslamimehr",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.09044v1",
+    "source": "arXiv",
+    "abstract": "The weaponization of LLMs for automated malware generation poses an existential threat to conventional detection paradigms. AI-generated malware exhibits polymorphic, metamorphic, and context-aware evasion capabilities that render signature-based and shallow heuristic defenses obsolete. This paper introduces a novel hybrid analysis framework that synergistically combines \\emph{concolic execution} with \\emph{LLM-augmented path prioritization} and \\emph{deep-learning-based vulnerability classification} to detect zero-day AI-generated malware with provable guarantees. We formalize the detection problem within a first-order temporal logic over program execution traces, define a lattice-theoretic abstraction for path constraint spaces, and prove both the \\emph{soundness} and \\emph{relative completeness} of our detection algorithm, assuming classifier correctness. The framework introduces three novel algorithms: (i) an LLM-guided concolic exploration strategy that reduces the average number of explored paths by 73.2\\% compared to depth-first search while maintaining equivalent malicious-path coverage; (ii) a transformer-based path-constraint classifier trained on symbolic execution traces; and (iii) a feedback loop that iteratively refines the LLM's prioritization policy using reinforcement learning from detection outcomes. We provide a comprehensive implementation built upon \\texttt{angr} 9.2, \\texttt{Z3} 4.12, Hugging Face Transformers 4.38, and PyTorch 2.2, with configuration details enabling reproducibility. Experimental evaluation on the EMBER, Malimg, SOREL-20M, and a novel AI-Gen-Malware benchmark comprising 2{,}500 LLM-synthesized samples demonstrates that achieves 98.7\\% accuracy on conventional malware and 97.5\\% accuracy on AI-generated threats, outperforming ClamAV, YARA, MalConv, and EMBER-GBDT baselines by margins of 8.4--52.2 percentage points on AI-generated samples.",
+    "title_zh": "协同导向执行与大语言模型驱动分析在零日AI生成恶意软件检测中的应用",
+    "abstract_zh": "将大语言模型（LLM）武器化用于自动化恶意软件生成，对传统的检测范式构成了生存性威胁。由人工智能生成的恶意软件展现出多态性、变构性和上下文感知的逃逸能力，使得基于特征码和浅层启发式的防御手段变得过时。本文提出了一种新颖的混合分析框架，该框架协同结合了\\emph{符号执行}（concolic execution）、\\emph{LLM增强的路径优先级排序}以及\\emph{基于深度学习的漏洞分类}，以具备可证明保障的方式检测零日AI生成恶意软件。我们将检测问题形式化为程序执行轨迹上的一阶时序逻辑，并为路径约束空间定义格理论抽象，进而在假设分类器正确的前提下，证明了所提检测算法的\\emph{可靠性}与\\emph{相对完备性}。\n\n本框架引入了三个创新算法：（i）一种由大语言模型引导的符号执行探索策略，相较于深度优先搜索，平均减少了73.2%的探索路径数量，同时保持了对恶意路径的同等覆盖率；（ii）一个基于Transformer架构的路径约束分类器，训练数据来自符号执行轨迹；（iii）一个反馈闭环机制，利用检测结果通过强化学习迭代优化大语言模型的路径优先级策略。\n\n我们基于\\texttt{angr} 9.2、\\texttt{Z3} 4.12、Hugging Face Transformers 4.38 和 PyTorch 2.2 构建了完整的实现系统，并提供了详细的配置信息以确保实验可复现。在 EMBER、Malimg、SOREL-20M 数据集以及一个包含2,500个由大语言模型合成样本的新建AI-Gen-Malware基准数据集上的实验评估表明，本方法在传统恶意软件上达到98.7%的准确率，在AI生成威胁上达到97.5%的准确率，在AI生成样本上的表现优于ClamAV、YARA、MalConv和EMBER-GBDT等基线方法8.4至52.2个百分点。"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "d-DNNF Modulo Theories: A General Framework for Polytime SMT Queries",
+    "authors": "Gabriele Masina, Emanuale Civini, Massimo Michelutti, Giuseppe Spallitta, Roberto Sebastiani",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.09975v1",
+    "source": "arXiv",
+    "abstract": "In Knowledge Compilation (KC) a propositional knowledge base is compiled off-line into some target form, typically into deterministic decomposable negation normal form (d-DNNF) or one of its subcases, which is then used on-line to answer a large number of queries in polytime, such as clausal entailment, model counting, and others. The general idea is to push as much of the computational effort into the off-line compilation phase, which is amortized over all on-line polytime queries. In this paper, we present for the first time a novel and general technique to leverage d-DNNF compilation and querying to SMT level. Intuitively, before d-DNNF compilation, the input SMT formula is combined with a list of pre-computed ad-hoc theory lemmas, so that the queries at SMT level reduce to those at propositional level. This approach has several features: (i) it works for every theory, or theory combination thereof; (ii) it works for all forms of d-DNNF; (iii) it is easy to implement on top of any d-DNNF compiler and any theory-lemma enumerator, which are used as black boxes; (iv) most importantly, these compiled SMT d-DNNFs can be queried in polytime by means of a standard propositional d-DNNF reasoner. We have implemented a tool on top of state-of-the-art d-DNNF packages and of the MathSAT SMT solver. Some preliminary empirical evaluation supports the effectiveness of the approach.",
+    "title_zh": "d-DNNF模理论：一种用于多项式时间SMT查询的通用框架",
+    "abstract_zh": "在知识编译（Knowledge Compilation, KC）中，一个命题知识库会被离线地编译成某种目标形式，通常是确定性可分解否定范式（d-DNNF）或其子类之一，然后在线阶段利用该编译结果，在多项式时间内高效回答大量查询，例如子句蕴含、模型计数等。其基本思想是将大部分计算负担转移到离线编译阶段，从而分摊到后续的多个在线多项式时间查询中。本文首次提出了一种新颖且通用的技术，将d-DNNF编译与查询能力扩展至SMT（可满足性模理论）层面。直观上，在进行d-DNNF编译之前，输入的SMT公式会与一组预先计算好的特定理论引理结合，使得SMT层面的查询可以规约为命题逻辑层面的查询。该方法具有以下特点：（i）适用于任意理论或理论组合；（ii）适用于所有类型的d-DNNF；（iii）易于在任意d-DNNF编译器和任意理论引理生成器之上实现，且这些组件均可作为黑箱使用；（iv）最重要的是，所得到的SMT d-DNNF编译结果可以通过标准的命题逻辑d-DNNF推理器在多项式时间内进行查询。我们已在当前最先进的d-DNNF工具包和MathSAT SMT求解器基础上实现了相关工具，初步的实验评估结果验证了该方法的有效性。"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Declarative Scenario-based Testing with RoadLogic",
+    "authors": "Ezio Bartocci, Alessio Gambi, Felix Gigler, Cristinel Mateis, Dejan Ničković",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.09455v1",
+    "source": "arXiv",
+    "abstract": "Scenario-based testing is a key method for cost-effective and safe validation of autonomous vehicles (AVs). Existing approaches rely on imperative scenario definitions, requiring developers to manually enumerate numerous variants to achieve coverage. Declarative languages, such as OpenSCENARIO DSL (OS2), raise the abstraction level but lack systematic methods for instantiating concrete, specification-compliant scenarios as simulations. To our knowledge, currently, no open-source solution provides this capability. We present RoadLogic that bridges declarative OS2 specifications and executable simulations. It uses Answer Set Programming to generate abstract plans satisfying scenario constraints, motion planning to refine the plans into feasible trajectories, and specification-based monitoring to verify correctness. We evaluate RoadLogic on instantiating representative OS2 scenarios as simulations in the CommonRoad framework. Results show that RoadLogic consistently produces realistic, specification-satisfying simulations within minutes and captures diverse behavioral variants through parameter sampling, thus opening the door to systematic scenario-based testing for autonomous driving systems.",
+    "title_zh": "基于声明式场景的 RoadLogic 测试",
+    "abstract_zh": "基于场景的测试是验证自动驾驶汽车（AV）的一种高效且安全的关键方法。现有方法依赖于命令式的场景定义，要求开发人员手动枚举大量变体以实现充分覆盖。声明式语言（如OpenSCENARIO DSL，简称OS2）虽然提高了抽象层次，但缺乏系统化的方法来自动生成符合规范的具体场景用于仿真。据我们所知，目前尚无开源解决方案具备这一能力。本文提出了RoadLogic，它架起了声明式OS2规范与可执行仿真之间的桥梁。RoadLogic采用答案集编程（Answer Set Programming）生成满足场景约束的抽象计划，通过运动规划将这些计划细化为可行的轨迹，并利用基于规范的监控机制验证其正确性。我们在CommonRoad框架中评估了RoadLogic对代表性OS2场景实例化的有效性。实验结果表明，RoadLogic能够在数分钟内持续生成真实、符合规范的仿真场景，并通过参数采样捕捉多样的行为变体，从而为自动驾驶系统的系统化场景测试开辟了新的途径。"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Embedded Model Predictive Control for EMS-type Maglev Vehicles",
+    "authors": "Arnim Kargl, Mario Hermle, Zhiqiang Zhang, Yanmin Li, Dainan Zhao, Yong Cui, Peter Eberhard",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.09671v1",
+    "source": "arXiv",
+    "abstract": "Current developments of high-speed magnetic levitation technology using the principle of the electromagnet suspension (EMS) focus on reaching vehicle speeds of more than 600 km/h. With increasing vehicle speeds, however, updated control algorithms need to be investigated to reliably stabilize the system and meet the demands in terms of ride comfort. This article examines the modern and popular approach of model predictive control and its application to the magnetic levitation control system. Investigated key aspects are the parameterization of the model predictive controller and its implementation on embedded, resource constrained hardware. The results reveal that model predictive control is capable to robustly stabilize the highly nonlinear and constrained system even at very high speed. Furthermore, processor-in-the-loop studies are carried out to validate the designed control algorithms on a microcontroller.",
+    "title_zh": "用于EMS型磁悬浮车辆的嵌入式模型预测控制",
+    "abstract_zh": "目前，基于电磁悬浮（EMS）原理的高速磁悬浮技术发展重点是实现超过600 km/h的车辆运行速度。然而，随着车速不断提高，需要研究新的控制算法，以可靠地稳定系统并满足乘坐舒适性的要求。本文探讨了模型预测控制这一现代且流行的方法，并将其应用于磁悬浮控制系统中。研究的关键方面包括模型预测控制器的参数整定及其在资源受限的嵌入式硬件上的实现。结果表明，即使在极高速度下，模型预测控制仍能够鲁棒地稳定高度非线性且存在约束的系统。此外，通过处理器在环实验，在微控制器上验证了所设计的控制算法的有效性。"
+  },
+  {
+    "date": "2026-03-10",
+    "title": "Compartmentalization-Aware Automated Program Repair",
+    "authors": "Jia Hu, Youcheng Sun, Pierre Olivier",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.09544v1",
+    "source": "arXiv",
+    "abstract": "Software compartmentalization breaks down an application into compartments isolated from each other: an attacker taking over a compartment will be confined to it, limiting the damage they can cause to the rest of the application. Despite the security promises of this approach, recent studies have shown that most existing compartmentalized software is plagued by vulnerabilities at cross-compartment interfaces, allowing an attacker taking over a compartment to escape its confinement and negate the security guarantees expected from compartmentalization. In that context, securing cross-compartment interfaces is notoriously difficult and engineering-intensive. In light of recent advances in Automated Program Repair (APR), notably through the use of Large Language Models (LLMs), this paper presents a work in progress investigating the suitability of LLM-based APR at securing cross-compartment interfaces as automatically as possible. We observe that existing APR approaches and general purpose/code-centric LLMs used as is are unfit for this task, and present the design, implementation, and early results of a new APR framework dedicated to compartment interface safety. The framework integrates into a feedback loop 1) a specialized fuzzer uncovering cross-compartment interface vulnerabilities; 2) a patch generation component bridging the lack of compartmentalization awareness of existing LLMs with a series of analysis techniques; and 3) a patch validation component assessing the effectiveness of generated vulnerability fixes. We validate our framework over a sample interface vulnerability, comparing it to a naive use of general-purpose LLMs, and discuss future research avenues.",
+    "title_zh": "面向模块化的自动程序修复",
+    "abstract_zh": "软件隔离化将应用程序分解为相互隔离的多个模块：即使攻击者攻陷了其中一个模块，其活动也将被限制在该模块内，从而限制其对应用程序其余部分造成的损害。尽管这种隔离方法在安全性方面具有潜力，但最近的研究表明，大多数现有的隔离化软件在跨模块接口处存在漏洞，使得攻击者在攻陷一个模块后仍能逃逸其隔离环境，从而破坏隔离化本应提供的安全保证。在此背景下，保障跨模块接口的安全性一直是一项极具挑战性且工程量巨大的任务。鉴于近年来自动化程序修复（APR）领域的进展，尤其是大语言模型（LLMs）的应用，本文介绍了一项正在进行的研究，旨在探索基于大语言模型的自动化程序修复在尽可能自动地保障跨模块接口安全方面的适用性。我们发现，现有的APR方法以及直接使用的通用型/代码中心化的大语言模型均不适用于此项任务。为此，我们提出并实现了专用于模块接口安全的新型APR框架，并展示了初步成果。该框架通过一个反馈循环集成了三个核心组件：1）一种专用的模糊测试工具，用于发现跨模块接口漏洞；2）一个补丁生成组件，通过一系列分析技术弥补现有大语言模型缺乏隔离化认知的缺陷；3）一个补丁验证组件，用于评估所生成漏洞修复方案的有效性。我们通过一个典型的接口漏洞案例验证了该框架的有效性，并将其与直接使用通用大语言模型的朴素方法进行了对比，最后讨论了未来的研究方向。"
+  }
+]
