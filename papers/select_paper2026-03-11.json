@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-03-11",
+    "title": "From Verification to Herding: Exploiting Software's Sparsity of Influence",
+    "authors": "Tim Menzies, Kishan Kumar Ganguly",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.10478v1",
+    "source": "arXiv",
+    "abstract": "Software verification is now costly, taking over half the project effort while failing on modern complex systems. We hence propose a shift from verification and modeling to herding: treating testing as a model-free search task that steers systems toward target goals. This exploits the \"Sparsity of Influence\" -the fact that, often, large software state spaces are ruled by just a few variables, We introduce EZR (Efficient Zero-knowledge Ranker), a stochastic learner that finds these controllers directly. Across dozens of tasks, EZR achieved 90% of peak results with only 32 samples, replacing heavy solvers with light sampling.",
+    "title_zh": "从验证到管控：利用软件的影响稀疏性",
+    "abstract_zh": "软件验证如今成本高昂，耗费了超过一半的项目工作量，却在现代复杂系统上频频失败。因此，我们提出一种转变：从验证和建模转向“放牧”（herding）——将测试视为一种无需模型的搜索任务，引导系统朝向目标状态前进。这种方法利用了“影响稀疏性”（Sparsity of Influence）特性，即通常情况下，庞大的软件状态空间实际上仅由少数几个变量主导。我们提出了EZR（高效零知识排序器，Efficient Zero-knowledge Ranker），一种能够直接找出这些控制变量的随机学习器。在数十项任务中，EZR仅用32个样本就达到了峰值性能的90%，以轻量级采样取代了繁重的求解器。"
+  },
+  {
+    "date": "2026-03-11",
+    "title": "STADA: Specification-based Testing for Autonomous Driving Agents",
+    "authors": "Joy Saha, Trey Woodlief, Sebastian Elbaum, Matthew B. Dwyer",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.10940v1",
+    "source": "arXiv",
+    "abstract": "Simulation-based testing has become a standard approach to validating autonomous driving agents prior to real-world deployment. A high-quality validation campaign will exercise an agent in diverse contexts comprised of varying static environments, e.g., lanes, intersections, signage, and dynamic elements, e.g., vehicles and pedestrians. To achieve this, existing test generation techniques rely on template-based, manually constructed, or random scenario generation. When applied to validate formally specified safety requirements, such methods either require significant human effort or run the risk of missing important behavior related to the requirement. To address this gap, we present STADA, a Specification-based Test generation framework for Autonomous Driving Agents that systematically generates the space of scenarios defined by a formal specification expressed in temporal logic (LTLf). Given a specification, STADA constructs all distinct initial scenes, a diverse space of continuations of those scenes, and simulations that reflect the behaviors of the specification. Evaluation of STADA on a variety of LTLf specifications formalized in SCENEFLOW using three complementary coverage criteria demonstrates that STADA yields more than 2x higher coverage than the best baseline on the finest criteria and a 75% increase for the coarsest criteria. Moreover, it matches the coverage of the best baseline with 6 times fewer simulations. While set in the context of autonomous driving, the approach is applicable to other domains with rich simulation environments.",
+    "title_zh": "STADA：基于规范的自动驾驶代理测试",
+    "abstract_zh": "基于仿真的测试已成为在真实世界部署前验证自动驾驶智能体的一种标准方法。一次高质量的验证活动需要在多种不同情境下对智能体进行测试，这些情境包括变化的静态环境（例如车道、交叉路口、交通标志）以及动态元素（例如车辆和行人）。为实现这一目标，现有的测试生成技术通常依赖于基于模板、人工构建或随机生成的场景方法。当应用于验证形式化定义的安全需求时，这些方法要么需要大量的人工投入，要么存在遗漏与需求相关的重要行为的风险。为弥补这一不足，本文提出STADA——一种面向自动驾驶智能体的基于规范的测试生成框架，该框架能够系统地生成由时序逻辑（LTLf）表达的形式化规范所定义的全部场景空间。给定一个规范后，STADA可构造出所有不同的初始场景、这些场景的多样化延续空间，以及反映该规范行为的仿真过程。在多种以SCENEFLOW语言形式化的LTLf规范上，采用三种互补的覆盖率指标对STADA进行评估的结果表明，STADA在最细粒度的指标上比最佳基线方法的覆盖率高出两倍以上，在最粗粒度指标上也提升了75%。此外，STADA仅用六分之一数量的仿真即达到了最佳基线方法的覆盖率水平。尽管本研究以自动驾驶为背景，但该方法同样适用于其他具有丰富仿真环境的领域。"
+  },
+  {
+    "date": "2026-03-11",
+    "title": "CD-Raft: Reducing the Latency of Distributed Consensus in Cross-Domain Sites",
+    "authors": "Yangyang Wang, Ziqian Cheng, Yucong Dong, Zichen Xu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.10555v1",
+    "source": "arXiv",
+    "abstract": "Today's massive AI computation loads push heavy data synchronization across sites, i.e., nodes in data centers. Any reduction in such consensus latency can significantly improve the overall performance of desired systems. This consensus challenge explosively peaks at cross-domain sites. In this paper, we proposed CD-Raft to address the cross-domain latency challenge, an optimized Raft protocol for strong consistency in cross-domain sites. CD-Raft can significantly reduce consensus latency by optimizing cross-domain round-trip time (RTT) for reads and writes, as well as carefully positioning the leader node. We verified the correctness of CD-Raft in a formal specification using the TLA+ specification, guaranteeing the strong consistency across sites. We have prototyped CD-Raft and evaluated it using the YCSB benchmark. Empirical results show that compared to the classic Raft, CD-Raft reduces the average latency by 32.90% and (99th percentile) tail latency by 49.24% for renown traces across multiple sites.",
+    "title_zh": "CD-Raft：降低跨域站点分布式共识的延迟",
+    "abstract_zh": "如今大规模的AI计算负载需要在多个站点（即数据中心内的节点）之间进行大量的数据同步。任何对这类共识延迟的降低都能显著提升目标系统的整体性能。这一共识挑战在跨域站点场景下尤为突出。本文提出了一种名为CD-Raft的优化型Raft协议，以应对跨域延迟挑战，实现跨域站点间的强一致性。CD-Raft通过优化读写操作的跨域往返时间（RTT），并精心选择领导者节点的位置，显著降低了共识延迟。我们使用TLA+形式化规范验证了CD-Raft的正确性，确保了跨站点的强一致性。我们实现了CD-Raft的原型系统，并使用YCSB基准进行了评估。实验结果表明，与经典Raft协议相比，CD-Raft在多个站点的知名负载轨迹下，平均延迟降低了32.90%，尾部延迟（99百分位）降低了49.24%。"
+  },
+  {
+    "date": "2026-03-11",
+    "title": "Artificial Intelligence as a Catalyst for Innovation in Software Engineering",
+    "authors": "Carlos Alberto Fernández-y-Fernández, Jorge R. Aguilar-Cisneros",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.10994v1",
+    "source": "arXiv",
+    "abstract": "The rapid evolution and inherent complexity of modern software requirements demand highly flexible and responsive development methodologies. While Agile frameworks have become the industry standard for prioritizing iteration, collaboration, and adaptability, software development teams continue to face persistent challenges in managing constantly evolving requirements and maintaining product quality under tight deadlines. This article explores the intersection of Artificial Intelligence (AI) and Software Engineering (SE), to analyze how AI serves as a powerful catalyst for enhancing agility and fostering innovation. The research combines a comprehensive review of existing literature with an empirical study, utilizing a survey directed at Software Engineering professionals to assess the perception, adoption, and impact of AI-driven tools. Key findings reveal that the integration of AI (specifically through Machine Learning (ML) and Natural Language Processing (NLP) )facilitates the automation of tedious tasks, from requirement management to code generation and testing . This paper demonstrates that AI not only optimizes current Agile practices but also introduces new capabilities essential for sustaining quality, speed, and innovation in the future landscape of software development.",
+    "title_zh": "人工智能作为软件工程创新的催化剂",
+    "abstract_zh": "现代软件需求的快速演变和内在复杂性要求开发方法具备高度的灵活性和响应能力。尽管敏捷开发框架已成为行业标准，能够优先考虑迭代、协作和适应性，但软件开发团队在管理持续变化的需求以及在紧迫的截止期限下保持产品质量方面，仍然面临诸多挑战。本文探讨了人工智能（AI）与软件工程（SE）的交叉领域，分析AI如何作为强大的催化剂，提升敏捷性并推动创新。本研究结合了对现有文献的全面综述和一项实证研究，通过向软件工程专业人士发放问卷，评估AI驱动工具的认知度、采用情况及其影响。研究的关键发现表明，AI（特别是通过机器学习（ML）和自然语言处理（NLP））的集成能够实现从需求管理到代码生成和测试等繁琐任务的自动化。本文证明，AI不仅优化了当前的敏捷实践，还引入了新的能力，对于在未来软件开发环境中持续保持质量、速度和创新至关重要。"
+  },
+  {
+    "date": "2026-03-11",
+    "title": "Silent Subversion: Sensor Spoofing Attacks via Supply Chain Implants in Satellite Systems",
+    "authors": "Jack Vanlyssel, Gruia-Catalin Roman, Afsah Anwar",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.10388v1",
+    "source": "arXiv",
+    "abstract": "Spoofing attacks are among the most destructive cyber threats to terrestrial systems, and they become even more dangerous in space, where satellites cannot be easily serviced, and operators depend on accurate telemetry to ensure mission success. When telemetry is compromised, entire spaceborne missions are placed at risk. Prior work on spoofing has largely focused on attacks from Earth, such as injecting falsified uplinks or overpowering downlinks with stronger radios. In contrast, onboard spoofing originating from within the satellite itself remains an underexplored and underanalyzed threat. This vector is particularly concerning given that modern satellites, especially small satellites, rely on modular architectures and globalized supply chains that reduce cost and accelerate development but also introduce hidden risks. This paper presents an end-to-end demonstration of an internal satellite spoofing attack delivered through a compromised vendor-supplied component implemented in NASA's NOS3 simulation environment. Our rogue Core Flight Software application passed integration and generated packets in the correct format and cadence that the COSMOS ground station accepted as legitimate. By undermining both onboard estimators and ground operator views, the attack directly threatens mission integrity and availability, as corrupted telemetry can bias navigation, conceal subsystem failures, and mislead operators into executing harmful maneuvers. These results expose component-level telemetry spoofing as an overlooked supply-chain vector distinct from jamming or external signal injection. We conclude by discussing practical countermeasures-including authenticated telemetry, component attestation, provenance tracking, and lightweight runtime monitoring-and highlight the trade-offs required to secure resource-constrained small satellites.",
+    "title_zh": "无声的颠覆：通过卫星系统供应链植入进行的传感器欺骗攻击",
+    "abstract_zh": "欺骗攻击是对地面系统最具破坏性的网络威胁之一，而在太空环境中，这种攻击的危险性进一步加剧，因为卫星难以进行在轨维护，操作人员必须依赖准确的遥测数据来确保任务成功。一旦遥测数据被篡改，整个航天任务都将面临风险。以往关于欺骗攻击的研究主要集中在来自地球的攻击方式，例如注入伪造的上行链路信号或使用更强的无线电信号压制下行链路。相比之下，源自卫星内部的欺骗攻击仍是一个未被充分探索和分析的威胁。这一攻击途径尤其令人担忧，因为现代卫星（尤其是小型卫星）普遍采用模块化架构和全球化的供应链，虽然降低了成本并加快了开发进度，但也引入了潜在的安全隐患。\n\n本文在NASA的NOS3仿真环境中，通过一个被攻陷的供应商提供组件，实现了端到端的卫星内部欺骗攻击演示。我们开发的恶意核心飞行软件通过了系统集成测试，并生成了格式和时序均正确的数据包，这些数据包被COSMOS地面站误判为合法遥测信息而接受。该攻击通过同时破坏星上状态估计系统和地面操作员的判断，直接威胁任务的完整性与可用性：被篡改的遥测数据可能导致导航偏差、掩盖子系统故障，并误导操作员执行有害的操作指令。实验结果揭示出，组件级的遥测欺骗是一种不同于干扰或外部信号注入的、被忽视的供应链攻击途径。\n\n最后，本文讨论了若干可行的防御措施，包括认证式遥测传输、组件可信验证、来源追溯以及轻量级运行时监控，并强调了在资源受限的小型卫星上实施这些安全机制所需权衡的利弊。"
+  },
+  {
+    "date": "2026-03-11",
+    "title": "An Approach for Safe and Secure Software Protection Supported by Symbolic Execution",
+    "authors": "Daniel Dorfmeister, Flavio Ferrarotti, Bernhard Fischer, Evelyn Haslinger, Rudolf Ramler, Markus Zimmermann",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.10608v1",
+    "source": "arXiv",
+    "abstract": "We introduce a novel copy-protection method for industrial control software. With our method, a program executes correctly only on its target hardware and behaves differently on other machines. The hardware-software binding is based on Physically Unclonable Functions (PUFs). We use symbolic execution to guarantee the preservation of safety properties if the software is executed on a different machine, or if there is a problem with the PUF response. Moreover, we show that the protection method is also secure against reverse engineering.",
+    "title_zh": "一种基于符号执行的安全软件保护方法",
+    "abstract_zh": "我们提出了一种针对工业控制软件的新型防复制保护方法。通过该方法，程序仅在目标硬件上能够正确执行，而在其他设备上则表现出不同的行为。这种软硬件绑定基于物理不可克隆函数（Physically Unclonable Functions, PUFs）。我们利用符号执行技术，确保在软件于非目标设备上运行或PUF响应出现问题时，系统的安全属性仍能得到保持。此外，我们还证明了该保护方法能够有效抵御逆向工程攻击。"
+  }
+]
