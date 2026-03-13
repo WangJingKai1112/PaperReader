@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2026-03-12",
+    "title": "Link Quality Aware Pathfinding for Chiplet Interconnects",
+    "authors": "Aaron Yen, Jooyeon Jeong, Puneet Gupta",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.11612v1",
+    "source": "arXiv",
+    "abstract": "As chiplet-based integration advances, designers must select among short-reach die-to-die interconnect technologies with widely varying shoreline and areal bandwidth density, energy per bit, reach, and raw bit error rate (BER). Meeting stringent delivered BER targets in chiplet systems requires error-correcting codes (ECC), but incurs energy, area, and throughput overheads. We develop a flow centered around RTL synthesis power and area estimations to support pathfinding of inter-chiplet links under a stringent 10-27 delivered BER target. We synthesize a parameterized Reed-Solomon code with CRC-64 and Go-Back-N retry logic to estimate the correction overhead for different transceiver bit error rates. Results show that ECC can materially change link comparisons under common figures of merit and that CRC+ARQ can reduce the required RS strength (and decoder overhead) at moderate BERs while still meeting stringent delivered-BER targets. We present a CP-SAT-based link assignment formulation that uses these ECC-corrected metrics under reach, delivered-bandwidth, and shoreline constraints in system-level optimization.",
+    "title_zh": "面向芯粒互连的链路质量感知路径寻找方法",
+    "abstract_zh": "随着芯粒（chiplet）集成技术的进步，设计人员必须在多种短距离裸片间互连技术中进行选择，这些技术在岸缘带宽密度、面积带宽密度、每比特能耗、传输距离和原始误码率（BER）等方面差异显著。在芯粒系统中实现严格的端到端误码率（如10⁻²⁷）目标需要采用纠错码（ECC），但这会带来额外的能耗、面积和吞吐量开销。为此，我们构建了一个以RTL综合功耗与面积估算为核心的流程，用于在严格端到端BER目标下探索芯粒间互连链路的设计路径。我们综合实现了一种可参数化的里德-所罗门（Reed-Solomon, RS）码，并结合CRC-64校验与Go-Back-N重传机制，用以评估不同收发器误码率下的纠错开销。结果表明，在常见的性能评估指标下，ECC会显著改变链路间的优劣比较；而在中等误码率条件下，CRC与ARQ机制的结合可在满足严格端到端BER目标的同时，降低对RS码纠错能力的要求，从而减少解码器的开销。进一步地，我们提出了一种基于CP-SAT的链路分配建模方法，在系统级优化中利用上述经ECC修正的性能指标，并综合考虑传输距离、端到端带宽及岸缘空间等约束条件。"
+  },
+  {
+    "date": "2026-03-12",
+    "title": "AutoVeriFix+: High-Correctness RTL Generation via Trace-Aware Causal Fix and Semantic Redundancy Pruning",
+    "authors": "Yan Tan, Xiangchen Meng, Zijun Jiang, Yangdi Lyu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.11489v1",
+    "source": "arXiv",
+    "abstract": "Large language models (LLMs) have demonstrated impressive capabilities in generating software code for high-level programming languages such as Python and C++. However, their application to hardware description languages, such as Verilog, is challenging due to the scarcity of high-quality training data. Current approaches to Verilog code generation using LLMs often focus on syntactic correctness, resulting in code with functional errors. To address these challenges, we propose AutoVeriFix+, a novel three-stage framework that integrates high-level semantic reasoning with state-space exploration to enhance functional correctness and design efficiency. In the first stage, an LLM is employed to generate high-level Python reference models that define the intended circuit behavior. In the second stage, another LLM generates initial Verilog RTL candidates and iteratively fixes syntactic errors. In the third stage, we introduce a Concolic testing engine to exercise deep sequential logic and identify corner-case vulnerabilities. With cycle-accurate execution traces and internal register snapshots, AutoVeriFix+ provides the LLM with the causal context necessary to resolve complex state-transition errors. Furthermore, it will generate a coverage report to identify functionally redundant branches, enabling the LLM to perform semantic pruning for area optimization. Experimental results demonstrate that AutoVeriFix+ achieves over 80% functional correctness on rigorous benchmarks, reaching a pass@10 score of 90.2% on the VerilogEval-machine dataset. In addition, it eliminates an average of 25% redundant logic across benchmarks through trace-aware optimization.",
+    "title_zh": "AutoVeriFix+：通过感知轨迹的因果修复与语义冗余剪枝实现高正确性的RTL生成",
+    "abstract_zh": "大型语言模型（LLMs）在生成Python和C++等高级编程语言的软件代码方面已展现出令人印象深刻的能力。然而，将其应用于Verilog等硬件描述语言时面临挑战，主要原因是高质量训练数据的匮乏。当前基于LLM的Verilog代码生成方法通常仅关注语法正确性，导致生成的代码存在功能错误。为应对这些挑战，我们提出了AutoVeriFix+，一种新颖的三阶段框架，通过结合高层语义推理与状态空间探索，以提升功能正确性和设计效率。\n\n在第一阶段，使用一个LLM生成定义预期电路行为的高层Python参考模型；在第二阶段，另一个LLM生成初始的Verilog RTL候选代码，并迭代修复语法错误；在第三阶段，我们引入了一种Concolic测试引擎，用于激发深层的时序逻辑并发现边界情况下的漏洞。借助周期精确的执行轨迹和内部寄存器快照，AutoVeriFix+为LLM提供了必要的因果上下文，以解决复杂的状态转移错误。此外，系统还会生成覆盖率报告，识别功能冗余的分支，使LLM能够进行语义剪枝，实现面积优化。\n\n实验结果表明，AutoVeriFix+在严格基准测试中实现了超过80%的功能正确率，在VerilogEval-machine数据集上的pass@10得分达到90.2%。此外，通过具备执行轨迹感知的优化，该框架在各基准测试中平均消除了25%的冗余逻辑。"
+  },
+  {
+    "date": "2026-03-12",
+    "title": "Cascade: Composing Software-Hardware Attack Gadgets for Adversarial Threat Amplification in Compound AI Systems",
+    "authors": "Sarbartha Banerjee, Prateek Sahu, Anjo Vahldiek-Oberwagner, Jose Sanchez Vicarte, Mohit Tiwari",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.12023v1",
+    "source": "arXiv",
+    "abstract": "Rapid progress in generative AI has given rise to Compound AI systems - pipelines comprised of multiple large language models (LLM), software tools and database systems. Compound AI systems are constructed on a layered traditional software stack running on a distributed hardware infrastructure. Many of the diverse software components are vulnerable to traditional security flaws documented in the Common Vulnerabilities and Exposures (CVE) database, while the underlying distributed hardware infrastructure remains exposed to timing attacks, bit-flip faults, and power-based side channels. Today, research targets LLM-specific risks like model extraction, training data leakage, and unsafe generation -- overlooking the impact of traditional system vulnerabilities. This work investigates how traditional software and hardware vulnerabilities can complement LLM-specific algorithmic attacks to compromise the integrity of a compound AI pipeline. We demonstrate two novel attacks that combine system-level vulnerabilities with algorithmic weaknesses: (1) Exploiting a software code injection flaw along with a guardrail Rowhammer attack to inject an unaltered jailbreak prompt into an LLM, resulting in an AI safety violation, and (2) Manipulating a knowledge database to redirect an LLM agent to transmit sensitive user data to a malicious application, thus breaching confidentiality. These attacks highlight the need to address traditional vulnerabilities; we systematize the attack primitives and analyze their composition by grouping vulnerabilities by their objective and mapping them to distinct stages of an attack lifecycle. This approach enables a rigorous red-teaming exercise and lays the groundwork for future defense strategies.",
+    "title_zh": "级联：组合软硬件攻击组件以放大复合AI系统中的对抗性威胁",
+    "abstract_zh": "生成式AI的快速发展催生了复合型AI系统——由多个大语言模型（LLM）、软件工具和数据库系统组成的流水线。复合型AI系统建立在运行于分布式硬件基础设施之上的传统分层软件栈之上。这些多样化的软件组件中，许多都容易受到《通用漏洞披露》（CVE）数据库中记录的传统安全缺陷的影响，而底层的分布式硬件基础设施则依然暴露于时序攻击、比特翻转故障和基于功耗的侧信道攻击之下。目前，研究主要关注大语言模型特有的风险，如模型窃取、训练数据泄露和不安全生成等问题，却忽视了传统系统漏洞所带来的影响。本文研究了传统软件和硬件漏洞如何与针对大语言模型的算法攻击相结合，从而破坏复合AI流水线的完整性。我们展示了两种新型攻击，它们将系统级漏洞与算法弱点结合起来：（1）利用软件代码注入漏洞，结合针对防护机制的Rowhammer攻击，将未经修改的越狱提示注入大语言模型，导致AI安全机制失效；（2）篡改知识数据库，诱导大语言模型代理将用户的敏感数据传输至恶意应用程序，从而破坏机密性。这些攻击凸显了必须重视传统漏洞的问题。我们对攻击原语进行了系统化梳理，并通过按攻击目标对漏洞进行分类，并将其映射到攻击生命周期的不同阶段，分析了它们的组合方式。这一方法支持更严谨的红队演练，并为未来防御策略的构建奠定了基础。"
+  },
+  {
+    "date": "2026-3-12",
+    "title": "Implementation of a 16:1 Multiplexer and 1:16 Demultiplexer on a Single Chip Using Sky130 PDK and Open-Source EDA Tools for Silicluster",
+    "authors": "Uriel Jaramillo-Toral, Susana Ortega-Cisneros, Emilio Isaac Baungarten-Leon, Erick Jaramillo-Toral, Héctor Emmanuel Muñoz Zapata",
+    "publish": "2025 IFIP/IEEE 33rd International Conference on Very Large Scale Integration (VLSI-SoC)",
+    "url": "https://doi.org/10.1109/vlsi-soc64688.2025.11421739",
+    "source": "IEEE",
+    "abstract": "This paper presents the design and implementation of a 16-to-1 multiplexer (MUX) and a 1-to-16 demultiplexer (DEMUX) integrated onto a single chip using the SkyWater 130 nm process design kit and open-source electronic design automation (EDA) tools. These components are part of the Silicluster project, a scalable architecture aimed at integrating 256 independent projects, including digital, analog, and mixed-signal circuits, on a single silicon die. The design flow employs Xschem for schematic capture, Magic for layout, and Netgen for simulation and layout-versus-schematic (LVS) verification, providing costeffective, accessible, and flexible solutions for circuit design. The implemented circuits achieved a cut-off frequency of 398.1 MHz and a power consumption of 1.488 mW, demonstrating the correct functionality and efficiency of the proposed design. These results highlight the potential of open-source tools for creating functional and scalable circuits, contributing to a sustainable and modular approach to semiconductor development by reducing chip fabrication costs.",
+    "title_zh": "使用Sky130 PDK和开源EDA工具在单芯片上实现16:1多路复用器和1:16多路分解器用于Silicluster",
+    "abstract_zh": "本文介绍了一款采用SkyWater 130 nm工艺设计套件和开源电子设计自动化（EDA）工具，在单芯片上集成实现的16选1多路复用器（MUX）和1选16多路解复用器（DEMUX）的设计与实现。这些组件属于Silicluster项目的一部分，该项目是一种可扩展的架构，旨在将包括数字、模拟和混合信号电路在内的256个独立项目集成于单一硅芯片上。设计流程采用Xschem进行原理图绘制，Magic进行版图设计，以及Netgen进行仿真和版图与原理图对比（LVS）验证，为电路设计提供了低成本、易获取且灵活的解决方案。所实现的电路达到了398.1 MHz的截止频率和1.488 mW的功耗，验证了所提出设计的正确功能与高效性。这些结果凸显了开源工具在创建功能性强、可扩展电路方面的潜力，通过降低芯片制造成本，推动半导体开发向可持续化和模块化方向发展。"
+  },
+  {
+    "date": "2026-3-12",
+    "title": "Target-Heading-Coordinate-Frame Formation Tracking Control for Fixed-Wing UAVs in 3D Space Under Asymmetric Constraints",
+    "authors": "Lei Tian, Hao Chen, Haozhe Wu, Ming Chen, Xiangke Wang",
+    "publish": "IEEE Transactions on Aerospace and Electronic Systems",
+    "url": "https://doi.org/10.1109/taes.2026.3673313",
+    "source": "IEEE",
+    "abstract": "This paper investigates the target-heading-coordinate-frame formation tracking control problem of fixed-wing UAVs in 3D space. Conventional fixed formation tracking typically requires that the formation configuration remains invariant in inertial space during the tracking process. However, in practical applications, it is often desirable for the formation configuration to adapt dynamically according to changes in the heading angle of leader, which can be seen as tracking target, leading to a more general formation configuration termed target-heading-coordinate-frame formation, which is more suitable for encirclement and interception missions. This paper employs 3D UAV motion models and proposes a robust controller based on sliding mode theory, which ensures resilience to disturbances while explicitly accounting for asymmetric constraints on linear and angular velocities. The convergence of the formation tracking is rigorously established via Lyapunov stability theory. Meanwhile, when the formation configuration simplifies to either conventional fixed formation tracking or trajectory tracking, the angular velocity information of the leader is not required, providing an advantage over existing approaches. Simulation results including numerical simulations hardware-in-the-loop (HiL) experiments validate the effectiveness and correctness of the proposed theoretical approach.",
+    "title_zh": "三维空间中非对称约束下的固定翼无人机目标-航向-坐标系编队跟踪控制",
+    "abstract_zh": "本文研究了固定翼无人机在三维空间中的目标航向坐标系编队跟踪控制问题。传统的固定编队跟踪通常要求在跟踪过程中编队构型在惯性空间中保持不变。然而，在实际应用中，往往希望编队构型能够根据领航者（即目标）航向角的变化动态调整，从而形成一种更为通用的“目标航向坐标系编队”构型，这种构型更适用于包围和拦截任务。本文采用三维无人机运动模型，基于滑模控制理论设计了一种鲁棒控制器，该控制器在显式考虑线速度和角速度的非对称约束的同时，具备抗干扰能力。通过李雅普诺夫稳定性理论严格证明了编队跟踪的收敛性。此外，当编队构型退化为传统的固定编队跟踪或轨迹跟踪时，所提方法无需获取领航者的角速度信息，相较于现有方法具有优势。数值仿真和硬件在环（HiL）实验结果验证了所提出理论方法的有效性和正确性。"
+  },
+  {
+    "date": "2026-3-12",
+    "title": "A Zero-overhead Flow for Security Closure",
+    "authors": "Mohammad Eslami, Ashira Johara, Kyungbin Park, Samuel Pagliarini",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2026.3673490",
+    "source": "IEEE",
+    "abstract": "In the traditional Application-Specific Integrated Circuit (ASIC) design flow, the concept of timing closure implies to reach convergence during physical synthesis such that, under a given area and power budget, the design works at the targeted frequency. However, security has been largely neglected when evaluating the Quality of Results (QoR) from physical synthesis. In general, commercial place & route tools do not <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">understand</i> security goals. In this work, we propose a modified ASIC design flow that is security-aware and, differently from prior research, does not degrade QoR for the sake of security improvement. Therefore, we propose a first-of-its-kind zero-overhead flow for security closure. Our flow is concerned with two distinct threat models: (i) insertion of Hardware Trojans (HTs) and (ii) physical probing/fault injection. Importantly, the flow is entirely executed within a commercial place & route engine and is scalable. In several metrics, our security-aware flow achieves the best-known results for the ISPD’22 set of benchmark circuits while incurring negligible design overheads due to security-related strategies. Finally, we open source the entire methodology (as a set of scripts) and also share the protected circuits (as design databases) for the benefit of the hardware security community.",
+    "title_zh": "一种零开销的安全闭环流程",
+    "abstract_zh": "在传统的专用集成电路（ASIC）设计流程中，时序收敛的概念是指在给定面积和功耗预算下，通过物理综合实现设计收敛，使其能够达到目标工作频率。然而，在评估物理综合的质量结果（QoR）时，安全性长期以来被忽视。通常，商用的布局布线工具并不理解安全目标。在本研究中，我们提出了一种具备安全意识的改进型ASIC设计流程，与以往研究不同的是，该流程在提升安全性的同时不会降低QoR。因此，我们首次提出了一种零开销的安全收敛流程。该流程主要针对两种不同的威胁模型：（i）硬件木马（HT）的插入；（ii）物理探测和故障注入。重要的是，该流程完全在商用布局布线引擎内执行，具有良好的可扩展性。在多个指标上，我们的安全感知流程在ISPD’22基准电路集上实现了目前已知的最佳结果，而因安全相关策略引入的设计开销可忽略不计。最后，我们公开了整个方法论（以脚本集形式），并共享了受保护的电路（以设计数据库形式），以造福硬件安全研究社区。"
+  },
+  {
+    "date": "2026-3-12",
+    "title": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems Publication Information",
+    "authors": "N/A",
+    "publish": "IEEE Journal on Emerging and Selected Topics in Circuits and Systems",
+    "url": "https://doi.org/10.1109/jetcas.2026.3666640",
+    "source": "IEEE",
+    "abstract": null,
+    "title_zh": "IEEE新兴与专题选刊：电路与系统期刊 出版信息",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-12",
+    "title": "EmFIA: A Novel Emulation-based Fault Injection Vulnerability Assessment Framework at RTL Level",
+    "authors": "Tanvir Rahman, Shuvagata Saha, Sujan Kumar Saha, Farimah Farahmandi, Mark Tehranipoor",
+    "publish": "2025 IFIP/IEEE 33rd International Conference on Very Large Scale Integration (VLSI-SoC)",
+    "url": "https://doi.org/10.1109/vlsi-soc64688.2025.11421747",
+    "source": "IEEE",
+    "abstract": "Fault-injection attacks (FIA) intentionally disrupt circuit behavior allowing adversaries to bypass safety mechanisms, disrupt system functionality, or extract sensitive information, thereby posing severe risks to the security and reliability of modern System-on-Chips (SoCs). However, pre-silicon security assessments targeting FIA predominantly rely on gate-level simulation or late-stage layout analysis, which are slow, limited in coverage, and often fail to capture realistic operating conditions—leaving critical vulnerabilities undetected until post-silicon stages. To address these limitations, we propose EmFIA, an emulation-driven register-transfer level (RTL) fault injection assessment framework designed to analyze security-critical vulnerabilities against FIA. EmFIA systematically analyzes securitycritical signals in a design by modeling the faults in hardware emulation platform, inserting SystemVerilog assertions, and monitoring security property violations. Demonstrated on a RISC-V SoC and standalone AES-128 and RSA-128 cores, EmFIA enables rapid exploration of fault scenarios, achieving speedups of several orders of magnitude compared to exhaustive gate-level simulation. EmFIA provides designers with fast, property-aware security insight early in the design cycle, significantly strengthening hardware resilience prior to fabrication.",
+    "title_zh": "EmFIA：一种基于仿真的RTL级故障注入漏洞评估新框架",
+    "abstract_zh": "故障注入攻击（FIA）通过故意扰乱电路行为，使攻击者能够绕过安全机制、破坏系统功能或提取敏感信息，从而对现代片上系统（SoC）的安全性和可靠性构成严重威胁。然而，目前针对FIA的硅前安全评估主要依赖于门级仿真或后期版图分析，这些方法速度慢、覆盖范围有限，且往往无法反映真实的运行条件，导致关键漏洞直到硅后阶段才被发现。为解决这些局限性，我们提出了EmFIA——一种基于仿真的寄存器传输级（RTL）故障注入评估框架，用于分析针对FIA的安全关键漏洞。EmFIA通过在硬件仿真平台上建模故障、插入SystemVerilog断言并监控安全属性违规，系统性地分析设计中的安全关键信号。在RISC-V SoC以及独立的AES-128和RSA-128核心上的实验表明，EmFIA能够快速探索各类故障场景，相比穷尽式的门级仿真可实现数个数量级的速度提升。EmFIA使设计人员能够在设计早期快速获得面向安全属性的洞察，显著增强芯片在制造前的硬件抗攻击能力。"
+  },
+  {
+    "date": "2026-3-12",
+    "title": "Application and Detection of Hardware Trojans Applied to Valid Data States of NCL Combinational Circuits",
+    "authors": "João Pedro Pereira Magalhães, Tales Cleber Pimenta, Diogo Leonardo Ferreira Silva",
+    "publish": "2025 IFIP/IEEE 33rd International Conference on Very Large Scale Integration (VLSI-SoC)",
+    "url": "https://doi.org/10.1109/vlsi-soc64688.2025.11421725",
+    "source": "IEEE",
+    "abstract": "The globalization of digital circuit manufacturing has reduced costs and enabled large-scale production. However, reduced visibility into the supply chain can lead to supply issues and the insertion of malicious modifications into the original design. Hardware Trojans are alterations introduced into circuits to degrade performance, change functionality, or leak information. This paper proposes the application of the detection method for Null Convention Logic (NCL) combinational circuits, targeting the valid data states (’01’ and ‘10’). Furthermore, it reviews existing methods for detecting Hardware Trojans in NCL architectures. The propose method investigated is based on probabilistic transition calculations. Within this framework, the output probabilities of each logic element-specifically, the likelihood of transitioning to a ‘ 10 ‘ or ‘ 01 ‘ state-are computed based on the corresponding input probabilities. Consequently, should unauthorized modifications be present, the algorithm identifies them by detecting statistical divergences between the probabilistic values calculated for the golden (original) circuit and the circuit under test.",
+    "title_zh": "应用于NCL组合电路有效数据状态的硬件木马的实现与检测",
+    "abstract_zh": "数字电路制造的全球化降低了成本，并实现了大规模生产。然而，供应链透明度的降低可能导致供应问题，以及在原始设计中被恶意篡改。硬件木马是指被引入电路中的非法修改，其目的可能是降低性能、改变功能或泄露信息。本文提出了一种针对惰性约定逻辑（Null Convention Logic, NCL）组合电路的检测方法，该方法聚焦于有效数据状态（“01”和“10”）。此外，本文还回顾了现有针对NCL架构中硬件木马的检测方法。所研究的方法基于概率转移计算，在该框架下，根据各逻辑单元的输入概率，计算其输出概率——特别是转移到“10”或“01”状态的可能性。因此，若电路中存在未经授权的修改，该算法可通过检测“黄金”（原始）电路与待测电路之间概率值的统计差异，识别出这些异常。"
+  },
+  {
+    "date": "2026-3-12",
+    "title": "Deus Ex LLMs: AI vs Humans in Post-Quantum Cryptographic Hardware Code Generation",
+    "authors": "Ethan Cornett, Rahul Magesh, Sharath Pendyala, Elif Bilge Kavun, Aydin Aysu",
+    "publish": "2025 IFIP/IEEE 33rd International Conference on Very Large Scale Integration (VLSI-SoC)",
+    "url": "https://doi.org/10.1109/vlsi-soc64688.2025.11421711",
+    "source": "IEEE",
+    "abstract": "Emerging Post-Quantum Cryptographic (PQC) schemes such as FALCON demand highly optimized hardware implementations to meet strict area and execution time constraints on embedded devices. Traditional hardware designs rely heavily on expert-crafted Register Transfer Level (RTL) or High Level Synthesis (HLS) code, which is time-consuming and error-prone. In this work, we explore the use of large language models (LLMs) for accelerating the development of cryptographic hardware, focusing on FALCON’s performance-critical Samplerz subroutine. We propose a design flow that iteratively leverages LLMs to generate, refine, and evaluate synthesizable C code using HLS tools. We analyze generated designs across a range of models (e.g., GPT-4, Claude, Gemini, Grok), compare them with prior hand-crafted RTL designs, and report implementation metrics including Area-Delay Product (ADP) and synthesis convergence. Alongside achieving implementations within 4% execution time and 30% area of expert-tuned code, our results demonstrate that LLMs can discover novel hardware optimizations. We finally identify key challenges in prompt engineering, numerical stability, and testbench overfitting, and provide actionable recommendations for future AI-assisted hardware design frameworks.",
+    "title_zh": "Deus Ex 大模型：人工智能与人类在后量子密码硬件代码生成中的较量",
+    "abstract_zh": "新兴的后量子密码学（PQC）方案（如FALCON）要求在嵌入式设备上实现高度优化的硬件，以满足严格的面积和执行时间限制。传统的硬件设计严重依赖专家手工编写的寄存器传输级（RTL）或高级综合（HLS）代码，这一过程耗时且容易出错。在本研究中，我们探索利用大语言模型（LLM）加速密码硬件开发，重点关注FALCON中性能关键的Samplerz子程序。我们提出了一种设计流程，通过迭代方式利用LLM生成、优化并评估可综合的C代码，并结合HLS工具进行综合。我们分析了多种模型（如GPT-4、Claude、Gemini、Grok）生成的设计方案，将其与先前手工设计的RTL方案进行比较，并报告了包括面积延迟积（ADP）和综合收敛性在内的实现指标。实验结果表明，LLM生成的实现方案在执行时间上仅比专家调优代码多4%，面积多30%，同时LLM还能发现新颖的硬件优化方法。最后，我们指出了在提示工程、数值稳定性以及测试平台过拟合方面面临的关键挑战，并为未来AI辅助硬件设计框架提供了切实可行的建议。"
+  },
+  {
+    "date": "2026-3-12",
+    "title": "ML-Guided Branch Predictor Optimization for Embedded RISC-V SoCs",
+    "authors": "Umer Shahid, Muhammad Tahir, Bilal Zafar",
+    "publish": "IEEE Embedded Systems Letters",
+    "url": "https://doi.org/10.1109/les.2026.3673369",
+    "source": "IEEE",
+    "abstract": "This paper explores branch predictor design for the CVA6 RISC-V core using gem5 simulation and machine learning-driven parameter optimization with comprehensive validation and cross-architecture analysis. Seven predictors are systematically evaluated using a multi-dimensional framework capturing performance, power, and embedded-specific metrics. Optuna-based tuning with Tree-structured Parzen Estimator explores 2,847 configurations to optimize energy-delay and area-performance trade-offs. Results show ML-optimized tournament predictors achieve 23.7% better performance than static predictors and 8.4% improvement over default configurations, while consuming 31% more power. The optimized bi-modal predictor emerges as optimal for power-constrained IoT applications, offering 94% of tournament predictor performance at 42% lower power consumption. Cross-architecture comparison with ARM Cortex-A53 reveals 9.3% better prediction accuracy for RISC-V with equivalent complexity. The framework provides validated workload-specific recommendations for embedded RISC-V systems with statistical confidence intervals and failure case analysis.",
+    "title_zh": "面向嵌入式RISC-V片上系统的机器学习引导的分支预测器优化",
+    "abstract_zh": "本文探讨了基于gem5仿真和机器学习驱动的参数优化方法，对CVA6 RISC-V核心的分支预测器设计进行了系统研究，并开展了全面验证与跨架构分析。采用多维评估框架，系统性地评测了七种分支预测器在性能、功耗及嵌入式特定指标方面的表现。利用基于Optuna的Tree-structured Parzen Estimator（TPE）算法，搜索了2,847种配置组合，以优化能效延迟与面积性能之间的权衡。实验结果表明，经机器学习优化的 Tournament 预测器相比静态预测器性能提升23.7%，相比默认配置提升8.4%，但功耗增加31%。而在功耗受限的物联网应用中，优化后的双模（bi-modal）预测器表现最优，其性能达到Tournament预测器的94%，功耗却低42%。与ARM Cortex-A53的跨架构对比显示，在相同复杂度下，RISC-V实现了高出9.3%的预测准确率。本研究提出的框架可为嵌入式RISC-V系统提供经过验证的、针对特定工作负载的设计建议，并包含统计置信区间与失效案例分析。"
+  },
+  {
+    "date": "2026-3-12",
+    "title": "Design and Implementation of a Multi-Agent Testing Platform for Autonomous Driving Simulation",
+    "authors": "Xiaoyong Zhang, Jianrong Xu, Sen Wang, Jiaxiang Zhu, Youlun Zheng, Xizheng Wang, Xiaochun Zhang",
+    "publish": "2025 6th International Conference on Computers and Artificial Intelligence Technology (CAIT)",
+    "url": "https://doi.org/10.1109/cait68620.2025.11424881",
+    "source": "IEEE",
+    "abstract": "High-fidelity simulation is essential for validating autonomous driving systems in diverse and safety-critical conditions, and without the cost and risk of real-world testing. However, existing platforms often lack realistic multi-agent interaction, comprehensive scenario coverage, and standardized closed-loop evaluation. This paper presents a modular multi-agent testing platform for autonomous driving simulation supporting both software-in-the-loop (SIL) and hardware-in-the-loop (HIL) testing. The platform integrates scenario generation, agent behavior modeling, multi-modal sensor simulation, and a four-dimensional evaluation framework covering safety, efficiency, comfort, and robustness. A transformer-based agent model with context-aware embedding, hierarchical temporal windows, and dual-query decoding captures complex inter-agent interactions in dense traffic. Experiments with up to 500 concurrent agents in realistic urban layouts with 0.78 RMM score demonstrate that the platform achieves high scalability and temporal fidelity, while enabling reproducible, statistically rigorous comparisons with rule-based and learningbased baselines.",
+    "title_zh": "自动驾驶仿真多智能体测试平台的设计与实现",
+    "abstract_zh": "高保真仿真对于在多样化且涉及安全的关键条件下验证自动驾驶系统至关重要，同时避免了实车测试的成本与风险。然而，现有仿真平台通常缺乏真实的多智能体交互、全面的场景覆盖能力以及标准化的闭环评估机制。本文提出了一种模块化的多智能体测试平台，支持软件在环（SIL）和硬件在环（HIL）测试，用于自动驾驶仿真。该平台集成了场景生成、智能体行为建模、多模态传感器仿真，以及涵盖安全性、效率性、舒适性和鲁棒性的四维评估框架。所提出的基于Transformer的智能体模型引入了上下文感知嵌入、分层时间窗口和双查询解码机制，能够捕捉密集交通中复杂的智能体间交互行为。在真实城市布局中开展的实验包含多达500个并发智能体，取得了0.78的RMM评分，结果表明该平台具备高可扩展性和时间保真度，同时支持与基于规则和基于学习方法的基线模型进行可重复、统计严谨的对比分析。"
+  },
+  {
+    "date": "2026-3-12",
+    "title": "A Case Study on the Migration of a High-Level PI Controller to ASIC-Compatible HDL Representation",
+    "authors": "Francisca Donoso, Nelson Salvador, Jorge Marin, Christian A. Rojas, Gonzalo Carvajal",
+    "publish": "2025 IFIP/IEEE 33rd International Conference on Very Large Scale Integration (VLSI-SoC)",
+    "url": "https://doi.org/10.1109/vlsi-soc64688.2025.11421717",
+    "source": "IEEE",
+    "abstract": "This article presents a structured methodology for migrating digital control algorithms developed in high-level languages into synthesizable HDL suitable for ASIC implementation. A proportional-integral controller for a three-level flying capacitor converter is used as a representative case study to demonstrate the design flow. The methodology encompasses initial modeling using floating-point arithmetic, conversion to fixed-point representation, generation of reference models for validation, translation to C/C++, and high-level synthesis for HDL generation. Preliminary results consider co-simulation to ensure behavioral consistency between the high-level description and the generated HDL. The HDL was successfully synthesized using the open-source LibreLane tool-chain targeting the SkyWater SKY130 PDK. Ongoing work includes FPGA-based prototyping and detailed characterization of the ASIC. The proposed approach establishes a verified and systematic pathway for transitioning high-level control logic to ASIC-ready hardware implementations, preserving the original algorithmic behavior across abstraction levels.",
+    "title_zh": "高阶PI控制器迁移至ASIC兼容HDL表示的案例研究",
+    "abstract_zh": "本文提出了一种结构化的方法，用于将基于高级语言开发的数字控制算法迁移为可综合的硬件描述语言（HDL），以适用于专用集成电路（ASIC）实现。以三电平飞跨电容变换器的PI（比例-积分）控制器作为典型实例，展示了该设计流程。该方法包括使用浮点运算进行初始建模、转换为定点表示、生成用于验证的参考模型、翻译为C/C++代码，以及通过高层次综合生成HDL。初步结果通过协同仿真验证了高级描述与生成的HDL在行为上的一致性。所生成的HDL代码已成功使用面向SkyWater SKY130工艺设计套件（PDK）的开源LibreLane工具链完成综合。目前正在进行的工作包括基于FPGA的原型验证以及对ASIC的详细表征。所提出的方法建立了一条经过验证的、系统化的路径，实现了从高级控制逻辑到可用于ASIC的硬件实现的转换，同时在不同抽象层级间保持了原始算法行为的一致性。"
+  }
+]
