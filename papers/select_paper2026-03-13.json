@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-3-13",
+    "title": "Trap Finite State Machines with Delays: Testing and Evaluation Benchmarks with Adjustable Complexity Bricks",
+    "authors": "Harrison Tolley, Utkarsh Sharma, Hussein Abbass",
+    "publish": "ACM Transactions on Evolutionary Learning and Optimization",
+    "url": "https://doi.org/10.1145/3799989",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "带延迟的陷井有限状态机：具有可调复杂度模块的测试与评估基准",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-13",
+    "title": "A System for Logic Circuits Interpretation from Hand-Drawn Diagrams",
+    "authors": "Alexandru Cristian Moldovan, Constantin Nandra",
+    "publish": "2025 IEEE 21st International Conference on Intelligent Computer Communication and Processing (ICCP)",
+    "url": "https://doi.org/10.1109/iccp68926.2025.11427173",
+    "source": "IEEE",
+    "abstract": "This paper describes an improved solution for the problem of accurate detection and classification of hand-drawn logic circuit components. The solution builds upon previous work which has shown promising initial results in logic gate classification and experimented with connection detection. Herein, we describe an improved connection detection solution, which is based on a YOLO classifier, and evaluate its performance. Additionally, we expand upon the initial collection of classes, adding more complex logic circuit components. The result is an in-memory model that can be used to test the circuit and verify its correctness. Throughout the paper, we provide an overview of our solution and describe a series of test scenarios we devised to evaluate the proposed solution. Index Terms-logic circuit classification, neural networks, deep learning, optical character recognition",
+    "title_zh": "一种从手绘图中解读逻辑电路的系统",
+    "abstract_zh": "本文提出了一种改进的解决方案，用于精确检测和分类手绘逻辑电路元件。该方案在先前研究的基础上进行优化，此前的研究在逻辑门分类方面已展现出良好的初步成果，并对连接检测进行了探索。本文介绍了一种基于YOLO分类器的改进型连接检测方法，并对其性能进行了评估。此外，我们扩展了初始类别集合，增加了更多复杂的逻辑电路元件。最终构建出一个内存中的模型，可用于测试电路并验证其正确性。文中全面概述了我们的解决方案，并描述了一系列为评估所提方法而设计的测试场景。  \n索引术语—逻辑电路分类，神经网络，深度学习，光学字符识别"
+  },
+  {
+    "date": "2026-3-13",
+    "title": "Improving Integrated Circuit Manufacturing Flow Through Machine Learning: A Focus on Pre-Silicon Verification",
+    "authors": "Alecsandra Rusu, Marius Neag, Marina Topa",
+    "publish": "2025 IEEE 21st International Conference on Intelligent Computer Communication and Processing (ICCP)",
+    "url": "https://doi.org/10.1109/iccp68926.2025.11427150",
+    "source": "IEEE",
+    "abstract": "Machine learning (ML) has become an increasingly important component in integrated circuit (IC) development, particularly in pre-silicon verification. Traditional methods often face challenges such as slow processing, high resource demands, and difficulties in achieving comprehensive design space coverage. In contrast, adaptive ML techniques concentrate on critical regions of the design space while simultaneously ensuring extensive coverage, enabling faster convergence and lower simulation costs. By employing stopping criteria based on the convergence of a cost function, these methods enhance both accuracy and computational efficiency. As IC complexity continues to rise, the integration of ML-based approaches into the manufacturing flow offers a practical and scalable path toward robust, cost-effective development workflows.",
+    "title_zh": "通过机器学习改进集成电路制造流程：聚焦于硅前验证",
+    "abstract_zh": "机器学习（ML）在集成电路（IC）开发中正变得越来越重要，尤其是在硅前验证阶段。传统方法常常面临处理速度慢、资源消耗高以及难以实现全面设计空间覆盖等挑战。相比之下，自适应机器学习技术能够聚焦于设计空间中的关键区域，同时确保广泛的覆盖范围，从而加快收敛速度并降低仿真成本。通过采用基于代价函数收敛性的停止准则，这些方法在提升准确性的同时也提高了计算效率。随着集成电路复杂性的持续增加，将基于机器学习的方法集成到制造流程中，为实现稳健且具有成本效益的开发工作流程提供了一条切实可行且可扩展的路径。"
+  }
+]
