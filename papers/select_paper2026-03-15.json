@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-3-16",
+    "title": "Proceedings of the Rapid Simulation and Performance Evaluation for Design",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3787501",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "设计的快速仿真与性能评估会议录",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Simulation Methodology for Fast Verification of Cyber-Physical Systems",
+    "authors": "Maxime Gras--Chevalier, Christophe Jégo, Camille Leroux, Franck Guillemard",
+    "publish": "Proceedings of the Rapid Simulation and Performance Evaluation for Design",
+    "url": "https://doi.org/10.1145/3787501.3787505",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "一种用于快速验证信息物理系统的仿真方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "ARCADES: A RISC-V-Coupled Accelerator for Discrete Event Simulation",
+    "authors": "Nils Wilbert, Derek Christ, Timo Grundheber, Matthias Jung",
+    "publish": "Proceedings of the Rapid Simulation and Performance Evaluation for Design",
+    "url": "https://doi.org/10.1145/3787501.3787502",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ARCADES：一种与RISC-V耦合的离散事件仿真加速器",
+    "abstract_zh": "None"
+  }
+]

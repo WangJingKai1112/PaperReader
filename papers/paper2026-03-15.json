@@ -1,0 +1,1550 @@
+[
+  {
+    "date": "2026-3-16",
+    "title": "Design and Key Technology Research of a \"Question-to-Chart/Question-to-Data\" Natural Resource Application System Based on Large Language Model",
+    "authors": "Fei Xiao, Hui Chen, Wenhua Guo, Xi Wang, Jianbo Lu, Ming Xiao, Fanrong Meng",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787363",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Optimize Resource Management for Data Governance using Forecasting Algorithms",
+    "authors": "Ace C. Lagman, Rosicar E. Escober, Jeneffer A. Sabonsolin, Ricky C. Dimaapi, Alvin John M. Paz, Jowell M. Bawica",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787350",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Developing an Immersive Augmented Reality-Based Coffee-Making Skills Training System for Individuals with Intellectual Disabilities",
+    "authors": "Ting Fang Wu, Hui Shan Lo, Tien Chi Huang, Jon Chao Hong",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761928",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Automated Generation and Dynamic Testing of OOP Practice Problems using Javadoc and Reflection",
+    "authors": "Weerachai Anotaipaiboon",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761864",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Digital Academic Information System Evaluation Using Agile Methodology and Software Quality Model Assessment",
+    "authors": "Ace Carpio Lagman, Allen Paul Layos Esteban, Ronel Francisco Ramos, Anthony U Concepcion, Ronnel C Delos Santos, Reden Paul L Rivera",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761853",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Research on Flight Scheduling Optimization Based on Meta-Heuristic Algorithms",
+    "authors": "Jingchuan Wen, Xijun Ke, Feiyu Yang, Yueting Wang, Zongyu Li",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3788542",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Star Target Trajectory Detection Based on Dynamic Programming and Multistage Hypothesis Testing",
+    "authors": "Shaoyuan Zhong, Xinguo Wei",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772695",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Hardware-Efficient Activation Approximation based on Error-Sensitivity Analysis for Deep Neural Networks",
+    "authors": "Juhyuk Ahn, Kwangrae Kim, Chanhoon Kim, Soo-Min Rho, Ki-Seok Chung",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772698",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Scalable Decode Caching in Multi-Core Instruction Set Simulators",
+    "authors": "Martin Kristien, Björn Franke, Nigel Topham, Igor Böhm, Harry Wagstaff, Tom Spink",
+    "publish": "Proceedings of the Rapid Simulation and Performance Evaluation for Design",
+    "url": "https://doi.org/10.1145/3787501.3787504",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "PC-FedAvg: Personalized Federated Learning for One-Class SVMs in Smart City Monitoring Systems",
+    "authors": "Ali Anaissi, Weidong Huang, Jie Hua, Junaid Akram, Basem Suleiman",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787341",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Exploring Student-AI Interactions in Vibe Coding",
+    "authors": "Francis Geng, Anshul Shah, Haolin Li, Nawab Mulla, Steve Swanson, Gerald Soosai Raj, Daniel Zingaro, Leo Porter",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786236",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Enabling Postgraduate Projects in Computing Education through Synthetic Research Data Generation",
+    "authors": "Paul Denny, Kaitlin Riegel, Andrew Luxton-Reilly, Juho Leinonen, James Prather, Stephen MacNeil",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786241",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "AI in the Classroom: How Students Use ChatGPT to Enhance Their Writing",
+    "authors": "Thuy Thi Thanh Nguyen, Kim Thi My Nguyen",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761903",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Evaluating the Implementation of Instructional Design in Teaching Practice: An Evaluation Framework Based on Large Language Models",
+    "authors": "Rui-Qing Du, Zeng-Zhao Chen, Zhi-Feng Wang",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3769266",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Developing an Adaptive Personalized Learning System to Enhance English Shadowing and Listening Comprehension",
+    "authors": "Zeng-Wei Hong, Ming-Hsiu Michelle Tsai, Wai Khuen Cheng, Shi-En Li",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761886",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Comparative Study of Graph-Based, Community-Based, and Generative Models for Top-N Recommendation",
+    "authors": "Anh H. Nguyen, Lan T. H. Nguyen, Anh D. Do, Ban Q. Tran",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772700",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Pilot's Hand Positioning for Task Analysis using RBG-D Image Sequences",
+    "authors": "Xuewen Zuo, Yifan He, Ying Zhang",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787348",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3787330",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Evaluating CS1-LLM: Integrating LLMs and Examining Student Outcomes in an Introductory Computer Science Course",
+    "authors": "Annapurna Vadaparty, David H. Smith, Samvrit Srinath, Mounika Padala, Christine Alvarado, Jamie Gorson Benario, Leo Porter, Daniel Zingaro",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786234",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Advancements of Topology Control in Internet of Underwater Things",
+    "authors": "Hang Tao, Hanjiang Luo, Yang Zhao, Yinyan Wang, Wei Shi, Jingjing Wang",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787340",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Innovative application of gamification teaching in high school information technology courses",
+    "authors": "Yu-Guo Li, Yi-Ze Liu",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761884",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Navigating research identity and professional development of teacher educators in the digital age",
+    "authors": "Sri Wahyuningsih, Yazid Basthomi, Nunung Suryati, Maria Hidayati, Mohd Nazri Latiff Azmi",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761915",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Innovative Applications of Virtual Reality in Education: A Study on Creativity Development through the Integration of Educational Metaverse in STEAM Instruction",
+    "authors": "Cheng-Hung Wang, Chih-Yi Lin, Nien-En Wu",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761863",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Erratum: Recommendation as Instruction Following: A Large Language Model Empowered Recommendation Approach",
+    "authors": "Junjie Zhang, Ruobing Xie, Yupeng Hou, Wayne Xin Zhao, Leyu Lin, Ji-Rong Wen",
+    "publish": "ACM Transactions on Information Systems",
+    "url": "https://doi.org/10.1145/3795143",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Design and Performance Evaluation of Centralized and Decentralized Federated Edge Learning",
+    "authors": "Chi Wan Sung",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787347",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Student motivation as a predictor of self-directed learning with ChatGPT",
+    "authors": "Louie Giray, John Christopher Dimasaka Castillo",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761893",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Bibliometric Mapping of AI-Supported Social Presence in Online Learning Environments: Trends, Collaboration, and Thematic Directions",
+    "authors": "Almer Balingit Gamboa, Erika Mamucud Pineda, Rhiziel Peña Manalese, Aileen Pobre De Leon, Vernon Grace Magat Maniago, Jan Henry Beltran Sunga, Agnes Romero Regala, Roque Francis Badajos Dianelo, John Paul Palo Miranda",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761902",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Speaking Practice: The Positive Psychological Experiences of LOTE Learners on Using AI-Driven Voice Interactive DB-CALL",
+    "authors": "Jade Vincent B. Raymundo, Edward Jay Mansarate Quinto",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3769265",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Knowledge-Based Expert System for Software Methodology Selection using MCDM and Flow Entropy Sort Powered by Large Language Model",
+    "authors": "Moustafa F. Ali, Angie M. Ceniza-Canillo",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787352",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Proceedings of the Rapid Simulation and Performance Evaluation for Design",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3787501",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Exploring Beginner Chinese Learners’ Attitudes Towards AI-Driven Conversations: A Case Study",
+    "authors": "Haixia Wang, Haiyun Zeng, Jia Yu, Ka Du",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761885",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Exploring the Design and Implementation of Situational Digital Games in Elementary School Health Education Curriculum",
+    "authors": "Yin-Yu Chou, Chun-Yen Huang, Shu-Han Lin, Chia-Wei Liu, Pei-You Lin, Ting-Yu Huang, Pin-An Chen",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761899",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Factors influencing C/C++ Intelligent Tutoring System adoption: An analysis of modified technology acceptance model using structural equation modeling",
+    "authors": "Angelo Condol Arguson, Shaneth Cueno Ambat, Elisa Villamor Malasaga, Fanny Cabiso Almeniana, Marilyn Mamansag Sanchez",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761888",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "PHPLearn: A Web Application for Learning PHP Programming",
+    "authors": "Aaron Paul Dela Rosa",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761873",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Hunting Memory WebShells: Detection Practices Based on Dynamic Baselines and Memory Tracing",
+    "authors": "Li Xingchen, Shi Yun, Chen Jiahui",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787345",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Design and Implementation of Multi-Agent Learning Algorithms for Adaptive Knowledge Construction",
+    "authors": "Xin Wang",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3764067",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Developing a Generative AI Interview Skills Training System for Individuals with Disabilities",
+    "authors": "Ting Fang Wu, Hui Shan Lo, Tien Chi Huang, Jon Chao Hong",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761923",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Multi-Agent LLM for Reducing Unsheltered Homelessness",
+    "authors": "Shravya Kothapalli, Samhita Juloori, Vishvaas Vasudeva Rao, Joshna Medisetty, Ahmed Hambaba",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772682",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Web-Based Air Quality Monitoring and Mapping System using Fuzzy Logic Algorithm",
+    "authors": "Shaneth C. Ambat, Ace C. Lagman, Jeneffer A. Sabonsolin, Alejandro D. Magnaye",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787355",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Research on Construction Specifications and Quality Assessment Methods for Multi-source Internet of Things Datasets in Smart City Waterway Transportation",
+    "authors": "Jihong Zhang, Xiaoquan Chen",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787342",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "One Line at a Time: Scaffolding Reflective Code Evaluation through Structured AI Assistance",
+    "authors": "Victor Qiu, Liam Parker, Kaitlin Riegel, Nasser Giacaman, Paul Denny, Stephen MacNeil, James Prather",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786243",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Nusantara Folklore Reimagined: AR as a Tool for Bilingual Communication Development in Generation Alpha",
+    "authors": "Ana Humardhiana, Tamsik Udin, Nur Atikoh",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761897",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "One Credential, Many Journeys: Persona-Aligned Assessment for Postgraduate Microcredentials in Emerging Technologies",
+    "authors": "Laura Tubino, Nayyar Zaidi",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786248",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Unraveling Ambiguities: Analyzing Student Approaches to Solving Probeable Problems",
+    "authors": "Viraj Kumar, Paul Denny, Juho Leinonen, James Prather, Stephen MacNeil",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786255",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "\"You're not learning\": A layered formative intervention to turn AI misuse into a learning opportunity",
+    "authors": "Julien Ugon, Charlotte Pierce, Andrew Cain, Brianna Laird",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786244",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "The effects of AI-assisted teachers designing adaptive teaching programs on reading comprehension of the students with autism spectrum disorder in senior high school",
+    "authors": "Chih-Jung Chang, Yung-Ji Sher",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3769269",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Challenges Faced by EFL Students in Using AI for English Language Learning",
+    "authors": "Kim Thi My Nguyen",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761865",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Exploring Barriers to Inclusive Multimedia Adoption among Filipino Special Education Teachers using the ADKAR Framework",
+    "authors": "Angelie Rapanot Bete, Edward Jay Mansarate Quinto",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761917",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "LLMs Unplugged: Teaching Resources for a ChatGPT World",
+    "authors": "Ben Swift",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786237",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Distributed Privacy-Preserving Measurement: Architecture, Protocols, and Applications",
+    "authors": "Yu Fu, Yingbin Zhang, Qiong Sun, Guozhen Bian, Xin Li, Fazhi Qin",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787351",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Unsupervised object segmentation based on multi-background feature similarity",
+    "authors": "Qifeng Luo, Tengda Huang, Fulin Liu, Zhenzhong Wei",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772705",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Study on the Differential Impact of Technical Tools' Functional Features on Chinese Students' Oral English Fluency Improvement: An Empirical Analysis Based on Age Groups and English Proficiency Levels",
+    "authors": "Zhiqiang Yan, Juniza Md Saad, Tze Jin Wong",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761901",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Design and Evaluation of a Dual-Track Blended Learning Model for Classical Chinese Poetry Instruction",
+    "authors": "Yu-Hui Lin",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761877",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "AI in Education: From an Extended Unified Theory of Acceptance and Use of Technology (UTAUT2) Perspective",
+    "authors": "Jasmine Nadja Junghan Pinugu, Annabel Hui Callos Choy",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761925",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "The influence of ChatGPT acceptance on academic image among college students",
+    "authors": "Louie Giray, John Christopher Dimasaka Castillo",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761892",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Maximizing Learning Outcomes Through Tutorials with AI Engagement using SmartBooks",
+    "authors": "Charliemaign Stanley S. Cruz, Jhoanne Mae C. Toriaga, Jomar Adams Ganding, Shealtiel William S. Chan, Lance Austin G. Elizaga, Marlou Del N. Tarranco",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761857",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Exploring Student Behaviors and Motivations when using AI Teaching Assistants with Optional Guardrails",
+    "authors": "Amanpreet Kapoor, Paul Denny, Leo Porter, Stephen MacNeil, Marc Diaz",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786233",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "How do Students Select an Algorithm Design Technique?",
+    "authors": "Dip Kiran Pradhan Newar, Peter Fowles, Seth Poulsen",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786240",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "I'poyít - Blackfoot Language Learning Application",
+    "authors": "Aishwarya Pani, Harika Chadalavada, Min Chen",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761933",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Using Educational Robots to Enhance Oral Expression in Junior High School Students with Mild Intellectual Disabilities during Mandarin Instruction",
+    "authors": "Shang-Yun Yu, Pei-Ju Lin",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761894",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Maker-centered learning and knowledge construction in university-based innovation space",
+    "authors": "Georgy Laptev, Dmitry Shaytan",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761896",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "An Integrated Approach for Optimal Economic/Emission Dispatch Problems of Power Generation",
+    "authors": "Chao-Lung Chiang",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787335",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Sidelobe Level Control Algorithm for Wide-Angle Scanning 2D Planar Phased Array",
+    "authors": "Xinglong Zhang, Yong Wang, Xianren Kong, Rui Ding, Bin Zhang, Huiying Sun",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787343",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Jumpy – Reinforce Learning about Reinforcement Learning from an AI's Point of View",
+    "authors": "Annika Vielsack, Martina Landman, Tobias Kohn",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786253",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Thought Experiment for Making Computers to Discover Euclidean Geometry Theorems Automatically",
+    "authors": "Zhenbing Zeng, Jian Lu, Yaochen Xu, Niuniu Qi",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787349",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Game-Based Learning in Early Childhood: A Study on Emotional and Scientific Inquiry Growth",
+    "authors": "Jiun-De Tsao, Yung Chiau Tsao, Li-Ying Liu, Jia-Xuan Lin",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761938",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Badui Traditional Weaving Digital Archive as a Cultural Preservation Strategy",
+    "authors": "Adi Dharma Wirayudha, Mita Purbasari Wahidiyat",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761868",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Chinese Parents' Interaction Styles and Language Use in Dialogic Reading with Digital English Storybooks",
+    "authors": "Zhao Lili, Sarimah Shamsudin",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761860",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Research and Application of Mathematics Experimental Teaching Mode Based on Dynamic Mathematical Systems and OBE Concept",
+    "authors": "Jin-Tao Shao, Ru-Xian Chen, Yuan-Yuan Jin, En Zhang, jing Zhang, Yong-Sheng Rao",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761869",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Predicting News Click-Through Rates Using Transformer-Based Multimodal Models",
+    "authors": "Kuoan Liao, Tzren-Ru Chou",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772708",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Research on Path Planning for Intelligent Robots Based on Improved A star Algorithm",
+    "authors": "Mai Jialing, Zhang Xiaohua",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772688",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Preliminary Study on Designing Contextual Game-Based Interactive Chinese Language Learning Materials",
+    "authors": "Yi Hsuan Wang, Hwei Hsuan Wang",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761855",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Optimizing CPU Architecture for Small ML Workloads",
+    "authors": "Khawaja Arsalan Khalid, Jerry Wu",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772709",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "An Improved ICP Point Cloud Registration Method Based on PCA and Point Normal",
+    "authors": "Tong Liu, Can Hao, Chao Gao, Peiling Cui, Weihu Zhou",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772699",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "CEFU-QoS: A Cloud-Edge Federated Unlearning Framework for Rapid QoS Prediction via Collaborative Mechanisms",
+    "authors": "Hongyu Lin, Linhan Fang, Guanchen Du, Yuxuan Guo",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787356",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "TikTok-Based Learning via Move Analysis: Implications for Teaching, Learning, and Digital Entrepreneurship",
+    "authors": "Suhaila Abdullah, Sarimah Shamsudin",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761905",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "AI Adoption Among Teachers: Insights on Concerns, Support, Confidence, and Attitudes",
+    "authors": "Vanessa Baltazar Sibug, Maria Anna David Cruz, Vicky Pineda Vital, Juvy Cruz Grume, Almer Balingit Gamboa, Emerson Quiambao Fernando, Lloyd David Feliciano, Jordan Lansang Salenga, John Paul Palo Miranda",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761881",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Dual-Frequency Wireless Power Transfer Circuit Operating in ISM Bands",
+    "authors": "Fang Wu, Xia Wang, Shan Huang, Xiaojian Xu, Hailong Tan",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787331",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "BIM-IoT Integration for Advancing Dispute Resolution Mechanisms: Challenges and Opportunities",
+    "authors": "Portia Masontaha Khaka, Nkosinathi Khoza, Prince Mlambo, Ehsan Saghatforoush",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787336",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Metaverse Acceptance Study for Hong Kong University Students",
+    "authors": "Justin Lau, Yuk-Ming Tang",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761848",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Augmenting the Creative Process: Integrating Generative AI into Design Thinking for Education and Media Design Innovation",
+    "authors": "Sawitree Promsit",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761920",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Writing Blog Articles using Generative AI: Quantitative Modelling of College Students' Attitude and Intention to Use",
+    "authors": "Bart Andrew Sadsad Mendoza, Hailey Pasal Ferrer, Ramachandra Torres",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761895",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Unpacking Students' Feedback Literacy in Research Writing",
+    "authors": "Mala Rovikasari, Yazid Basthomi, Anik Nunuk Wulyani, Evynurul Laily Zen, Budi Waluyo",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761922",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Machine vs. Students: Non-Designer Evaluation of Interior Renders",
+    "authors": "Chao-Feng Lai, Cheng-Kai Weng",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761934",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Exploring the Psychological and Motivational Factors in AI-Assisted Language Learning among Filipino young adults",
+    "authors": "Christian Jared Cruz, Edward Jay Mansarate Quinto",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761918",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "IoT-Based Fleet Monitoring System with Driver Logging and OBD-II Diagnostics",
+    "authors": "Shanelle Kate Reyes Lopez, Jovita Johann Dungca Tipon, Joshua Visbal, Adriane Brent Castro, Benedict Guarin",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787339",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Artificial Intelligence and Gen Z: Cognitive Shifts in a Tech- Savvy Generation",
+    "authors": "Myrrh Dorothy A Villanueva, Jessica D Nazareth, Jasmine Nadja J Pinugu, Jyrh Alexia B Liwanag, Lu Aleckxa E Lindzae, Alanisse Klaudette M Moral, Bless N. Domael, Jamal Silas F Alvarez",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761874",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Exploring the Adoption Intention in Using AI-Enabled Educational Tools Among Preservice Teachers in the Philippines: A Partial-Least Square Modeling",
+    "authors": "Vanessa Baltazar Sibug, Emerson Quiambao Fernando, Almer Balingit Gamboa, Roque Francis Badajos Dianelo, Agnes Romero Regala, Joseph Alexander Bansil, Jan Henry Beltran Sunga, Vernon Grace Magat Maniago, John Paul Palo Miranda",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761880",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "AI-Assisted Teaching and Learning: A Real Application Of Course Design, Assessment and Evaluation in Higher Education",
+    "authors": "Jinpeng Wang, Yiying Li, Yihe Qian",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761883",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Simulation Methodology for Fast Verification of Cyber-Physical Systems",
+    "authors": "Maxime Gras--Chevalier, Christophe Jégo, Camille Leroux, Franck Guillemard",
+    "publish": "Proceedings of the Rapid Simulation and Performance Evaluation for Design",
+    "url": "https://doi.org/10.1145/3787501.3787505",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Employing Artificial Intelligence for Ideation and Concept Generation: An Empirical Investigation in the Realm of Industrial Design Education",
+    "authors": "Wei-Te Tsai",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761859",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "ETalk: An Intelligent Assessment System for Degree of Course Objectives Achievement in Medical Universities",
+    "authors": "Huaze Xie, Yupeng Ma, Yuanyuan Wang, Liu Yang, Wei Ge, Yukiko Kawai",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761936",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "AI Literacy in Marketing Education: Insights from Thai University Students and Implications for Digital Pedagogy",
+    "authors": "Aphiradee Saranrom",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761875",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Innovative Pedagogy for Enhancing Facilitator Adaptability: Practices of Scenario Simulation and Role-Playing in Immersive Learning",
+    "authors": "Wei-Chieh Yeh, Huang-Liang Lee",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761900",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Leveraging AIoT Technology in Badminton Instruction: Effects on Badminton Skills Learning and Sports Motivation in Junior High School Students",
+    "authors": "Ya-Ting Carolyn Yang, Hsiao-Hsuan Chang, Yi-Zhe Gan, Jeen-Shing Wang",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761916",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Performance Analysis of Integrated Sensing and Communication Networks Based on Stochastic Geometry",
+    "authors": "Xia Wang, Fang Wu, Jun Han, Xiaojian Xu, Hailong Tan, Yuanqiang Yu",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787334",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Robust Fault Detection in Phased Array Antennas via Deep Neural Networks",
+    "authors": "Mohammad Dadras Jeddi Pishkhani, Fujiang Lin",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787333",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "MESA: Secure and Efficient Sample Alignment for Vertical Federated Learning",
+    "authors": "Dan Wang, Ying Wang",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787353",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Exploration of Students' Higher-Order Thinking Skills in Physics Learning: Gender Analysis Using the Rasch Model",
+    "authors": "Fian Rifqi Irsalina, Lina Aviyanti, Mimin Iryanti, Beata Graceshela Muki",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761851",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "How does Artificial Intelligence (AI) change in Nursing Education?",
+    "authors": "Mei Hua Kerry Hsu, Hong Xia Dai, Ming Liu",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761866",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Selective Triplication for Fault-Tolerant Systolic Array Processing Elements",
+    "authors": "Wilfread Guillemé, Gaëtan Lounes, Angeliki Kritikakou, Youri Helen, Robin Gerzaguet, Matthieu Gautier, Cédric Killian, Daniel Chillet",
+    "publish": "Proceedings of the Rapid Simulation and Performance Evaluation for Design",
+    "url": "https://doi.org/10.1145/3787501.3787503",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "An Employee Clustering Method Based on Variational Autoencoder and Agglomerative Clustering",
+    "authors": "Tongkun Xing, Zhibing Xue, Songyang Zhang, Na Su, Ziyi Liu",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772683",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Bridging the Feedback Loop: A Digital Tool for Enhancing Communication Between Course Coordinators and Tutors",
+    "authors": "Dr. Md Masbaul Alam Polash, Xi Wu, Caleb The-Tjoean, David Lowe",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786252",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Designing and Validating Multiple Assessment Options with Equivalent Difficulty for Introductory Programming",
+    "authors": "Charlotte Pierce, Andrew Cain, Lashi Bandara, Nicolas Pallant",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786242",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Online Learning Patterns Unveiled: A Cluster Analysis across Primary and Secondary Schools",
+    "authors": "Qianru Liang, Jingping Du, Laure Lu Chen",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761926",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Profiles of AI Dependency: A Latent Class Analysis of Filipino Students' Academic Competencies",
+    "authors": "Emerson Quiambao Fernando, Julius Ceazar Gatchalian Tolentino, Maria Anna David Cruz, Jordan Lansang Salenga, Vernon Grace Magat Maniago, Juvy Cruz Grume, Erika Mamucud Pineda, Aileen Pobre De Leon, John Paul Palo Miranda",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761871",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "ARCADES: A RISC-V-Coupled Accelerator for Discrete Event Simulation",
+    "authors": "Nils Wilbert, Derek Christ, Timo Grundheber, Matthias Jung",
+    "publish": "Proceedings of the Rapid Simulation and Performance Evaluation for Design",
+    "url": "https://doi.org/10.1145/3787501.3787502",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Plug-and-Play Optimization Framework via Deep-Broad Learning Cascade (DBLS)",
+    "authors": "Xinrui Wang, Xiaorong Hou, Yajian Zeng, Xiaoyu Zhou",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772687",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Sense of Belonging, Trust and Anxiety in STEM in a regional Australian University",
+    "authors": "Raina Mason, Carolyn Seton, Alexander Hendry",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786251",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Ambiguity by Design: Practicing Requirement Clarification through Natural-Language Dialogue with LLMs",
+    "authors": "Kay Tang, Hoanh Nguyen Hosea Tong-Ho, Kaitlin Riegel, Paul Denny, Nasser Giacaman, Juho Leinonen",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786249",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Performance Evaluation of a Contest Management System on Raspberry Pi",
+    "authors": "Chia-Chi Chang, Ting-Yun Cheng, Ching-Chuan Wei",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787357",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Technology-Driven Assessment Reform in Philippine Education: A Historical and Policy-Based Evaluation of Sustainable Innovations",
+    "authors": "Bea Genny M Estabaya, Mary Joy G Cabangunay, Therese Angeli T Manalo, Jasmine Nadja J Pinugu",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761846",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "The Construction of a Newly Developed Measure of Vocational Skill of Store: Feasibility Study of Vocational Training through Virtual Reality with Head-Mounted Displays (HMD) for Students with Intellectual Disability (ID) in Senior High School",
+    "authors": "Chih-Hsuan Chen, Yung-Ji Sher, Hsin-Jung Ting",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3764065",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Current Situation Investigation and Strategy Research of Primary and Secondary School Teachers' Digital Literacy under the Background of Digitalization",
+    "authors": "Fei-Fan Wu, Qing Xu, Zhi-Ming Zhou, Hai-Ru Yang, Hong-Mei Wei",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761898",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Evaluating Handwritten Cheat Sheets for Weekly Quizzes",
+    "authors": "Annabelle Du, Alex Kornblum, Zachary D King, Risa B Myers",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786239",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Decentralized Swarm Learning with Class-Weighted Aggregation for Robust and Privacy-Preserving Cancer Diagnosis",
+    "authors": "Ali Anaissi, Weidong Huang, Jie Hua, Junaid Akram, Ahmad Hussein, Ali Braytee",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787354",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Wide-Range Joint Calibration Method of 2D-3D Sensors for Robot Navigation",
+    "authors": "Jiuzheng Song, Zhen Liu, Chonglin Zhao, Shuyuan Wen, Bingrui Hu",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772707",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Few-shot Object Detection Integrating Multi-level Features and Attention",
+    "authors": "GuoPing Cao, YuHan Wang, Lin Chai",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772674",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Developing Historical Personas using LLMs - An International AI Competition for Engaging Prospective University Students",
+    "authors": "Matthew Stephenson, Marissa Bond",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786235",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Exploring the student perspective on changing from portfolio to traditional assessment in final year software engineering",
+    "authors": "Nicole Ronald, Charlotte Pierce",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786246",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Multi-Agent Reinforcement Learning for Dynamic Software Development Methodology Selection: A Stakeholder-Aware Approach",
+    "authors": "Moustafa F. Ali, Angie M. Ceniza-Canillo",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787358",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Research on Intelligent Teaching of Engineering Equipment Based on CATIA 3D Modeling and Virtual Simulation Technology",
+    "authors": "Xiao-Lu Su, Jia-Peng Liu, Jian-Xun Liu, Juan-Juan Jia",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761870",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "From Self-Efficacy to Tech Intervention: Exploring the Mediating Roles of Digital Health Perception and Product Involvement in Purchase Intention",
+    "authors": "Wan-Ling Chang, Yu-Jing Chuang, Jain-Shing Liu, Jui-Hsiu Chang",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3769267",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Smart Learning: Android-Based Electronic Physics Pocket Book for Circular Motion in High School",
+    "authors": "Abd Aziz Ardiansyah, Hera Aziz Novia, Dadi Rusdiana",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761914",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Erratum: Learning Discrete Identifiers and Dense Vectors for Generative Retrieval",
+    "authors": "Yunfan Xie, Lixin Zou, Xiangyang Luo, Hengyi Cai, Chaoran Zhang, Liming Dong, Xixun Lin, Chenliang Li",
+    "publish": "ACM Transactions on Information Systems",
+    "url": "https://doi.org/10.1145/3795145",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Construction and Practice of an Artificial Intelligence-Empowered Training Model for Physics Experiments from the Perspective of Interdisciplinary Integration",
+    "authors": "Jing Chen, Yudong Li, Yongfa Kong, Zongqiang Chen, Hongwei Zhou",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761932",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Multiplayer Online Game-Based Framework for Exploring Human Contact Behavior and Adaptive Decision-Making During Pandemics",
+    "authors": "Tzai-Hung Wen, Hui-Chun Lee",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3764066",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Effects of Mixed Reality and Video Modeling on Fraction Solving and Self-Regulation Learning in Students with Cognitive Disabilities stochastic multi-objective linear programming",
+    "authors": "Chu-Lung Wu, Tien-Chi Huang, Shin-Ruei Chou",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761867",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Integrating Human Skills and Debates into Computing Education: An Experience Report",
+    "authors": "Eric Fouh",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786231",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Development of Faculty Data Model and Evaluation System Using Decision Tree and Sentiment Analysis Algorithm",
+    "authors": "Ace C. Lagman, Rommel J. Constantino, Jeneffer A. Sabonsolin, Laser Ryan V. Lleno, Ariel A. Dela Cruz, Mary Ann T. Lim",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787360",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Warm-Up Assignment as Scaffolding for First-Year Programming Students",
+    "authors": "Dr. Md Masbaul Alam Polash, Hisham Akhtar",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786245",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Understanding the impacts of adapted activities for learning Agile processes in first-year subjects",
+    "authors": "Nicole Ronald",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786232",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Proceedings of the 28th Australasian Computing Education Conference",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3786228",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Resume-Job Compatibility Scoring Using Graph Neural Networks and Large Language Models",
+    "authors": "Amin Baghbanzadeh, Dan Wu",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787359",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "The Impact of Randomised Questions on Student Outcomes in Introductory Programming Assessment",
+    "authors": "Henry Hickman, Tim Bell",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786247",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Prediction of Educational Resource Label Association Based on Interpretable Deep Learning: Reshaping Personalized Learning",
+    "authors": "Jing-Ru Lu, Pan Wang, Meng-Yi Fu, Hong-Lei Fu, Qi Liu, Xue-Jiao Chen",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761852",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Harnessing SQL for Automated Web Development: An Interactive Learning Platform for Database Students",
+    "authors": "Ken Fong, Kenneth Cheung, Billy Chiu",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761919",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Modelling Intelligent Systems for Smart Cities Using a Unified Framework for Intelligence and Intelligent Systems",
+    "authors": "Harris Wang",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787338",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Navigation based on Deep Reinforcement Learning with Replay Memory",
+    "authors": "Meixia Chen, Rujun Liang, Zhi Chen, Hongqiang Lv, Tianhua Hong",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787346",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3761843",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Virtual Reality in Primary Education: Analyzing Subject Focus, Emerging Challenges, and Research Approaches A Systematic Review",
+    "authors": "LIN CHENG, Riyan Hidayat, Jazihan Mahat",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761879",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Web-Based Physics Education: Leveraging Google Sites for Teaching Parabolic Motion",
+    "authors": "Ihsan Hijria Putra, Raihanati, Riser Fahdiran, Hera Novia, Muslim",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761935",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Reduce or Re-direct? Rethinking Critical Thinking in the Age of AI",
+    "authors": "Muqing Guo, Winn Chow, Arzoo Atiq, Joshua Burridge, Sally Male",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786256",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Research on the Fundamental Principles and Key Technologies of Blockchain-Enabled Mobile Communication Wireless Access Networks",
+    "authors": "Yang Yang, Lei Shu Zhang, Wei Xue, Yao Xian Gu, Lin Zhang, Huan Wang",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787332",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Multi-scale Adaptive Context Fusion for Multi-Modal Emotion Recognition in Conversation",
+    "authors": "Chao Gao, Shaomei Li, Danke Wu, Lixin Ji",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787362",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Smart Governance using an Integrated IoT Model in the Sultanate of Oman: Architecture and Pilots",
+    "authors": "Anjum Zameer Bhat, Faheem Sayeed Masoodi, Said KHAMIS KHALAF Al Musilhi, Jitendra Pandey",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787337",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3772673",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Comparative Study of Machine Learning Algorithms for Handwriting-Based Personality Trait Prediction",
+    "authors": "Parth Bhatnagar, Manjit Sodhi, Sailendra Panigrahi",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772675",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "The Impact of Part-of-Speech on Sentimental Values in Sichuan Dialect Based on Sentiment Analysis of Language Knowledge Base",
+    "authors": "Liang Chen, Yanlong Li, Wenjie Zou, Yuxuan Li, Xianbo Li",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772684",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Designing A Digital Storybook About Hearing Impairment Using High Contrast Colors To Inform Filipino Kindergarten Students of Sta Rosa City, Laguna, Philippines",
+    "authors": "Hailey Pasal Ferrer, Joshua Patrick Marano Lagrimas, Yrrah Lee Chua, Richeljoice Palado Orbeta, Bart Andrew Sadsad Mendoza",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761929",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Exploring Female University Students' Acceptance of AI-Generated Mathematics Songs: An Application of the Technology Acceptance Model",
+    "authors": "Ting-Sheng Weng, Chien-Kuo Li",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3769268",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Multimodal Deep Learning for ATCO Command Lifecycle Modeling and Workload Prediction",
+    "authors": "Kaizhen Tan",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772702",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Finding the Right Balance: Facilitating the Exploration of Sorting Strategies using 3D-Printable Weights and Scales",
+    "authors": "Annika Vielsack, Martina Landman",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786257",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "The Concept of Using Engineering Design Process via Digital Storytelling to Enhance the Teaching Experience for Pre-service Engineering Teachers",
+    "authors": "Phuchit Satitpong, Kanitta Hinon, Jiraphat Promsuraphat",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761924",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "A Study on the Effectiveness of Using Text-to-Image Tools to Enhance Self-Awareness in Taiwanese Junior High School Student with Intellectual Disabilities",
+    "authors": "Tzu-Yin Weng, Pei-Ju Lin, Tzu Hsieh",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761931",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Reframing AI Literacy: Epistemic Injustice, Generational Concerns, and Perceived Well-Being",
+    "authors": "Hiroko Kanoh",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761844",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "AI Tutoring Assistant for E-Learning: Basic Requirements and Framework",
+    "authors": "Qingchun Bai, Lamei Wang, Jun Xiao",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761876",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Perceptlets: Key to Machine Learning",
+    "authors": "Guy Baron Olney, Leland Eugene Olney",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772679",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Automated Personality Prediction through Hindi Handwriting Analysis: A Machine Learning Approach to Graphology",
+    "authors": "Parth Bhatnagar, Manjit Sodhi, Sailendra Panigrahi",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772676",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Multistatic Radar-based Positioning in the ISAC System with Factor Graph Technique",
+    "authors": "Yunqi Wu, Sutong Wei, Meng Cheng",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787344",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "What Do Students Pay Attention to While Watching Others Code?",
+    "authors": "Matthew Rau, John Edwards",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786229",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Exploring LLMs for Assessing Student Contributions in Group Software Development",
+    "authors": "Logan James Nilson, Asma Shakil, Shyamli Sindhwani, Anna Trofimova",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786254",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Current Status and Prospects of Research on Flipped Classroom in English Language Teaching in China and in the World: A Bibliometric Analysis Based on CiteSpace",
+    "authors": "Ziling Gao, Biyu Wu, Letian Wang, Ying Yin, Zhishuang Liu",
+    "publish": "Proceedings of the 2025 9th International Conference on Education and Multimedia Technology",
+    "url": "https://doi.org/10.1145/3761843.3761854",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Synthetic Data Generation for Medical Data Privacy and Improved Classification Performance",
+    "authors": "Madhuri Sakhamuri, Ying Zhu",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772706",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Automating Tumour Localisation in Brain MRI Images by Utilizing a Reward Function based on Reinforcement Learning (RL)",
+    "authors": "Siva Raja P M, Sumithra R P, Vidhya S, Rejini K, Anjana S, Ramanan K",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3779113",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Further Study of Leveraging LLM Tutoring Systems for Non-Native English Speakers in Introductory Computer Science",
+    "authors": "Sriharsha Kavuri, Danae Delgado-Diaz, Kristhian Ortiz, Alex Chao, Ismael Villegas Molina, Benjamin Ochoa, Leo Porter",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786250",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Multi-Scale Adaptive Attention for Time Series Anomaly Detection",
+    "authors": "Waylyn Lee, Tianrong Ye",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772696",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Automated Handwriting Analysis for Personality Assessment Using Machine Learning Techniques",
+    "authors": "Parth Bhatnagar, Manjit Sodhi, Parvathy Rajeev",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772677",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Online Calibration of Binocular Vision Sensor Structural Parameters Based on Kalman Filtering",
+    "authors": "Feng Yan, Zhen Liu, Yaowen Zhu",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772704",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Crop Disease and Pest Identification Based on Deep Learning and Raspberry Pi",
+    "authors": "Keke Wei, Yuanyuan Gao",
+    "publish": "Proceedings of the 2025 7th Asia Conference on Machine Learning and Computing",
+    "url": "https://doi.org/10.1145/3772673.3772703",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Bot or Prof: Comparing the Characteristics of AI-generated and Instructor-written Responses to Student Queries in an Introductory Programming Course Forum",
+    "authors": "Tony Haoran Feng, Steffan Hooper, Paul Denny, Burkhard C. Wünsche, Andrew Luxton-Reilly",
+    "publish": "Proceedings of the 28th Australasian Computing Education Conference",
+    "url": "https://doi.org/10.1145/3786228.3786238",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "TokenSkipping: A Practical and Robust KV Cache Pruning Method for Long-Context LLM Inference",
+    "authors": "Narupol Hongthai, Ekapol Chuangsuwanich",
+    "publish": "Proceedings of the 13th International Conference on Information Technology: IoT and Smart City",
+    "url": "https://doi.org/10.1145/3787330.3787361",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]
