@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2026-03-16",
+    "title": "Token Coherence: Adapting MESI Cache Protocols to Minimize Synchronization Overhead in Multi-Agent LLM Systems",
+    "authors": "Vladyslav Parakhin",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.15183v1",
+    "source": "arXiv",
+    "abstract": "Multi-agent LLM orchestration incurs synchronization costs scaling as O(n x S x |D|) in agents, steps, and artifact size under naive broadcast -- a regime I term broadcast-induced triply-multiplicative overhead. I argue this pathology is a structural residue of full-state rebroadcast, not an inherent property of multi-agent coordination. The central claim: synchronization cost explosion in LLM multi-agent systems maps with formal precision onto the cache coherence problem in shared-memory multiprocessors, and MESI-protocol invalidation transfers to artifact synchronization under minimal structural modification. I construct the Artifact Coherence System (ACS) and prove the Token Coherence Theorem: lazy invalidation attenuates cost by at least S/(n + W(d_i)) when S > n + W(d_i), converting O(n x S x |D|) to O((n + W) x |D|). A TLA+-verified protocol enforces single-writer safety, monotonic versioning, and bounded staleness across ~2,400 explored states. Simulation across four workload configurations yields token savings of 95.0% +/- 1.3% at V=0.05, 92.3% +/- 1.4% at V=0.10, 88.3% +/- 1.5% at V=0.25, and 84.2% +/- 1.3% at V=0.50 -- each exceeding the theorem's conservative lower bounds. Savings of ~81% persist at V=0.9, contrary to the predicted collapse threshold. Contributions: (1) formal MESI-to-artifact state mapping; (2) Token Coherence Theorem as savings lower bound; (3) TLA+-verified protocol with three proven invariants; (4) characterization of conditional artifact access semantics resolving the always-read objection; (5) reference Python implementation integrating with LangGraph, CrewAI, and AutoGen via thin adapter layers.",
+    "title_zh": "令牌一致性：通过调整MESI缓存协议以最小化多智能体大语言模型系统中的同步开销",
+    "abstract_zh": "多智能体大语言模型（LLM）协同编排在采用朴素广播机制时，其同步开销随智能体数量、步骤数和产物规模呈 O(n × S × |D|) 的三重乘性增长，我将此现象称为“广播引发的三重乘性开销”。我认为，这种性能瓶颈是全状态重广播的结构性产物，而非多智能体协同本身固有的特性。本文的核心论点是：LLM 多智能体系统中的同步成本激增问题，在形式上可精确映射到共享内存多处理器中的缓存一致性问题，且 MESI 协议的失效机制只需极少的结构修改，即可迁移应用于产物同步场景。\n\n为此，我构建了“产物一致性系统”（Artifact Coherence System, ACS），并证明了“令牌一致性定理”（Token Coherence Theorem）：惰性失效机制在 S > n + W(d_i) 时，至少可将开销降低 S/(n + W(d_i)) 倍，从而将原始的 O(n × S × |D|) 优化至 O((n + W) × |D|)。通过 TLA+ 形式化验证的协议确保了单写者安全、版本单调递增和有限陈旧性，覆盖了约 2,400 种系统状态。在四种不同工作负载配置下的仿真结果表明，在版本变更率 V=0.05 时节省令牌 95.0% ± 1.3%，V=0.10 时为 92.3% ± 1.4%，V=0.25 时为 88.3% ± 1.5%，V=0.50 时为 84.2% ± 1.3%，均超过定理给出的保守下界。即使在 V=0.9 时，仍保持约 81% 的节省，远优于理论预测的崩溃阈值。\n\n本文贡献如下：（1）建立了 MESI 协议到产物状态的精确形式化映射；（2）提出“令牌一致性定理”作为性能节省的理论下界；（3）设计并以 TLA+ 验证了具备三项不变性（单写者安全、版本单调性、有限陈旧性）的协议；（4）刻画了条件性产物访问语义，回应了“必须始终读取最新状态”的质疑；（5）提供了参考级 Python 实现，通过轻量适配层无缝集成 LangGraph、CrewAI 和 AutoGen 等主流多智能体框架。"
+  },
+  {
+    "date": "2026-03-16",
+    "title": "POLCA: Stochastic Generative Optimization with LLM",
+    "authors": "Xuanfei Ren, Allen Nie, Tengyang Xie, Ching-An Cheng",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.14769v1",
+    "source": "arXiv",
+    "abstract": "Optimizing complex systems, ranging from LLM prompts to multi-turn agents, traditionally requires labor-intensive manual iteration. We formalize this challenge as a stochastic generative optimization problem where a generative language model acts as the optimizer, guided by numerical rewards and text feedback to discover the best system. We introduce Prioritized Optimization with Local Contextual Aggregation (POLCA), a scalable framework designed to handle stochasticity in optimization -- such as noisy feedback, sampling minibatches, and stochastic system behaviors -- while effectively managing the unconstrained expansion of solution space. POLCA maintains a priority queue to manage the exploration-exploitation tradeoff, systematically tracking candidate solutions and their evaluation histories. To enhance efficiency, we integrate an $\\varepsilon$-Net mechanism to maintain parameter diversity and an LLM Summarizer to perform meta-learning across historical trials. We theoretically prove that POLCA converges to near-optimal candidate solutions under stochasticity. We evaluate our framework on diverse benchmarks, including $τ$-bench, HotpotQA (agent optimization), VeriBench (code translation) and KernelBench (CUDA kernel generation). Experimental results demonstrate that POLCA achieves robust, sample and time-efficient performance, consistently outperforming state-of-the-art algorithms in both deterministic and stochastic problems. The codebase for this work is publicly available at https://github.com/rlx-lab/POLCA.",
+    "title_zh": "POLCA：基于大语言模型的随机生成优化",
+    "abstract_zh": "优化复杂系统（从大语言模型提示到多轮智能体）传统上依赖于耗时费力的手动迭代。本文将这一挑战形式化为一个随机生成优化问题，其中生成式语言模型作为优化器，在数值奖励和文本反馈的引导下，探索最优系统配置。我们提出了“基于优先级与局部上下文聚合的优化框架”（Prioritized Optimization with Local Contextual Aggregation, POLCA），该框架可扩展，旨在应对优化过程中的随机性——例如反馈噪声、采样小批量数据以及系统行为的随机性——同时有效管理解空间的无约束扩张。POLCA 采用优先级队列来平衡探索与利用，系统性地跟踪候选解及其评估历史。为提升效率，我们引入了 $\\varepsilon$-Net 机制以保持参数多样性，并设计了 LLM Summarizer 模块，对历史试验进行元学习。我们在理论上证明了 POLCA 在随机环境下能够收敛到近似最优的候选解。我们在多个基准任务上评估了该框架，包括 $τ$-bench、HotpotQA（智能体优化）、VeriBench（代码翻译）和 KernelBench（CUDA 内核生成）。实验结果表明，POLCA 在样本效率和时间效率方面均表现出色，在确定性和随机性问题上均持续优于当前最先进的算法。本工作的代码库已公开发布于 https://github.com/rlx-lab/POLCA。"
+  },
+  {
+    "date": "2026-03-16",
+    "title": "Probabilistic Model Checking Taken by Storm",
+    "authors": "Matthias Volk, Linus Heck, Sebastian Junges, Joost-Pieter Katoen, Tim Quatmann",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.15559v1",
+    "source": "arXiv",
+    "abstract": "This tutorial paper presents a hands-on perspective on probabilistic model checking with the Storm model checker. Storm is a decade-old model checker that excels in performance and a rich Python-based ecosystem, which makes it easy to integrate in various workflows. This tutorial focuses on Markov decision processes (MDP), which are popular in a variety of fields. It demonstrates the basic workflow, from Python-based modeling, model checking with a variety of properties, to the extraction of policies. Further, it showcases the support for recent topics that focus on different types of uncertainty, such as interval MDP and POMDP, and the ability to quickly implement simple algorithms on top of existing data structures.",
+    "title_zh": "概率模型检验遭遇风暴",
+    "abstract_zh": "本教程论文以动手实践的方式介绍了使用Storm模型检测工具进行概率模型检测的方法。Storm是一款已有十年历史的模型检测工具，在性能和丰富的基于Python的生态系统方面表现出色，易于集成到各种工作流程中。本教程重点介绍在多个领域广泛应用的马尔可夫决策过程（MDP），演示了从基于Python的建模、针对多种性质进行模型检测，到策略提取的基本工作流程。此外，还展示了对近期研究热点的支持，例如针对不同类型不确定性（如区间MDP和POMDP）的处理能力，以及在现有数据结构基础上快速实现简单算法的功能。"
+  },
+  {
+    "date": "2026-03-16",
+    "title": "Formalizing and validating properties in Asmeta with Large Language Models (Extended Abstract)",
+    "authors": "Andrea Bombarda, Silvia Bonfanti, Angelo Gargantini, Nico Pellegrinelli",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.15375v1",
+    "source": "arXiv",
+    "abstract": "Writing temporal logic properties is often a challenging task for users of model-based development frameworks, particularly when translating informal requirements into formal specifications. In this paper, we explore the idea of integrating Large Language Models (LLMs) into the Asmeta framework to assist users during the definition, formalization, explanation, and validation of temporal properties. We present a workflow in which an LLM-based agent supports these activities by leveraging the Asmeta specification and the feedback produced by the model checker. This work serves as a proof of concept that illustrates the feasibility and potential benefits of such an integration through representative examples.",
+    "title_zh": "使用大语言模型在Asmeta中形式化与验证属性（扩展摘要）",
+    "abstract_zh": "将非正式需求转化为形式化规约时，编写时序逻辑属性对基于模型的开发框架用户而言通常是一项具有挑战性的任务。本文探讨了将大语言模型（LLM）集成到Asmeta框架中的思路，以协助用户在定义、形式化、解释和验证时序属性的过程中提供支持。我们提出了一种工作流程，其中基于LLM的智能体利用Asmeta规约以及模型检测器生成的反馈来支持上述各项活动。本研究通过代表性示例展示了该集成的可行性与潜在优势，是一项概念验证性工作。"
+  },
+  {
+    "date": "2026-03-16",
+    "title": "Code-A1: Adversarial Evolving of Code LLM and Test LLM via Reinforcement Learning",
+    "authors": "Aozhe Wang, Yuchen Yan, Nan Zhou, Zhengxi Lu, Weiming Lu, Jun Xiao, Yueting Zhuang, Yongliang Shen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.15611v1",
+    "source": "arXiv",
+    "abstract": "Reinforcement learning for code generation relies on verifiable rewards from unit test pass rates. Yet high-quality test suites are scarce, existing datasets offer limited coverage, and static rewards fail to adapt as models improve. Recent self-play methods unify code and test generation in a single model, but face a inherent dilemma: white-box access leads to self-collusion where the model produces trivial tests for easy rewards, yet black-box restriction yields generic tests that miss implementation-specific bugs. We introduce Code-A1, an adversarial co-evolution framework that jointly optimizes a Code LLM and a Test LLM with opposing objectives. The Code LLM is rewarded for passing more tests, while the Test LLM is rewarded for exposing more defects. This architectural separation eliminates self-collusion risks and safely enables white-box test generation, where the Test LLM can inspect candidate code to craft targeted adversarial tests. We further introduce a Mistake Book mechanism for experience replay and a composite reward balancing test validity with adversarial difficulty. Experiments on Qwen2.5-Coder models demonstrate that Code-A1 achieves code generation performance matching or exceeding models trained on human-annotated tests, while significantly improving test generation capability.",
+    "title_zh": "Code-A1：通过强化学习实现代码大模型与测试大模型的对抗性协同进化",
+    "abstract_zh": "代码生成的强化学习依赖于单元测试通过率所提供的可验证奖励。然而，高质量的测试套件十分稀缺，现有数据集覆盖范围有限，且静态奖励机制无法随着模型的提升而动态调整。近期的自对弈方法将代码生成与测试生成统一于单一模型中，却面临一个固有困境：白盒访问容易导致模型自我串通，生成简单的测试以轻松获得奖励；而黑盒限制则产生过于泛化的测试，难以发现实现细节中的特定缺陷。为此，我们提出 Code-A1——一种对抗性协同进化框架，联合优化具有对立目标的代码大语言模型（Code LLM）和测试大语言模型（Test LLM）。其中，Code LLM 因通过更多测试而获得奖励，Test LLM 则因发现更多缺陷而获得奖励。这种架构上的分离消除了自我串通的风险，同时安全地实现了白盒测试生成：Test LLM 可以检视候选代码，进而生成针对性的对抗性测试。我们进一步提出“错误手册”（Mistake Book）机制用于经验回放，并设计了一种复合奖励机制，以平衡测试用例的有效性与对抗难度。在 Qwen2.5-Coder 模型上的实验表明，Code-A1 在代码生成性能上达到甚至超过了使用人工标注测试训练的模型，同时显著提升了测试生成的能力。"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Design and Development of Optical Sensor Emulator for Verification of on-Board HDA Algorithm of Chandrayaan-3",
+    "authors": "Vikas Singh, Shivani Bhargav, Umang Bhatia, Shitisha Bajpai, Pramod Mishra, Tanna Jaimin Hasmukhray, Abhishek Kunal, Ritesh Kumar Sharma, B Saravana Kumar",
+    "publish": "2025 IEEE Microwaves, Antennas, and Propagation Conference (MAPCON)",
+    "url": "https://doi.org/10.1109/mapcon65020.2025.11425952",
+    "source": "IEEE",
+    "abstract": "This paper presents the design and development of an Optical Sensor Emulator (OSE) intended for the verification of the Hazard Detection and Avoidance Processor used in the Chandrayaan-2 and Chandrayaan-3 missions. The OSE is designed to transmit simulated lunar image data to the Data Processing Unit (DPU) via a designated interface, facilitating the testing and validation of the Hazard Detection and Avoidance (HDA)'s functionality within the DPU. The development of the OSE involved the use of VHDL based FPGA design, MATLAB for image pre-processing, LabVIEW for graphical user interface, and <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{C}$</tex> based software module for data transfer over USB interface. The emulator was realized on a custom Kintex-7 FPGA-based mother board with LVDS, USB daughter cards and serves as part of a ground checkout unit. It interfaces with a host PC via USB and connects to the DPU through a dedicated LVDS interface.",
+    "title_zh": "用于验证月船三号星载HDA算法的光学传感器仿真器的设计与开发",
+    "abstract_zh": "本文介绍了一种光学传感器仿真器（OSE）的设计与开发，该仿真器用于验证“月船2号”（Chandrayaan-2）和“月船3号”（Chandrayaan-3）任务中所使用的危险检测与规避处理器（HDA）。OSE通过指定接口向数据处理单元（DPU）发送模拟的月面图像数据，从而支持对DPU中危险检测与规避功能的测试与验证。OSE的开发采用了基于VHDL的FPGA设计、MATLAB进行图像预处理、LabVIEW开发图形用户界面，以及基于C语言的软件模块实现通过USB接口的数据传输。该仿真器实现于一块定制的基于Kintex-7 FPGA的主板上，配备LVDS和USB子板，作为地面检测单元的一部分。OSE通过USB接口与主机PC通信，并通过专用的LVDS接口与DPU连接。"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Proceedings of the Rapid Simulation and Performance Evaluation for Design",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3787501",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "设计用快速仿真与性能评估会议录",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Deep Learning for accelerated debugging in Design Verification and Post Silicon Validation of Scandump design",
+    "authors": "Shreya Jayateerth Joshi, Poonam M Shettar, Sanjoy Saha, Shrinidhi S. Rao, Alok Kumar, Garima Srivastava",
+    "publish": "2025 IEEE 6th International Women in Technology Conference (WINTECHCON)",
+    "url": "https://doi.org/10.1109/wintechcon66724.2025.11430033",
+    "source": "IEEE",
+    "abstract": "As modern System-on-chip (SoC) designs grow in complexity, traditional debug mechanisms involving manual waveform and log analysis struggle to keep up with the volume and intricacies of failures. Complex SoCs integrate multiple application-specific processors posing a challenge in the debugging phase of Design Verification (DV) and Post-Silicon Validation (PSV). We propose Artificial Intelligence (AI) augmented verification strategies to enhance debugging and improve verification efficiency. The proposed work uses Deep learning models alongside SystemVerilog (SV) based assertions in test bench (TB) and Python routines. By leveraging the capability of Recurrent Neural Networks (RNN) to remember sequential data, we attempt to simplify the bus protocol error debug in DV. We observe that the Long short-term memory (LSTM) algorithm consistently outperforms the RNN algorithm in terms of accuracy in bus error detection and classification. LSTM Autoencoder is used for anomaly detection in waveform mining, which is then used to identify required TB or design updates through Python routine. An integrated dashboard improves the efficacy of using this AI-Machine Learning (ML) based solution for debugging. Overall, with this approach, we observed that verification effort became 0.54x.",
+    "title_zh": "深度学习在Scandump设计的验证设计与硅后验证中用于加速调试",
+    "abstract_zh": "随着现代片上系统（SoC）设计复杂性的增加，传统的依赖手动波形和日志分析的调试方法已难以应对故障数量和复杂性的增长。复杂的SoC集成了多个专用处理器，给设计验证（DV）和硅后验证（PSV）阶段的调试带来了巨大挑战。为此，我们提出采用人工智能（AI）增强的验证策略，以提升调试效率并改善验证流程。本研究工作结合深度学习模型、基于SystemVerilog（SV）的断言以及Python脚本，在测试平台（TB）中实现智能化验证。通过利用循环神经网络（RNN）对时序数据的记忆能力，我们尝试简化DV中的总线协议错误调试。实验表明，长短期记忆（LSTM）算法在总线错误检测与分类的准确率方面始终优于传统RNN算法。此外，我们采用LSTM自编码器进行波形挖掘中的异常检测，并通过Python脚本进一步识别测试平台或设计所需的更新内容。集成化的可视化仪表板提升了该AI/机器学习（ML）解决方案在调试中的使用效率。总体而言，采用该方法后，验证工作量降低至原来的0.54倍。"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Enabling Multi-fabric Net Tracing: A Step Towards Holistic EDA System Integration",
+    "authors": "Shweta Kumari, Rohit Kumar, Vidhi Bansal, Tapan Kumar Singh, Amit Kumar, Rudy Couget",
+    "publish": "2025 IEEE 6th International Women in Technology Conference (WINTECHCON)",
+    "url": "https://doi.org/10.1109/wintechcon66724.2025.11430092",
+    "source": "IEEE",
+    "abstract": "As modern electronic systems grow in complexity, driven by advancements in heterogeneous integration, they present significant challenges in ensuring seamless connectivity across multiple design fabrics, encompassing silicon IC, package substrates, printed circuit boards (PCBs), and multiple inter-connected ICs or sub-fabrics. The Electronic Design Automation (EDA) industry is driven to develop unified, system-aware tools. This paper discusses the necessity of multi-fabric net tracing (tracing a single net across multiple IC sub-fabrics, package, and board) and how such capabilities address critical system-level design bottlenecks. We highlight current EDA limitations, propose a solution for integrated tracing support, and argue its significance for faster verification, better co-design, and improved manufacturability.",
+    "title_zh": "启用多结构网络追踪：迈向整体EDA系统集成的重要一步",
+    "abstract_zh": "随着现代电子系统的复杂性不断提高，异构集成技术的进步使得在多个设计结构（包括硅基集成电路、封装基板、印制电路板（PCB）以及多个相互连接的集成电路或子结构）之间实现无缝连接面临巨大挑战。电子设计自动化（EDA）行业因此迫切需要开发统一的、具备系统感知能力的工具。本文探讨了跨多结构网络追踪（即在多个IC子结构、封装和电路板之间追踪单一网络）的必要性，并阐述了此类功能如何解决关键的系统级设计瓶颈。我们指出了当前EDA工具的局限性，提出了一种支持集成追踪的解决方案，并论证了其在加速验证、优化协同设计以及提升可制造性方面的重要意义。"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "MIRAI: Multimodal Intelligence via Reflective agentic AI for enterprise knowledge assistants",
+    "authors": "Priyadarshini Panemangalore Pai, Subrata Sarkar, Vemuri Krishna Sumanth, Vijaya Kirti Gupta, Garima Srivastava, Venkata Subba Rao Manne",
+    "publish": "2025 IEEE 6th International Women in Technology Conference (WINTECHCON)",
+    "url": "https://doi.org/10.1109/wintechcon66724.2025.11430100",
+    "source": "IEEE",
+    "abstract": "Secure and efficient knowledge management based on enterprise chip design and verification documents or bug trackers, pose unique challenges, due to their complex, sensitive, heterogeneous, and multimodal nature. Rapid miniaturization of nodes, sophistication of Intellectual Property (IP)s, and evolution of system-on-chip (SoC) architectures have further added to the demanding scenario, where, within the available enterprise infrastructure, effective solutions have to be developed based on context and requirements of various operational settings. Available state-of-the-art solutions have limited scope of sensitivity to organizational dynamics and smart computational resource planning. In this paper, we present MIRAI- a Model Context Protocol (MCP) integrated Artificial Intelligence (AI) framework that combines language, vision, and structured data understanding through a reflective agentic architecture to provide real-time, contextual and explainable support in Design Verification and Verification (DV&V) tasks. The proposed system has been evaluated across use cases, demonstrating significant gains, i.e., up to 90-95% accuracy in information retrieval, in secure policy information access, AI-based query answering, anomaly detection, debugging, and knowledge mining and functional testing with improved coverage. We believe MIRAI offers a transformative approach to managing and leveraging design data, engineering workflows, and cross-functional team intelligence.",
+    "title_zh": "MIRAI：通过反思型智能体人工智能实现多模态智能的企业知识助手",
+    "abstract_zh": "基于企业芯片设计与验证文档或缺陷跟踪系统的安全高效知识管理，由于其复杂、敏感、异构且多模态的特性，面临着独特的挑战。节点的快速微缩、知识产权（IP）模块的日益复杂化以及片上系统（SoC）架构的演进，进一步加剧了这一挑战。在现有企业基础设施条件下，必须根据不同业务场景的上下文和需求，开发出切实有效的解决方案。当前最先进的解决方案在适应组织动态变化和智能计算资源规划方面仍存在局限性。本文提出MIRAI——一种集成模型上下文协议（Model Context Protocol, MCP）的人工智能（AI）框架。该框架通过一种具有反思能力的代理式架构，融合语言、视觉与结构化数据的理解能力，为设计验证与确认（DV&V）任务提供实时、具备上下文感知能力且可解释的支持。该系统已在多个应用场景中得到评估，结果表明其在信息检索（准确率高达90%-95%）、安全策略信息访问、基于AI的问答、异常检测、调试、知识挖掘以及功能测试（提升测试覆盖率）等方面均取得显著成效。我们认为，MIRAI为管理与利用设计数据、优化工程工作流以及增强跨职能团队的协同智能提供了一种变革性的方法。"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Open-Source Emulation-based AI Framework for Performance Verification in RISC-V SoCs",
+    "authors": "Gorle Pooja, Gummadi Kumar Raju, Kandyana Dharani, M Chinnadurai",
+    "publish": "2025 IEEE 6th International Women in Technology Conference (WINTECHCON)",
+    "url": "https://doi.org/10.1109/wintechcon66724.2025.11430057",
+    "source": "IEEE",
+    "abstract": "The increasing complexity of RISC-V System-on-Chips (SoCs) necessitates scalable and efficient performance verification methodologies. A verification-intensive approach like this demands more than what traditional simulation-based techniques offer and calls for a unified, open-source, emulation-based Al-integrated verification framework. This is aimed at early detection and analysis of performance bottlenecks such as as bandwidth congestion. The current work proposes an analogous infrastructure centered around a modular RISC-V processor that can be simply implemented on Xilinx Vivado, consisting of instruction fetch, decode, ALU, and register file units. A robust addition to this strategy are precisely positioned performance monitors (PMs) to capture essential metrics like throughput, latency, and outstanding buffer depth in real time, which are modeled to guide test refinement and facilitate stream-lined debugging. This structure is augmented with machine learning (ML) models, namely XGBoost, which are trained on the captured metric data to facilitate prediction of input test combinations yielding worst-case scenarios to improve corner-case coverage. This methodology can be validated on open-source RISC-V cores like CVA-6, Rocket Chip, etc., using tools such as Verilator, Renode and FireSim. The efficacy of the discussed structure lies in its high observability, faster turnaround time, and accuracy, delivering practicality in terms of academic research and industrial design to the work under discussion.",
+    "title_zh": "基于开源仿真的人工智能框架在RISC-V SoC性能验证中的应用",
+    "abstract_zh": "RISC-V片上系统（SoC）日益增长的复杂性，要求具备可扩展且高效的性能验证方法。这种高度依赖验证的方法超出了传统基于仿真的技术所能提供的能力，因而需要一个统一的、开源的、基于仿真并集成人工智能的验证框架，以实现对带宽拥塞等性能瓶颈的早期检测与分析。本研究提出了一种围绕模块化RISC-V处理器构建的类似基础设施，该处理器可简便地在Xilinx Vivado平台上实现，包含取指、译码、算术逻辑单元（ALU）和寄存器文件等模块。该策略的一个重要增强是在关键位置部署性能监控器（PMs），用于实时捕获吞吐量、延迟和未完成缓冲深度等关键性能指标，这些数据可用于指导测试优化并促进调试流程的简化。此外，该架构集成了机器学习（ML）模型（如XGBoost），利用采集到的性能数据进行训练，预测可能引发最差情况的输入测试组合，从而提升对边界情况的覆盖能力。该方法可在CVA6、Rocket Chip等开源RISC-V核心上，借助Verilator、Renode和FireSim等工具进行验证。所讨论架构的优势在于其高可观测性、更快的迭代周期以及高准确性，在学术研究和工业设计中均具有较强的实用性。"
+  },
+  {
+    "date": "2026-3-16",
+    "title": "Mission-Based Scenario Generation Method for Integrated Reliability and Safety Testing of Avionics Systems",
+    "authors": "Jinyong Yao, Yuhui Nie, Jingtao Wu, Zhanpeng Ren",
+    "publish": "2025 Global Reliability and Prognostics and Health Management Conference (PHM-Xian)",
+    "url": "https://doi.org/10.1109/phm-xian66756.2025.11427701",
+    "source": "IEEE",
+    "abstract": "In the civil aviation sector, safety requirements for commercial aircraft are exceptionally stringent, with the allowable probability of catastrophic failures constrained below extremely low safety thresholds. Safety verification aims to ensure that the occurrence probabilities of failures across various hazard levels comply with these critical thresholds, whereas reliability verification focuses on evaluating the system’s ability to continuously perform its intended functions under specified conditions. Currently, significant overlaps exist between these two verification processes, particularly in environmental stress testing and functional performance assessments. Traditional independent verification strategies often lead to redundant test resource allocation and prolonged testing cycles, which are increasingly inadequate for addressing the complexity arising from the deep hardware-software integration characteristic of modern avionics systems. This study presents a graph-based methodology for constructing integrated test scenarios. Specifically, it analyzes the correlation between flight mission phases and environmental contexts and establishes a system-level fault propagation network. In this model, components of the flight control system are represented as nodes, while fault propagation paths serve as edges. System functions, mission profiles, and testing timelines are mapped into multidimensional scenario tuples. Guided by the directed graph, fault injection timing and content are systematically selected to design three-dimensional scenario tuples and corresponding fault injection configurations. By reusing overlapping test conditions, the proposed approach significantly enhances verification efficiency while maintaining test completeness and reducing overall costs. This methodology offers an innovative framework for the verification of aeronautical electromechanical systems and demonstrates broad applicability for the integrated verification of complex systems in domains with stringent safety requirements.",
+    "title_zh": "面向任务的航空电子系统可靠性与安全性综合测试场景生成方法",
+    "abstract_zh": "在民用航空领域，商用飞机的安全要求极为严格，灾难性故障发生的允许概率必须低于极低的安全阈值。安全性验证旨在确保各类危险等级故障的发生概率符合这些关键阈值，而可靠性验证则侧重于评估系统在规定条件下持续执行其预定功能的能力。目前，这两类验证过程存在显著重叠，特别是在环境应力测试和功能性能评估方面。传统的独立验证策略常常导致测试资源的重复分配和测试周期的延长，已难以应对现代航电系统软硬件深度集成所带来的复杂性。本研究提出一种基于图论的集成测试场景构建方法。具体而言，该方法分析飞行任务阶段与环境背景之间的关联性，并建立系统级的故障传播网络：在该模型中，飞行控制系统各组件被表示为节点，故障传播路径则作为边；系统功能、任务剖面和测试时间线被映射为多维场景元组。在有向图的引导下，系统化地选择故障注入的时机与内容，以设计三维场景元组及相应的故障注入配置。通过复用重叠的测试条件，该方法在保持测试完整性的前提下显著提升了验证效率，并降低了总体成本。该方法为航空机电系统的验证提供了一种创新性框架，同时在具有严格安全要求的复杂系统集成验证领域展现出广泛的应用前景。"
+  }
+]
