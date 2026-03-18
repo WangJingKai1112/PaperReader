@@ -1,0 +1,189 @@
+[
+  {
+    "date": "2026-03-17",
+    "title": "ODIN-Based CPU-GPU Architecture with Replay-Driven Simulation and Emulation",
+    "authors": "Nij Dorairaj, Debabrata Chatterjee, Hong Wang, Hong Jiang, Alankar Saxena, Altug Koker, Thiam Ern Lim, Cathrane Teoh, Chuan Yin Loo, Bishara Shomar, Anthony Lester",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.16812v1",
+    "source": "arXiv",
+    "abstract": "Integration of CPU and GPU technologies is a key enabler for modern AI and graphics workloads, combining control-oriented processing with massive parallel compute capability. As systems evolve toward chiplet-based architectures, pre-silicon validation of tightly coupled CPU-GPU subsystems becomes increasingly challenging due to complex validation framework setup, large design scale, high concurrency, non-deterministic execution, and intricate protocol interactions at chiplet boundaries, often resulting in long integration cycles. This paper presents a replay-driven validation methodology developed during the integration of a CPU subsystem, multiple Xe GPU cores, and a configurable Network-on-Chip (NoC) within a foundational SoC building block targeting the ODIN integrated chiplet architecture. By leveraging deterministic waveform capture and replay across both simulation and emulation using a single design database, complex GPU workloads and protocol sequences can be reproduced reliably at the system level. This approach significantly accelerates debug, improves integration confidence, and enables end-to-end system boot and workload execution within a single quarter, demonstrating the effectiveness of replay-based validation as a scalable methodology for chiplet-based systems.",
+    "title_zh": "基于ODIN的CPU-GPU架构及其重放驱动的仿真与模拟",
+    "abstract_zh": "CPU与GPU技术的融合是现代人工智能和图形工作负载的关键推动力，它将面向控制的处理能力与大规模并行计算能力相结合。随着系统向基于芯粒（chiplet）的架构演进，由于验证框架搭建复杂、设计规模庞大、高并发性、执行的非确定性以及芯粒边界处复杂的协议交互，紧密耦合的CPU-GPU子系统在流片前的验证变得愈发具有挑战性，常常导致漫长的集成周期。本文介绍了一种回放驱动的验证方法，该方法在集成一个CPU子系统、多个Xe GPU核心以及可配置片上网络（NoC）的过程中开发完成，目标是构建面向ODIN集成芯粒架构的基础SoC模块。通过利用单一设计数据库，在仿真和硬件仿真中实现确定性的波形捕获与回放，能够在系统级可靠地复现复杂的GPU工作负载和协议序列。该方法显著加快了调试过程，提升了集成信心，并在单个季度内实现了端到端的系统启动和工作负载执行，证明了基于回放的验证是一种面向芯粒系统的可扩展且高效的验证方法。"
+  },
+  {
+    "date": "2026-03-17",
+    "title": "InCoder-32B: Code Foundation Model for Industrial Scenarios",
+    "authors": "Jian Yang, Wei Zhang, Jiajun Wu, Junhang Cheng, Shawn Guo, Haowen Wang, Weicheng Gu, Yaxin Du, Joseph Li, Fanglin Xu, Yizhi Li, Lin Jing, Yuanbo Wang, Yuhan Gao, Ruihao Gong, Chuan Hao, Ran Tao, Aishan Liu, Tuney Zheng, Ganqu Cui, Zhoujun Li, Mingjie Tang, Chenghua Lin, Wayne Xin Zhao, Xianglong Liu, Ming Zhou, Bryan Dai, Weifeng Lv",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.16790v1",
+    "source": "arXiv",
+    "abstract": "Recent code large language models have achieved remarkable progress on general programming tasks. Nevertheless, their performance degrades significantly in industrial scenarios that require reasoning about hardware semantics, specialized language constructs, and strict resource constraints. To address these challenges, we introduce InCoder-32B (Industrial-Coder-32B), the first 32B-parameter code foundation model unifying code intelligence across chip design, GPU kernel optimization, embedded systems, compiler optimization, and 3D modeling. By adopting an efficient architecture, we train InCoder-32B from scratch with general code pre-training, curated industrial code annealing, mid-training that progressively extends context from 8K to 128K tokens with synthetic industrial reasoning data, and post-training with execution-grounded verification. We conduct extensive evaluation on 14 mainstream general code benchmarks and 9 industrial benchmarks spanning 4 specialized domains. Results show InCoder-32B achieves highly competitive performance on general tasks while establishing strong open-source baselines across industrial domains.",
+    "title_zh": "InCoder-32B：面向工业场景的代码基础模型",
+    "abstract_zh": "近期的大型代码语言模型在通用编程任务上取得了显著进展。然而，在需要对硬件语义、特定领域语言结构以及严格资源限制进行推理的工业场景中，其性能显著下降。为应对这些挑战，我们推出了InCoder-32B（Industrial-Coder-32B），这是首个参数量达320亿的代码基础模型，统一支持芯片设计、GPU内核优化、嵌入式系统、编译器优化和3D建模等领域的代码智能。通过采用高效的架构，我们从零开始训练InCoder-32B，包括通用代码预训练、精选的工业代码退火训练、中期训练阶段逐步将上下文长度从8K扩展至128K tokens并引入合成的工业推理数据，以及基于执行验证的后训练过程。我们在14个主流通用代码基准和涵盖4个专业领域的9个工业基准上进行了广泛评估。结果表明，InCoder-32B在通用任务上表现出极具竞争力的性能，同时在各类工业领域建立了强大的开源基线。"
+  },
+  {
+    "date": "2026-03-17",
+    "title": "Generative AI for Quantum Circuits and Quantum Code: A Technical Review and Taxonomy",
+    "authors": "Juhani Merilehto",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.16216v1",
+    "source": "arXiv",
+    "abstract": "We review thirteen generative systems and five supporting datasets for quantum circuit and quantum code generation, identified through a structured scoping review of Hugging Face, arXiv, and provenance tracing (January-February 2026). We organize the field along two axes: artifact type (Qiskit code, OpenQASM programs, circuit graphs); crossed with training regime (supervised fine-tuning, verifier-in-the-loop RL, diffusion/graph generation, agentic optimization); and systematically apply a three-layer evaluation framework covering syntactic validity, semantic correctness, and hardware executability. The central finding is that while all reviewed systems address syntax and most address semantics to some degree, none reports end-to-end evaluation on quantum hardware (Layer 3b), leaving a significant gap between generated circuits and practical deployment. Scope note: quantum code refers throughout to quantum program artifacts (QASM, Qiskit); we do not cover generation of quantum error-correcting codes (QEC).",
+    "title_zh": "量子电路与量子编码的生成式人工智能：技术综述与分类",
+    "abstract_zh": "我们通过系统性的范围综述，从 Hugging Face、arXiv 和来源追溯（2026年1月至2月）中识别出用于量子电路和量子代码生成的十三个生成系统及五个支持数据集。我们将该领域按两个维度进行组织：产物类型（Qiskit 代码、OpenQASM 程序、电路图）与训练范式（监督微调、带验证器的强化学习、扩散/图生成、代理优化），并系统性地应用三层评估框架，涵盖语法有效性、语义正确性和硬件可执行性。核心发现是：尽管所有被审查的系统都在一定程度上解决了语法问题，且大多数在某种程度上处理了语义问题，但没有任何系统报告在量子硬件上进行端到端评估（第3b层），这导致生成的电路与实际部署之间存在显著差距。范围说明：本文中的“量子代码”始终指量子程序产物（如 QASM、Qiskit）；我们不涉及量子纠错码（QEC）的生成。"
+  },
+  {
+    "date": "2026-03-17",
+    "title": "A Scalable Open-Source QEC System with Sub-Microsecond Decoding-Feedback Latency",
+    "authors": "Junyi Liu, Yi Lee, Yilun Xu, Gang Huang, Xiaodi Wu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.16203v1",
+    "source": "arXiv",
+    "abstract": "Quantum error correction (QEC) is essential for realizing large-scale, fault-tolerant quantum computation, yet its practical implementation remains a major engineering challenge. In particular, QEC demands precise real-time control of a large number of qubits and low-latency, high-throughput and accurate decoding of error syndromes. While most prior work has focused primarily on decoder design, the overall performance of any QEC system depends critically on all its subsystems including control, communication, and decoding, as well as their integration. To address this challenge, we present an open-source, fully integrated QEC system built on RISC-Q, a generator for RISC-V-based quantum control architectures. Implemented on RFSoC FPGAs, our system prototype integrates real-time qubit control, a scalable distributed multi-board architecture, and the state-of-the-art hardware QEC decoder within a low-latency, high-throughput decoding pipeline, forming a complete hardware platform ready for deployment with superconducting qubits. Experimental evaluation on a three-board prototype based on AMD ZCU216 RFSoCs demonstrates an end-to-end QEC decoding-feedback latency of 446 ns for a distance-3 surface code, including syndrome aggregation, network communication, syndrome decoding, and error distribution. Extrapolating from measured subsystem performance and state-of-the-art decoder benchmarks, the architecture can achieve sub-microsecond decoding-feedback latency up to a distance-21 surface code ($\\sim$881 physical qubits) when scaled to larger hardware configurations.",
+    "title_zh": "一种具有亚微秒级解码反馈延迟的可扩展开源量子纠错系统",
+    "abstract_zh": "量子纠错（QEC）对于实现大规模、容错的量子计算至关重要，但其实际实现仍面临重大的工程挑战。特别是，QEC需要对大量量子比特进行精确的实时控制，并对错误综合征进行低延迟、高吞吐量且准确的解码。尽管以往的研究主要集中在解码器设计上，但任何QEC系统的整体性能都高度依赖于其所有子系统（包括控制、通信和解码）以及它们之间的集成。为应对这一挑战，我们基于RISC-Q（一种面向基于RISC-V的量子控制架构的生成器），提出了一套开源、完全集成的QEC系统。该系统在RFSoC FPGA上实现，集成了实时量子比特控制、可扩展的分布式多板架构，以及最先进的硬件QEC解码器，构建了一个低延迟、高吞吐量的解码流水线，形成了一套可直接用于超导量子比特的完整硬件平台。基于AMD ZCU216 RFSoC的三板原型实验评估表明，针对距离为3的表面码，整个端到端QEC解码-反馈延迟仅为446纳秒，涵盖了综合征聚合、网络通信、综合征解码和错误信息分发全过程。根据各子系统实测性能以及当前最先进的解码器基准数据推算，当扩展至更大规模的硬件配置时，该架构在距离高达21的表面码（约881个物理量子比特）下仍可实现亚微秒级的解码-反馈延迟。"
+  },
+  {
+    "date": "2026-03-17",
+    "title": "Cross-Scale Persistence Analysis of EM Side-Channels for Reference-Free Detection of Always-On Hardware Trojans",
+    "authors": "Mahsa Tahghigh, Hassan Salmani",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.16058v1",
+    "source": "arXiv",
+    "abstract": "Always-on hardware Trojans pose a serious challenge to integrated circuit trust, as they remain active during normal operation and are difficult to detect in post-deployment settings without trusted golden references. This paper presents a reference-free detection framework based on cross-scale persistence analysis of electromagnetic (EM) side-channels, targeting always-on parasitic hardware behavior. The proposed method analyzes EM emissions across multiple time-frequency resolutions and constructs stability maps that capture the consistency of spectral features over repeated executions. Gaussian Mixture Models (GMMs) with Bayesian Information Criterion (BIC) based model selection are used to characterize statistical structure at each scale. We introduce cross-scale saturation, variability, and median mixture complexity metrics that quantify whether statistical structure evolves naturally or remains persistently anchored across resolutions. Experimental results on AES implementations show that Trojan-free designs exhibit scale-dependent variability consistent with transient switching behavior, while always-on Trojans produce persistent statistical signatures that suppress cross-scale evolution. Furthermore, different Trojan classes, such as workload-correlated leakage-information Trojans and independent ring-oscillator Trojans, exhibit distinct persistence patterns. These findings demonstrate that cross-scale persistence provides a physically interpretable and robust assurance signal for unsupervised, reference-free detection of always-on hardware Trojans.",
+    "title_zh": "基于跨尺度持续性分析的电磁侧信道参考无关型常开硬件木马检测",
+    "abstract_zh": "始终开启的硬件木马对集成电路的信任构成了严峻挑战，因为它们在正常运行期间持续活跃，且在部署后环境中若无可信的黄金参考样本则难以检测。本文提出了一种基于电磁（EM）旁信道跨尺度持续性分析的无参考检测框架，旨在识别始终开启的寄生性硬件行为。该方法在多个时间-频率分辨率下分析电磁辐射信号，并构建稳定性图谱，以捕捉频谱特征在多次执行中的一致性表现。通过采用基于贝叶斯信息准则（BIC）进行模型选择的高斯混合模型（GMM），对每个尺度下的统计结构进行表征。本文引入了跨尺度饱和度、变异性以及中位混合复杂度等指标，用于量化统计结构是自然演化还是在不同分辨率下持续保持稳定。在AES实现上的实验结果表明，无木马设计表现出与瞬态开关行为一致的、依赖尺度的变异性，而始终开启的硬件木马则产生持续存在的统计特征，抑制了跨尺度的动态演化。此外，不同类型的木马，如与工作负载相关的泄露信息型木马和独立的环形振荡器木马，表现出不同的持续性模式。这些发现表明，跨尺度持续性可为无监督、无参考的始终开启型硬件木马检测提供一种物理意义明确且鲁棒的可信验证信号。"
+  },
+  {
+    "date": "2026-3-17",
+    "title": "FPGA-Based 2-Phase Asynchronous Circuit Design for High Performance Computing",
+    "authors": "Suman Kalyan Porel, Subhadeep Nag, Hemanta Kumar Mondal, Aniruddha Chandra",
+    "publish": "2026 39th International Conference on VLSI Design &amp;amp; 25th International Conference on Embedded Systems (VLSID)",
+    "url": "https://doi.org/10.1109/vlsid68508.2026.00048",
+    "source": "IEEE",
+    "abstract": "This work explores the design methodology and FPGA-based realization of asynchronous circuits composed of static data-flow handshake components governed by the two-phase bundled-data (BD) protocol. The methodology integrates tutorial-driven exposition with formal architectural analysis, emphasizing a rigorous approach to initialization strategies and the construction of coupled ring structures with arbitrary token distributions. Central to the design flow is the use of Mousetrap-style control templates, enabling localized, transition-driven handshake logic. The paper substantiates its methodology through a comprehensive power-performance-area evaluation, including gate-level synthesis of core handshaking primitives in a 32 nm CMOS technology node. Furthermore, it incorporates peephole-level optimizations, wherein composite components such as merged Join-register or MUX-register structures are synthesized for improved design efficiency. The practicality of the design flow is ultimately validated through the implementation of a Fibonacci sequence generator, showcasing correct functionality and handshake compliance across all components. All modules and the target circuits are verified through full-system deployment on Xilinx Basys 3 FPGA board, confirming robustness and functional correctness of the protocol under real hardware conditions. The average PPA metric of the Mousetrap controller has improved to 38%.",
+    "title_zh": "基于FPGA的两相异步电路设计用于高性能计算",
+    "abstract_zh": "本文探讨了基于静态数据流握手组件、采用两相捆绑数据（BD）协议控制的异步电路的设计方法及其在FPGA上的实现。该方法结合了教程式阐述与形式化的架构分析，强调在初始化策略以及具有任意令牌分布的耦合环形结构构建方面的严谨设计方法。设计流程的核心是采用Mousetrap风格的控制模板，实现局部化、基于事件触发的握手逻辑。论文通过全面的功耗-性能-面积（PPA）评估验证了该方法的有效性，包括在32 nm CMOS工艺节点上对核心握手原语进行门级综合。此外，还引入了窥孔级优化技术，将组合组件（如合并的Join-寄存器或MUX-寄存器结构）进行综合，以提升设计效率。设计流程的实用性通过实现斐波那契数列生成器得以验证，展示了所有组件的正确功能和握手协议符合性。所有模块及目标电路均在Xilinx Basys 3 FPGA开发板上完成全系统部署，证实了该协议在真实硬件环境下的鲁棒性和功能正确性。Mousetrap控制器的平均PPA指标提升了38%。"
+  },
+  {
+    "date": "2026-3-17",
+    "title": "Low-Power UART Architecture with Integrated SECDED for Reliable Asynchronous Communication",
+    "authors": "Vatsal Rathod, Jay Patel, Gunjan Thakur, Abhishek Ray",
+    "publish": "2026 39th International Conference on VLSI Design &amp;amp; 25th International Conference on Embedded Systems (VLSID)",
+    "url": "https://doi.org/10.1109/vlsid68508.2026.00046",
+    "source": "IEEE",
+    "abstract": "This paper presents a compact, low-power UART architecture integrated with Single Error Correction and Double Error Detection (SECDED) for reliable serial communication in noisy and resource-constrained environments. The design incorporates an extended Hamming encoder—decoder within an FSM-controlled pipelined framework, enabling real-time error correction without violating standard UART timing conventions. Operating at only six times the baud rate, the proposed approach reduces hardware complexity and power consumption compared to traditional oversampling schemes. Implemented in Verilog and synthesized on 150 nm ASIC and FPGA platforms, the architecture achieves error-free data transfer while consuming just 0.099 W, with dynamic power limited to 2% through optimized clock gating. FPGA resource utilization remains below 1%. Extensive verification—including unit tests, errorinjection, and timing analysis—confirms protocol compliance and robust SECDED operation. With minimal area overhead and enhanced reliability, the proposed UART is well suited for IoT, smart home, and other safety-critical applications requiring energy-efficient and fault-tolerant serial links.",
+    "title_zh": "集成单错误纠正双错误检测的低功耗UART架构，用于可靠的异步通信",
+    "abstract_zh": "本文提出了一种紧凑、低功耗的UART架构，集成了单错误校正与双错误检测（SECDED）机制，适用于噪声干扰严重且资源受限环境下的可靠串行通信。该设计在有限状态机（FSM）控制的流水线架构中嵌入了扩展汉明编码—解码器，能够在不违反标准UART时序规范的前提下实现实时错误纠正。所提出的方法仅以波特率的六倍速率运行，与传统过采样方案相比，显著降低了硬件复杂度和功耗。该架构采用Verilog实现，并在150 nm ASIC和FPGA平台上完成综合，实现了无误数据传输，总功耗仅为0.099 W，且通过优化的时钟门控技术将动态功耗限制在2%以内。FPGA资源占用率低于1%。通过单元测试、错误注入和时序分析等全面验证，证实了该设计符合通信协议规范，并具备可靠的SECDED功能。由于面积开销极小且可靠性高，该UART架构非常适合物联网、智能家居以及其他需要高能效、容错串行链路的安全关键型应用。"
+  },
+  {
+    "date": "2026-3-17",
+    "title": "Code Invaders: Detecting Malicious Activity in Embedded Systems",
+    "authors": "Aryan Panwar, Deeksha Dhaka, Avichal Tomar, Ayush Tyagi, Akash Rajak",
+    "publish": "2025 2nd International Conference on Advanced Computing and Emerging Technologies (ACET)",
+    "url": "https://doi.org/10.1109/acet67282.2025.11430301",
+    "source": "IEEE",
+    "abstract": "As of today more embedded and IoT (Internet of Things) devices are being used in the world today and deployed for in the world's most critical applications, therefore the need for lightweight, affordable, and highly effective ransomware training and detection tools adapted for specialized resource-scarce environments for employees to work safely from their devices is highly critical. To address these needs, this research proposes the first cross-architecture integrated hardware and software solution of its kind designed to use Hardware Performance Counters (HPCs) in tracking low-level processor events such as cache hits, cache misses and branches, and using those to help to detect the continuing use of ransomware. Different from the highly accurate tracking signature-based methods in the computers of today, this is a tracking signature-free, operational real-time method. this makes it highly abnormal, unrecognized and unknown from the unrecognizable ransomware common. It uses the extraction of real-time data characteristics from the HPC and machinelearning tracking signature Barns and counterparts to identify benign processes and aligned ransomware to malicious behavior. The use of the affordable general-purpose embedded computer, Raspberry Pi, showed that the operational support of the tracking signature method was kept within the acceptable limits of the computer.",
+    "title_zh": "代码入侵者：检测嵌入式系统中的恶意活动",
+    "abstract_zh": "如今，越来越多的嵌入式设备和物联网（IoT）设备被应用于全球最关键的应用场景中。因此，迫切需要轻量级、低成本且高效的勒索软件培训与检测工具，以适应资源受限的专用环境，使员工能够安全地通过其设备开展工作。为满足这一需求，本研究提出了一种前所未有的跨架构软硬件集成解决方案，该方案利用硬件性能计数器（HPCs）来追踪处理器底层事件（如缓存命中、缓存未命中和分支操作），并基于这些信息实现对勒索软件持续使用的检测。与当前计算机中广泛使用的高精度基于跟踪特征签名的检测方法不同，本方法无需依赖特征签名，能够在运行时实现实时检测，因而对常见的未知、未识别或异常勒索软件具有高度的检测能力。该方法通过从HPC中提取实时数据特征，并结合机器学习技术对正常进程与具有恶意行为的勒索软件进行识别与区分。实验采用低成本的通用嵌入式计算机树莓派（Raspberry Pi）进行验证，结果表明，该跟踪特征无关方法的运行开销处于设备可接受的范围之内。"
+  },
+  {
+    "date": "2026-3-17",
+    "title": "BHARAT-TPM: Micro-Architecture Design of Scalable Hardware Random Number Generator for a RISC-V Trusted Platform Module",
+    "authors": "Soumya G Hosmani, Raja Sekar K, Aneesh Raveendran, Vivian Desalphine, Hari Babu P, S D Sudarsan",
+    "publish": "2026 39th International Conference on VLSI Design &amp;amp; 25th International Conference on Embedded Systems (VLSID)",
+    "url": "https://doi.org/10.1109/vlsid68508.2026.00033",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "BHARAT-TPM：面向RISC-V可信平台模块的可扩展硬件随机数发生器的微架构设计",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-17",
+    "title": "Agents4PLC: Automating Closed-loop PLC Code Generation and Verification in Industrial Control Systems using LLM-based Agents_supp1-3667895.pdf",
+    "authors": "Dongxia Wang",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tse.2026.3667895/mm1",
+    "source": "IEEE",
+    "abstract": "In industrial control systems, the generation and verification of Programmable Logic Controller (PLC) code are crucial for ensuring operational efficiency and safety. While Large Language Models (LLMs) have made strides in automated code generation, they fall short in providing correctness guarantees and specialized support for PLC programming (which has its own programming language and clear logical structures). To address these challenges, this paper introduces Agents4PLC, a novel framework that not only automates PLC code generation but also introduces code-level verification and repair built upon an LLM-based multi-agent system, which together is capable of directly producing operational PLC code without any human interaction. To comprehensively evaluate our framework, we first establish a new benchmark specially designed for the critical area of <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">verifiable PLC code generation</i>, which includes hundreds of natural language requirements, human-written and verified formal specifications, and finally reference PLC code. Then, we carefully designed a multi-agent workflow combining a set of expert agents responsible for different code generation tasks including planning, coding, validation and debugging towards generating correct PLC code. For each agent, we also incorporate optimization strategies such as Retrieval-Augmented Generation (RAG), advanced prompt engineering techniques, and Chain-of-Thought strategies which are shown to be effective to enhance the ability of these expert ‘agents’. Evaluation against the benchmark demonstrates that Agents4PLC significantly outperforms existing methods, achieving superior results across a series of increasingly rigorous evaluation metrics. This research highlights the potential of LLM agent-based code generation in real-world industrial control systems and the importance of code-level verification in generating correct code with formal guarantees.",
+    "title_zh": "Agents4PLC：使用基于大语言模型的代理在工业控制系统中实现闭环PLC代码生成与验证的自动化_supp1-3667895.pdf",
+    "abstract_zh": "在工业控制系统中，可编程逻辑控制器（PLC）代码的生成与验证对于确保运行效率和安全性至关重要。尽管大语言模型（LLM）在自动化代码生成方面已取得显著进展，但在提供正确性保障以及对PLC编程（拥有专用编程语言和清晰逻辑结构）的专门支持方面仍存在不足。为应对这些挑战，本文提出了一种名为Agents4PLC的新型框架。该框架不仅能够自动化生成PLC代码，还基于LLM多智能体系统引入了代码级的验证与修复机制，从而能够在无需人工干预的情况下直接生成可运行的PLC代码。\n\n为全面评估本框架，我们首先建立了一个全新的基准测试集，专门面向“可验证的PLC代码生成”这一关键领域。该基准包含数百条自然语言需求、由人工编写并验证的形式化规范，以及对应的参考PLC代码。在此基础上，我们精心设计了一个多智能体工作流，整合了一系列负责不同代码生成任务的专家智能体，包括规划、编码、验证和调试，以协同生成正确的PLC代码。针对每个智能体，我们还引入了多种优化策略，例如检索增强生成（RAG）、高级提示工程技术和思维链（Chain-of-Thought）策略，实验证明这些方法能有效提升各专家“智能体”的性能。\n\n在基准测试上的评估结果表明，Agents4PLC显著优于现有方法，在一系列日益严格的评估指标上均取得了更优表现。本研究凸显了基于大语言模型智能体的代码生成技术在真实工业控制系统中的应用潜力，以及在生成具备形式化正确性保证的代码过程中，代码级验证的重要作用。"
+  },
+  {
+    "date": "2026-3-17",
+    "title": "RISC-V Unified: A Cross-Platform Generation Framework from Architecture to Implementation",
+    "authors": "Mohamed Badawy, Jiulong Wang, Paritosh Kumar Sinha, Wolfgang Ecker",
+    "publish": "2025 International Conference on Computer and Applications (ICCA)",
+    "url": "https://doi.org/10.1109/icca66035.2025.11430899",
+    "source": "IEEE",
+    "abstract": "Register-Transfer Level (RTL) generation is foundational to hardware design, converting high-level specifications into synthesizable descriptions for physical implementation. Conventional RTL generators produce platform-agnostic designs to enable flexibility across diverse targets (e.g., FPGA or ASIC), however this approach is problematic for designs with technology-specific components (e.g., memory macros), where generic constructs—suitable for simulation and verification—fail to leverage native hardware resources, leading to either non-implementable designs or inefficient synthesis and degraded power, performance, and area (PPA) metrics. Extensive manual adaptations are thus required, eroding automation benefits and widening the design productivity gap. This paper proposes a cross-platform methodology that automates the generation of RTL code and constraints tailored to both ASIC and FPGA platforms, enabling optimal native resource utilization. Applied to a RISC-V subsystem, it enables seamless synthesis and implementation across targets, forming an end-to-end workflow from specification to deployment. Evaluations on an AMD Zynq UltraScale+ FPGA and a 22 nm ASIC process demonstrate substantial improvements: up to 3.66× higher maximum frequency, 3.44× area reduction, 5.99× power savings, and 18.80× faster implementation run times compared to platform-agnostic baselines, affirming its robustness for modern embedded systems.",
+    "title_zh": "RISC-V 统一：一种从架构到实现的跨平台生成框架",
+    "abstract_zh": "寄存器传输级（RTL）生成是硬件设计的基础，它将高层规范转换为可综合的描述，以实现物理实现。传统的RTL生成器生成与平台无关的设计，以支持在不同目标平台（如FPGA或ASIC）上的灵活部署。然而，这种方法在处理包含技术特定组件（如存储器宏单元）的设计时存在缺陷：通用结构虽然适用于仿真和验证，却无法充分利用目标平台的原生硬件资源，导致设计无法实现，或综合效率低下，进而恶化功耗、性能和面积（PPA）指标。因此，设计人员往往需要进行大量手动修改，削弱了自动化带来的优势，并进一步扩大了设计生产效率的差距。本文提出了一种跨平台方法，能够自动生成功能正确且针对ASIC和FPGA平台量身定制的RTL代码与约束，从而实现对原生资源的最优利用。该方法应用于一个RISC-V子系统，实现了在不同目标平台上的无缝综合与实现，构建了从规范到部署的端到端设计流程。在AMD Zynq UltraScale+ FPGA和22 nm ASIC工艺上的评估结果表明，与平台无关的基线方法相比，该方法实现了显著提升：最高工作频率提升达3.66倍，面积减少3.44倍，功耗降低5.99倍，实现运行时间加快18.80倍，验证了其在现代嵌入式系统中的强大实用性与鲁棒性。"
+  },
+  {
+    "date": "2026-3-17",
+    "title": "Industry Forum VLSID 2026",
+    "authors": "N/A",
+    "publish": "2026 39th International Conference on VLSI Design &amp;amp; 25th International Conference on Embedded Systems (VLSID)",
+    "url": "https://doi.org/10.1109/vlsid68508.2026.00112",
+    "source": "IEEE",
+    "abstract": null,
+    "title_zh": "行业论坛VLSID 2026",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-17",
+    "title": "ESVC: Efficient and Secure Verification for Cloud Service Based on SGX",
+    "authors": "Xiang Le, Jing Zhan, Zhiqiang Zeng",
+    "publish": "Proceedings of the 2025 3rd International Conference on Artificial Intelligence, Systems and Network Security",
+    "url": "https://doi.org/10.1145/3797161.3797218",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ESVC：基于SGX的云服务高效安全验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-17",
+    "title": "An FPGA-Based Secure and Privacy-Aware RISC-V SoC with a CNN Accelerator for Edge AI",
+    "authors": "Priyanshu Tyagi, Rhythm Patel, Sparsh Mittal, Rekha Singhal",
+    "publish": "2026 39th International Conference on VLSI Design &amp;amp; 25th International Conference on Embedded Systems (VLSID)",
+    "url": "https://doi.org/10.1109/vlsid68508.2026.00016",
+    "source": "IEEE",
+    "abstract": "We propose a privacy-aware RISC-V SoC for edge inference, integrating a pipelined RV32IMC CPU, a quantized FPGA-based CNN accelerator, and a lightweight hardware security module. The accelerator employs parallel 8-bit MAC and max-pooling units. The design also features inter-layer pipelining in addition to intra-layer parallelism. This allows partial feature maps to be sent to the next layers without waiting for full completion. This approach significantly cuts down on inference latency. Moreover, we enforce security through custom CNN instructions embedding challenge-response authentication, while a noise injection unit ensures output privacy. Implemented on an Xilinx Zynq-7000 FPGA, the accelerator achieves inference latencies of 0.25 ms (MNIST) and 15.93 ms (CIFAR-10), delivering more than <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$10 \\times$</tex> speedup over the sequential baselines. The system delivers peak throughput of 10.56 GOPS and 2.48 GOPS, with energy efficiency reaching <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$60.3 \\text{TOPS} / \\mathrm{W}$</tex> and <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$10.3 \\text{TOPS} / \\mathrm{W}$</tex> for MNIST and CIFAR-10, respectively. The results demonstrate the viability of our work for secure edge AI workloads. The code is available at https://shorturl.at/hb5NU.",
+    "title_zh": "一种基于FPGA的、具有CNN加速器的RISC-V SoC，用于边缘AI，具备安全与隐私保护功能",
+    "abstract_zh": "我们提出了一种面向边缘推理的隐私感知RISC-V片上系统（SoC），集成了流水线式RV32IMC CPU、基于FPGA的量化CNN加速器以及轻量级硬件安全模块。该加速器采用并行的8位乘累加（MAC）单元和最大池化单元，并在层内并行的基础上引入了层间流水线机制，使得部分特征图无需等待完整生成即可提前传递至下一层，显著降低了推理延迟。此外，我们通过定制CNN指令嵌入挑战-响应认证机制以增强安全性，同时利用噪声注入单元保障输出隐私。该设计在Xilinx Zynq-7000 FPGA上实现，在MNIST和CIFAR-10数据集上的推理延迟分别低至0.25毫秒和15.93毫秒，相较串行基准方案提速超过10倍。系统峰值吞吐量分别达到10.56 GOPS（MNIST）和2.48 GOPS（CIFAR-10），能效高达60.3 TOPS/W和10.3 TOPS/W。实验结果验证了本方案在安全边缘AI负载中的可行性。代码开源地址：https://shorturl.at/hb5NU。"
+  },
+  {
+    "date": "2026-3-17",
+    "title": "PolyEMAC: Polynomial Error Metrics Analysis in Approximate Computing",
+    "authors": "Mohamed Nadeem, Chandan Kumar Jha, Rolf Drechsler",
+    "publish": "2026 39th International Conference on VLSI Design &amp;amp; 25th International Conference on Embedded Systems (VLSID)",
+    "url": "https://doi.org/10.1109/vlsid68508.2026.00019",
+    "source": "IEEE",
+    "abstract": "Approximate Computing (AC) is a design paradigm widely used in error-resilient applications. The goal of AC is to gain benefits over exact designs by trading some accuracy for a reduction in power, delay, and area. Varying error metrics are used to assess the degree of approximation. Several formal methods exist for computing these error metrics. However, these methods often fail to provide theoretical bounds on computational resources and are mostly limited to single error metrics. In this work, we address the limitations of the prior methods by introducing PolyEMAC, a novel approach that combines Cutwidth Partitioning and Answer Set Programming (ASP) to compute several error metrics for approximate circuits with constant cutwidth in polynomial time w.r.t. circuit size and the number of approximations. We evaluate several approximate adders in terms of cutwidth, memory consumption, and computation time to highlight the efficacy of the proposed methodology.",
+    "title_zh": "PolyEMAC：近似计算中的多项式误差度量分析",
+    "abstract_zh": "近似计算（Approximate Computing, AC）是一种广泛应用于容错应用中的设计范式。AC的目标是通过牺牲部分计算精度来换取功耗、延迟和面积的降低，从而获得相较于精确设计的优势。为了评估近似程度，研究人员使用了多种误差度量指标。目前已有若干形式化方法用于计算这些误差度量，但这些方法往往无法提供计算资源的理论界限，且大多局限于单一误差度量。在本研究中，我们提出了一种新颖的方法PolyEMAC，以克服先前方法的局限性。PolyEMAC结合了割宽划分（Cutwidth Partitioning）和答案集编程（Answer Set Programming, ASP），能够在电路规模和近似数量的多项式时间内，为具有恒定割宽的近似电路计算多种误差度量。我们通过评估多种近似加法器在割宽、内存消耗和计算时间方面的表现，验证了所提方法的有效性。"
+  },
+  {
+    "date": "2026-3-17",
+    "title": "RTL Information Tracker and its Applications in Quantifying the Security Impact of HLS Optimizations",
+    "authors": "Nilotpola Sarma, Sunny Priyadarshi, Chandan Karfa",
+    "publish": "2026 39th International Conference on VLSI Design &amp;amp; 25th International Conference on Embedded Systems (VLSID)",
+    "url": "https://doi.org/10.1109/vlsid68508.2026.00097",
+    "source": "IEEE",
+    "abstract": "High-Level Synthesis (HLS) offers several optimization strategies that enable performance optimization of generated circuits. However a few recent works highlight the security vulnerabilities introduced by such optimizations, threatening the integrity and confidentiality of security-critical hardware designs generated by HLS. In this work, we first develop an automated method that uses model checking in the background to track the information flow in Register Transfer Level (RTL) design. We then evaluate the trustworthiness of HLS-generated cryptographic hardware at the RTL using this tool. Specifically, we systematically investigate how different HLS pragma optimizations affect information leakage in cryptographic hardware. The tool takes a cryptographic algorithm in software and applies various pragma-directives (for optimization) and synthesizes them using HLS tool to generate the corresponding Verilog implementations at RTL. By analyzing the propagation of sensitive inputs in each design generated with a set of pragmas, it quantifies the information leakage associated with each set of optimizations corresponding to the pragmas. Our results provide insights into methods for securing HLS-generated cryptographic hardware against information leakage. The tool is fully automated, enabling scalable leakage detection across large RTL designs.",
+    "title_zh": "RTL信息跟踪器及其在量化HLS优化安全影响中的应用",
+    "abstract_zh": "高级综合（HLS）提供了多种优化策略，能够提升所生成电路的性能。然而，最近一些研究指出，这些优化可能引入安全漏洞，威胁由HLS生成的安全关键型硬件设计的完整性和机密性。在本研究中，我们首先开发了一种自动化方法，该方法在后台利用模型检测技术来追踪寄存器传输级（RTL）设计中的信息流。随后，我们使用该工具评估HLS生成的密码硬件在RTL级别的可信性。具体而言，我们系统地研究了不同的HLS指令优化（pragma optimizations）如何影响密码硬件中的信息泄露。该工具接收以软件形式表示的密码算法，应用各种用于优化的指令（pragma-directives），并通过HLS工具综合生成相应的RTL级Verilog实现。通过分析在每组指令组合下生成的设计中敏感输入的传播情况，该工具量化了每组优化（对应特定指令）所导致的信息泄露程度。我们的研究结果为防范HLS生成的密码硬件发生信息泄露提供了重要见解。该工具完全自动化，能够对大规模RTL设计进行可扩展的泄露检测。"
+  },
+  {
+    "date": "2026-3-17",
+    "title": "Unleashing the Potential of Coverage Representation in Deep Learning-Based Fault Localization",
+    "authors": "Jinping Wang, Yan Lei, Huan Xie, Chunyan Liu",
+    "publish": "IEEE Transactions on Software Engineering",
+    "url": "https://doi.org/10.1109/tse.2026.3674478",
+    "source": "IEEE",
+    "abstract": "Fault localization (FL) aims to identify suspicious statements in faulty programs that may lead to program failure. Coverage representation, which includes code coverage trace and test outcomes, has proven effective in FL and is widely adopted in deep learning-based fault localization (DLFL) methods. However, we find that the potential of coverage representation in deep learning-based fault localization (DLFL) methods is inadequately unleashed (<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">i.e.,</i> in the case of using pure coverage representation) since DLFL has exhibited inferior performance compared to traditional non-deep learning-based fault localization (Non-DLFL). <p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Thus, we conduct systematic analyses by the three key steps of the DLFL task process: data-model-strategy. These analyses reveal that existing methodologies fail to handle three key scale variations in DLFL: sample scale of data, feature scale of model, and task scale of strategy. To address these challenges, we propose Muser, a <u>mu</u>lti-<u>s</u>cale-awar<u>e</u> deep learning-based fault localization method based on the data-model-strategy framework to unleash the potential of coverage representation in DLFL. Specifically, Muser addresses the three scale variations through a hierarchical design: for the sample scale, Muser employs a sample-scale-aware data augmentation method that dynamically selects optimal methods based on the sample size to mitigate class imbalance; for the feature scale, Muser uses a proposed feature-scale-aware adaptive LSTM backbone with model sizing adjustments to handle varying feature dimensionality in coverage representations; for the task scale, Muser further employs task-scale-aware modeling strategies to enhance robustness across diverse fault localization scenarios, thereby systematically improving model adaptability and performance. We conduct large-scale experiments to evaluate Muser, and the results show that Muser significantly improves pure coverage-based DLFL performance, e.g., the data augmentation method and the backbone neural network outperform the state-of-the-art (SOTA) baselines (<i>i.e.,</i> PRAM and RNN-FL) by 12.41% and 94.44% on average in Top-1 metrics, respectively.</p>",
+    "title_zh": "释放基于深度学习的故障定位中覆盖率表示的潜力",
+    "abstract_zh": "缺陷定位（Fault Localization, FL）旨在识别故障程序中可能导致程序失败的可疑语句。覆盖表示（coverage representation），包括代码覆盖率轨迹和测试结果，在缺陷定位中已被证明是有效的，并被广泛应用于基于深度学习的缺陷定位方法（DLFL）中。然而，我们发现覆盖表示在基于深度学习的缺陷定位中的潜力尚未得到充分释放（即在仅使用纯覆盖表示的情况下），因为当前的DLFL方法表现不如传统的非深度学习缺陷定位方法（Non-DLFL）。\n\n为此，我们从DLFL任务流程的三个关键步骤——数据、模型、策略出发，进行了系统性分析。这些分析表明，现有方法未能有效应对DLFL中的三类关键尺度变化：数据的样本尺度、模型的特征尺度以及策略的任务尺度。为解决这些问题，我们提出了Muser，一种基于“数据-模型-策略”框架的**多尺度感知**（multi-scale-aware）深度学习缺陷定位方法，以充分释放覆盖表示在DLFL中的潜力。\n\n具体而言，Muser通过一种分层设计来应对这三种尺度变化：  \n- 在**样本尺度**上，Muser采用一种样本尺度感知的数据增强方法，能够根据样本数量动态选择最优增强策略，从而缓解类别不平衡问题；  \n- 在**特征尺度**上，Muser提出了一种特征尺度感知的自适应LSTM主干网络，可通过调整模型规模来应对覆盖表示中不同的特征维度；  \n- 在**任务尺度**上，Muser进一步引入任务尺度感知的建模策略，提升在多样化缺陷定位场景下的鲁棒性，从而系统性地提高模型的适应能力与整体性能。\n\n我们开展了大规模实验对Muser进行评估，结果表明Muser显著提升了基于纯覆盖信息的DLFL性能。例如，在Top-1指标上，所提出的数据增强方法和主干神经网络相比当前最先进的基线方法（即PRAM和RNN-FL）分别平均提升了12.41%和94.44%。"
+  }
+]
