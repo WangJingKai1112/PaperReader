@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2026-03-18",
+    "title": "SoK: From Silicon to Netlist and Beyond $-$ Two Decades of Hardware Reverse Engineering Research",
+    "authors": "Zehra Karadağ, Simon Klix, René Walendy, Felix Hahn, Kolja Dorschel, Julian Speith, Christof Paar, Steffen Becker",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.17883v1",
+    "source": "arXiv",
+    "abstract": "As hardware serves as the root of trust in modern computing systems, Hardware Reverse Engineering (HRE) is foundational for security assurance. In practice, HRE enables critical security applications, including design verification, supply-chain assurance, and vulnerability discovery. Over the past two decades, academic research on Integrated Circuit (IC), Field-Programmable Gate Array (FPGA), and netlist reverse engineering has steadily grown. However, knowledge remains fragmented across domains and communities, which complicates assessing the state of the art and hampers identifying shared research challenges. In this paper, we present a systematization of knowledge based on an in-depth analysis of 187 peer-reviewed publications. Using this corpus, we characterize technical methods across the HRE workflow and identify technical and organizational challenges that impede research progress. We analyze all 30 artifacts from our corpus using established artifact evaluation practices. Key results could be reproduced for only seven publications (4%). Based on our findings, we derive stakeholder-centric recommendations for academia, industry, and government to enable more coordinated and reproducible HRE research. These recommendations target three cross-cutting opportunities: (i) improving reproducibility and reuse via artifact-centric practices, (ii) enabling rigorous comparability through standardized benchmarks and evaluation metrics, and (iii) improving legal clarity for public HRE research.",
+    "title_zh": "SoK：从硅片到网表及更远——二十年来的硬件逆向工程研究",
+    "abstract_zh": "由于硬件在现代计算系统中作为信任的根基，硬件逆向工程（HRE）成为安全保障的基础。在实际应用中，HRE支持多项关键安全任务，包括设计验证、供应链保障以及漏洞发现。在过去二十年中，针对集成电路（IC）、现场可编程门阵列（FPGA）和网表逆向工程的学术研究持续增长。然而，相关知识分散于不同领域和研究社区之间，导致难以评估当前技术水平，也阻碍了共同研究挑战的识别。本文基于对187篇同行评审出版物的深入分析，系统化地梳理了该领域的知识体系。利用这一文献集合，我们刻画了HRE工作流程中各类技术方法的特征，并识别出阻碍研究进展的技术与组织层面的挑战。我们采用成熟的成果评估实践，对文献集中全部30项研究成果进行了分析，结果发现仅有七篇出版物（4%）的关键结果能够被成功复现。基于上述发现，本文面向学术界、工业界和政府提出了以利益相关者为中心的建议，以推动更加协调且可复现的HRE研究。这些建议聚焦于三个跨领域的机遇：（i）通过以成果为中心的实践提升研究的可复现性与可重用性；（ii）建立标准化的基准测试和评估指标，实现严谨的成果对比；（iii）改善公共HRE研究的法律清晰度。"
+  },
+  {
+    "date": "2026-03-18",
+    "title": "GUIDE: GenAI Units In Digital Design Education",
+    "authors": "Weihua Xiao, Jason Blocklove, Matthew DeLorenzo, Johann Knechtel, Ozgur Sinanoglu, Kanad Basu, Jeyavijayan Rajendran, Siddharth Garg, Ramesh Karri",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.17296v1",
+    "source": "arXiv",
+    "abstract": "GenAI Units In Digital Design Education (GUIDE) is an open courseware repository with runnable Google Colab labs and other materials. We describe the repository's architecture and educational approach based on standardized teaching units comprising slides, short videos, runnable labs, and related papers. This organization enables consistency for both the students' learning experience and the reuse and grading by instructors. We demonstrate GUIDE in practice with three representative units: VeriThoughts for reasoning and formal-verification-backed RTL generation, enhanced LLM-aided testbench generation, and LLMPirate for IP Piracy. We also provide details for four example course instances (GUIDE4ChipDesign, Build your ASIC, GUIDE4HardwareSecurity, and Hardware Design) that assemble GUIDE units into full semester offerings, learning outcomes, and capstone projects, all based on proven materials. For example, the GUIDE4HardwareSecurity course includes a project on LLM-aided hardware Trojan insertion that has been successfully deployed in the classroom and in Cybersecurity Games and Conference (CSAW), a student competition and academic conference for cybersecurity. We also organized an NYU Cognichip Hackathon, engaging students across 24 international teams in AI-assisted RTL design workflows. The GUIDE repository is open for contributions and available at: https://github.com/FCHXWH823/LLM4ChipDesign.",
+    "title_zh": "指南：数字设计教育中的生成式人工智能单元",
+    "abstract_zh": "数字设计教育中的生成式人工智能单元（GUIDE）是一个开放课程资源库，包含可在Google Colab上运行的实验及其他教学材料。我们介绍了该资源库的架构及其教育方法，该方法基于标准化的教学单元，每个单元包括课件幻灯片、短视频、可运行的实验以及相关论文。这种组织方式既保证了学生学习体验的一致性，也便于教师重复使用和评分。我们通过三个典型教学单元展示了GUIDE的实际应用：用于推理与基于形式验证的RTL生成的VeriThoughts、增强型大语言模型辅助测试平台生成，以及用于IP盗版研究的LLMPirate。此外，我们还详细介绍了四个示例课程实例（GUIDE4ChipDesign、Build your ASIC、GUIDE4HardwareSecurity 和 Hardware Design），这些课程将GUIDE单元整合为完整的学期课程，涵盖学习目标和结课项目，全部基于经过验证的教学材料。例如，GUIDE4HardwareSecurity课程包含一个关于大语言模型辅助硬件木马植入的项目，该项目已成功应用于课堂教学，并在“网络安全游戏与会议”（CSAW）——一项面向学生的网络安全竞赛与学术会议——中部署使用。我们还组织了纽约大学Cognichip黑客松活动，吸引了来自24支国际团队的学生参与基于人工智能辅助的RTL设计工作流实践。GUIDE资源库欢迎各方贡献，项目开源地址为：https://github.com/FCHXWH823/LLM4ChipDesign。"
+  },
+  {
+    "date": "2026-03-18",
+    "title": "SpiderCam: Low-Power Snapshot Depth from Differential Defocus",
+    "authors": "Marcos A. Ferreira, Tianao Li, John Mamish, Josiah Hester, Yaman Sangar, Qi Guo, Emma Alexander",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.17910v1",
+    "source": "arXiv",
+    "abstract": "We introduce SpiderCam, an FPGA-based snapshot depth-from-defocus camera which produces 480x400 sparse depth maps in real-time at 32.5 FPS over a working range of 52 cm while consuming 624 mW of power in total. SpiderCam comprises a custom camera that simultaneously captures two differently focused images of the same scene, processed with a SystemVerilog implementation of depth from differential defocus (DfDD) on a low-power FPGA. To achieve state-of-the-art power consumption, we present algorithmic improvements to DfDD that overcome challenges caused by low-power sensors, and design a memory-local implementation for streaming depth computation on a device that is too small to store even a single image pair. We report the first sub-Watt total power measurement for passive FPGA-based 3D cameras in the literature.",
+    "title_zh": "SpiderCam：基于差分离焦的低功耗快照深度感知",
+    "abstract_zh": "我们推出了SpiderCam，这是一款基于FPGA的快照式离焦测距相机，可在52厘米的工作范围内以32.5帧/秒的实时速度生成480×400的稀疏深度图，总功耗仅为624毫瓦。SpiderCam包含一个定制相机，可同时捕捉同一场景下两个不同焦距的图像，并通过在低功耗FPGA上用SystemVerilog实现的差分离焦深度（DfDD）算法进行处理。为实现最先进的低功耗性能，我们提出了针对DfDD算法的改进，克服了低功耗传感器带来的挑战，并设计了一种内存局部化的实现方式，使设备能够在无法存储单幅图像对的情况下完成流式深度计算。本文报道了文献中首个被动式基于FPGA的三维相机整体功耗低于1瓦的实测结果。"
+  },
+  {
+    "date": "2026-3-18",
+    "title": "Research on Security Analysis and Testing Technology of Avionics Systems Based on MIL-STD-1553B",
+    "authors": "Zhuoran Chen, Hongyu Zhu, Shutong Lv",
+    "publish": "2025 5th International Conference on Mechatronics Technology and Aerospace Engineering (ICMTAE)",
+    "url": "https://doi.org/10.1109/icmtae66890.2025.11427924",
+    "source": "IEEE",
+    "abstract": "The avionics bus system is the core system for aircraft information processing, undertaking critical tasks of data communication and control system transmission. The security of avionics buses is a key issue to be addressed in the field of network security testing technology. This paper develops a kill chain threat model specific to MIL-STD-1553B (hereinafter referred to as 1553B) avionics systems by referencing traditional security kill chain research. It constructs a simulation environment for avionics bus systems based on RPCIE1553 boards and conducts research on security-related testing technologies using the 1553B avionics bus, which is widely applied in military and industrial fields. Since security issues in avionics bus systems may affect the normal operation of the entire aviation system, research on network security test and evaluation technologies for avionics buses is particularly important.",
+    "title_zh": "基于MIL-STD-1553B的航空电子系统安全分析与测试技术研究",
+    "abstract_zh": "航空电子总线系统是飞机信息处理的核心系统，承担着数据通信与控制系统传输等关键任务。航空电子总线的安全性是网络安全测试技术领域亟需解决的关键问题。本文参考传统的安全杀伤链研究，针对MIL-STD-1553B（以下简称1553B）航空电子系统建立专用的杀伤链威胁模型，基于RPCIE1553板卡构建了航空电子总线系统的仿真环境，并围绕在军事和工业领域广泛应用的1553B航空电子总线开展安全性相关测试技术的研究。由于航空电子总线系统中的安全问题可能影响整个航空系统的正常运行，因此针对航空电子总线的网络安全测试与评估技术研究尤为重要。"
+  },
+  {
+    "date": "2026-3-18",
+    "title": "Automated and Optimized Design-for-Testability Implementation and Pattern Validation on Benchmark Circuits S38417 and RISC-V PicoRV32",
+    "authors": "Nirbhay Bisoriya, Akkala Subba Rao",
+    "publish": "2026 IEEE International Students' Conference on Electrical, Electronics and Computer Science (SCEECS)",
+    "url": "https://doi.org/10.1109/sceecs68810.2026.11429786",
+    "source": "IEEE",
+    "abstract": "This work shows an efficient Design-for-Testability (DFT) implementation and validation on benchmark circuits S38417 and RISC-V PicoRV32 using Synopsys tools, including Design Compiler, DFT Compiler, and TetraMAX II. In order to achieve high fault coverage with shorter test times, the methodology focuses on scan chain insertion, test compression, and Automatic Test Pattern Generation (ATPG). Functional correctness is guaranteed during scan shift, capture, and unload operations thanks to simulation-based pattern validation. The effectiveness of the suggested DFT flow is confirmed by the results, which demonstrate fault coverage above 96.9",
+    "title_zh": "基准电路S38417和RISC-V PicoRV32上的自动化与优化的可测性设计实现及测试图形验证",
+    "abstract_zh": "本工作展示了使用新思科技（Synopsys）工具（包括Design Compiler、DFT Compiler和TetraMAX II）在基准电路S38417和RISC-V PicoRV32上高效实现并验证可测性设计（DFT）的方法。为了在更短的测试时间内实现高故障覆盖率，该方法重点采用了扫描链插入、测试压缩和自动测试向量生成（ATPG）技术。通过基于仿真的向量验证，确保了在扫描移位、捕获和卸载操作期间的功能正确性。实验结果证实了所提出DFT流程的有效性，故障覆盖率均超过96.9%。"
+  },
+  {
+    "date": "2026-3-18",
+    "title": "Improving AMS Verification Efficiency Through Test-Bench and Environment Optimization",
+    "authors": "Bikram Biswas, Barjeestahseen Mulla, Shrikant Pattar",
+    "publish": "2026 9th International Conference on Electronics, Materials Engineering &amp;amp; Nano-Technology (IEMENTech)",
+    "url": "https://doi.org/10.1109/iementech202669403.2026.11434033",
+    "source": "IEEE",
+    "abstract": "In present System on Chip design, Analog and mixed signal (AMS) circuits play an important role. Due to the complex behaviour of ICs, there are many challenges in verification of overall system. Simulation time for top level AMS verification is one of the biggest challenges in current time due to complex system. In this paper, some of the verification practices have been discussed to improve the simulation speed. Approximately 5 -time improvement of the speed has been observed during our experiment.",
+    "title_zh": "通过测试平台和环境优化提高AMS验证效率",
+    "abstract_zh": "在当前的片上系统（SoC）设计中，模拟与混合信号（AMS）电路起着至关重要的作用。由于集成电路（IC）行为复杂，整个系统的验证面临诸多挑战。目前，由于系统日益复杂，顶层AMS验证的仿真时间成为最大的挑战之一。本文探讨了一些验证方法，以提高仿真速度。在我们的实验中，仿真速度获得了约5倍的提升。"
+  },
+  {
+    "date": "2026-3-18",
+    "title": "Comparision Between 8 Bit ALU Using CLA &amp; RCA",
+    "authors": "Sarbatriki Jana, Soumyarup Dutta, Raina Das, Meesha Sinha, Mili Sarkar",
+    "publish": "2026 9th International Conference on Electronics, Materials Engineering &amp;amp; Nano-Technology (IEMENTech)",
+    "url": "https://doi.org/10.1109/iementech202669403.2026.11434177",
+    "source": "IEEE",
+    "abstract": "Arithmetic Logic Units are basic building blocks of modern digital systems, having considerable impacts on the overall processor performance, power consumption, and silicon area. Among several adder architectures used within ALU designs, the Ripple Carry Adder and Carry Look-Ahead Adder are the most used owing to their simplicity and performance advantages, respectively. This work proposes a detailed design and implementation of an 8-bit ALU using the RCA and CLA architectures. The proposed designs provide both arithmetic and logical operations and have been implemented using Verilog HDL. Functional verification and synthesis have been done using Xilinx Vivado. A comparative analysis is performed based on performance (delay), power consumption, and area utilization. Simulation results depict that while the RCA-based ALU offers lower area and simpler design, the CLA-based ALU significantly outperforms the RCA in terms of speed, suitable for high-performance applications.",
+    "title_zh": "CLA与RCA实现的8位ALU比较",
+    "abstract_zh": "算术逻辑单元（Arithmetic Logic Units，ALU）是现代数字系统的基本构建模块，对处理器的整体性能、功耗和芯片面积具有显著影响。在ALU设计中采用的多种加法器结构中，由于各自的简单性和性能优势，进位链加法器（Ripple Carry Adder，RCA）和超前进位加法器（Carry Look-Ahead Adder，CLA）应用最为广泛。本文提出了一种基于RCA和CLA架构的8位ALU的详细设计与实现方案。所提出的ALU设计支持算术和逻辑运算，并采用Verilog硬件描述语言（HDL）实现。功能验证和综合通过Xilinx Vivado工具完成。基于性能（延迟）、功耗和面积占用进行了对比分析。仿真结果表明，基于RCA的ALU在面积和设计复杂度方面具有优势，而基于CLA的ALU在运算速度上显著优于RCA，适用于高性能应用场景。"
+  },
+  {
+    "date": "2026-3-18",
+    "title": "DPR-PIM: Diagnosis and Pipelined Repair Architecture for Processing-in-Memory",
+    "authors": "Yunje Hwang, Younghun Kang, Hayoung Lee",
+    "publish": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "url": "https://doi.org/10.1109/tvlsi.2026.3670928",
+    "source": "IEEE",
+    "abstract": "Digital processing-in-memory (PIM) architectures have garnered significant attention for their ability to overcome the memory bottleneck in artificial intelligence (AI) acceleration. However, unlike conventional logic accelerators, dynamic random access memory (DRAM)-based digital PIMs tightly integrate compute and memory arrays within a single chip. This close coupling makes any logic fault directly affect stored data, leading to more critical system-level failures. Moreover, the coexistence of logic and memory components significantly increases testing complexity and fault localization difficulty. As AI is increasingly adopted in mission-critical domains such as autonomous driving, healthcare, and finance, the tolerance for computational errors continues to decline. In PIM-based AI accelerators, permanent faults originating from manufacturing processes can accumulate and propagate over repeated computations, making reliability and precision critical in safety-sensitive applications. To ensure high reliability, precise and independent fault diagnosis of all arithmetic units (AUs), including multipliers and adders, is essential. The proposed DPR-PIM architecture addresses this critical need by enabling complete per-unit diagnosis and fault localization. The DPR-PIM fully utilizes standard automatic test equipment (ATE) interfaces used in conventional memory testing, making it a practical and production-compatible solution. Moreover, DPR-PIM enables pipelined repair for single faults in adder stages based on accurate diagnosis results and applies fault blocking to prevent error propagation when multiple faults occur within the same adder stage or when faults occur in multipliers. By combining high test coverage, reliable repair mechanisms, and minimal area overhead, DPR-PIM offers a robust and scalable architecture for next-generation digital PIM systems.",
+    "title_zh": "DPR-PIM：面向存内计算的诊断与流水线修复架构",
+    "abstract_zh": "数字存内处理（Processing-in-Memory, PIM）架构因其在克服人工智能（AI）加速中的内存瓶颈方面的能力而受到广泛关注。然而，与传统的逻辑加速器不同，基于动态随机存取存储器（DRAM）的数字PIM将计算单元与存储阵列紧密集成于单一芯片中。这种高度耦合的结构使得任何逻辑故障都可能直接影响存储数据，从而引发更严重的系统级故障。此外，逻辑与存储组件的共存显著增加了测试复杂性，并加大了故障定位的难度。随着AI在自动驾驶、医疗健康和金融等关键任务领域的广泛应用，对计算错误的容忍度持续降低。在基于PIM的AI加速器中，源自制造工艺的永久性故障可能在重复计算过程中不断累积和传播，因此在安全敏感型应用中，系统的可靠性与计算精度至关重要。\n\n为确保高可靠性，必须对所有算术单元（AU），包括乘法器和加法器，进行精确且独立的故障诊断。本文提出的DPR-PIM架构正是为满足这一关键需求而设计，能够实现对每个算术单元的完整独立诊断与故障定位。DPR-PIM充分利用了传统存储器测试中广泛使用的标准自动测试设备（ATE）接口，具备良好的实用性与量产兼容性。此外，DPR-PIM可根据精确的诊断结果，对加法器各级中的单个故障实施流水线式修复；当同一加法器级内出现多个故障或乘法器发生故障时，则采用故障阻断机制，防止错误传播。通过结合高测试覆盖率、可靠的修复机制以及极小的面积开销，DPR-PIM为下一代数字PIM系统提供了一种强健且可扩展的架构解决方案。"
+  },
+  {
+    "date": "2026-3-18",
+    "title": "Maintaining Test Cases Under Requirement Evolution in Automotive Systems",
+    "authors": "Surasak Phetmanee",
+    "publish": "2026 18th International Conference on Knowledge and Smart Technology (KST)",
+    "url": "https://doi.org/10.1109/kst67832.2026.11432373",
+    "source": "IEEE",
+    "abstract": "Software has long been an essential element in cars. Impact analysis is to determine factors and entities which are either directly or indirectly affected by changes. This paper focuses on impact analysis between the requirement based classification tree and test cases. Since requirements are usually described with informal language and transformed into the requirement based classification tree, testers also convert this requirement based classification tree into test scenarios. Furthermore, the classification tree is used for decision making in a self driving vehicle. In developing software for automotive systems, effects caused by changes to existing test cases not applicable elsewhere. The traditional solution to solve this problem was to generate all test cases to verify the changed system. Therefore, the traditional solution consumes time and resources. This paper presents an implementation of test cases impact analysis based on changes in an automotive system. This approach compares an automotive system version, diagnose changed entities, and generate new test cases. Results contain the solution of impact analysis for an automotive system. This technique addresses the traditional problem of test case regeneration in automotive software by selectively updating only test cases affected by requirement changes, thereby reducing unnecessary regeneration effort and testing overhead. Test cases are successfully updated and can be used to verify changes in the automotive software.",
+    "title_zh": "汽车系统中需求演化下的测试用例维护",
+    "abstract_zh": "软件长期以来一直是汽车中的关键组成部分。影响分析旨在确定受变更直接影响或间接影响的因素和实体。本文重点研究基于需求的分类树与测试用例之间的影响分析。由于需求通常以非正式语言描述，并被转化为基于需求的分类树，测试人员也会将该分类树进一步转换为测试场景。此外，分类树还被用于自动驾驶车辆中的决策过程。在开发汽车系统软件时，现有测试用例的变更所产生的影响往往无法直接适用于其他场景。传统上解决这一问题的方法是重新生成全部测试用例，以验证经过修改的系统，但这种方法耗费大量时间和资源。本文提出了一种针对汽车系统变更的测试用例影响分析实现方法。该方法通过对比汽车系统的不同版本，识别出发生变更的实体，并仅生成受影响的测试用例。实验结果展示了该方法在汽车系统中进行影响分析的有效解决方案。该技术通过选择性地更新受需求变更影响的测试用例，解决了传统汽车软件中测试用例重复生成的问题，从而减少了不必要的再生工作和测试开销。测试用例得以成功更新，并可用于验证汽车软件中的变更内容。"
+  },
+  {
+    "date": "2026-3-18",
+    "title": "A Multimode Built-In Self-Test Circuit for Sequential Cell Timing Characteristics Based on Digital-to-Time Converter",
+    "authors": "Wenwen Cai, Yanhui Zhao, Zhengrui Chen, Pan Zheng, Yang Cui, Wei Zou, Xuecheng Zou, Cheng Zhuo, Li Zhang",
+    "publish": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "url": "https://doi.org/10.1109/tvlsi.2026.3673338",
+    "source": "IEEE",
+    "abstract": "To address the growing challenges in high-precision timing characterization, where conventional measurement methods face limitations due to increasing process variations and multicharacteristic testing demands, this work presents an innovative multimode built-in self-test (BIST) circuit based on a digital-to-time converter (DTC). This circuit comprises a multimode design under test (DUT) module, a DTC, and a controller, enabling the simultaneous measurement of critical timing characteristics (setup/hold times and CK–Q/QN delays) across multiple sequential cells with varying trigger types and clock edges. To enhance the measurement performance, we propose a DTC architecture featuring a digitally controlled multilevel tunable delay cell within a two-stage “coarse–fine” delay chain and a multilevel switching mechanism. The BIST circuit achieves a minimum resolution of 18.7 ps, with the DTC offering a 10.5-ns dynamic range and high linearity, occupying 0.03 mm<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup>, while the total BIST area is 0.58 mm<sup xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">2</sup>. Experimental results in a 180-nm process show setup/hold time measurement errors of −21 to 27 and −27 to 25 ps, respectively, and a CK–Q(QN) delay error range of −22.3 to 30.7 ps.",
+    "title_zh": "一种基于数字-时间转换器的顺序单元时序特性多模式内建自测试电路",
+    "abstract_zh": "为应对高精度时序表征中日益增长的挑战（传统测量方法因工艺变异加剧和多特性测试需求而面临局限），本文提出了一种基于数字-时间转换器（DTC）的创新性多模式内建自测试（BIST）电路。该电路由多模式被测模块（DUT）、DTC和控制器组成，能够同时测量多种触发类型和不同时钟边沿的多个时序单元的关键时序特性（建立/保持时间以及CK–Q/QN延迟）。为提升测量性能，本文提出一种DTC架构，其在两级“粗–细”延迟链中采用数字控制的多级可调延迟单元，并结合多级切换机制。该BIST电路实现了18.7 ps的最小分辨率，DTC具备10.5 ns的动态范围和高线性度，面积仅为0.03 mm²，整个BIST电路总面积为0.58 mm²。在180 nm工艺下的实验结果表明，建立/保持时间的测量误差分别为−21至27 ps和−27至25 ps，CK–Q(QN)延迟误差范围为−22.3至30.7 ps。"
+  }
+]
