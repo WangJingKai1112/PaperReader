@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-3-20",
+    "title": "A Novel DFT Architecture and Implementation for 2.5D Chiplets Based on Test-Bus",
+    "authors": "Jingrui Hu, Ye Guo, Yan Feng, Xiaolin Tang, Sumin Fan, Guanfei Gong, Zhiqiang Li",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3676265",
+    "source": "IEEE",
+    "abstract": "With the slowdown of Moore's Law, 2.5D/3D Chiplets have become a key solution to break through the bottlenecks of traditional monolithic chips. However, their high integration density poses testing challenges such as pin constraints, cross-layer transmission difficulties, and bonding failure risks, making traditional 2D test architectures incompatible. To address this issue, this paper proposes a test bus-based Design for Testability (DFT) architecture for 2.5D Chiplets. By integrating an interposer-embedded test bus, Bus Network Hosts (BNH), and dedicated Mid-bonding Bypass Modules (MBB), the architecture facilitates comprehensive multi-chiplet testing across both the mid-bonding and post-bonding phases, while natively supporting dynamic assembly scenarios. A 2.5D experimental platform consisting of three chiplets is established for feasibility validation. Synthesis and simulation results demonstrate that this architecture maintains robust timing with minimal area and power overheads, and reduces total test time by 17.5% compared to the multi-component test solution defined by the IEEE 1687 standard. Ultimately, it provides a feasible, efficient, reliable, and cost-effective solution for 2.5D Chiplets testing.",
+    "title_zh": "一种基于测试总线的2.5D芯粒新型DFT架构与实现",
+    "abstract_zh": "随着摩尔定律的放缓，2.5D/3D芯粒（Chiplets）已成为突破传统单片芯片瓶颈的关键解决方案。然而，其高集成密度带来了引脚资源受限、跨层传输困难以及键合失效风险等测试挑战，使得传统的2D测试架构难以适用。为应对这一问题，本文提出了一种基于测试总线的2.5D芯粒可测性设计（DFT）架构。该架构通过集成嵌入中介层的测试总线、总线网络主机（BNH）以及专用的中段键合旁路模块（MBB），实现了在中段键合和后段键合两个阶段对多个芯粒的全面测试，并原生支持动态组装场景。本文构建了一个包含三个芯粒的2.5D实验平台以验证方案可行性。综合与仿真结果表明，该架构在保持良好时序性能的同时，面积和功耗开销极小，并相较于IEEE 1687标准定义的多组件测试方案，将总测试时间减少了17.5%。最终，该架构为2.5D芯粒测试提供了一种可行、高效、可靠且低成本的解决方案。"
+  },
+  {
+    "date": "2026-3-20",
+    "title": "Theoretical Analysis of GOOSE Communication Security Enhancement Based on SM9 and Simulation Verification on SimuNPS",
+    "authors": "Bin Xiang, Jinpeng Song, Junpeng Chen, Shenglin Guo",
+    "publish": "2025 IEEE PES Innovative Smart Grid Technologies - Asia (ISGT Asia)",
+    "url": "https://doi.org/10.1109/isgtasia63446.2025.11431381",
+    "source": "IEEE",
+    "abstract": "The GOOSE network at the bay level of smart substations carries critical protection and control commands, and its communication security directly affects the stable operation of the grid. The international standard IEC 62351 recommends using digital signatures to ensure the integrity and authenticity of GOOSE messages; however, traditional PKI/CA-based certificate systems face challenges such as complex key management and difficult certificate updates when applied to a large number of IEDs in the process layer. To address this problem, this paper proposes a GOOSE security enhancement scheme based on the national cryptographic algorithm SM9, an identity-based cryptography technology. This scheme uses the logical identifier (e.g., GoCBReference) of IED devices as the public key, fundamentally eliminating the need for digital certificate management. First, the architecture of the scheme, the key management process, and the communication mechanism for GOOSE message signing and verification are elaborated. Then, the SimuNPS-FlexNet network simulation toolbox, integrated with a real SM9 algorithm library, is used to construct a functional verification environment that includes legitimate devices and malicious attackers. This study demonstrates that SM9 technology provides a feasible and efficient approach to solving the secure communication problem between the process layer and bay level of smart substations.",
+    "title_zh": "基于SM9的GOOSE通信安全增强理论分析及在SimuNPS上的仿真验证",
+    "abstract_zh": "智能变电站间隔层的GOOSE网络承载着关键的保护与控制指令，其通信安全直接影响电网的稳定运行。国际标准IEC 62351推荐采用数字签名技术来保障GOOSE报文的完整性和真实性；然而，传统的基于PKI/CA的证书体系在应用于过程层大量IED设备时，面临密钥管理复杂、证书更新困难等挑战。为解决这一问题，本文提出了一种基于国产密码算法SM9的身份基密码技术的GOOSE安全增强方案。该方案利用IED设备的逻辑标识符（如GoCBReference）作为公钥，从根本上消除了对数字证书管理的需求。首先，本文详细阐述了该方案的架构、密钥管理流程以及GOOSE报文签名与验证的通信机制。随后，结合集成真实SM9算法库的SimuNPS-FlexNet网络仿真工具箱，构建了包含合法设备与恶意攻击者的功能验证环境。研究表明，SM9技术为解决智能变电站过程层与间隔层之间的安全通信问题提供了一种可行且高效的解决方案。"
+  },
+  {
+    "date": "2026-3-20",
+    "title": "DaV$^\\text{3}$is: Data Flow-Based Vulnerability Verification Through Visualization_supp1-3675682.mp4",
+    "authors": "Tobias Mertz",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tvcg.2026.3675682/mm2",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "DaV³：基于数据流的漏洞验证可视化方法__supp1-3675682.mp4",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-20",
+    "title": "An Approach to Parallel Construction of Iterative Finite Automata for Checking the Coverage Relation",
+    "authors": "Boris Melnikov, Lingqian Meng",
+    "publish": "Proceedings of the 2025 9th International Conference on Computer Science and Artificial Intelligence",
+    "url": "https://doi.org/10.1145/3788149.3788155",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "一种用于检查覆盖关系的迭代有限自动机并行构造方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-20",
+    "title": "GAISH-BENCH: An evaluation method for generative artificial intelligence software and hardware adaptation compatibility",
+    "authors": "Wu Yinqian, Weng Qinlan, Zhang Weimin, Shi Lin",
+    "publish": "Proceedings of the 2025 9th International Conference on Computer Science and Artificial Intelligence",
+    "url": "https://doi.org/10.1145/3788149.3788156",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "GAISH-BENCH：一种生成式人工智能软硬件适配兼容性评估方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-20",
+    "title": "DaV$^\\text{3}$is: Data Flow-Based Vulnerability Verification Through Visualization_supp2-3675682.pdf",
+    "authors": "Tobias Mertz",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tvcg.2026.3675682/mm1",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "DaV$^\\text{3}$：基于数据流的漏洞验证通过可视化_补充材料2-3675682.pdf",
+    "abstract_zh": "None"
+  }
+]
