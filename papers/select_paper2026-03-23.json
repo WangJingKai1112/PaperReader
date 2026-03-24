@@ -1,0 +1,123 @@
+[
+  {
+    "date": "2026-03-23",
+    "title": "Auditing MCP Servers for Over-Privileged Tool Capabilities",
+    "authors": "Charoes Huang, Xin Huang, Amin Milani Fard",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.21641v1",
+    "source": "arXiv",
+    "abstract": "The Model Context Protocol (MCP) has emerged as a standard for connecting Large Language Models (LLMs) to external tools and data. However, MCP servers often expose privileged capabilities, such as file system access, network requests, and command execution that can be exploited if not properly secured. We present mcp-sec-audit, an extensible security assessment toolkit designed specifically for MCP servers. It implements static pattern matching for Python-based MCP servers and dynamic sandboxed fuzzing and monitoring via Docker and eBPF. The tool detects risky capabilities through configurable rule-based analysis and provides mitigation recommendations.",
+    "title_zh": "对MCP服务器进行审计以检查工具权限过高问题",
+    "abstract_zh": "模型上下文协议（Model Context Protocol，MCP）已成为连接大语言模型（LLM）与外部工具和数据的一种标准。然而，MCP 服务器通常会暴露一些高权限功能，例如文件系统访问、网络请求和命令执行，如果未得到妥善保护，这些功能可能被恶意利用。本文提出了 mcp-sec-audit，一个专为 MCP 服务器设计的可扩展安全评估工具包。该工具支持针对基于 Python 的 MCP 服务器的静态模式匹配，并通过 Docker 和 eBPF 实现动态的沙箱模糊测试与监控。该工具通过可配置的基于规则的分析来识别存在风险的功能，并提供相应的缓解建议。"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "Hardening Confidential Federated Compute against Side-channel Attacks",
+    "authors": "James Bell-Clark, Albert Cheu, Adria Gascon, Jonathan Katz",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.21469v1",
+    "source": "arXiv",
+    "abstract": "In this work, we identify a set of side-channels in our Confidential Federated Compute platform that a hypothetical insider could exploit to circumvent differential privacy (DP) guarantees. We show how DP can mitigate two of the side-channels, one of which has been implemented in our open-source library.",
+    "title_zh": "针对侧信道攻击的机密联邦计算加固",
+    "abstract_zh": "在这项工作中，我们发现了一组存在于我们的机密联邦计算平台中的侧信道，这些侧信道可能被假设存在的内部人员利用，以绕过差分隐私（DP）保障。我们展示了差分隐私如何缓解其中两个侧信道问题，并且其中一个解决方案已在我们的开源库中实现。"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "Why does it fail? Explanation of verification failures",
+    "authors": "Lars-Henrik Eriksson",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.21788v1",
+    "source": "arXiv",
+    "abstract": "Satisfiability solving is a common technique for formal verification forming the basis of many proof and model checking systems. Failure to show a proof obligation will produce a counterexample or failure trace with typically many thousands or even millions of boolean variables. Interpreting such a counterexample poses a challenge. Even if the individual variables are all understood, it is difficult to form a \"big picture\" of the situation causing the failure. We consider the case where verification conditions are expressed using concepts from a formal application domain model in a language based on predicate logic or a similar language. We introduce a method to explain verification failures in application domain terms. A measure of the relative relevance of predicates is used to extract the parts of a formula most likely to contribute meaningfully to the explanation. Dependencies between predicates are used to form a branching sequence of successive explanations. These explanations can help a practitioner find faults in the system being verified. The method is demonstrated on examples and compared to other methods.",
+    "title_zh": "为什么会失败？验证失败的原因说明",
+    "abstract_zh": "可满足性求解是形式化验证中的一种常用技术，构成了许多证明系统和模型检测系统的基础。当无法证明某个证明目标时，通常会产生一个反例或失败轨迹，其中包含成千上万甚至数百万个布尔变量。解释这样的反例是一项挑战：即使每个单独的变量都能被理解，也很难对导致失败的整体情况形成“全局性”的认识。本文考虑这样一种情况：验证条件是使用基于谓词逻辑或类似语言的正式应用领域模型中的概念来表达的。我们提出一种在应用领域术语层面上解释验证失败的方法。该方法利用谓词相对相关性的度量，提取公式中最有可能对解释有实质贡献的部分；并利用谓词之间的依赖关系，形成一个分支式的逐层解释序列。这些解释有助于实践者发现被验证系统中的缺陷。本文通过实例演示了该方法，并与其他方法进行了比较。"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "Quantifying Uncertainty in FMEDA Safety Metrics: An Error Propagation Approach for Enhanced ASIC Verification",
+    "authors": "Antonino Armato, Christian Kehl, Sebastian Fischer",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.21770v1",
+    "source": "arXiv",
+    "abstract": "Accurate and reliable safety metrics are paramount for functional safety verification of ASICs in automotive systems. Traditional FMEDA (Failure Modes, Effects, and Diagnostic Analysis) metrics, such as SPFM (Single Point Fault Metric) and LFM (Latent Fault Metric), depend on the precision of failure mode distribution (FMD) and diagnostic coverage (DC) estimations. This reliance can often leads to significant, unquantified uncertainties and a dependency on expert judgment, compromising the quality of the safety analysis. This paper proposes a novel approach that introduces error propagation theory into the calculation of FMEDA safety metrics. By quantifying the maximum deviation and providing confidence intervals for SPFM and LFM, our method offers a direct measure of analysis quality. Furthermore, we introduce an Error Importance Identifier (EII) to pinpoint the primary sources of uncertainty, guiding targeted improvements. This approach significantly enhances the transparency and trustworthiness of FMEDA, enabling more robust ASIC safety verification for ISO 26262 compliance, addressing a longstanding open question in the functional safety community.",
+    "title_zh": "FMEDA安全指标中不确定性的量化：一种用于增强ASIC验证的误差传播方法",
+    "abstract_zh": "准确可靠的安全部度量对于汽车系统中ASIC的功能安全验证至关重要。传统的FMEDA（故障模式、影响及诊断分析）度量指标，如单点故障度量（SPFM）和潜伏故障度量（LFM），依赖于故障模式分布（FMD）和诊断覆盖率（DC）估计的精确性。这种依赖性常常导致显著且无法量化的不确定性，并过度依赖专家判断，从而影响安全分析的质量。本文提出一种新方法，将误差传播理论引入FMEDA安全度量的计算中。通过量化SPFM和LFM的最大偏差并提供置信区间，我们的方法为分析质量提供了直接的衡量标准。此外，我们引入了误差重要性识别器（EII），以识别不确定性的主要来源，指导有针对性的改进。该方法显著提升了FMEDA的透明度和可信度，为满足ISO 26262标准的ASIC安全验证提供了更可靠的支撑，解决了功能安全领域长期存在的一个开放性问题。"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "LLM-Based Test Case Generation in DBMS through Monte Carlo Tree Search",
+    "authors": "Yujia Chen, Yingli Zhou, Fangyuan Zhang, Cuiyun Gao",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.21530v1",
+    "source": "arXiv",
+    "abstract": "Database Management Systems (DBMSs) are fundamental infrastructure for modern data-driven applications, where thorough testing with high-quality SQL test cases is essential for ensuring system reliability. Traditional approaches such as fuzzing can be effective for specific DBMSs, but adapting them to different proprietary dialects requires substantial manual effort. Large Language Models (LLMs) present promising opportunities for automated SQL test generation, but face critical challenges in industrial environments. First, lightweight models are widely used in organizations due to security and privacy constraints, but they struggle to generate syntactically valid queries for proprietary SQL dialects. Second, LLM-generated queries are often semantically similar and exercise only shallow execution paths, thereby quickly reaching a coverage plateau. To address these challenges, we propose MIST, an LLM-based test case generatIon framework for DBMS through Monte Carlo Tree search. MIST consists of two stages: Feature-Guided Error-Driven Test Case Synthetization, which constructs a hierarchical feature tree and uses error feedback to guide LLM generation, aiming to produce syntactically valid and semantically diverse queries for different DBMS dialects, and Monte Carlo Tree Search-Based Test Case Mutation, which jointly optimizes seed query selection and mutation rule application guided by coverage feedback, aiming at boosting code coverage by exploring deeper execution paths. Experiments on three widely-used DBMSs with four lightweight LLMs show that MIST achieves average improvements of 43.3% in line coverage, 32.3% in function coverage, and 46.4% in branch coverage compared to the baseline approach with the highest line coverage of 69.3% in the Optimizer module.",
+    "title_zh": "基于大语言模型和蒙特卡洛树搜索的数据库管理系统测试用例生成",
+    "abstract_zh": "数据库管理系统（DBMS）是现代数据驱动应用的核心基础设施，高质量的SQL测试用例对于确保系统可靠性至关重要。传统的测试方法（如模糊测试）对特定DBMS可能有效，但要适配不同的专有SQL方言则需要大量人工投入。大型语言模型（LLM）为自动化SQL测试用例生成提供了新的可能，但在工业环境中仍面临关键挑战。首先，出于安全和隐私考虑，企业普遍采用轻量级模型，但这类模型难以生成符合专有SQL方言语法的查询语句。其次，LLM生成的查询往往语义相似，仅覆盖浅层执行路径，导致代码覆盖率迅速达到瓶颈。为应对这些挑战，我们提出了MIST——一种基于LLM并通过蒙特卡洛树搜索（MCTS）实现的DBMS测试用例生成框架。MIST包含两个阶段：**特征引导的错误驱动测试用例合成**，通过构建分层特征树并利用错误反馈指导LLM生成，旨在为不同DBMS方言生成语法正确且语义多样的查询；以及**基于蒙特卡洛树搜索的测试用例变异**，结合覆盖率反馈联合优化种子查询选择与变异规则应用，以探索更深层的执行路径，提升代码覆盖率。在三个广泛使用的DBMS上，使用四个轻量级LLM进行的实验表明，与基线方法相比，MIST在线覆盖率上平均提升43.3%，函数覆盖率提升32.3%，分支覆盖率提升46.4%，其中在优化器模块中最高实现了69.3%的线覆盖率。"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "ROBOGATE: Adaptive Failure Discovery for Safe Robot Policy Deployment via Two-Stage Boundary-Focused Sampling",
+    "authors": "Byungjin Kim",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.22126v1",
+    "source": "arXiv",
+    "abstract": "Deploying learned robot manipulation policies in industrial settings requires rigorous pre-deployment validation, yet exhaustive testing across high-dimensional parameter spaces is intractable. We present ROBOGATE, a deployment risk management framework that combines physics-based simulation with a two-stage adaptive sampling strategy to efficiently discover failure boundaries in the operational parameter space. Stage 1 employs Latin Hypercube Sampling (LHS) across an 8-dimensional parameter space to establish a coarse failure landscape from 20,000 uniformly distributed experiments. Stage 2 applies boundary-focused sampling that concentrates 10,000 additional experiments in the 30-70% success rate transition zone, enabling precise failure boundary mapping. Using NVIDIA Isaac Sim with Newton physics, we evaluate a scripted pick-and-place controller on two robot embodiments -- Franka Panda (7-DOF) and UR5e (6-DOF) -- across 30,000 total experiments. Our logistic regression risk model achieves an AUC of 0.780 on the combined dataset (vs. 0.754 for Stage 1 alone), identifies a closed-form failure boundary equation, and reveals four universal danger zones affecting both robot platforms. We further demonstrate the framework on VLA (Vision-Language-Action) model evaluation, where Octo-Small achieves 0.0% success rate on 68 adversarial scenarios versus 100% for the scripted baseline -- a 100-point gap that underscores the challenge of deploying foundation models in industrial settings. ROBOGATE is open-source and runs on a single GPU workstation.",
+    "title_zh": "ROBOGATE：通过两阶段聚焦边界采样实现安全机器人策略部署的自适应故障发现",
+    "abstract_zh": "在工业环境中部署基于学习的机器人操作策略需要严格的部署前验证，然而在高维参数空间中进行穷尽测试是不可行的。我们提出了ROBOGATE，一种结合基于物理仿真的部署风险管理体系，通过两阶段自适应采样策略，高效地发现操作参数空间中的失效边界。第一阶段在8维参数空间中采用拉丁超立方采样（LHS），通过20,000次均匀分布的实验建立粗略的失效分布图景。第二阶段采用聚焦边界的采样方法，将额外10,000次实验集中在30%-70%成功率的过渡区域，从而实现对失效边界的精确映射。我们在NVIDIA Isaac Sim中使用Newton物理引擎，对两种机器人构型——Franka Panda（7自由度）和UR5e（6自由度）上的脚本化抓取-放置控制器进行了共计30,000次实验评估。我们的逻辑回归风险模型在合并数据集上达到0.780的AUC（相比仅第一阶段的0.754），识别出一个闭式表达的失效边界方程，并揭示了影响两种机器人平台的四个通用危险区域。我们进一步将该框架应用于VLA（视觉-语言-动作）模型的评估：在68个对抗性场景中，Octo-Small的成功率为0.0%，而脚本化基线为100%，存在100个百分点的巨大差距，凸显了基础模型在工业部署中的严峻挑战。ROBOGATE是开源的，可在单台GPU工作站上运行。"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "Bounded Structural Model Finding with Symbolic Data Constraints",
+    "authors": "Artur Boronat",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.22093v1",
+    "source": "arXiv",
+    "abstract": "Bounded model finding is a key technique for validating software designs, usually obtained by translating high-level specifications into SAT/SMT problems. Although effective, such translations introduce a semantic gap and a dependency on external tools. We present the \\emph{Maude Model Finder} (MMF), a native approach that brings bounded model finding to the Maude rewriting logic framework. MMF provides a schema-parametric engine that repurposes symbolic reachability for structural solving, generating finite object configurations from class declarations and graph and data constraints without bespoke generators. Technically, MMF explores a constrained symbolic rewriting system over runtime states modulo an equational theory; SMT is used only to prune states by constraint satisfiability and to discharge entailment checks for subsumption and folding. We contribute a bounded, obligation-driven calculus that separates object creation from reference assignment and supports symmetry reduction by folding via Maude's ACU matching. We establish termination, soundness, and completeness of the bounded construction within the declared bounds, and justify folding via a coverage-preserving subsumption test. We focus on the calculus and its properties, illustrating it on running examples supported by a Maude prototype.",
+    "title_zh": "具有符号数据约束的有界结构模型发现",
+    "abstract_zh": "有界模型查找是验证软件设计的关键技术，通常通过将高层规范翻译为SAT/SMT问题来实现。尽管这种方法有效，但翻译过程引入了语义鸿沟，并依赖于外部工具。本文提出了\\emph{Maude模型查找器}（MMF），这是一种原生方法，将有界模型查找引入Maude重写逻辑框架。MMF提供了一个模式参数化的引擎，通过重用符号可达性进行结构求解，能够从类声明以及图和数据约束中生成有限的对象配置，而无需专门定制的生成器。从技术上讲，MMF探索了一个在等式理论下对运行时状态进行约束的符号重写系统；SMT仅用于根据约束可满足性剪枝状态，并执行蕴含检查以实现子句消解和折叠。我们提出了一种有界、义务驱动的演算方法，将对象创建与引用赋值分离，并通过Maude的ACU匹配支持基于折叠的对称性约简。我们证明了在声明的界限内，该有界构造的终止性、正确性和完备性，并通过保持覆盖性的子句包含测试为折叠操作提供了理论依据。本文重点阐述该演算方法及其性质，并通过一个Maude原型支持的运行实例加以说明。"
+  },
+  {
+    "date": "2026-3-23",
+    "title": "Optimized Capture-Per-Clock Logic Bist with Hybrid Test-Point Insertion for Efficient VLSI Testing",
+    "authors": "M Kavitha, G Archana Devi, RadhaKrishna Karne, Niranjan Reddy Kallem, K Mounika, S Naga Jyothi",
+    "publish": "2025 10th International Conference on Research in Intelligent Computing in Engineering (RICE)",
+    "url": "https://doi.org/10.1109/rice67503.2025.11439976",
+    "source": "IEEE",
+    "abstract": "The continuous scaling of semiconductor technology and the emergence of safety-critical systems such as automotive and aerospace electronics have intensified the demand for high-quality, low-cost, and low-latency testing mechanisms. Logic Built-In Self-Test (LBIST) has become an effective design-for-testability (DFT) strategy, enabling onchip self-testing without extensive external equipment. However, the presence of random-resistant faults and long scan chain lengths still pose challenges to test efficiency. This paper presents an enhanced LBIST framework based on a Capture-per-Clock Hybrid Test-Point (CCHTP) architecture that integrates deterministic and pseudorandom testing to achieve improved fault coverage with minimal hardware overhead. The proposed method incorporates hybrid control and observation test points that simultaneously reduce Automatic Test Pattern Generation (ATPG) vector counts and enhance random testability. The Capture-per-Clock mechanism enables the system to apply and record test responses within each clock cycle, significantly reducing total test time. Experimental evaluation on industrial-scale circuits demonstrates substantial reductions in pattern counts, power consumption, and silicon area while maintaining high diagnostic precision. This integrated approach ensures compliance with modern functional safety standards such as ISO-26262 and provides a scalable testing methodology suitable for next-generation System-on-Chip (SoC) platforms.",
+    "title_zh": "采用混合测试点插入的优化时钟周期捕获逻辑内建自测试，用于高效VLSI测试",
+    "abstract_zh": "半导体技术的持续微缩以及汽车和航空航天电子等安全关键系统的兴起，加剧了对高质量、低成本、低延迟测试机制的需求。逻辑内建自测试（LBIST）已成为一种有效的可测性设计（DFT）策略，能够在无需大量外部设备的情况下实现芯片内部的自测试。然而，随机性抗性故障的存在以及较长的扫描链长度仍然对测试效率构成挑战。本文提出了一种基于“每时钟捕获混合测试点”（CCHTP）架构的增强型LBIST框架，该架构融合了确定性测试与伪随机测试，以实现更高的故障覆盖率并保持最小的硬件开销。所提出的方法引入了混合控制与观测测试点，可同时减少自动测试向量生成（ATPG）所需的向量数量并提升随机测试能力。“每时钟捕获”机制使系统能够在每个时钟周期内施加激励并记录响应，显著缩短了整体测试时间。在工业级电路中的实验评估表明，该方法在保持高诊断精度的同时，显著降低了测试向量数量、功耗和芯片面积。这种集成化方法不仅符合ISO 26262等现代功能安全标准，还为下一代片上系统（SoC）平台提供了一种可扩展的测试解决方案。"
+  },
+  {
+    "date": "2026-3-23",
+    "title": "LLM Based Software Test Scenario Generation System From Bug Descriptions",
+    "authors": "Merve Yilmazer Gundem, Mehmet Karakose",
+    "publish": "2026 30th International Conference on Information Technology (IT)",
+    "url": "https://doi.org/10.1109/it67293.2026.11435765",
+    "source": "IEEE",
+    "abstract": "Large, user-interactive software systems require extensive software testing for safe deployment. Manually generated test cases by software testers require extensive time and effort, and their scope remains limited. In this study, a system based on LLM is proposed for automatic test cases and test steps generation from bug descriptions. In the proposed system, bug descriptions were first collected from the Defects4J Dataset. Keywords relevant to the bug scope were extracted from the descriptions. Structured automatic prompts were generated from the extracted keywords. The generated prompts were fed into the LLM as input, and software test cases appropriate for the bugs were generated. The method was evaluated on actual bug descriptions by comparing it to a general (baseline) prompt. Experimental results show that the lengths of the generated scenarios are similar, but the proposed method increases the keyword match rate with error descriptions to an average of 89 %. The findings reveal that keyword-driven prompts are effective in generating more reliable and error-specific test scenarios without requiring additional data.",
+    "title_zh": "基于大语言模型的软件测试场景生成系统——从缺陷描述出发",
+    "abstract_zh": "大型用户交互式软件系统在安全部署前需要进行广泛的软件测试。由测试人员手动编写的测试用例耗时耗力，且覆盖范围有限。本研究提出了一种基于大语言模型（LLM）的系统，能够从缺陷描述中自动生成测试用例和测试步骤。在该系统中，首先从Defects4J数据集中收集缺陷描述，从中提取与缺陷范围相关的关键词，并基于这些关键词生成结构化的自动提示（prompt）。将生成的提示输入大语言模型，从而生成针对特定缺陷的软件测试用例。本方法通过真实缺陷描述进行评估，并与通用（基线）提示方法进行比较。实验结果表明，两种方法生成的测试场景长度相近，但所提方法使生成内容与错误描述之间的关键词匹配率平均达到89%。研究结果表明，基于关键词驱动的提示方法能够在无需额外数据的情况下，有效生成更可靠、更具缺陷针对性的测试场景。"
+  },
+  {
+    "date": "2026-3-23",
+    "title": "Novel UVM-Based Verification of a Short BCH Encoder and Decoder for Radiation-Tolerant Memory Arrays",
+    "authors": "Jamuna S, Hannan Ashrafi, T Mohammad Nisar, Suraj Malagar",
+    "publish": "2025 International Conference on Signal Processing, Computation, Electronics, Power and Telecommunication (IConSCEPT)",
+    "url": "https://doi.org/10.1109/iconscept66142.2025.11436715",
+    "source": "IEEE",
+    "abstract": "As circuit complexity continues to grow with modern VLSI design, verification needs increase in rigor and necessity. The Universal Verification Methodology (UVM) provides a systematic, coverage-driven approach for validating digital systems. In environments where radiation is more intense, such as aerospace, single-event upsets can cause data corruption in the system’s storage, thus requiring a fault-tolerant regime which safeguards data with Error Correction Codes (ECC). This report details a shortened BCH(562,512,5) encoder–decoder system architecture appropriate for these types of fault-tolerant memory applications. The encoder is based on a serial LFSR, while the decoder utilizes an inversionless Berlekamp–Massey–Chien approach optimized for deterministic latency and reduced complexity. The researcher developed a verification environment based on UVM that verified claims through constrained-random testing, fault injection, and automated coverage collection. The system has reached 100% statement, branch, FSM, and toggle coverage which affirms complete functional verification. The proposed architecture provides 562 clock cycles of decoding latency and can correct five random bit errors, making it a reliable and efficient choice for radiation-tolerant memory applications in advanced VLSI systems.",
+    "title_zh": "一种用于抗辐射存储器阵列的新型基于UVM的短BCH编码器和解码器验证方法",
+    "abstract_zh": "随着现代超大规模集成电路（VLSI）设计中电路复杂性的不断提高，验证工作在严格性和必要性方面也随之增强。通用验证方法学（UVM）为数字系统的验证提供了一种系统化、以覆盖率驱动的方法。在辐射强度较高的环境（如航空航天领域）中，单粒子翻转可能引起系统存储数据的损坏，因此需要采用容错机制，利用纠错码（ECC）来保护数据安全。本报告介绍了一种适用于此类容错存储应用的简化BCH(562,512,5)编解码系统架构。编码器基于串行线性反馈移位寄存器（LFSR）实现，而解码器则采用一种无需求逆的Berlekamp-Massey-Chien算法，针对确定性延迟和降低复杂度进行了优化。研究人员基于UVM构建了验证环境，通过约束随机测试、故障注入和自动覆盖率收集等方式验证了系统功能。该系统实现了100%的语句、分支、状态机（FSM）和翻转覆盖率，确认了功能验证的完整性。所提出的架构解码延迟为562个时钟周期，可纠正五个随机比特错误，因此在先进的VLSI系统中，是辐射容错存储应用的一种可靠且高效的解决方案。"
+  },
+  {
+    "date": "2026-3-23",
+    "title": "Design and FPGA Verification of a High-Speed Configurable 3D NAND Flash Controller",
+    "authors": "Qiang Yan, Junshe An, Zhenxing Dong, Bing Han",
+    "publish": "IEEE Embedded Systems Letters",
+    "url": "https://doi.org/10.1109/les.2026.3676415",
+    "source": "IEEE",
+    "abstract": "The growth in data volume requires high performance and flexible storage systems that capable of fully leveraging the potential of advanced TLC and QLC 3D NAND Flash memory through sophisticated control methodologies. We present the design and FPGA-based implementation of a high-speed, configurable NAND Flash controller compliant with the ONFI 4.1 standard. To mitigate inherent latency limitations, the architecture utilizes a 32-bit parallel bus across four NAND chips and an 8-stage LUN pipelining mechanism. A key feature is its native support for multi-mode operation, enabling dynamic management of TLC/QLC chips in their standard high-capacity modes or a high-reliability SLC mode through a host AXI interface. Experimental results shows that the design achieves a sustained write throughput of up to 1.507GB/s in TLC chip of TLC mode with pipeline efficiency exceeding 94.2%, demonstrating a significant performance advancement.",
+    "title_zh": "高速可配置3D NAND闪存控制器的设计与FPGA验证",
+    "abstract_zh": "数据量的增长需要具备高性能和高灵活性的存储系统，能够通过先进的控制方法充分挖掘TLC和QLC 3D NAND Flash存储器的潜力。本文提出了一种符合ONFI 4.1标准的高速、可配置NAND Flash控制器的设计及其基于FPGA的实现方案。为缓解固有的延迟限制，该架构在四个NAND芯片上采用32位并行总线，并结合8级LUN流水线机制。其关键特性之一是原生支持多模式操作，可通过主机AXI接口动态管理TLC/QLC芯片，使其工作于标准大容量模式或高可靠性的SLC模式。实验结果表明，该设计在TLC模式下的TLC芯片中实现了最高达1.507GB/s的持续写入吞吐量，流水线效率超过94.2%，展现出显著的性能提升。"
+  }
+]
