@@ -1,0 +1,123 @@
+[
+  {
+    "date": "2026-03-24",
+    "title": "On the Vulnerability of FHE Computation to Silent Data Corruption",
+    "authors": "Jianan Mu, Ge Yu, Zhaoxuan Kan, Song Bian, Liang Kong, Zizhen Liu, Cheng Liu, Jing Ye, Huawei Li",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.23253v1",
+    "source": "arXiv",
+    "abstract": "Fully Homomorphic Encryption (FHE) is rapidly emerging as a promising foundation for privacy-preserving cloud services, enabling computation directly on encrypted data. As FHE implementations mature and begin moving toward practical deployment in domains such as secure finance, biomedical analytics, and privacy-preserving AI, a critical question remains insufficiently explored: how reliable is FHE computation on real hardware? This question is especially important because, compared with plaintext computation, FHE incurs much higher computational overhead, making it more susceptible to transient hardware faults. Moreover, data corruptions are likely to remain silent: the FHE service has no access to the underlying plaintext, causing unawareness even though the corresponding decrypted result has already been corrupted. To this end, we conduct a comprehensive evaluation of SDCs in FHE ciphertext computation. Through large-scale fault-injection experiments, we characterize the vulnerability of FHE to transient faults, and through a theoretical analysis of error-propagation behaviors, we gain deeper algorithmic insight into the mechanisms underlying this vulnerability. We further assess the effectiveness of different fault-tolerance mechanisms for mitigating these faults.",
+    "title_zh": "关于全同态加密计算对静默数据损坏的脆弱性",
+    "abstract_zh": "全同态加密（FHE）正迅速成为支持隐私保护云服务的有前景基础，能够直接在加密数据上进行计算。随着FHE实现技术的成熟，并开始向安全金融、生物医学分析和隐私保护人工智能等领域的实际部署迈进，一个关键问题仍未得到充分探讨：FHE在真实硬件上的计算究竟有多可靠？这一问题尤为重要，因为与明文计算相比，FHE会带来更高的计算开销，因而更容易受到瞬态硬件故障的影响。此外，数据损坏很可能表现为静默错误：FHE服务无法访问底层明文，因此即使解密后的结果已经出错，系统本身也无法察觉。为此，我们对FHE密文计算中的单粒子翻转（SDC）进行了全面评估。通过大规模的故障注入实验，我们刻画了FHE对瞬态故障的脆弱性；并通过分析错误传播行为的理论研究，深入揭示了这种脆弱性背后的算法机制。我们还进一步评估了多种容错机制在缓解此类故障方面的有效性。"
+  },
+  {
+    "date": "2026-03-24",
+    "title": "Continuous Optimization for Satisfiability Modulo Theories on Linear Real Arithmetic",
+    "authors": "Yunuo Cen, Daniel Ebler, Xuanyao Fong",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.22877v1",
+    "source": "arXiv",
+    "abstract": "Efficient solutions for satisfiability modulo theories (SMT) are integral in industrial applications such as hardware verification and design automation. Existing approaches are predominantly based on conflict-driven clause learning, which is structurally difficult to parallelize and therefore scales poorly. In this work, we introduce FourierSMT as a scalable and highly parallelizable continuous-variable optimization framework for SMT. We generalize the Walsh-Fourier expansion (WFE), called extended WFE (xWFE), from the Boolean domain to a mixed Boolean-real domain, which allows the use of gradient methods for SMT. This addresses the challenge of finding satisfying variable assignments to high-arity constraints by local updates of discrete variables. To reduce the evaluation complexity of xWFE, we present the extended binary decision diagram (xBDD) and map the constraints from xWFE to xBDDs. We then show that sampling the circuit-output probability (COP) of xBDDs under randomized rounding is equivalent to the expectation value of the xWFEs. This allows for efficient computation of the constraints. We show that the reduced problem is guaranteed to converge and preserves satisfiability, ensuring the soundness of the solutions. The framework is benchmarked for large-scale scheduling and placement problems with up to 10,000 variables and 700,000 constraints, achieving 8-fold speedups compared to state-of-the-art SMT solvers. These results pave the way for GPU-based optimization of SMTs with continuous systems.",
+    "title_zh": "线性实数算术上的可满足性模理论的连续优化",
+    "abstract_zh": "可满足性模理论（SMT）的高效求解方案在硬件验证和设计自动化等工业应用中至关重要。现有的方法主要基于冲突驱动子句学习（CDCL），其结构上难以并行化，因此可扩展性较差。在本研究中，我们提出了FourierSMT，一种可扩展且高度可并行的连续变量优化框架，用于求解SMT问题。我们将布尔域上的Walsh-Fourier展开（WFE）推广至混合布尔-实数域，称为扩展WFE（xWFE），从而使得梯度方法可用于SMT求解。该方法通过离散变量的局部更新，解决了高元约束中寻找满足性变量赋值的难题。为降低xWFE的评估复杂度，我们提出了扩展二元决策图（xBDD），并将xWFE中的约束映射到xBDD上。我们进一步证明，在随机舍入下对xBDD电路输出概率（COP）进行采样，等价于xWFE的期望值，从而实现了约束的高效计算。我们证明了简化后的问题具有收敛保证，并保持可满足性，确保了解的正确性。该框架在大规模调度与布局问题上进行了基准测试，问题规模高达10,000个变量和700,000条约束，相比当前最先进的SMT求解器实现了8倍的加速。这些结果为基于GPU的连续系统SMT优化开辟了新路径。"
+  },
+  {
+    "date": "2026-03-24",
+    "title": "Understanding Bugs in Quantum Simulators: An Empirical Study",
+    "authors": "Krishna Upadhyay, Moshood Fakorede, Umar Farooq",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.22789v1",
+    "source": "arXiv",
+    "abstract": "Quantum simulators are a foundational component of the quantum software ecosystem. They are widely used to develop and debug quantum programs, validate compiler transformations, and support empirical claims about correctness and performance. In the absence of large-scale quantum hardware, simulator outputs are often treated as ground truth for algorithm development and system evaluation. However, quantum simulators also introduce unique implementation challenges. They must faithfully emulate quantum behavior while executing on classical hardware, requiring complex representations of quantum state evolution, operator composition, and noise modeling. Yet, we still lack a large-scale and in-depth study of failures in quantum simulators. To bridge this gap, this work presents a comprehensive empirical study of bugs in widely used open-source quantum simulators. We analyze 394 confirmed bugs from 12 simulators and manually categorize them based on root causes, failure manifestations, affected components, and discovery mechanisms. Our study reveals several key findings. First, bug discovery is largely user-driven, with most crashes, exceptions, and resource-related failures not detected by automated testing and identified after deployment. Second, logical correctness failures are widespread and often silent, producing plausible but incorrect outputs without triggering crashes or explicit error signals. Third, many critical failures originate in classical simulator infrastructure, such as memory management, indexing, configuration, and dependency compatibility, rather than in core quantum execution logic. These findings provide new insights into the reliability challenges of quantum simulators and highlight opportunities to improve testing and validation practices in the quantum software ecosystem.",
+    "title_zh": "理解量子模拟器中的缺陷：一项实证研究",
+    "abstract_zh": "量子模拟器是量子软件生态系统中的基础组成部分。它们被广泛用于开发和调试量子程序、验证编译器的变换操作，并支持关于正确性和性能的实证研究。在缺乏大规模量子硬件的情况下，模拟器的输出通常被视为算法开发和系统评估的“真实基准”。然而，量子模拟器本身也带来了独特的实现挑战：它们必须在经典硬件上运行的同时，准确地模拟量子行为，这就需要对量子态演化、算子组合以及噪声建模等过程进行复杂的表示。尽管如此，目前仍缺乏对量子模拟器中故障的大规模深入研究。\n\n为填补这一空白，本文对广泛使用的开源量子模拟器中的缺陷进行了全面的实证研究。我们分析了来自12个模拟器的394个已确认的缺陷，并根据其根本原因、故障表现、受影响组件以及发现机制进行了人工分类。研究揭示了若干关键发现：\n\n第一，缺陷的发现主要依赖用户驱动，大多数崩溃、异常和资源相关故障并未通过自动化测试检测到，而是在部署后由用户发现。  \n第二，逻辑正确性方面的缺陷普遍存在，且往往具有隐蔽性——它们会产生看似合理但实际错误的输出，而不会引发崩溃或明显的错误信号。  \n第三，许多关键故障源自模拟器的**经典基础设施**部分，例如内存管理、索引操作、配置处理和依赖兼容性，而非核心的量子执行逻辑本身。\n\n这些发现为理解量子模拟器的可靠性挑战提供了新的视角，并指出了改进量子软件生态系统中测试与验证实践的重要方向。"
+  },
+  {
+    "date": "2026-03-24",
+    "title": "BlindMarket: Enabling Verifiable, Confidential, and Traceable IP Core Distribution in Zero-Trust Settings",
+    "authors": "Zhaoxiang Liu, Samuel Judson, Raj Dutta, Mark Santolucito, Xiaolong Guo, Ning Luo",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.22685v1",
+    "source": "arXiv",
+    "abstract": "We present BlindMarket, an end-to-end zero-trust distribution framework for hardware IP cores. BlindMarket allows two parties, the IP user and the IP vendor, to complete an IP trading process with strong guarantees of verifiability and confidentiality before the transaction, and then traceability after. We propose verification heuristics and adapt the cone of influence-based design pruning to overcome the limited scalability common to cryptographic protocols and the hardness of the underlying hardware verification. We systematically evaluate our framework on a diverse set of real-world hardware benchmarks, and the results demonstrate that BlindMarket effectively completes across a diverse set of real-world hardware IP cores, demonstrating successful verification on 12 out of 13 designs and substantial performance improvements enabled by design pruning and control-flow guided heuristics.",
+    "title_zh": "BlindMarket：在零信任环境中实现可验证、保密且可追溯的IP核分发",
+    "abstract_zh": "我们提出了BlindMarket，一种面向硬件IP核的端到端零信任分发框架。BlindMarket使IP用户和IP供应商双方能够在交易前以强可验证性和保密性保障完成IP交易流程，并在交易后实现可追溯性。我们提出了验证启发式方法，并采用基于影响锥的设计剪枝技术，以克服密码学协议普遍存在的可扩展性限制以及底层硬件验证的复杂性难题。我们在一系列多样化的实际硬件基准上对本框架进行了系统性评估，结果表明，BlindMarket能够有效处理多种真实世界的硬件IP核，在13个设计中成功完成了12个的验证，并通过设计剪枝和控制流引导的启发式方法实现了显著的性能提升。"
+  },
+  {
+    "date": "2026-03-24",
+    "title": "Evaluating LLM-Based Test Generation Under Software Evolution",
+    "authors": "Sabaat Haroon, Mohammad Taha Khan, Muhammad Ali Gulzar",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.23443v1",
+    "source": "arXiv",
+    "abstract": "Large Language Models (LLMs) are increasingly used for automated unit test generation. However, it remains unclear whether these tests reflect genuine reasoning about program behavior or simply reproduce superficial patterns learned during training. If the latter dominates, LLM-generated tests may exhibit weaknesses such as reduced coverage, missed regressions, and undetected faults. Understanding how LLMs generate tests and how those tests respond to code evolution is therefore essential. We present a large-scale empirical study of LLM-based test generation under program changes. Using an automated mutation-driven framework, we analyze how generated tests react to semantic-altering changes (SAC) and semantic-preserving changes (SPC) across eight LLMs and 22,374 program variants. LLMs achieve strong baseline results, reaching 79% line coverage and 76% branch coverage with fully passing test suites on the original programs. However, performance degrades as programs evolve. Under SACs, the pass rate of newly generated tests drops to 66%, and branch coverage declines to 60%. More than 99% of failing SAC tests pass on the original program while executing the modified region, indicating residual alignment with the original behavior rather than adaptation to updated semantics. Performance also declines under SPCs despite unchanged functionality: pass rates fall to 79% and branch coverage to 69%. Although SPC edits preserve semantics, they often introduce larger syntactic changes, leading to instability in generated test suites. Models generate more new tests while discarding many baseline tests, suggesting sensitivity to lexical changes rather than true semantic impact. Overall, our results indicate that current LLM-based test generation relies heavily on surface-level cues and struggles to maintain regression awareness as programs evolve.",
+    "title_zh": "基于大语言模型的测试生成在软件演化下的评估",
+    "abstract_zh": "大型语言模型（LLMs）正越来越多地被用于自动生成单元测试。然而，目前尚不清楚这些生成的测试是基于对程序行为的真正推理，还是仅仅复现了训练过程中学到的表面模式。如果后者占主导地位，那么由LLM生成的测试可能会表现出诸多弱点，例如覆盖率降低、遗漏回归错误以及未能发现缺陷。因此，理解LLM如何生成测试，以及这些测试如何响应代码演化，显得至关重要。本文开展了一项针对LLM生成测试在程序变更下表现的大规模实证研究。我们采用一种基于自动化变异的框架，分析了八种LLM在22,374个程序变体上，其生成的测试对语义改变变更（SAC）和语义保持变更（SPC）的响应情况。实验结果显示，LLM在原始程序上表现良好，生成的测试套件实现了79%的行覆盖率和76%的分支覆盖率，且全部通过。然而，随着程序的演化，性能显著下降。在SAC场景下，新生成测试的通过率降至66%，分支覆盖率下降至60%。超过99%的失败SAC测试在原始程序上仍能通过，并且执行了被修改的代码区域，这表明这些测试仍与原始行为保持一致，而非适应更新后的语义。即使在功能不变的SPC变更下，性能同样下降：测试通过率降至79%，分支覆盖率降至69%。尽管SPC不改变程序语义，但通常引入较大的语法变化，导致生成的测试套件不稳定。模型倾向于生成更多新测试，同时丢弃大量原有测试，表明其对词汇层面的变化敏感，而非真正响应语义影响。总体而言，我们的研究结果表明，当前基于LLM的测试生成严重依赖表面线索，在程序演化过程中难以保持对回归问题的感知能力。"
+  },
+  {
+    "date": "2026-3-24",
+    "title": "Design and Implementation of a Novel FPGA-based Secure Electronic Voting System using Fingerprint Authentication",
+    "authors": "Y. Chalapathi Rao, Doti Giribabu, Harini Nallanagula, Bandla Soumya",
+    "publish": "2026 International Conference on AI-Driven Smart Systems and Ubiquitous Computing (ICAUC)",
+    "url": "https://doi.org/10.1109/icauc68182.2026.11441154",
+    "source": "IEEE",
+    "abstract": "The design and implementation of hardware fingerprint based EVM on Zynq-7000 FPGA is presented. The objective of designing this system is to provide security and transparency in the process of voting with fast and reliable operation. As we know, there are many EVMs in the market, but the authentication is manual or not very stringent. This causes several issues like multiple and illegal voting. To address this problem, we implemented biometric authentication on the FPGA device. The FPGA’s Block RAM saves the fingerprint data as .mem files after conversion into binary bitstreams. This allows for on-chip authentication and the fingerprint data matching occurs inside the hardware. The design is entirely coded in Verilog HDL. The operations of fingerprint matching, storing of votes and displaying of results are carried out by using various modules. After the design synthesis on the practical device only authenticated user can vote. No duplicate entries are allowed thus all the data is saved perfectly. The voter registration procedure was confirmed to have correct response and stable output at the display unit. As a result, the design has proven to function reliably as a tamper resistant voting machine. Moreover, the findings reveal the implementation of FPGAs.",
+    "title_zh": "基于指纹认证的新型FPGA安全电子投票系统的设计与实现",
+    "abstract_zh": "本文介绍了基于硬件指纹的电子投票机（EVM）在Zynq-7000 FPGA上的设计与实现。设计该系统的目的是在投票过程中提供安全性与透明性，同时实现快速可靠的运行。众所周知，目前市场上存在多种电子投票机，但其身份认证方式多为人工操作或不够严格，导致出现重复投票和非法投票等诸多问题。为解决这一问题，我们在FPGA设备上实现了生物特征身份认证。FPGA的块存储器（Block RAM）将转换为二进制比特流的指纹数据以.mem文件形式保存，从而实现片上认证，指纹匹配过程完全在硬件内部完成。整个设计完全采用Verilog HDL语言编写，通过多个功能模块实现指纹匹配、选票存储和结果显示等操作。在实际设备上完成设计综合后，只有经过认证的用户才能投票，杜绝了重复投票的情况，所有数据均被准确保存。选民注册流程在显示单元上验证结果正确，输出稳定。因此，该设计已被证实可作为防篡改的电子投票机可靠运行。此外，研究结果也展示了FPGA在该领域应用的可行性与优势。"
+  },
+  {
+    "date": "2026-3-24",
+    "title": "Research on Automatic Deployment and Intelligent Testing Framework of Autonomous Controllable Operating System for Power Energy System",
+    "authors": "Xiang Lu, Yang Su",
+    "publish": "2025 Asia Conference on Energy Conversion Systems and Power Electronics (AECSPE)",
+    "url": "https://doi.org/10.1109/aecspe66597.2025.00090",
+    "source": "IEEE",
+    "abstract": "In this paper, an automatic deployment and intelligent testing framework is proposed to meet the demand of power energy system for autonomous controllable operating system. As a national key infrastructure, the power industry’s core control system has long relied on foreign operating systems, facing the security risks of supply chain. The traditional manual deployment method is inefficient and easy to introduce human error, and the existing testing methods are insufficient in detecting deep vulnerabilities. Therefore, this paper designs an automatic deployment framework of power autonomous controllable operating system, adopts a three-tier modular architecture, and realizes the dynamic loading of heterogeneous device drivers and the automatic generation of cross-platform deployment templates through eBPF technology, which significantly improves the deployment efficiency. At the same time, an intelligent test framework is built, a digital twin test environment is created, and extreme scenarios are simulated by combining chaotic engineering, so that the test coverage rate is improved to 92%. The reinforcement learning method based on PPO (Proximal Policy Optimization) algorithm is introduced to optimize the priority ranking of test cases and shorten the time for finding critical defects. The experimental results show that the framework is significantly better than the traditional scheme in deployment efficiency, system stability and test coverage, which provides a strong guarantee for the safe and stable operation of power system.",
+    "title_zh": "电力能源系统自主可控操作系统自动部署与智能测试框架研究",
+    "abstract_zh": "本文提出了一种自动化部署与智能测试框架，以满足电力能源系统对自主可控操作系统的迫切需求。作为国家关键基础设施，电力行业的核心控制系统长期依赖国外操作系统，面临供应链安全风险。传统人工部署方式效率低下且易引入人为错误，现有测试方法在检测深层次漏洞方面存在不足。为此，本文设计了电力自主可控操作系统的自动化部署框架，采用三层模块化架构，利用eBPF技术实现异构设备驱动的动态加载与跨平台部署模板的自动生成，显著提升了部署效率。同时，构建了智能测试框架，搭建了数字孪生测试环境，结合混沌工程模拟极端场景，使测试覆盖率提升至92%。引入基于PPO（近端策略优化）算法的强化学习方法，优化测试用例的优先级排序，缩短发现关键缺陷的时间。实验结果表明，该框架在部署效率、系统稳定性及测试覆盖率等方面均显著优于传统方案，为电力系统的安全稳定运行提供了有力保障。"
+  },
+  {
+    "date": "2026-3-24",
+    "title": "Design and Implementation of an SM3 Algorithm Microarchitecture Based on an Event-Driven Asynchronous Mechanism",
+    "authors": "Guorui Wang, Fei Fang",
+    "publish": "2025 IEEE 4th International Conference of Safe Production and Informatization (IICSPI)",
+    "url": "https://doi.org/10.1109/iicspi66775.2025.11438039",
+    "source": "IEEE",
+    "abstract": "To address the vulnerability of traditional synchronous hash algorithm hardware to side-channel attacks, this paper proposes a high-security asynchronous hardware architecture for the SM3 hash algorithm. The design adopts an event-driven asynchronous circuit mechanism and datafloworiented methodology, decoupling and parallelizing the message expansion and iterative compression modules to effectively reduce critical path delay. By employing multi-stage cFifo, MutexMerge, and WaitMerge control units, a fully asynchronous structure independent of a global clock is achieved. Functional simulation and evaluation on the Vivado platform demonstrate that the proposed architecture maintains complete functional correctness of the SM3 algorithm while significantly enhancing resistance to differential power analysis attacks and improving energy efficiency. This work provides a novel and secure approach for the hardware implementation of cryptographic algorithms under the asynchronous computing paradigm.",
+    "title_zh": "基于事件驱动异步机制的SM3算法微架构设计与实现",
+    "abstract_zh": "针对传统同步哈希算法硬件易受侧信道攻击的脆弱性，本文提出了一种高安全性的异步SM3哈希算法硬件架构。该设计采用事件驱动的异步电路机制和面向数据流的方法，将消息扩展与迭代压缩模块解耦并并行化处理，有效降低了关键路径延迟。通过引入多级cFifo、MutexMerge和WaitMerge控制单元，实现了完全脱离全局时钟的异步结构。在Vivado平台上的功能仿真与评估结果表明，所提出的架构在保持SM3算法功能完整性的基础上，显著增强了对差分功耗分析攻击的抵抗能力，并提升了能效。本研究为异步计算范式下密码算法的硬件实现提供了一种新颖且安全的解决方案。"
+  },
+  {
+    "date": "2026-3-24",
+    "title": "Design and Testing Method for a Hardware-in-the-Loop Simulation Platform of Grid-forming Energy Storage Converters",
+    "authors": "Lingfeng Wei, Yibin Tao, Haoyuan Li, Guowei Chen, Yuanchuang Sun, Daquan Tao",
+    "publish": "2025 International Conference on Smart Grid and Energy (ICSGE)",
+    "url": "https://doi.org/10.1109/icsge68440.2025.11441649",
+    "source": "IEEE",
+    "abstract": "With the increasingly serious problem of grid stability under the high penetration rate of new energy, grid based energy storage is gradually entering the stage of large-scale application due to its advantages of stable operation in weak grids and providing inertia support to the grid. This article studies the design and testing method of a semi physical simulation platform for grid type energy storage inverters. By constructing a semi physical model for grid connected simulation testing, further verify the control strategy of the grid type energy storage system. This method can avoid the risk of hardware failure, improve testing safety, reduce testing costs, and avoid the negative impact of harmonics generated during the testing process on the power quality of the grid.",
+    "title_zh": "构网型储能变流器硬件在环仿真平台的设计与测试方法",
+    "abstract_zh": "随着新能源高渗透率下电网稳定性问题日益严重，电网侧储能因其在弱电网中运行稳定、可为电网提供惯性支撑等优势，正逐步进入大规模应用阶段。本文研究了一种电网侧储能变流器的半物理仿真平台的设计与测试方法。通过构建并网仿真测试的半物理模型，进一步验证电网侧储能系统的控制策略。该方法能够避免硬件故障风险，提高测试安全性，降低测试成本，并避免测试过程中产生的谐波对电网电能质量造成的不利影响。"
+  },
+  {
+    "date": "2026-3-24",
+    "title": "Speed Sensor Simulation in Software in Loop Platform",
+    "authors": "Jayant Kumar Sahoo, SunkiReddy Ginugu",
+    "publish": "2025 IEEE International Transportation Electrification Conference (ITEC-India)",
+    "url": "https://doi.org/10.1109/itec-india67626.2025.11439442",
+    "source": "IEEE",
+    "abstract": "This work focuses on enhancing the current capability of Software In Loop (SiL) platform for digital validation of inverter Electronic Control Unit (ECU). An architecture of the inverter virtual - ECU (vECU) is proposed to eliminate the complexities involving the integration of Complex Device Driver (CDD) layer. Plant models have been developed to mimic the behavior of automotive speed sensors. A detailed discussion is provided on the challenges related to processing high frequency Pulse Width Modulation (PWM) signals for speed calculations. The vECU simulation shows an accuracy of over 99.62 % in the speed calculated in Application Software (ASW) layer modules. The proposed vECU facilitates the rapid development and digital validation of software modules, accelerating the overall development process and enabling early detection of software defects.",
+    "title_zh": "软件在环平台中的速度传感器仿真",
+    "abstract_zh": "本研究致力于提升软件在环（SiL）平台在逆变器电子控制单元（ECU）数字验证方面的现有能力。提出了一种逆变器虚拟ECU（vECU）架构，以消除集成复杂设备驱动（CDD）层所带来的复杂性。同时开发了用于模拟汽车速度传感器行为的被控对象模型，并详细讨论了在速度计算中处理高频脉宽调制（PWM）信号所面临的技术挑战。vECU仿真结果显示，应用软件（ASW）层模块计算出的速度精度超过99.62%。所提出的vECU架构有助于软件模块的快速开发与数字验证，加快整体开发进程，并实现软件缺陷的早期发现。"
+  },
+  {
+    "date": "2026-3-24",
+    "title": "VIGOR-AD: A Verification-Guided, Risk-Optimized Validation Framework for Autonomous Driving",
+    "authors": "Tong Wang",
+    "publish": "2025 5th International Symposium on Artificial Intelligence and Big Data (AIBDF)",
+    "url": "https://doi.org/10.1109/aibdf67964.2025.11440770",
+    "source": "IEEE",
+    "abstract": "We propose VIGOR-AD, a hybrid validation architecture that connects high-fidelity simulation and formal verification for Autonomous Driving Systems (ADS). While simulation offers breadth and formal methods offer depth, integrating them remains challenging due to the state space explosion. This paper details the system design of VIGOR-AD, which couples a Unity3D simulation environment with the NuSMV model checker through a novel state abstraction layer. We describe the methodology for mapping continuous vehicle dynamics to discrete finite-state models, enabling the exhaustive verification of complex intersection protocols against Linear Temporal Logic (LTL) specifications. A case study on an ambulance priority protocol demonstrates the framework’s capability: formal analysis uncovers a logic flaw inaccessible to random testing, and the framework automatically concretizes the abstract counterexample into a reproducible simulation scenario. The results validate the architectural feasibility of driving simulation with formal proofs.",
+    "title_zh": "VIGOR-AD：一种验证引导、风险优化的自动驾驶验证框架",
+    "abstract_zh": "我们提出了VIGOR-AD，一种混合验证架构，将高保真仿真与形式化验证相结合，用于自动驾驶系统（ADS）。尽管仿真提供了广度，形式化方法提供了深度，但由于状态空间爆炸问题，二者的集成仍然具有挑战性。本文详细介绍了VIGOR-AD的系统设计，该架构通过一种新颖的状态抽象层，将Unity3D仿真环境与NuSMV模型检测工具相耦合。我们描述了将连续车辆动力学映射为离散有限状态模型的方法，从而实现对复杂交叉路口协议在时序逻辑（LTL）规范下的穷尽式验证。通过对救护车优先通行协议的案例研究，展示了该框架的能力：形式化分析发现了一个随机测试无法检测到的逻辑缺陷，并且该框架能自动将抽象的反例具体化为可复现的仿真场景。实验结果验证了将驾驶仿真与形式化证明相结合的架构可行性。"
+  }
+]
