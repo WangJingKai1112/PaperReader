@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-03-25",
+    "title": "Boosting LLMs for Mutation Generation",
+    "authors": "Bo Wang, Ming Deng, Mingda Chen, Chengran Yang, Youfang Lin, Mark Harman, Mike Papadakis, Jie M. Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.24560v1",
+    "source": "arXiv",
+    "abstract": "LLM-based mutation testing is a promising testing technology, but existing approaches typically rely on a fixed set of mutations as few-shot examples or none at all. This can result in generic low-quality mutations, missed context-specific mutation patterns, substantial numbers of redundant and uncompilable mutants, and limited semantic similarity to real bugs. To overcome these limitations, we introduce SMART (Semantic Mutation with Adaptive Retrieval and Tuning). SMART integrates retrieval-augmented generation (RAG) on a vectorized dataset of real-world bugs, focused code chunking, and supervised fine-tuning using mutations coupled with real-world bugs. We conducted an extensive empirical study of SMART using 1,991 real-world Java bugs from the Defects4J and ConDefects datasets, comparing SMART to the state-of-the-art LLM-based approaches, LLMut and LLMorpheus. The results reveal that SMART substantially improves mutation validity, effectiveness, and efficiency (even enabling small-scale 7B-scale models to match or even surpass large models like GPT-4o). We also demonstrate that SMART significantly improves downstream software engineering applications, including test case prioritization and fault localization. More specifically, SMART improves validity (weighted average generation rate) from 42.89% to 65.6%. It raises the non-duplicate rate from 87.38% to 95.62%, and the compilable rate from 88.85% to 90.21%. In terms of effectiveness, it achieves a real bug detection rate of 92.61% (vs. 57.86% for LLMut) and improves the average Ochiai coefficient from 25.61% to 38.44%. For fault localization, SMART ranks 64 more bugs as Top-1 under MUSE and 57 more under Metallaxis.",
+    "title_zh": "提升大语言模型用于变异生成",
+    "abstract_zh": "基于大语言模型（LLM）的变异测试是一种前景广阔的软件测试技术，但现有方法通常依赖固定的一组变异作为少样本示例，甚至完全不使用示例。这可能导致生成的变异过于泛化、质量低下，遗漏特定上下文的变异模式，产生大量冗余或无法编译的变异体，并且在语义上与真实缺陷相似度有限。为克服这些局限，我们提出了SMART（基于自适应检索与调优的语义变异测试）。SMART融合了检索增强生成（RAG）技术，利用真实缺陷的向量化数据集，结合聚焦性的代码分块策略，并采用与真实缺陷配对的变异进行监督微调。我们对SMART进行了广泛的实证研究，使用来自Defects4J和ConDefects数据集的1,991个真实Java缺陷，将其与当前最先进的基于LLM的变异测试方法LLMut和LLMorpheus进行比较。结果表明，SMART在变异的有效性、检测效果和效率方面均有显著提升——甚至使规模较小的7B级别模型能够媲美或超越GPT-4o等大型模型。此外，我们还验证了SMART在下游软件工程任务（如测试用例优先级排序和缺陷定位）中的显著改进。具体而言，SMART将变异生成的有效率（加权平均生成率）从42.89%提升至65.6%，非重复率从87.38%提高到95.62%，可编译率从88.85%提升至90.21%。在检测效果方面，真实缺陷检出率高达92.61%（相比之下LLMut仅为57.86%），Ochiai平均系数从25.61%提升至38.44%。在缺陷定位任务中，SMART在MUSE评估下多出64个缺陷被列为Top-1，在Metallaxis下多出57个。"
+  },
+  {
+    "date": "2026-03-25",
+    "title": "Hybrid Spatiotemporal Logic for Automotive Applications: Modeling and Model-Checking",
+    "authors": "Radu-Florin Tulcan, Rose Bohrer, Yoàv Montacute, Kevin Zhou, Yusuke Kawamoto, Ichiro Hasuo",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.24443v1",
+    "source": "arXiv",
+    "abstract": "We introduce a hybrid spatiotemporal logic for automotive safety applications (HSTL), focused on highway driving. Spatiotemporal logic features specifications about vehicles throughout space and time, while hybrid logic enables precise references to individual vehicles and their historical positions. We define the semantics of HSTL and provide a baseline model-checking algorithm for it. We propose two optimized model-checking algorithms, which reduce the search space based on the reachable states and possible transitions from one state to another. All three model-checking algorithms are evaluated on a series of common driving scenarios such as safe following, safe crossings, overtaking, and platooning. An exponential performance improvement is observed for the optimized algorithms.",
+    "title_zh": "面向汽车应用的混合时空逻辑：建模与模型检验",
+    "abstract_zh": "我们提出了一种面向汽车安全应用的混合时空逻辑（HSTL），专注于高速公路驾驶场景。时空逻辑能够对车辆在空间和时间上的行为进行形式化描述，而混合逻辑则支持对单个车辆及其历史位置进行精确定位和引用。我们定义了HSTL的语义，并为其提供了一个基础的模型检测算法。此外，我们提出了两种优化的模型检测算法，它们通过分析系统可达状态以及状态间可能的转移来缩小搜索空间。这三种模型检测算法均在一系列常见的驾驶场景中进行了评估，包括安全跟车、安全通过交叉区域、超车和车队行驶等。实验结果表明，优化后的算法在性能上实现了指数级的提升。"
+  },
+  {
+    "date": "2026-03-25",
+    "title": "Environment-Grounded Multi-Agent Workflow for Autonomous Penetration Testing",
+    "authors": "Michael Somma, Markus Großpointner, Paul Zabalegui, Eppu Heilimo, Branka Stojanović",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.24221v1",
+    "source": "arXiv",
+    "abstract": "The increasing complexity and interconnectivity of digital infrastructures make scalable and reliable security assessment methods essential. Robotic systems represent a particularly important class of operational technology, as modern robots are highly networked cyber-physical systems deployed in domains such as industrial automation, logistics, and autonomous services. This paper explores the use of large language models for automated penetration testing in robotic environments. We propose an environment-grounded multi-agent architecture tailored to Robotics-based systems. The approach dynamically constructs a shared graph-based memory during execution that captures the observable system state, including network topology, communication channels, vulnerabilities, and attempted exploits. This enables structured automation while maintaining traceability and effective context management throughout the testing process. Evaluated across multiple iterations within a specialized robotics Capture-the-Flag scenario (ROS/ROS2), the system demonstrated high reliability, successfully completing the challenge in 100\\% of test runs (n=5). This performance significantly exceeds literature benchmarks while maintaining the traceability and human oversight required by frameworks like the EU AI Act.",
+    "title_zh": "面向环境的多智能体自主渗透测试工作流",
+    "abstract_zh": "数字基础设施日益增长的复杂性和互联互通性，使得可扩展且可靠的安 全评估方法变得至关重要。机器人系统是一类尤为重要的操作技术，因为现代机器人是高度网络化的信息物理系统，广泛应用于工业自动化、物流和自主服务等领域。本文探讨了利用大语言模型在机器人环境中实现自动化渗透测试的方法。我们提出了一种面向机器人系统的、以环境为基础的多智能体架构。该方法在执行过程中动态构建一个基于图的共享记忆结构，用以记录可观测的系统状态，包括网络拓扑、通信通道、漏洞以及已尝试的攻击利用方式。这种方法在实现结构化自动化的同时，确保了测试全过程中的可追溯性与高效上下文管理。在专用的机器人夺旗挑战场景（ROS/ROS2）中进行多轮评估的结果表明，该系统表现出高度可靠性，在全部测试运行中均成功完成挑战（n=5，成功率100%）。该性能显著优于现有文献中的基准水平，同时满足《欧盟人工智能法案》等监管框架所要求的可追溯性与人工监督能力。"
+  },
+  {
+    "date": "2026-03-25",
+    "title": "Towards Remote Attestation of Microarchitectural Attacks: The Case of Rowhammer",
+    "authors": "Martin Herrmann, Oussama Draissi, Christian Niesler, Lucas Davi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2603.24172v1",
+    "source": "arXiv",
+    "abstract": "Microarchitectural vulnerabilities increasingly undermine the assumption that hardware can be treated as a reliable root of trust. Prevention mechanisms often lag behind evolving attack techniques, leaving deployed systems unable to assume continued trustworthiness. We propose a shift from prevention to detection through microarchitectural-aware remote attestation. As a first instantiation of this idea, we present HammerWatch, a Rowhammer-aware remote attestation protocol that enables an external verifier to assess whether a system exhibits hardware-induced disturbance behavior. HammerWatch leverages memory-level evidence available on commodity platforms, specifically Machine-Check Exceptions (MCEs) from ECC DRAM and counter-based indicators from Per-Row Activation Counting (PRAC), and protects these measurements against kernel-level adversaries using TPM-anchored hash chains. We implement HammerWatch on commodity hardware and evaluate it on 20000 simulated benign and malicious access patterns. Our results show that the verifier reliably distinguishes Rowhammer-like behavior from benign operation under conservative heuristics, demonstrating that detection-oriented attestation is feasible and can complement incomplete prevention mechanisms",
+    "title_zh": "面向微架构攻击的远程证明：以Rowhammer为例",
+    "abstract_zh": "微架构漏洞日益削弱了硬件可被视为可靠信任根这一假设。防御机制往往滞后于不断演化的攻击技术，导致已部署的系统无法持续保证其可信性。我们提出一种从预防转向检测的范式转变，即通过具备微架构感知能力的远程证明机制来实现。作为这一理念的首次实践，我们提出了 HammerWatch——一种针对 Rowhammer 感知的远程证明协议，使外部验证者能够评估系统是否表现出由硬件引发的内存干扰行为。HammerWatch 利用商用平台上可获取的内存层级证据，具体包括来自 ECC DRAM 的机器检查异常（Machine-Check Exceptions, MCEs）以及来自按行激活计数（Per-Row Activation Counting, PRAC）的计数器指标，并通过基于 TPM 的哈希链保护这些测量结果，抵御内核级攻击者。我们在商用硬件上实现了 HammerWatch，并在两万种模拟的良性与恶意访问模式下进行了评估。实验结果表明，在保守启发式策略下，验证者能够可靠地区分 Rowhammer 类行为与正常操作，证明了以检测为导向的证明机制是可行的，并可作为不完善防御机制的有效补充。"
+  },
+  {
+    "date": "2026-3-25",
+    "title": "Llm-Fuzz: Adaptive, Structure-Aware Fuzzing of Javascript Engines with Large Language Models",
+    "authors": "Kongyang Liu, Chengxiang Tan",
+    "publish": "2025 11th International Conference on Computer and Communications (ICCC)",
+    "url": "https://doi.org/10.1109/iccc68654.2025.11438113",
+    "source": "IEEE",
+    "abstract": "Fuzzing modern JavaScript (JS) engines remains challenging due to the semantic complexity required to explore deep program states and advanced components such as Just-InTime (JIT) compilers. Traditional mutation-based fuzzers often generate invalid inputs, while existing structure-aware techniques still face a semantic wall, producing syntactically valid but semantically flawed programs. This paper presents LLM-Fuzz, a coverage-guided fuzzing framework that leverages Large Language Models (LLMs) to perform AST-based, semantics-aware mutations. Unlike prior fuzzers with fixed operators, LLM-Fuzz introduces an adaptive feedback loop that fine-tunes the mutation strategy during fuzzing via Low-Rank Adaptation (LoRA). Experiments on V8 and ChakraCore show that LLM-Fuzz reduces runtime error rates and achieves higher edge coverage compared to state-of-the-art fuzzers. These results demonstrate that incampaign, LLM-driven adaptation can improve the effectiveness of fuzzing structured inputs.",
+    "title_zh": "Llm-Fuzz：基于大语言模型的自适应、结构感知JavaScript引擎模糊测试",
+    "abstract_zh": "由于需要复杂的语义来探索深层程序状态以及即时（JIT）编译器等高级组件，对现代JavaScript（JS）引擎进行模糊测试仍然具有挑战性。传统的基于变异的模糊测试工具常常生成无效输入，而现有的结构感知技术仍面临语义障碍，产生语法正确但语义错误的程序。本文提出了LLM-Fuzz，一种基于覆盖率引导的模糊测试框架，利用大语言模型（LLMs）执行基于抽象语法树（AST）且具备语义感知能力的变异。与以往使用固定算子的模糊测试工具不同，LLM-Fuzz引入了一种自适应反馈循环机制，通过低秩适应（LoRA）在模糊测试过程中动态微调变异策略。在V8和ChakraCore上的实验表明，与当前最先进的模糊测试工具相比，LLM-Fuzz降低了运行时错误率，并实现了更高的边覆盖度。这些结果表明，在模糊测试中采用大语言模型驱动的自适应方法能够有效提升对结构化输入的测试效果。"
+  },
+  {
+    "date": "2026-3-25",
+    "title": "Nighthawk: Zero-Copy Cache Quarantine for Invisible Speculation",
+    "authors": "Minwoo Jang, Sungju Kim, Daehoon Kim",
+    "publish": "IEEE Computer Architecture Letters",
+    "url": "https://doi.org/10.1109/lca.2026.3677441",
+    "source": "IEEE",
+    "abstract": "Out-of-order execution enhances processor performance but introduces transient execution vulnerabilities that leak confidential data via microarchitectural side effects. Existing defenses often necessitate invasive hardware modifications-such as dedicated buffers or complex forwarding logic-resulting in prohibitive performance degradation. We propose Nighthawk, a lightweight defense that repurposes existing cache ways to isolate speculative loads without the area overhead of auxiliary structures. Nighthawk introduces an in-cache quarantine mechanism that dynamically allocates a specific cache way to buffer speculative data, effectively eliminating the data-copy latency inherent in decoupled buffer designs. By integrating this mechanism with Speculative Taint Tracking (STT), we transform STT's restrictive stall policy into a prefetch-but-quarantine strategy. This approach recovers memory-level parallelism by allowing speculative misses to proceed into the quarantined way while blocking microarchitectural propagation until resolution. Evaluation using gem5 on SPEC CPU2006/2017 benchmarks demonstrates that Nighthawk reclaims performance lost to STT, reducing execution time by 6.2% on average and up to 28.8% for memory-intensive workloads, offering a more practical design point for secure high-performance processors.",
+    "title_zh": "夜鹰：用于隐形推测的零拷贝缓存隔离",
+    "abstract_zh": "乱序执行能够提升处理器性能，但会引发瞬态执行漏洞，通过微架构层面的副作用导致敏感数据泄露。现有的防御机制通常需要侵入性的硬件修改，例如引入专用缓冲区或复杂的转发逻辑，从而带来显著的性能开销。本文提出Nighthawk，一种轻量级防御方案，通过复用现有缓存路（cache ways）来隔离推测性加载操作，无需额外辅助结构，避免了面积开销。Nighthawk引入了一种缓存内隔离机制，动态分配特定缓存路用于暂存推测性数据，有效消除了传统解耦缓冲设计中固有的数据复制延迟。通过将该机制与推测性污点追踪（Speculative Taint Tracking, STT）相结合，我们将STT原本严格的停顿策略转变为“预取但隔离”策略。该方法在内存级并行性方面实现了恢复：允许推测性未命中访问进入隔离缓存路，同时阻止其在微架构层面传播，直至指令得到确认。基于gem5仿真器对SPEC CPU2006/2017基准程序的评估表明，Nighthawk成功挽回了STT所损失的性能，平均执行时间减少6.2%，在内存密集型负载中最高减少达28.8%，为构建兼具安全性与高性能的处理器提供了一个更实用的设计方案。"
+  },
+  {
+    "date": "2026-3-25",
+    "title": "SparseTG-GS: Test Case Generation via Sparse Perturbation Group",
+    "authors": "Shunhui Ji, Yunhe Li, Yan Xiao, Hai Dong, LiMing Hu, Pengcheng Zhang",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3802544",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SparseTG-GS：基于稀疏扰动组的测试用例生成",
+    "abstract_zh": "None"
+  }
+]
