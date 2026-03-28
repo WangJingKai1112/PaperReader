@@ -1,0 +1,200 @@
+[
+  {
+    "date": "2026-3-27",
+    "title": "OpenOCD-Compliant Radiation-Hardened JTAG Interface for Optically Reconfigurable Gate Array VLSIs",
+    "authors": "Naoki Nagamine, Minoru Watanabe, Nobuya Watanabe",
+    "publish": "2026 IEEE International Conference on Consumer Electronics (ICCE)",
+    "url": "https://doi.org/10.1109/icce67443.2026.11449904",
+    "source": "IEEE",
+    "abstract": "We have been developing radiation-hardened optically reconfigurable gate array (ORGA) VLSIs. The ORGA- VLSIs allow the programmable gate array to be broken partly. In this case, radiation-damaged regions are avoided and non-damaged regions are only used for applications. However, to exploit the advantage point of ORGAs, the faulty regions must be identified prior to the use. Although JTAG interface is useful for identifying the faulty region, current JTAG interface is vulnerable to radiation. To solve this problem, we have developed a new radiation-hardened JTAG interface that is compliant with IEEE 1149.1, by applying triple modular redundancy to current JTAG interface. The designed JTAG interface was implemented onto an FPGA to test an optically reconfigurable gate array VLSI. The ORGA operation was verified using the open-source debugging tool OpenOCD and SVF files. At that time, boundary scan tests were successfully completed for the ORGA-VLSI. This paper presents the experimental results.",
+    "title_zh": "符合OpenOCD标准的抗辐射JTAG接口，用于光可重构门阵列超大规模集成电路",
+    "abstract_zh": "我们一直在开发抗辐射的光重构门阵列（ORGA）超大规模集成电路（VLSI）。ORGA-VLSI允许可编程门阵列部分损坏。在这种情况下，可以避开受辐射损伤的区域，仅使用未受损区域进行应用。然而，为了充分利用ORGA的优势，必须在使用前识别出故障区域。虽然JTAG接口可用于识别故障区域，但现有的JTAG接口对辐射敏感，容易受到损害。为解决这一问题，我们通过采用三重模块冗余技术，在现有JTAG接口基础上开发了一种符合IEEE 1149.1标准的新型抗辐射JTAG接口。所设计的JTAG接口被实现于FPGA上，用于测试光重构门阵列VLSI。利用开源调试工具OpenOCD和SVF文件验证了ORGA的操作，并成功完成了针对ORGA-VLSI的边界扫描测试。本文展示了相关的实验结果。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Hardware-Trojan Detection Using GraphGPS",
+    "authors": "Sho Yoshimi, Yuka Ikegami, Nozomu Togawa",
+    "publish": "2026 IEEE International Conference on Consumer Electronics (ICCE)",
+    "url": "https://doi.org/10.1109/icce67443.2026.11449673",
+    "source": "IEEE",
+    "abstract": "With the growing demand for integrated circuits (ICs), design and manufacturing is increasingly outsourced to external vendors, raising the risk of hardware Trojans (HTs) being maliciously inserted by untrusted third parties. An HT is a small, stealthy circuit that can alter functionality, degrade performance, or leak confidential information, making it difficult to detect. This paper proposes an HT detection method based on GraphGPS, a Graph Transformer that integrates MPNN (Message Passing Neural Network) and Transformer layers to capture both local and global structural features of circuit graphs. Experimental results demonstrate the effectiveness of the proposed method, achieving the highest F-score of 0.8322 at 2000 training epochs.",
+    "title_zh": "使用GraphGPS进行硬件木马检测",
+    "abstract_zh": "随着对集成电路（IC）需求的不断增长，设计与制造越来越多地外包给外部供应商，这增加了不可信第三方恶意植入硬件木马（HT）的风险。硬件木马是一种微小且隐蔽的电路，可能改变系统功能、降低性能或泄露机密信息，因而难以检测。本文提出了一种基于GraphGPS的硬件木马检测方法，该方法采用一种图神经网络Transformer架构，融合了消息传递神经网络（MPNN）和Transformer层，以捕获电路图的局部与全局结构特征。实验结果表明，该方法具有良好的检测效果，在2000个训练周期时达到了最高的F分数0.8322。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Research on Intelligent Connected Vehicle Safety Technology Based on Fuzzy Testing",
+    "authors": "Xiuchen Zhan, Mengfei Liu, Xiaodong Zang",
+    "publish": "2026 IEEE International Conference on Power, Electronics and Green Energy (ICPEGE)",
+    "url": "https://doi.org/10.1109/icpege67691.2026.11451275",
+    "source": "IEEE",
+    "abstract": "With the increasing complexity of automotive electronic systems, in vehicle devices use wireless communication technology to provide various functional services, making cars the main target of hacker attacks. Fuzzy testing, as an effective method for automotive software security testing, can generate a large amount of random data, simulate the behavior of attackers, trigger hidden vulnerabilities or defects in software systems, monitor their abnormal reactions, discover potential errors and security vulnerabilities, and enhance the security of automotive software. This article focuses on the research status and application challenges of fuzzy testing technology in the safety analysis of intelligent connected vehicles. Three methods of fuzzy testing technology are analyzed, and the framework, data types, and workflow of fuzzy testing technology for intelligent connected vehicles are proposed, contributing to the safe development of the intelligent connected vehicle industry.",
+    "title_zh": "基于模糊测试的智能网联汽车安全技术研究",
+    "abstract_zh": "随着汽车电子系统复杂性的不断增加，车载设备通过无线通信技术提供各种功能服务，使得汽车成为黑客攻击的主要目标。模糊测试作为一种有效的汽车软件安全测试方法，能够生成大量随机数据，模拟攻击者的行为，触发软件系统中隐藏的漏洞或缺陷，监控其异常反应，发现潜在的错误和安全漏洞，从而提升汽车软件的安全性。本文重点探讨了模糊测试技术在智能网联汽车安全分析中的研究现状与应用挑战，分析了三种模糊测试技术方法，提出了面向智能网联汽车的模糊测试技术框架、数据类型及工作流程，为智能网联汽车产业的安全发展提供支持。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "CHASE: A\n                    <u>CH</u>\n                    iplet\n                    <u>A</u>\n                    rchitecture\n                    <u>S</u>\n                    imulation and\n                    <u>E</u>\n                    xploration Framework with Decoupled Multi-Fidelity Optimization",
+    "authors": "Shixin Chen, Hengyuan Zhang, Jianwang Zhai, Bei Yu",
+    "publish": "Proceedings of the 2026 International Symposium on Physical Design",
+    "url": "https://doi.org/10.1145/3764386.3779577",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "CHASE：一种具有解耦多保真度优化的芯片架构仿真与探索框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "C-HIL Validation of Reduced Device Stress Multilevel PFC Rectifier for EV Charging Application Using OPAL-RT",
+    "authors": "Manish Kumar Barwar, Akhilesh Kumar Tiwari, Sai Teja Cherla, Lalit Kumar Sahu, Sameer Singh, Prasanta Kumar Jena",
+    "publish": "2025 12th National Power Electronics Conference (NPEC)",
+    "url": "https://doi.org/10.1109/npec66512.2025.11450286",
+    "source": "IEEE",
+    "abstract": "In multi-stage battery chargers for the electricvehicle (EV) application, the AC to DC stage plays a crucial role in defining overall power quality. To enhance this, multilevel rectifiers (MLRs) utilise lower voltage-rated switches and offer an improved grid profile. In this paper, a single-phase five-level rectifier equipped with self-balancing capabilities, maintaining grid profile and closed-loop control, is specifically designed for EV charging applications. The implemented converter reduces voltage stress across power switches and offers the added benefit of eliminating the need for a DC-side filter, as the load is connected in parallel with one of the capacitors. Its continuous conduction mode and five-level operation eliminate the need for both AC-side capacitive and DC-side inductive filters. The paper comprehensively details the rectifier's profile in different aspects. The proposed control method provides better output voltage regulation under varying load conditions while maintaining a unity power factor at the input. Further, the Controller Hardware-in-the-loop (C-HIL) validation of the reduced device stress MLR topology has been done using the latest hardware from OPAL-RT (OP4610). This study presents a comprehensive analysis of the C-HIL employing OPAL-RT for any converter topology.",
+    "title_zh": "基于OPAL-RT的用于电动汽车充电应用的降低器件应力多电平PFC整流器的C-HIL验证",
+    "abstract_zh": "在用于电动汽车（EV）应用的多级电池充电器中，交流到直流（AC-DC）转换阶段对整体电能质量起着至关重要的作用。为了提升性能，多电平整流器（MLR）采用耐压等级较低的开关器件，并能够提供更优的电网侧电流波形。本文针对电动汽车充电应用，专门设计了一种具备自平衡能力、可维持良好电网特性和闭环控制的单相五电平整流器。所实现的变换器降低了功率开关器件上的电压应力，并具有无需直流侧滤波器的优点，因为负载与其中一个电容并联连接。该整流器工作于连续导通模式并实现五电平输出，因此无需交流侧的电容滤波器和直流侧的电感滤波器。本文从多个方面全面阐述了该整流器的特性。所提出的控制方法在不同负载条件下均能实现更优的输出电压调节，同时在输入端保持单位功率因数。此外，采用OPAL-RT公司最新的硬件设备（OP4610），对降低器件应力的MLR拓扑进行了控制器硬件在环（C-HIL）验证。本研究还提供了利用OPAL-RT平台对任意变换器拓扑进行C-HIL仿真分析的完整方法论。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "FPGA Implementation of a Pipelined RV32IM Processor with Dynamic Branch Prediction",
+    "authors": "Maharishi Sonwani, Rahul Bhattacharya",
+    "publish": "2025 IEEE International Conference on Electrical, Electronics, Communication and Computers (ELEXCOM)",
+    "url": "https://doi.org/10.1109/elexcom67950.2025.11451255",
+    "source": "IEEE",
+    "abstract": "As fields like AI and robotics continue to expand, the demand for processors that are both powerful and energy-efficient is growing. This imposes the need for the development of such processors at a large scale and at a faster rate, which is possible through open-source development. While the current computing industry is dominated by proprietary technologies and licensed architectures, open-source hardware is rapidly gaining popularity across all industry segments, from high-performance computing to edge-IoT applications.This paper presents the design and FPGA implementation of a 32-bit five-stage pipelined processor core based on the RISC-V open-source Instruction Set Architecture (ISA). The proposed design presents a simple implementation of the RISC-V core, incorporating a 2-bit branch predictor. This makes it easier for beginners to understand the fundamental architecture of a pipelined RISC processor and branch predictors. Additionally, the design has considerable potential for future upgrades. The core is developed using SystemVerilog and has been tested through simulations in Verilator and Xsim, as well as by deploying it on a Basys3 FPGA board.",
+    "title_zh": "具有动态分支预测的流水线RV32IM处理器的FPGA实现",
+    "abstract_zh": "随着人工智能和机器人等领域的不断发展，市场对兼具高性能与高能效的处理器需求日益增长。这要求必须大规模、快速地开发此类处理器，而开源开发为此提供了可能。尽管当前计算产业仍以专有技术和授权架构为主导，但开源硬件正迅速在各个行业领域获得关注，从高性能计算到边缘物联网（edge-IoT）应用皆是如此。本文提出了一种基于RISC-V开源指令集架构（ISA）的32位五级流水线处理器核心的设计及其现场可编程门阵列（FPGA）实现方案。该设计实现了结构简洁的RISC-V处理器核心，并集成了一个2位分支预测器，有助于初学者理解流水线式RISC处理器及分支预测器的基本架构。此外，该设计还具备较大的未来升级潜力。该处理器核心采用SystemVerilog语言开发，通过Verilator和Xsim仿真工具进行了功能验证，并成功部署于Basys3 FPGA开发板上进行测试。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Invited: Agentic Chip Design from Spec2GDS - Faster and Better than a Human Expert?",
+    "authors": "Thomas Andersen",
+    "publish": "Proceedings of the 2026 International Symposium on Physical Design",
+    "url": "https://doi.org/10.1145/3764386.3779630",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "已邀请：从Spec2GDS的智能体芯片设计——比人类专家更快更好？",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Pioneering Robust UART Systems Leveraging Riccati Based Sampling for Superior Bit Error Rate Performance",
+    "authors": "Hilay Patel, Madhav Tandon, Mahesh A. Patel",
+    "publish": "2025 IEEE International Conference on Electrical, Electronics, Communication and Computers (ELEXCOM)",
+    "url": "https://doi.org/10.1109/elexcom67950.2025.11451589",
+    "source": "IEEE",
+    "abstract": "This paper presents a novel approach to enhance the reliability of Universal Asynchronous Receiver/Transmitter (UART) communication systems under noisy conditions by implementing a Riccati-based sampling method. The UART model has been developed in Verilog to simulate realistic hardware behavior, capturing the effects of bit-flip noise on serial data transmission. Simulations have been conducted to compare the Bit Error Rate (BER) performance of the proposed Riccati based sampling against the traditional fixed sampling with majority voting, across noise probabilities ranging from 0 - 20%. The results demonstrate that the Riccati-based method significantly reduces BER, achieving approximately a 50% improvement at high noise levels, with a BER of 0.0013 compared to 0.0026 for fixed sampling at 20% noise. This enhancement is attributed to the Kalman filter’s ability to estimate bit states from multiple noisy samples, offering a robust solution for error-prone environments. This research validates the approach through detailed simulations, with three professional plots (linear, logarithmic, and scatter with error bars) illustrating the performance gain.",
+    "title_zh": "利用基于Riccati的采样技术实现高性能误码率的鲁棒UART系统创新研究",
+    "abstract_zh": "本文提出了一种新颖的方法，通过采用基于Riccati方程的采样技术，提高通用异步收发传输器（UART）通信系统在噪声环境下的可靠性。该UART模型采用Verilog语言实现，以模拟真实的硬件行为，并捕捉比特翻转噪声对串行数据传输的影响。通过仿真对比了所提出的基于Riccati的采样方法与传统固定采样结合多数投票机制的误码率（BER）性能，噪声概率范围为0%至20%。结果表明，在高噪声条件下，基于Riccati的方法显著降低了误码率，在20%噪声水平下，其误码率从固定采样的0.0026降低至0.0013，性能提升约50%。这一改进归功于卡尔曼滤波器能够从多个含噪样本中估计比特状态，从而为易出错环境提供了更鲁棒的解决方案。本研究通过详细的仿真验证了该方法的有效性，并利用三幅专业图表（线性图、对数图以及带误差棒的散点图）清晰展示了性能增益。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Chip Design in the Era of AI &amp; Quantum: From Idea to IC, are we there yet?",
+    "authors": "Leon Stok",
+    "publish": "Proceedings of the 2026 International Symposium on Physical Design",
+    "url": "https://doi.org/10.1145/3764386.3779618",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "人工智能与量子时代的芯片设计：从创意到集成电路，我们到达了吗？",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Research on Reinforcement Learning Containerization Method Based on RISC-V Architecture",
+    "authors": "Andi Li",
+    "publish": "2026 IEEE International Conference on Power, Electronics and Green Energy (ICPEGE)",
+    "url": "https://doi.org/10.1109/icpege67691.2026.11451331",
+    "source": "IEEE",
+    "abstract": "With the rapid advancement of artificial intelligence, reinforcement learning (RL) has shown great potential in intelligent decision-making, autonomous control, and adaptive systems. However, most existing RL frameworks rely on closed architectures such as x86 or ARM, which limit flexibility, scalability, and hardware customization. As an open-source instruction set architecture (ISA), RISC-V offers modularity, extensibility, and low power consumption, providing an ideal foundation for next-generation intelligent computing. This paper proposes a containerized RL framework based on RISC-V, aiming to build an efficient and portable environment for training and inference. The framework introduces a layered container architecture with instruction-level optimization, lightweight runtime, and fine-grained resource isolation. Experimental results on a RISC-V simulation platform demonstrate that the proposed method reduces startup latency and resource contention while improving computational efficiency and energy utilization, establishing a solid foundation for scalable AI deployment and RISC-V–based heterogeneous computing.",
+    "title_zh": "基于RISC-V架构的强化学习容器化方法研究",
+    "abstract_zh": "随着人工智能的快速发展，强化学习（RL）在智能决策、自主控制和自适应系统中展现出巨大潜力。然而，现有的大多数强化学习框架依赖于x86或ARM等封闭式架构，限制了系统的灵活性、可扩展性以及硬件定制能力。作为一种开源指令集架构（ISA），RISC-V具有模块化、可扩展性和低功耗等优势，为下一代智能计算提供了理想的基础。本文提出了一种基于RISC-V的容器化强化学习框架，旨在构建一个高效且可移植的训练与推理环境。该框架采用分层容器架构，支持指令级优化、轻量级运行时以及细粒度资源隔离。在RISC-V模拟平台上的实验结果表明，所提方法有效降低了启动延迟和资源竞争，同时提升了计算效率和能源利用率，为可扩展的人工智能部署及基于RISC-V的异构计算奠定了坚实基础。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Memory Safety in Linux Device Drivers: Enhancing Security with Formal Verification",
+    "authors": "Janislley O. Sousa, David A. O. Ferreira, Eddie B. De Lima Filho, Lucas C. Cordeiro",
+    "publish": "2026 IEEE International Conference on Consumer Electronics (ICCE)",
+    "url": "https://doi.org/10.1109/icce67443.2026.11449875",
+    "source": "IEEE",
+    "abstract": "Memory safety remains one of the most critical challenges in embedded systems, particularly within the Linux kernel, where device drivers are a primary source of vulnerabilities due to their close interaction with hardware and complex execution contexts. Such behavior is even more pronounced on consumer electronics devices, where restricted resources amplify the existing vulnerabilities. Traditional testing approaches, while effective at uncovering shallow bugs, often fail to guarantee the absence of subtle or deeply nested memory-safety issues. In this paper, we propose a formal verification methodology based on Bounded Model Checking (BMC) to detect memory-safety violations in Linux device drivers. Using a methodology based on LSVerifier, we systematically analyzed newly integrated device drivers across multiple kernel versions. Our approach uncovered three vulnerabilities, including out-of-bounds writes, out-of-bounds reads, and null pointer dereferences. It demonstrates that formal methods can uncover critical flaws early in the development process, complementing dynamic tools and strengthening kernel security.",
+    "title_zh": "Linux设备驱动程序中的内存安全：通过形式化验证增强安全性",
+    "abstract_zh": "内存安全仍然是嵌入式系统中最关键的挑战之一，尤其是在Linux内核中，设备驱动程序由于与硬件紧密交互以及复杂的执行上下文，成为漏洞的主要来源。这种问题在消费类电子产品中尤为突出，因为资源受限会加剧已有的安全漏洞。传统的测试方法虽然能够发现一些浅层缺陷，但往往无法保证不存在细微或深层嵌套的内存安全问题。本文提出了一种基于有界模型检测（Bounded Model Checking, BMC）的形式化验证方法，用于检测Linux设备驱动程序中的内存安全违规行为。我们采用基于LSVerifier的方法，对多个内核版本中新集成的设备驱动程序进行了系统性分析。该方法发现了三个漏洞，包括越界写、越界读和空指针解引用。实验结果表明，形式化方法能够在开发早期发现关键缺陷，有效补充动态检测工具，从而增强内核的安全性。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Research on Quantifying Model Uncertainty in Complex System Simulation Tests",
+    "authors": "Kai Wang, Jianfeng Li, Bing Han, Tongtong Shi",
+    "publish": "2026 IEEE International Conference on Power, Electronics and Green Energy (ICPEGE)",
+    "url": "https://doi.org/10.1109/icpege67691.2026.11451389",
+    "source": "IEEE",
+    "abstract": "In order to address the uncertainty issues of virtual simulation models for test cases in complex airborne electronic and electrical systems/equipment simulation testing application scenarios for aviation equipment, the formation mechanism and basic components of model uncertainty are analyzed. According to the construction and operating principles of simulation test case models, and based on the signal generation and operating mechanism of a simulation testing system, a structured method for model uncertainty is proposed. Specific simulation test case models are analyzed and studied from two aspects, i.e. quantification of epistemic uncertainty and quantification of aleatoric uncertainty in complex systems. Two calculation methods are provided for uncertainty quantification. Finally, a comprehensive quantification method for overall uncertainty of the simulation test case model is provided.",
+    "title_zh": "复杂系统仿真试验中模型不确定性量化研究",
+    "abstract_zh": "为了解决航空装备复杂机载电子电气系统/设备仿真测试应用场景中测试用例虚拟仿真模型的不确定性问题，分析了模型不确定性的形成机理与基本构成。根据仿真测试用例模型的构建与运行原理，结合仿真测试系统的信号生成与运行机制，提出了一种结构化的模型不确定性分析方法。从复杂系统中认知不确定性与随机不确定性的量化两个方面，对具体的仿真测试用例模型进行了分析与研究，提供了两种不确定性量化计算方法。最后，给出了一种针对仿真测试用例模型整体不确定性的综合量化方法。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Reactive model-based testing of cyclic systems",
+    "authors": "Ana Cavalcanti, Robert M. Hierons",
+    "publish": "ACM Transactions on Computational Logic",
+    "url": "https://doi.org/10.1145/3801960",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于反应式模型的循环系统测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Soft-error measurement for a radiation-hardened RISC-V processor",
+    "authors": "Masato Isobe, Minoru Watanabe, Nobuya Watanabe",
+    "publish": "2026 IEEE International Conference on Consumer Electronics (ICCE)",
+    "url": "https://doi.org/10.1109/icce67443.2026.11449692",
+    "source": "IEEE",
+    "abstract": "Under a strong radiation environment such as a melted nuclear power plant, processors must have high radiation tolerance. However, currently available processors are too weak for radiation and easily broken by radiation for a short period. Therefore, we have been developing a triple- modular-redundant RISC-V processor to increase the radiation tolerance. This paper presents the design of a triple modular redundant (TMR) RISC-V processor which was implemented onto a Cyclone V FPGA. In addition, we conducted a real radiation experiment using an 8 kBq americium alpha radiation source.",
+    "title_zh": "抗辐射加固RISC-V处理器的软错误测量",
+    "abstract_zh": "在熔毁的核电站等强辐射环境下，处理器必须具备高抗辐射能力。然而，目前可用的处理器抗辐射能力较弱，在短时间内容易因辐射而损坏。因此，我们一直在开发一种三重模块冗余（TMR）的RISC-V处理器，以提高其抗辐射能力。本文介绍了一种三重模块冗余（TMR）RISC-V处理器的设计，该处理器已实现在Cyclone V FPGA上。此外，我们还使用一个8 kBq的镅-241（americium）α辐射源进行了实际的辐射实验。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Research and Implementation of Automated Testing for Vehicle Remote Diagnosis",
+    "authors": "Liu Kaiquan, Wang Manna",
+    "publish": "2026 IEEE International Conference on Power, Electronics and Green Energy (ICPEGE)",
+    "url": "https://doi.org/10.1109/icpege67691.2026.11451456",
+    "source": "IEEE",
+    "abstract": "In view of the challenges faced by remote diagnosis function testing of intelligent networked vehicles, such as complex scenarios, low efficiency, and insufficient abnormal coverage, this paper proposes a set of automated testing technology solutions. By integrating model-driven and keyword-driven methods, combined with hardware-in-the-loop (HIL) simulation and cloud-vehicle communication simulation environment, an automated test framework covering protocol analysis, diagnostic services, exception injection and performance monitoring is constructed. Successfully applied in a vehicle project: 98.3% DTC management, data acquisition and remote control function coverage, 65% shortened the test cycle, 56 deep defects were found, and verify the performance metric of end-to-end latency being less than 1.2 seconds. It has been proved in practice that this solution significantly improves the test efficiency and system reliability, and provides an effective technical path for remote diagnostic testing of intelligent vehicles.",
+    "title_zh": "车辆远程诊断自动化测试的研究与实现",
+    "abstract_zh": "针对智能网联汽车远程诊断功能测试中存在的场景复杂、效率低下、异常覆盖不足等挑战，本文提出了一套自动化测试技术解决方案。通过融合模型驱动与关键字驱动方法，结合硬件在环（HIL）仿真和车云通信仿真环境，构建了涵盖协议解析、诊断服务、异常注入和性能监控的自动化测试框架。该方案已成功应用于某整车项目，实现了98.3%的DTC管理、数据采集和远程控制功能覆盖，测试周期缩短65%，发现深层次缺陷56个，并验证了端到端时延小于1.2秒的性能指标。实践证明，该方案显著提升了测试效率与系统可靠性，为智能汽车远程诊断测试提供了有效的技术路径。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Mono Instruction Set Computer design using a high-level hardware description language",
+    "authors": "Nobuya Watanabe, Minoru Watanabe",
+    "publish": "2026 IEEE International Conference on Consumer Electronics (ICCE)",
+    "url": "https://doi.org/10.1109/icce67443.2026.11449643",
+    "source": "IEEE",
+    "abstract": "Reduced instruction set computer (RISC) processors are built on the philosophy of eliminating complex instructions and of limiting the instruction set to only simple operations, thereby emphasizing fast execution. This approach has been adopted in many modern processors. Extending the RISC concept even further, we propose mono instruction set computer (MISC) architecture, which constrains the number of instructions on a processor to a single instruction. Because a MISC processor contains only a single instruction, in order to execute a variety of instructions, MISC processors must be implemented onto a programmable architecture and its configuration must be done frequently. Existing FPGAs can not achieve a high-performance MISC processor due to their long reconfiguration time. Therefore, we have been developing an optically reconfigurable gate array (ORGA) that supports high-speed dynamic reconfiguration. The ORGA can realize an ideal platform for MISC processors. In this research, we designed MISC processors based on RISC-V processor using the high-level hardware description language FSL. The design has been implemented onto an FPGA. This paper presents the evaluated results.",
+    "title_zh": "使用高级硬件描述语言设计的单指令集计算机",
+    "abstract_zh": "精简指令集计算机（RISC）处理器基于消除复杂指令、将指令集限制为仅包含简单操作的设计理念，从而强调快速执行。这种方法已被许多现代处理器所采用。在进一步扩展RISC概念的基础上，我们提出了单指令集计算机（MISC）架构，该架构将处理器的指令数量限制为仅有一条指令。由于MISC处理器只包含一条指令，为了实现多种操作的执行，必须将其构建在可编程架构上，并频繁地进行配置。现有的FPGA由于重构时间较长，难以实现高性能的MISC处理器。因此，我们一直在开发一种光可重构门阵列（ORGA），以支持高速动态重构。ORGA能够为MISC处理器提供理想的实现平台。在本研究中，我们基于RISC-V处理器，使用高级硬件描述语言FSL设计了MISC处理器，并将其在FPGA上实现。本文展示了相应的评估结果。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "GEN AI Enabled Wearable for Early Detection of Sleep Apnea Using NXP I.MX RT1060 and GW1N- LV1LQ144C6/I5 FPGA",
+    "authors": "Karthikeyan A, Balasrinivasan S A, Ashega S, Hamsa Ramyaa P, Harish S S",
+    "publish": "2026 Second International Conference on Intelligent Systems for Communication, IoT and Security (ICISCoIS)",
+    "url": "https://doi.org/10.1109/iciscois62701.2026.11448046",
+    "source": "IEEE",
+    "abstract": "Sleep apnea is a common respiratory disorder that is often left undiagnosed, however, has serious negative impacts on cardiovascular health as well as the quality of sleep in general. This manuscript presents a miniaturized and wearable non-invasive system for sleep apnea detection to realize real-time detection to monitor and intelligently analyze physiological signals continuously. The architecture consists of an NXP i.MX RT1060 microcontroller with a GOWIN GW1N-LV1LQ144C6/I5 field-programmable gate array [FPGA] in order to achieve the parallel acquisition and processing of biosignals. Respiration, snoring and photoplethysmography (PPG) are monitored by AD8233 analog front end, CMM-4030DB-26354-TR MEMS microphone and MAXM86161EFD+T PPG sensor, respectively. Signal conditioning (Switching Kalman filtering, Adaptive filtering Verilog HDL on the FPGA verification with Cadence SimVision in simulations and stable waveform tracking and accurate switching of models. Features extracted have been categorized using a Convolution Neural Network (CNN) which is lightweight and has been implemented on the microcontroller, and it achieved a detection accuracy of 94.6 %. On detecting aberrant respiratory patterns, the system provides realtime haptic feedback via an <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$8 ~\\text{mm} * 2 ~\\text{mm}$</tex> ERM coin vibration motor as well as Generative AI assisted plain language summaries, along with actionable suggestions, including explanations for apnea episodes, guidance on sleeping positions, alcohol avoidance, and encouragement to consult a physician. Powered with 3.7V 500mAh Li-Po Battery (WLY752530), device works in an energy-efficient manner. Experimental results validate the low latency (approximately 1.2 milliseconds) and very precise results for apnea detection that provide valuable health feedback for actions, which has demonstrated a cost efficient and power efficient algorithmic optimized human health monitoring using signal processing on FPGAs and artificial intelligence embedded in the system.",
+    "title_zh": "基于NXP I.MX RT1060和GW1N-LV1LQ144C6/I5 FPGA的生成式AI可穿戴设备用于睡眠呼吸暂停的早期检测",
+    "abstract_zh": "睡眠呼吸暂停是一种常见的呼吸系统疾病，常常未被诊断，但会对心血管健康以及整体睡眠质量产生严重的负面影响。本文介绍了一种微型化、可穿戴、非侵入式的睡眠呼吸暂停检测系统，能够实现生理信号的实时监测、连续采集与智能分析。该系统采用NXP i.MX RT1060微控制器与GOWIN GW1N-LV1LQ144C6/I5现场可编程门阵列（FPGA）相结合的架构，以实现生物信号的并行采集与处理。呼吸信号、打鼾信号和光电容积脉搏波（PPG）分别通过AD8233模拟前端、CMM-4030DB-26354-TR MEMS麦克风和MAXM86161EFD+T PPG传感器进行监测。信号调理部分在FPGA上采用切换卡尔曼滤波和自适应滤波，并使用Cadence SimVision进行Verilog HDL仿真验证，实现了稳定波形跟踪与模型的精确切换。提取的特征通过一种轻量级的卷积神经网络（CNN）进行分类，该网络已部署在微控制器上，检测准确率达到94.6%。当检测到异常呼吸模式时，系统通过一个8 mm × 2 mm的ERM硬币式振动电机提供实时触觉反馈，同时结合生成式人工智能（Generative AI）生成通俗易懂的文字摘要和可操作的建议，包括对呼吸暂停事件的解释、睡眠姿势指导、避免饮酒建议，并鼓励用户咨询医生。系统由一块3.7V 500mAh的锂聚合物电池（WLY752530）供电，具有良好的能效表现。实验结果表明，该系统在睡眠呼吸暂停检测中具有低延迟（约1.2毫秒）和高精度的特点，能够提供有价值的健康反馈。本研究展示了在FPGA上进行信号处理并嵌入人工智能算法，实现低成本、低功耗、算法优化的人体健康监测系统的可行性。"
+  },
+  {
+    "date": "2026-3-27",
+    "title": "Invited: Infusing EDA Knowledge into LLM Systems: An Information-Source Perspective",
+    "authors": "Yuhan Qin, Yuan Pu, Tairu Qiu, Zhuolun He, Bei Yu",
+    "publish": "Proceedings of the 2026 International Symposium on Physical Design",
+    "url": "https://doi.org/10.1145/3764386.3779640",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "受邀：将EDA知识注入LLM系统：一种信息源视角",
+    "abstract_zh": "None"
+  }
+]
