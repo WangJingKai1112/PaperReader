@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-3-28",
+    "title": "A Comprehensive Study on Large Language Models for Mutation Testing",
+    "authors": "Bo Wang, Mingda Chen, Ming Deng, Youfang Lin, Mark Harman, Mike Papadakis, Jie M. Zhang",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3805038",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "大语言模型在变异测试中的综合研究",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-3-28",
+    "title": "Benchmarking LLMs for Unit Test Generation from Real-World Functions",
+    "authors": "Dong Huang, Jie M. Zhang, Mark Harman, Qianru Zhang, Mingzhe Du, See-Kiong Ng",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3805043",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "对现实世界函数的单元测试生成进行大语言模型基准测试",
+    "abstract_zh": "None"
+  }
+]
