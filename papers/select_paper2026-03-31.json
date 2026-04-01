@@ -1,0 +1,123 @@
+[
+  {
+    "date": "2026-3-31",
+    "title": "Design and Implementation of an IoT System and Logical Prototype Model Using the Circuitverse Open-Source Tool",
+    "authors": "Meenakshi Kashyap, Pinky Yadav, Malarvizhi A, Sanjula S, Sonal Kumar, Kaustubh Kumar Shukla",
+    "publish": "2026 8th International Conference on Intelligent Sustainable Systems (ICISS)",
+    "url": "https://doi.org/10.1109/iciss67859.2026.11453884",
+    "source": "IEEE",
+    "abstract": "The key intention of this work is to create an innovative path to implement IoT based device and its logical prototype. An open-source tool named as CircuitVerse is used to achieve the targeted goal. Several models have been designed logically tested and validated. The foremost benefit of this unique work is one can be able to implement a complicated IoT based architecture into a simple logical prototype model. Since, the entire process and costing is very low comparatively so it is more useful for the students and researchers because of its accuracy specially. In this research work through this paper the prototype model is correctly simulated and logically verified as well as shown the output by making use of LEDs in CircuitVerse environment. It has been also noted that the modular & hierarchical modelling method accomplished the system understandable, reusable, and better at finding and fixing bugs. Additional advantage of this work is mapping of prototype based logical design with the real hardware. So, in many ways it has been found that CircuitVerse tool is much effective for the IoT system design and implementation since, before hardware implementation it is providing one path to test and have some idea. This work has a huge impact in education for modelling, testing, and validating intelligent connected systems. The markable point is even in coming future people may think on the integration of the real-time cloud stages, the growth of physical hardware prototypes, which has unlimited applications like smart cities, healthcare and several monitoring cum industrial automation. Thus, it's a good multidisciplinary work in that people from different background can get involved and contribute for a better outcome.",
+    "title_zh": "基于Circuitverse开源工具的物联网系统及逻辑原型模型的设计与实现",
+    "abstract_zh": "本研究的主要目的是创建一种创新途径，以实现基于物联网（IoT）的设备及其逻辑原型。为此，采用了一款名为CircuitVerse的开源工具来达成目标。文中设计了多个模型，并进行了逻辑测试与验证。这项独特工作的最大优势在于，能够将复杂的基于物联网的架构转化为简单的逻辑原型模型。由于整个过程成本极低，因此特别适合学生和研究人员使用，尤其在准确性方面具有显著优势。本研究通过论文展示了在CircuitVerse环境中对原型模型进行正确仿真和逻辑验证的结果，并利用LED显示了输出效果。此外，模块化与层次化建模方法使系统更易于理解、可重用，并更便于发现和修复错误。本工作的另一大优势是实现了基于原型的逻辑设计与实际硬件之间的映射。因此，从多个角度来看，CircuitVerse工具在物联网系统的设计与实现中表现出极高的有效性，因为它在硬件实现之前提供了一条测试路径并帮助形成初步概念。这项工作在建模、测试和验证智能互联系统的教育领域具有重大影响。值得注意的是，在未来，人们可能会进一步考虑实时云平台的集成以及物理硬件原型的开发，其应用前景广泛，涵盖智慧城市、医疗健康以及各类监控与工业自动化系统。因此，这是一项良好的跨学科工作，来自不同背景的人士均可参与并为之贡献，以取得更优成果。"
+  },
+  {
+    "date": "2026-3-31",
+    "title": "Lightweight Yet Powerful: Optimized Tightly Coupled Hyperdimensional Computing Accelerators",
+    "authors": "Mohsen Asghari, Sebastien Le Beux, Ron Mankarious",
+    "publish": "2026 IEEE 17th Latin America Symposium on Circuits and System (LASCAS)",
+    "url": "https://doi.org/10.1109/lascas67804.2026.11457074",
+    "source": "IEEE",
+    "abstract": "Hyperdimensional Computing (HDC) is a hardware-friendly machine learning paradigm that encodes data into high-dimensional binary hypervectors, enabling efficient computation through lightweight bitwise operations. Existing HDC accelerators, often implemented on FPGAs, typically rely on custom instruction sets and co-processor designs to optimize performance. However, these architectures face programmability challenges and incur significant control overhead when interacting with the main processor. To overcome these limitations, we present a methodology for designing and optimizing tightly coupled HDC accelerators. The proposed method produces accelerators enhanced with a controller capable of decoding instructions corresponding to key HDC kernels, thereby reducing communication overhead and improving throughput. To validate the approach, we implemented the accelerator at the RTL level and modeled the entire system in SystemVerilog. Experimental results demonstrate that, compared to state-of-the-art architectures, the proposed method reduces software code size by up to 98% while achieving a <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(3 \\times$</tex>) speedup.",
+    "title_zh": "轻量而强大：优化的紧密耦合超维计算加速器",
+    "abstract_zh": "超维计算（Hyperdimensional Computing，HDC）是一种对硬件友好的机器学习范式，它将数据编码为高维二进制超向量，并通过轻量级的按位运算实现高效计算。现有的HDC加速器通常在FPGA上实现，多依赖于自定义指令集和协处理器架构以优化性能。然而，这些架构在与主处理器交互时面临可编程性差以及控制开销较大的问题。为克服这些局限，本文提出了一种设计和优化紧耦合HDC加速器的方法。该方法生成的加速器配备了一个控制器，能够解码对应关键HDC核函数的指令，从而降低通信开销并提升吞吐量。为验证该方法的有效性，我们在寄存器传输级（RTL）实现了该加速器，并使用SystemVerilog对整个系统进行建模。实验结果表明，与当前最先进的架构相比，所提出的方法最多可减少98%的软件代码规模，同时实现高达3倍的加速。"
+  },
+  {
+    "date": "2026-3-31",
+    "title": "Design of a PI-Controller ASIC for a Multilevel Converter Using High-Level Synthesis and LibreLane",
+    "authors": "Francisca Donoso, Nelson Salvador, Christian A. Rojas, Jorge Marín, Gonzalo Carvajal",
+    "publish": "2026 IEEE 17th Latin America Symposium on Circuits and System (LASCAS)",
+    "url": "https://doi.org/10.1109/lascas67804.2026.11457108",
+    "source": "IEEE",
+    "abstract": "This paper presents the design and validation of a fixed-point PI controller for power electronics applications, introducing a design flow based on high-level synthesis tools. The proposed design methodology tackles the long-standing challenge of migrating high-level floating-point representations of control algorithms into hardware-efficient fixed-point implementations suitable for FPGA prototyping and ASIC integration. A threelevel flying capacitor converter (3L-FCC) serves as the case study to demonstrate the approach. Using software-in-the-loop verification, the fixed-point design is shown to maintain functional equivalence with its floating-point reference. Furthermore, wordlength exploration is conducted to analyze trade-offs between accuracy, area, power consumption and resource utilization. The proposed design flow is validated using both proprietary and opensource high-level synthesis tools to generate RTL descriptions, which are later used for FPGA prototyping and verification and also processed through an open-source ASIC design framework with minor modifications. This flow complements the traditional RTL-to-GDSII flow by reducing HDL development time for designs derived from high-level algorithms.",
+    "title_zh": "基于高级综合与LibreLane的多电平变换器PI控制器ASIC设计",
+    "abstract_zh": "本文提出了一种用于电力电子应用的定点PI控制器的设计与验证方法，并引入了一种基于高级综合（high-level synthesis）工具的设计流程。所提出的设计方法解决了长期以来将控制算法的高级浮点表示转换为适用于FPGA原型设计和ASIC集成的硬件高效定点实现这一难题。以三电平飞跨电容变换器（3L-FCC）作为案例研究，展示了该方法的有效性。通过软件在环（software-in-the-loop）验证，证明了定点设计与其浮点参考模型在功能上保持等效。此外，还进行了字长探索，以分析精度、面积、功耗和资源利用率之间的权衡关系。所提出的设计流程利用专有和开源的高级综合工具生成RTL描述，随后用于FPGA原型设计与验证，并通过少量修改集成到开源的ASIC设计框架中进行处理。该流程通过减少从高级算法衍生设计所需的HDL开发时间，有效补充了传统的RTL到GDSII设计流程。"
+  },
+  {
+    "date": "2026-3-31",
+    "title": "The Virtue of Hallucination: When AI Mistakes Make Software Safer",
+    "authors": "Antonio Mastropaolo",
+    "publish": "Computer",
+    "url": "https://doi.org/10.1109/mc.2026.3659286",
+    "source": "IEEE",
+    "abstract": "“LLMorpheus: Mutation Testing Using Large Language Models,” published in IEEE Transactions on Software Engineering in 2025, proposes a large language model-driven mutation testing framework that moves beyond fixed operator catalogs by using context-aware code infilling.",
+    "title_zh": "幻觉的优点：当人工智能的错误让软件更安全时",
+    "abstract_zh": "《LLMorpheus：利用大型语言模型进行变异测试》，发表于2025年《IEEE软件工程汇刊》，提出了一种由大型语言模型驱动的变异测试框架，该框架通过上下文感知的代码补全技术，突破了传统固定操作符目录的限制。"
+  },
+  {
+    "date": "2026-3-31",
+    "title": "A Predictive Framework for Fault Vulnerabilities in Edge Hardware Accelerators",
+    "authors": "Ernesto Cristopher Villegas Castillo, Josie E. Rodriguez Condia, Juan-David Guerrero-Balaguera, Felipe Augusto da Silva, Michael Glaß",
+    "publish": "2026 IEEE 17th Latin America Symposium on Circuits and System (LASCAS)",
+    "url": "https://doi.org/10.1109/lascas67804.2026.11457081",
+    "source": "IEEE",
+    "abstract": "Modern Hardware accelerators, such as Graphics Processing Units (GPUs), are increasingly being deployed in edge computing safety-critical applications, including autonomous and semi-autonomous automotive systems. However, evaluating fault vulnerabilities and reliability remains highly resource-intensive and time-consuming when using simulation-based fault injection (FI) campaigns. This challenge is amplified by the architectural complexity of modern devices and the huge number of workload scenarios, making traditional FI approaches impractical. This work introduces and evaluates a high-level modeling framework for the early fault propagation analysis and reliability estimation of hardware accelerators for edge computing. Our framework uses Colored Generalized Stochastic Petri Nets (CGSPNs) to map the most crucial features of a design into a model that allows the prediction of fault vulnerabilities in a design. The framework aims to support designers in estimating key reliability metrics, such as fault propagation rates, before low-level implementation (e.g., gate-level), thereby facilitating informed architectural decisions and the development of more robust systems.",
+    "title_zh": "边缘硬件加速器中故障漏洞的预测框架",
+    "abstract_zh": "现代硬件加速器（如图形处理单元，GPU）正越来越多地应用于边缘计算中的安全关键型场景，包括自动驾驶和半自动驾驶汽车系统。然而，使用基于仿真的故障注入（FI）方法来评估故障脆弱性和可靠性时，往往需要消耗大量资源且耗时极长。这一挑战因现代设备架构的复杂性以及工作负载场景的巨大多样性而进一步加剧，使得传统的故障注入方法难以实际应用。本文提出并评估了一种高层级建模框架，用于在边缘计算硬件加速器设计早期进行故障传播分析和可靠性估计。该框架采用有色广义随机Petri网（CGSPNs）将设计中最关键的特征映射为模型，从而预测设计中的故障脆弱性。该框架旨在帮助设计人员在低层级实现（例如门级）之前估算关键的可靠性指标（如故障传播率），从而支持合理的架构决策，并促进更健壮系统的开发。"
+  },
+  {
+    "date": "2026-3-31",
+    "title": "A Short Review of Buffer Overflow Attack and its Prevention",
+    "authors": "Ahmed Faraz",
+    "publish": "2025 15th International Conference on Mathematics, Actuarial Science, Computer Science and Statistics (MACS)",
+    "url": "https://doi.org/10.1109/macs68476.2025.11453481",
+    "source": "IEEE",
+    "abstract": "The unallocated random access memory locations provides loop holes to gain the access control of the system to the attacker. This loop hole in the software of computer system provides a big vulnerability to the attacker who gains the access of the system by exploiting Buffer Overflow Vulnerability. The Buffer Overflow attack is hybrid in nature, both the hardware and software are compromised by the attacker by gaining the access control of the system. As Internet of Things technology has been evolved and computer communication networks are more linked with it, the Buffer Overflow attack has become more security concern. In all the types of Buffer Overflow attack launched on the machines, the operating system level control is gained by the attacker which can harm the security of all the machines and devices connected to the compromised machines through Internet of Things. Securing Stack Pointer, Program Counter, Processor Status Word registers in safe locations in memory at the hardware level can prevent Buffer Overflow attack.",
+    "title_zh": "缓冲区溢出攻击及其防范的简要综述",
+    "abstract_zh": "未分配的随机存取内存位置为攻击者提供了获取系统访问控制权的漏洞。计算机系统软件中的这一漏洞，使攻击者能够利用缓冲区溢出漏洞轻易入侵系统，构成重大安全威胁。缓冲区溢出攻击具有混合性质，攻击者在获得系统控制权的同时，会同时破坏硬件和软件的安全性。随着物联网技术的发展以及计算机通信网络与物联网的深度融合，缓冲区溢出攻击已成为更加严峻的安全问题。在针对设备发起的各种缓冲区溢出攻击中，攻击者一旦获取操作系统层面的控制权，便可能危及所有通过物联网连接到受感染设备的其他机器和设备的安全。在硬件层面，将堆栈指针、程序计数器、处理器状态字寄存器等关键信息存储在内存中的安全位置，可有效防止缓冲区溢出攻击。"
+  },
+  {
+    "date": "2026-3-31",
+    "title": "ATPG-Compliant Digital Modeling of MRAM for Cell-Aware Testing",
+    "authors": "Arshid Nisar, Lorena Anghel, Gregory di Pendina",
+    "publish": "2026 IEEE 17th Latin America Symposium on Circuits and System (LASCAS)",
+    "url": "https://doi.org/10.1109/lascas67804.2026.11457178",
+    "source": "IEEE",
+    "abstract": "As memory complexity increases, traditional fault models are falling short in ensuring test quality. Cell-Aware (CA) testing, using post-layout transistor-level analysis, has proven effective for static random access memory (SRAM). The methodology uses detailed CA models which are further processed by Automatic Test Pattern Generators (ATPG) to create targeted test patterns that ensure high fault coverage. Despite its success in digital circuits, the application of ATPG-based CA testing to emerging non-volatile memory technologies such as Magnetic Random Access Memory (MRAM) remains largely unexplored. In this work, we propose a methodology dedicated to MRAM testing by developing a Verilog model derived from an analog SPICE netlist. This digital model accurately captures the architectural and behavioral traits of the underlying MRAM cell, ensuring compatibility with standard digital test tools such as Automatic Test Pattern Generators (ATPG). The proposed framework enables the generation of ATPG-based test patterns and supports fault simulation, paving the way for realistic, robust and accurate test strategies for MRAM devices.",
+    "title_zh": "面向单元感知测试的MRAM ATPG兼容数字建模",
+    "abstract_zh": "随着存储器复杂性的增加，传统的故障模型在确保测试质量方面已逐渐显现出不足。基于布局后晶体管级分析的单元感知（Cell-Aware, CA）测试已被证明对静态随机存取存储器（SRAM）具有良好的效果。该方法利用详细的CA模型，并通过自动测试向量生成工具（ATPG）进一步处理，生成针对性的测试图形，从而实现高故障覆盖率。尽管该方法在数字电路中取得了成功，但基于ATPG的CA测试在诸如磁阻随机存取存储器（MRAM）等新兴非易失性存储器技术中的应用仍基本处于探索阶段。在本研究中，我们提出了一种专用于MRAM测试的方法，通过从模拟SPICE网表中提取并构建Verilog模型来实现。该数字模型能够精确捕捉底层MRAM单元的结构和行为特征，确保与标准数字测试工具（如自动测试向量生成器ATPG）的兼容性。所提出的框架支持基于ATPG的测试图形生成，并可进行故障仿真，为MRAM器件实现更真实、鲁棒且精确的测试策略铺平了道路。"
+  },
+  {
+    "date": "2026-3-31",
+    "title": "Optimized Arithmetic Architecture in Cryptographic Processor for IoT Embedded System",
+    "authors": "Sivanandam K, Sugan N, Vijay P, Yasvonth V L",
+    "publish": "2026 8th International Conference on Intelligent Sustainable Systems (ICISS)",
+    "url": "https://doi.org/10.1109/iciss67859.2026.11453836",
+    "source": "IEEE",
+    "abstract": "The arithmetic architecture of a cryptographic processor with a low-power and high-throughput model with Internet-of-things (IoT) nodes using minimal resources. Resourceconstrained Internet of Things (IoT) devices demand cryptographic solutions that offer strong security with minimal power and hardware overhead. In this work, an optimized arithmetic architecture for a cryptographic processor is presented, targeting low-power IoT embedded systems. The proposed design focuses on improving modular arithmetic operations by replacing conventional adder–multiplexer structures with a LUT-based arithmetic unit optimized for FPGA implementation. This architecture reduces critical path delay, power consumption, and logic utilization while supporting essential cryptographic operations such as modular addition and subtraction. The design is implemented and verified on a Xilinx FPGA using Vivado, where performance is evaluated in terms of power, delay, and power–delay product (PDP). Experimental results demonstrate a significant reduction in power consumption (up to 50%) and improved PDP compared to the existing architecture, validating the suitability of the proposed design for energy-efficient and secure IoT applications.",
+    "title_zh": "物联网嵌入式系统中密码处理器的优化算术架构",
+    "abstract_zh": "一种面向物联网（IoT）节点的低功耗、高吞吐量密码处理器算术架构，旨在以最少的资源实现高效运算。资源受限的物联网设备需要具备强大安全性的同时，保持极低的功耗和硬件开销。本文提出了一种针对低功耗嵌入式物联网系统的优化算术架构，重点在于改进模运算操作，通过采用基于查找表（LUT）的算术单元替代传统的加法器-多路复用器结构，并针对现场可编程门阵列（FPGA）实现进行了优化。该架构有效降低了关键路径延迟、功耗以及逻辑资源占用，同时支持模加法和模减法等核心密码运算。设计在Xilinx FPGA平台上使用Vivado工具完成实现与验证，并从功耗、延迟及功耗-延迟积（PDP）等方面评估性能。实验结果表明，与现有架构相比，所提方案功耗降低高达50%，且PDP性能显著提升，验证了其在节能、安全的物联网应用中的适用性。"
+  },
+  {
+    "date": "2026-3-31",
+    "title": "Lightweight CRC Verification Algorithm for IoT",
+    "authors": "Yuyang Xu",
+    "publish": "2025 International Conference on Power, Electrical Engineering, Electronics and Control (PEEEC)",
+    "url": "https://doi.org/10.1109/peeec67807.2025.00022",
+    "source": "IEEE",
+    "abstract": "The goal of this research was to design a lightweight CRC verification algorithm that could balance good error detection with low resource use. This paper implements the algorithm in C, and it mainly uses three methods: polynomial optimization, table lookup compression, and block pipeline computing. For testing, a hybrid experimental environment was established, using the NS-3 network simulator for error modeling and Python tools for data analysis. The algorithm was also deployed and validated on real STM32 hardware. Finally, this paper evaluates its performance from four angles: error detection rate, computational time, memory footprint, and power consumption. The results show that the algorithm is very reliable. Even with a 1 % bit error rate, the error detection rate stayed at 100 %. It's also much faster: for 16-byte short messages, it was 66.9 % faster than traditional CRC16. For messages over 32 bytes, the speed-up was between 68 % and 69.1 %. On top of that, this solution cut Flash memory usage by 40 % and reduced dynamic power consumption by 20 %. It's also compatible with both ARM Cortex-M and RISC-V platforms. Overall, this algorithm provides a reliable solution that solves the old problem of traditional CRC, which couldn't balance high reliability with low overhead in these limited environments. It proved to be a great fit for the short-message applications (under 256 bytes) common in smart home and industrial IoT sensors. This work fills a gap by providing a practical, high-performance verification method that's genuinely useful for these low-power terminals.",
+    "title_zh": "面向物联网的轻量级CRC校验算法",
+    "abstract_zh": "本研究旨在设计一种轻量级的CRC校验算法，能够在保证良好错误检测能力的同时，实现较低的资源消耗。本文采用C语言实现了该算法，主要运用了三种方法：多项式优化、查表压缩和分块流水线计算。为进行测试，构建了一个混合实验环境，使用NS-3网络模拟器进行错误建模，并利用Python工具进行数据分析。该算法还在真实的STM32硬件平台上进行了部署和验证。最终，本文从错误检测率、计算时间、内存占用和功耗四个维度对其性能进行了评估。结果表明，该算法具有极高的可靠性：即使在1%的比特错误率下，错误检测率仍保持在100%。在速度方面也有显著提升：对于16字节的短消息，比传统CRC16快66.9%；对于超过32字节的消息，速度提升达68%至69.1%。此外，该方案将Flash存储空间占用减少了40%，动态功耗降低了20%。算法还兼容ARM Cortex-M和RISC-V平台。总体而言，该算法有效解决了传统CRC在资源受限环境中难以兼顾高可靠性与低开销的问题，特别适用于智能家居和工业物联网传感器中常见的短消息（小于256字节）应用场景。本研究填补了空白，为低功耗终端提供了一种切实可行、高性能的校验方法，具有重要的实际应用价值。"
+  },
+  {
+    "date": "2026-3-31",
+    "title": "Development of a HIL-Real Time Simulator for Single-Phase Line-Commutated AC-DC Converters",
+    "authors": "Jhordan Pila, Edgar Haro, Alberto Sánchez, Marcelo Pozo",
+    "publish": "2026 IEEE 17th Latin America Symposium on Circuits and System (LASCAS)",
+    "url": "https://doi.org/10.1109/lascas67804.2026.11457172",
+    "source": "IEEE",
+    "abstract": "This work details the design and implementation of a Hardware-in-the-Loop (HIL) real-time simulator for AC-DC converters, fully implemented on a Zynq-7000 System-on-Chip (SoC). Accurate converter models are implemented in the FPGA fabric, while the ARM-based Processing System runs a custom embedded Linux OS, created with Petalinux, to host a web server to allow for RT monitoring and configuration. This architecture allows users to remotely control simulation parameters and visualize real-time output waveforms via a standard web browser or through an oscilloscope. The performance of the system was validated against theoretical models and physical measurements, demonstrating accuracy and its effectiveness as a low-cost, accessible platform for power electronics education.",
+    "title_zh": "单相线路换相式交直流变换器的硬件在环实时仿真器的开发",
+    "abstract_zh": "本文详细介绍了一种针对交直流（AC-DC）变换器的硬件在环（HIL）实时仿真器的设计与实现，该仿真器完全基于Zynq-7000片上系统（SoC）实现。精确的变换器模型在FPGA逻辑单元中实现，而基于ARM的处理系统则运行由Petalinux定制的嵌入式Linux操作系统，用于托管一个Web服务器，以实现仿真的实时监控与配置。该架构允许用户通过标准网页浏览器或示波器远程调节仿真参数并实时查看输出波形。系统性能通过与理论模型和实际物理测量结果的对比得到验证，结果表明该平台具有良好的准确性，是一种低成本、易获取的电力电子教学实验平台。"
+  },
+  {
+    "date": "2026-3-31",
+    "title": "The COMMON-WEARS Project: Towards Community Oriented Wearable Computing Systems",
+    "authors": "Giancarlo Fortino, Mirko Viroli, Emiliano Schena, Ferruccio Damiani, Antonio Liotta",
+    "publish": "IEEE Systems, Man, and Cybernetics Magazine",
+    "url": "https://doi.org/10.1109/msmc.2026.3679104",
+    "source": "IEEE",
+    "abstract": "According to Kings Research [1] the global Wearable Market is projected to reach US$ 192.14 billion by 2030, growing at a CAGR of 15.8% from 2023 to 2030, with an increasing growth caused by the COVID-19. The industry and public sector are then pushing for innovative WCS solutions with high levels of dependability and trustworthiness that can efficiently operate in increasingly complex scenarios. Great strides have been made to realize WCS for the 24/7 monitoring of single users based on 3-tier architectures involving wearables, edge, and cloud systems. However, new requirements targeting cooperative multiuser scenarios demand radically new approaches, as promoted by the community-oriented WCS (CO-WCS). The COMMON-WEARS project is developing novel models and architectures for next-generation CO-WCS, defining a rigorous engineering methodology, with associated formal verification and simulation tools, to drive the development lifecycle of CO-WCS and creating a pilot in a real instrumented environment to support activities of surgical teams in operating rooms. COMMON-WEARS strives to move the research front by developing CO-WCS featuring multi-user collectives of smart wearables and body sensor networks (BSN), with applications, e.g., in domestic, urban, manufacturing, emergency, and working environments. This is achieved by combining aggregate computing, collective opportunistic IoT, machine learning, and WCS/BSN architectures. Herein, we discuss lessons learned from prototyping new concepts in collaborative wearable computing, in the contest of challenging use cases, including healthcare, emergency response and pandemic management, which are strongly impacted by smart wearables.",
+    "title_zh": "COMMON-WEARS项目：迈向面向社区的可穿戴计算系统",
+    "abstract_zh": "根据 Kings Research [1] 的报告，全球可穿戴设备市场预计到2030年将达到1921.4亿美元，从2023年至2030年的复合年增长率（CAGR）为15.8%，而新冠疫情进一步推动了该市场的增长。产业界和公共部门正积极推动开发具有高可靠性和可信度的创新性可穿戴计算系统（WCS），以在日益复杂的场景中高效运行。目前，基于三层架构（包括可穿戴设备、边缘计算和云计算系统）实现针对单个用户的全天候监测的WCS已取得显著进展。然而，面向协作式多用户场景的新需求要求采用全新的方法，这也正是社区导向型可穿戴计算系统（CO-WCS）所倡导的方向。\n\nCOMMON-WEARS 项目正在为下一代 CO-WCS 开发新型模型与架构，建立严格的工程化方法论，并配套提供形式化验证与仿真工具，以支持 CO-WCS 全生命周期的开发，同时在真实布设环境中构建试点应用，用于支持手术室中外科团队的协作活动。COMMON-WEARS 致力于通过研发具备多用户协同能力的智能可穿戴设备与体域传感器网络（BSN）系统，推动相关研究前沿的发展，其应用场景涵盖家庭、城市、制造、应急响应及工作场所等环境。该项目通过融合聚合计算（aggregate computing）、群体机会型物联网（collective opportunistic IoT）、机器学习以及 WCS/BSN 架构来实现上述目标。\n\n本文探讨了在医疗健康、应急响应和疫情管理等具有挑战性的应用场景中，对协作式可穿戴计算新概念进行原型开发所获得的经验与教训，这些领域正受到智能可穿戴技术的深刻影响。"
+  }
+]
