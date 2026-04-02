@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2026-4-1",
+    "title": "Section 3. Components, Circuits, Devices &amp; Systems",
+    "authors": "N/A",
+    "publish": "2026 ElCon Conference of Young Researchers in Computing &amp;amp; Processing, and Information Security (ElCon-CP)",
+    "url": "https://doi.org/10.1109/elcon-cp69823.2026.11452193",
+    "source": "IEEE",
+    "abstract": null,
+    "title_zh": "第三部分：组件、电路、器件与系统",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-1",
+    "title": "An Ultra-Low Power Built-in-Self-Test Architecture for CMOS Image Sensors Using Adaptive Thresholding and Clock Gating",
+    "authors": "Krishna Neeraja Periyala, Bungatavala Mithun Chakravarthi, Sri Adibhatla Sridevi",
+    "publish": "2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)",
+    "url": "https://doi.org/10.1109/idciot67589.2026.11455700",
+    "source": "IEEE",
+    "abstract": "This paper presents an ultra-low power Built-In-Self-Test (BIST) architecture for CMOS Image Sensors (CIS), incorporating adaptive thresholding and clock gating to improve defect detection efficiency while minimizing power consumption. The proposed architecture identifies pixel defects, including hot and stuck-at faults, by comparing each pixel against a dynamically derived neighborhood-based threshold. The design features a finite state machine (FSM) that governs module activity and enables logic blocks during relevant test phases. Power aware techniques like clock gating and minimal switching are applied to pixel sequencer and defect detection logic to reduce dynamic power by preventing unnecessary switching when modules are idle. Adaptive thresholding enhances robustness by adjusting detection boundaries based in logic pixel statistics. Simulation results confirm <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\text{1 0 0 \\%}$</tex> test coverage for known defects. Compared to always-on implementation, the gate design achieves an estimated 31.3% reduction in dynamic power. This architecture is fully synthesizable and suitable for FPGA or ASIC deployment, making it ideal for low power imaging systems.",
+    "title_zh": "一种采用自适应阈值和时钟门控的CMOS图像传感器超低功耗内建自测试架构",
+    "abstract_zh": "本文提出了一种用于CMOS图像传感器（CIS）的超低功耗内建自测试（BIST）架构，该架构结合了自适应阈值和时钟门控技术，在提高缺陷检测效率的同时最大限度地降低了功耗。所提出的架构通过将每个像素与动态生成的基于邻域的阈值进行比较，识别像素缺陷，包括热点缺陷和固定型故障。该设计采用有限状态机（FSM）控制模块操作，并仅在相关测试阶段激活逻辑模块。通过在空闲时阻止不必要的开关活动，对像素序列发生器和缺陷检测逻辑应用了时钟门控和最小切换等低功耗技术，从而显著降低动态功耗。自适应阈值技术根据逻辑像素统计信息动态调整检测边界，增强了检测的鲁棒性。仿真结果表明，对于已知缺陷可实现100%的测试覆盖率。与始终开启的设计相比，该门控设计估计可使动态功耗降低31.3%。该架构完全可综合，适用于FPGA或ASIC实现，非常适合应用于低功耗成像系统。"
+  },
+  {
+    "date": "2026-4-1",
+    "title": "An LLM-Assisted Fuzz Testing Framework for Unmanned System Software",
+    "authors": "Yupeng Zhang, Qing Wei, Shaoxun Liu, Yankun Xu, Haoyang Chen, Jinfeng Zhang",
+    "publish": "2025 International Conference on Cyber Resilience and Endogenous Safety &amp;amp; Security (CRESS)",
+    "url": "https://doi.org/10.1109/cress68073.2025.11452552",
+    "source": "IEEE",
+    "abstract": "The booming application of unmanned system has led the software vulnerabilities of these systems becoming increasingly prominent. Fuzz testing is an effective approach to detecting software vulnerabilities particularly during the software development phase. However, the requirement for manually written fuzz drivers renders it a resource-intensive and expert-dependent task, which hampers the widespread application of fuzzing. To address these issues, we proposed an automated fuzz testing framework based on large language models (LLMs). First, we employ an intelligent code parsing module to circumvent the context length limitations of LLMs, enabling efficient processing of target project code. Second, we engineer a structured prompt template to guide LLMs in generating high-quality fuzz driver code. Subsequently, to mitigate the inherent propensity of LLMs to produce flawed code, we integrate a feedback-based correction mechanism. Finally, we have deployed an automated fuzzing platform and applied it to several typical software components for unmanned systems. The system performs notably well on relatively simple fuzz testing targets and alleviates the manual workload required for fuzz testing complex targets. Ablation experiments confirm that the feedback-based correction mechanism effectively enhances the performance of LLMs in fuzz driver generation. This framework provides a viable approach to automated fuzz testing and is expected to contribute to vulnerability analysis in unmanned systems.",
+    "title_zh": "一种基于大语言模型辅助的无人机系统软件模糊测试框架",
+    "abstract_zh": "无人系统的蓬勃发展使其软件漏洞问题日益突出。模糊测试是一种有效的软件漏洞检测方法，尤其适用于软件开发阶段。然而，传统模糊测试需要人工编写模糊测试驱动程序（fuzz driver），导致该过程资源消耗大且高度依赖专家经验，限制了其广泛应用。为解决上述问题，本文提出了一种基于大语言模型（LLMs）的自动化模糊测试框架。首先，我们设计了一个智能代码解析模块，以克服大语言模型上下文长度限制，实现对目标项目代码的高效处理；其次，我们构建了结构化的提示模板，引导大语言模型生成高质量的模糊测试驱动代码；接着，为了缓解大语言模型固有的生成错误代码倾向，我们引入了一种基于反馈的纠错机制；最后，我们部署了自动化模糊测试平台，并将其应用于多个典型的无人系统软件组件中。实验结果表明，该系统在相对简单的模糊测试目标上表现良好，同时显著减轻了复杂目标模糊测试所需的人工工作量。消融实验验证了基于反馈的纠错机制能有效提升大语言模型在模糊驱动生成任务中的性能。本框架为实现自动化模糊测试提供了一条可行路径，有望推动无人系统领域的漏洞分析工作。"
+  },
+  {
+    "date": "2026-4-1",
+    "title": "Neurodynamic Optimization Approaches with Fixed-Time Convergence for Nash Equilibrium Seeking: Theory and Hardware Experiment",
+    "authors": "Xingxing Ju, Xinsong Yang, Chuandong Li, Gang Feng, Daniel W. C. Ho",
+    "publish": "IEEE/CAA Journal of Automatica Sinica",
+    "url": "https://doi.org/10.1109/jas.2025.125780",
+    "source": "IEEE",
+    "abstract": "The convergence rate is one of the key performance measures for Nash equilibrium (NE) seeking strategies. In this work, we present several novel fast decoupled/coupled time-varying neurodynamic optimization approaches with fixed-time (FT) convergence to Nash equilibrium seeking in non-cooperative games. The dynamics trajectories are demonstrated to converge to the NE solution within a fixed time from any initial states. The proposed neurodynamic networks exhibit a faster convergence rate with appropriately selected time-varying coefficients. Additionally, the upper bounds of the convergence time of the proposed NE seeking networks are smaller than those for strategies with constant coefficients. The robustness of the proposed NE seeking neurodynamic approaches under bounded perturbations is further studied. The efficacy and practicality of the proposed NE seeking approaches are validated through simulations and field-programmable gate array (FPGA) experiments on duopoly market games.",
+    "title_zh": "具有固定时间收敛性的神经动力学优化方法在纳什均衡求解中的应用：理论与硬件实验",
+    "abstract_zh": "收敛速度是衡量纳什均衡（NE）求解策略的关键性能指标之一。本文提出几种新颖的快速解耦/耦合时变神经动力学优化方法，可在固定时间（FT）内收敛到非合作博弈中的纳什均衡。所提出的动态轨迹被证明能够从任意初始状态出发，在固定时间内收敛至纳什均衡解。通过合理选择时变系数，所提出的神经动力学网络表现出更快的收敛速度。此外，与采用常系数策略相比，本文所提纳什均衡求解网络的收敛时间上界更小。本文还进一步研究了所提纳什均衡求解神经动力学方法在有界扰动下的鲁棒性。通过双寡头市场博弈的仿真以及现场可编程门阵列（FPGA）实验，验证了所提纳什均衡求解方法的有效性和实用性。"
+  },
+  {
+    "date": "2026-4-1",
+    "title": "FPGA Implementation of a Fault-Tolerant Low-Latency Reversible ALU Using Hybrid Parity-Preserving IG–NFT Logic Gates in Verilog HDL",
+    "authors": "Kattubadi Abdul Raseed, S. Rambabu, Manubolu Venugopal Naidu, C. Gangaiah Yadav, Bikkili Alekya Himabindu",
+    "publish": "2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)",
+    "url": "https://doi.org/10.1109/idciot67589.2026.11455728",
+    "source": "IEEE",
+    "abstract": "This paper presents a fault-tolerant, low-latency reversible Arithmetic Logic Unit (ALU) designed using hybrid parity-preserving IG and NFT gates in Verilog HDL. Reversible computing minimizes energy dissipation and enables quantumcompatible designs, while parity preservation ensures on-chip error detection. The proposed ALU performs addition, subtraction, AND, and XOR operations with reduced quantum cost, fewer garbage outputs, and lower logic depth compared to conventional and earlier reversible ALUs, such as the hybrid Fredkin–Feynman ALU, Peres–HNG ALU. Synthesized on an Xilinx Artix-7 FPGA board with the VIVADO simulation tool, the design exhibits notable improvements in power efficiency, logic utilisation, and fault tolerance. Scalability for multi-bit operations and compatibility with quantum frameworks make the architecture suitable for low-power embedded systems, IoT processors, and cryptographic applications.",
+    "title_zh": "基于混合奇偶保持IG-NFT逻辑门的容错低延迟可逆ALU的Verilog HDL FPGA实现",
+    "abstract_zh": "本文提出了一种容错、低延迟的可逆算术逻辑单元（ALU），该ALU在Verilog HDL中采用混合奇偶性保持的IG门和NFT门设计实现。可逆计算能够最大限度地减少能量耗散，并支持与量子计算兼容的设计，而奇偶性保持则实现了芯片上的错误检测。所提出的ALU在执行加法、减法、与（AND）和异或（XOR）操作时，相较于传统的以及早期的可逆ALU（如混合Fredkin-Feynman ALU、Peres-HNG ALU），具有更低的量子代价、更少的垃圾输出和更小的逻辑深度。该设计在Xilinx Artix-7 FPGA开发板上使用VIVADO仿真工具进行综合，表现出在功耗效率、逻辑资源利用率和容错性方面的显著提升。该架构具备多比特操作的可扩展性以及与量子计算框架的兼容性，适用于低功耗嵌入式系统、物联网处理器以及密码学应用。"
+  },
+  {
+    "date": "2026-4-1",
+    "title": "Robert K. Brayton and the Theory of Nonlinear Circuits [In Memoriam]",
+    "authors": "Wolfgang Mathis",
+    "publish": "IEEE Circuits and Systems Magazine",
+    "url": "https://doi.org/10.1109/mcas.2025.3649403",
+    "source": "IEEE",
+    "abstract": "This article is dedicated to the scientific achievements of Robert K. Brayton in the field of nonlinear circuit theory, who passed away in January 2025. Internationally, he is recognized as an expert and pioneer in the fields of logic synthesis and formal verification as well as circuit simulation, but his groundbreaking work on nonlinear RLC circuits is rarely mentioned. Therefore, following a biographical sketch of Robert K. Brayton’s scientific career, his contributions to nonlinear circuits in the context of the applications that formed the basis of his research will be explained. In particular, we discuss the influence of his research results on the further development of the field of nonlinear circuits. Based on relevant literature, it is shown that the differential geometric interpretation of the dynamics of electrical circuits leads to a physical model for a broader class of physical systems, which is also of interest in control theory and physics.",
+    "title_zh": "罗伯特·K·布雷顿与非线性电路理论【纪念文】",
+    "abstract_zh": "本文献给于2025年1月逝世的罗伯特·K·布雷顿（Robert K. Brayton）在非线性电路理论领域的科学成就。国际上，他被公认为逻辑综合、形式验证以及电路仿真领域的专家和先驱，但他关于非线性RLC电路的开创性工作却鲜为人知。因此，本文在简要回顾罗伯特·K·布雷顿科学生涯的基础上，重点阐述他在非线性电路方面的贡献，特别是其研究成果所依托的应用背景。本文特别探讨了他的研究对非线性电路领域后续发展的深远影响。根据相关文献可知，对电路动力学的微分几何解释，能够导出适用于更广泛物理系统的物理模型，这一成果在控制理论和物理学中同样具有重要意义。"
+  },
+  {
+    "date": "2026-4-1",
+    "title": "A Dual-Mode Online BISR Architecture for Interconnect and Memory Repair in Chiplet-Based Systems",
+    "authors": "Donghyun Han, Sooryeong Lee, Jongho Park, Dayoung Kim, Seungtae Kim, Youngkwang Lee, Sungho Kang",
+    "publish": "IEEE Transactions on Reliability",
+    "url": "https://doi.org/10.1109/tr.2026.3679968",
+    "source": "IEEE",
+    "abstract": "Chiplet-based systems provide a scalable platform for heterogeneous integration, but permanent faults in interconnects and memory cells challenge their reliability. While standards like Universal Chiplet Interconnect Express (UCIe) employ single-domain system Error Correction Code (ECC) simplify architecture, they often limit fault isolation and recovery. This paper proposes a dual-mode Online Built-In Self-Repair (OBISR) architecture for unified detection and repair of both interconnect and memory faults during post-bond testing and in-field operation. Unlike conventional methods that merely expand ECC capacity, the OBISR targets the root causes of persistent errors by repurposing existing Content-Addressable Memory (CAM) and pathfinding logic. A hierarchical CAM structure classifies faults using spatial and recurrence patterns of ECC metadata to distinguish permanent defects from transients. Memory faults are masked via logical redirection, while interconnect faults are rerouted, both operating outside the datapath to ensure zero performance degradation. Evaluations demonstrate that the OBISR improves system-level resilience by 235.49% and reduces hardware area by 16.69% compared to conventional schemes. Its integrated dual-domain and dual-mode capabilities offer a robust, scalable solution for next-generation chiplet reliability.",
+    "title_zh": "一种用于小芯片系统中互连和存储器修复的双模式在线BISR架构",
+    "abstract_zh": "基于芯粒（chiplet）的系统为异构集成提供了可扩展的平台，但互连和存储单元中的永久性故障对其可靠性构成了挑战。尽管通用芯粒互连快线（UCIe）等标准采用单域系统级纠错码（ECC）以简化架构，却常常限制了故障隔离与恢复能力。本文提出一种双模式在线内建自修复（OBISR）架构，可在键合后测试及现场运行期间统一检测并修复互连和存储器故障。与仅通过扩大ECC容量的传统方法不同，OBISR通过复用现有的内容可寻址存储器（CAM）和路径查找逻辑，针对持续性错误的根本原因进行处理。该架构采用分层式CAM结构，利用ECC元数据的空间与重复模式对故障进行分类，从而区分永久性缺陷与瞬态故障。存储器故障通过逻辑重定向屏蔽，互连故障则通过路径重路由解决，二者均在数据通路之外运行，确保零性能损耗。评估结果表明，与传统方案相比，OBISR将系统级弹性提升了235.49%，硬件面积减少了16.69%。其集成的双域、双模式能力为下一代芯粒系统的可靠性提供了一种强健且可扩展的解决方案。"
+  },
+  {
+    "date": "2026-4-1",
+    "title": "Efficient Widening Operations for Static Analysis of Bit-Vector Programs",
+    "authors": "Guangsheng Fan, Dengping Wei",
+    "publish": "2025 International Conference on Cyber Resilience and Endogenous Safety &amp;amp; Security (CRESS)",
+    "url": "https://doi.org/10.1109/cress68073.2025.11452587",
+    "source": "IEEE",
+    "abstract": "Static analysis of bit-vector programs is crucial for detecting bugs such as integer overflow, yet it remains challenging due to their reliance on machine integer semantics and the intricate interplay between arithmetic and bitwise operations. To tackle this difficulty, the recently proposed swb abstract domain combines bit-level and word-level abstractions. Its bit-level component generalizes the tnum abstraction—originally used in the Linux eBPF verifier—into a signedness-aware, standard abstract domain. However, the current widening operator employed in this bit-level abstraction is overly conservative, often resulting in substantial analysis overhead.In this paper, we propose a significantly more efficient widening operator for tnum and the bit-level abstraction of swb, inspired by the characteristics of bit-vector operations. Unlike existing widening operations, our design can maintain stable bits while accelerating the iteration of other higher bits to achieve convergence. Experiments on the SV-COMP benchmarks show that the generalized tnum abstraction equipped with our new widening operator achieves a speedup of up to 23.51× in analysis time over the original approach. When integrated into the full swb domain, it still accelerates analysis by up to 1.93×. Crucially, in both settings, the optimized abstract domain validates all programs that the original domain could verify, demonstrating that our optimization incurs no loss in practice verification capability.",
+    "title_zh": "位向量程序静态分析中的高效加宽操作",
+    "abstract_zh": "对位向量程序进行静态分析对于检测整数溢出等缺陷至关重要，但由于这类程序依赖于机器整数语义以及算术运算与位运算之间复杂的相互作用，相关分析仍然面临巨大挑战。为应对这一难题，近期提出的 swb 抽象域结合了位级和字级的抽象表示方法。其位级组件将原本用于 Linux eBPF 验证器中的 tnum 抽象推广为一种支持符号性感知、符合标准抽象域理论的形式。然而，当前该位级抽象所采用的扩大（widening）算子过于保守，常常导致显著的分析开销。\n\n本文提出了一种针对 tnum 及 swb 位级抽象的、效率显著更高的扩大算子，其设计灵感来源于位向量操作的特性。与现有的扩大操作不同，我们的方法能够在保持稳定位不变的同时，加速其他高位的迭代以更快达到收敛。在 SV-COMP 基准测试上的实验表明，采用新扩大算子的广义 tnum 抽象相比原始方法在分析时间上最高可实现 23.51 倍的加速；当集成到完整的 swb 域中时，仍可实现最高 1.93 倍的加速。尤为关键的是，在两种设置下，优化后的抽象域能够验证所有原始域可验证的程序，证明我们的优化在实际验证能力上并未造成任何损失。"
+  },
+  {
+    "date": "2026-4-1",
+    "title": "StateCacheSim based GAN-DISA: A State-Caching-Based Cosimulation Platform with GAN-Based Data Injection Attack Analysis for Cyber-Physical Power System Evaluation",
+    "authors": "Usama Aslam, Tang Yi",
+    "publish": "2025 International Conference on Cyber Resilience and Endogenous Safety &amp;amp; Security (CRESS)",
+    "url": "https://doi.org/10.1109/cress68073.2025.11452288",
+    "source": "IEEE",
+    "abstract": "This paper presents StateCacheSim GAN-DISA, an integrated framework designed to enhance the efficiency and resilience of Cyber-Physical Power Systems (CPPS) under adversarial conditions. The proposed model unifies a state-caching-based co-simulation platform with a Generative Adversarial Network (GAN) driven false data injection attack (FDIA) analysis module. The StateCacheSim mechanism minimizes redundant computations and maintains accurate cyber–physical synchronization, achieving up to 45% faster simulation without compromising fidelity. Concurrently, the GAN-DISA module generates stealthy and adaptive attack scenarios to evaluate CPPS robustness against evolving cyber threats. The framework incorporates real-time fault injection, system-wide vulnerability assessment, and quantitative resilience evaluation, providing a comprehensive platform for security analysis. Experimental validation on IEEE 39-bus and IEEE 118-bus test systems demonstrates notable gains in computational efficiency, scalability, and attack detection capability. Overall, StateCacheSim GAN-DISA offers a unified approach for advancing co-simulation optimization, adversarial modeling, and cybersecurity assessment in complex CPPS environments.",
+    "title_zh": "基于状态缓存的GAN-DISA：一种用于信息物理电力系统评估的、基于生成对抗网络数据注入攻击分析的状态缓存协同仿真平台",
+    "abstract_zh": "本文提出了一种名为StateCacheSim GAN-DISA的集成框架，旨在提升网络物理电力系统（CPPS）在对抗性条件下的效率与韧性。该模型将基于状态缓存的协同仿真平台与由生成对抗网络（GAN）驱动的虚假数据注入攻击（FDIA）分析模块相结合。StateCacheSim机制通过减少冗余计算并保持精确的网络-物理同步，实现了最高达45%的仿真加速，同时不牺牲仿真精度。与此同时，GAN-DISA模块可生成隐蔽且自适应的攻击场景，用于评估CPPS在应对不断演变的网络威胁时的鲁棒性。该框架集成了实时故障注入、全系统脆弱性评估和定量韧性评估功能，为安全分析提供了一个全面的平台。在IEEE 39节点和IEEE 118节点测试系统上的实验验证表明，该框架在计算效率、可扩展性以及攻击检测能力方面均有显著提升。总体而言，StateCacheSim GAN-DISA为复杂CPPS环境中的协同仿真优化、对抗性建模和网络安全评估提供了一种统一的解决方案。"
+  },
+  {
+    "date": "2026-4-1",
+    "title": "Fault Testing Circuit and Algorithm for PCRAM Array Based on Temperature Regulation",
+    "authors": "Xiaojuan Lian, Yunbo Zhang, Zi Li, Shiyu Li, Chenfei Hua, Nan He, Zhikuang Cai, Lei Wang",
+    "publish": "IEEE Transactions on Electron Devices",
+    "url": "https://doi.org/10.1109/ted.2026.3678157",
+    "source": "IEEE",
+    "abstract": "Emerging nonvolatile memories based on phase change memory (PCRAM) are expected to break through the performance bottlenecks of traditional memory systems. However, the intrinsic thermal sensitivity of phase change materials, coupled with the challenges of high-density integration, can easily induce special faults such as thermal interference and phase change threshold shift, causing to reliability degradation. To address these issues, this article proposes a temperature-regulated fault detection method based on a comprehensive thermal analysis of the device model. A simulation platform integrating defect-oriented (DO) and resistance defect (RD) models is established to support the design of a dual-path dynamic monitoring circuit. This circuit incorporates dual-margin comparators within a memory built-in self-test (MBIST) architecture, enabling real-time detection of compound faults through dynamic comparison of in-bitline (I<sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">BL</sub>) and in-source line (I<sub xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">SL</sub>) data paths. Additionally, a March-PCRAM fault detection algorithm is developed to exploit temperature gradients for activating fault-prone regions. Simulation and experimental results demonstrate that minor faults can be better detected through cyclic testing and temperature regulation, thereby reducing fault detection latency and enhancing test sensitivity. The proposed approach offers a robust testing framework and significantly improves the fault coverage of PCRAM arrays.",
+    "title_zh": "基于温度调节的相变存储器阵列故障测试电路与算法",
+    "abstract_zh": "基于相变存储器（PCRAM）的新兴非易失性存储器有望突破传统存储系统的性能瓶颈。然而，相变材料固有的热敏感性以及高密度集成带来的挑战，容易引发热干扰和相变阈值漂移等特殊故障，导致可靠性下降。为解决这些问题，本文提出了一种基于器件模型综合热分析的温度调控故障检测方法。通过建立集成面向缺陷（DO）和电阻缺陷（RD）模型的仿真平台，支持双路径动态监测电路的设计。该电路在存储器内建自测试（MBIST）架构中引入双裕度比较器，能够通过对位线电流（I<sub>BL</sub>）和源线电流（I<sub>SL</sub>）数据路径的动态比较，实现实时复合故障检测。此外，本文还开发了一种March-PCRAM故障检测算法，利用温度梯度激活易故障区域。仿真与实验结果表明，通过循环测试和温度调控可更有效地检测微小故障，从而降低故障检测延迟，提升测试灵敏度。所提出的方法为PCRAM阵列提供了一个可靠的测试框架，显著提高了故障覆盖率。"
+  },
+  {
+    "date": "2026-4-1",
+    "title": "Exploring Application of AIGC in Software Testing",
+    "authors": "Panpan Li, Bo Li, Ping Li, Baolin Zhang",
+    "publish": "Proceedings of the 2025 6th International Conference on Computer Science and Management Technology",
+    "url": "https://doi.org/10.1145/3795154.3795312",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "探索AIGC在软件测试中的应用",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-1",
+    "title": "Quantum-Inspired FPGA Design of an Energy–Efficient Hamming (7,4) Encoder–Decoder using Hybrid Peres–Toffoli and Double-Feynman Gates for Fault-Tolerant Communication",
+    "authors": "Ponamala Jishitha, Vemugadda Sankarnath, S Rambabu, Kandula Madhavi, Bikkili Alekya Himabindu, Shaik Mohammad Eliyas",
+    "publish": "2026 4th International Conference on Intelligent Data Communication Technologies and Internet of Things (IDCIoT)",
+    "url": "https://doi.org/10.1109/idciot67589.2026.11455657",
+    "source": "IEEE",
+    "abstract": "Effective and low-power error-control coding techniques are necessary for reliable data transmission in faulttolerant communication systems. In this research, a unique hybrid of Peres-Toffoli and Double-Feynman reversible logic gates is used to create an energy-efficient, quantum-inspired Hamming <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(7,4)$</tex> encoder-decoder design. The suggested design is implemented on an Artix-7 FPGA after being designed in Verilog HDL and synthesized with the Xilinx Vivado Design Suite. Performance and resource usage are significantly improved when compared to traditional hybrid reversible architectures like Toffoli, Peres, Double Feynman, and HNG gates. The suggested encoder reduces static and dynamic powers by 6.2 % and 34.4 % respectively and achieves a total power consumption of 2.376 W, which is 67.8 % less than the highest conventional design. By using just two LUTs, hardware complexity is reduced, resulting in a nearly 60 % reduction in logic usage. Comparably, the decoder uses only four LUTs and almost half the hardware resources of earlier systems, exhibiting a 23.7 % total power reduction and a 13.7 % dynamic power reduction. Overall, the hybrid Peres-Toffoli and DoubleFeynman architecture ensures precise and quick error correction by offering an optimal area-power trade-off, fewer garbage outputs, and minimal logic depth. These findings prove that the suggested design is an extremely area-optimised and power-efficient solution appropriate for low-power VLSI systems for developing quantum computing platforms.",
+    "title_zh": "受量子启发的能效型汉明(7,4)编解码器FPGA设计：采用混合Peres-Toffoli与双Feynman门实现容错通信",
+    "abstract_zh": "在容错通信系统中，为了实现可靠的数据传输，需要采用高效且低功耗的纠错编码技术。本研究提出一种独特的基于Peres-Toffoli和Double-Feynman可逆逻辑门的混合结构，设计了一种能效高、受量子计算启发的汉明（7,4）编码-解码器。该设计方案采用Verilog HDL编写，并使用Xilinx Vivado设计套件进行综合，最终在Artix-7 FPGA上实现。与传统的混合可逆结构（如Toffoli、Peres、Double Feynman和HNG门）相比，该设计在性能和资源利用率方面均有显著提升。所提出的编码器使静态功耗和动态功耗分别降低了6.2%和34.4%，总功耗仅为2.376 W，比最高功耗的传统设计降低了67.8%。通过仅使用两个查找表（LUT），硬件复杂度大幅降低，逻辑资源使用量减少了近60%。类似地，解码器仅需四个LUT，硬件资源消耗约为先前系统的二分之一，实现了23.7%的总功耗降低和13.7%的动态功耗降低。总体而言，这种混合的Peres-Toffoli与Double-Feynman架构通过提供最佳的面积-功耗权衡、更少的垃圾输出以及最小化的逻辑深度，实现了精确且快速的纠错。研究结果表明，所提出的方案是一种高度面积优化且功耗极低的解决方案，适用于为量子计算平台开发低功耗VLSI系统。"
+  }
+]
