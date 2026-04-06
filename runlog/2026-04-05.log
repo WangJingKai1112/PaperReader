@@ -1,0 +1,62 @@
+[2026-04-06 10:10:56] 开始执行论文搜索任务
+搜索关键词: verification
+搜索日期范围: 2026-04-05
+正在获取论文...
+[ACM] 2026-4-6 | Learner-Customized Algorithm Visualization Using Generative AI
+[ACM] 2026-4-6 | First-Class Functions in C: the Function-Oriented Programming Paradigm
+[ACM] 2026-4-6 | ATHENA A Case Study on the Use of Power BI as a Technical Data Access System
+[ACM] 2026-4-6 | Towards the Political Philosophy of Computing: Conversations with Fairness and Machine Learning
+[ACM] 2026-4-6 | Validation of a High-Sensitivity Identification Algorithm for Cerebral Hemorrhage Cases Using Machine Learning Models in MID-NET
+                    <sup>®</sup>
+[ACM] 2026-4-6 | YaBRI: A Browser-Based REPL Architecture for Extensible, Event-Driven, and Data-Aware Software Integration
+[ACM] 2026-4-6 | Open Source Knowledge Automated Reviewer (OSKAR)
+[ACM] 2026-4-6 | Validation of Real-Time Text (RTT) over IMS Functionalities A Case Study in a Telecommunications Laboratory Environment to Ensure Software Quality
+[ACM] 2026-4-6 | Computer Vision in Oculomotor and Praxis Tests in Children with Developmental Problems
+[ACM] 2026-4-6 | Digital Twin Implementation on IEEE 14-Bus System with Concealed Bus Topology and Pricing Mechanism
+[ACM] 2026-4-6 | MAPC: Multi-Agent Planning-Collaboration Framework for Medical Question Answering
+[ACM] 2026-4-6 | Proceedings of the 2026 14th International Conference on Software and Information Engineering
+[ACM] 2026-4-6 | Multi-Objective-Guided Static Analysis for Smart Contract Vulnerability Detection
+[ACM] 2026-4-6 | Exploring Minimally Intrusive GenAI Scaffolding for Introductory Programming Education
+[ACM] 2026-4-6 | YOLO-Based AI Application for Attire Appropriateness Assessment in Educational Environments
+[ACM] 2026-4-6 | Computer Vision in Bilateral Integration Evaluation in Children with Developmental Problems
+[ACM] 2026-4-6 | Reverse Vending System for Efficient Seed Dispensation Using Mask R-CNN
+[ACM] 2026-4-6 | DiabetesBuddy: A Smart AI-Powered Diabetes Management Application with Real-Time Big Data Streaming
+[ACM] 2026-4-6 | C4-Based Software Architecture Modeling for Drone-Based Mechatronic System for High-Altitude Fire Surveillance
+[ACM] 2026-4-6 | S-ASID: An Android interaction dataset for human-device action recognition
+[ACM] 2026-4-6 | A Review of Technological Innovations and Their Influence on Medical Workflow Precision and Productivity
+[ACM] 2026-4-6 | Are LLMs Ready for Competitive Programming? An Empirical Study
+[ACM] 2026-4-6 | Computer Vision and Machine Learning Pipeline for Quantitative Analysis of Passive Range of Motion Exercises for Physical Therapy Education
+[ACM] 2026-4-6 | Factors and Theories of Education Management Information System Adoption
+[ACM] 2026-4-6 | Accident Severity Prediction Using Multi-Zoom-Level Map Images
+共写入 25 条记录，保存到 papers/paper2026-04-05.json。
+论文获取成功，文件路径: papers/paper2026-04-05.json
+正在筛选、翻译并发送邮件...
+[NO] 1/25 | Learner-Customized Algorithm Visualization Using Generative AI
+[NO] 2/25 | First-Class Functions in C: the Function-Oriented Programming Paradigm
+[NO] 3/25 | ATHENA A Case Study on the Use of Power BI as a Technical Data Access System
+[NO] 4/25 | Towards the Political Philosophy of Computing: Conversations with Fairness and Machine Learning
+[NO] 5/25 | Validation of a High-Sensitivity Identification Algorithm for Cerebral Hemorrhage Cases Using Machine Learning Models in MID-NET
+                    <sup>®</sup>
+[NO] 6/25 | YaBRI: A Browser-Based REPL Architecture for Extensible, Event-Driven, and Data-Aware Software Integration
+[NO] 7/25 | Open Source Knowledge Automated Reviewer (OSKAR)
+[NO] 8/25 | Validation of Real-Time Text (RTT) over IMS Functionalities A Case Study in a Telecommunications Laboratory Environment to Ensure Software Quality
+[NO] 9/25 | Computer Vision in Oculomotor and Praxis Tests in Children with Developmental Problems
+[NO] 10/25 | Digital Twin Implementation on IEEE 14-Bus System with Concealed Bus Topology and Pricing Mechanism
+[NO] 11/25 | MAPC: Multi-Agent Planning-Collaboration Framework for Medical Question Answering
+[NO] 12/25 | Proceedings of the 2026 14th International Conference on Software and Information Engineering
+[NO] 13/25 | Multi-Objective-Guided Static Analysis for Smart Contract Vulnerability Detection
+[NO] 14/25 | Exploring Minimally Intrusive GenAI Scaffolding for Introductory Programming Education
+[NO] 15/25 | YOLO-Based AI Application for Attire Appropriateness Assessment in Educational Environments
+[NO] 16/25 | Computer Vision in Bilateral Integration Evaluation in Children with Developmental Problems
+[NO] 17/25 | Reverse Vending System for Efficient Seed Dispensation Using Mask R-CNN
+[NO] 18/25 | DiabetesBuddy: A Smart AI-Powered Diabetes Management Application with Real-Time Big Data Streaming
+[NO] 19/25 | C4-Based Software Architecture Modeling for Drone-Based Mechatronic System for High-Altitude Fire Surveillance
+[NO] 20/25 | S-ASID: An Android interaction dataset for human-device action recognition
+[NO] 21/25 | A Review of Technological Innovations and Their Influence on Medical Workflow Precision and Productivity
+[NO] 22/25 | Are LLMs Ready for Competitive Programming? An Empirical Study
+[NO] 23/25 | Computer Vision and Machine Learning Pipeline for Quantitative Analysis of Passive Range of Motion Exercises for Physical Therapy Education
+[NO] 24/25 | Factors and Theories of Education Management Information System Adoption
+[NO] 25/25 | Accident Severity Prediction Using Multi-Zoom-Level Map Images
+筛选完成：共 25 篇；Yes = 0 篇；已保存到 papers/select_paper2026-04-05.json。
+邮件发送成功！
+[2026-04-06 10:13:16] 任务执行成功！
