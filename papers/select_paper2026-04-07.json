@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-4-7",
+    "title": "The Future of VLSI Testing: Deep Learning Models for Accurate Fault Detection – Review",
+    "authors": "Balkees Marliyya S, Saumiya S, Kirubasankar K",
+    "publish": "2025 6th International Conference on Smart Electronics and Communication (ICOSEC)",
+    "url": "https://doi.org/10.1109/icosec67334.2025.11459552",
+    "source": "IEEE",
+    "abstract": "The growth in digital VLSI circuits has increased the complexities in fault detection. Traditional methodology such as ATPGs and SAT-based algorithms suffer from space explosion and limited scalability fails to detect the faults such as hardware Trojans. Enhancement in machine learning especially in deep learning algorithms such as SSAE (Stacked sparse autoencoder), and DSAE promises effective fault detection. These models guarantee efficient feature extraction, test pattern recognition and efficient fault classification in sequential and combinational circuits. The main objective of this paper is to review and compare machine learning-based fault detection, deep learning-based fault detection with conventional method in digital VLSI. It highlights their comparative strength, limitation, scalability, research gaps and methodology used in each method. The novelty of the paper lies in its structured comparison of unsupervised, semi-supervised and supervised models for fault detection.",
+    "title_zh": "VLSI测试的未来：用于精确故障检测的深度学习模型——综述",
+    "abstract_zh": "数字VLSI电路的发展增加了故障检测的复杂性。传统的故障检测方法，如自动测试图生成（ATPG）和基于SAT的算法，存在状态空间爆炸和可扩展性有限的问题，难以有效检测硬件木马等故障。机器学习技术，尤其是深度学习算法（如堆叠稀疏自编码器SSAE和深度自编码器DSAE）的进步，为高效故障检测提供了新的可能。这些模型能够实现高效的特征提取、测试模式识别以及对时序和组合电路的故障分类。本文的主要目的是综述并比较基于机器学习和深度学习的故障检测方法与传统方法在数字VLSI中的应用，重点分析各类方法在性能优势、局限性、可扩展性、研究空白及所采用方法学方面的差异。本文的创新之处在于对用于故障检测的无监督、半监督和监督模型进行了系统化的对比分析。"
+  },
+  {
+    "date": "2026-4-7",
+    "title": "Single Event Upset Characterization in the Control Path of RISC-V Processor Core",
+    "authors": "Shreyas R, Subir Kumar Roy",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465620",
+    "source": "IEEE",
+    "abstract": "Functional Safety has emerged as a critical design requirement for modern-day SoCs operating in safety-critical environments. Single-event upsets (SEU) induced in hardware due to radiation or other transient disturbances pose a serious threat to the normal functionality of the design. Several SEU faults on the memories and data-path have been extensively analyzed and handled using both architectural and micro-architectural techniques. However, the control path is equally vulnerable and can potentially cause cascading failures, ultimately manifesting as a hardware malfunction. This paper focuses on extensively analyzing the SEU faults on the Open Source PULPino RISC-V core's control path, specifically for a motor control algorithm running on the CPU core. A specific methodology of fault analysis is introduced, and a vulnerability metric called Transition Architecture Vulnerability Factor (T-AVF), which maximizes the fault coverage on the control path for a given application running on the core. The results of Fault injection simulation on the core's control machines and the resultant T-AVFs are highlighted in this paper. This provides a foundation for designing future efficient, low-power, minimal area, and performance overhead-based mitigation techniques.",
+    "title_zh": "RISC-V处理器核心控制路径中的单粒子翻转特性表征",
+    "abstract_zh": "功能安全已成为在安全关键环境中运行的现代片上系统（SoC）的关键设计要求。由于辐射或其他瞬态干扰在硬件中引发的单粒子翻转（SEU）对设计的正常功能构成了严重威胁。目前，针对存储器和数据路径上的多种SEU故障，已广泛采用架构级和微架构级技术进行了分析与处理。然而，控制路径同样易受攻击，可能引发级联故障，最终导致硬件失效。本文重点对开源PULPino RISC-V处理器核心的控制路径在执行电机控制算法时所受的SEU故障进行了深入分析。文中提出了一种特定的故障分析方法，并引入了一种称为“转移架构脆弱性因子”（Transition Architecture Vulnerability Factor, T-AVF）的脆弱性度量指标，该指标可针对在核心上运行的特定应用，最大化控制路径的故障覆盖范围。本文还展示了在核心控制单元上进行故障注入仿真的结果及相应的T-AVF值，为未来设计高效、低功耗、小面积且性能开销最小的容错缓解技术奠定了基础。"
+  },
+  {
+    "date": "2026-4-7",
+    "title": "SPI Enabled 64x8 SRAM Memory Design for Biomedical Applications",
+    "authors": "Shivangi Mishra, M Chandu, Santosh Kumar Vishvakarma",
+    "publish": "2026 IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation (IATMSI)",
+    "url": "https://doi.org/10.1109/iatmsi68868.2026.11465423",
+    "source": "IEEE",
+    "abstract": "In this paper, a Static Random Access Memory (SRAM) architecture with a 512-bit RAM is implemented, and verified together with a Serial Peripheral Interface (SPI) protocol. The design was realised using Cadence Virtuoso EDA tools of schematic capture, simulation, layout validation and carried out using 180 nm CMOS technology. The improved architecture employs a popular industry standard of serial communication, the SPI to coordinate memory access, such as read, write and control, as opposed to standard parallel SRAM modules. The architecture is a compact and energy-efficient memory system as SPI reduces the amount of pins significantly, interconnect complexity, and overall power consumption of 1.34 mW with a power-delay product (PDP) of 24.1 pJ. The design has been specifically optimized to suit the requirements of low-power applications with moderate access rates with low energy usage. Specifically, such a memory design can be applied to IoTbased environmental sensors, wearable computers, and batteryoperated embedded systems, in which energy efficiency is more important than high-speed access to data. Functional verification establishes the stability of the SRAM to the constraints of the SPI protocol, enabling the successful completion of all memory operations without any failure in the conditions of varying process variations in the 180nm CMOS. SPI-based interfacing of the microcontroller (MCU) not only eases microcontroller interfacing but also enables scalability to memory sizes that are larger, is a solid foundation for future developments of energyconscious battery-operated applications.",
+    "title_zh": "用于生物医学应用的SPI使能64x8 SRAM存储器设计",
+    "abstract_zh": "本文实现并验证了一种包含512位RAM的静态随机存取存储器（SRAM）架构，并结合了串行外设接口（SPI）协议。该设计采用Cadence Virtuoso EDA工具完成原理图绘制、仿真和版图验证，并基于180 nm CMOS工艺实现。改进后的架构采用工业界广泛使用的串行通信标准SPI，用于协调存储器的读取、写入和控制操作，与传统的并行SRAM模块相比，显著减少了引脚数量、互连复杂度。该架构是一种紧凑且节能的存储系统，功耗仅为1.34 mW，功率延迟积（PDP）为24.1 pJ。该设计特别针对低功耗、中等访问速率且能耗较低的应用需求进行了优化。此类存储器设计可广泛应用于基于物联网的环境传感器、可穿戴计算机以及电池供电的嵌入式系统，这些应用场景中能效比高速数据访问更为重要。功能验证结果表明，SRAM在180 nm CMOS工艺下，即使面对不同的工艺变化，仍能在SPI协议约束条件下稳定运行，所有存储器操作均成功完成，无任何故障。基于SPI的微控制器（MCU）接口不仅简化了与微控制器的连接，还支持向更大存储容量扩展，为未来面向节能型电池供电应用的发展奠定了坚实基础。"
+  }
+]
