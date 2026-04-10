@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-04-09",
+    "title": "Towards Counterfactual Explanation and Assertion Inference for CPS Debugging",
+    "authors": "Zaid Ghazal, Hadiza Yusuf, Khouloud Gaaloul",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.07679v1",
+    "source": "arXiv",
+    "abstract": "Verification and validation of cyber-physical systems (CPS) via large-scale simulation often surface failures that are hard to interpret, especially when triggered by interactions between continuous and discrete behaviors at specific events or times. Existing debugging techniques can localize anomalies to specific model components, but they provide little insight into the input-signal values and timing conditions that trigger violations, or the minimal, precisely timed changes that could have prevented the failure. In this article, we introduce DeCaF, a counterfactual-guided explanation and assertion-based characterization framework for CPS debugging. Given a failing test input, DeCaF generates counterfactual changes to the input signals that transform the test from failing to passing. These changes are designed to be minimal, necessary, and sufficient to precisely restore correctness. Then, it infers assertions as logical predicates over inputs that generalize recovery conditions in an interpretable form engineers can reason about, without requiring access to internal model details. Our approach combines three counterfactual generators with two causal models, and infers success assertions. Across three CPS case studies, DeCaF achieves its best success rate with KD-Tree Nearest Neighbors combined with M5 model tree, while Genetic Algorithm combined with Random Forest provides the strongest balance between success and causal precision.",
+    "title_zh": "面向信息物理系统调试的反事实解释与断言推断",
+    "abstract_zh": "针对信息物理系统（CPS）的大规模仿真进行验证与确认时，常常会暴露出难以解释的故障，尤其是在特定事件或时间点上连续行为与离散行为相互作用所引发的问题。现有的调试技术虽能将异常定位到具体的模型组件，但对触发违规的输入信号值和时序条件，以及能够防止故障发生的最小且精确的修改，仍缺乏深入洞察。本文提出DeCaF——一种基于反事实引导的解释方法与基于断言的特征刻画框架，用于辅助CPS调试。给定一个导致失败的测试输入，DeCaF会生成对输入信号的反事实修改，使该测试由失败转为通过。这些修改被设计为最小、必要且充分，以精确恢复系统正确性。随后，DeCaF推断出关于输入的逻辑谓词形式的断言，以可解释的方式泛化恢复条件，便于工程师理解与分析，且无需访问模型内部细节。我们的方法结合了三种反事实生成器与两种因果模型，并用于推断成功断言。在三个CPS案例研究中，DeCaF采用KD-树最近邻与M5模型树组合时取得了最高的成功率，而遗传算法与随机森林组合则在成功率与因果精度之间实现了最佳平衡。"
+  },
+  {
+    "date": "2026-04-09",
+    "title": "VCAO: Verifier-Centered Agentic Orchestration for Strategic OS Vulnerability Discovery",
+    "authors": "Suyash Mishra",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.08291v1",
+    "source": "arXiv",
+    "abstract": "We formulate operating-system vulnerability discovery as a \\emph{repeated Bayesian Stackelberg search game} in which a Large Reasoning Model (LRM) orchestrator allocates analysis budget across kernel files, functions, and attack paths while external verifiers -- static analyzers, fuzzers, and sanitizers -- provide evidence. At each round, the orchestrator selects a target component, an analysis method, and a time budget; observes tool outputs; updates Bayesian beliefs over latent vulnerability states; and re-solves the game to minimize the strategic attacker's expected payoff. We introduce \\textsc{VCAO} (\\textbf{V}erifier-\\textbf{C}entered \\textbf{A}gentic \\textbf{O}rchestration), a six-layer architecture comprising surface mapping, intra-kernel attack-graph construction, game-theoretic file/function ranking, parallel executor agents, cascaded verification, and a safety governor. Our DOBSS-derived MILP allocates budget optimally across heterogeneous analysis tools under resource constraints, with formal $\\tilde{O}(\\sqrt{T})$ regret bounds from online Stackelberg learning. Experiments on five Linux kernel subsystems -- replaying 847 historical CVEs and running live discovery on upstream snapshots -- show that \\textsc{VCAO} discovers $2.7\\times$ more validated vulnerabilities per unit budget than coverage-only fuzzing, $1.9\\times$ more than static-analysis-only baselines, and $1.4\\times$ more than non-game-theoretic multi-agent pipelines, while reducing false-positive rates reaching human reviewers by 68\\%. We release our simulation framework, synthetic attack-graph generator, and evaluation harness as open-source artifacts.",
+    "title_zh": "VCAO：以验证为中心的智能体协同编排，用于战略性操作系统漏洞发现",
+    "abstract_zh": "我们将操作系统漏洞发现建模为一种**重复的贝叶斯斯塔克尔伯格搜索博弈**（repeated Bayesian Stackelberg search game），其中大型推理模型（LRM）协调器在内核文件、函数和攻击路径之间分配分析资源，而外部验证器——静态分析器、模糊测试工具和 sanitizer——则提供证据。在每一轮中，协调器选择一个目标组件、一种分析方法和时间预算；观察工具输出；更新关于潜在漏洞状态的贝叶斯信念；并重新求解博弈，以最小化策略性攻击者的期望收益。我们提出了**VCAO**（**以验证器为中心的智能体协调架构**，Verifier-Centered Agentic Orchestration），该架构包含六个层次：表面映射、内核内攻击图构建、基于博弈论的文件/函数排序、并行执行智能体、级联验证以及安全管控器。我们基于DOBSS框架推导出的混合整数线性规划（MILP）方法，能够在资源受限条件下，跨异构分析工具最优地分配资源，并通过在线斯塔克尔伯格学习实现了形式化的$\\tilde{O}(\\sqrt{T})$遗憾界（regret bound）。在五个Linux内核子系统上的实验——重放847个历史CVE漏洞，并在上游代码快照上进行实时漏洞发现——表明，VCAO在单位预算下发现的经验证漏洞数量是仅依赖覆盖率的模糊测试的2.7倍，是纯静态分析基线的1.9倍，是非博弈论多智能体流水线的1.4倍，同时将提交给人类评审者的误报率降低了68%。我们已将仿真框架、合成攻击图生成器和评估工具作为开源成果公开发布。"
+  },
+  {
+    "date": "2026-04-09",
+    "title": "ZeroCoder: Can LLMs Improve Code Generation Without Ground-Truth Supervision?",
+    "authors": "Lishui Fan, Mouxiang Chen, Tingwei Zhu, Kui Liu, Xin Xia, Shanping Li, Zhongxin Liu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.07864v1",
+    "source": "arXiv",
+    "abstract": "Code generation is important in software engineering, and Reinforcement Learning with Verifiable Rewards (RLVR) is a powerful paradigm to improve it through execution-based feedback. However, most RLVR pipelines rely on human-curated tests, making progress bottlenecked by scarce and costly supervision. Existing work tried to use self-generated tests to ground rewards, but the lack of discriminative tests constrains the effect due to the sub-optimal performance of the model on test generation. We aim to improve code generation without ground-truth supervision by co-evolving code and test generation, so that their interactions yield progressively more informative supervision. To this end, we present ZeroCoder, a fully label-free co-evolutionary framework that jointly trains a Coder and a Tester using execution feedback from self-generated code-test interactions. For each problem, ZeroCoder executes sampled solutions against sampled tests to form a passing matrix, identifies a consensus subset of likely-correct solutions and consistent tests via a pluggable selection algorithm, and derives role-specific rewards. To ensure reward quality, ZeroCoder filters low-information instances via rank-based pre-filtering and trains the Tester with a curriculum balancing validity and mutation-driven discriminativeness. We further identify selector drift, the progressive miscalibration of fixed selection rules during co-evolution, and introduce DyB4, a Bayesian selector that uses as few as 10 labeled instances to recalibrate its priors dynamically. Across three models and six benchmarks, ZeroCoder consistently improves code generation and test generation. In the fully label-free setting, it improves code generation by up to 14.5% over the base model on Qwen2.5-Coder-7B-Instruct. With DyB4, the gain reaches 21.6%, while test generation improves by 24.3%, approaching oracle-supervised performance.",
+    "title_zh": "ZeroCoder：大语言模型能否在没有真实标签监督的情况下提升代码生成能力？",
+    "abstract_zh": "代码生成在软件工程中具有重要意义，而基于可验证奖励的强化学习（Reinforcement Learning with Verifiable Rewards, RLVR）是一种通过执行反馈来提升代码生成能力的强大范式。然而，大多数RLVR流程依赖人工设计的测试用例，导致进展受限于稀疏且昂贵的监督信号。现有研究尝试使用模型自生成的测试用例作为奖励依据，但由于模型在测试生成上的表现欠佳，所生成的测试缺乏区分性，从而限制了整体效果。本文旨在无需真实标签监督的情况下，通过代码与测试生成的协同进化，提升代码生成质量，使二者交互过程中产生越来越具信息量的监督信号。\n\n为此，我们提出了ZeroCoder——一种完全无需标注的协同进化框架，通过自生成的代码-测试交互执行反馈，联合训练一个“代码生成器”（Coder）和一个“测试生成器”（Tester）。对于每个编程问题，ZeroCoder对采样的解法和采样的测试用例进行执行，构建一个通过矩阵；然后通过可插拔的选择算法识别出一组共识性的、可能正确的解法和一致的测试用例，并据此为不同角色生成特定奖励。为确保奖励质量，ZeroCoder采用基于排序的预过滤机制剔除信息量低的样本，并通过一种兼顾有效性和由变异驱动的区分性的课程学习策略来训练Tester。\n\n我们进一步发现了一种称为“选择器漂移”（selector drift）的现象：在协同进化过程中，固定的选择规则会逐渐失准。为此，我们提出了DyB4——一种贝叶斯选择器，仅需约10个标注样本即可动态校准其先验分布，实现自适应调整。\n\n在三个不同模型和六个基准上的实验表明，ZeroCoder在代码生成和测试生成方面均取得持续提升。在完全无标签的设置下，相比基础模型，其在Qwen2.5-Coder-7B-Instruct上的代码生成性能最高提升达14.5%；结合DyB4后，提升进一步达到21.6%，同时测试生成性能提升24.3%，接近使用oracle监督的性能水平。"
+  },
+  {
+    "date": "2026-04-09",
+    "title": "Bilattice-Catastrophe Isomorphism for Four-Valued Logic in Digital Systems",
+    "authors": "Jiu Hui Wu, Hua Tian, Mengqi Yuan, Kejiang Zhou",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.07690v1",
+    "source": "arXiv",
+    "abstract": "Belnap's four-valued logic, distinguished by its inherent bilattice structure, provides a natural algebraic bridge between discrete Four-valued logic (4VL) in circuit and continuous catastrophe theory (CT). Building on the rigorous verification of the bilattice-catastrophe isomorphism theorem, we establish a categorical correspondence spanning the catastrophe category, interlaced bilattice category, and 4VL category, with the cusp catastrophe emerging as the canonical CT counterpart to 4VL.This unification provides a foundational framework for explaining 4VL's robustness. Crucially, we demonstrate that the four-valued algebra FOUR is the minimal complete algebraic structure capable of describing continuous-discrete interfaces with involution symmetry. Unlike the empirical adoption of X and Z in engineering practice, our work reveals their mathematical necessity: X and Z are topological invariants of discretized continuous dynamical systems, encoding fundamental properties of catastrophe-induced discontinuities. The work enables cross-disciplinary extensions to uncertainty propagation, complex system modeling, and fault-tolerant design.",
+    "title_zh": "数字系统中四值逻辑的双格-突变同构",
+    "abstract_zh": "贝尔纳普（Belnap）的四值逻辑因其内在的双格（bilattice）结构，为电路中的离散四值逻辑（4VL）与连续突变理论（CT）之间提供了天然的代数桥梁。在严格验证了双格-突变同构定理的基础上，我们建立了突变范畴、交错双格范畴与四值逻辑范畴之间的范畴对应关系，其中尖点突变（cusp catastrophe）成为四值逻辑在突变理论中的典范对应。这一统一框架为解释四值逻辑的鲁棒性提供了基础。关键的是，我们证明了四值代数FOUR是能够描述具有对合对称性的连续-离散界面的最小完备代数结构。与工程实践中对X和Z状态的经验性采用不同，我们的研究揭示了其数学上的必然性：X和Z是离散化连续动力系统的拓扑不变量，编码了由突变引起的不连续性的基本性质。本工作为不确定性传播、复杂系统建模以及容错设计等跨学科领域的拓展提供了理论基础。"
+  },
+  {
+    "date": "2026-4-9",
+    "title": "SemFuzz: A Semantics-Aware Fuzzing Framework for Network Protocol Implementations",
+    "authors": "Yanbang Sun, Quan Luo, Yuelin Wang, Qian Chen, Benjin Liu, Ruiqi Chen, Qing Huang, Xiaohong Li, Junjie Wang",
+    "publish": "Proceedings of the ACM Web Conference 2026",
+    "url": "https://doi.org/10.1145/3774904.3792541",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SemFuzz：一种面向网络协议实现的语义感知模糊测试框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-9",
+    "title": "List of Papers",
+    "authors": "N/A",
+    "publish": "2026 International Conference on Communication, Computing and Emerging Technologies (IC3ET)",
+    "url": "https://doi.org/10.1109/ic3et64989.2026.11467292",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "论文列表",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-9",
+    "title": "A Flexible IEC 61499-based Robotic Assembly System with OPC UA and Vision-based Verification",
+    "authors": "Zakaria Bencherki, Nourhan Halawi Ghoson, Nisar Hakam, Khaled Benfriha",
+    "publish": "2025 5th International Conference on Electrical, Computer and Energy Technologies (ICECET)",
+    "url": "https://doi.org/10.1109/icecet63943.2025.11472269",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种基于IEC 61499、采用OPC UA和视觉验证的柔性机器人装配系统",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-9",
+    "title": "Acore-CIM: build accurate and robust mixed-signal CIM cores with RISC-V controlled self-calibration",
+    "authors": "Omar Numan, Gaurav Singh, Kazybek Adam, Jelin Leslin, Aleksi Korsman, Otto Simola, Marko Kosunen, Jussi Ryynänen, Martin Andraud",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2026.3682622",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Acore-CIM：通过RISC-V控制的自校准构建高精度、高鲁棒性的混合信号存内计算核心",
+    "abstract_zh": "None"
+  }
+]
