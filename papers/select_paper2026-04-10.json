@@ -1,0 +1,211 @@
+[
+  {
+    "date": "2026-4-10",
+    "title": "Hunting CUDA Bugs at Scale with cuFuzz",
+    "authors": "Mohamed Tarek Ibn Ziad, Christos Kozyrakis",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3798231",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "大规模CUDA错误检测工具cuFuzz",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "RWW 2027 Call for Papers SiRF",
+    "authors": "N/A",
+    "publish": "IEEE Microwave Magazine",
+    "url": "https://doi.org/10.1109/mmm.2026.3661223",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "RWW 2027 论文征集 SiRF",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "RRFuzzer: A Fuzzing Framework for Proprietary Industrial Control System Protocols using a Combination Strategy",
+    "authors": "Yingxu Lai, Yutong Dang, Huimin Fang, Shen Lu, Jing Liu, Ziqi Wang",
+    "publish": "IEEE Transactions on Dependable and Secure Computing",
+    "url": "https://doi.org/10.1109/tdsc.2026.3682768",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "RRFuzzer：一种基于组合策略的专有工业控制系统协议模糊测试框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "Efficient Directed Hybrid Fuzzing via Target-Centric Seed Selection and Generation",
+    "authors": "Zhen Li, Shenghan Liu, Qiuping Yi, Pengbo Du, Hongliang Liang",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3798233",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于目标中心的种子选择与生成的高效定向混合模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "A Function-level Fault Injection and Machine Learning Framework for Reliability Analysis",
+    "authors": "Orhan Güneş, Sanem Arslan",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3682878",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种面向函数级故障注入与机器学习的可靠性分析框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "A Reliability Modeling Method Based on Logical Verification Generative Adversarial Networks",
+    "authors": "Wanyi Liu, Yunwen Feng, Cheng Lu, Zhicen Song, Rui Wang, Junyu Chen",
+    "publish": "2025 IEEE 5th International Conference on Applied Mathematics, Modeling and Computer Simulation (AMMCS)",
+    "url": "https://doi.org/10.1109/ammcs65761.2025.11459885",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种基于逻辑验证生成对抗网络的可靠性建模方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "Efficient Incremental GR(1) Synthesis via Monotonic Fixed-Point Reuse",
+    "authors": "Sirui Liu, Wei Dong, Yijie Zheng, Haonan Guo",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3798234",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "通过单调不动点重用实现高效的增量式GR(1)综合",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "Taming the Hydra: Targeted Control-Flow Transformations for Dynamic Symbolic Execution",
+    "authors": "Charitha Saumya, Muhammad Hassan, Rohan Gangaraju, Milind Kulkarni, Kirshanthan Sundararajah",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3798202",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "驯服九头蛇：面向动态符号执行的针对性控制流变换",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "VeriEQ: Finding Verilog Simulators and Synthesizers Bugs with Equivalence Circuit Transformation",
+    "authors": "Zhen Yan, Yuanliang Chen, Fuchen Ma, Zehong Yu, Dalong Shi, Yu Jiang",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3798235",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "VeriEQ：利用等价电路变换发现Verilog仿真器和综合器中的漏洞",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "(Dis)Proving Spectre Security with Speculation-Passing Style",
+    "authors": "Santiago Arranz-Olmos, Gilles Barthe, Lionel Blatter, Xingyu Xie, Zhiyuan Zhang",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3798222",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "（反）证明基于推测传递样式的Spectre安全性",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "Peeling Off the Cocoon: Unveiling Suppressed Golden Seeds for Mutational Greybox Fuzzing",
+    "authors": "Ruixiang Qian, Chunrong Fang, Zengxu Chen, Youxin Fu, Zhenyu Chen",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3798205",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "破茧而出：揭示被抑制的黄金种子以实现突变式灰盒模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "Mutation-Guided Unit Test Generation with a Large Language Model",
+    "authors": "Guancheng Wang, Qinghua Xu, Lionel Briand, Kui Liu",
+    "publish": "IEEE Transactions on Software Engineering",
+    "url": "https://doi.org/10.1109/tse.2026.3682975",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于大语言模型的变异引导单元测试生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "Online Input Grammar Synthesis Aided Symbolic Execution",
+    "authors": "Ke Ma, Yunlai Luo, Zhenbang Chen, Weijiang Hong, Yufeng Zhang, Ji Wang",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3798243",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "在线输入语法合成辅助的符号执行",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "Hardware Trojan Design and Detection in Pre-Charge Half Buffer Asynchronous Circuits",
+    "authors": "Chukwunalu Asuai, Mousam Hossain, Ashiq A. Sakib, Kushal K. Ponugoti",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3682703",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "预充电半缓冲异步电路中的硬件木马设计与检测",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "Beyond Coverage: Automatic Test Suite Augmentation for Enhanced Effectiveness using Large Language Models",
+    "authors": "Zeyu Lu, Peng Zhang, Yuge Nie, Yibiao Yang, Yutian Tang, Chun Yong Chong, Yuming Zhou",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3798251",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "超越覆盖率：利用大语言模型增强测试套件有效性以实现自动扩充",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "Fail Faster: Staging and Fast Randomness for High-Performance PBT",
+    "authors": "Cynthia Richey, Joseph W. Cutler, Harrison Goldstein, Benjamin C. Pierce",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3798263",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "更快地失败：用于高性能PBT的预演与快速随机性",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "RAT-CAT-SAT: Model Checking Memory Consistency Models",
+    "authors": "Jan Grünke, Thomas Haas, Roland Meyer",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3798208",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "RAT-CAT-SAT：内存一致性模型的模型检测",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "RandSet: Randomized Corpus Reduction for Fuzzing Seed Scheduling",
+    "authors": "Yuchong Xie, Kaikai Zhang, Yu Liu, Rundong Yang, Ping Chen, Shuai Wang, Dongdong She",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3798257",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "RandSet：用于模糊测试种子调度的随机化语料库缩减",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-10",
+    "title": "RWW 2027 Call for Papers SHaRC",
+    "authors": "N/A",
+    "publish": "IEEE Microwave Magazine",
+    "url": "https://doi.org/10.1109/mmm.2026.3661222",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "RWW 2027 征文启事 SHaRC",
+    "abstract_zh": "None"
+  }
+]
