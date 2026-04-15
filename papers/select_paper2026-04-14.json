@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-04-14",
+    "title": "Frontier-Eng: Benchmarking Self-Evolving Agents on Real-World Engineering Tasks with Generative Optimization",
+    "authors": "Yizhe Chi, Deyao Hong, Dapeng Jiang, Tianwei Luo, Kaisen Yang, Boshi Zhang, Zhe Cao, Xiaoyan Fan, Bingxiang He, Han Hao, Weiyang Jin, Dianqiao Lei, Qingle Liu, Houde Qian, Bowen Wang, Situ Wang, Youjie Zheng, Yifan Zhou, Calvin Xiao, Eren Cai, Qinhuai Na",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.12290v1",
+    "source": "arXiv",
+    "abstract": "Current LLM agent benchmarks, which predominantly focus on binary pass/fail tasks such as code generation or search-based question answering, often neglect the value of real-world engineering that is often captured through the iterative optimization of feasible designs. To this end, we introduce Frontier-Eng, a human-verified benchmark for generative optimization -- an iterative propose-execute-evaluate loop in which an agent generates candidate artifacts, receives executable verifier feedback, and revises them under a fixed interaction budget -- spanning $47$ tasks across five broad engineering categories. Unlike previous suites, Frontier-Eng tasks are grounded in industrial-grade simulators and verifiers that provide continuous reward signals and enforce hard feasibility constraints under constrained budgets. We evaluate eight frontier language models using representative search frameworks, finding that while Claude 4.6 Opus achieves the most robust performance, the benchmark remains challenging for all models. Our analysis suggests a dual power-law decay in improvement frequency ($\\sim$ 1/iteration) and magnitude ($\\sim$ 1/improvement count). We further show that although width improves parallelism and diversity, depth remains crucial for hard-won improvements under a fixed budget. Frontier-Eng establishes a new standard for assessing the capacity of AI agents to integrate domain knowledge with executable feedback to solve complex, open-ended engineering problems.",
+    "title_zh": "前沿工程：基于生成式优化的现实世界工程任务上的自进化智能体基准测试",
+    "abstract_zh": "现有的大语言模型（LLM）智能体基准测试主要关注代码生成或基于搜索的问答等二元通过/失败任务，往往忽视了现实世界工程实践中通过迭代优化可行设计方案所体现的价值。为此，我们推出了Frontier-Eng——一个经人类验证的生成式优化基准测试。该基准模拟一种迭代的“提出-执行-评估”循环：智能体生成候选方案，接收可执行验证器的反馈，并在固定的交互预算内进行修改优化，涵盖五个广泛工程领域中的47项任务。与以往基准不同，Frontier-Eng的任务基于工业级仿真器和验证器，能够提供连续的奖励信号，并在有限资源条件下强制满足严格的可行性约束。我们采用代表性搜索框架对八种前沿语言模型进行了评估，发现尽管Claude 4.6 Opus表现最为稳健，但所有模型在该基准上仍面临显著挑战。我们的分析表明，改进频率（~1/轮次）和改进幅度（~1/改进次数）均呈现双重幂律衰减趋势。进一步研究显示，虽然增加宽度（并行尝试更多方案）有助于提升多样性和并行性，但在固定预算下，深度（持续迭代优化）对于实现关键突破仍然至关重要。Frontier-Eng为评估AI智能体整合领域知识与可执行反馈以解决复杂、开放性工程问题的能力树立了新标准。"
+  },
+  {
+    "date": "2026-4-14",
+    "title": "Design and Simulation Verification of Cooperative Guidance Law for Flying Robots Based on Time Constraints and Yaw Angle Constraints",
+    "authors": "DeShuang Wang, YiJie Yin, Le Gong, Wen Yang, XinZhe Li",
+    "publish": "Proceedings of the 2025 5th International Conference on Computational Modeling, Simulation and Data Analysis",
+    "url": "https://doi.org/10.1145/3796731.3796829",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于时间约束与偏航角约束的飞行机器人协同制导律设计与仿真验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-14",
+    "title": "BC-AEAD: Blockchain-enabled Lightweight AEAD Combiner for IoT Device Authentication",
+    "authors": "Aswani Devi Aguru, Suresh Babu Erukala",
+    "publish": "IEEE Transactions on Consumer Electronics",
+    "url": "https://doi.org/10.1109/tce.2026.3683718",
+    "source": "IEEE",
+    "abstract": "The enormous proliferation of Internet of Things (IoT) networks necessitates robust and ultra-lightweight authentication mechanisms. Authenticated Encryption with Associated Data (AEAD) schemes are pivotal for resource-constrained devices, but centralized models suffer from a single point of failure. We propose BC-AEAD, a Blockchain-enabled IoT authentication and Authenticated Key Establishment (AKE) scheme using a novel AEAD combiner. BC-AEAD strategically amalgamates the high-performance tweakable block cipher primitive of LOCUS-AEAD with the resource-efficient sponge construction of ASCON. Leveraging Blockchain enables decentralized and tamper-proof key management of the AEAD combiner. The robustness of proposed combiner is validated using an informal security analysis, the Real-and-Random Oracle Model (ROR), and the Scyther tool. The performance of Blockchain network is evaluated regarding throughput, latency, and resource consumption using Hyperledger Caliper v0.4.2. The comparison of computation and communication costs of AKE schemes with state-of-the-art works is accomplished using the Pycrypto toolkit. The cost analysis of BC-AEAD on FPGA proves its practical deployability on highly constrained IoT devices with 1146 LUTs, 428 slices, and 1.86 Gbps. Eventually, the lack of a direct precedent strongly evaluates the core novelty of our unique AEAD combiner.",
+    "title_zh": "基于区块链的轻量级AEAD组合器，用于物联网设备认证",
+    "abstract_zh": "物联网（IoT）网络的迅猛发展迫切需要强大且超轻量级的身份认证机制。对于资源受限的设备而言，带关联数据的认证加密（AEAD）方案至关重要，但传统的中心化模型存在单点故障问题。为此，我们提出BC-AEAD——一种基于区块链的物联网认证与认证密钥建立（AKE）方案，采用了一种新型的AEAD组合器。BC-AEAD巧妙地将LOCUS-AEAD的高性能可调分组密码原语与ASCON的资源高效海绵结构相结合。通过引入区块链技术，实现了对AEAD组合器的去中心化且防篡改的密钥管理。本文通过非正式安全分析、实与随机预言模型（ROR）以及Scyther工具验证了所提组合器的安全性。利用Hyperledger Caliper v0.4.2评估了区块链网络在吞吐量、延迟和资源消耗方面的性能。借助Pycrypto工具包，将AKE方案的计算与通信开销与现有先进研究进行了对比。此外，BC-AEAD在FPGA上的成本分析表明其可在高度受限的物联网设备上实际部署，仅需1146个LUT、428个slice，并达到1.86 Gbps的处理速度。最终，由于目前尚无直接先例，本研究提出的独特AEAD组合器展现出显著的创新性。"
+  },
+  {
+    "date": "2026-4-14",
+    "title": "A Pre-Load Compression Using Test Vector Segmentation for High-Speed Memory Testing",
+    "authors": "Duyeon Won, Juyong Lee, Gyeonggyu Park, Youngki Moon, Sungho Kang",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2026.3683969",
+    "source": "IEEE",
+    "abstract": "The Algorithmic Pattern Generator (ALPG) is widely adopted to address massive test vector volumes in memory testing. However, the test rate is limited by the complex arithmetic operations required for real-time vector generation, making it difficult to match the high operating speeds of modern memory. While this test rate bottleneck is mitigated by adopting code-based compression schemes with simple decoding hardware, insufficient compression ratios are obtained for memory test vectors. Therefore, a new Pre-load Compression (PLC) is proposed to achieve high compression ratios and high-speed memory testing simultaneously. High compression efficiency is achieved by segmenting the test vector based on DRAM properties and pre-loading valid care bit fields into the don’t care (X) bit fields generated during mandatory stabilization cycles. Furthermore, high-speed memory testing is enabled by the PLC decoder through a simple mechanism that shifts pre-loaded care-bit data out or holds it to align with the original vector timing. In experimental results, test rates at least 62.58% higher than conventional ALPGs are achieved by the proposed PLC. Moreover, an average compression ratio 25.56% higher than conventional compression methods is achieved for test vectors generated by diverse test patterns and memory specifications.",
+    "title_zh": "一种采用测试向量分割的预加载压缩方法用于高速存储器测试",
+    "abstract_zh": "算法型模式生成器（ALPG）被广泛用于应对存储器测试中庞大的测试向量数据量。然而，由于实时生成测试向量需要复杂的算术运算，测试速率受到限制，难以匹配现代存储器的高速运行需求。虽然采用具有简单解码硬件的基于编码的压缩方案可在一定程度上缓解测试速率瓶颈，但对存储器测试向量的压缩比仍不充分。为此，本文提出一种新的预加载压缩（PLC）方法，以同时实现高压缩比和高速存储器测试。该方法通过基于DRAM特性的测试向量分段，并在强制稳定周期产生的“无关”（X）位字段中预加载有效的“关注”位字段，从而实现高压缩效率。此外，PLC解码器通过一种简单机制——将预加载的“关注”位数据移出或保持以对齐原始向量时序——实现了高速存储器测试。实验结果表明，所提出的PLC方法实现的测试速率比传统ALPG至少提高了62.58%。此外，针对由多种测试模式和存储器规格生成的测试向量，其平均压缩比比传统压缩方法高出25.56%。"
+  }
+]
