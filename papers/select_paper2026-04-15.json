@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2026-04-15",
+    "title": "On the Decidability of Verification under Release/Acquire",
+    "authors": "Giovanna Kobus Conrado, Andreas Pavlogiannis",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.13683v1",
+    "source": "arXiv",
+    "abstract": "The verification of concurrent programs under weak-memory models is a burgeoning effort, owing to the increasing adoption of weak memory in concurrent software and hardware. Release/Acquire has become the standard model for high-performance concurrent programming, adopted by common mainstream languages and computer architectures. In a surprising result, Abdulla et al. (PLDI'19) proved that reachability in this model is undecidable when programs have access to atomic Read-Modify-Write (RMW) operations. Moreover, undecidability holds even for executions with just 4 contexts, and is thus immune to underapproximations based on bounded context switching. The canonical, RMW-free case was left as a challenging question, proving a non-primitive recursive lower bound as a first step, and has remained open for the past seven years. In this paper, we settle the above open question by proving that reachability is undecidable even in the RMW-free fragment of Release/Acquire, thereby characterizing the simplest set of communication primitives that gives rise to undecidability. Moreover, we prove that bounding both the number of context switches and the number of RMWs recovers decidability, thus fully characterizing the boundary of decidability along the dimensions of RMW-bounding and context-bounding.",
+    "title_zh": "关于释放/获取下验证的可判定性",
+    "abstract_zh": "在弱内存模型下对并发程序进行验证是一项日益受到关注的研究工作，这源于弱内存模型在并发软件和硬件中的广泛应用。Release/Acquire（释放/获取）模型已成为高性能并发编程的标准模型，被主流编程语言和计算机体系结构广泛采用。Abdulla 等人（PLDI'19）的一项令人意外的结果表明，当程序可使用原子读-改-写（Read-Modify-Write, RMW）操作时，该模型下的可达性问题是不可判定的。更值得注意的是，即使程序仅具有4个上下文（context），不可判定性依然成立，因此该问题对基于有界上下文切换的欠近似（underapproximation）方法具有免疫性。而对于不含RMW操作的典型情况，该问题被留作一个具有挑战性的开放问题，研究者仅作为初步进展证明了其具有非原始递归的下界，此后七年一直未被解决。\n\n本文解决了上述开放问题，证明了即使在Release/Acquire模型中不含RMW操作的片段中，可达性问题仍然是不可判定的，从而刻画出导致不可判定性所需的最简通信原语集合。此外，我们进一步证明：当同时限制上下文切换次数和RMW操作次数时，可达性问题恢复为可判定的。因此，本文在RMW限制和上下文限制两个维度上，完整刻画了可判定性与不可判定性的边界。"
+  },
+  {
+    "date": "2026-04-15",
+    "title": "ATLAAS: Automatic Tensor-Level Abstraction of Accelerator Semantics",
+    "authors": "Ruijie Gao, Haoran Jin, Jirong Yang, Nathaniel Bleier",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.13523v1",
+    "source": "arXiv",
+    "abstract": "Numerous tensor accelerator designs have been proposed, yet most lack well-documented ISAs and compiler backends, limiting evaluation to a handful of operators. Recent work has shown that given a tensor-level ISA specification, complete software stacks including compiler backends can be automatically generated--but writing such specifications remains a manual, expert-driven process. We present ATLAAS, the first end-to-end MLIR-based pipeline that lifts RTL-extracted accelerator semantics to tensor ISA specifications. Starting from bit-level LLVM IR produced by prior architecture-level model extraction, ATLAAS applies an 8-pass semantic lifting pipeline that progressively recovers high-level tensor structure--MAC idioms, saturation semantics, multi-dimensional buffer organizations, and data layout transformations--emitting specifications that immediately enable automatic software stack generation through the ACT ecosystem. We evaluate ATLAAS on the Gemmini systolic-array accelerator, where the pipeline collapses bit-level MLIR by up to 92.9% on processing elements and 24-34% on controller modules. ATLAAS discovers hardware features omitted from the hand-written reference, with correctness validated via Z3 SMT equivalence proofs. Generality is confirmed on TVM's VTA processor, where the same pipeline lifts all four datapath modules without accelerator-specific changes, enabling an automated path from RTL to a performance-competitive compiler backend.",
+    "title_zh": "ATLAAS：加速器语义的自动张量级抽象",
+    "abstract_zh": "人们已经提出了众多张量加速器设计方案，但大多数缺乏完善的指令集架构（ISA）文档和编译器后端，导致其评估仅限于少数几个算子。最近的研究表明，只要给定张量级的ISA规范，就可以自动生成包括编译器后端在内的完整软件栈——但编写此类规范仍是一个依赖专家的手动过程。本文提出ATLAAS，这是首个基于MLIR的端到端流水线，能够将从RTL中提取出的加速器语义提升为张量ISA规范。该方法从前人工作生成的架构级模型提取所得的位级LLVM IR出发，ATLAAS通过一个8阶段的语义提升流水线，逐步恢复出高层张量结构——包括MAC惯用模式、饱和运算语义、多维缓冲区组织以及数据布局变换——最终生成的规范可立即通过ACT生态系统实现自动化的软件栈生成。我们在Gemmini脉动阵列加速器上对ATLAAS进行了评估，结果表明该流水线在处理单元上可将位级MLIR代码压缩高达92.9%，在控制器模块上压缩24%至34%。ATLAAS还发现了手工编写的参考规范中遗漏的硬件特性，并通过Z3 SMT等价性证明验证了其正确性。在TVM的VTA处理器上的实验进一步证实了该方法的通用性：使用相同的流水线无需任何针对特定加速器的修改，即可成功提升全部四个数据通路模块，实现了从RTL到具备良好性能的编译器后端的自动化路径。"
+  },
+  {
+    "date": "2026-04-15",
+    "title": "Orthogonal Transformations for Efficient Data-Driven Reachability Analysis",
+    "authors": "Peng Xie, Amr Alanwar",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.13792v1",
+    "source": "arXiv",
+    "abstract": "Data-driven reachability analysis using matrix zonotopes faces a fundamental challenge: the number of generators in the reachable set grows exponentially during propagation, while current order reduction yields overly conservative approximations in data-driven settings. This paper introduces an orthogonal matrix-based framework that appropriately transfers the coordinate system before reducing the generators of the reachable set, dramatically reducing reachable set volumes. By exploiting the factorized structure of data-driven matrix zonotope generators, we develop several efficient algorithms to solve the problem. Numerical experiments demonstrate order-of-magnitude volume reductions compared to traditional methods, while maintaining comparable generator numbers. Our method provides a practical solution to improve precision in data-driven safety verification.",
+    "title_zh": "用于高效数据驱动可达性分析的正交变换",
+    "abstract_zh": "基于数据驱动的可达性分析在使用矩阵zonotope时面临一个根本性挑战：在传播过程中，可达集的生成元数量呈指数级增长，而现有的降阶方法在数据驱动场景下会产生过于保守的近似结果。本文提出了一种基于正交矩阵的框架，该框架在减少可达集生成元之前，先适当地转换坐标系，从而显著降低可达集的体积。通过利用数据驱动矩阵zonotope生成元的因子化结构，我们开发了多种高效算法来解决这一问题。数值实验表明，与传统方法相比，本方法在保持生成元数量相当的同时，可达集体积减少了多个数量级。该方法为提升数据驱动安全验证的精度提供了实用的解决方案。"
+  },
+  {
+    "date": "2026-04-15",
+    "title": "Debugging Performance Issues in WebAssembly Runtimes via Mutation-based Inference",
+    "authors": "Ruiying Zeng, Shuyao Jiang, Wenxuan Zhao, Yangfan Zhou",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.13693v1",
+    "source": "arXiv",
+    "abstract": "Performance debugging in WebAssembly (Wasm) runtimes is essential for ensuring the robustness of Wasm, especially since performance issues have frequently occurred in Wasm runtimes, which can significantly degrade the capabilities of hosted services. Many performance issues in Wasm runtimes result from suboptimal compilation of input Wasm programs, for which existing performance debugging methods primarily designed for application-level inefficiencies are not well-suited. In this paper, we present WarpL, a novel mutation-based approach that aims to identify the exact suboptimal instruction sequences responsible for the performance issues in Wasm runtimes, thereby narrowing down the root causes. Specifically, WarpL obtains a functionally similar mutant in which the performance issue does not manifest, and isolates the exact suboptimal instructions by comparing the machine code of the original and mutated programs. We implement WarpL as an open-source tool and evaluate it on 12 real-world performance issues across three widely used Wasm runtimes. WarpL identified the exact causes in 10 out of 12 issues. Notably, we have used WarpL to successfully diagnose six previously unknown performance issues in Wasmtime.",
+    "title_zh": "通过基于变异的推断来调试WebAssembly运行时的性能问题",
+    "abstract_zh": "WebAssembly（Wasm）运行时的性能调试对于确保Wasm的健壮性至关重要，因为Wasm运行时中频繁出现性能问题，可能严重削弱托管服务的能力。许多Wasm运行时中的性能问题源于对输入Wasm程序的次优编译，而现有的性能调试方法主要针对应用程序层面的低效问题，难以有效应对此类情况。本文提出WarpL，一种基于变异的新型方法，旨在识别导致Wasm运行时性能问题的确切次优指令序列，从而缩小根本原因的范围。具体而言，WarpL生成一个功能相似但不再表现出性能问题的变体程序，并通过比较原始程序与变体程序的机器代码，精确定位导致性能低下的指令。我们将WarpL实现为一个开源工具，并在三个广泛使用的Wasm运行时中的12个真实性能问题上进行了评估。实验结果显示，WarpL成功定位了其中10个问题的根本原因。值得注意的是，我们已使用WarpL成功诊断出Wasmtime中6个此前未知的性能问题。"
+  },
+  {
+    "date": "2026-04-15",
+    "title": "Learned or Memorized ? Quantifying Memorization Advantage in Code LLMs",
+    "authors": "Djiré Albérick Euraste, Kaboré Abdoul Kader, Jordan Samhi, Earl T. Barr, Jacques Klein, Tegawendé F. Bissyandé",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.13997v1",
+    "source": "arXiv",
+    "abstract": "The lack of transparency about code datasets used to train large language models (LLMs) makes it difficult to detect, evaluate, and mitigate data leakage. We present a perturbation-based method to quantify memorization advantage in code LLMs, defined as the performance gap between likely seen and unseen inputs. We evaluate 8 open-source code LLMs on 19 benchmarks across four task families: code generation, code understanding, vulnerability detection, and bug fixing. Sensitivity patterns vary widely across models and tasks. For example, StarCoder reaches high sensitivity on some benchmarks (up to 0.8), while QwenCoder remains lower (mostly below 0.4), suggesting differences in generalization behavior. Task categories also differ: code summarization tends to show low sensitivity, whereas test generation is substantially higher. We then analyze two widely discussed benchmarks, CVEFixes and Defects4J, often suspected of leakage. Contrary to common concerns, both show low memorization advantage across models: CVEFixes remains below 0.1, and Defects4J is lower than other program repair benchmarks. These results suggest that, for these datasets, models may rely more on learned generalization than direct memorization. Overall, our findings provide evidence that memorization risk is highly task- and model-dependent, and highlight the need for stronger evaluation protocols, especially in security-focused settings.",
+    "title_zh": "是学会的还是记住的？量化代码大语言模型中的记忆优势",
+    "abstract_zh": "目前，用于训练大语言模型（LLM）的代码数据集普遍缺乏透明度，这使得检测、评估和缓解数据泄露问题变得困难。本文提出了一种基于扰动的方法，用于量化代码LLM中的记忆优势（memorization advantage），即模型在可能已见过的输入与未见过的输入之间的性能差异。我们对8个开源代码LLM在涵盖四种任务类别的19个基准上进行了评估，包括代码生成、代码理解、漏洞检测和缺陷修复。结果表明，不同模型和任务之间的敏感性模式存在显著差异。例如，StarCoder在某些基准上表现出较高的敏感性（最高达0.8），而QwenCoder则保持较低水平（大多低于0.4），表明二者在泛化行为上有所不同。任务类别之间也存在差异：代码摘要任务通常敏感性较低，而测试生成任务的敏感性则明显更高。随后，我们分析了两个广受关注且常被怀疑存在数据泄露的基准数据集——CVEFixes和Defects4J。与普遍担忧相反，多个模型在这两个数据集上的记忆优势均较低：CVEFixes的记忆优势始终低于0.1，Defects4J的表现也优于其他程序修复基准。这些结果表明，对于这些数据集，模型可能更多依赖于学习到的泛化能力，而非直接记忆。总体而言，我们的研究结果表明，记忆风险高度依赖于具体任务和模型，并强调在安全相关场景中亟需建立更严格的评估协议。"
+  },
+  {
+    "date": "2026-04-15",
+    "title": "Hardware-Efficient Neuro-Symbolic Networks with the Exp-Minus-Log Operator",
+    "authors": "Eymen Ipek",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.13871v1",
+    "source": "arXiv",
+    "abstract": "Deep neural networks (DNNs) deliver state-of-the-art accuracy on regression and classification tasks, yet two structural deficits persistently obstruct their deployment in safety-critical, resource-constrained settings: (i) opacity of the learned function, which precludes formal verification, and (ii) reliance on heterogeneous, library-bound activation functions that inflate latency and silicon area on edge hardware. The recently introduced Exp-Minus-Log (EML) Sheffer operator, eml(x, y) = exp(x) - ln(y), was shown by Odrzywolek (2026) to be sufficient - together with the constant 1 - to express every standard elementary function as a binary tree of identical nodes. We propose to embed EML primitives inside conventional DNN architectures, yielding a hybrid DNN-EML model in which the trunk learns distributed representations and the head is a depth-bounded, weight-sparse EML tree whose snapped weights collapse to closed-form symbolic sub-expressions. We derive the forward equations, prove computational-cost bounds, analyse inference and training acceleration relative to multilayer perceptrons (MLPs) and physics-informed neural networks (PINNs), and quantify the trade-offs for FPGA/analog deployment. We argue that the DNN-EML pairing closes a literature gap: prior neuro-symbolic and equation-learner approaches (EQL, KAN, AI-Feynman) work with heterogeneous primitive sets and do not exploit a single hardware-realisable Sheffer element. A balanced assessment shows that EML is unlikely to accelerate training, and on commodity CPU/GPU it is also unlikely to accelerate inference; however, on a custom EML cell (FPGA logic block or analog circuit) the asymptotic latency advantage can reach an order of magnitude with simultaneous gain in interpretability and formal-verification tractability.",
+    "title_zh": "具有Exp-Minus-Log算子的硬件高效神经符号网络",
+    "abstract_zh": "深度神经网络（DNN）在回归与分类任务中表现出卓越的准确性，然而其在安全关键、资源受限场景中的部署仍长期受到两个结构性缺陷的阻碍：（i）所学习函数的不透明性，导致无法进行形式化验证；（ii）依赖异构且依赖库实现的激活函数，从而在边缘硬件上增加了延迟和硅片面积。最近提出的“指数减对数”（Exp-Minus-Log, EML）谢弗算子 eml(x, y) = exp(x) - ln(y)，已被 Odrzywolek（2026年）证明仅需结合常数1，即可通过相同节点构成的二叉树表达所有标准初等函数。我们提出将EML基本单元嵌入传统DNN架构中，构建一种混合型DNN-EML模型：其中主干部分学习分布式表示，而头部则是一个深度受限、权重稀疏的EML树结构，其量化后的权重可坍缩为闭式符号子表达式。我们推导了前向传播方程，证明了计算代价的上界，分析了相对于多层感知机（MLP）和物理信息神经网络（PINN）在推理与训练中的加速潜力，并量化了在FPGA/模拟电路部署下的权衡关系。我们认为，DNN-EML的结合填补了现有研究的空白：以往的神经符号系统或方程学习方法（如EQL、KAN、AI-Feynman）依赖于异构的基本函数集，未能利用单一可在硬件上实现的谢弗元件。综合评估表明，EML在训练加速方面可能性较低，在通用CPU/GPU上也难以提升推理速度；但在定制化的EML单元（如FPGA逻辑块或模拟电路）上，其渐近延迟优势可达一个数量级，同时显著提升模型的可解释性与形式化验证的可行性。"
+  },
+  {
+    "date": "2026-04-15",
+    "title": "Cerisier: A Program Logic for Attestation in a Capability Machine",
+    "authors": "June Rousseau, Denis Carnier, Thomas Van Strydonck, Steven Keuchel, Dominique Devriese, Lars Birkedal",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.13638v1",
+    "source": "arXiv",
+    "abstract": "A key feature in trusted computing is attestation, which allows encapsulated components (enclaves) to prove their identity to (local or remote) distrusting components.Reasoning about software that uses the technique requires tracking how trust evolves after successful attestation.This process is security-critical and non-trivial, but no existing formal verification technique supports modular reasoning about attestation of enclaves and their clients, or proving end-to-end properties for systems combining trusted, untrusted and attested code. We contribute Cerisier, the first program logic for modular reasoning about trusted, untrusted and attested code, fully mechanized in the Iris separation logic and the Rocq Prover.We formalize a recent proposal, CHERI-TrEE, to extend capability machines with enclave primitives, as an extension to the Cerise capability machine and program logic.Our program logic comes with a universal contract for untrusted code, which captures both capability safety and local enclave attestation.Like Cerise, this universal contract is phrased in terms of a logical relation defining capabilities' authority.We demonstrate Cerisier by proving end-to-end properties for three representative applications of trusted computing: secure outsourced computation, mutual attestation and a modeled trusted sensor component.",
+    "title_zh": "Cerisier：一种用于能力机器中认证的程序逻辑",
+    "abstract_zh": "可信计算中的一个关键特性是证明（attestation），它允许封装的组件（即飞地，enclaves）向本地或远程的不信任组件证明其身份。对使用该技术的软件进行推理，需要追踪在成功完成证明后信任关系的演变过程。这一过程对安全性至关重要且十分复杂，但目前尚无现有的形式化验证技术能够支持对飞地及其客户端的证明行为进行模块化推理，也无法为同时包含可信、不可信和已证明代码的系统提供端到端性质的证明。为此，我们提出了 Cerisier——首个支持对可信、不可信及已证明代码进行模块化推理的程序逻辑，并在 Iris 分离逻辑框架和 Rocq 证明器中实现了完全机械化。我们将最近提出的 CHERI-TrEE 方案（旨在通过飞地原语扩展能力机架构）形式化，作为 Cerise 能力机及其程序逻辑的扩展。我们的程序逻辑引入了一个针对不可信代码的通用合约，该合约同时涵盖了能力安全性和本地飞地证明。与 Cerise 类似，该通用合约通过定义能力权限的逻辑关系来表述。我们通过三个可信计算典型应用——安全外包计算、相互证明以及建模的可信传感器组件——展示了 Cerisier 的有效性，并成功证明了它们的端到端安全性质。"
+  },
+  {
+    "date": "2026-4-15",
+    "title": "Formal Modeling of Staking and Validator Creation in PoS System",
+    "authors": "Raeesa Mukhtar, Nazir Ahmad Zafar, Hamra Afzaal",
+    "publish": "2026 1st International Conference on Innovations in Information and Communication Technologies (IICT)",
+    "url": "https://doi.org/10.1109/iict68374.2026.11468498",
+    "source": "IEEE",
+    "abstract": "Blockchain Technology has presented a tamperproof and secure structure that supports the modern digital environment. Among the many consensus blockchain systems, the Proof of Stake (PoS) has emerged as an extensively used protocol due to its lower energy consumption and high security. However, the staking mechanism and creation of the validator process are the main parts of the PoS network, and any flaw in these processes can cause financial loss and breach the system's security. Therefore, we use formal verification methods for the verification and validation of the staking mechanism. In this study, we presented a formal model of staking processes in a PoS-based system, emphasizing the verification of accurate signer, stake allocation, creation of a validator with an NFT minted, and update timeline. The CSP\\# language is used to specify these processes, and Linear Temporal Logics (LTL) are used to define the properties against these specifications. To verify that the system satisfies the critical properties, like verification of an authentic signer, secure stake registration, and deadlock-free validator creation using the Process Analysis Toolkit (PAT) model checker, and ensure the system's liveness and safety. Our results describe the importance of formal verification in enhancing the Polygon Blockchain's integrity by ensuring the staking mechanism in the stake manager contract is secure and reliable.",
+    "title_zh": "PoS系统中质押与验证者创建的形式化建模",
+    "abstract_zh": "区块链技术为现代数字环境提供了一种防篡改且安全的架构。在众多区块链共识系统中，权益证明（Proof of Stake, PoS）因其较低的能耗和较高的安全性而成为广泛使用的协议。然而，PoS网络中的质押机制和验证者创建过程是其核心组成部分，这些环节中的任何缺陷都可能导致经济损失并破坏系统的安全性。因此，我们采用形式化验证方法对质押机制进行验证与确认。在本研究中，我们提出了基于PoS系统的质押流程的形式化模型，重点验证了合法签名者身份、权益分配、通过铸造NFT创建验证者以及更新时间线等关键环节。我们使用CSP#语言对这些流程进行建模，并采用线性时序逻辑（Linear Temporal Logics, LTL）定义相应的性质。利用进程分析工具包（Process Analysis Toolkit, PAT）模型检测器，对系统是否满足诸如真实签名者验证、安全的权益注册以及无死锁的验证者创建等关键属性进行验证，以确保系统的活性（liveness）与安全性（safety）。实验结果表明，形式化验证在提升Polygon区块链完整性方面具有重要意义，可有效保障质押管理合约中质押机制的安全性与可靠性。"
+  },
+  {
+    "date": "2026-4-15",
+    "title": "Calibration Machine Implementation for Fine Phase Control Adjustment in Phase Interpolator Using a Discrete Current Modulation Profile",
+    "authors": "Erick J. Arenas Mendoza, Iurhitsi Elias Valdez, Ernesto Conde Almada, Rodrigo Jaramillo Ramirez",
+    "publish": "2025 IEEE Latin American Electron Devices Conference (LAEDC)",
+    "url": "https://doi.org/10.1109/laedc65721.2025.11435239",
+    "source": "IEEE",
+    "abstract": "This paper presents a digital Calibration Machine (CM) architecture designed to improve the linearity of a 127step phase interpolator with coarse and fine control topology by the means of the adjustment of biasing current per code in the Discrete Modulation Profile (DMP). The digital design flow covers from coarse/fine control technique until CM layout implementation. The CM process has two different operations, which are calibration and characterization. In calibration mode, the CM saves the data for fine-control adjustment through the DMP. The second operation, characterization, is used to determine the order in which the codes obtained in calibration are turned on. The digital control was designed in Verilog and implemented in 130 nm SkyWater technology using the OpenROAD workflow from RTL-to-GDSII. Input stimuli are provided by a Time-toDigital Converter (TDC), which measures phase offsets between ideal timing references and the interpolated output, forming a closed-loop feedback mechanism for calibration.",
+    "title_zh": "使用离散电流调制曲线在相位插值器中实现精细相位控制调整的校准装置",
+    "abstract_zh": "本文提出了一种数字校准机（Calibration Machine, CM）架构，旨在通过调整离散调制曲线（Discrete Modulation Profile, DMP）中每个编码的偏置电流，改善具有粗调和细调控制结构的127步相位插值器的线性度。该数字设计流程涵盖了从粗/细调控制技术到CM版图实现的完整过程。CM的工作包含两种不同的操作模式：校准与表征。在校准模式下，CM通过DMP保存用于细调控制的数据；在表征模式下，则确定校准过程中获得的各编码的开启顺序。该数字控制器采用Verilog语言设计，并利用OpenROAD从RTL到GDSII的流程，在130 nm SkyWater工艺技术上完成实现。输入激励由时间-数字转换器（Time-to-Digital Converter, TDC）提供，TDC测量理想时序参考信号与插值输出之间的相位偏移，从而构成一个用于校准的闭环反馈机制。"
+  },
+  {
+    "date": "2026-4-15",
+    "title": "Enhanced Hardware Trojan Detection Using Hybrid Machine Learning Models",
+    "authors": "Shreya Kamlesh Pathak, Rajvi Bharodiya, Rani Kumari",
+    "publish": "2026 4th Odisha International Conference on Electrical Power Engineering, Communication and Computing Technology (ODICON)",
+    "url": "https://doi.org/10.1109/odicon66687.2026.11470677",
+    "source": "IEEE",
+    "abstract": "Global chip manufacturing and the expanding use of third-party intellectual property (IP) have raised the possibility of hidden Hardware Trojans (HTs) within integrated circuits (ICs). These malicious changes can leak data, reduce performance, or cause system failure. Traditional detection methods depend on golden reference chips or detailed side channel tests, which are costly and hard to scale. This work presents a hybrid Machine Learning (ML) framework that combines supervised, unsupervised, and semi supervised approaches for effective HT detection. To make the model more robust, a synthetic data augmentation technique is used to mimic Process-voltage-temperature (PVT) variations. The enhanced dataset includes 5,000 circuit samples with four key features: power <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(\\text{mW})$</tex>, leakage <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$(\\mu \\mathrm{A})$</tex>, toggle rate, and delay (ns). Several ML models (Logistic Regression, Support Vector Machine, Random Forest, XGBoost, K-Means and Isolation Forest) were tested among which Random Forest (RF) achieved the highest accuracy of 95%, better than the 91.38% benchmark. The proposed hybrid framework works even with partially labeled data and removes the need for golden chips, enabling scalable and automated Trojan detection.",
+    "title_zh": "使用混合机器学习模型增强硬件木马检测",
+    "abstract_zh": "全球芯片制造以及第三方知识产权（IP）的广泛使用，增加了集成电路（IC）中存在隐藏硬件木马（HTs）的风险。这些恶意修改可能导致数据泄露、性能下降或系统故障。传统的检测方法依赖于“黄金”参考芯片或详细的侧信道测试，成本高昂且难以大规模应用。本文提出了一种混合机器学习（ML）框架，结合了监督学习、无监督学习和半监督学习方法，以实现高效的硬件木马检测。为了提高模型的鲁棒性，采用了一种合成数据增强技术来模拟工艺-电压-温度（PVT）变化。增强后的数据集包含5000个电路样本，具有四个关键特征：功耗（mW）、漏电流（μA）、翻转率和延迟（ns）。本文测试了多种机器学习模型（逻辑回归、支持向量机、随机森林、XGBoost、K均值和孤立森林），其中随机森林（RF）取得了95%的最高准确率，优于91.38%的基准水平。所提出的混合框架即使在部分标签数据的情况下也能有效运行，无需依赖“黄金”芯片，从而实现了可扩展且自动化的木马检测。"
+  }
+]
