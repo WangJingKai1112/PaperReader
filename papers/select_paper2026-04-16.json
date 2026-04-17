@@ -1,0 +1,222 @@
+[
+  {
+    "date": "2026-04-16",
+    "title": "Emulation-based System-on-Chip Security Verification: Challenges and Opportunities",
+    "authors": "Tanvir Rahman, Shuvagata Saha, Ahmed Y. Alhurubi, Sujan Kumar Saha, Farimah Farahmandi, Mark Tehranipoor",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.15073v1",
+    "source": "arXiv",
+    "abstract": "Increasing system-on-chip (SoC) heterogeneity, deep hardware/software integration, and the proliferation of third-party intellectual property (IP) have brought security validation to the forefront of semiconductor design. While simulation and formal verification remain indispensable, they often struggle to expose vulnerabilities that emerge only under realistic execution conditions, long software-driven interactions, and adversarial stimuli. In this context, hardware emulation is emerging as an increasingly important pre-silicon verification technology because it enables higher-throughput execution of RTL designs under realistic hardware/software workloads while preserving sufficient fidelity for security-oriented analysis. This paper presents a comprehensive survey and perspective on emulation-based security verification and validation. We organize the landscape of prior work across assertion-based security checking, coverage-driven exploration, adversarial testing, information-flow tracking, fault injection, and side-channel-oriented evaluation. We provide a structured view of emulation-enabled security verification workflows, including instrumentation, stimulus generation, runtime monitoring, and evidence-driven analysis. We also examine practical challenges related to observability, scalability, property specification, and the definition of security-oriented coverage metrics for emulation-based verification. Finally, we discuss emerging directions such as AI-assisted emulation, digital security twins, chiplet-scale security exploration, automated vulnerability assessment, and cloud-scale secure emulation. Overall, this paper positions emulation as a promising foundation for the next generation of pre-silicon hardware security assurance.",
+    "title_zh": "基于仿真的片上系统安全验证：挑战与机遇",
+    "abstract_zh": "随着片上系统（SoC）异构性的增强、软硬件深度集成以及第三方知识产权（IP）模块的广泛使用，安全验证已成为半导体设计中的首要任务。尽管仿真和形式化验证仍然不可或缺，但它们往往难以发现仅在真实执行环境、长时间软件交互或对抗性刺激下才会暴露的安全漏洞。在此背景下，硬件仿真作为一种日益重要的硅前验证技术正崭露头角，因为它能够在接近真实的软硬件工作负载下，以更高的吞吐量运行寄存器传输级（RTL）设计，同时保持足够的精度以支持面向安全的分析。\n\n本文对基于仿真的安全验证与确认方法进行了全面的综述与展望。我们系统梳理了以往研究的技术脉络，涵盖基于断言的安全检查、覆盖率驱动的探索、对抗性测试、信息流追踪、故障注入以及面向侧信道的评估等方面。我们提出了一个结构化的基于仿真的安全验证流程框架，包括监测机制构建（instrumentation）、激励生成、运行时监控以及基于证据的分析方法。同时，我们也探讨了在可观测性、可扩展性、安全属性描述以及面向安全的覆盖率度量定义等方面的实践挑战。最后，本文讨论了若干新兴方向，如人工智能辅助仿真、数字安全孪生、芯粒（chiplet）尺度的安全探索、自动化漏洞评估以及云规模的安全仿真等。\n\n总体而言，本文确立了硬件仿真作为下一代硅前硬件安全保障体系的重要基础地位，为未来高可信集成电路的设计提供了关键支撑路径。"
+  },
+  {
+    "date": "2026-04-16",
+    "title": "A Hypergraph Container Method on Spread SAT: Approximation and Speedup",
+    "authors": "Zicheng Han, Yupeng Lin, Jie Ma, Xiande Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.15031v1",
+    "source": "arXiv",
+    "abstract": "We develop a hypergraph container method for the Boolean Satisfiability Problem (SAT) via the newly developed container results [Campos and Samotij (2024)]. This provides an explicit connection between the extent of spread of clauses and the efficiency of container-based algorithms. Informally, the more evenly the clauses are distributed, the stronger the shrinking effect of the containers, which leads to faster algorithms for SAT. To quantify the extent of spread, we use a weighted point of view, in which a clause of size $s$ receives weight $p^s$ for some $0<p\\le 1$.In this way, we introduce the notion of $(λ,p)_k$-structure for SAT formulas, where $λ$ is the spread parameter and $k$ is the maximum size of clauses. By the almost-independence property of containers, we prove that for formulas with $(λ,p)_k$-structures, one can distinguish between ``unsatisfiable formulas'' and ``formulas satisfying at least a $(1-δ)$-fraction of clauses'' in sub-exponential time. This shows that sufficiently spread formulas are not worst-case instances for Gap-ETH. Moreover, we show that the speedup is directly controlled by the spread parameter $λ$, yielding faster exact algorithms for SAT formulas containing a $(λ,p)_k$-structure. This result extends previous work [Zamir (STOC 2023)] to the non-uniform case.",
+    "title_zh": "基于超图容器方法的广泛SAT问题：近似与加速",
+    "abstract_zh": "我们通过Campos和Samotij（2024）最新发展的容器结果，为布尔可满足性问题（SAT）建立了一种超图容器方法。该方法在子句分布的广泛程度与基于容器的算法效率之间建立了明确的联系。非正式地说，子句分布得越均匀，容器的收缩效应就越强，从而带来更快的SAT求解算法。为了量化这种分布的广泛程度，我们采用一种加权视角：大小为 $s$ 的子句被赋予权重 $p^s$，其中 $0 < p \\le 1$。在此基础上，我们引入了SAT公式中 $(λ,p)_k$-结构的概念，其中 $λ$ 是衡量分布广度的参数，$k$ 是子句的最大大小。利用容器的近似独立性质，我们证明了对于具有 $(λ,p)_k$-结构的公式，可以在亚指数时间内区分“不可满足的公式”与“满足至少 $(1-δ)$ 比例子句的公式”。这表明充分分散的公式并非Gap-ETH下的最坏情况实例。此外，我们还表明算法的加速效果直接受参数 $λ$ 控制，因此对于包含 $(λ,p)_k$-结构的SAT公式，可以获得更快的精确算法。该结果将Zamir（STOC 2023）的先前工作推广到了非均匀情形。"
+  },
+  {
+    "date": "2026-04-16",
+    "title": "Simplifying Safety Proofs with Forward-Backward Reasoning and Prophecy",
+    "authors": "Eden Frenkel, Kenneth L. McMillan, Oded Padon, Sharon Shoham",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.15266v1",
+    "source": "arXiv",
+    "abstract": "We propose an incremental approach for safety proofs that decomposes a proof with a complex inductive invariant into a sequence of simpler proof steps. Our proof system combines rules for (i) forward reasoning using inductive invariants, (ii) backward reasoning using inductive invariants of a time-reversed system, and (iii) prophecy steps that add witnesses for existentially quantified properties. We prove each rule sound and give a construction that recovers a single safe inductive invariant from an incremental proof. The construction of the invariant demonstrates the increased complexity of a single inductive invariant compared to the invariant formulas used in an incremental proof, which may have simpler Boolean structures and fewer quantifiers and quantifier alternations. Under natural restrictions on the available invariant formulas, each proof rule strictly increases proof power. That is, each rule allows to prove more safety problems with the same set of formulas. Thus, the incremental approach is able to reduce the search space of invariant formulas needed to prove safety of a given system. A case study on Paxos, several of its variants, and Raft demonstrates that forward-backward steps can remove complex Boolean structure while prophecy eliminates quantifiers and quantifier alternations.",
+    "title_zh": "使用前向-后向推理与预言简化安全性证明",
+    "abstract_zh": "我们提出了一种用于安全性证明的增量式方法，该方法将具有复杂归纳不变式的证明分解为一系列更简单的证明步骤。我们的证明系统结合了以下三类规则：（i）使用归纳不变式进行前向推理的规则；（ii）利用时间反向系统的归纳不变式进行后向推理的规则；以及（iii）引入存在量词性质见证项的预言步骤。我们证明了每条规则的可靠性，并提供了一种构造方法，能够从增量式证明中恢复出一个单一的安全归纳不变式。该构造过程表明，与增量证明中使用的不变式公式相比，单一归纳不变式可能具有更高的复杂性，例如更复杂的布尔结构、更多的量词以及量词交替。在对可用不变式公式施加自然限制的条件下，每条证明规则都严格增强了证明能力，即每条规则都能利用相同的公式集合证明更多安全性问题。因此，这种增量式方法能够减少为证明给定系统安全性所需搜索的不变式公式空间。通过对Paxos及其多个变体以及Raft的案例研究显示，前向-后向步骤可以消除复杂的布尔结构，而预言步骤则能消除量词和量词交替。"
+  },
+  {
+    "date": "2026-04-16",
+    "title": "Agent-Aided Design for Dynamic CAD Models",
+    "authors": "Mitch Adler, Matthew Russo, Michael Cafarella",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.15184v1",
+    "source": "arXiv",
+    "abstract": "In the past year, researchers have started to create agentic systems that can design real-world CAD-style objects in a training-free setting, a new variety of system that we call Agent-Aided Design. Generally speaking, these systems place an agent in a feedback loop in which it can write code, compile that code to an assembly of CAD model(s), visualize the model, and then iteratively refine its code based on visual and other feedback. Despite rapid progress, a key problem remains: none of these systems can build complex 3D assemblies with moving parts. For example, no existing system can build a piston, a pendulum, or even a pair of scissors. In order for Agent-Aided Design to make a real impact in industrial manufacturing, we need a system that is capable of generating such 3D assemblies. In this paper we present a prototype of AADvark, an agentic system designed for this task. Unlike previous state-of-the-art systems, AADvark captures the dynamic part interactions with one or more degrees-of-freedom. This design decision allows AADvark to reason directly about assemblies with moving parts and can thereby achieve cross-cutting goals, including but not limited to mechanical movements. Unfortunately, current LLMs are imperfect spatial reasoners, a problem that AADvark addresses by incorporating external constraint solver tools with a specialized visual feedback mechanism. We demonstrate that, by modifying the agent's tools (FreeCAD and the assembly solver), we are able to create a strong verification signal which enables our system to build 3D assemblies with movable parts.",
+    "title_zh": "基于智能体辅助设计的动态CAD模型",
+    "abstract_zh": "在过去的一年中，研究人员开始构建具有代理（agentic）能力的系统，能够在无需训练的情况下设计现实世界中的CAD风格物体，我们称这类新型系统为“代理辅助设计”（Agent-Aided Design, AAD）。总体而言，这些系统将一个智能代理置于反馈循环中，使其能够编写代码，将代码编译为一个或多个CAD模型的装配体，可视化模型，并基于视觉及其他反馈不断迭代优化其代码。尽管进展迅速，但仍存在一个关键问题：目前尚无任何此类系统能够构建包含运动部件的复杂三维装配体。例如，现有系统均无法生成活塞、摆锤，甚至是一把剪刀。为了让代理辅助设计在工业制造领域产生实际影响，我们必须开发出能够生成此类三维可动装配体的系统。本文提出了一种名为AADvark的原型系统，专为此任务而设计。与以往最先进的系统不同，AADvark能够捕捉具有一个或多个自由度的动态部件交互关系。这一设计决策使AADvark能够直接对含运动部件的装配体进行推理，从而实现多种跨领域的目标，包括但不限于机械运动功能。然而，当前的大语言模型（LLM）在空间推理方面仍不完善，为此，AADvark引入了外部约束求解工具和专门的视觉反馈机制来应对这一挑战。我们证明，通过改进代理所使用的工具（FreeCAD及装配求解器），可以生成强大的验证信号，从而使我们的系统成功构建出带有可动部件的三维装配体。"
+  },
+  {
+    "date": "2026-04-16",
+    "title": "Prism: Symbolic Superoptimization of Tensor Programs",
+    "authors": "Mengdi Wu, Xiaoyu Jiang, Oded Padon, Zhihao Jia",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.15272v1",
+    "source": "arXiv",
+    "abstract": "This paper presents Prism, the first symbolic superoptimizer for tensor programs. The key idea is sGraph, a symbolic, hierarchical representation that compactly encodes large classes of tensor programs by symbolically representing some execution parameters. Prism organizes optimization as a two-level search: it constructs symbolic graphs that represent families of programs, and then instantiates them into concrete implementations. This formulation enables structured pruning of provably suboptimal regions of the search space using symbolic reasoning over operator semantics, algebraic identities, and hardware constraints. We develop techniques for efficient symbolic graph generation, equivalence verification via e-graph rewriting, and parameter instantiation through auto-tuning. Together, these components allow Prism to bridge the rigor of exhaustive search with the scalability required for modern ML workloads. Evaluation on five commonly used LLM workloads shows that Prism achieves up to $2.2\\times$ speedup over best superoptimizers and $4.9\\times$ over best compiler-based approaches, while reducing end-to-end optimization time by up to $3.4\\times$.",
+    "title_zh": "棱镜：张量程序的符号化超级优化",
+    "abstract_zh": "本文提出了Prism，首个面向张量程序的符号化超级优化器。其核心思想是sGraph，一种符号化、层次化的表示方法，通过符号化部分执行参数，紧凑地编码大量类别的张量程序。Prism将优化过程组织为两级搜索：首先构建代表程序族的符号图，然后将其实例化为具体的实现。这种建模方式使得系统能够利用符号推理，结合算子语义、代数恒等式和硬件约束，对搜索空间中可证明次优的区域进行结构化剪枝。我们开发了高效的符号图生成技术、基于e-graph重写的等价性验证方法，以及通过自动调优实现的参数实例化策略。这些组件共同使Prism能够在保证穷举搜索严谨性的同时，满足现代机器学习工作负载所需的可扩展性。在五个常用的大语言模型工作负载上的实验表明，与现有最优的超级优化器相比，Prism最高可实现2.2倍的加速，相比最优的基于编译器的方法最高可达4.9倍的加速，同时端到端优化时间最多减少3.4倍。"
+  },
+  {
+    "date": "2026-04-16",
+    "title": "Enhancing Large Language Models with Retrieval Augmented Generation for Software Testing and Inspection Automation",
+    "authors": "Zoe Fingleton, Nazanin Siavash, Armin Moin",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.15270v1",
+    "source": "arXiv",
+    "abstract": "In this paper, we focus on automating two of the widely used Verification and Validation (V&V) activities in the Software Development Lifecycle (SDLC): Software testing and software inspection (also known as review). Concerning the former, we concentrate on automated test case generation using Large Language Models (LLMs). For the latter, we enable inspection of the source code by LLMs. To address the known LLM hallucination problem, in which LLMs confidently produce incorrect outputs, we implement a Retrieval Augmented Generation (RAG) pipeline to integrate supplementary knowledge sources and provide additional context to the LLM. Our experimental results indicate that incorporating external context via the RAG pipeline has a generally positive impact on both test case generation and code inspection. This novel approach reduces the total project cost by saving human testers'/inspectors' time. It also improves the effectiveness and efficiency of these V&V activities, as evidenced by our experimental study.",
+    "title_zh": "利用检索增强生成技术提升大语言模型在软件测试与检验自动化中的能力",
+    "abstract_zh": "本文聚焦于软件开发生命周期（SDLC）中两项广泛应用的验证与确认（V&V）活动的自动化：软件测试和软件检查（也称为评审）。针对前者，我们重点研究利用大语言模型（LLM）自动生成测试用例；对于后者，我们利用大语言模型对源代码进行检查。为应对大语言模型存在的“幻觉”问题（即模型会自信地生成错误输出），我们采用检索增强生成（RAG）流程，整合外部知识源并为大语言模型提供额外上下文信息。实验结果表明，通过RAG流程引入外部上下文，对测试用例生成和代码检查均产生了积极影响。这种创新方法通过减少人工测试人员/检查人员的工作时间，降低了项目总成本，同时提升了这些V&V活动的有效性和效率，这一点在我们的实验研究中得到了验证。"
+  },
+  {
+    "date": "2026-04-16",
+    "title": "Feedback-Driven Execution for LLM-Based Binary Analysis",
+    "authors": "XiangRui Zhang, Qiang Li, Haining Wang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.15136v1",
+    "source": "arXiv",
+    "abstract": "Binary analysis increasingly relies on large language models (LLMs) to perform semantic reasoning over complex program behaviors. However, existing approaches largely adopt a one-pass execution paradigm, where reasoning operates over a fixed program representation constructed by static analysis tools. This formulation limits the ability to adapt exploration based on intermediate results and makes it difficult to sustain long-horizon, multi-path analysis under constrained context. We present FORGE, a system that rethinks LLM-based analysis as a feedback-driven execution process. FORGE interleaves reasoning and tool interaction through a reasoning-action-observation loop, enabling incremental exploration and evidence construction. To address the instability of long-horizon reasoning, we introduce a Dynamic Forest of Agents (FoA), a decomposed execution model that dynamically coordinates parallel exploration while bounding per-agent context. We evaluate FORGE on 3,457 real-world firmware binaries. FORGE identifies 1,274 vulnerabilities across 591 unique binaries, achieving 72.3% precision while covering a broader range of vulnerability types than prior approaches. These results demonstrate that structuring LLM-based analysis as a decomposed, feedback-driven execution system enables both scalable reasoning and high-quality outcomes in long-horizon tasks.",
+    "title_zh": "基于反馈执行的LLM二进制分析",
+    "abstract_zh": "二进制分析 increasingly 依赖大语言模型（LLM）对复杂的程序行为进行语义推理。然而，现有方法大多采用单次执行范式，即在由静态分析工具构建的固定程序表示基础上进行推理。这种模式限制了根据中间结果动态调整探索的能力，并且在上下文受限的情况下难以持续进行长周期、多路径的分析。我们提出了 FORGE 系统，该系统将基于 LLM 的分析重新构想为一种反馈驱动的执行过程。FORGE 通过“推理—行动—观察”循环，交替进行推理与工具交互，从而实现渐进式探索和证据积累。为应对长周期推理中的不稳定性问题，我们引入了动态代理森林（Dynamic Forest of Agents, FoA），这是一种分解式执行模型，能够动态协调并行探索，同时限制每个代理的上下文长度。我们在 3,457 个真实固件二进制文件上对 FORGE 进行了评估，共识别出 591 个不同二进制文件中的 1,274 个漏洞，精确率达到 72.3%，且覆盖的漏洞类型比以往方法更广泛。实验结果表明，将基于 LLM 的分析构建为一种分解式、反馈驱动的执行系统，能够在长周期任务中实现可扩展的推理与高质量的结果。"
+  },
+  {
+    "date": "2026-04-16",
+    "title": "COEVO: Co-Evolutionary Framework for Joint Functional Correctness and PPA Optimization in LLM-Based RTL Generation",
+    "authors": "Heng Ping, Peiyu Zhang, Shixuan Li, Wei Yang, Anzhe Cheng, Shukai Duan, Xiaole Zhang, Paul Bogdan",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.15001v1",
+    "source": "arXiv",
+    "abstract": "LLM-based RTL code generation methods increasingly target both functional correctness and PPA quality, yet existing approaches universally decouple the two objectives, optimizing PPA only after correctness is fully achieved. Whether through sequential multi-agent pipelines, evolutionary search with binary correctness gates, or hierarchical reward dependencies, partially correct but architecturally promising candidates are systematically discarded. Moreover, existing methods reduce the multi-objective PPA space to a single scalar fitness, obscuring the trade-offs among area, delay, and power. To address these limitations, we propose COEVO, a co-evolutionary framework that unifies correctness and PPA optimization within a single evolutionary loop. COEVO formulates correctness as a continuous co-optimization dimension alongside area, delay, and power, enabled by an enhanced testbench that provides fine-grained scoring and detailed diagnostic feedback. An adaptive correctness gate with annealing allows PPA-promising but partially correct candidates to guide the search toward jointly optimal solutions. To preserve the full PPA trade-off structure, COEVO employs four-dimensional Pareto-based non-dominated sorting with configurable intra-level sorting, replacing scalar fitness without manual weight tuning. Evaluated on VerilogEval 2.0 and RTLLM 2.0, COEVO achieves 97.5\\% and 94.5\\% Pass@1 with GPT-5.4-mini, surpassing all agentic baselines across four LLM backbones, while attaining the best PPA on 43 out of 49 synthesizable RTLLM designs.",
+    "title_zh": "COEVO：基于大语言模型的RTL生成中联合功能正确性与PPA优化的协同进化框架",
+    "abstract_zh": "基于大语言模型（LLM）的RTL代码生成方法正日益同时关注功能正确性和PPA（面积、功耗、延迟）质量，但现有方法普遍将这两个目标解耦，仅在功能完全正确后才开始优化PPA。无论是通过多智能体顺序流水线、带有二值化正确性门控的进化搜索，还是具有层级依赖奖励机制的方法，这些方法都会系统性地丢弃那些虽功能部分正确但架构潜力良好的候选设计。此外，现有方法通常将多目标的PPA空间压缩为单一标量适应度值，从而掩盖了面积、延迟和功耗之间的权衡关系。\n\n为解决上述局限，我们提出COEVO——一种协同进化的框架，将功能正确性与PPA优化统一于同一个进化循环中。COEVO将正确性建模为与面积、延迟和功耗并列的连续协同优化维度，这得益于一个增强型测试平台，可提供细粒度评分和详细的诊断反馈。我们设计了一种带退火机制的自适应正确性门控，允许那些PPA表现优异但功能尚不完全正确的候选个体继续引导搜索过程，向联合最优解演化。为了保留完整的PPA权衡结构，COEVO采用四维帕累托前沿的非支配排序机制，并支持可配置的层级内排序策略，从而无需手动调参即可替代传统的标量适应度函数。\n\n在VerilogEval 2.0和RTLLM 2.0基准上的实验表明，使用GPT-5.4-mini作为后端大模型时，COEVO分别达到了97.5%和94.5%的Pass@1成绩，在四个主流LLM基座模型上全面超越所有基于智能体的基线方法。同时，在49个可综合的RTLLM设计中，COEVO在43个设计上实现了最优的PPA表现。"
+  },
+  {
+    "date": "2026-04-16",
+    "title": "HWE-Bench: Benchmarking LLM Agents on Real-World Hardware Bug Repair Tasks",
+    "authors": "Fan Cui, Hongyuan Hou, Zizhang Luo, Chenyun Yin, Yun Liang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.14709v1",
+    "source": "arXiv",
+    "abstract": "Existing benchmarks for hardware design primarily evaluate Large Language Models (LLMs) on isolated, component-level tasks such as generating HDL modules from specifications, leaving repository-scale evaluation unaddressed. We introduce HWE-Bench, the first large-scale, repository-level benchmark for evaluating LLM agents on real-world hardware bug repair tasks. HWE-Bench comprises 417 task instances derived from real historical bug-fix pull requests across six major open-source projects spanning both Verilog/SystemVerilog and Chisel, covering RISC-V cores, SoCs, and security roots-of-trust. Each task is grounded in a fully containerized environment where the agent must resolve a real bug report, with correctness validated through the project's native simulation and regression flows. The benchmark is built through a largely automated pipeline that enables efficient expansion to new repositories. We evaluate seven LLMs with four agent frameworks and find that the best agent resolves 70.7% of tasks overall, with performance exceeding 90% on smaller cores but dropping below 65% on complex SoC-level projects. We observe larger performance gaps across models than commonly reported on software benchmarks, and difficulty is driven by project scope and bug-type distribution rather than code size alone. Our failure analysis traces agent failures to three stages of the debugging process: fault localization, hardware-semantic reasoning, and cross-artifact coordination across RTL, configuration, and verification components, providing concrete directions for developing more capable hardware-aware agents.",
+    "title_zh": "HWE-Bench：面向真实世界硬件缺陷修复任务的大语言模型智能体基准测试",
+    "abstract_zh": "现有的硬件设计基准主要针对大语言模型（LLM）在孤立的、组件级任务上的表现进行评估，例如根据规范生成HDL模块，但尚未涉及仓库规模的评估。我们提出了HWE-Bench，这是首个大规模、基于代码仓库级别的基准测试，用于评估LLM智能体在真实世界硬件缺陷修复任务中的表现。HWE-Bench包含417个任务实例，源自六个主流开源项目的实际历史缺陷修复型拉取请求，涵盖Verilog/SystemVerilog和Chisel语言，涉及RISC-V核心、片上系统（SoC）以及安全信任根等设计。每个任务均基于完全容器化的环境，要求智能体解决真实存在的缺陷报告，并通过项目原生的仿真和回归测试流程验证修复的正确性。该基准通过一个高度自动化的流水线构建，能够高效扩展至新的代码仓库。我们评估了七种大语言模型结合四种智能体框架的表现，结果表明最佳智能体总体可解决70.7%的任务，在较小规模的核心上性能超过90%，但在复杂的SoC级项目中表现下降至65%以下。我们发现，不同模型之间的性能差距比在软件基准中通常报告的结果更为显著，且任务难度主要由项目范围和缺陷类型分布决定，而不仅仅是代码规模。我们的失败分析将智能体的失败归因于调试过程中的三个关键阶段：故障定位、硬件语义推理，以及在RTL代码、配置文件和验证组件之间的跨构件协同，这为开发更具能力的、面向硬件的智能体提供了明确的改进方向。"
+  },
+  {
+    "date": "2026-04-16",
+    "title": "Dr.~RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement",
+    "authors": "Wenji Fang, Yao Lu, Shang Liu, Jing Wang, Ziyan Guo, Junxian He, Fengbin Tu, Zhiyao Xie",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.14989v1",
+    "source": "arXiv",
+    "abstract": "Recent advances in large language models (LLMs) have sparked growing interest in automatic RTL optimization for better performance, power, and area (PPA). However, existing methods are still far from realistic RTL optimization. Their evaluation settings are often unrealistic: they are tested on manually degraded, small-scale RTL designs and rely on weak open-source tools. Their optimization methods are also limited, relying on coarse design-level feedback and simple pre-defined rewriting rules. To address these limitations, we present Dr. RTL, an agentic framework for RTL timing optimization in a realistic evaluation environment, with continual self-improvement through reusable optimization skills. We establish a realistic evaluation setting with more challenging RTL designs and an industrial EDA workflow. Within this setting, Dr. RTL performs closed-loop optimization through a multi-agent framework for critical-path analysis, parallel RTL rewriting, and tool-based evaluation. We further introduce group-relative skill learning, which compares parallel RTL rewrites and distills the optimization experience into an interpretable skill library. Currently, this library contains 47 pattern--strategy entries for cross-design reuse to improve PPA and accelerate convergence, and it can continue evolving over time. Evaluated on 20 real-world RTL designs, Dr. RTL achieves average WNS/TNS improvements of 21\\%/17\\% with a 6\\% area reduction over the industry-leading commercial synthesis tool.",
+    "title_zh": "Dr.~RTL：通过工具支撑的自我改进实现自主代理式RTL优化",
+    "abstract_zh": "大型语言模型（LLM）的最新进展激发了人们对自动RTL优化以提升性能、功耗和面积（PPA）的广泛关注。然而，现有方法距离实际的RTL优化仍有较大差距：其评估环境往往不切实际，通常在人为降级的小规模RTL设计上进行测试，并依赖较弱的开源工具；其优化方法也较为局限，主要依靠粗粒度的设计级反馈和简单的预定义重写规则。为解决这些问题，我们提出了Dr. RTL——一种面向真实评估环境的代理式框架，用于实现RTL时序优化，并通过可复用的优化技能实现持续自我改进。我们构建了一个更贴近现实的评估环境，包含更具挑战性的RTL设计和工业级EDA流程。在此环境下，Dr. RTL通过多智能体框架实现闭环优化，完成关键路径分析、并行RTL重写和基于工具的评估。我们进一步提出“组相对技能学习”方法，通过比较并行的RTL重写结果，将优化经验提炼为一个可解释的技能库。目前，该库已包含47个可用于跨设计复用的“模式—策略”条目，能够持续提升PPA优化效果并加速收敛过程，且具备长期演进能力。在20个真实RTL设计上的实验表明，Dr. RTL相比业界领先的商业综合工具，平均WNS/TNS分别提升了21%和17%，同时面积减少了6%。"
+  },
+  {
+    "date": "2026-04-16",
+    "title": "VeriGraphi: A Multi-Agent Framework of Hierarchical RTL Generation for Large Hardware Designs",
+    "authors": "Sazzadul Islam, Tasnim Tabassum, Hao Zheng",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.14550v1",
+    "source": "arXiv",
+    "abstract": "Generating synthesizable Verilog for large, hierarchical hardware designs remains a significant challenge for large language models (LLMs), which struggle to replicate the structured reasoning that human experts employ when translating complex specifications into RTL. When tasked with producing hierarchical Verilog, LLMs frequently lose context across modules, hallucinate interfaces, fabricate inter-module wiring, and fail to maintain structural coherence - failures that intensify as design complexity grows and specifications involve informal prose, figures, and tables that resist direct operationalization. To address these challenges, we present VeriGraphi, a framework that introduces a spec-anchored Knowledge Graph as the architectural substrate driving the RTL generation pipeline. VeriGraphi constructs a HDA, a structured knowledge graph that explicitly encodes module hierarchy, port-level interfaces, wiring semantics, and inter-module dependencies as first-class graph entities and relations. Built through iterative multi-agent analysis of the specification, this Knowledge Graph provides a deterministic, machine-checkable structural scaffold before code generation. Guided by the KG, a progressive coding module incrementally generates pseudo-code and synthesizable RTL while enforcing interface consistency and dependency correctness at each submodule stage. We evaluate VeriGraphi on a benchmark of three representative specification documents from the National Institute of Standards and Technology and their corresponding implementations, and we present a RV32I processor as a detailed case study to illustrate the full pipeline. The results demonstrate that VeriGraphi enables reliable hierarchical RTL generation with minimal human intervention for RISC-V, marking a significant milestone for LLM-generated hardware design while maintaining strong functional correctness.",
+    "title_zh": "VeriGraphi：一种用于大型硬件设计的分层RTL生成多智能体框架",
+    "abstract_zh": "对于大型、分层的硬件设计，生成可综合的Verilog代码对大语言模型（LLMs）而言仍是一项重大挑战。LLMs在将复杂规范转化为寄存器传输级（RTL）设计时，难以复现人类专家所采用的结构化推理过程。当被要求生成分层Verilog代码时，LLMs常常在模块之间丢失上下文，虚构接口，错误连接模块间的连线，并且无法保持结构的一致性——随着设计复杂度的增加，以及规范中包含难以直接操作化的非正式文本、图表和表格时，这些问题会愈发严重。\n\n为应对这些挑战，我们提出了VeriGraphi框架，该框架引入了一种以规范为锚点的知识图谱（Knowledge Graph, KG），作为驱动RTL生成流程的架构基础。VeriGraphi构建了一个HDA（Hierarchical Design Architecture），即一种结构化的知识图谱，将模块层次结构、端口级接口、连线语义以及模块间依赖关系显式地表示为图中的实体与关系。该知识图谱通过多智能体系统对规范文档进行迭代分析而逐步建立，为代码生成前提供了一个确定性的、可由机器验证的结构骨架。\n\n在知识图谱的引导下，一个渐进式编码模块逐步生成伪代码和可综合的RTL代码，并在每个子模块生成阶段强制保证接口一致性与依赖关系的正确性。我们在来自美国国家标准与技术研究院（NIST）的三个代表性规范文档及其对应实现组成的基准测试集上评估了VeriGraphi，并以一个RV32I处理器作为详细案例研究，展示了整个流水线的工作流程。\n\n实验结果表明，VeriGraphi能够在极少人工干预的情况下，可靠地完成RISC-V架构下的分层RTL生成，实现了LLM生成硬件设计领域的一个重要里程碑，同时保持了良好的功能正确性。"
+  },
+  {
+    "date": "2026-04-16",
+    "title": "Structural Dependency Analysis for Masked NTT Hardware: Scalable Pre-Silicon Verification of Post-Quantum Cryptographic Accelerators",
+    "authors": "Ray Iskander, Khaled Kirah",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.15249v1",
+    "source": "arXiv",
+    "abstract": "Post-quantum cryptographic accelerators require side-channel resistance evidence for FIPS 140-3 certification. However, exact masking-verification tools scale only to gadgets of a few thousand cells. We present a four-stage verification hierarchy, D0/D1 structural dependency analysis, fresh-mask refinement, Boolean Single-Authentication Distance Checking (SADC), and arithmetic SADC, that extends sound first-order masking verification to production arithmetic modules. Applied to the 1.17-million-cell Adams Bridge ML-DSA/ML-KEM accelerator, structural analysis completes in seconds across all 30 masked submodules. A multi-cycle extension (MC-D1) reclassifies 12 modules from structurally clean to structurally flagged. On the 5,543-cell ML-KEM Barrett reduction module, the pipeline machine-verifies 198 of 363 structurally flagged wires (54.5%) as first-order secure, reports 165 as candidate insecure for designer triage (a sound upper bound), and leaves 0 indeterminate. Every verdict is cross validated by Z3 and CVC5 with 0 disagreements across 363 wires. The result narrows manual review from hundreds of structural flags to 165 actionable candidates with mathematical certificates, enabling pre-silicon side-channel evidence generation on production ML-KEM hardware.",
+    "title_zh": "面向掩码NTT硬件的结构依赖性分析：可扩展的后量子密码加速器硅前验证",
+    "abstract_zh": "后量子密码加速器需要提供抗侧信道攻击的证据，以获得FIPS 140-3认证。然而，现有的精确掩码验证工具仅能扩展到数千个单元规模的小型模块。本文提出了一种四阶段验证层次结构：D0/D1结构依赖性分析、新鲜掩码精化、布尔单认证距离检查（SADC）和算术SADC，从而将严谨的一阶掩码验证扩展至实际生产的算术模块。该方法应用于包含117万个单元的Adams Bridge ML-DSA/ML-KEM加速器时，所有30个掩码子模块的结构分析均在数秒内完成。通过引入多周期扩展（MC-D1），其中12个模块被重新分类为结构标记模块。在包含5,543个单元的ML-KEM Barrett约减模块上，该验证流水线自动确认了363条结构标记线中的198条（54.5%）具有一阶安全性，报告165条为潜在不安全线路供设计者优先排查（构成一个可靠的安全上界），且无任何不确定结果。所有判断结果均通过Z3和CVC5进行交叉验证，在363条线上未发现任何分歧。最终，该方法将需人工审查的结构标记项从数百项缩小至165个具有数学证明的可操作候选项，从而实现了在量产级ML-KEM硬件上生成硅前侧信道安全证据的能力。"
+  },
+  {
+    "date": "2026-4-16",
+    "title": "Bayesian Deep-Learning Processor for Real-Time Bio-Applications With Structured Monte Carlo Dropout for High-Volume Sample Generation",
+    "authors": "Han-Gyeol Mun, Jeong-Min Woo, Seunghyun Moon, Byungjun Kim, Jongmin Lee, Jae-Yoon Sim, Hyunwoo Son",
+    "publish": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "url": "https://doi.org/10.1109/tcsi.2026.3682729",
+    "source": "IEEE",
+    "abstract": "This work presents a Bayesian neural network (BNN) processor for real-time, edge-based medical applications, designed to generate high-volume inference outputs efficiently, providing rapid and precise uncertainty estimation. To address the computational and memory-intensive demands of BNNs, we propose a structured Monte Carlo (MC) dropout method and an efficient processing technique for depth-wise separable convolution, thereby minimizing both the memory and computational burdens. The proposed processor, implemented in 28-nm LP CMOS, is benchmarked on a 12-lead ECG dataset and demonstrates significant improvements in energy efficiency, achieving a <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$12.9\\times $</tex-math> </inline-formula> enhancement over conventional MC dropout methods. Furthermore, the processor incorporates a model-switching technique based on uncertainty estimation, resulting in <inline-formula xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"> <tex-math notation=\"LaTeX\">$3.2\\times $</tex-math> </inline-formula> lower energy consumption while maintaining robust and accurate ECG classification, even under challenging conditions involving noise and motion artifacts.",
+    "title_zh": "用于实时生物应用的贝叶斯深度学习处理器，采用结构化蒙特卡洛丢弃法实现高通量样本生成",
+    "abstract_zh": "本文提出了一种用于实时边缘医疗应用的贝叶斯神经网络（BNN）处理器，旨在高效生成大量推理输出，并快速、精确地估计不确定性。为应对BNN在计算和内存方面的高需求，本文提出了一种结构化蒙特卡洛（MC）丢弃法以及针对深度可分离卷积的高效处理技术，从而显著降低内存与计算开销。该处理器基于28 nm低功耗CMOS工艺实现，并在12导联心电图（ECG）数据集上进行基准测试，结果表明其能效显著提升，相比传统MC丢弃方法提升了12.9倍。此外，处理器还引入了一种基于不确定性估计的模型切换技术，在噪声和运动伪影等复杂条件下仍能保持稳健且准确的心电分类，同时实现3.2倍的能耗降低。"
+  },
+  {
+    "date": "2026-4-16",
+    "title": "Smart Contract Implementation in Web-Based E-Voting Systems: Blockchain Security and Transparency Analysis",
+    "authors": "Bryan Liem, Vincent Nicholas Hie, Zulfany Erlisa Rasjid",
+    "publish": "2025 International Conference on Artificial Intelligence, Blockchain, Cloud Computing, and Data Analytics (ICoABCD)",
+    "url": "https://doi.org/10.1109/icoabcd67551.2025.11470707",
+    "source": "IEEE",
+    "abstract": "Traditional e-voting systems face critical challenges that undermine their security, transparency, and integrity, including data manipulation and vote fraud. This study addresses these issues by proposing a novel, blockchain based solution designed to enforce election rules securely without centralized control. We design and implement a web based e-voting prototype using smart contracts on the Ethereum blockchain, leveraging a decentralized stack that integrates React, MetaMask, Ethers.js, and Hardhat. While previous research has explored blockchain for e-voting, many studies focus on architecture but lack a comprehensive security analysis of the underlying smart contracts. Our key contribution lies in a rigorous, multi-faceted security analysis that validates the system's robustness. We employed static analysis with Slither, which successfully identified and mitigated specific timestamp dependency vulnerabilities, ensuring code quality. Furthermore, we achieved a 100% statement, function, and line coverage through unit testing by executing 25 test cases in under one second, and conducted extensive fuzz testing with Echidna, which reported no invariant violations. The results confirm the system's ability to ensure voter anonymity through cryptographic hashing, prevent double-voting, and maintain the immutability of the ballot ledger, directly addressing the vulnerabilities found in conventional systems. This research not only provides a practical, verifiable solution for secure e-voting but also establishes a robust methodology for auditing the security of smart contracts in high-stakes applications.",
+    "title_zh": "基于Web的电子投票系统中的智能合约实现：区块链安全与透明性分析",
+    "abstract_zh": "传统的电子投票系统面临诸多关键性挑战，这些挑战损害了其安全性、透明度和完整性，包括数据篡改和投票欺诈等问题。本研究提出了一种基于区块链的创新解决方案，旨在在无需中心化控制的前提下安全地执行选举规则，以应对上述问题。我们设计并实现了一个基于网页的电子投票原型系统，利用以太坊区块链上的智能合约，并采用集成了React、MetaMask、Ethers.js和Hardhat的去中心化技术栈。尽管已有研究探索了区块链在电子投票中的应用，但多数研究侧重于系统架构，缺乏对底层智能合约的全面安全分析。本研究的核心贡献在于进行了一项严谨且多维度的安全分析，验证了系统的稳健性。我们使用Slither工具进行静态分析，成功识别并消除了特定的时间戳依赖漏洞，确保了代码质量。此外，通过执行25个单元测试用例（耗时不到一秒），我们实现了100%的语句、函数和行覆盖率；同时，我们还使用Echidna进行了广泛的模糊测试，未发现任何不变式违规情况。实验结果表明，该系统能够通过密码学哈希技术保障选民匿名性，防止重复投票，并确保投票账本的不可篡改性，从而直接解决了传统系统中存在的安全漏洞。本研究不仅为安全电子投票提供了一个切实可行且可验证的解决方案，同时也为高风险应用场景中智能合约的安全审计建立了一套可靠的分析方法论。"
+  },
+  {
+    "date": "2026-4-16",
+    "title": "Enhanced Security and Efficiency in IoT Authentication: A PUF-Based Protocol with Dynamic Response Mechanisms and Lightweight Blockchain Integration",
+    "authors": "Hyunseok Kim, Hyuntae Yoo",
+    "publish": "2026 International Conference on Artificial Intelligence, Computer, Data Sciences and Applications (ACDSA)",
+    "url": "https://doi.org/10.1109/acdsa67686.2026.11468117",
+    "source": "IEEE",
+    "abstract": "The pervasive deployment of Internet of Things (IoT) devices across diverse critical domains, from smart cities to industrial control systems and healthcare, necessitates robust and efficient authentication mechanisms. Traditional cryptographic protocols often struggle with the resource constraints of IoT devices, while remaining vulnerable to emerging threats such as quantum attacks and sophisticated physical cloning. This paper proposes a novel PUF (Physical Unclonable Function)-based authentication protocol that integrates dynamic response mechanisms and leverages lightweight blockchain for enhanced security and efficiency in resource-constrained IoT environments. We address the limitations of static PUF behaviors, susceptibility to machine learning attacks, and the scalability challenges of centralized authentication systems. Through a comprehensive analysis, including informal and formal security verifications using tools like AVISPA and the Real-or-Random (ROR) model, we demonstrate the protocol's resilience against various attacks, including impersonation, replay, Man-in-the-Middle (MITM), and physical cloning. Furthermore, comparative performance evaluations against state-of-the-art protocols illustrate significant reductions in computational and communication overhead, making our proposed solution highly suitable for latency-sensitive and resource-limited IoT applications.",
+    "title_zh": "物联网认证中的安全与效率增强：一种结合动态响应机制和轻量级区块链集成的基于物理不可克隆函数（PUF）的协议",
+    "abstract_zh": "物联网（IoT）设备在智慧城市、工业控制系统和医疗保健等众多关键领域的广泛应用，迫切需要强大且高效的认证机制。传统的加密协议常常难以适应物联网设备的资源限制，同时仍易受到量子攻击和复杂物理克隆等新兴威胁的影响。本文提出了一种基于物理不可克隆函数（PUF）的新型认证协议，该协议结合了动态响应机制，并利用轻量级区块链技术，以在资源受限的物联网环境中提升安全性和效率。我们解决了静态PUF行为的局限性、对机器学习攻击的易感性以及集中式认证系统的可扩展性挑战。通过综合分析，包括使用AVISPA工具和真实-随机（ROR）模型进行非正式与形式化安全验证，证明了该协议能够有效抵御多种攻击，包括伪装、重放、中间人（MITM）和物理克隆攻击。此外，与现有先进协议的对比性能评估表明，本方案在计算和通信开销方面均有显著降低，因而特别适用于对延迟敏感且资源受限的物联网应用。"
+  },
+  {
+    "date": "2026-4-16",
+    "title": "The Effect of MCUs and Single-Word MBUs on the ECC Failures of a Radiation Hardened Microcontroller",
+    "authors": "Stefania Esquer, Jesse K. Mee, Heather M. Quinn, Windy Slater, Ronald D. Schrimpf, Brian D. Sierawski",
+    "publish": "2025 IEEE Space Computing Conference (SCC)",
+    "url": "https://doi.org/10.1109/scc66396.2025.00009",
+    "source": "IEEE",
+    "abstract": "This paper reports the results of heavy ion irradiation of the instruction memory of the VA41630 microcontroller fabricated with the radiation hardened 130 nm HARDSIL technology node. The objective of the experiment was to capture single event upsets (SEUs) with precision to accurately estimate the error correcting code (ECC) failure rates in space. The memory exhibited sensitivity to multiple-cell upsets (MCUs), but no single-word multiple-bit upsets (MBUs) during the experiment. Monte Carlo simulation demonstrates that the SEU cross-section can be used to bound the probability of independent upsets leading to ECC failure without consideration of MCUs. However, a geometric analysis concludes that single-word MBUs unobserved in ground testing, may still dominate the ECC failure rates.",
+    "title_zh": "MCU和单字MBU对辐射加固微控制器ECC失效的影响",
+    "abstract_zh": "本文报道了采用抗辐射加固的130 nm HARDSIL工艺节点制造的VA41630微控制器指令存储器在重离子辐照下的实验结果。实验旨在精确捕获单粒子翻转（SEU），以准确评估空间应用中纠错码（ECC）的失效概率。实验结果显示，该存储器对多单元翻转（MCU）敏感，但未观测到单个字的多位翻转（MBU）。蒙特卡洛模拟表明，在不考虑多单元翻转的情况下，可利用单粒子翻转截面来估算独立翻转导致ECC失效的概率上限。然而，几何分析表明，在地面测试中未观察到的单字多位翻转仍可能主导ECC的失效概率。"
+  },
+  {
+    "date": "2026-4-16",
+    "title": "How Secure is a High-Performance RISC-V Core? A Spectre V1 Case Study on XiangShan Open-Source CPU",
+    "authors": "Rey Paraula, Roberto Petenzi, Alessandro Bertani, Davide Conficconi",
+    "publish": "Proceedings of the 19th European Workshop on Systems Security",
+    "url": "https://doi.org/10.1145/3803525.3804986",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "高性能RISC-V处理器核究竟有多安全？基于开源CPU香山的Spectre V1案例研究",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-16",
+    "title": "Fuzzy-Graph Contrastive Test Case Prioritization Framework for Continuous Integration Pipelines",
+    "authors": "A. R. Ramesh Kumar, U. Karthikeyan",
+    "publish": "2026 International Conference on Visual Analytics and Data Visualization (ICVADV)",
+    "url": "https://doi.org/10.1109/icvadv67766.2026.11470391",
+    "source": "IEEE",
+    "abstract": "Continuous Integration (CI) pipelines are common and necessary in modern software development; however, regression testing with large test suites suffering from long execution times is still a challenge. Test Case Prioritization (TCP) methods accelerate fault detection via executing the most valuable tests first, but existing methods suffer from label dependence and a lack of interpretability. We propose a new ranking model, Fuzzy-Graph Contrastive Prioritization, which combines fuzzy logic to represent uncertainty with graph contrastive learning to exploit relationships between tests. We train the ranking model using a differentiable approximation of APFD via a reinforcement learning agent. The model produces adaptive and interpretable priority scores using a GraphSAGE encoder with a fuzzy-attention transformer. We have confirmed the effectiveness of FGCP through the dataset-based analysis across the Paint_Control, IOF/ROL, and GSDTSR datasets, as they cover almost all the common CI scenarios. We evaluated FGCP through the metrics-based analysis in terms of the APFD, APFDc, TUFF, Kendall's Tau, runtime efficiency, robustness to noise, and interpretability scores. Experiments show that FGCP outperforms all state-of-the-art baselines in terms of real-time full detection, robustness, efficiency, and transparency.",
+    "title_zh": "面向持续集成流水线的模糊图对比测试用例优先级排序框架",
+    "abstract_zh": "持续集成（CI）流水线在现代软件开发中十分常见且必不可少；然而，使用大规模测试套件进行回归测试时，由于执行时间过长，仍然面临挑战。测试用例优先级排序（TCP）方法通过优先执行最有价值的测试来加速缺陷检测，但现有方法存在对标签依赖性强以及缺乏可解释性的问题。本文提出了一种新的排序模型——模糊图对比优先级排序（Fuzzy-Graph Contrastive Prioritization, FGCP），该模型结合模糊逻辑以表达不确定性，并利用图对比学习挖掘测试之间的关联关系。我们通过强化学习代理，使用APFD的可微近似方法训练排序模型。该模型采用GraphSAGE编码器与模糊注意力机制的Transformer结构，生成自适应且可解释的优先级评分。我们通过基于Paint_Control、IOF/ROL和GSDTSR数据集的分析验证了FGCP的有效性，这些数据集涵盖了几乎所有常见的CI场景。我们进一步通过基于指标的分析评估了FGCP，包括APFD、APFDc、TUFF、Kendall Tau系数、运行效率、抗噪声鲁棒性以及可解释性得分。实验结果表明，FGCP在实时完全缺陷检测能力、鲁棒性、效率和透明度方面均优于所有现有的最先进基线方法。"
+  },
+  {
+    "date": "2026-4-16",
+    "title": "Formalizing the RISC-V Hypervisor Extension in Sail",
+    "authors": "Lowie Deferme, Danny Hughes, Dominique Devriese",
+    "publish": "Proceedings of the 19th European Workshop on Systems Security",
+    "url": "https://doi.org/10.1145/3803525.3804982",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "在Sail中形式化RISC-V虚拟机扩展",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-16",
+    "title": "Preface: SCC 2025",
+    "authors": "N/A",
+    "publish": "2025 IEEE Space Computing Conference (SCC)",
+    "url": "https://doi.org/10.1109/scc66396.2025.00005",
+    "source": "IEEE",
+    "abstract": "Since 2006, the International Space Computing Conference (SCC) has gathered engineers, scientists, and computer architects with the objective of advancing the computational capability and reliability of spaceborne systems. The conference emphasizes current and emerging technologies in highperformance onboard computing, radiation-tolerant and high-reliability architectures and components, processors, memory devices, space-qualifiable packaging technologies, low-power electronics, extreme environment and distributed computing, applications of Artificial Intelligence and Machine Learning, and the infusion and adoption of industry standards for space applications. The conference covers computing devices and systems for CubeSats up to “Flagship” missions. The 16th SCC was held 28 July - 1 August 2025, at the California Science Center, in Los Angeles, California. The event was co-located with the 11th International Conference on Space Mission Challenges for Information Technology (SMC-IT). Both events provided an opportunity for system designers, engineers, scientists, practitioners, and space explorers to foster technical interchange on all hardware and software aspects computing applications for space missions.",
+    "title_zh": "前言：SCC 2025",
+    "abstract_zh": "自2006年以来，国际空间计算会议（SCC）汇聚了工程师、科学家和计算机架构师，旨在提升航天系统在计算能力和可靠性方面的水平。会议重点关注高性能星载计算、抗辐射与高可靠性架构及组件、处理器、存储设备、适用于太空环境的封装技术、低功耗电子器件、极端环境与分布式计算、人工智能与机器学习的应用，以及空间应用领域工业标准的引入与推广。会议涵盖从立方星到“旗舰级”任务的各种计算设备与系统。第16届SCC于2025年7月28日至8月1日在美国加利福尼亚州洛杉矶市的加州科学中心举行，并与第11届国际空间任务信息技术挑战会议（SMC-IT）同期举办。这两场会议为系统设计人员、工程师、科学家、实践专家以及太空探索者提供了交流平台，促进了空间任务中各类软硬件计算应用的技术交流与合作。"
+  }
+]
