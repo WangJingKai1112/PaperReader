@@ -1,0 +1,211 @@
+[
+  {
+    "date": "2026-04-20",
+    "title": "Towards an Agentic LLM-based Approach to Requirement Formalization from Unstructured Specifications",
+    "authors": "Alberto Tagliaferro, Bruno Guindani, Livia Lestingi, Matteo Rossi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.18228v1",
+    "source": "arXiv",
+    "abstract": "Early-stage specifications of safety-critical systems are typically expressed in natural language, making it difficult to derive formal properties suitable for verification and needed to guarantee safety. While recent Large Language Model (LLM)-based approaches can generate formal artifacts from text, they mainly focus on syntactic correctness and do not ensure semantic alignment between informal requirements and formally verifiable properties. We propose an agentic methodology that automatically extracts verification-ready properties from unstructured specifications. The modular pipeline combines requirement extraction, compatibility filtering with respect to a target formalism, and translation into formal properties. Experimental results across three scenarios show that the pipeline generates syntactically and semantically aligned formal properties with a 77.8% accuracy. By explicitly accounting for modeling and verification constraints, the approach is a paving step towards exploiting Artificial Intelligence (AI) to bridge the gap between informal descriptions and semantically meaningful formal verification.",
+    "title_zh": "面向基于智能体的大型语言模型从非结构化规范中进行需求形式化的方法",
+    "abstract_zh": "安全关键系统的早期阶段规范通常以自然语言表达，这使得难以推导出适合验证并能确保安全性的形式化属性。尽管近期基于大语言模型（LLM）的方法能够从文本生成形式化产物，但这些方法主要关注语法正确性，而未能保证非形式化需求与可形式验证的属性之间的语义一致性。我们提出一种基于智能体的方法，可自动从未结构化的规范中提取可用于验证的属性。该模块化流程结合了需求提取、针对目标形式化体系的兼容性过滤，以及向形式化属性的翻译。在三个不同场景下的实验结果表明，该流程生成的形式化属性在语法和语义上均保持一致，准确率达到77.8%。通过显式考虑建模与验证约束，本方法为利用人工智能（AI）弥合非形式化描述与具有语义意义的形式化验证之间的鸿沟迈出了关键一步。"
+  },
+  {
+    "date": "2026-04-20",
+    "title": "VerilogCL: A Contrastive Learning Framework for Robust LLM-Based Verilog Generation",
+    "authors": "Yan Tan, Tong Liu, Xiangchen Meng, Yangdi Lyu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.18162v1",
+    "source": "arXiv",
+    "abstract": "Large Language Models (LLMs) have recently achieved strong performance in software code generation. However, applying them to hardware description languages (HDLs), such as Verilog, remains challenging because high-quality training data are relatively scarce. In practice, LLM-generated Verilog often contains syntactic or structural errors that either cause compilation failures or produce functionally incorrect designs, which limit its reliability in hardware design workflows. In this work, we propose VerilogCL, an integrated framework that enhances Verilog code generation by explicitly learning the boundary between correct and erroneous RTL through contrastive learning and proactive error screening. Our approach introduces minimal-error data augmentation, generating paired training samples of correct RTL and minimally perturbed erroneous RTL to teach the model to recognize fine-grained distinctions between correct and erroneous code. We then apply contrastive learning to learn a clearer validity boundary in the representation space, improving the separation between correct and erroneous RTL code. In addition, we introduce a proactive screening module that combines semantic embeddings with token-level uncertainty features to filter low-confidence candidates during generation. Experiments on public benchmarks, including VerilogEval and RTLLM, show that our 7B-parameter model outperforms the evaluated open-source, Verilog-specialized, and commercial baselines in both compilation success rate and functional correctness.",
+    "title_zh": "VerilogCL：一种用于鲁棒的基于大语言模型的Verilog生成的对比学习框架",
+    "abstract_zh": "近年来，大语言模型（LLMs）在软件代码生成方面取得了显著进展。然而，将其应用于硬件描述语言（HDLs，如Verilog）仍面临挑战，主要原因是高质量的训练数据相对稀缺。在实际应用中，由LLM生成的Verilog代码常常包含语法或结构错误，可能导致编译失败或产生功能不正确的电路设计，从而限制了其在硬件设计流程中的可靠性。为此，本文提出了VerilogCL，一种通过对比学习和主动错误筛选机制，显式学习正确与错误RTL之间边界的集成化框架，以提升Verilog代码生成质量。我们的方法引入了“最小错误数据增强”技术，生成成对的训练样本——即正确的RTL代码及其轻微扰动后产生的错误版本，使模型能够识别正确与错误代码之间的细微差异。随后，我们采用对比学习，在表示空间中更清晰地学习有效与无效代码之间的边界，增强正确与错误RTL代码的区分能力。此外，我们还设计了一个主动筛选模块，结合语义嵌入与词元级不确定性特征，在生成过程中过滤低置信度的候选结果。在公开基准测试（包括VerilogEval和RTLLM）上的实验表明，我们基于70亿参数的模型在编译通过率和功能正确性方面均优于现有的开源、专用Verilog模型以及商业基线模型。"
+  },
+  {
+    "date": "2026-04-20",
+    "title": "Symbolic Synthesis for LTLf+ Obligations",
+    "authors": "Giuseppe De Giacomo, Christian Hagemeier, Daniel Hausmann, Nir Piterman",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.18532v1",
+    "source": "arXiv",
+    "abstract": "We study synthesis for obligation properties expressed in LTLfp, the extension of LTLf to infinite traces. Obligation properties are positive Boolean combinations of safety and guarantee (co-safety) properties and form the second level of the temporal hierarchy of Manna and Pnueli. Although obligation properties are expressed over infinite traces, they retain most of the simplicity of LTLf. In particular, we show that they admit a translation into symbolically represented deterministic weak automata (DWA) obtained directly from the symbolic deterministic finite automata (DFA) for the underlying LTLf properties on trace prefixes. DWA inherit many of the attractive algorithmic features of DFA, including Boolean closure and polynomial-time minimization. Moreover, we show that synthesis for LTLfp obligation properties is theoretically highly efficient - solvable in linear time once the DWA is constructed. We investigate several symbolic algorithms for solving DWA games that arise in the synthesis of obligation properties and evaluate their effectiveness experimentally. Overall, the results indicate that synthesis for LTLfp obligation properties can be performed with virtually the same effectiveness as LTLf synthesis.",
+    "title_zh": "LTLf+ 义务的符号综合",
+    "abstract_zh": "我们研究用LTLfp（即LTLf在无限轨迹上的扩展）表达的义务性性质（obligation properties）的综合问题。义务性性质是安全性质和保障性质（共安全性质，co-safety）的正布尔组合，构成了Manna和Pnueli时序层次结构中的第二层。尽管义务性性质定义在无限轨迹上，它们仍保留了LTLf的大部分简洁性。特别地，我们证明了这些性质可以被直接转换为符号表示的确定性弱自动机（DWA），而该转换源自于描述其底层LTLf性质（作用于轨迹前缀）的符号化确定性有限自动机（DFA）。DWA继承了DFA许多优良的算法特性，包括对布尔运算的封闭性以及可在多项式时间内完成最小化。此外，我们证明了LTLfp义务性性质的综合在理论上具有很高的效率——一旦构造出DWA，综合问题可在线性时间内求解。我们研究了解决义务性性质综合过程中产生的DWA博弈的若干符号算法，并通过实验评估了它们的有效性。总体结果表明，LTLfp义务性性质的综合能够达到与LTLf综合几乎相同的有效程度。"
+  },
+  {
+    "date": "2026-04-20",
+    "title": "Program Structure-aware Language Models: Targeted Software Testing beyond Textual Semantics",
+    "authors": "Khang Tran, Khoa Nguyen, Cristian Borcea, NhatHai Phan",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.17715v1",
+    "source": "arXiv",
+    "abstract": "Recent advances in large language models for test case generation have improved branch coverage via prompt-engineered mutations. However, they still lack principled mechanisms for steering models toward specific high-risk execution branches, limiting their effectiveness for discovering subtle bugs and security vulnerabilities. We propose GLMTest, the first program structure-aware LLM framework for targeted test case generation that seamlessly integrates code property graphs and code semantics using a graph neural network and a language model to condition test case generation on execution branches. This structured conditioning enables controllable and branch-targeted test case generation, thereby potentially enhancing bug and security risk discovery. Experiments on real-world projects show that GLMTest built on a Qwen2.5-Coder-7B-Instruct model improves branch accuracy from 27.4% to 50.2% on TestGenEval benchmark compared with state-of-the-art LLMs, i.e., Claude-Sonnet-4.5 and GPT-4o-mini.",
+    "title_zh": "面向程序结构的语言模型：超越文本语义的针对性软件测试",
+    "abstract_zh": "大型语言模型在测试用例生成方面的最新进展，已通过提示工程化的变异方法提升了分支覆盖率。然而，这些方法仍然缺乏系统性的机制来引导模型针对特定的高风险执行路径，从而限制了其在发现细微缺陷和安全漏洞方面的能力。我们提出了GLMTest，这是首个面向程序结构、支持目标导向测试用例生成的大语言模型框架。GLMTest通过图神经网络与语言模型无缝集成代码属性图和代码语义，将测试用例的生成过程基于具体执行分支进行条件控制。这种结构化条件控制实现了可调控且面向特定分支的测试用例生成，有望增强对软件缺陷和安全风险的发现能力。在真实项目上的实验表明，基于Qwen2.5-Coder-7B-Instruct模型构建的GLMTest，在TestGenEval基准测试中相较于当前最先进的大语言模型（如Claude-Sonnet-4.5和GPT-4o-mini），分支命中率从27.4%提升至50.2%。"
+  },
+  {
+    "date": "2026-04-20",
+    "title": "MASFuzzer: Fuzz Driver Generation and Adaptive Scheduling via Multidimensional API Sequences",
+    "authors": "Xingyu Liu, Zengqin Huang, Xiang Gao, Hailong Sun",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.17977v1",
+    "source": "arXiv",
+    "abstract": "Fuzz testing of software libraries relies on fuzz drivers to invoke library APIs. Traditionally, these drivers are written manually by developers - a process that is time-consuming and often inadequate for exercising complex program behaviors. While recent studies have explored the use of Large Language Models (LLMs) to automate fuzz driver generation, the resulting drivers often fail to cover deep program branches. To address these challenges, we propose MASFUZZER, a fuzzing framework that integrates multidimensional API sequence construction with adaptive fuzzing scheduling strategies to improve library testing. At its core, MASFUZZER synthesizes context-relevant API call sequences by referring to API usage examples from the codebase and applying mutation-propagation-based and semantic-aware API sequence mining. These multidimensional API sequences serve as the basis for LLMs to generate effective initial drivers. In addition, MASFUZZER incorporates a coverage-guided scheduler that prioritizes testing time for the most promising drivers, along with a driver mutation strategy to evolve them. This enables systematic generation of fuzz drivers to explore previously untested code regions. We evaluate MASFUZZER on 12 widely used open-source libraries. The results show that MASFUZZER achieves 8.54 percent higher code coverage than state-of-the-art techniques. Moreover, MASFUZZER uncovers 16 previously unknown vulnerabilities in extensively tested libraries, with 14 confirmed by developers and 9 assigned CVE identifiers. These results indicate that MASFUZZER provides an efficient and practical approach for fuzzing software libraries.",
+    "title_zh": "MASFuzzer：通过多维API序列实现模糊测试驱动生成与自适应调度",
+    "abstract_zh": "软件库的模糊测试依赖于模糊测试驱动程序来调用库的API。传统上，这些驱动程序由开发人员手动编写，这一过程耗时且往往难以充分覆盖复杂的程序行为。尽管近期研究探索了利用大语言模型（LLM）来自动生成模糊测试驱动程序，但生成的驱动程序通常难以覆盖程序中较深的分支路径。为应对这些挑战，我们提出了MASFUZZER——一种将多维API序列构建与自适应模糊调度策略相结合的模糊测试框架，以提升对软件库的测试效果。MASFUZZER的核心在于通过参考代码库中的API使用示例，并结合基于变异传播和语义感知的API序列挖掘技术，合成上下文相关的API调用序列。这些多维API序列作为LLM生成高效初始驱动程序的基础。此外，MASFUZZER引入了一种覆盖率引导的调度器，优先分配测试资源给最具潜力的驱动程序，并结合驱动程序变异策略持续优化其性能，从而系统性地生成模糊测试驱动程序，以探索此前未被测试的代码区域。\n\n我们在12个广泛使用的开源库上对MASFUZZER进行了评估。实验结果表明，MASFUZZER的代码覆盖率比当前最先进的技术平均高出8.54%。更重要的是，MASFUZZER在多个经过充分测试的库中发现了16个此前未知的漏洞，其中14个已被开发者确认，9个获得了CVE编号。这些结果表明，MASFUZZER为软件库的模糊测试提供了一种高效且实用的解决方案。"
+  },
+  {
+    "date": "2026-04-20",
+    "title": "Trust, but Verify: ByzTwin-Range, a Digital Twin Cyber-Range for Byzantine Faults",
+    "authors": "Tadeu Freitas, João Soares, Rolando Martins",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.18049v1",
+    "source": "arXiv",
+    "abstract": "Critical infrastructures increasingly rely on interconnected and software-driven Cyber-Physical Systems (CPS), exposing operational processes to both accidental failures and sophisticated adversarial behavior. While Byzantine Fault Tolerant (BFT) protocols offer robustness against arbitrary faults, evaluating their behavior under realistic cyber-physical conditions remains challenging: traditional cyber ranges lack timing fidelity, and testing in production environments is unsafe. This paper introduces ByzTwin-Range, a dual-layer architecture that integrates a production-grade BFT deployment with a Digital Twin (DT) to enable controlled experimentation, stress testing, and Byzantine fault injection using live operational data. The DT mirrors real system state, executes \"What-if\" analyses through co-simulation and emulation, and identifies synchrony vulnerabilities, i.e., misconfigured timeouts, timing-sensitive false suspicions, and adversarial delay exploits, configuration weaknesses, and adversarial behaviors that may undermine BFT guarantees. Insights from the twin are fed back into the operational deployment through a secure advisory channel, supporting continuous validation and adaptive hardening. The proposed design leverages industry-standard technologies (Open Platform Communications Unified Architecture, Time-Sensitive Networking, Functional Mock-up Unit/High-Level Architecture, QUIC/mutual TLS) to maximize feasibility and compatibility with existing industrial workflows. ByzTwin-Range establishes a practical foundation for next-generation, BFT-aware cyber ranges and paves the way for more resilient CPSs through continuous testing, differential-privacy-enabled analytics, and future proof-of-concept implementations.",
+    "title_zh": "信任但要验证：ByzTwin-Range，一种用于拜占庭故障的数字孪生网络靶场",
+    "abstract_zh": "关键基础设施日益依赖相互连接且由软件驱动的网络物理系统（Cyber-Physical Systems, CPS），这使得运行过程既面临意外故障，也面临复杂的对抗性行为威胁。尽管拜占庭容错（Byzantine Fault Tolerant, BFT）协议能够抵御任意类型的故障，但在真实可信的网络物理环境下评估其行为仍具挑战性：传统的网络靶场缺乏时间精度，而在生产环境中进行测试又存在安全隐患。本文提出 ByzTwin-Range，一种双层架构，将工业级BFT部署与数字孪生（Digital Twin, DT）相结合，实现基于真实运行数据的受控实验、压力测试和拜占庭故障注入。该数字孪生镜像真实系统状态，通过协同仿真与模拟执行“假设分析”（What-if analyses），识别同步性漏洞——例如超时配置错误、对时间敏感的误判、恶意延迟攻击利用、配置缺陷以及可能破坏BFT保障能力的对抗行为。来自数字孪生的分析结果通过安全的建议通道反馈至实际运行系统，支持持续验证与自适应加固。所提出的架构采用工业标准技术（如OPC UA统一架构、时间敏感网络TSN、功能模型单元/高层体系结构FMU/HLA、QUIC/双向TLS），以最大限度提升可行性并兼容现有工业流程。ByzTwin-Range为下一代支持BFT的网络靶场奠定了实用基础，并通过持续测试、支持差分隐私的数据分析以及未来概念验证的实施，推动构建更具韧性的网络物理系统。"
+  },
+  {
+    "date": "2026-04-20",
+    "title": "SDLLMFuzz: Dynamic-static LLM-assisted greybox fuzzing for structured input programs",
+    "authors": "Yihao Zou, Tianming Zheng, Futai Zou, Yue Wu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.17750v1",
+    "source": "arXiv",
+    "abstract": "Fuzzing has become a widely adopted technique for vulnerability discovery, yet it remains ineffective for structured-input programs due to strict syntactic constraints and limited semantic awareness. Traditional greybox fuzzers rely on mutation-based strategies and coarse-grained coverage feedback, which often fail to generate valid inputs and explore deep execution paths. Recent advances in large language models (LLMs) have shown promise in improving input generation, but existing approaches primarily focus on seed generation and largely overlook the effective use of runtime feedback. In this paper, we propose SDLLMFuzz, a dynamic-static LLM-assisted greybox fuzzing framework for structured-input programs. Our approach integrates LLM-based structure-aware seed generation with static crash analysis, forming a unified feedback loop that iteratively refines test inputs. Specifically, we leverage LLMs to generate syntactically valid and semantically diverse inputs, while extracting rich semantic information from crash artifacts (e.g., core dumps and execution traces) to guide subsequent input generation. This dynamic-static feedback mechanism enables more efficient exploration of complex program behaviors. We evaluate SDLLMFuzz on the Magma benchmark across multiple structured-input programs, including libxml2, libpng, and libsndfile. Experimental results show that SDLLMFuzz significantly outperforms traditional greybox fuzzers and LLM-assisted baselines in terms of bug discovery and time-to-bug. These results demonstrate that combining semantic input generation with feedback-driven refinement is an effective direction for improving fuzzing performance on structured-input programs.",
+    "title_zh": "SDLLMFuzz：基于动态-静态大语言模型辅助的灰盒模糊测试，用于结构化输入程序",
+    "abstract_zh": "模糊测试已成为一种广泛采用的漏洞发现技术，然而对于具有严格语法限制和有限语义感知的结构化输入程序而言，其效果仍然不佳。传统的灰盒模糊测试器依赖基于变异的策略和粗粒度的覆盖反馈，通常难以生成有效的输入，也无法深入探索程序的执行路径。近年来，大语言模型（LLMs）在提升输入生成方面展现出潜力，但现有方法主要集中在种子生成上，很大程度上忽视了对运行时反馈的有效利用。本文提出SDLLMFuzz，一种动态与静态结合、由大语言模型辅助的灰盒模糊测试框架，专为结构化输入程序设计。该方法将基于LLM的结构感知种子生成与静态崩溃分析相结合，构建了一个统一的反馈循环，可迭代优化测试输入。具体而言，我们利用LLM生成语法正确且语义多样的输入，同时从崩溃产物（如核心转储文件和执行轨迹）中提取丰富的语义信息，以指导后续的输入生成。这种动态与静态结合的反馈机制，能够更高效地探索复杂的程序行为。我们在Magma基准测试集上的多个结构化输入程序（包括libxml2、libpng和libsndfile）中对SDLLMFuzz进行了评估。实验结果表明，SDLLMFuzz在漏洞发现能力和发现漏洞所需时间方面，显著优于传统灰盒模糊测试器及现有的LLM辅助基线方法。这些结果证明，将语义感知的输入生成与反馈驱动的优化相结合，是提升结构化输入程序模糊测试性能的有效方向。"
+  },
+  {
+    "date": "2026-04-20",
+    "title": "AtomTwin.jl: a physics-native digital twin framework for neutral-atom quantum processors",
+    "authors": "Shannon Whitlock",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.18531v1",
+    "source": "arXiv",
+    "abstract": "AtomTwin.jl is an open-source Julia package for developing and simulating quantum protocols, hardware configurations and building digital twins for neutral-atom quantum processors and related atomic quantum devices. AtomTwin operates between mathematical models and physical devices; modeling atoms, optical tweezers, laser fields, atomic motion, interactions, and noise processes natively from physical geometry and parameters, without requiring users to define Hamiltonians manually. The package provides hardware-level instruction sequences, high-performance solvers for coupled quantum and classical dynamics, and a ready-to-use model for ytterbium-171 atoms in an extensible framework designed to accommodate a greater variety of atomic species and hardware components in the future. This paper describes the software architecture, performance benchmarks against existing toolboxes, and a demonstrated end-to-end application: preparation of a logical Bell state in the $[[4,2,2]]$ error-detecting code with four $^{171}$Yb atoms in moveable tweezers.",
+    "title_zh": "AtomTwin.jl：一种面向中性原子量子处理器的、基于物理特性的数字孪生框架",
+    "abstract_zh": "AtomTwin.jl 是一个开源的 Julia 软件包，用于开发和模拟中性原子量子处理器及相关原子量子器件的量子协议、硬件配置并构建数字孪生系统。AtomTwin 介于数学模型与物理设备之间，能够基于物理几何结构和参数，原生地对原子、光镊、激光场、原子运动、相互作用以及噪声过程进行建模，而无需用户手动定义哈密顿量。该软件包提供硬件层级的指令序列、用于耦合量子与经典动力学的高性能求解器，并内置了适用于镱-171（ytterbium-171）原子的即用型模型。其框架具有良好的可扩展性，未来可支持更多种类的原子物种和硬件组件。本文介绍了该软件的架构设计、相对于现有工具箱的性能基准测试，以及一个端到端的应用实例：在四个可移动光镊中的 $^{171}$Yb 原子上，制备 $[[4,2,2]]$ 量子纠错码中的逻辑贝尔态。"
+  },
+  {
+    "date": "2026-4-20",
+    "title": "StepOverflow: PMC Overflows on AMD SEV",
+    "authors": "Anja Rabich, Jonah Heller, Florian Sieck, Thomas Eisenbarth",
+    "publish": "Proceedings of the 9th Workshop on System Software for Trusted Execution",
+    "url": "https://doi.org/10.1145/3805690.3805727",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "StepOverflow：AMD SEV 上的 PMC 溢出",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-20",
+    "title": "Engineering Management for AI-Driven Software Quality Assurance: Practices, Challenges, and Future Direction",
+    "authors": "Srinivas Reddy Kosna, Subba Rao Katragadda",
+    "publish": "SoutheastCon 2026",
+    "url": "https://doi.org/10.1109/southeastcon63549.2026.11476717",
+    "source": "IEEE",
+    "abstract": "The integration of Artificial Intelligence (AI) into software systems has introduced unprecedented complexities and opportunities for quality assurance. This paper explores the evolving landscape of software quality engineering management in the age of AI. It examines the critical challenges and best practices for managing the quality of AI-driven software, from data acquisition to model deployment and maintenance. We present a comprehensive framework that synthesizes established software engineering principles with emerging machine learning (ML) development lifecycles. The paper analyzes key engineering management practices, including automated test generation, defect prediction, and continuous model validation, drawing on case studies and industry research. Furthermore, it discusses the future of AI in quality assurance, highlighting the potential of Large Language Models (LLMs) and knowledge graphs to enable more autonomous and intelligent testing paradigms. This paper aims to provide a valuable resource for engineering managers, QA professionals, and researchers navigating the transition to AI-centric software development.",
+    "title_zh": "面向人工智能驱动的软件质量保证的工程管理：实践、挑战与未来方向",
+    "abstract_zh": "将人工智能（AI）集成到软件系统中，为质量保证带来了前所未有的复杂性与机遇。本文探讨了在人工智能时代软件质量工程管理的演变格局，研究了从数据采集到模型部署与维护全过程中的关键挑战及最佳实践。我们提出一个综合性框架，将成熟的软件工程原则与新兴的机器学习（ML）开发生命周期相融合。文章分析了若干关键的工程管理实践，包括自动化测试生成、缺陷预测以及持续模型验证，并结合案例研究和行业调研进行阐述。此外，本文还探讨了人工智能在质量保证领域的未来发展方向，强调大语言模型（LLM）和知识图谱在实现更自主、更智能测试范式方面的潜力。本文旨在为工程管理者、质量保证专业人员以及研究人员在向以人工智能为核心的软件开发转型过程中提供有价值的参考资源。"
+  },
+  {
+    "date": "2026-4-20",
+    "title": "Can LLMs Find Bugs in Code? An Evaluation from Beginner Errors to Security Vulnerabilities in Python and C++",
+    "authors": "Akshay Mhatre, Noujoud Nader, Patrick Diehl, Deepti Gupta",
+    "publish": "SoutheastCon 2026",
+    "url": "https://doi.org/10.1109/southeastcon63549.2026.11476483",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "大语言模型能否发现代码中的缺陷？——基于Python和C++中从初学者错误到安全漏洞的评估",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-20",
+    "title": "From Bits to Trust: AI-Driven Reconfigurable Security",
+    "authors": "Rye Stahle-Smith, Rasha Karakchi",
+    "publish": "SoutheastCon 2026",
+    "url": "https://doi.org/10.1109/southeastcon63549.2026.11476474",
+    "source": "IEEE",
+    "abstract": "Reconfigurable computing platforms such as FieldProgrammable Gate Arrays (FPGAs) are widely deployed in embedded systems and AI acceleration workloads. Their reconfigurability, however, also introduces security risks when hardware behavior is defined by externally supplied configuration bitstreams. Maliciously crafted bitstreams can embed hardware Trojans capable of leaking data, degrading system reliability, or altering computation. This paper presents BLADEI (Bitstream-Level Anomaly Detection for Embedded Inference), an AI-based predictive modeling framework for detecting malicious FPGA configurations directly from binary bitstreams. A 278-dimensional feature vector combining byte-frequency histograms, statistical summaries, and structural indicators is extracted from each bitstream and classified using supervised machine learning models. The proposed approach is evaluated on an expanded dataset of 1,090 bitstreams spanning thirteen design families re-engineered for the Xilinx PYNQ-Z1 platform, augmented through Vivado place and route directives to improve dataset diversity. Experimental results demonstrate that a Random Forest classifier achieves a macro F1-score of 0.91 on held-out test data while remaining feasible for on-device deployment, validating the effectiveness of AI-driven bitstream screening in resource-constrained environments.",
+    "title_zh": "从比特到信任：人工智能驱动的可重构安全",
+    "abstract_zh": "可重构计算平台（如现场可编程门阵列，FPGA）在嵌入式系统和人工智能加速任务中得到广泛应用。然而，由于硬件行为由外部提供的配置比特流定义，其可重构性也带来了安全风险。恶意构造的比特流可能嵌入硬件木马，导致数据泄露、降低系统可靠性或篡改计算过程。本文提出BLADEI（面向嵌入式推理的比特流级异常检测），一种基于人工智能的预测建模框架，能够直接从二进制比特流中检测恶意FPGA配置。该方法从每个比特流中提取一个278维的特征向量，融合了字节频率直方图、统计摘要和结构指标，并利用监督式机器学习模型进行分类。所提方法在一个扩展的数据集上进行了评估，该数据集包含1,090个比特流，涵盖为Xilinx PYNQ-Z1平台重新设计的十三个设计系列，并通过Vivado布局布线指令增强数据集多样性。实验结果表明，随机森林分类器在独立测试数据上达到了0.91的宏F1分数，同时具备在设备端部署的可行性，验证了在资源受限环境中采用人工智能驱动的比特流筛查方法的有效性。"
+  },
+  {
+    "date": "2026-4-20",
+    "title": "NANDWorks: A Low-Cost Testbed for ONFI-Compatible NAND Flash Experiments",
+    "authors": "Mark Scheidker, Prawar Poudel, Aleksandar Milenković",
+    "publish": "SoutheastCon 2026",
+    "url": "https://doi.org/10.1109/southeastcon63549.2026.11476063",
+    "source": "IEEE",
+    "abstract": "Low-level NAND flash research and education require direct control over Open NAND Flash Interface (ONFI) command sequencing, timing, and device state. While such capabilities are available in proprietary memory characterization systems, these platforms are typically expensive and inaccessible to many academic and small-scale research settings; in contrast, more affordable USB-based bit-banging tools often lack sufficient fidelity and determinism. This paper presents NANDWorks, a low-cost, reproducible testbed for experimenting with ONFIcompatible raw NAND devices using a Raspberry Pi 4 and a user-space software stack. NANDWorks directly drives the ONFI asynchronous interface through GPIO, exposing core primitives—including read, program, erase, status, and reset—via a C++ API, a command-line interface, and a LuaJIT scripting layer. This design enables rapid construction of repeatable, scriptable experiments with transaction-level timing fidelity, subject to bounded jitter from non-real-time OS scheduling. We validate protocol correctness using logic analyzer traces and characterize host-side overhead by comparing C++ and Luadriven transactions on commercial NAND devices. Representative research workflows, including bad-block scanning, read-latency profiling, and 3D MLC page-level characterization, demonstrate the platform's capabilities.",
+    "title_zh": "NANDWorks：一种低成本的ONFI兼容NAND闪存实验平台",
+    "abstract_zh": "低层次的NAND闪存研究与教学需要对Open NAND闪存接口（ONFI）的命令序列、时序以及设备状态进行直接控制。尽管专用存储器表征系统具备此类功能，但这些平台通常价格昂贵，许多学术机构和小型研究环境难以获得；相比之下，较为廉价的基于USB的位操作工具又往往缺乏足够的保真度和确定性。本文提出NANDWorks，这是一种低成本、可复现的实验平台，利用树莓派4和用户空间软件栈来实验兼容ONFI的原始NAND设备。NANDWorks通过GPIO直接驱动ONFI异步接口，借助C++ API、命令行界面以及LuaJIT脚本层，暴露了包括读取、编程、擦除、状态查询和复位在内的核心操作原语。该设计支持快速构建可重复、可脚本化的实验，具备事务级时序保真度，仅受非实时操作系统调度带来的有限抖动影响。我们通过逻辑分析仪波形验证了协议的正确性，并通过在商用NAND设备上对比C++和Lua驱动的事务，表征了主机端开销。典型的研究工作流示例——包括坏块扫描、读取延迟分析以及3D MLC页面级特性表征——展示了该平台的能力。"
+  },
+  {
+    "date": "2026-4-20",
+    "title": "SafeHDC: Concurrent Uncertainty and Fault Detection in Hyperdimensional Computing",
+    "authors": "Mahboobe Sadeghipour Roodsari, Vincent Meyers, Mehdi Tahoori",
+    "publish": "IEEE Transactions on Device and Materials Reliability",
+    "url": "https://doi.org/10.1109/tdmr.2026.3685392",
+    "source": "IEEE",
+    "abstract": "HyperDimensional Computing (HDC) is a brain-inspired machine learning paradigm that encodes data into high-dimensional hypervectors and performs classification through similarity comparisons. Its computational efficiency, one-shot learning capability, and robustness to noise make it attractive for resource-constrained edge applications. However, HDC systems can still exhibit uncertainty when inputs deviate from the training distribution, such as with noisy or Out-of-Distribution (OOD) data, and when hardware faults occur within the encoding or classification stages, potentially compromising reliability in safety-critical scenarios. This work introduces SafeHDC, an ultra-lightweight, concurrent runtime mechanism that detects both input-induced uncertainty and hardware-induced anomalies without model retraining or added latency. SafeHDC identifies noisy and OOD inputs as well as internal faults with negligible hardware cost (2 LUTs, 1 register). Experimental results show that SafeHDC achieves competitive detection accuracy and reaches up to 100% fault-detection coverage in many situations, enabling real-time safety enhancement for HDC accelerators with minimal overhead.",
+    "title_zh": "SafeHDC：超维计算中的并发不确定性与故障检测",
+    "abstract_zh": "超维计算（HyperDimensional Computing, HDC）是一种受大脑启发的机器学习范式，通过将数据编码为高维向量并利用相似性比较进行分类。由于其计算高效、支持一次性学习以及对噪声具有鲁棒性，HDC在资源受限的边缘应用场景中极具吸引力。然而，当输入偏离训练分布时（例如存在噪声或分布外（Out-of-Distribution, OOD）数据），或在编码与分类阶段发生硬件故障时，HDC系统仍可能出现不确定性，从而在安全关键场景中影响其可靠性。本文提出SafeHDC，一种超轻量级的并发运行时机制，能够在无需模型重训练且不增加延迟的情况下，同时检测由输入引起的不确定性和由硬件引发的异常。SafeHDC能够识别噪声输入、OOD输入以及内部硬件故障，且硬件开销极低（仅需2个查找表（LUT）和1个寄存器）。实验结果表明，SafeHDC在检测精度方面表现优异，并在多种情况下实现了高达100%的故障检测覆盖率，以极小的开销实现实时安全增强，适用于HDC加速器。"
+  },
+  {
+    "date": "2026-4-20",
+    "title": "Preserving Runtime Control Flow Integrity Transparently Through Hardware-based Stack Confidentiality and Integrity on RISC-V IoT Devices",
+    "authors": "Weike Wang, Bingzheng Li, Xiaolei Wang, Rikang Zhao, Senyang Li, Xiang Wang, Juin Jei Liou",
+    "publish": "IEEE Internet of Things Journal",
+    "url": "https://doi.org/10.1109/jiot.2026.3685841",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "通过基于硬件的堆栈机密性与完整性在 RISC-V 物联网设备上透明地保护运行时控制流完整性",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-20",
+    "title": "A Survey on Fuzz Testing for Quantum Computing",
+    "authors": "Fernando Betanzo S´nnchez",
+    "publish": "2025 IEEE CHILEAN Conference on Electrical, Electronics Engineering, Information and Communication Technologies (CHILECON)",
+    "url": "https://doi.org/10.1109/chilecon66915.2025.11476310",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "量子计算模糊测试综述",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-20",
+    "title": "Performance Analysis of Dynamically Truncated Approx Multiplier for Low Power VLSI Applications",
+    "authors": "Sai Rohith Thumapala, Manisha Bharti",
+    "publish": "2026 International Conference on Signal Analysis for Smart Systems (SIGNASS)",
+    "url": "https://doi.org/10.1109/signass67826.2026.11480018",
+    "source": "IEEE",
+    "abstract": "The design provided in this paper is of a pipelined-based approximate multiplier, which uses pipelining mechanisms and is inspired by high-accuracy approximate compressors. Approximate multipliers provide a practical solution in situation where accuracy is not as important as speed, power, area, and accuracy. This piece of work aims at creating a scalable and low-energy performance-sensitive solution to systems, e.g. Arithmetic Logic Unit (ALUs), using dynamic truncation and synthesis-based clock-gating. The technique consists of pipelining to increase throughput and reduce latency and the use of synthesis-based clock gating to selectively gate the clock signal when the state is idled, so as to reduce dynamic power use. Xilinx tools are used to streamline the design and simulation and verification processes. This strategy enables trade-offs among computational performance, energy usage and precision needed.",
+    "title_zh": "面向低功耗VLSI应用的动态截断近似乘法器性能分析",
+    "abstract_zh": "本文提出了一种基于流水线的近似乘法器设计，该设计采用了流水线机制，并受到高精度近似压缩器的启发。近似乘法器在对速度、功耗和面积的要求高于精度的应用场景中提供了一种切实可行的解决方案。本研究旨在通过动态截断和基于综合的时钟门控技术，为算术逻辑单元（ALU）等系统构建一种可扩展且低能耗、性能敏感的解决方案。该技术采用流水线结构以提高吞吐量并降低延迟，同时利用基于综合的时钟门控技术，在系统处于空闲状态时选择性地关闭时钟信号，从而减少动态功耗。设计过程中使用Xilinx工具来简化设计、仿真与验证流程。该策略能够在计算性能、能耗和所需精度之间实现有效的权衡。"
+  },
+  {
+    "date": "2026-4-20",
+    "title": "PYXIS: A Highly Predictable Toolchain for FPGA Circuit Production of Advanced GNC Algorithm",
+    "authors": "Inès Winandy, Arnaud Dion, Pierre-Loïc Garoche, Florent Manni",
+    "publish": "2025 IEEE 11th International Conference on Space Mission Challenges for Information Technology (SMC-IT)",
+    "url": "https://doi.org/10.1109/smc-it64853.2025.00013",
+    "source": "IEEE",
+    "abstract": "The configuration of Field-Programmable Gate Arrays (FPGAs) within the context of command law implementation for aerospace systems is a complex process. In a previous work, we proposed the use of dataflow programming languages as the input for the synthesis process and as an alternative to traditional hardware programming languages. The proposed translation flow has been demonstrated to be faster than current state-of-the-art tools while simultaneously offering greater predictability in the inferred hardware component of the design. This paper extends this previous work, addressing identified challenges. A first one is related to the use of a generated circuit to perform Guidance, Navigation and Control (GNC) functions: the generated netlist requires synchronization to be used within a closed-loop system. A second one concerns the generation of circuits for custom datatypes: target descriptions must be automatically generated to facilitate technology mapping. As a consequence, a novel toolchain is proposed, providing the capability to generate synchronised circuits with arbitrary precision for computation.",
+    "title_zh": "PYXIS：一种用于先进制导、导航与控制算法FPGA电路生成的高度可预测工具链",
+    "abstract_zh": "在航空航天系统控制律实现中，现场可编程门阵列（FPGA）的配置是一个复杂的过程。在之前的研究工作中，我们提出采用数据流编程语言作为综合流程的输入，以替代传统的硬件编程语言。所提出的转换流程已被证明比当前最先进的工具更快速，同时在设计推导出的硬件组件方面具有更高的可预测性。本文在此前工作的基础上进一步拓展，解决了若干已识别的挑战。第一个挑战涉及使用生成的电路执行制导、导航与控制（GNC）功能：生成的网表需要进行同步处理，才能应用于闭环系统中。第二个挑战涉及为自定义数据类型生成电路：必须自动生成目标描述，以促进技术映射。为此，本文提出了一种全新的工具链，能够生成用于任意精度计算的同步电路。"
+  },
+  {
+    "date": "2026-4-20",
+    "title": "Hardware-in-the-Loop Validation of a Transformerless Electric Vehicle Charger",
+    "authors": "Daniel Velasquez, Alexander Rojas, Matias Diaz, Luis Pua, Luca Tarisciotti, Yeiner Arias-Esquivel",
+    "publish": "2025 IEEE CHILEAN Conference on Electrical, Electronics Engineering, Information and Communication Technologies (CHILECON)",
+    "url": "https://doi.org/10.1109/chilecon66915.2025.11476017",
+    "source": "IEEE",
+    "abstract": "Transformerless topologies offer a promising solution for high-power, efficient Electric Vehicle (EV) c hargers, but their practical implementation requires rigorous pre-prototyping validation using risk-mitigation tools such as real-time simulation and Hardware-in-the-Loop (HIL) testing. Therefore, this paper presents a HIL validation of a transformerless EV charger regulated by a cascaded control structure based on proportional-integral (PI) controllers. Using an HIL platform with a real-time power stage emulator and a dedicated digital controller, the performance of the proposed EV charger is evaluated under various dynamic conditions. The results confirm the effectiveness of the control strategy, which achieves precise output voltage regulation, stable operation during load transients, and low-distortion grid currents.",
+    "title_zh": "无变压器电动汽车充电器的硬件在环验证",
+    "abstract_zh": "无变压器拓扑结构为高功率、高效率的电动汽车（EV）充电机提供了有前景的解决方案，但其实际应用需要借助实时仿真和硬件在环（HIL）测试等风险缓解工具进行严格的原型前验证。因此，本文提出了一种基于比例-积分（PI）控制器级联控制结构的无变压器电动汽车充电机的HIL验证方法。通过采用配备实时功率级仿真器和专用数字控制器的HIL平台，在多种动态工况下对所提出的电动汽车充电机性能进行了评估。实验结果表明，该控制策略有效，能够实现精确的输出电压调节、负载突变期间的稳定运行以及低畸变的电网电流。"
+  }
+]
