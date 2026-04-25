@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2026-4-24",
+    "title": "Bridging Hardware and Semantics: An LLM-Enhanced Ontology Framework for Explainable Anomaly Detection in IoMT Systems",
+    "authors": "Thrity Golzari, Zhangying He, Hossein Sayadi",
+    "publish": "2026 International Conference on Semantic Computing (ICSC)",
+    "url": "https://doi.org/10.1109/icsc67292.2026.00007",
+    "source": "IEEE",
+    "abstract": "This paper presents an LLM-enhanced ontology framework for cybersecurity in Internet of Medical Things (IoMT) environments, integrating hardware performance counter (HPC) features, device metadata, and known vulnerabilities to enable reasoning-driven, explainable anomaly detection. The study introduces a hybrid human-LLM ontology development workflow that accelerates ontology construction and refinement while preserving conceptual rigor and semantic consistency. It further investigates how large language models (LLMs) can augment ontology engineering through a comparative evaluation of three state-of-the-art models: ChatGPT-o3, ChatGPT-4o, and Gemini 2.5 Pro, assessed across structural and semantic dimensions. Using the proposed LLM-enhanced ontology, we achieve 84.29% anomaly (e.g., malware) classification accuracy from HPC data while mapping detected anomalies to relevant vulnerabilities and device properties. Experimental results demonstrate that LLMs significantly improve ontology quality and reasoning coherence, with Gemini 2.5 Pro achieving the best balance between expansion and consistency.",
+    "title_zh": "连接硬件与语义：一种基于大语言模型增强的本体框架，用于医疗物联网系统中可解释的异常检测",
+    "abstract_zh": "本文提出了一种基于大语言模型（LLM）增强的本体框架，用于医疗物联网（IoMT）环境中的网络安全，该框架融合了硬件性能计数器（HPC）特征、设备元数据以及已知漏洞，以实现基于推理、可解释的异常检测。研究引入了一种人机协同的混合型本体开发流程，通过结合人类专家与大语言模型的能力，加速本体的构建与优化，同时保持概念上的严谨性和语义一致性。此外，本文还通过结构和语义两个维度的比较评估，探讨了三种前沿大语言模型——ChatGPT-3.5、ChatGPT-4o 和 Gemini 2.5 Pro 在本体工程中的增强作用。利用所提出的LLM增强本体，我们从HPC数据中实现了84.29%的异常（如恶意软件）分类准确率，并能将检测到的异常映射到相关的漏洞和设备属性上。实验结果表明，大语言模型显著提升了本体的质量和推理连贯性，其中Gemini 2.5 Pro在扩展能力与一致性之间达到了最佳平衡。"
+  },
+  {
+    "date": "2026-4-24",
+    "title": "LifeFuzz: Lifecycle-Guided Fuzzing for Windows Driver Cross-Handler Vulnerabilities",
+    "authors": "Chendong Yu, Yuekang Li, Yang Xiao, Jie Lu, Yeting Li, Defang Bo, Wei Huo",
+    "publish": "Proceedings of the 21st European Conference on Computer Systems",
+    "url": "https://doi.org/10.1145/3767295.3803624",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "LifeFuzz：面向Windows驱动程序跨处理程序漏洞的生命周期引导模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-24",
+    "title": "Proteus: Heterogeneous FPGA Virtualization",
+    "authors": "Felix Gust, Shu Anzai, Charalampos Mainas, Atsushi Koshiba, Pramod Bhatotia",
+    "publish": "Proceedings of the 21st European Conference on Computer Systems",
+    "url": "https://doi.org/10.1145/3767295.3803577",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Proteus：异构FPGA虚拟化",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-24",
+    "title": "2DIO: Configurable and Cache-Accurate Trace Generation for Storage Benchmarking",
+    "authors": "Yirong Wang, Isaac Khor, Peter Desnoyers",
+    "publish": "Proceedings of the 21st European Conference on Computer Systems",
+    "url": "https://doi.org/10.1145/3767295.3769391",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "2DIO：用于存储基准测试的可配置且缓存准确的轨迹生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-24",
+    "title": "Accurate and Ultra-Fast Launch-Time Validation of Idempotency for GPU Kernels",
+    "authors": "Mingcong Han, Weihang Shen, Rong Chen, Haibo Chen",
+    "publish": "Proceedings of the 21st European Conference on Computer Systems",
+    "url": "https://doi.org/10.1145/3767295.3803597",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "GPU内核的精确且超快速启动时幂等性验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-24",
+    "title": "Lessons Learned from Incorporating Formal Methods in Huawei Cloud Reliability",
+    "authors": "Claudia Cauli, Timo Lang, Shuo Chen, Sebti Mouelhi, Xin Jin, Subhajit Bandopadhyay, Xusheng Chen, Yazhi Feng, Haoze Song, Linhua Tang, Zhenli Sheng, Ananth Shrinivas Srinath",
+    "publish": "Proceedings of the 21st European Conference on Computer Systems",
+    "url": "https://doi.org/10.1145/3767295.3803626",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "在华为云可靠性中引入形式化方法的经验教训",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-24",
+    "title": "Effective On-Hardware Fuzzing of Embedded Operating Systems",
+    "authors": "Yuheng Shen, Jianzhong Liu, Qiming Guo, Yifei Chu, Qiang Zhang, Heyuan Shi, Yu Jiang",
+    "publish": "Proceedings of the 21st European Conference on Computer Systems",
+    "url": "https://doi.org/10.1145/3767295.3769326",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "嵌入式操作系统的有效硬件上模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-24",
+    "title": "NecoFuzz: Effective Fuzzing of Nested Virtualization via Fuzz-Harness Virtual Machines",
+    "authors": "Reima Ishii, Takaaki Fukai, Takahiro Shinagawa",
+    "publish": "Proceedings of the 21st European Conference on Computer Systems",
+    "url": "https://doi.org/10.1145/3767295.3769347",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "NecoFuzz：通过模糊测试虚拟机对嵌套虚拟化进行高效模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-24",
+    "title": "TAO: Tolerance-Aware Optimistic Verification for Floating-Point Neural Networks",
+    "authors": "Jianzhu Yao, Hongxu Su, Taobo Liao, Zerui Cheng, Huan Zhang, Xuechao Wang, Pramod Viswanath",
+    "publish": "Proceedings of the 21st European Conference on Computer Systems",
+    "url": "https://doi.org/10.1145/3767295.3803612",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "TAO：面向浮点神经网络的容差感知乐观验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-24",
+    "title": "LightDSA: Enabling Efficient DSA Through Hardware-Aware Transparent Optimization",
+    "authors": "Yuansen Wang, Teng Ma, Yuanhui Luo, Dongbiao He, Zheng Liu, Yunpeng Chai",
+    "publish": "Proceedings of the 21st European Conference on Computer Systems",
+    "url": "https://doi.org/10.1145/3767295.3769356",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "LightDSA：通过硬件感知的透明优化实现高效的DSA",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-25",
+    "title": "Verification of Controller Input Feasibility via AI Reasoning with SAT/SMT Solvers",
+    "authors": "Yuto Hirose, Shin-ya Nishizaki",
+    "publish": "Proceedings of the 9th International Conference on Algorithms, Computing and Systems",
+    "url": "https://doi.org/10.1145/3789418.3789454",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于AI推理与SAT/SMT求解器的控制器输入可行性验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-24",
+    "title": "An Improved PUF-Based Authentication Protocol for VANET",
+    "authors": "Yisu Dong, Fengtong Wen",
+    "publish": "2025 International Conference on Artificial Intelligence, Electrical and Electronic Engineering (AI3E)",
+    "url": "https://doi.org/10.1109/ai3e69313.2025.00070",
+    "source": "IEEE",
+    "abstract": "In response to the limitations of existing Vehicle to Infrastructure (V2I) authentication protocols, this paper proposes an efficient authentication protocol for Vehicular Ad Hoc Networks (VANET). The proposed scheme employs a fuzzy extractor combined with identity-based passwords to achieve three factor authentication during login, and further incorporates Physical Unclonable Functions (PUF) and Elliptic Curve Cryptography (ECC) into the authentication process to enhance security. Once authenticated, vehicles can broadcast messages for a certain period without repeated authentication with Roadside Units (RSU) or the Trusted Authority (TA), thus improving communication efficiency. Formal verification tools confirm the protocol’s security, and performance comparison shows it incurs lower communication and computational overhead than existing schemes, making it highly suitable for resource constrained and latency sensitive VANET environments.",
+    "title_zh": "一种改进的基于PUF的VANET认证协议",
+    "abstract_zh": "针对现有车对基础设施（V2I）认证协议的局限性，本文提出了一种高效的车载自组织网络（VANET）认证协议。该方案采用模糊提取器结合基于身份的密码，实现登录过程中的三因素认证，并进一步将物理不可克隆函数（PUF）和椭圆曲线密码学（ECC）引入认证过程，以增强安全性。认证完成后，车辆可在一定时间内广播消息而无需重复与路侧单元（RSU）或可信权威机构（TA）进行认证，从而提高了通信效率。形式化验证工具证实了该协议的安全性，性能对比表明，与现有方案相比，本协议具有更低的通信和计算开销，非常适合资源受限且对延迟敏感的VANET环境。"
+  },
+  {
+    "date": "2026-4-24",
+    "title": "Yield Not Thy Core",
+    "authors": "Achilles Benetopoulos, Peter Alvaro, Andi Quinn, Robert Soule",
+    "publish": "Proceedings of the 21st European Conference on Computer Systems",
+    "url": "https://doi.org/10.1145/3767295.3803616",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "勿失本心",
+    "abstract_zh": "None"
+  }
+]
