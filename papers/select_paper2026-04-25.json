@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-4-25",
+    "title": "Verification of Controller Input Feasibility via AI Reasoning with SAT/SMT Solvers",
+    "authors": "Yuto Hirose, Shin-ya Nishizaki",
+    "publish": "Proceedings of the 9th International Conference on Algorithms, Computing and Systems",
+    "url": "https://doi.org/10.1145/3789418.3789454",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于AI推理与SAT/SMT求解器的控制器输入可行性验证",
+    "abstract_zh": "None"
+  }
+]
