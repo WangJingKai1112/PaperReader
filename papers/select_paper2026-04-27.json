@@ -1,0 +1,189 @@
+[
+  {
+    "date": "2026-04-27",
+    "title": "Understanding and Improving Automated Proof Synthesis for Interactive Theorem Provers",
+    "authors": "Manqing Zhang, Yunwei Dong, Lingru Zhou, Bingxu Xiao, Yepang Liu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.24354v1",
+    "source": "arXiv",
+    "abstract": "Formal verification using interactive theorem provers ensures high-quality software. However, writing proof scripts for interactive theorem provers is labor-intensive and requires deep expertise. Recent studies have leveraged deep learning to automate theorem proving by learning from manually written proof corpora. Nevertheless, these techniques still achieve limited success rates in proof synthesis. This paper investigates the theorems that current proof synthesis techniques are unable to prove and analyzes their characteristics. Through an in-depth analysis of the proven theorems, proof scripts, and the proof search process, we identify the limitations of existing tools and summarize the key factors influencing proof success rates. Our research provides valuable insights for the future optimization of automated proof tools. Based on our empirical study, we discover that tactic selections conforming to human expert proof patterns are more likely to lead to successful proofs. Inspired by this finding, we propose a pattern-guided tactic search (PGTS) method to heuristically enhance the search process of existing proof synthesis tools. Our evaluation experiments demonstrate that PGTS improves the number of theorems proved by existing proof synthesis tools by an average of 8.05\\%, while also achieving an average 20\\% increase in previously unproven theorems. Furthermore, PGTS enhances the capability of proof synthesis tools to prove complex theorems and generates more concise proof scripts.",
+    "title_zh": "理解和改进交互式定理证明器中的自动证明合成",
+    "abstract_zh": "使用交互式定理证明器进行形式化验证能够确保软件的高质量。然而，为交互式定理证明器编写证明脚本是一项劳动密集型工作，且需要深厚的领域专业知识。近年来，研究者利用深度学习技术，通过从人工编写的证明语料库中学习，来实现定理证明的自动化。尽管如此，这些方法在证明合成方面的成功率仍然有限。本文研究了当前证明合成技术无法证明的定理，并分析了它们的特征。通过对已证明的定理、证明脚本以及证明搜索过程的深入分析，我们识别出现有工具的局限性，并总结出影响证明成功率的关键因素。我们的研究为未来自动化证明工具的优化提供了有价值的见解。基于实证研究，我们发现遵循人类专家证明模式的策略选择更有可能成功完成证明。受此启发，我们提出了一种模式引导的策略搜索（Pattern-Guided Tactic Search, PGTS）方法，以启发式地增强现有证明合成工具的搜索过程。评估实验表明，PGTS使现有证明合成工具平均多证明了8.05%的定理，对先前未能证明的定理更是实现了平均20%的提升。此外，PGTS增强了证明合成工具处理复杂定理的能力，并生成了更为简洁的证明脚本。"
+  },
+  {
+    "date": "2026-04-27",
+    "title": "RefEvo: Agentic Design with Co-Evolutionary Verification for Agile Reference Model Generation",
+    "authors": "Yifan Zhang, Jianmin Ye, Jiahao Yang, Xi Wang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.24218v1",
+    "source": "arXiv",
+    "abstract": "As the complexity of System-on-Chip (SoC) designs grows, the shift-left paradigm necessitates the rapid development of high-fidelity reference models (typically written in SystemC) for early architecture exploration and verification. While Large Language Models (LLMs) show promise in code generation, their application to hardware modeling faces unique challenges: (1) Rigid, static workflows fail to adapt to varying design complexity, causing inefficiency; (2) Context window overflow in multi-turn interactions leads to catastrophic forgetting of critical specifications; and (3) the Coupled Validation Failure problem--where generated Testbenches (TBs) incorrectly validate flawed models due to correlated hallucinations--severely undermines reliability. To address these limitations, we introduce RefEvo, a dynamic multi-agent framework designed for agile and reliable reference modeling. RefEvo features three key innovations: (1) A Dynamic Design Planner that autonomously decomposes design specifications and constructs tailored execution workflows based on semantic complexity; (2) A Co-Evolutionary Verification Mechanism, which employs a Dialectical Arbiter to simultaneously rectify the model and verification logic against the specification (Spec) oracle, effectively mitigating false positives; and (3) A Spec Anchoring Strategy for lossless context compression. Evaluated on a diverse benchmark of 20 hardware modules, RefEvo achieves a 95% pass rate, outperforming static baselines by a large margin. Furthermore, our context optimization reduces token consumption by an average of 71.04%, achieving absolute savings of over 70,000 tokens per session for complex designs while maintaining 100% specification recall.",
+    "title_zh": "RefEvo：基于协同进化验证的智能体设计，用于敏捷参考模型生成",
+    "abstract_zh": "随着片上系统（SoC）设计复杂性的不断增长，“左移”范式要求快速开发高保真参考模型（通常使用SystemC编写），以支持早期的架构探索与验证。尽管大语言模型（LLM）在代码生成方面展现出潜力，但其在硬件建模中的应用仍面临独特挑战：（1）僵化、静态的工作流程无法适应不同的设计复杂度，导致效率低下；（2）多轮交互中上下文窗口溢出，造成对关键规格信息的灾难性遗忘；（3）“耦合验证失败”问题——由于生成的测试平台（Testbench, TB）与存在缺陷的模型因相关幻觉而同步出错，从而错误地通过验证——严重损害了系统的可靠性。\n\n为应对上述局限，我们提出RefEvo，一种面向敏捷且可靠参考建模的动态多智能体框架。RefEvo包含三项核心创新：（1）**动态设计规划器**，可自主分解设计规格，并根据语义复杂度构建定制化的执行工作流；（2）**协同进化验证机制**，引入“辩证仲裁器”（Dialectical Arbiter），同时依据规格（Spec）基准对模型和验证逻辑进行修正，有效消除误报；（3）**规格锚定策略**，实现无损上下文压缩，避免信息丢失。\n\n在包含20个硬件模块的多样化基准测试中，RefEvo实现了95%的通过率，显著优于静态基线方法。此外，我们的上下文优化策略平均减少了71.04%的token消耗，在复杂设计中每会话绝对节省超过70,000个token，同时保持100%的规格信息召回率。"
+  },
+  {
+    "date": "2026-04-27",
+    "title": "SemML 2.0: Synthesizing Controllers for LTL",
+    "authors": "Jan Křetínský, Tobias Meggendorfer, Maximilian Prokop",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.24102v1",
+    "source": "arXiv",
+    "abstract": "Synthesizing a reactive system from specifications given in linear temporal logic (LTL) is a classical problem, finding its applications in safety-critical systems design. These systems are typically represented using either Mealy machines or AIGER circuits. We present the second version of SemML, which outperforms all state-of-the-art tools for finding either solution. Aside from implementing the classical automata-theoretic approach, our tool utilizes partial exploration and machine-learning guidance for obtaining solutions efficiently, and numerous heuristics and improvements of classic algorithms for extracting small representations of these solutions. We evaluate our tool against the existing state-of-the-art tools (in particular Strix, LtlSynt, and the previous version of SemML) on the dataset of the synthesis competition SYNTCOMP. We show that we solve significantly more instances and do so much faster than other tools, while maintaining state-of-the-art solution quality.",
+    "title_zh": "SemML 2.0：用于LTL的控制器综合",
+    "abstract_zh": "根据线性时序逻辑（LTL）规范综合出反应式系统是一个经典问题，在安全关键系统设计中具有广泛应用。这类系统通常以Mealy机或AIGER电路的形式表示。本文提出了SemML的第二版，该版本在寻找解决方案方面优于所有现有的最先进工具。除了实现经典的基于自动机理论的方法外，我们的工具还采用了部分探索和机器学习引导策略，以高效地获得解，并结合了多种启发式方法以及对经典算法的改进，从而提取出更小规模的解表示形式。我们在SYNTCOMP综合竞赛的数据集上将本工具与现有最先进的工具（特别是Strix、LtlSynt以及前一版本的SemML）进行了对比评估。实验结果表明，我们的工具能够显著解决更多的实例，且求解速度远超其他工具，同时保持了最先进的解的质量水平。"
+  },
+  {
+    "date": "2026-04-27",
+    "title": "Counterexample-Guided Interval Weakening",
+    "authors": "Ben M. Andrew, Louise A. Dennis, Michael Fisher, Marie Farrell",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.24540v1",
+    "source": "arXiv",
+    "abstract": "Systems deployed for long periods of time in dynamic environments may experience performance degradation that affects timing guarantees, even when their functional behaviour remains unchanged. In the design and verification of critical systems, such timing guarantees are often expressed using Metric Temporal Logic (MTL). Under degradation, these specifications may no longer hold as stated, although weaker variants that relax timing bounds may still be satisfied and remain meaningful. For example, while an elevator may initially be required to arrive within 30 seconds of a request, degradation of its motor may only allow us to guarantee arrival within 60 seconds. Although weaker, this guarantee is still useful and allows the system to maintain a reasonable level of operation. In this paper we present CEGIW, an iterative, counterexample-guided algorithm for automatically weakening timing intervals in MTL specifications so that they hold for a given system model. The algorithm preserves the logical structure of the original specification and weakens only interval bounds. We prove the correctness and optimality of CEGIW, and conduct an empirical evaluation to demonstrate the practicality of interval weakening using formalised requirements from a number of real-world case-studies. Using a model checker to produce counterexamples, CEGIW either identifies the strongest interval weakening under which the specification holds, or determines that no such weakening exists.",
+    "title_zh": "反例引导的区间弱化",
+    "abstract_zh": "在动态环境中长期部署的系统可能会出现性能退化，从而影响其时间保证，即使其功能行为保持不变。在关键系统的设计与验证中，这类时间保证通常使用度量时序逻辑（Metric Temporal Logic, MTL）来表达。当系统发生性能退化时，原有的MTL规范可能不再成立，但通过放宽时间约束而得到的较弱版本仍可能被满足，并具有实际意义。例如，电梯最初可能被要求在收到请求后30秒内到达，但其电机性能退化后，可能只能保证60秒内到达。尽管这一保证较弱，但仍具价值，可使系统维持合理的运行水平。\n\n本文提出CEGIW算法，一种迭代式、基于反例引导的方法，用于自动弱化MTL规范中的时间区间，使其适用于给定的系统模型。该算法保留原始规范的逻辑结构，仅对时间区间边界进行弱化。我们证明了CEGIW算法的正确性和最优性，并通过实证评估展示了该方法在多个真实案例研究的形式化需求中进行区间弱化的实用性。CEGIW利用模型检测器生成的反例，要么识别出使规范成立的最强弱化区间，要么判定不存在此类弱化。"
+  },
+  {
+    "date": "2026-04-27",
+    "title": "Equivalence Checking of Quantum Circuits via Path-Sum and Weighted Model Counting",
+    "authors": "Wei-Jia Huang, Christophe Chareton, Yu-Fang Chen, Kai-Min Chung, Min-Hsiu Hsieh, Alfons Laarman, Jingyi Mei",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.24504v1",
+    "source": "arXiv",
+    "abstract": "Equivalence checking of quantum circuits is a central verification task in quantum computing, ensuring the correctness of circuit optimizations, hardware mappings, and compilation pipelines. Among the primary symbolic methods for this purpose, the path-sum formalism provides a compact representation with powerful reduction rules that yield a canonical form for the classically simulable Clifford fragment, but confluence fails beyond the Clifford fragment. We introduce a new weighted model counting (WMC) encoding for path-sums and combine it with the existing path-sum reductions to obtain a verifier that is both complete and efficient. Our method applies reductions whenever possible and invokes the WMC-based decision procedure on the residual path-sum, yielding a complete semantic check up to a global phase. We implement the approach and evaluate it on standard benchmarks. Results show that the hybrid method outperforms either component in isolation and competes with state-of-the-art tools.",
+    "title_zh": "通过路径求和与加权模型计数进行量子电路的等价性检验",
+    "abstract_zh": "量子电路的等价性验证是量子计算中一项核心的验证任务，用于确保电路优化、硬件映射和编译流程的正确性。在现有的符号化方法中，路径和（path-sum）形式化方法提供了一种紧凑的表示方式，并具备强大的约简规则，能够为经典可模拟的Clifford片段生成规范形式，但在Clifford片段之外无法保证约简的合流性。本文提出一种针对路径和的新加权模型计数（WMC）编码方法，并将其与已有的路径和约简规则相结合，从而构建出一个既完备又高效的验证器。我们的方法在可能的情况下优先应用约简规则，对剩余的路径和表达式则调用基于WMC的判定过程，最终实现对量子电路语义等价性的完备检查（允许全局相位差异）。我们实现了该方法并在标准基准测试集上进行了评估。实验结果表明，这种混合方法优于单独使用任一组件的效果，并且能够与当前最先进的工具相媲美。"
+  },
+  {
+    "date": "2026-04-27",
+    "title": "RowHammer Vulnerability Counter (RVC): Redefining RowHammer Detection with Victim-Centric Tracking",
+    "authors": "Lavi Jain, Venkata Kalyan Tavva",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.24287v1",
+    "source": "arXiv",
+    "abstract": "The Rowhammer vulnerability poses an increasing challenge with newer generations of DRAM and aggressive technology scaling. Existing mitigation techniques, such as Graphene, Twice, and Hydra, primarily rely on tracking activation counts for each row and issuing refreshes when a row reaches a predefined tracking threshold. However, these methods have inherent limitations, including inefficiencies in identifying rows genuinely at risk of bit flips. In this paper, we propose a novel framework called Rowhammer Vulnerability Count (RVC), which shifts the focus from activation count tracking to evaluating a row's actual vulnerability to bit flips. By selectively issuing refreshes only to rows on the verge of experiencing bit flips, RVC drastically reduces unnecessary refresh operations. We also demonstrate that prior works have incorrectly set tracking thresholds, leading to security flaws. Our evaluation shows that RVC achieves 95 - 99.99% improvement in mitigation induced refreshes when compared to Graphene, with no additional space overhead. Furthermore, RVC improves energy efficiency and reduces average LLC latency by up to 76.91%, making it a highly efficient and scalable solution for addressing Rowhammer in modern DRAM systems. These findings establish RVC as a superior approach for preventing Rowhammer, outperforming existing methods in both accuracy and efficiency.",
+    "title_zh": "RowHammer漏洞计数器（RVC）：以受害者为中心的追踪重新定义RowHammer检测",
+    "abstract_zh": "Rowhammer 漏洞随着新一代 DRAM 技术的演进和工艺尺寸的不断缩小而日益严峻。现有的缓解技术，如 Graphene、Twice 和 Hydra，主要依赖于跟踪每一行的激活次数，并在某一行达到预设的跟踪阈值时触发刷新操作。然而，这些方法存在固有局限性，包括难以有效识别真正面临位翻转风险的存储行。本文提出了一种名为“Rowhammer 脆弱性计数”（Rowhammer Vulnerability Count, RVC）的新框架，将关注点从激活次数的统计转向评估某一行实际发生位翻转的脆弱程度。RVC 仅对那些即将发生位翻转的行选择性地触发刷新操作，从而大幅减少了不必要的刷新开销。我们还指出，以往研究中设定的跟踪阈值存在错误，导致了潜在的安全漏洞。实验结果表明，与 Graphene 相比，RVC 在缓解过程中引入的刷新操作减少了 95% 至 99.99%，且不带来额外的存储开销。此外，RVC 显著提升了能效，并将平均最后一级缓存（LLC）延迟最多降低了 76.91%，成为一种高效且可扩展的现代 DRAM 系统 Rowhammer 防护方案。这些成果表明，RVC 在准确性和效率方面均优于现有方法，是防范 Rowhammer 攻击的更优解决方案。"
+  },
+  {
+    "date": "2026-04-27",
+    "title": "Machine-Checked Cardinality Bounds for Masked Barrett Reduction: A 1-Bit Side-Channel Leakage Barrier in Post-Quantum Cryptographic Hardware",
+    "authors": "Ray Iskander, Khaled Kirah",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.24670v1",
+    "source": "arXiv",
+    "abstract": "Barrett reduction is the nonlinear core of every practical NTT-based post-quantum cryptography implementation. Existing composition frameworks (ISW, t-SNI, PINI, DOM) address Boolean masking over GF(2); none provides a machine-checked characterization of Barrett's leakage under first-order arithmetic masking and the first-order probing model over prime fields. Building on our prior series, QANARY [15], partial-NTT-masking margins [14], algebraic foundations [16], and butterfly composition [18], we close this gap. We prove a trichotomy: for any $q > 0$ and shift $s$, the Barrett internal wire map $f_x(m) = ((x + 2^s - m) \\bmod 2^s) \\bmod q$ has preimage cardinality in $\\{0, 1, 2\\}$, never more. We call this the 1-Bit Barrier: max-multiplicity 2 implies at most 1 bit of min-entropy loss per internal wire, universal over all moduli. The count-zero cases, unreachable output values, reveal that actual leakage is often strictly less than 1 bit, making the bound conservative. We introduce PF-PINI (Prime-Field PINI): Barrett satisfies PF-PINI(2); the Cooley-Tukey butterfly satisfies PF-PINI(1). We observe (not yet proved) that with fresh inter-stage masking, the composed pipeline has max-multiplicity $\\max(k_1, k_2)$, so the 1-Bit Barrier propagates. The trichotomy, the PF-PINI instantiations, and cardinality results are machine-checked in Lean 4 with Mathlib: 12 proved results, zero sorry, universal over all $q > 0$ (the min-entropy bound follows by standard definitions). Adams Bridge lacks fresh inter-stage masking, violating PF-PINI composition and explaining why Papers 1 [15] and 2 [14] found vulnerabilities. NIST IR 8547 recommends formal methods for PQC implementation validation. The 1-Bit Barrier provides the first universal machine-checked cardinality bound for masked Barrett reduction in ML-KEM (FIPS 203) and ML-DSA (FIPS 204), with a corresponding 1-bit leakage interpretation.",
+    "title_zh": "经机器验证的掩码Barrett约减基数界：后量子密码硬件中的一比特侧信道泄露屏障",
+    "abstract_zh": "Barrett约简是每个实用的基于NTT的后量子密码实现中的非线性核心。现有的组合框架（如ISW、t-SNI、PINI、DOM）主要针对GF(2)上的布尔掩码；但没有一个框架能够对在素数域上、一阶算术掩码和一阶探测模型下Barrett约简的泄露行为提供经过机器验证的形式化刻画。在我们先前一系列工作（QANARY [15]、部分NTT掩码边界 [14]、代数基础 [16] 和蝶形组合 [18]）的基础上，本文填补了这一空白。\n\n我们证明了一个三分性定理：对于任意 $ q > 0 $ 和移位 $ s $，Barrett约简内部线映射 $ f_x(m) = ((x + 2^s - m) \\bmod 2^s) \\bmod q $ 的原像集合大小仅可能为 $\\{0, 1, 2\\}$ 中的一个值，永远不会更大。我们将此称为“1比特壁垒”（1-Bit Barrier）：最大重数为2意味着每条内部线最多只损失1比特的最小熵，且该结论对所有模数具有普适性。其中“计数为零”的情况对应于无法达到的输出值，表明实际泄露通常严格小于1比特，因此该界限是保守的。\n\n我们引入了PF-PINI（素域PINI）：Barrett约简满足PF-PINI(2)，而Cooley-Tukey蝶形单元满足PF-PINI(1)。我们观察到（尚未证明）：若在各阶段之间使用新鲜的掩码，则整个组合流水线的最大重数为 $\\max(k_1, k_2)$，从而使得“1比特壁垒”得以传播。\n\n上述三分性定理、PF-PINI实例化以及基数结果均已在Lean 4与Mathlib中完成机器验证：共包含12个已证明结果，无任何未证假设（sorry），适用于所有 $ q > 0 $（最小熵界由标准定义直接导出）。\n\nAdams Bridge结构缺乏阶段间的刷新掩码，违反了PF-PINI的组合条件，这也解释了为何论文1 [15] 和论文2 [14] 发现了其存在漏洞。NIST IR 8547建议使用形式化方法来验证PQC实现的安全性。“1比特壁垒”首次为ML-KEM（FIPS 203）和ML-DSA（FIPS 204）中的掩码Barrett约简提供了通用的、经机器验证的基数上界，并给出了相应的1比特泄露解释。"
+  },
+  {
+    "date": "2026-4-27",
+    "title": "Experience in Synthesizing Combinational Self-Timed Circuits and Verifying the Results",
+    "authors": "Leonid Plekhanov, Nikolai Morozov, Georgi Orlov",
+    "publish": "2026 International Russian Smart Industry Conference (SmartIndustryCon)",
+    "url": "https://doi.org/10.1109/smartindustrycon68821.2026.11492829",
+    "source": "IEEE",
+    "abstract": "This paper addresses the problem of ensuring correctness in the self-timed (ST) digital circuit design, which provide a fault-tolerant alternative to conventional synchronous circuitry. The ST circuit's distinctive properties include an absence of logic hazards, sustained operability under extreme environmental conditions, and inherent stuck-at fault detection. These properties are achieved through a specific computational organization: dual-rail (i.e., two-phase) signal encoding, strict alternation between data and spacer phases, and explicit indication of the completion of transient processes. However, these properties render the ST circuit design and verification a nontrivial task. The paper observes a working method for automated synthesis of combinational ST circuits in synthesizable Verilog and proposes a comprehensive methodology for automated verification of the synthesized results. The verification approach is centered on two key aspects: preservation of logical functionality with respect to the original non-self-timed specification and satisfaction of internal self-timed correctness criteria. The methodology comprises the following stages: test generation for both the reference synchronous circuit and synthesized ST circuit, an ST protocol functional validation, evaluation of functional coverage achieved by the test suite, and automated regression analysis of circuit testing based on structured logging. The proposed approach aligns with modern coverage-driven verification practices. The methodology enables scalable verification across hundreds of test cases—a capability that is critically important during the active development of an ST circuit synthesizer.",
+    "title_zh": "综合组合式自定时电路及验证结果的经验",
+    "abstract_zh": "本文针对自定时（ST）数字电路设计中的正确性保障问题展开研究，该类电路为传统的同步电路提供了一种容错的替代方案。ST电路具有若干显著特性，包括无逻辑险象、在极端环境条件下仍能持续运行，以及具备固有的固定故障检测能力。这些特性通过特定的计算组织方式实现：双轨（即两相）信号编码、数据相与空闲相之间的严格交替，以及对瞬态过程完成状态的显式指示。然而，这些特性也使得ST电路的设计与验证成为一项复杂而艰巨的任务。本文提出了一种针对组合逻辑型ST电路的自动化综合方法，可生成可综合的Verilog代码，并进一步提出了一套完整的、用于自动验证综合结果的方法论。该验证方法聚焦于两个关键方面：一是保持相对于原始非自定时规范的逻辑功能一致性，二是满足内部自定时正确性准则。该方法论包含以下几个阶段：分别为参考同步电路和综合所得的ST电路生成测试激励，进行ST协议的功能验证，评估测试集所达到的功能覆盖率，以及基于结构化日志的自动化回归分析。所提出的方法符合现代以覆盖率驱动的验证实践。该方法论支持对数百个测试用例进行可扩展的验证，这一能力在ST电路综合器的积极开发过程中至关重要。"
+  },
+  {
+    "date": "2026-4-27",
+    "title": "Complete, Sound, and Scalable Identification of Minimal Failure-Causing Schema",
+    "authors": "Runshuo Xie, Xintao Niu, Huayao Wu, Changhai Nie",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3811916",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "完整、可靠且可扩展的最小故障引发模式识别",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-4-27",
+    "title": "AI-Driven Penetration Testing for ARM Systems: Experimental Evaluation and Deployment Framework Across Four Paradigms",
+    "authors": "Matthew Ragsdale, Vijayalakshmi Ramasamy",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3687448",
+    "source": "IEEE",
+    "abstract": "ARM-based systems are widely deployed in edge and IoT settings, where penetration-testing tools must operate under strict memory, power, and thermal constraints, yet prior work offers limited deployment-oriented guidance for these platforms. We experimentally evaluated four AI paradigms—traditional machine learning (ML), deep learning (DL), large language models (LLMs), and reinforcement learning (RL)—across three ARM platform tiers (Raspberry Pi 5, Radxa ROCK 5B Plus, NVIDIA Jetson Nano), collecting over 8,000 measurements of accuracy, memory, latency, power, and thermal behavior. Traditional ML achieved up to 98.1% accuracy with 162 MB peak memory usage, while a combined optimization pipeline for DL (pruning, INT8 quantization-aware training, distillation, and platform tuning) achieved 92.6% accuracy with a 93% model-size reduction. In contrast, the evaluated LLM configurations exhibited memory and latency requirements that exceeded practical edge budgets on these devices, whereas RL supported lightweight on-device inference via off-device training, using 52–254 MB during execution. We introduce the ARM AI Security Benchmark (AASB) framework to standardize evaluation methodology and provide deployment-oriented baselines for ARM platforms.",
+    "title_zh": "面向ARM系统的AI驱动渗透测试：跨四种范式的实验评估与部署框架",
+    "abstract_zh": "基于ARM的系统在边缘计算和物联网（IoT）场景中广泛应用，这些环境对渗透测试工具的内存、功耗和散热有着严格限制。然而，此前的研究对于在这些平台上的部署缺乏足够的指导。本文实验评估了四种人工智能范式——传统机器学习（ML）、深度学习（DL）、大语言模型（LLMs）和强化学习（RL）——在三个层级的ARM平台（树莓派5、Radxa ROCK 5B Plus、NVIDIA Jetson Nano）上的表现，收集了超过8000次关于准确率、内存占用、延迟、功耗和热行为的测量数据。实验结果显示，传统ML方法最高达到98.1%的准确率，峰值内存使用仅为162 MB；而通过结合剪枝、INT8量化感知训练、知识蒸馏和平台调优的深度学习优化流程，在模型尺寸减少93%的同时仍实现了92.6%的准确率。相比之下，所评估的大语言模型配置在内存和延迟方面的需求超出了这些设备在边缘场景下的实际预算；而强化学习则可通过在设备外训练、设备上轻量级推理的方式运行，执行时内存占用为52–254 MB。为此，我们提出了ARM AI安全基准测试框架（AASB），旨在标准化评估方法，并为ARM平台提供面向实际部署的性能基线。"
+  },
+  {
+    "date": "2026-4-27",
+    "title": "Design and Analysis of an FPGA-Based Authentication and Key Establishment Protocol for Mobile-Edge-Assisted RFID–IoT Systems",
+    "authors": "Sundararaju Mugunthan, Venkatasamy Sureshkumar, Paramasivam Saravanan, Ruhul Amin",
+    "publish": "IEEE Journal of Radio Frequency Identification",
+    "url": "https://doi.org/10.1109/jrfid.2026.3688019",
+    "source": "IEEE",
+    "abstract": "Mobile Edge Computing (MEC) plays a key role in enabling low-latency RFID–IoT applications by offering localized computation and storage resources. While this improves responsiveness and scalability, it also increases exposure to security and privacy threats. This paper presents an enhanced authentication and key establishment scheme designed to mitigate privacy and security attacks in mobile-edge-assisted RFID-IoT environments. The scheme incorporates password update and recovery mechanisms to enhance practical usability and resilience. Its correctness is verified using BAN logic, and an AMD Xilinx FPGA prototype demonstrates its practical performance. Comparative results show that the proposed scheme offers strong security with low computational and communication overhead, making it suitable for latency-critical edge applications.",
+    "title_zh": "面向移动边缘辅助RFID-IoT系统的基于FPGA的身份认证与密钥建立协议的设计与分析",
+    "abstract_zh": "移动边缘计算（MEC）通过提供本地化的计算和存储资源，在实现低延迟的射频识别-物联网（RFID-IoT）应用中发挥着关键作用。尽管这提升了系统的响应速度和可扩展性，但也增加了面临安全与隐私威胁的风险。本文提出了一种增强型认证与密钥建立方案，旨在缓解在移动边缘辅助的RFID-IoT环境中的隐私和安全攻击。该方案集成了密码更新与恢复机制，以提升实际可用性和系统韧性。我们采用BAN逻辑验证了该方案的正确性，并通过AMD Xilinx现场可编程门阵列（FPGA）原型验证了其实用性能。对比结果表明，所提出的方案在具备强大安全性的同时，具有较低的计算和通信开销，适用于对延迟敏感的边缘计算应用。"
+  },
+  {
+    "date": "2026-4-27",
+    "title": "LivingBench: An IoT/Edge Platform Benchmark Based on an Environmental Observation Use-Case",
+    "authors": "Haraesh JR, Ammar Kazem, Matthieu Nicolas, François Lemercier, Guillaume Pierre, Christoff Andermann",
+    "publish": "2026 29th Conference on Innovation in Clouds, Internet and Networks (ICIN)",
+    "url": "https://doi.org/10.1109/icin69025.2026.11481831",
+    "source": "IEEE",
+    "abstract": "In recent years, a number of edge computing platforms have been proposed to process data produced by IoT sensors. Performing computation close to the sources of data allows faster insight and greater reliability at a lower cost compared to traditional cloud-based deployments. However, designers of IoT/edge platforms face difficult issues. In particular, exercising and testing a new platform in conditions that approach a real deployment requires a sufficient number of standard benchmarking systems capable of generating realistic workloads. In this paper, we propose LivingBench, a benchmarking tool with the capability of incorporating real or synthetic workload injection, developed to exercise edge computing systems. LivingBench integrates a real-world data trace captured in an environmental observatory, together with a collection of actual applications designed for processing these data, and a load injector tool capable of replaying a (possibly pre-processed) trace to benchmark an MQTT-based edge system. We describe the architecture of LivingBench and show how it may be used to evaluate the maximum data processing capacity of an edge system under test.",
+    "title_zh": "LivingBench：一种基于环境观测应用场景的物联网/边缘计算平台基准测试工具",
+    "abstract_zh": "近年来，已提出多种边缘计算平台用于处理物联网传感器产生的数据。与传统的基于云的部署相比，在靠近数据源的位置进行计算能够以更低的成本实现更快的洞察和更高的可靠性。然而，物联网/边缘平台的设计者面临着诸多难题。特别是，要在接近实际部署的条件下对新平台进行测试和验证，需要足够数量的标准基准测试系统来生成逼真的工作负载。本文提出了一种名为LivingBench的基准测试工具，该工具具备注入真实或合成工作负载的能力，专为测试边缘计算系统而设计。LivingBench整合了从环境观测站采集的真实世界数据轨迹、一组用于处理这些数据的实际应用程序，以及一个负载注入工具，能够重放（可能经过预处理的）数据轨迹，以对基于MQTT协议的边缘系统进行基准测试。我们描述了LivingBench的体系结构，并展示了如何利用它评估被测边缘系统的最大数据处理能力。"
+  },
+  {
+    "date": "2026-4-27",
+    "title": "Lossless Canonical Coding Design with FPGA Implementation Using High-Speed Architecture",
+    "authors": "Maan Hameed, Hussein Shakor Mogheer, Haveen Yaseen Hussein Al-Zahawi, Yassir Al-Karawi",
+    "publish": "2026 International Russian Smart Industry Conference (SmartIndustryCon)",
+    "url": "https://doi.org/10.1109/smartindustrycon68821.2026.11493133",
+    "source": "IEEE",
+    "abstract": "This study deals with transmission of multibit symbol characters and large data units. The traditional methods of compression and decompression tend to experience the problem of data loss, poor throughput, and delayed encoding times. In order to eliminate these constraints, proposed a contemporary circuit-driven structure comprising the Canonical Huffman encoding and decoding. Various important techniques have been incorporated in this design such as frequency analysis, sorting mechanisms, optimal state machine control and barrel shifter logic. The restructured hardware accelerator that is developed is successfully decreasing memory footprint and shortening use of hardware resources. The Canonical Huffman encoder/decoder is specifically optimized to work effectively with multibit data, so memory footprint and processing time both decrease greatly. In the implementation process, the system has 160-bit input and 90-bit output using variable length Huffman coding (VLC). Verilog HDL language and Model Sim simulation tools were used to verify the hardware design and the design was implemented on FPGA DE2 device to test it in the practical world. The optimized VLSI realizes data compression and decompression with greater performance of output rates of 144 GB/s and 991 GB/s in encoding and decoding respectively along with an increase in compression ratio of 56.27% percent. The proposed FPGA-based high-speed architecture is well suited for real-time industrial data processing in smart manufacturing and Industry 4.0 environments, where efficient, low-latency, and hardware-accelerated data handling is essential for high-performance computing infrastructures.",
+    "title_zh": "基于高速架构的无损规范编码设计及其FPGA实现",
+    "abstract_zh": "本研究涉及多比特符号字符和大数据单元的传输。传统的压缩与解压缩方法往往存在数据丢失、吞吐量低以及编码延迟时间长等问题。为了消除这些限制，本文提出了一种基于电路的现代架构，该架构采用规范哈夫曼（Canonical Huffman）编码与解码技术。设计中融合了多种关键技术，包括频率分析、排序机制、最优状态机控制以及桶形移位器逻辑。所开发的重构硬件加速器成功减小了内存占用，并缩短了硬件资源的使用。该规范哈夫曼编码器/解码器特别针对多比特数据进行了优化，显著降低了内存开销和处理时间。在实现过程中，系统采用可变长度哈夫曼编码（VLC），输入为160位，输出为90位。通过Verilog HDL语言和ModelSim仿真工具对硬件设计进行验证，并在FPGA DE2设备上实现，以进行实际环境测试。优化后的VLSI实现了高性能的数据压缩与解压缩，在编码和解码过程中的输出速率分别达到144 GB/s和991 GB/s，压缩率提升了56.27%。所提出的基于FPGA的高速架构非常适用于智能制造和工业4.0环境下的实时工业数据处理，能够满足高性能计算基础设施对高效、低延迟、硬件加速数据处理的关键需求。"
+  },
+  {
+    "date": "2026-4-27",
+    "title": "Stealing AI Model Weights Through Covert Communication Channels",
+    "authors": "Valentin Barbaza, Alán Rodrigo Díaz-Rizo, Abdelrahman Emad Abdelazim, Emilien Dole, Hassan Aboushady, Spyridon Raptis, Haralampos-G. Stratigopoulos",
+    "publish": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "url": "https://doi.org/10.1109/tvlsi.2026.3684645",
+    "source": "IEEE",
+    "abstract": "Artificial intelligence (AI) models are often regarded as valuable intellectual property due to the high cost of their development, the competitive advantage they provide, and the proprietary techniques involved in their creation. As a result, AI model-stealing attacks pose a serious concern for AI model providers. In this work, we present a novel attack targeting wireless devices equipped with AI hardware accelerators. The attack unfolds in two phases. In the first phase, the victim’s device is compromised with a hardware Trojan (HT) designed to covertly leak model weights through a hidden communication channel, without the victim realizing it. In the second phase, the adversary uses a nearby wireless device to intercept the victim’s transmission frames during normal operation and incrementally reconstruct the complete weight matrix. The proposed attack is agnostic to both the AI model architecture and the hardware accelerator used. We validate our approach through a hardware-based demonstration involving five diverse AI models of varying types and sizes. We detail the design of the HT and the covert channel, highlighting their stealthy nature. Additionally, we analyze the impact of bit error rates (BERs) on the reception and propose an error mitigation technique. The effectiveness of the attack is evaluated based on the accuracy of the reconstructed models with stolen weights and the time required to extract them. Finally, we explore potential defense mechanisms.",
+    "title_zh": "通过隐蔽通信信道窃取AI模型权重",
+    "abstract_zh": "人工智能（AI）模型通常被视为宝贵的知识产权，原因在于其开发成本高昂、能带来竞争优势，并且涉及专有的创建技术。因此，针对AI模型的窃取攻击对模型提供者构成了严重威胁。在本研究中，我们提出了一种新型攻击方法，专门针对配备AI硬件加速器的无线设备。该攻击分为两个阶段：在第一阶段，受害设备被植入一种硬件木马（HT），该木马设计用于通过隐蔽通信信道秘密泄露模型权重，而受害者无法察觉；在第二阶段，攻击者利用附近的无线设备，在受害设备正常运行期间截获其传输帧，并逐步重建完整的权重矩阵。所提出的攻击方法对AI模型架构和所使用的硬件加速器均具有无关性。我们通过基于硬件的实验验证了该方法的有效性，实验涵盖了五种不同类型和规模的AI模型。我们详细阐述了硬件木马及隐蔽信道的设计，突出了其隐蔽特性。此外，我们分析了误码率（BER）对接收过程的影响，并提出了一种误差缓解技术。攻击的有效性通过重构模型的准确率以及提取所需时间进行评估。最后，我们探讨了可能的防御机制。"
+  },
+  {
+    "date": "2026-4-27",
+    "title": "NSGen: A Template-Based Framework to Find Bugs in Computer-Aided Engineering Tools",
+    "authors": "Xiaochen Li, Peiyu Zou, Hao Liu, Shikai Guo, Zhilei Ren, He Jiang",
+    "publish": "IEEE Transactions on Software Engineering",
+    "url": "https://doi.org/10.1109/tse.2026.3687867",
+    "source": "IEEE",
+    "abstract": "Computer-aided engineering (CAE) tools are extensively used in safety-critical domains like aerospace design to simulate real-world physical processes on computers at reduced costs. However, CAE tools are prone to bugs, leading to incorrect simulation and serious design flaws. Existing testing methods have limited success in finding these bugs, since constructing test cases for CAE tools (known as CAE inputs) is challenging, due to the complexity of input parameter constraints and the differences of input syntax for each tool. Therefore, we propose NSGen, a template-based Numerical Simulation test case <italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">GEN</i>erator for effective CAE input generation. To bridge input differences, NSGen designs general syntax rules that ignore semantic details of CAE inputs but retaining the format and validity of these inputs for different CAE tools. NSGen then designs semantic rules to define the parameters and their intricate constraints (i.e., dependency, exclusion, and extension). By instantiating these rules as templates, valid CAE inputs are generated using a syntax parser implemented by NSGen. Experiments show that NSGen can effectively generate CAE inputs with less than 0.33 second on average, triggering 6.28 to 10.55 times more potential issues than the baseline. Using these inputs, NSGen finds 12 bugs in popular CAE tools, including crash bugs and instability bugs.",
+    "title_zh": "NSGen：一种基于模板的框架，用于发现计算机辅助工程工具中的缺陷",
+    "abstract_zh": "计算机辅助工程（CAE）工具被广泛应用于航空航天设计等安全关键领域，以在计算机上低成本地模拟真实世界的物理过程。然而，CAE工具容易存在缺陷，导致仿真结果错误并引发严重的设计问题。现有的测试方法在发现这些缺陷方面成效有限，因为为CAE工具构建测试用例（即CAE输入）十分困难，这主要源于输入参数约束的复杂性以及不同工具之间输入语法的差异。为此，我们提出了NSGen，一种基于模板的数值仿真测试用例<italic xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">GEN</i>erator，用于高效生成CAE输入。为弥合不同工具间的输入差异，NSGen设计了通用语法规则，忽略CAE输入的语义细节，但保留其格式和对不同CAE工具的有效性。同时，NSGen设计了语义规则来定义参数及其复杂的约束关系（如依赖、互斥和扩展）。通过将这些规则实例化为模板，并利用NSGen实现的语法解析器，可生成有效的CAE输入。实验表明，NSGen平均耗时不到0.33秒即可有效生成CAE输入，触发潜在问题的数量是基线方法的6.28至10.55倍。使用这些输入，NSGen在多个流行的CAE工具中发现了12个缺陷，包括导致程序崩溃和运行不稳定的漏洞。"
+  },
+  {
+    "date": "2026-4-27",
+    "title": "Manipulating Proof Certificate Invariants in the Presence of Model Transformations",
+    "authors": "G. Cabodi, P. E. Camurati, M. Palena, P. Pasini",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3687715",
+    "source": "IEEE",
+    "abstract": "Trust in the outcomes of state-of-the-art hardware model checkers is more and more related to the availability of external certification tools, especially when the result is a “pass” verdict that cannot be simulated. This paper addresses one of the major weaknesses of proof certifiers: the difficulty of exploiting a proof certificate obtained after the model was pre-processed with optimizations and transformations. Most proof engines provide a certificate in terms of an inductive invariant that could be easily certified by an external checker on the transformed model. On the other hand, proving the correctness of each model transformation is basically infeasible using an external independent tool. Recent works have followed the idea of post-processing both the model and the inductive invariant, by generating a witness model and a transformed invariant: the certifier then checks that the invariant holds on the witness model and that the witness model is consistent with the original one. We follow here the alternative path of fully lifting the invariant, back to the original model, with a two-fold target: (a) simplifying the task of the model checker, which is only required to output the final invariant and a log of the transformations done; (b) possibly reusing the invariant for other tasks on the model, such as logic synthesis optimizations and proofs of other properties. Specifically, we target the following transformations: temporal decomposition, phase abstraction and equivalence and constant propagation. As this process requires existential quantification operations, we show how to exploit Craig’s interpolation to generate new inductive invariants. We also address scalability issues by applying a state-of-the-art SAT-based simplification procedure capable of reducing the size of the generated invariants when converted to NNF form. We experimentally demonstrate the effectiveness of this approach on a set of invariants derived from publicly available hardware model-checking benchmarks.",
+    "title_zh": "在存在模型转换的情况下操纵证明证书不变量",
+    "abstract_zh": "对最先进的硬件模型检测器结果的信任，越来越依赖于外部认证工具的可用性，尤其是在得出“通过”结论而无法进行仿真验证的情况下。本文探讨了证明认证工具的一个主要弱点：难以利用在模型经过优化和变换预处理后所生成的证明证书。大多数证明引擎会针对变换后的模型提供一个归纳不变式作为证书，该不变式可由外部检查器轻松验证。然而，使用独立的外部工具逐一证明每个模型变换的正确性在实践中基本不可行。近期的一些研究采用了一种后处理方法，即同时处理模型和归纳不变式，生成一个见证模型（witness model）和一个转换后的不变式，然后由认证器验证该不变式在见证模型上成立，并且见证模型与原始模型保持一致。\n\n本文则采取另一种替代路径：将不变式完全“提升”回原始模型，实现两个目标：(a) 简化模型检测器的任务，使其只需输出最终的不变式以及所执行变换的日志；(b) 使该不变式可用于模型的其他任务，例如逻辑综合优化或其他性质的证明。具体而言，我们针对以下几类变换开展研究：时序分解（temporal decomposition）、相位抽象（phase abstraction）以及等价性和常量传播（equivalence and constant propagation）。由于该过程涉及存在量化操作，我们展示了如何利用克雷格插值（Craig’s interpolation）来生成新的归纳不变式。此外，为了应对可扩展性问题，我们应用了一种基于SAT的前沿简化方法，在将生成的不变式转换为合取范式（NNF）形式时有效减小其规模。我们在一组来自公开硬件模型检测基准的不变式上进行了实验，验证了该方法的有效性。"
+  },
+  {
+    "date": "2026-4-27",
+    "title": "Method for Testing Microcontroller Vulnerabilities to EM Side-Channel Attacks",
+    "authors": "Zakhar K. Firsov, Mikhail S. Shuvalkin, Alla B. Levina",
+    "publish": "2026 International Russian Smart Industry Conference (SmartIndustryCon)",
+    "url": "https://doi.org/10.1109/smartindustrycon68821.2026.11493018",
+    "source": "IEEE",
+    "abstract": "This article provides a detailed examination of methods for identifying microcontroller vulnerabilities to side-channel attacks, with an emphasis on practical application and improving protection against such attacks. The goal of the project is to create and implement effective methods for testing microcontroller vulnerabilities, which will significantly enhance their security level. Additionally, it aims to improve protection measures, as the increase in the volume of confidential information processed by microcontrollers has increased the significance of security concerns. This improvement involves not only responding to known threats, but also preventing new and sophisticated attacks. In this work, cryptographic keys on the Arduino Uno microcontroller were identified through correlation analysis of electromagnetic emissions.",
+    "title_zh": "针对微控制器电磁侧信道攻击漏洞的测试方法",
+    "abstract_zh": "本文详细探讨了识别微控制器侧信道攻击漏洞的方法，重点在于实际应用以及提升对这类攻击的防护能力。项目的目标是创建并实施有效的微控制器漏洞测试方法，从而显著提高其安全水平。此外，该项目还旨在改进防护措施，因为微控制器处理的机密信息量不断增加，使得安全性问题日益重要。这种改进不仅包括应对已知威胁，还包括防范新型且复杂的攻击。在本研究中，通过对抗Arduino Uno微控制器的电磁辐射进行相关性分析，成功提取了加密密钥。"
+  }
+]
