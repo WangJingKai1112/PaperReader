@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-04-28",
+    "title": "From CRUD to Autonomous Agents: Formal Validation and Zero-Trust Security for Semantic Gateways in AI-Native Enterprise Systems",
+    "authors": "Ignacio Peyrano",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.25555v1",
+    "source": "arXiv",
+    "abstract": "Enterprise software engineering is shifting away from deterministic CRUD/REST architectures toward AI-native systems where large language models act as cognitive orchestrators. This transition introduces a critical security tension: probabilistic LLMs weaken classical mechanisms for validation, access control, and formal testing. This paper proposes the design, formal validation, and empirical evaluation of a Semantic Gateway governed by the Model Context Protocol (MCP). The gateway reframes the enterprise API as a semantic surface where tools are dynamically discovered, authorized, and executed based on intent and policy enforcement. The central contribution rests on a paradigm shift: autonomous agents must not be validated as traditional software nor as simple API consumers, but as stochastic state-transition systems whose behavior must be abstracted, fuzzed, and audited through enabled-tool graphs. The architecture introduces a three-layer Zero-Trust security model comprising a pre-inference Semantic Firewall, deterministic Tool-Level RBAC, and out-of-band Cryptographic Human-in-the-Loop approval. Enabledness-Preserving Abstractions (EPAs) and greybox semantic fuzzing--originally developed for blockchain smart contract verification--are adapted to audit agent behavior in enterprise environments. Results demonstrate an 84.2% reduction in incidental code. Across 500,000 multi-turn fuzzing sequences, the methodology achieved a 100% discovery rate of hidden unauthorized state transitions, proving that dynamic formal verification is strictly necessary for secure agentic deployment.",
+    "title_zh": "从CRUD到自主代理：面向AI原生企业系统中语义网关的形式化验证与零信任安全",
+    "abstract_zh": "企业软件工程正从确定性的CRUD/REST架构转向以人工智能为核心的系统，其中大语言模型（LLM）充当认知协调者。这一转变引发了一个关键的安全矛盾：概率性LLM削弱了传统的验证机制、访问控制和形式化测试手段。本文提出了一种由模型上下文协议（Model Context Protocol, MCP）所管控的“语义网关”（Semantic Gateway）的设计方案，并对其进行了形式化验证与实证评估。该网关将企业API重新定义为一个语义层面的交互表面，在此之上，工具能够基于意图识别与策略执行实现动态发现、授权与调用。本文的核心贡献在于一种范式转变：自主智能体不应被当作传统软件或简单的API使用者来验证，而应被视为随机状态转移系统，其行为必须通过可启用工具图进行抽象、模糊测试和审计。该架构引入了一个三层零信任安全模型，包括推理前的语义防火墙、确定性的工具级基于角色的访问控制（RBAC），以及带外加密的人工审批机制。我们还将原本用于区块链智能合约验证的“保持可启用性抽象”（Enabledness-Preserving Abstractions, EPAs）和灰盒语义模糊测试技术，适配应用于企业环境中对智能体行为的审计。实验结果表明，该方法使偶然性代码减少了84.2%；在50万个多轮次模糊测试序列中，实现了对隐藏的未授权状态转移100%的发现率，证明动态形式化验证对于安全部署智能体是严格必要的。"
+  },
+  {
+    "date": "2026-04-28",
+    "title": "Commit-Aware Learning-Based Test Case Prioritization for Continuous Integration",
+    "authors": "Lorenzo Abbondante, Gerardo Canfora",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.25363v1",
+    "source": "arXiv",
+    "abstract": "Regression testing in Continuous Integration (CI) pipelines is increasingly costly due to the growing size and execution frequency of test suites. Test Case Prioritization (TCP) mitigates this problem by reordering tests to expose faults earlier. However, most existing techniques rely primarily on historical execution data and coverage metrics, neglecting the rich structural information contained in code changes. This paper proposes a commit-aware, learning-based TCP method that combines structural properties of version-control diffs, test coverage relations, and historical execution behavior into a unified predictive model. Given a new commit, the method estimates the probability that each test suite will reveal at least one failure and prioritizes test execution accordingly. We evaluate our method on five Defects4J projects using a leave-one-project-out cross-project validation setting. Results show that the commit-aware TCP significantly outperform non-commit-aware-baselines in both classification and prioritization effectiveness. Our findings show that including commit structural semantics substantially enhances regression fault detection and enables robust, generalizable learning-based TCP in CI environments.",
+    "title_zh": "面向提交感知的基于学习的测试用例优先级排序方法，用于持续集成",
+    "abstract_zh": "在持续集成（CI）流水线中，由于测试套件的规模和执行频率不断增长，回归测试的成本日益增加。测试用例优先级排序（TCP）通过重新排列测试顺序以更早地暴露缺陷，缓解了这一问题。然而，大多数现有技术主要依赖历史执行数据和覆盖率指标，忽视了代码变更中蕴含的丰富结构信息。本文提出了一种感知提交（commit-aware）的、基于学习的TCP方法，将版本控制差异（diffs）的结构特征、测试覆盖关系以及历史执行行为整合到一个统一的预测模型中。对于一个新的代码提交，该方法可估计每个测试用例至少发现一个故障的概率，并据此对测试执行进行优先级排序。我们在五个Defects4J项目上采用“留出一个项目”的跨项目交叉验证方式对所提方法进行了评估。结果表明，与不考虑提交信息的基线方法相比，感知提交的TCP方法在分类准确性和优先级排序效果方面均显著更优。研究结果表明，引入提交的结构语义信息能显著提升回归缺陷的检测能力，并可在CI环境中实现鲁棒且具有良好泛化性的基于学习的TCP方法。"
+  },
+  {
+    "date": "2026-04-28",
+    "title": "Threat-Oriented Digital Twinning for Security Evaluation of Autonomous Platforms",
+    "authors": "Thomas J. Neubert, Laxima Niure Kandel, Berker Peköz",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.25757v1",
+    "source": "arXiv",
+    "abstract": "Open, unclassified research on secure autonomy is constrained by limited access to operational platforms, contested communications infrastructure, and representative adversarial test conditions. This paper presents a threat-oriented digital twinning methodology for cybersecurity evaluation of learning-enabled autonomous platforms. The approach is instantiated as an open-source, modular twin of a representative autonomy stack with separated sensing, autonomy, and supervisory-control functions; confidence-gated multi-modal perception; explicit command and telemetry trust boundaries; and runtime hold-safe behavior. The contribution is methodological: a reproducible design pattern that translates threat analysis into observable, controllable tests for spoofing, replay, malformed-input injection, degraded sensing, and adversarial ML stress. Although the implemented proxy is ground based, the architecture is intentionally framed around stack elements shared with UAV and space systems, including constrained onboard compute, intermittent or high-latency links, probabilistic perception, and mission-critical recovery behavior. The result is an implementable research scaffold for dependable and secure autonomy studies across UAV and space domains.",
+    "title_zh": "面向威胁的数字孪生在自主平台安全评估中的应用",
+    "abstract_zh": "关于安全自主性的开放、非密级研究，受限于对实际运行平台的访问不足、通信基础设施存在干扰以及缺乏具有代表性的对抗性测试条件。本文提出了一种面向威胁的数字孪生方法论，用于评估具备学习能力的自主平台的网络安全性能。该方法以开源、模块化的方式实现了一个典型自主系统架构的数字孪生体，其感知、自主决策与监督控制功能相互分离，具备置信度门控的多模态感知能力、明确的指令与遥测数据信任边界，以及运行时保持安全的行为机制。本文的主要贡献在于方法论层面：提供一种可复现的设计范式，能够将威胁分析转化为针对欺骗攻击、重放攻击、畸形输入注入、感知性能退化及对抗性机器学习压力等场景的可观测、可控制的测试方案。尽管当前实现的代理平台为地面系统，但其架构有意围绕无人机（UAV）和航天系统共有的技术要素进行设计，包括资源受限的机载计算能力、间歇性或高延迟通信链路、概率性感知机制以及任务关键型恢复行为。最终成果是一个可在无人机和航天领域广泛适用的、可实施的研究框架，支持开展可靠且安全的自主性研究。"
+  },
+  {
+    "date": "2026-04-28",
+    "title": "Prime-Field PINI: Machine-Checked Composition Theorems for Post-Quantum NTT Masking",
+    "authors": "Ray Iskander, Khaled Kirah",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.25878v1",
+    "source": "arXiv",
+    "abstract": "This is Paper 6 of a series of formally-verified analyses of masked NTT hardware for post-quantum cryptography; Paper 1 [1] established structural dependency analysis of the QANARY platform, and Paper 2 [2] quantified security margins under partial NTT masking. Boolean masking composition is well-understood through NI, SNI, and PINI. Arithmetic masking over $\\mathbb{Z}_q$ for prime $q$, the foundation of NTT-based post-quantum cryptography, has lacked an analogous theory. We prove, to our knowledge, the first machine-checked composition theorems for arithmetic masking over prime fields. Our key insight is the renewal argument: when a fresh random mask is applied between two pipeline stages, the intermediate wire becomes perfectly uniform regardless of Stage 1's security parameter. For two PF-PINI gadgets with parameters $k_1$ and $k_2$, the composed two-stage pipeline with fresh masking satisfies PF-PINI($k_2$), Stage 1's multiplicity is completely erased from the composed output. Without fresh masking, intermediate wires have multiplicity up to $k_1$, creating a necessary condition for differential power analysis. We formalize both theorems in Lean 4 with 18 machine-checked proofs and zero sorry stubs. We formally bridge the algebraic and hardware-faithful arithmetic models of Barrett reduction, and instantiate the theorems to formally diagnose Microsoft's Adams Bridge PQC accelerator: its absence of fresh inter-stage masking leaves Barrett output wires non-uniform under the first-order probing model, the same architectural flaw that two independent empirical analyses [3, 4] and our own prior structural analysis [1] identified. Computational evidence further suggests the 1-Bit Barrier is universal across Barrett and Montgomery reductions.",
+    "title_zh": "素域PINI：后量子NTT掩码的机器验证组合定理",
+    "abstract_zh": "这是关于后量子密码学中掩码NTT硬件的一系列形式化验证分析的第六篇论文；第一篇论文[1]建立了QANARY平台的结构依赖性分析，第二篇论文[2]量化了部分NTT掩码下的安全裕度。布尔掩码的组合性质已通过NI、SNI和PINI得到充分理解。然而，基于素数域$\\mathbb{Z}_q$（其中$q$为素数）的算术掩码——NTT型后量子密码学的基础——一直缺乏类似的组合理论。据我们所知，本文首次提出了针对素数域上算术掩码的机器可验证组合定理。我们的核心洞见是“更新论证”：当在两个流水线阶段之间引入一个全新的随机掩码时，中间连线将变得完全均匀，无论第一阶段的安全参数如何。对于两个分别具有参数$k_1$和$k_2$的PF-PINI组件，若在其间加入新鲜掩码，则组成的两级流水线满足PF-PINI($k_2$)，即第一阶段的多重性对最终组合输出完全没有影响。若无新鲜掩码，中间连线的多重性可达$k_1$，从而为差分功耗分析提供了必要条件。我们在Lean 4中对这两个定理进行了形式化建模，共完成18个机器可验证证明，且无任何未完成的`sorry`占位符。我们还形式化地架起了Barrett约简的代数模型与贴近硬件的实际算术模型之间的桥梁，并将这些定理应用于微软Adams Bridge PQC加速器的形式化诊断：其各阶段之间缺乏新鲜掩码，导致在一次探测模型下Barrett模块的输出线呈现非均匀分布——这一架构缺陷此前已被两项独立的实证分析[3, 4]以及我们先前的结构分析[1]所指出。进一步的计算证据表明，“1比特壁垒”（1-Bit Barrier）现象在Barrett约简和Montgomery约简中均普遍存在。"
+  },
+  {
+    "date": "2026-04-28",
+    "title": "Rethinking Wireless Communications through Formal Mathematical AI Reasoning",
+    "authors": "Changyuan Zhao, Jiacheng Wang, Dusit Niyato, Zan Li, Abbas Jamalipour, Shiwen Mao, Xianbin Wang, Dong In Kim",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.25155v1",
+    "source": "arXiv",
+    "abstract": "Mathematical analysis has long underpinned wireless communication theory, yet the growing complexity of next-generation systems demands increasingly sophisticated reasoning from domain experts. Recent advances in AI mathematical reasoning, from formal theorem proving to large language model (LLM)-based derivation, offer a promising but largely unexplored path forward. Here we argue that wireless communications is a uniquely structured domain for formal AI reasoning, and propose a three-layer framework of verification, derivation, and discovery to rethink how wireless mathematical knowledge is established.",
+    "title_zh": "通过形式化数学人工智能推理重新思考无线通信",
+    "abstract_zh": "数学分析长期以来一直是无线通信理论的基础，然而下一代系统日益增长的复杂性对领域专家提出了越来越高的推理要求。近年来人工智能在数学推理方面的进展，从形式化定理证明到基于大语言模型（LLM）的推导，提供了一条颇具前景但尚未充分探索的发展路径。本文认为，无线通信是一个特别适合形式化人工智能推理的结构化领域，并提出一个包含验证、推导与发现的三层框架，以重新思考无线通信数学知识的构建方式。"
+  },
+  {
+    "date": "2026-04-28",
+    "title": "Positional Properties in Temporal Logic",
+    "authors": "Jessica Newman, Benjamin Plummer",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.25628v1",
+    "source": "arXiv",
+    "abstract": "We study positional properties in the context of game-based reactive synthesis. Our motivation stems from having a usable specification logic, for which tractable synthesis is guaranteed. We demonstrate that every $ω$-regular positional property (with respect to state- or edge-labelled game graphs), is expressible in linear-time temporal logic. Additionally, we provide some necessary and sufficient conditions for when an $ω$-regular property is positional, and identify well-behaved subclasses of $ω$-regular positional properties. Using varieties of languages, we prove that no class of $ω$-regular positional properties can simultaneously contain a prefix-independent property and be closed under Boolean operations. We conclude by discussing the implications on alternating-time temporal logic, where we isolate a few different fragments with tractable model checking, and compare the associated expressivity of such fragments.",
+    "title_zh": "时序逻辑中的位置属性",
+    "abstract_zh": "我们研究了基于博弈的反应式综合（reactive synthesis）中的位置性性质（positional properties）。我们的动机来源于拥有一种可用的规约逻辑，从而确保综合过程具有可追踪性。我们证明了，对于状态标记或边标记的博弈图而言，每一个ω-正则的位置性性质都可以用线性时序逻辑（LTL）表达。此外，我们给出了ω-正则性质具有位置性的若干充分必要条件，并识别出一些具有良好行为的ω-正则位置性性质子类。借助语言簇（varieties of languages）理论，我们证明了：任何一类ω-正则位置性性质都不可能同时包含一个前缀无关的性质并关于布尔运算封闭。最后，我们讨论了这些结果对交替时序逻辑（ATL）的影响，从中分离出几个模型检测可追踪的片段，并比较了这些片段的表达能力。"
+  },
+  {
+    "date": "2026-04-28",
+    "title": "Using Large Language Models for Black-Box Testing of FMU-Based Simulations",
+    "authors": "Abdullah Mughees, Gaadha Sudheerbabu, Tanwir Ahmad, Dragos Truscan, Mikael Manngård, Kristian Klemets",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.25650v1",
+    "source": "arXiv",
+    "abstract": "We propose a human in the loop approach for black-box testing of Functional Mock-up Units (FMUs) using Large Language Models (LLMs). The goal is to reduce the manual effort in defining test scenarios for dynamic simulation models and to improve the interpretability of results. The approach takes the functional and interface specifications of an FMU as input, and prompts an LLM to generate structured scenario goals in Given-When-Then format that define the initial input conditions of the simulation, a possible change in those conditions, and the expected output behaviour of the system against those changes. The corresponding scenario plans specify input patterns and add assertion oracles that describe expected output patterns defined in scenario goals. The approach generates a complete input time series for the scenario plans, runs the FMU simulation, and evaluates assertions on the recorded outputs. It produces human-readable logs and plots that show statistics for each scenario with overlays, aggregate pass rates, and per-goal outcomes. The generated scenarios and results are stored for evaluation and later re-execution. We evaluate the approach on a Lube Oil Cooling system and discuss design choices that make the approach practical for everyday use. Results suggest that LLM-assisted scenario generation can facilitate automatic test design and verification of dynamic simulation models.",
+    "title_zh": "使用大语言模型对基于FMU的仿真进行黑盒测试",
+    "abstract_zh": "我们提出了一种结合人类参与的“人在回路”方法，利用大语言模型（LLM）对功能模拟单元（FMU）进行黑盒测试。该方法旨在减少为动态仿真模型手动定义测试场景的工作量，并提高测试结果的可解释性。该方法以FMU的功能和接口规范作为输入，通过提示大语言模型生成结构化的“Given-When-Then”格式的场景目标，这些目标定义了仿真的初始输入条件、可能发生的条件变化，以及系统在这些变化下的预期输出行为。相应的场景计划则进一步明确输入模式，并添加断言验证规则，描述场景目标中定义的预期输出模式。该方法为场景计划生成完整的输入时间序列，运行FMU仿真，并对记录的输出结果进行断言评估。同时，生成人类可读的日志和图表，展示每个场景的统计信息，包括数据叠加图、总体通过率以及各目标的执行结果。生成的测试场景和结果将被存储，以便后续评估和重复执行。我们在一个润滑油冷却系统上对该方法进行了评估，并讨论了使其适用于日常实践的关键设计选择。实验结果表明，借助大语言模型的场景生成能够有效促进动态仿真模型的自动化测试设计与验证。"
+  },
+  {
+    "date": "2026-04-28",
+    "title": "Agentic Architect: An Agentic AI Framework for Architecture Design Exploration and Optimization",
+    "authors": "Alexander Blasberg, Vasilis Kypriotis, Dimitrios Skarlatos",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.25083v1",
+    "source": "arXiv",
+    "abstract": "Rapid advances in Large Language Models (LLMs) create new opportunities by enabling efficient exploration of broad, complex design spaces. This is particularly valuable in computer architecture, where performance depends on microarchitectural designs and policies drawn from vast combinatorial spaces. We introduce Agentic Architect, an agentic AI framework for computer architecture design exploration and optimization that combines LLM-driven code evolution with cycle-accurate simulation. The human architect specifies the optimization target, seed design, scoring function, simulator interface, and benchmark split, while the LLM explores implementations within these constraints. Across cache replacement, data prefetching, and branch prediction, Agentic Architect matches or exceeds state-of-the-art designs. Our best evolved cache replacement design achieves a 1.062x geomean IPC speedup over LRU, 0.6% over Mockingjay (1.056x). Our evolved branch predictor achieves a 1.100x geomean IPC speedup over Bimodal, 1.5% over its Hashed Perceptron seed (1.085x). Finally, our evolved prefetcher achieves a 1.76x geomean IPC speedup over no prefetching, 17% over its VA/AMPM Lite seed (1.59x) and 21% over SMS (1.55x). Our analysis surfaces several findings about agentic AI-driven microarchitecture design. Across evolved designs, components often correspond to known techniques; the novelty lies in how they are coordinated. The architect's role is shifting, but the human remains central. Seed quality bounds what search can achieve: evolution can refine and extend an existing mechanism, but cannot compensate for a weak foundation. Likewise, objectives, constraints, and prompt guidance affect reliability and generalization. Overall, Agentic Architect is the first end-to-end open-source framework for agentic AI architecture exploration and optimization.",
+    "title_zh": "智能体架构师：一种用于建筑设计探索与优化的智能体AI框架",
+    "abstract_zh": "大型语言模型（LLMs）的快速发展为高效探索广泛而复杂的设计空间带来了新的机遇。这一点在计算机体系结构领域尤为宝贵，因为其性能依赖于从庞大组合空间中选取的微架构设计与策略。本文提出了Agentic Architect——一种面向计算机体系结构设计探索与优化的智能体式AI框架，该框架将基于大语言模型的代码演化与周期精确仿真相结合。在此框架下，人类架构师负责指定优化目标、初始设计种子、评分函数、仿真器接口以及基准测试划分，而大语言模型则在这些约束条件下自主探索实现方案。\n\n在缓存替换、数据预取和分支预测等多个关键设计任务中，Agentic Architect均达到或超越了当前最先进的设计方案。我们最优的进化所得缓存替换策略相比LRU实现了1.062倍的几何平均IPC加速，优于Mockingjay（1.056倍）0.6%；所进化的分支预测器相比Bimodal实现了1.100倍的几何平均IPC提升，比其Hashed Perceptron初始种子（1.085倍）高出1.5%；最终，所进化的预取器相比无预取提升了1.76倍的几何平均IPC，分别比VA/AMPM Lite初始种子（1.59倍）和SMS（1.55倍）高出17%和21%。\n\n我们的分析揭示了智能体式AI驱动微架构设计的若干重要发现：在所有进化得到的设计中，组件通常对应已知的技术方法，真正的创新之处在于这些技术之间的协调方式。架构师的角色正在转变，但人类仍处于核心地位。初始设计种子的质量决定了搜索所能达到的上限：进化过程可以对现有机制进行精炼和扩展，但无法弥补基础薄弱的缺陷。同样，优化目标、约束条件以及提示引导也显著影响系统的可靠性与泛化能力。\n\n总体而言，Agentic Architect是首个端到端开源的智能体式AI体系结构探索与优化框架，为未来自动化体系结构设计开辟了新路径。"
+  }
+]
