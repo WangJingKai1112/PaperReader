@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-04-29",
+    "title": "Exploring the Efficiency of 3D-Stacked AI Chip Architecture for LLM Inference with Voxel",
+    "authors": "Yiqi Liu, Noelle Crawford, Michael Wang, Jilong Xue, Jian Huang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.26821v1",
+    "source": "arXiv",
+    "abstract": "To overcome the well-known memory bottleneck of AI chips, 3D stacked architectures that employ advanced packaging technology with high-density through-silicon vias (TSVs) pins have proven to be a promising solution. The 3D-stacked AI chip enables ultra-high memory bandwidth between compute and memory by stacking numerous DRAM banks atop many AI cores in a distributed manner. However, it is not easy to explore the efficiency of the 3D-stacked AI chip, due to its unique distributed nature. And we need to carefully consider multiple intertwined factors that range from upper-level computing paradigm to machine learning (ML) compiler optimizations, and to the underlying hardware architecture. In this paper, we develop Voxel, a fast and compiler-aware end-to-end simulation framework to facilitate exploring the efficiency of 3D-stacked AI chips for large language model (LLM) inference. Voxel enables the software/hardware co-exploration by employing a programming interface that allows ML compilers to customize the model execution plans. After validating the results of Voxel with an emulator on real silicon, we thoroughly examine the impact and correlation of different aspects of 3D-stacked AI chips, including state-of-the-art compute paradigms, tile-to-core mapping, tensor-to-bank mapping, NoC topologies and link bandwidth, DRAM bank bandwidth, per-core SRAM capacity, and energy/thermal constraints. Our findings disclose that the end-to-end efficiency of a 3D stacked AI chip not only is determined by the cooperative function of these factors, but also significantly depends on the mappings from tiles to AI core and DRAM banks. We report our findings throughout the paper, with the expectation that they will shed light on the development of the 3D-stacked AI chip ecosystem. We will open source Voxel and our study results for public research.",
+    "title_zh": "探索基于Voxel的3D堆叠AI芯片架构在大语言模型推理中的效率",
+    "abstract_zh": "为克服人工智能芯片中众所周知的内存瓶颈问题，采用先进封装技术并结合高密度硅通孔（TSV）引脚的3D堆叠架构已被证明是一种颇具前景的解决方案。3D堆叠AI芯片通过将大量DRAM存储体以分布式方式堆叠在众多AI计算核之上，实现了计算单元与内存之间的超高内存带宽。然而，由于其独特的分布式特性，要充分探索3D堆叠AI芯片的效率并非易事。我们必须从上层的计算范式、机器学习（ML）编译器优化，到底层硬件架构等多个相互关联的因素进行综合考量。本文提出Voxel——一种快速且支持编译器感知的端到端仿真框架，旨在促进针对大语言模型（LLM）推理任务的3D堆叠AI芯片效率探索。Voxel通过引入编程接口，使机器学习编译器能够自定义模型执行计划，从而实现软硬件协同设计探索。在使用真实芯片上的模拟器对Voxel结果进行验证后，我们系统地分析了3D堆叠AI芯片各个方面的性能影响及其相互关系，包括最先进的计算范式、计算块到核心的映射、张量到存储体的映射、片上网络（NoC）拓扑结构与链路带宽、DRAM存储体带宽、每核SRAM容量以及功耗和热约束等。研究发现，3D堆叠AI芯片的端到端效率不仅取决于这些因素之间的协同作用，还极大程度上受制于计算块到AI核心及DRAM存储体的映射策略。我们在全文中报告了这些发现，期望能为3D堆叠AI芯片生态系统的未来发展提供有益指导。此外，我们将开源Voxel框架及本研究的相关成果，供学术界和工业界共同研究使用。"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "DreamProver: Evolving Transferable Lemma Libraries via a Wake-Sleep Theorem-Proving Agent",
+    "authors": "Youyuan Zhang, Jialiang Sun, Hangrui Bi, Chuqin Geng, Wenjie Ma, Zhaoyu Li, Xujie Si",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.26311v1",
+    "source": "arXiv",
+    "abstract": "We introduce DreamProver, an agentic framework that leverages a \"wake-sleep\" program induction paradigm to discover reusable lemmas for formal theorem proving. Existing approaches either rely on fixed lemma libraries, which limit adaptability, or synthesize highly specific intermediate lemmas tailored to individual theorems, thereby lacking generality. DreamProver addresses this gap through an iterative two-stage process. In the wake stage, DreamProver attempts to prove theorems from a training set using the current lemma library while proposing new candidate lemmas. In the \"sleep\" stage, it abstracts, refines, and consolidates these candidates to compress and optimize the library. Through this alternating cycle, DreamProver progressively evolves a compact set of high-level, transferable lemmas that can be effectively used to prove unseen theorems in related domains. Experimental results demonstrate that DreamProver substantially improves proof success rates across a diverse set of mathematical benchmarks, while also producing more concise proofs and reducing computational cost.",
+    "title_zh": "DreamProver：通过唤醒-睡眠定理证明代理演进可迁移的引理库",
+    "abstract_zh": "我们提出了DreamProver，这是一种基于“觉醒-睡眠”程序归纳范式的智能体框架，旨在发现可用于形式化定理证明的可复用引理。现有的方法要么依赖固定的引理库，限制了系统的适应性；要么生成高度特定于单个定理的中间引理，缺乏通用性。DreamProver通过一种迭代的两阶段过程弥补了这一不足。在“觉醒”阶段，DreamProver利用当前的引理库尝试证明训练集中的定理，同时提出新的候选引理；在“睡眠”阶段，系统对这些候选引理进行抽象、精炼和整合，从而压缩并优化引理库。通过这种交替循环，DreamProver逐步演化出一组紧凑、高层且具有迁移性的引理，能够有效用于证明相关领域中未见过的新定理。实验结果表明，DreamProver在多种数学基准测试中显著提高了定理证明的成功率，同时生成更简洁的证明，并降低了计算开销。"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "Runtime Verification: Monitoring, Knowledge, and Uncertainty (Lecture Notes)",
+    "authors": "Benedikt Bollig",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.26753v1",
+    "source": "arXiv",
+    "abstract": "Runtime verification is a lightweight verification technique that complements model checking by analyzing system executions at runtime rather than exploring a complete system model in advance. It is particularly useful for partially observable or black-box systems, where uncertainty can only be resolved through observation. These lecture notes present automata-theoretic, temporal-logical, and epistemic foundations of runtime verification. They cover specification formalisms, diagnosis, opacity, and monitorability, and explain how offline analysis can be used to construct monitors that operate online on observed executions. The notes also discuss timed extensions and the additional algorithmic and semantic challenges that arise in the real-time setting.",
+    "title_zh": "运行时验证：监控、知识与不确定性（讲义）",
+    "abstract_zh": "运行时验证是一种轻量级的验证技术，它通过在系统运行期间分析其执行过程，而非预先探索完整的系统模型，从而对模型检测形成补充。该技术特别适用于部分可观测或黑盒系统，在这些系统中，不确定性只能通过观察来消除。本讲义介绍了运行时验证的自动机理论、时态逻辑以及认知逻辑基础，涵盖规范形式化方法、故障诊断、隐蔽性（opacity）和可监控性（monitorability），并解释了如何利用离线分析构建可在实际执行过程中在线运行的监控器。此外，讲义还讨论了时间扩展，以及在实时环境下出现的额外算法与语义挑战。"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "On-the-fly LTLf Synthesis under Partial Observability",
+    "authors": "Nadav Alon, Supratik Chakraborty, Alexandre Duret-Lutz, Dror Fried, Lucas M. Tabajara, Moshe Y. Vardi, Shufang Zhu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.26688v1",
+    "source": "arXiv",
+    "abstract": "LTLf synthesis under partial observability requires reasoning about unobservable environment variables, which is typically handled by constructing a belief-state DFA via subset construction that universally quantifies these variables. Existing approaches perform this construction as a separate step prior to game solving, often generating belief states that are unnecessary in practice. We propose an on-the-fly approach to LTLf synthesis under partial observability based on observable progression. Our method incrementally builds the belief-state DFA by progressing the specification with respect to observable variables only, universally quantifying unobservable variables on the fly. We prove the correctness of the construction and show that it naturally enables on-the-fly game solving, leading to a fully on-the-fly synthesis framework. Our implementation leverages DFAs represented using Multi-Terminal Binary Decision Diagrams: a compact representation that has proven highly effective for LTLf synthesis under full observability. Experimental results demonstrate that our approach significantly outperforms existing methods and further highlight the practical benefits of integrating on-the-fly game solving with belief-state construction.",
+    "title_zh": "部分可观测条件下的在线LTLf综合",
+    "abstract_zh": "在部分可观测性下的LTLf综合需要对不可观测的环境变量进行推理，通常通过子集构造法构建信念状态DFA来实现，该方法对这些不可观测变量进行全称量化。现有方法将此构造作为游戏求解前的独立步骤，往往生成实际中不必要的信念状态。我们提出了一种基于可观测推进的部分可观测LTLf综合的在线方法。我们的方法仅根据可观测变量逐步推进规范，并在推进过程中动态地对不可观测变量进行全称量化，从而增量式地构建信念状态DFA。我们证明了该构造的正确性，并表明其自然支持在线的游戏求解，从而形成一个完全在线的综合框架。我们的实现利用多终端二叉决策图（MTBDD）表示DFA——这是一种紧凑的表示形式，在完全可观测条件下的LTLf综合中已被证明非常高效。实验结果表明，我们的方法显著优于现有方法，并进一步凸显了将在线游戏求解与信念状态构造相结合所带来的实际优势。"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "Probabilistic Condition, Decision and Path Coverage of Circuit-based Quantum Programs",
+    "authors": "Daniel Fortunato, José Campos, Rui Abreu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.26609v1",
+    "source": "arXiv",
+    "abstract": "Coverage criteria play a central role in assessing test adequacy in classical software, yet their effectiveness for quantum programs remains poorly understood and largely unexplored. In this paper, we propose six quantum-tailored criteria - condition, decision, and path coverage, and their probabilistic variants - adapted from their classical counterparts. We present QaCoCo, a tool that computes these criteria for circuit-based quantum programs. We empirically evaluate these criteria on a large and diverse set of 540 circuits and analyze the coverage achieved. Our results show that while circuits frequently achieve high condition and decision coverage (97.56% and 97.63%, on average), path coverage remains limited (71.84%), particularly in the presence of multi-controlled gates, which induce extreme path explosion and coverage imbalance. Moreover, to account for the probabilistic nature of quantum circuits, we introduce probabilistic coverage, which augments structural coverage with a confidence measure (88.87%, 88.65%, and 37.18% for condition, decision, and path coverage, respectively, on average). Finally, through mutation testing, we find weak or no correlation between fault detection and structural coverage, consistent with observations in classical computing.",
+    "title_zh": "基于电路的量子程序的概率条件、决策与路径覆盖",
+    "abstract_zh": "覆盖标准在评估传统软件的测试充分性方面起着核心作用，但其在量子程序中的有效性仍知之甚少且基本未被探索。本文提出了六种针对量子程序量身定制的覆盖准则——条件、判定和路径覆盖，以及它们的概率变体——这些准则源自经典对应物。我们提出了QaCoCo工具，用于计算基于电路的量子程序的这些覆盖准则。我们在大量且多样化的540个量子电路上对这些准则进行了实证评估，并分析了所实现的覆盖情况。结果表明，尽管电路通常能实现较高的条件和判定覆盖（平均分别为97.56%和97.63%），但路径覆盖却相对有限（平均为71.84%），尤其是在存在多控制门的情况下，这类门会导致路径数量急剧膨胀和覆盖不均衡。此外，为了体现量子电路的概率特性，我们引入了概率覆盖概念，它在结构覆盖的基础上增加了置信度度量（条件、判定和路径覆盖的平均值分别为88.87%、88.65%和37.18%）。最后，通过变异测试，我们发现故障检测能力与结构覆盖之间存在较弱甚至无相关性，这一现象与经典计算中的观察结果一致。"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "A Multi-Level Integrity Evaluation Framework for Quantum Circuits under Controlled Anomaly Injection",
+    "authors": "Ejaz Ahmed, Boshuai Ye, Syed Hamza Shah, Muhammad Azeem Akbar, Arif Ali Khan",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2604.26430v1",
+    "source": "arXiv",
+    "abstract": "Ensuring the integrity of quantum circuits is a significant challenge in the Noisy Intermediate-Scale Quantum (NISQ) era, where circuits are subject to compilation transformations, hardware constraints, and potential adversarial modifications. Existing validation approaches typically rely on either structural analysis or behavioral evaluation, leading to incomplete assessment of circuit correctness. In this work, we investigate the relationship between structural, interaction-level, and behavioral perspectives of circuit integrity, demonstrating that a single aspect of integrity is insufficient to guarantee circuit integrity; structural similarity alone does not ensure behavioral equivalence. To address this problem, we use a three-layer metric framework that combines the Structural Integrity Score (SIS), the Operational Integrity Score (OIS), and the Interaction Graph Semantic-Logical Score (IGS). SIS captures global structural properties, OIS quantifies behavioral divergence using Jensen-Shannon distance, and IGS models interaction patterns and dependencies in a pre-execution setting. Through controlled anomaly injection on benchmark quantum circuits, we demonstrate that each metric captures a different aspect of circuit deviation. In particular, structural blind-spot cases (SIS >= 0.95) reveal a clear limitation of structural analysis, where OIS detects anomalies in 93.85% of instances, while IGS detects 72.58%. These results highlight that the metrics provide complementary insights and that a single metric is insufficient for reliable circuit validation.",
+    "title_zh": "一种基于受控异常注入的量子电路多级完整性评估框架",
+    "abstract_zh": "在含噪声的中等规模量子（NISQ）时代，确保量子电路的完整性是一项重大挑战，因为电路会受到编译转换、硬件限制以及潜在的恶意篡改的影响。现有的验证方法通常依赖于结构分析或行为评估，导致对电路正确性的评估不完整。本文研究了电路完整性在结构层面、交互层面和行为层面之间的关系，表明单一维度的完整性无法充分保证整体电路的完整性；仅结构相似并不能确保行为等价。为解决这一问题，我们提出一个三层度量框架，结合结构完整性评分（SIS）、操作完整性评分（OIS）和交互图语义逻辑评分（IGS）。其中，SIS 捕获电路的全局结构特性，OIS 利用 Jensen-Shannon 距离量化行为偏差，IGS 则在执行前建模电路中的交互模式与依赖关系。通过对基准量子电路进行受控异常注入实验，我们证明每个指标能够捕捉电路偏离的不同方面。特别是，在结构盲区案例中（SIS ≥ 0.95），结构分析的局限性明显显现：OIS 在 93.85% 的实例中检测到异常，而 IGS 检测到 72.58%。这些结果表明，各指标提供了互补的洞察，单一指标不足以实现可靠的电路验证。"
+  }
+]
