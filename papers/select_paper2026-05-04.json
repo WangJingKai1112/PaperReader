@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-5-4",
+    "title": "A Multi-stage Error Diagnosis for APB Transaction",
+    "authors": "Cheng-Yang Tsai, Tzu-Wei Huang, Jen-Wei Shih, I-Hsiang Wang, Yu-Cheng Lin, Rung-Bin Lin",
+    "publish": "Proceedings of the 2025 8th Artificial Intelligence and Cloud Computing Conference",
+    "url": "https://doi.org/10.1145/3789982.3790040",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "一种用于APB事务的多阶段错误诊断方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "<scp>Arash</scp>\n                    : Token-Efficient LLM-Assisted Crash Root Cause Analysis in Fuzz Driver Generation",
+    "authors": "Maoyi Xie, Kaixuan Li, Jingquan Ge, Wei Ma, Yuqiang Sun, Ziqiao Kong, Cen Zhang, Dongge Liu, Oliver Chang, Yang Liu",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3811034",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "<scp>Arash</scp>：面向模糊测试驱动生成的高效令牌大语言模型辅助崩溃根本原因分析",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Early Functional Safety and PPA evaluation for faster digital design development",
+    "authors": "Michelangelo Bartolomucci, David Kingston, Teo Cupaiuolo, Alessandra Nardi, Riccardo Cantoro",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3690084",
+    "source": "IEEE",
+    "abstract": "The use of semiconductor devices in safety-critical applications is increasing in both volume and complexity. Applications in markets such as automotive, data centers, and aerospace have dependability requirements that impose additional safety and reliability metrics beyond the traditional Power, Performance, and Area (PPA). Semiconductor devices for safety-critical applications incorporate protection logic to enhance resilience against random failures (i.e., they are hardened). Although automation to optimize PPA and Time-to-Market (TTM) is well established, further effort is required to incorporate safety as a first-class metric in the design process. This paper presents a novel approach that supports safety requirements from Register Transfer Level (RTL) exploration through implementation, thereby minimizing costly design iterations. A Safety Specification Format (SSF) is used to explore different protection levels and safety mechanisms at the RTL stage and to seamlessly implement the selected configuration. The approach is evaluated on the CV32E40P and CVA6 open-source RISC-V processors and on ISCAS89 benchmarks. Validation is performed through trend comparison and quantitative correlation against traditional implementation methodologies across multiple designs.",
+    "title_zh": "早期功能安全与PPA评估，加速数字设计开发",
+    "abstract_zh": "半导体器件在安全关键型应用中的使用量和复杂性正在不断增加。汽车、数据中心和航空航天等市场领域的应用对可靠性提出了更高要求，除了传统的功耗、性能和面积（PPA）指标外，还需额外考虑安全性和可靠性指标。用于安全关键型应用的半导体器件集成了保护逻辑，以增强对随机故障的抵御能力（即具备抗干扰能力）。尽管在优化PPA和上市时间（TTM）方面的自动化技术已较为成熟，但仍需进一步努力将安全性作为设计流程中的一级指标加以整合。本文提出了一种新颖的方法，支持从寄存器传输级（RTL）探索到实现阶段全面满足安全需求，从而最大限度地减少昂贵的设计迭代。该方法采用一种安全规范格式（SSF），在RTL阶段探索不同的保护等级和安全机制，并实现所选配置的无缝衔接。该方法在CV32E40P和CVA6两款开源RISC-V处理器以及ISCAS89基准电路上进行了评估，并通过与传统实现方法在多个设计上的趋势对比和定量相关性分析完成了验证。"
+  },
+  {
+    "date": "2026-5-5",
+    "title": "Test Case Generation Method Based on the Synergy of Generative Model and Gradient Attack",
+    "authors": "Kecheng Tang, Xiaoyan Wang, Ronggui Gao, Ding Yang, Haijie Zhang, Pin Lv, Jie He, Juan Li, Jian Zhang",
+    "publish": "Proceedings of the 2026 2nd International Conference on Generative Artificial Intelligence and Digital Media",
+    "url": "https://doi.org/10.1145/3803730.3803750",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于生成模型与梯度攻击协同的测试用例生成方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "List of Papers",
+    "authors": "N/A",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490683",
+    "source": "IEEE",
+    "abstract": null,
+    "title_zh": "论文列表",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Reverse Engineering of Industrial Protocols From Network Traffic",
+    "authors": "Chuan Sheng, Shan Jiang, Qing-Long Han, Wei Zhou, Wanlun Ma, Xiaogang Zhu, Sheng Wen, Yang Xiang",
+    "publish": "IEEE Transactions on Industrial Informatics",
+    "url": "https://doi.org/10.1109/tii.2026.3681937",
+    "source": "IEEE",
+    "abstract": "Reliable protocol knowledge is often difficult to obtain in industrial networks, as industrial communications come with limited documentation, vendor-specific encodings, and opaque payloads. This lack of transparency hinders message interpretation and protocol analysis. To recover this missing protocol knowledge, network-trace-based protocol reverse engineering (PRE) infers message structure, field roles, and interaction logic directly from recorded traces. This enables protocol-aware intrusion detection, process monitoring, and protocol testing and fuzzing without access to device internals. Although PRE has advanced rapidly, existing techniques are developed under diverse objectives and assumptions. As a result, it is often unclear how isolated results relate to an end-to-end reverse-engineering workflow, and how evaluation outcomes should be compared across tasks and protocols. In this article, we cast reverse engineering of industrial protocols from network traces as a task-driven pipeline and articulate a unified task decomposition spanning message type identification, protocol syntax and semantic inference, payload pattern recognition and semantic inference, and protocol state machine reconstruction. For each task, we describe key methodological themes, common evaluation practices, and practical limitations that affect robustness and deployability in industrial settings. We further discuss security, privacy, and ethical risks that accompany increasingly capable PRE, and identify promising research directions toward more systematic, dependable, and deployment-oriented PRE methodologies.",
+    "title_zh": "从网络流量中逆向工程工业协议",
+    "abstract_zh": "可靠的协议知识在工业网络中往往难以获取，因为工业通信通常缺乏详尽的文档、采用厂商特定的编码方式，并且载荷内容不透明。这种缺乏透明度的情况严重阻碍了消息解析和协议分析。为了恢复这些缺失的协议知识，基于网络流量的协议逆向工程（Protocol Reverse Engineering, PRE）技术通过直接分析记录的通信轨迹，推断出消息结构、字段功能以及交互逻辑。这种方法能够在无需访问设备内部信息的前提下，实现对协议感知的入侵检测、过程监控，以及协议测试与模糊测试。尽管PRE技术近年来发展迅速，但现有方法大多基于不同的研究目标和假设条件而开发，导致孤立的研究成果难以被整合到端到端的逆向工程工作流程中，也使得不同任务和协议之间的评估结果难以比较。\n\n本文将从网络轨迹中逆向工业协议的过程建模为一个以任务驱动的处理流程，提出一种统一的任务分解框架，涵盖消息类型识别、协议语法与语义推断、载荷模式识别与语义解析，以及协议状态机重建等关键任务。针对每一项任务，我们总结了主要的方法论思路、常见的评估实践，以及影响其在工业环境中鲁棒性和可部署性的实际限制。此外，我们还探讨了随着PRE能力不断提升所带来的安全、隐私和伦理风险，并指出了未来有前景的研究方向，旨在推动更加系统化、可靠且面向实际部署的协议逆向工程技术的发展。"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Design and Hil Validation of a Closed-Loop Controlled 5 KW LLC Resonant Converter for 400 V DC Output Using OPAL-RT",
+    "authors": "Uditveer Singh Rajput, Annu Kumari, Sanjeev Singh, D. Giribabu",
+    "publish": "2025 IEEE 4th International Conference on Smart Technologies for Power, Energy and Control (STPEC)",
+    "url": "https://doi.org/10.1109/stpec66316.2025.11490891",
+    "source": "IEEE",
+    "abstract": "This paper presents design and validation of a high-performance LLC resonant converter for a <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$400 ~\\mathrm{V}, 5 ~\\text{kW}$</tex> DC output application, suitable for isolated charging systems, and other industrial applications. The designed converter achieves high efficiency at 10 khz switching frequency due to soft-switching operation and optimized resonant tank circuit. The presented control strategy ensures desired voltage regulation under varying input and load. The entire system is modeled and simulated in MATLAB/Simulink for its performance evaluation. The obtained simulated performance is validated in real-time through Hardware-in-Loop (HIL) OPAL-RT platform. For varying input voltage between 240 330 volts and varying output power the designed topology provides soft switching with efficiency above 90 % for both active and reactive loads without changing the resonant tank parameters. The proposed design demonstrates robustness, accuracy, and suitability for high-voltage DC applications.",
+    "title_zh": "基于OPAL-RT的5千瓦LLC谐振变换器闭环控制设计与硬件在环验证，用于400伏直流输出",
+    "abstract_zh": "本文提出了一种用于400 V、5 kW直流输出应用的高性能LLC谐振变换器的设计与验证，适用于隔离式充电系统及其他工业应用。由于采用了软开关操作和优化的谐振槽电路，所设计的变换器在10 kHz的开关频率下实现了高效率。所提出的控制策略可在输入电压和负载变化的情况下确保所需的电压调节性能。整个系统在MATLAB/Simulink中进行了建模与仿真，以评估其性能，并通过硬件在环（HIL）OPAL-RT平台进行实时验证。在输入电压变化范围为240至330伏、输出功率变化的情况下，该设计拓扑无需改变谐振槽参数，即可实现软开关，在有功和无功负载下效率均超过90%。所提出的方案展示了在高压直流应用中的鲁棒性、精确性和适用性。"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Radiation-Hardened Design and System-Level Validation of a Sub-20 nm FinFET 1–32 Gbps SerDes Against 5 Mrad(Si) TID Effects",
+    "authors": "Yi Wen, Jianjun Chen, Bin Liang, Yaqing Chi, Jun Huang",
+    "publish": "IEEE Transactions on Nuclear Science",
+    "url": "https://doi.org/10.1109/tns.2026.3690002",
+    "source": "IEEE",
+    "abstract": "This study systematically characterizes the system-level response of a 1–32 Gbps Serializer/Deserializer (SerDes) fabricated in a sub-20 nm FinFET technology under Total Ionizing Dose (TID) environments, focusing on its applicability in high-radiation aerospace applications. Radiation testing uses Co⁶⁰ gamma rays with a cumulative dose up to 5 Mrad(Si) at 100 rad(Si)/s, with the chip powered during irradiation to simulate real operating conditions. Performance of core sub-modules (Phase-Locked Loop (PLL), Transmitter (TX), Receiver (RX)) is evaluated via eye diagrams, jitter, and Bit Error Rate (BER) before and after irradiation. Prior to irradiation, the 32 Gbps SerDes meets PCIe 5.0 requirements, with a system BER better than 1×10⁻¹⁴ at 32.68 dB channel loss. After 5 Mrad(Si) TID irradiation and 48-hour annealing, key metrics (eye height/width, BER) degrade moderately (≤18.7%) while the system remains functionally stable. The proposed radiation-hardened design introduces approximately 23.8% area overhead and 31.4% power overhead compared with the unhardened implementation. This work achieves system-level verification of a 32 Gbps sub-20 nm FinFET SerDes under 5 Mrad(Si) TID. Integrating Radiation-Hardened-by-Design (RHBD) with adaptive calibration, it provides a cost-effective radiation-hardened solution for high-speed data links in high-radiation aerospace applications and fills the gap in system-level radiation verification for advanced-process high-speed SerDes.",
+    "title_zh": "抗5 Mrad(Si)总电离剂量效应的亚20 nm FinFET 1–32 Gbps串行解串器的抗辐射设计与系统级验证",
+    "abstract_zh": "本研究系统地表征了采用亚20 nm FinFET工艺制造的1–32 Gbps串行器/解串行器（SerDes）在总电离剂量（TID）辐射环境下的系统级响应，重点探讨其在高辐射航天应用中的适用性。辐射测试采用Co⁶⁰伽马射线，累积剂量高达5 Mrad(Si)，剂量率设定为100 rad(Si)/s，并在芯片加电状态下进行辐照，以模拟实际工作条件。通过眼图、抖动和误码率（BER）等指标，在辐照前后对核心子模块（锁相环（PLL）、发送端（TX）、接收端（RX））的性能进行了评估。在辐照前，该32 Gbps SerDes满足PCIe 5.0标准要求，在32.68 dB信道损耗下系统BER优于1×10⁻¹⁴。经过5 Mrad(Si) TID辐照及48小时退火后，关键性能指标（眼图高度/宽度、BER）出现适度退化（≤18.7%），但系统仍保持功能稳定。所提出的抗辐射加固设计相比非加固版本引入约23.8%的面积开销和31.4%的功耗开销。本工作实现了在5 Mrad(Si) TID条件下，对亚20 nm FinFET工艺32 Gbps SerDes的系统级验证。通过结合设计级抗辐射加固（RHBD）与自适应校准技术，为高辐射环境下的高速数据链路提供了一种成本效益高的抗辐射解决方案，并填补了先进工艺下高速SerDes在系统级辐射验证方面的空白。"
+  },
+  {
+    "date": "2026-5-4",
+    "title": "Applying a Schema-Constrained LLM Verification Pipeline to the Evaluation of Complex System Designs",
+    "authors": "Bo-Shuo Zhang, Tung-Ting Tsai, Wen-Pinn Fang",
+    "publish": "Proceedings of the 2025 8th Artificial Intelligence and Cloud Computing Conference",
+    "url": "https://doi.org/10.1145/3789982.3790050",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "将基于模式约束的大语言模型验证流程应用于复杂系统设计的评估",
+    "abstract_zh": "None"
+  }
+]
