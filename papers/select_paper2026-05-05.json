@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2026-05-05",
+    "title": "LIPPEN: A Lightweight In-Place Pointer Encryption Architecture for Pointer Integrity",
+    "authors": "Erfan Iravani, Lalit Prasad Peri, Mohannad Ismail, Charitha Tumkur Siddalingaradhya, Changwoo Min, Elif Bilge Kavun, Wenjie Xiong",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.03974v1",
+    "source": "arXiv",
+    "abstract": "Memory-safety violations in C and C++ programs continue to enable sophisticated exploitation techniques such as control-flow hijacking and data-oriented attacks. Existing hardware defenses either rely on address space layout randomization (ASLR) or attach explicit metadata to pointers to verify their integrity. External metadata schemes provide strong guarantees, but incur additional memory accesses and memory footprint overhead. In-place authentication mechanisms, such as ARM Pointer Authentication (PAC), achieve low overhead at the cost of limited entropy and susceptibility to brute-force and reuse attacks. This paper presents LIPPEN, a hardware-software co-design for full-pointer encryption that provides strong pointer integrity and confidentiality with zero metadata overhead. LIPPEN treats every pointer as an encrypted block, cryptographically binding it to its execution context and decrypting it transparently at dereference time. By re-purposing the entire 64-bit pointer field for encryption rather than preserving raw address bits, LIPPEN maximizes entropy, eliminates the brute-force weaknesses of truncated authentication codes, and maintains binary compatibility with existing PAC-enabled software. We prototype LIPPEN on FPGA using 64-bit RISC-V Rocket and BOOM cores, and evaluate it with microbenchmarks, nbench, and SPEC CPU2017. We compare against both an in-house RISC-V PAC implementation and Apple's PAC on the M1 processor. Across these workloads, LIPPEN provides comprehensive pointer protection with runtime overhead comparable to PAC-based schemes, while incurring negligible area and power overhead. These results show that LIPPEN is a practical design point for deploying strong pointer protection in real processors.",
+    "title_zh": "LIPPEN：一种用于指针完整性的轻量级原位指针加密架构",
+    "abstract_zh": "C和C++程序中的内存安全违规问题持续为复杂的攻击技术（如控制流劫持和面向数据的攻击）提供了可乘之机。现有的硬件防御机制要么依赖地址空间布局随机化（ASLR），要么通过在指针上附加显式元数据来验证其完整性。外部元数据方案虽然能提供较强的安全保障，但会带来额外的内存访问开销和更大的内存占用。原位认证机制（例如ARM的指针认证PAC）虽然开销较低，但受限于熵值不足，容易受到暴力破解和重用攻击。\n\n本文提出LIPPEN，一种软硬件协同设计的全指针加密方案，能够在零元数据开销的前提下，提供强大的指针完整性和机密性保护。LIPPEN将每个指针视为一个加密的数据块，将其密码学地绑定到执行上下文中，并在解引用时透明地进行解密。通过将整个64位指针字段用于加密，而非保留原始地址位，LIPPEN最大化了熵值，消除了截断认证码易受暴力破解的问题，同时保持与现有支持PAC软件的二进制兼容性。\n\n我们在基于64位RISC-V Rocket和BOOM核心的FPGA平台上对LIPPEN进行了原型实现，并使用微基准测试、nbench和SPEC CPU2017进行了评估。我们将其实现结果与自研的RISC-V PAC方案以及苹果M1处理器上的PAC进行了对比。实验结果显示，在各类工作负载下，LIPPEN提供的指针保护更为全面，运行时开销与基于PAC的方案相当，且面积和功耗开销极小。这些结果表明，LIPPEN是一种可在实际处理器中部署强健指针保护的实用设计方案。"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Backtrackable Inprocessing",
+    "authors": "Alexander Nadel",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.03654v1",
+    "source": "arXiv",
+    "abstract": "We introduce Backtrackable Inprocessing (BI), a framework that enables applying inprocessing under the current trail at any decision level, at any point during incremental SAT solving. Our approach lifts the long-standing restriction that inprocessing must be performed only at the global decision level, thereby substantially increasing its potential effectiveness. We focus on three highly efficient core techniques: subsumption, self-subsuming resolution, and Bounded Variable Elimination (BVE). We show how to ensure sound backtracking in the presence of inprocessing, and demonstrate that applying BI for incremental preprocessing after propagating assumptions yields significant performance improvements on Bounded Model Checking (BMC) benchmarks from the Hardware Model Checking Competition 2017. Implemented in the Island SAT solver (IntelSAT's fork), BI enables solving $\\sim$1.5$\\times$ as many difficult bounds as the baseline global-level incremental preprocessor.",
+    "title_zh": "可回溯的预处理",
+    "abstract_zh": "我们提出了可回溯的预处理（Backtrackable Inprocessing, BI）框架，该框架允许在增量SAT求解过程中的任意决策层级、任意时刻，在当前决策路径下应用预处理技术。我们的方法突破了长期以来预处理只能在全局决策层级执行的限制，从而显著提升了其潜在有效性。我们重点研究了三种高效的核心技术：子句消元（subsumption）、自消元归结（self-subsuming resolution）和有界变量消去（Bounded Variable Elimination, BVE）。我们展示了如何在预处理存在的情况下保证回溯的正确性，并证明在传播假设之后应用BI进行增量预处理，能够在来自2017年硬件模型检测竞赛的有界模型检测（BMC）基准测试中带来显著的性能提升。在Island SAT求解器（IntelSAT的分支版本）中实现后，BI相比仅在全局层级进行增量预处理的基线方法，能够解决约1.5倍数量的困难实例。"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Jiao: Bridging Isolation and Customization in Mixed Criticality Robotics",
+    "authors": "James Yen, Zhibai Huang, Zhixiang Wei, Tinghao Yi, Shupeng Zeng, Liang Pang, Songtao Xue, Zhengwei Qi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.03641v1",
+    "source": "arXiv",
+    "abstract": "Consumer robotics demands consolidation of safety-critical control, perception pipelines, and user applications on shared multicore platforms. While static partitioning hypervisors provide hardware-enforced isolation, directly transplanting automotive architectures encounters an expertise asymmetry problem in which end-users modifying robot behavior lack the systems knowledge that platform developers possess. We present an architecture addressing this challenge through three integrated components. A Safe IO Cell provides hardware-level override capability. A Parameter Synchronization Service encapsulates cross-domain complexity. A Safety Communication Layer implements IEC~61508-aligned verification. Our empirical evaluation on an ARM Cortex-A55 platform demonstrates that partition isolation reduces cycle-period jitter by 84.5\\% and cuts tail timing error by nearly an order of magnitude (p99 $|$jitter$|$ from 69.0\\,$μ$s to 7.8\\,$μ$s), eliminating all $>$50\\,$μ$s~excursions.",
+    "title_zh": "焦：在混合关键性机器人中弥合隔离与定制化的桥梁",
+    "abstract_zh": "消费级机器人需要将安全关键的控制、感知流水线和用户应用程序整合到共享的多核平台上。尽管静态分区虚拟机监视器（hypervisor）能够提供硬件强制的隔离，但直接移植汽车领域的架构会遇到“专业知识不对称”问题，即修改机器人行为的终端用户缺乏平台开发者所具备的系统知识。为此，我们提出了一种包含三个集成组件的新架构来应对这一挑战：安全I/O单元（Safe IO Cell）提供硬件级别的覆写能力；参数同步服务（Parameter Synchronization Service）封装了跨域复杂性；安全通信层（Safety Communication Layer）实现了符合IEC 61508标准的验证机制。我们在ARM Cortex-A55平台上的实验评估表明，采用分区隔离后，周期抖动减少了84.5%，尾部时序误差降低了近一个数量级（p99抖动绝对值从69.0 μs降至7.8 μs），完全消除了所有超过50 μs的异常波动。"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Probabilistic-bit Guided CDCL for SAT Solving using Ising Consensus Assumptions",
+    "authors": "Melki Bino",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.04033v1",
+    "source": "arXiv",
+    "abstract": "Boolean satisfiability (SAT) solvers are widely used in hardware verification, cryptanalysis, automatic test-pattern generation, and side-channel reasoning workflows. Modern conflict-driven clause-learning (CDCL) solvers are highly effective, but satisfiable instances may still require substantial conflict analysis and Boolean propagation before identifying productive regions of the search space. This paper studies a hybrid SAT-solving framework in which a probabilistic-bit (p-bit) Ising sampler proposes high-agreement literals that are passed to CDCL as temporary assumptions. The goal is not to replace CDCL, but to evaluate whether stochastic low-violation samples can reduce CDCL internal search effort while retaining correctness through CDCL fallback. On selected controlled-backbone random 3-SAT benchmarks, the hybrid method reduces median conflicts by 80.8-85.5% and median propagations by 80.2-84.6% relative to pure CDCL. The observed benefit is distribution-sensitive, suggesting that p-bit guidance is effective only for certain instance classes. We further report exploratory machine-learning gates that estimate when hybrid solving is likely to help. On the selected run, a random-forest gate retains 94.8% of hybrid wins, indicating that lightweight gating may help avoid unproductive hybrid calls.",
+    "title_zh": "基于伊辛共识假设的概率位引导CDCL用于SAT求解",
+    "abstract_zh": "布尔可满足性（SAT）求解器广泛应用于硬件验证、密码分析、自动测试向量生成以及侧信道推理等工作流程中。现代基于冲突驱动子句学习（CDCL）的求解器效率很高，但对于可满足的实例，仍可能需要大量的冲突分析和布尔传播，才能找到搜索空间中有利的区域。本文研究了一种混合式SAT求解框架，其中概率位（p-bit）伊辛采样器提出高一致性的文字，并将其作为临时假设传递给CDCL求解器。该方法的目的并非取代CDCL，而是评估随机产生的低违背样本是否能在保留CDCL回退机制以确保正确性的前提下，减少CDCL内部的搜索开销。在选定的具有受控骨干结构的随机3-SAT基准测试中，与纯CDCL方法相比，该混合方法将中位冲突数减少了80.8%至85.5%，中位传播次数减少了80.2%至84.6%。观察到的收益对问题分布敏感，表明p-bit引导仅对某些特定类型的实例有效。本文还报告了探索性的机器学习门控机制，用于估计混合求解何时可能带来帮助。在选定的实验运行中，随机森林门控机制保留了94.8%的混合求解优势案例，表明轻量级门控机制有助于避免无效的混合调用。"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "KVerus: Scalable and Resilient Formal Verification Proof Generation for Rust Code",
+    "authors": "Yuwei Liu, Xinyi Wan, Yanhao Wang, Minghua Wang, Lin Huang, Tao Wei",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.03822v1",
+    "source": "arXiv",
+    "abstract": "Formal verification provides the highest assurance of software correctness and security, but its application to large-scale, evolving systems remains a major challenge. While large language models (LLMs) have shown promise in automating proof generation, they often fail in real-world settings due to their inability to handle complex cross-module dependencies or changes in the codebase or the verification toolchain. We identify the fundamental problem as the Semantic-Structural Gap: LLMs operate on semantic code patterns, whereas formal verification is governed by rigid structural dependencies, a disconnect that leads to brittle, unsustainable proofs. To bridge this gap, we propose a new paradigm of self-adaptive verification and present KVerus, a retrieval-augmented system for Verus-based Rust verification that can adapt to an evolving software environment. KVerus constructs a dynamic knowledge base of code metadata, lemma semantics, and toolchain specifics. By combining dependency-aware program analysis, semantic lemma indexing, and error-driven self-refinement, it can navigate intricate cross-file dependencies to synthesize proofs and automatically repair proofs when faced with common evolutionary changes. Across three single-file benchmarks, KVerus verifies 80.2% of tasks, outperforming the state-of-the-art AutoVerus (56.9%) and degrades less than AutoVerus under breaking Verus updates. On three repository-level benchmarks with cross-file dependencies, KVerus achieves a 51.0% success rate, compared to 4.5% for a multi-round prompting baseline. Finally, on the Asterinas Rust OS kernel, KVerus produces upstream-accepted proofs that verify 23 previously unverified functions (21.0% of proof code) in the memory-management module. KVerus represents a significant step towards making formal verification a scalable and sustainable practice for modern, security-critical software.",
+    "title_zh": "KVerus：面向Rust代码的可扩展且高弹性的形式化验证证明生成",
+    "abstract_zh": "形式化验证为软件的正确性和安全性提供了最高级别的保障，但其在大规模、持续演进系统中的应用仍面临重大挑战。尽管大语言模型（LLMs）在自动化生成证明方面展现出潜力，但在实际应用场景中常常失败，原因在于它们难以处理复杂的跨模块依赖关系，或代码库及验证工具链的变化。我们将这一根本问题归结为“语义-结构鸿沟”：LLMs 基于代码的语义模式进行操作，而形式化验证却受制于严格的结构依赖关系，这种脱节导致生成的证明脆弱且难以维护。为弥合这一鸿沟，我们提出了一种自适应验证的新范式，并设计了 KVerus——一个面向基于 Verus 的 Rust 语言验证的检索增强系统，能够适应不断演化的软件环境。KVerus 构建了一个包含代码元数据、引理语义和工具链特性的动态知识库。通过结合依赖感知的程序分析、语义引理索引以及基于错误的自我优化机制，该系统能够应对复杂的跨文件依赖关系，合成证明，并在面对常见的演化变更时自动修复已失效的证明。在三个单文件基准测试中，KVerus 成功验证了 80.2% 的任务，优于当前最先进的 AutoVerus（56.9%），并在破坏性 Verus 更新下表现出更小的性能下降。在三个包含跨文件依赖关系的仓库级基准测试中，KVerus 的成功率达到 51.0%，远高于多轮提示基线方法的 4.5%。最后，在 Asterinas Rust 操作系统内核上的实验表明，KVerus 生成的证明被上游接受，成功验证了内存管理模块中此前未被验证的 23 个函数（占证明代码总量的 21.0%）。KVerus 标志着迈向将形式化验证变为现代高安全关键软件可扩展、可持续实践的重要一步。"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Design and Implementation of BNN-Based Object Detection on FPGA",
+    "authors": "Xuyu Zhao, Yunpeng Wu, Mengyuan Zhu, Haoyu Huang, Xiaoyu Xu, Yanjing Li, Gaolong Zhang, Baochang Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.03396v1",
+    "source": "arXiv",
+    "abstract": "This paper implements a Binary Neural Network (BNN) based YOLOv3-tiny-like object detector on a low-cost FPGA. The network takes 320*320*3 RGB images as input. Its main convolution layers use 1-bit weights and 8-bit activations, while Conv1 and the final detection head use fixed-point standard convolutions. From the trained ONNX model, weights, biases, and quantization parameters are extracted, converted to fixed point, packed into COE files, and stored in Vivado BRAM ROMs. The hardware is written fully in Verilog RTL and includes padding, line buffering, binary convolution, quantization post-processing, max pooling, and detection-head computation. For layers where Mul_prev is indexed by input channel and Div_current by output channel, Mul_prev is fused in-to the BNN PE so that channel-wise compensation is applied during accumulation. On VOC, the model obtains 39.6% mAP50 with 0.098 GFLOPs and 0.74 M parameters. RTL simulation shows that the final raw detection output reaches a correlation coefficient of 0.999964 and a mean absolute error of 0.020027 against the corresponding ONNX node.",
+    "title_zh": "基于BNN的物体检测在FPGA上的设计与实现",
+    "abstract_zh": "本文在低成本FPGA上实现了一种基于二值神经网络（BNN）的YOLOv3-tiny-like目标检测器。该网络以320×320×3的RGB图像作为输入，其主要卷积层采用1位权重和8位激活值，而Conv1层和最终的检测头则使用定点标准卷积。从训练好的ONNX模型中提取权重、偏置和量化参数，转换为定点格式后打包成COE文件，并存储于Vivado的BRAM ROM中。硬件设计完全采用Verilog RTL编写，包含填充（padding）、行缓冲（line buffering）、二值卷积、量化后处理、最大池化以及检测头计算等模块。对于Mul_prev按输入通道索引、Div_current按输出通道索引的层，将Mul_prev融合进BNN处理单元（PE），使得通道级补偿在累加过程中完成。在VOC数据集上，该模型实现了39.6%的mAP50精度，计算量仅为0.098 GFLOPs，参数量为0.74M。RTL仿真结果表明，最终原始检测输出与对应ONNX节点相比，相关系数达到0.999964，平均绝对误差为0.020027。"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Mitigating False Positives in Static Memory Safety Analysis of Rust Programs via Reinforcement Learning",
+    "authors": "P Akilesh, Leuson Da Silva, Foutse Khomh, Sridhar Chimalakonda",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.04000v1",
+    "source": "arXiv",
+    "abstract": "Static analysis tools are essential for ensuring memory safety in Rust programs, particularly as Rust gains adoption in safety-critical domains. However, existing tools such as Rudra and MirChecker suffer from high false positive rates, which diminish developer trust, increase manual review effort, and may obscure genuine vulnerabilities. This paper presents a novel reinforcement learning (RL)-based approach for automatically classifying and suppressing spurious warnings in static memory safety analysis for Rust. To achieve this, we design an RL agent that learns a warning suppression policy by extracting contextual features from Rust's Mid-level Intermediate Representation (MIR) and optimizing its decisions through interaction with static analysis outputs. To improve decision quality, we integrate dynamic validation via cargo-fuzz as an auxiliary feedback mechanism, allowing the agent to selectively validate suspicious warnings through targeted fuzz testing. Our evaluation shows that the proposed approach significantly outperforms state-of-the-art LLM-based baselines, achieving 65.2% accuracy and an F1 score of 0.659, an improvement of 17.1% over the best LLM baseline. With a recall of 74.6%, our method successfully identifies nearly three-quarters of true bugs while substantially reducing false positives, improving precision from 25.6% in raw Rudra output to 59.0%. Incorporating dynamic fuzzing further boosts performance, yielding additional improvements of 10.7 percentage points in accuracy and 8.6 percentage points in F1 score over the RL-only variant. Overall, our work demonstrates that combining reinforcement learning with hybrid static-dynamic analysis can substantially reduce false positives and improve the practical usability of memory safety verification tools for Rust.",
+    "title_zh": "通过强化学习减少Rust程序静态内存安全分析中的误报",
+    "abstract_zh": "静态分析工具对于确保Rust程序的内存安全至关重要，尤其是在Rust日益广泛应用于安全关键领域的情况下。然而，现有的工具（如Rudra和MirChecker）存在较高的误报率，这会削弱开发者的信任，增加人工审查的工作量，并可能掩盖真正的漏洞。本文提出了一种基于强化学习（RL）的新方法，用于自动分类并抑制Rust静态内存安全分析中的虚假警告。为此，我们设计了一个RL智能体，该智能体通过从Rust的中层中间表示（MIR）中提取上下文特征，并与静态分析结果进行交互来优化决策，从而学习一种警告抑制策略。为了提升决策质量，我们引入了基于cargo-fuzz的动态验证作为辅助反馈机制，使智能体能够通过定向模糊测试对可疑警告进行选择性验证。我们的评估结果显示，所提出的方法显著优于当前最先进的基于大语言模型（LLM）的基线方法，达到了65.2%的准确率和0.659的F1分数，比最佳LLM基线提高了17.1%。在召回率达到74.6%的情况下，我们的方法成功识别出近四分之三的真实缺陷，同时大幅减少了误报，将精度从原始Rudra输出的25.6%提升至59.0%。进一步结合动态模糊测试后，性能得到进一步提升，在纯RL方法的基础上，准确率提高了10.7个百分点，F1分数提高了8.6个百分点。总体而言，本研究证明了将强化学习与混合静态-动态分析相结合，能够显著降低误报率，有效提升Rust内存安全验证工具的实际可用性。"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "ProgramBench: Can Language Models Rebuild Programs From Scratch?",
+    "authors": "John Yang, Kilian Lieret, Jeffrey Ma, Parth Thakkar, Dmitrii Pedchenko, Sten Sootla, Emily McMilin, Pengcheng Yin, Rui Hou, Gabriel Synnaeve, Diyi Yang, Ofir Press",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.03546v1",
+    "source": "arXiv",
+    "abstract": "Turning ideas into full software projects from scratch has become a popular use case for language models. Agents are being deployed to seed, maintain, and grow codebases over extended periods with minimal human oversight. Such settings require models to make high-level software architecture decisions. However, existing benchmarks measure focused, limited tasks such as fixing a single bug or developing a single, specified feature. We therefore introduce ProgramBench to measure the ability of software engineering agents to develop software holisitically. In ProgramBench, given only a program and its documentation, agents must architect and implement a codebase that matches the reference executable's behavior. End-to-end behavioral tests are generated via agent-driven fuzzing, enabling evaluation without prescribing implementation structure. Our 200 tasks range from compact CLI tools to widely used software such as FFmpeg, SQLite, and the PHP interpreter. We evaluate 9 LMs and find that none fully resolve any task, with the best model passing 95\\% of tests on only 3\\% of tasks. Models favor monolithic, single-file implementations that diverge sharply from human-written code.",
+    "title_zh": "ProgramBench：语言模型能否从零开始重建程序？",
+    "abstract_zh": "将想法从零开始转化为完整的软件项目，已成为语言模型的一种流行应用场景。如今，智能体（agents）被用于在较长时间内以极少的人工监督来启动、维护和扩展代码库。这类场景要求模型能够做出高层次的软件架构决策。然而，现有的基准测试通常只衡量一些具体而有限的任务，例如修复单个漏洞或开发某个指定功能。为此，我们推出了 ProgramBench，旨在评估软件工程智能体在整体上开发软件的能力。在 ProgramBench 中，智能体仅根据程序及其文档，必须自主设计架构并实现一个与参考可执行程序行为一致的代码库。端到端的行为测试通过智能体驱动的模糊测试（fuzzing）自动生成，从而实现无需预设实现结构的评估。我们的 200 个任务涵盖从简单的命令行工具到 FFmpeg、SQLite 和 PHP 解释器等广泛使用的复杂软件。我们对 9 种语言模型进行了评估，结果发现没有任何模型能完全解决任何一个任务：表现最好的模型也仅在 3% 的任务中通过了 95% 的测试。此外，这些模型倾向于生成单一、庞大的单文件实现，与人类编写的代码结构存在显著差异。"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "iSMC: A BDD-based Symbolic Model Checker with Interactive Certification",
+    "authors": "Philipp Czerner, Javier Esparza, Konrad Winslow",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.03705v1",
+    "source": "arXiv",
+    "abstract": "We present iSMC, the first self-certifying model checker with interactive certification, a certification paradigm based on the theory of interactive proof systems. iSMC is a symbolic BDD-based model checker for arbitrary properties of Computation Tree Logic (CTL) with justice requirements. After solving an instance of the model-checking problem, iSMC conducts a certification procedure that guarantees with high probability (chosen by the user) that the answer is correct. iSMC is based on the technology of the QBF-solver with interactive certification presented by Couillard et al. at CAV 2023. We extend, improve on, and re-implement this technology, adapting it to the needs of CTL model checking.",
+    "title_zh": "iSMC：一种基于BDD的具有交互式认证功能的符号模型检测工具",
+    "abstract_zh": "我们提出了iSMC，这是首个具备交互式认证功能的自验证模型检测器，其认证范式基于交互式证明系统理论。iSMC是一个基于符号化BDD（二元决策图）的模型检测器，用于验证计算树逻辑（CTL）中带有公平性要求的任意性质。在求解一个模型检测问题实例后，iSMC会执行一个认证过程，以高概率（由用户指定）保证所得结果的正确性。iSMC基于Couillard等人在CAV 2023会议上提出的具备交互式认证功能的QBF求解器技术，并对该技术进行了扩展、改进和重新实现，以适应CTL模型检测的需求。"
+  },
+  {
+    "date": "2026-05-05",
+    "title": "Randomized and Diverse Input State Generation for Quantum Program Testing",
+    "authors": "Maryse Ernzer, Seung Yeob Shin, Fabrizio Pastore, Domenico Bianculli",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.03957v1",
+    "source": "arXiv",
+    "abstract": "With the accelerating development of quantum technologies and their growing computational potential, quantum systems are being adapted for simulations and other critical tasks across diverse domains, making the reliability of the corresponding quantum software an essential concern. Although recent efforts have started to incorporate quantum-specific properties such as magnitude, phase, and entanglement under the form of input-coverage criteria into software testing, the unique structure of the quantum state space demands for more comprehensive testing. In particular, the notion of complete state-space exploration has so far received little attention. To address this gap, we propose a framework for evaluating test circuit generators with respect to their coverage of the quantum state space. Our contribution is threefold: we develop a set of diversity scores that capture both local and global indicators of the extent to which the state space is explored; we propose a test circuit generator that produces test input states via a Brick-Circuit (BC) construction designed to approximate ideal random states using hardware-compatible gates; we compare the proposed construction with existing generators based on their ability to generate uniformly distributed random test input states. Our extended diversity scores quantify the local correlations and global spread of magnitude, phase and entanglement. Using these scores, we evaluate the expressibility, defined as the capability to span the quantum state space uniformly, and entangling capabilities of existing generators relative to the BC generator. Our results show that the hardware-compatible BC generator achieves higher expressibility and entanglement performance at shallower depths than existing circuit generators.",
+    "title_zh": "用于量子程序测试的随机化与多样化输入状态生成",
+    "abstract_zh": "随着量子技术的加速发展及其计算能力的不断提升，量子系统正被广泛应用于模拟及其他多个关键领域的任务中，这使得相应量子软件的可靠性成为一个至关重要的问题。尽管近期的研究已开始将量子特有的性质（如幅度、相位和纠缠）以输入覆盖标准的形式纳入软件测试范畴，但量子态空间的独特结构仍要求更全面的测试方法。特别是对“完整态空间探索”这一概念，目前尚未得到充分关注。为弥补这一空白，我们提出了一种评估测试电路生成器在量子态空间覆盖能力方面的框架。我们的贡献主要包括三个方面：首先，我们设计了一组多样性评分指标，用以衡量态空间探索在局部和全局两个层面的程度；其次，我们提出了一种基于“砖型电路”（Brick-Circuit, BC）构造的测试电路生成器，该生成器通过硬件兼容的量子门生成测试输入态，以逼近理想的随机量子态；最后，我们将所提出的BC构造与现有生成器在生成均匀分布的随机测试输入态方面的能力进行比较。我们扩展后的多样性评分能够量化幅度、相位和纠缠的局部关联性与全局分布情况。利用这些评分，我们评估了现有生成器相对于BC生成器在“可表达性”（即均匀覆盖量子态空间的能力）和纠缠能力方面的表现。实验结果表明，这种硬件兼容的BC生成器在更浅的电路深度下，实现了比现有电路生成器更高的可表达性和更强的纠缠性能。"
+  },
+  {
+    "date": "2026-5-5",
+    "title": "ASTRAA: AI-Supported Scenario Test-Framework for Real-World ADAS Applications",
+    "authors": "Benoy Majumder, Rajib Paul, Debolina Pramanik, Madhumita Das Sarkar",
+    "publish": "2026 International Conference on Emerging Systems and Intelligent Computing (ESIC)",
+    "url": "https://doi.org/10.1109/esic68176.2026.11495628",
+    "source": "IEEE",
+    "abstract": "Ensuring the safety and reliability of Advanced Driver Assistance Systems (ADAS) requires rigorous testing across a wide range of real-world driving situations. However, conventional test-case creation relies heavily on manual effort and often fails to capture the diversity and complexity of real-world scenarios. This paper presents a data-driven AI-ML framework for automated ADAS scenario generation using largescale naturalistic driving logs. The proposed approach abbreviated ASTRAA: AI-supported Scenario Test-framework for Real-world ADAS Applications, integrates log-segmentation, event detection, and machine learning-based feature abstraction to automatically derive meaningful test scenarios that reflect actual on-road behaviors. By converting unstructured sensor data into structured logical and concrete scenarios, the framework enables the systematic creation of reproducible test cases that cover both common traffic interactions and safety-critical edge conditions. The generated scenarios can be readily deployed in simulation environments (like CARLA) to support scalable verification and validation workflows. Experimental results on real-world driving data demonstrate the framework's ability to identify diverse traffic situations, reduce manual scenario engineering effort, and enhance scenario coverage for ADAS testing. This work contributes toward building more efficient, data-driven validation pipelines and supports future advancements in automated and intelligent vehicle systems.",
+    "title_zh": "ASTRAA：面向真实世界ADAS应用的AI支持型场景测试框架",
+    "abstract_zh": "确保高级驾驶辅助系统（ADAS）的安全性和可靠性，需要在大量真实驾驶场景下进行严格的测试。然而，传统的测试用例创建严重依赖人工操作，往往难以涵盖真实世界场景的多样性和复杂性。本文提出了一种基于数据驱动的人工智能与机器学习（AI-ML）框架，利用大规模自然驾驶日志实现ADAS场景的自动生成。该方法简称ASTRAA（面向真实世界ADAS应用的AI支持型场景测试框架），通过日志分段、事件检测以及基于机器学习的特征抽象技术，自动提取能够反映实际道路行为的有意义测试场景。该框架将非结构化的传感器数据转化为结构化的逻辑与具体场景，从而系统性地生成可复现的测试用例，覆盖常见的交通交互情况以及安全关键的边缘场景。所生成的场景可直接部署于仿真环境（如CARLA）中，支持可扩展的验证与确认工作流程。基于真实驾驶数据的实验结果表明，该框架能够有效识别多样的交通情境，显著减少人工构建场景的工作量，并提升ADAS测试的场景覆盖率。本研究有助于构建更高效、数据驱动的验证流程，推动未来自动驾驶与智能车辆系统的发展。"
+  },
+  {
+    "date": "2026-5-5",
+    "title": "Very-Large-Scale Integration Implementation using Multiplier Topologies with BTC Algorithm and Threshold Optimization for Efficient Computation",
+    "authors": "R Manasa, Ahmad Al-Qerem, B Mouli Chandra, R Govindaraj, G. Karthik, Bharathi Panduri",
+    "publish": "2026 International Conference on Electronic Systems and Intelligent Computing (ICESIC)",
+    "url": "https://doi.org/10.1109/icesic67389.2026.11496554",
+    "source": "IEEE",
+    "abstract": "Very Large Scale Integration (VLSI) refers to the technology of designing and manufacturing integrated circuits that can accommodate thousands to millions of transistors on a single chip. This paper presents a VIMBTE model that achieves very high performance and hardware efficiency by integrating a drastically improved Block Truncation Coding (BTC) algorithm, a radix-4 Booth multiplier, and a highly customizable VLSI platform suitable for real-time multimedia processing. The main breakthroughs are an adaptive threshold optimization method that enhances Peak Signal-to-Noise Ratio (PSNR) without adding to the compression cost and the implementation of $4: 2: 2$ subsampling to reduce the data redundancy level and retain the visual quality. The radix-4 Booth multiplier speeds up arithmetic operations and at the same time reduces the hardware complexity. The hardware implemented in VHDL employs open-source EDA tools for RTL analysis, optimization, binding, and verification. The performance analysis consists of normalized delay, power dissipation, delay, power consumption, and delay metrics.",
+    "title_zh": "基于BTC算法与阈值优化的乘法器拓扑结构超大规模集成实现，用于高效计算",
+    "abstract_zh": "超大规模集成电路（VLSI）是指设计和制造可在单个芯片上集成数千至数百万个晶体管的集成电路技术。本文提出了一种VIMBTE模型，通过集成经过大幅改进的块截断编码（BTC）算法、基数为4的Booth乘法器以及高度可定制的适用于实时多媒体处理的VLSI平台，实现了极高的性能和硬件效率。主要突破包括：采用一种自适应阈值优化方法，在不增加压缩开销的前提下提升了峰值信噪比（PSNR）；实施$4:2:2$下采样以降低数据冗余度并保持视觉质量。基数-4 Booth乘法器加快了算术运算速度，同时降低了硬件复杂度。该硬件使用VHDL实现，并采用开源EDA工具进行RTL分析、优化、综合与验证。性能分析涵盖了归一化延迟、功耗、延迟、能耗及延迟相关指标。"
+  },
+  {
+    "date": "2026-5-5",
+    "title": "A Simulation-based Analysis of SMRF in Quantum Circuits",
+    "authors": "Deebaroti Dey, Indradeep Chowdhury, Shakil Anowar Mallik, Mousum Handique, Megha Arakeri",
+    "publish": "2026 International Conference on Next-Gen Quantum and Advanced Computing: Algorithms, Security, and Beyond (NQComp)",
+    "url": "https://doi.org/10.1109/nqcomp68334.2026.11497713",
+    "source": "IEEE",
+    "abstract": "Quantum computing has been identified as a rapidly developing area that has the potential to outperform classical computing systems for many computational problems. However, the reliability of quantum circuits is still a major challenge due to imperfections in their hardware systems and control errors. This paper examines the effect caused by Single Missing Rotation Faults (SMRF) in the quantum circuits. The method used in this paper works by the elimination of selected rotation gates to generate faulty circuits using statevector simulation to analyze the effect by various metrics such as state fidelity, process fidelity, phase and probability deviation. The experimental results are demonstrated that observable phase and amplitude deviations can be realized by even a single missing rotation fault in the quantum circuit, which are not observed by probability distribution alone. The SMRF analysis carried out provides knowledge about error prone areas in the quantum circuit, thus establishing a foundation for a comprehensive reliability evaluation in NISQ-era hardware.",
+    "title_zh": "量子电路中SMRF的基于仿真的分析",
+    "abstract_zh": "量子计算已被确定为一个快速发展的领域，在许多计算问题上具有超越经典计算系统的潜力。然而，由于硬件系统存在缺陷以及控制错误，量子电路的可靠性仍然是一个主要挑战。本文研究了量子电路中单个缺失旋转故障（SMRF）所造成的影响。该方法通过移除选定的旋转门来生成故障电路，并利用态矢量模拟，借助态保真度、过程保真度、相位偏差和概率偏差等多种指标分析其影响。实验结果表明，即使在量子电路中仅出现一次缺失旋转故障，也会导致可观测的相位和幅度偏差，而这些偏差仅通过概率分布无法察觉。所开展的SMRF分析揭示了量子电路中易出错的区域，从而为NISQ时代硬件的全面可靠性评估奠定了基础。"
+  }
+]
