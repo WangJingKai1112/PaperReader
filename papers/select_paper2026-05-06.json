@@ -1,0 +1,178 @@
+[
+  {
+    "date": "2026-05-06",
+    "title": "Not All Faults Are Equal: Transient-Fault Sensitivity Characterization of an Open-Source RISC-V Vector Cluster",
+    "authors": "Maoyuan Cai, Amirhossein Kiamarzi, Davide Rossi, Angelo Garofalo",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.04803v1",
+    "source": "arXiv",
+    "abstract": "We present a transient-fault sensitivity study of the open-source RISC-V vector cluster Spatz under SET and SEU fault models. Across 100,000 fault injections on six MatMul and Widening MatMul configurations, faulty data corruption (FD) is the dominant manifesting outcome for all evaluated workloads, accounting for at least 86% of manifesting errors in the SET campaigns and at least 91% in the SEU campaigns. At the module level, SET sensitivity is concentrated in the vector execution path, while TCDM is the major contributor to FD manifestations. We further quantify SDC severity across FP32, FP16, BP16, and FP8 by analyzing both the average number of corrupted outputs and their RMSE. FP8 shows the lowest output impact overall, while FP16 Widening MatMul reduces both corruption spread and RMSE compared with FP16 MatMul. By contrast, the effect of widening on FP8 is limited in our experiments. Finally, exponent-targeted corruptions induce the most severe SDC events, with the largest deviations observed in FP32 and BP16, motivating selective protection of the highest-impact datapaths and fault cases.",
+    "title_zh": "并非所有故障都相同：开源RISC-V向量集群的瞬态故障敏感性表征",
+    "abstract_zh": "本文对开源RISC-V向量集群Spatz在SET和SEU故障模型下的瞬态故障敏感性进行了研究。在针对六种MatMul和扩展型MatMul配置进行的十万次故障注入实验中，对于所有评估的工作负载，错误数据损坏（FD）均是主要的故障表现形式，在SET实验中占所有可观察错误的至少86%，在SEU实验中则占至少91%。从模块层面来看，SET敏感性主要集中于向量执行路径，而TCDM模块则是导致FD现象的主要来源。我们进一步通过分析平均受损输出数量及其均方根误差（RMSE），量化了FP32、FP16、BP16和FP8等不同浮点格式下静默数据损坏（SDC）的严重程度。总体而言，FP8的输出影响最小；与标准FP16 MatMul相比，FP16扩展型MatMul能有效减少错误传播范围和RMSE。相比之下，在本实验中，扩展操作对FP8的改善效果有限。最后，针对指数位的破坏会引发最严重的SDC事件，其中FP32和BP16表现出最大的偏差，这一结果提示应优先对影响最大的数据路径和故障情形实施选择性保护措施。"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "Real-time Surface-Code Error Correction Using an FPGA-based Neural-Network Decoder",
+    "authors": "Xiaohan Yang, Xuandong Sun, Zhiyi Wu, Jiawei Zhang, Ji Jiang, Xiayu Linpeng, Yuxuan Zhou, Ji Chu, Jingjing Niu, Youpeng Zhong, Song Liu, Dapeng Yu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.04892v1",
+    "source": "arXiv",
+    "abstract": "Quantum error correction (QEC) is essential for achieving low error rates required for fault-tolerant quantum computation. In stabilizer-based codes such as the surface code, errors are inferred from repeated syndrome measurements and corrected by a classical decoder. To prevent error accumulation, decoding must be performed with both high throughput and low latency to keep pace with the QEC cycle and enable real-time feedback for universal logical operations. Here we report a hardware-integrated control architecture featuring an FPGA-based neural-network (NN) decoder and experimentally demonstrate real-time surface-code (distance-3) QEC on a superconducting quantum processor. The system achieves a deterministic closed-loop latency of 550 ns, including 124 ns for NN decoding, enabling feedback corrections within a 1.25 us QEC cycle. We show that real-time decoding and feedback correction achieve logical performance comparable to offline decoding while maintaining robustness against varying error conditions. We further demonstrate mid-circuit feedback correction in non-Clifford logical circuits, where Pauli-frame updating alone becomes insufficient. Our results establish a low-latency hardware architecture for embedded QEC control and provide a pathway towards scalable fault-tolerant quantum computing systems.",
+    "title_zh": "基于FPGA的神经网络解码器实现实时表面码错误校正",
+    "abstract_zh": "量子纠错（QEC）对于实现容错量子计算所需的低错误率至关重要。在基于稳定子的编码（如表面码）中，错误通过重复的综合征测量来推断，并由经典解码器进行纠正。为防止错误累积，解码必须具备高吞吐量和低延迟，以跟上QEC循环节奏，并支持通用逻辑操作的实时反馈。本文报道了一种集成硬件的控制架构，该架构采用基于现场可编程门阵列（FPGA）的神经网络（NN）解码器，并在超导量子处理器上实验实现了表面码（距离为3）的实时量子纠错。整个系统实现了550纳秒的确定性闭环延迟，其中神经网络解码耗时仅124纳秒，从而可在1.25微秒的QEC周期内完成反馈校正。实验表明，实时解码与反馈校正所达到的逻辑性能与离线解码相当，同时对不同错误环境保持了良好的鲁棒性。我们进一步在非Clifford逻辑电路中实现了中程电路反馈校正，此时仅靠Pauli帧更新已不足以维持纠错效果。本研究建立了一种用于嵌入式量子纠错控制的低延迟硬件架构，为构建可扩展的容错量子计算系统提供了可行路径。"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours",
+    "authors": "The Verkor Team, Ravi Krishna, Suresh Krishna, David Chin",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.05170v1",
+    "source": "arXiv",
+    "abstract": "Driven by a rapid co-evolution of both harness and underlying models, LLM agents are improving at a dizzying pace. In our prior work (performed in Dec. 2025), we introduced \"Design Conductor\" (or just \"Conductor\"), a system capable of building a 5-stage Linux-capable RISC-V CPU in 12 hours. In this work, we introduce an updated multi-agent harness powered by frontier models released in April 2026, which is able to handle 80x larger tasks, at higher quality, fully autonomously. Following a brief introduction, we examine 4 designs that the system produced autonomously, including \"VerTQ\", an LLM inference accelerator which hard-wires support for TurboQuant in a 240-cycle pipeline, starting from the TurboQuant arXiv paper. VerTQ includes heavy compute processing, with 5129 FP16/32 units; the design was mapped to an FPGA at 125 MHz and consumes 5.7 mm^2 in TSMC 16FF (8 attention pipes). We review the key new characteristics that enabled these results. Finally, we analyze Design Conductor's token usage and other empirical characteristics, including its limitations.",
+    "title_zh": "Design Conductor 2.0：一名代理在80小时内构建出TurboQuant推理加速器",
+    "abstract_zh": "在工具系统与底层模型快速协同演进的推动下，大语言模型（LLM）智能体正以惊人的速度不断进步。在我们此前的工作（2025年12月完成）中，我们提出了“设计指挥官”（Design Conductor，简称“Conductor”），该系统能够在12小时内自主构建一个具备Linux运行能力的五级流水线RISC-V CPU。在本研究中，我们介绍了一个经过升级的多智能体系统，其由2026年4月发布的前沿模型驱动，能够以更高的质量完全自主地处理规模达原先80倍的任务。\n\n在简要介绍之后，我们将详细分析该系统自主生成的四个设计方案，其中包括名为“VerTQ”的LLM推理加速器。VerTQ从TurboQuant的arXiv论文出发，在一个240周期的流水线中硬件化支持TurboQuant技术。该设计包含强大的计算处理能力，集成了5129个FP16/32计算单元；设计已在FPGA上实现，运行频率为125 MHz，并可在台积电16FF工艺下占用5.7 mm²的芯片面积（包含8个注意力计算管道）。\n\n我们回顾了促成这些成果的关键新特性。最后，我们对Design Conductor的令牌（token）使用情况及其他实证特征进行了分析，并讨论了其当前存在的局限性。"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "Randompack: Cross-Platform Reproducible Random Number Generation and Distribution Sampling",
+    "authors": "Kristján Jónasson",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.05099v1",
+    "source": "arXiv",
+    "abstract": "A C library for random number generation, Randompack, is presented. The library implements several modern random number generators (engines), including xoshiro256, PCG64, Philox, ranlux++, and sfc64; 14 continuous distributions including uniform, normal, exponential, gamma, beta, and multivariate normal; raw bit streams, bounded integers, permutations, and sampling without replacement. The engine and the distribution layers are separated so any engine can be used with any distribution. Benchmarks show that Randompack is faster overall than competing libraries, with speedup factors ranging from about 1 to 15 depending on engine, distribution, interface, and platform. A distinguishing feature is reproducibility: with the same seeds Randompack gives compatible results across programming languages, computers, CPU architectures, and compilers. The library includes comprehensive support for parallel simulation. It is accompanied by a comprehensive test suite, benchmarking programs, and example programs. Interfaces to Fortran, Python, Julia, and R have been implemented; their benchmark results are included, although their design and implementation are otherwise outside the scope of the article. Unlike other available C libraries with comparable scope, Randompack is permissively licensed under the MIT license, and it is open source and publicly available through GitHub and conda-forge.",
+    "title_zh": "随机包：跨平台可重现的随机数生成与分布抽样",
+    "abstract_zh": "介绍了一个用于随机数生成的C语言库Randompack。该库实现了多种现代随机数生成器（引擎），包括xoshiro256、PCG64、Philox、ranlux++和sfc64；支持14种连续分布，如均匀分布、正态分布、指数分布、伽马分布、贝塔分布和多元正态分布；同时还提供原始比特流、有界整数、排列以及无放回抽样功能。引擎层与分布层相互分离，因此任何引擎均可与任何分布结合使用。基准测试表明，Randompack整体上快于其他竞争性库，加速比根据引擎、分布、接口和平台的不同，大约在1到15倍之间。一个显著特点是可重现性：在相同种子下，Randompack在不同编程语言、计算机、CPU架构和编译器之间均能产生一致的结果。该库全面支持并行仿真，并附带了完整的测试套件、性能基准测试程序和示例程序。目前已实现对Fortran、Python、Julia和R的语言接口，相关基准测试结果也包含在内（尽管这些接口的设计与实现不在本文讨论范围内）。与其他具有类似功能范围的C语言库不同，Randompack采用宽松的MIT许可证开源发布，并通过GitHub和conda-forge公开提供。"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "Interaction Tree Semantics for RISC-V: Bridging Compiler and Hardware Verification",
+    "authors": "Shuanglong Kan, Sebastian Ertel",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.04933v1",
+    "source": "arXiv",
+    "abstract": "The Instruction Set Architecture (ISA) is the contract between compilers and processors; proving this contract formally demands cross-level connection to existing mechanized compilers and hardware implementations. As an open, modular ISA gaining adoption across embedded, mobile, and cloud platforms, RISC-V makes a formally verified ISA specification particularly valuable. However, existing formal RISC-V specifications focus on hardware tooling rather than cross-level verification: they provide no machine-checked instruction-level properties and lack support for verifying this contract across levels. We address these limitations with a formal semantics of the RISC-V ISA in Rocq, built on Interaction Trees (ITrees). By leveraging ITree bisimulation and refinement, our semantics enables cross-level verification from compiler IR to hardware within a single framework. Our formalization covers a wide spectrum of RISC-V extensions. The correctness of individual instruction semantics is backed by machine-checked lemmas in Rocq. We further validate it by extracting an executable simulator that passes all standard RISC-V test suites. Three case studies demonstrate the effectiveness of our semantics for cross-level verification: first, we prove semantic equivalence via bisimulation between LLVM IR and RISC-V code on an array access pattern via Vellvm (LLVM ITree semantics); second, we apply translation validation to a specific instruction reordering for macro-operation fusion, distinguishing safe reorderings from those that break program-counter-relative addressing; third, we prove that a Kôika hardware ALU correctly implements all R-type integer operations (e.g., ADD, SUB, AND) against our ISA contract.",
+    "title_zh": "RISC-V的交互树语义：连接编译器与硬件验证",
+    "abstract_zh": "指令集架构（ISA）是编译器与处理器之间的契约；对这一契约进行形式化验证，需要在已有的机械化编译器和硬件实现之间建立跨层级的连接。作为一种在嵌入式、移动和云计算平台中广泛采用的开放、模块化ISA，RISC-V尤其适合构建经过形式化验证的ISA规范。然而，现有的形式化RISC-V规范主要关注硬件工具链，而非跨层级验证：它们既未提供经机器检查的指令级属性，也缺乏支持在不同抽象层级间验证该契约的能力。\n\n为解决这些问题，我们基于交互树（Interaction Trees, ITree）在Rocq证明助手中构建了RISC-V ISA的形式化语义。通过利用ITree的双模拟（bisimulation）与精化（refinement）技术，我们的语义框架支持在同一系统内完成从编译器中间表示（IR）到硬件实现的跨层级验证。我们的形式化工作覆盖了广泛的RISC-V扩展指令集，每条指令语义的正确性均通过Rocq中的机器可验证引理加以保证。此外，我们还导出了一个可执行的模拟器，并成功通过了所有标准的RISC-V测试套件，进一步验证了该形式化模型的正确性。\n\n我们通过三个案例研究展示了该语义在跨层级验证中的有效性：第一，借助Vellvm（LLVM的ITree语义），我们证明了在数组访问模式下，LLVM IR与RISC-V汇编代码之间可通过双模拟实现语义等价；第二，我们对一种用于宏操作融合的特定指令重排序进行了翻译验证，成功区分出保持程序计数器相对寻址安全性的合法重排与会破坏该语义的非法重排；第三，我们证明了一个Kôika硬件ALU能够根据我们的ISA契约，正确实现所有R型整数运算（如ADD、SUB、AND等）。这些成果表明，我们的形式化方法为构建端到端可信的软硬件系统提供了坚实基础。"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "Towards Formal Verification of Hybrid Synchronous Programs with Refinement Types",
+    "authors": "Serra Z. Dane, Jiawei Chen, Marc Pouzet, Jean-Baptiste Jeannin",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.04377v1",
+    "source": "arXiv",
+    "abstract": "Cyber-physical systems (CPS) such as autonomous cars, aircraft, and robots are often also safety-critical; thus it is imperative that they operate as intended with a high degree of certainty. Formal verification has been employed to verify the software controlling these systems, but due to their complexity, is usually performed on an abstract model rather than the executable code. Synchronous programming languages extended with differential equations promise both rigorous modeling and sufficient expressiveness to implement executable controller code, and recent developments have introduced formal verification of strictly discrete-time programs. Extending these verification techniques to hybrid systems enables precise modeling of the environment for a wider variety of programs to be both verified and executed. We formalize the operational semantics of initial value problems and zero-crossing detection expressed in a synchronous programming language, extend its type system for verification thereof, and prove its soundness.",
+    "title_zh": "基于精化类型的混合同步程序的形式化验证",
+    "abstract_zh": "诸如自动驾驶汽车、飞机和机器人等信息物理系统（CPS）通常也是安全关键型的，因此必须以高度的确定性确保其按预期运行。形式化验证已被用于验证控制这些系统的软件，但由于系统复杂性，通常只能在抽象模型上进行，而非可执行代码本身。同步编程语言通过引入微分方程的扩展，既提供了严格的建模能力，又具备足够的表达力以实现可执行的控制器代码。最近的研究进展已实现了对严格离散时间程序的形式化验证。将这些验证技术扩展到混合系统，能够为更多种类的程序提供对环境的精确建模，从而同时实现验证与执行。本文在一种同步编程语言中形式化地定义了初值问题和零点穿越检测的操作语义，扩展了相应的类型系统以支持其验证，并证明了该系统的可靠性。"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "Unsat Core Prediction through Polarity-Aware Representation Learning over Clause-Literal Hypergraphs",
+    "authors": "Zhenchao Sun, Shuai Ma, Ping Lu, Chongyang Tao",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.04819v1",
+    "source": "arXiv",
+    "abstract": "Graph neural networks have been widely used in Boolean satisfiability (SAT) tasks to learn structural information from SAT formulas. The goal of these studies is to solve SAT instances or to enhance SAT solvers, including tasks such as unsat-core prediction. However, most existing approaches model a SAT formula as a bipartite graph or a directed acyclic graph, which are less expressive in capturing higher-order interactions among literals and clauses. Moreover, these approaches are limited in modeling intrinsic polarity-related properties of SAT, such as the complementary relationship between the positive and negative literals of a variable. To address these limitations, we propose a polarity-aware representation learning framework over clause-literal hypergraphs. We model SAT formulas as clause-literal hypergraphs augmented with a clause incidence graph to capture higher-order structural interactions. We then introduce a polarity-aware decomposed mechanism that separates variable representations into polarity invariant and equivariant components, explicitly modeling the relationship between positive and negative literals, with the resulting literal representations propagated along the hypergraph structure. We further incorporate a polarity-inversion consistency regularization to reinforce polarity-consistent representations during training. Experimental results on multiple SAT datasets demonstrate the effectiveness of the proposed approach.",
+    "title_zh": "基于子句-文字超图的极性感知表示学习的不可满足核预测",
+    "abstract_zh": "图神经网络已广泛应用于布尔可满足性（SAT）任务中，以从SAT公式中学习结构信息。这些研究的目标是求解SAT实例或增强SAT求解器的性能，包括诸如不可满足核（unsat-core）预测等任务。然而，大多数现有方法将SAT公式建模为二分图或有向无环图，这类表示在捕捉文字与子句之间的高阶交互关系方面表达能力有限。此外，这些方法在建模SAT内在的极性相关特性方面也存在不足，例如变量的正文字与负文字之间的互补关系。为解决上述局限，本文提出一种基于子句-文字超图的极性感知表示学习框架。我们将SAT公式建模为增强了子句关联图的子句-文字超图，以更好地捕捉高阶结构交互。随后，我们引入一种极性感知的分解机制，将变量表示分解为极性不变和极性等变两个部分，显式地建模正文字与负文字之间的关系，并通过超图结构传播所得的文字表示。进一步地，我们引入极性反转一致性正则化，在训练过程中强化符合极性一致性的表示。在多个SAT数据集上的实验结果验证了所提方法的有效性。"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "AFL-ICP: Enhancing Industrial Control Protocol Reliability via Specification-Guided Fuzzing",
+    "authors": "Jiaying Meng, Xuewei Feng, Qi Li, Min Liu, Ke Xu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.04760v1",
+    "source": "arXiv",
+    "abstract": "Industrial Control Protocols (ICPs) are critical to the reliability and stability of industrial infrastructure, yet their security is fundamentally compromised by a specification-blindness bottleneck. Modern fuzzers, constrained by observation-driven inference, struggle to penetrate deep protocol states or detect subtle semantic deviations. In this paper, we present AFL-ICP, an autonomous fuzzing framework that pioneers a specification-driven paradigm. AFL-ICP features a context-aware specification formalization pipeline to transform complex specifications into rigorous machine-executable grammars. Building on this formalized specification, AFL-ICP leverages LLMs to enable automated protocol adaptation and seed generation, allowing for rapid extension to new protocols with minimal manual effort. Additionally, it includes an LLM-powered differential checker that cross-references implementation outputs with specification requirements to detect subtle semantic and logic bugs that existing fuzzers cannot detect. We implement AFL-ICP and evaluate it on four widely used ICPs, including both open-source and closed-source variants. Results show that AFL-ICP significantly outperforms state-of-the-art fuzzers in coverage and uncovers 24 previously unknown vulnerabilities, for which we have received acknowledgments from affected vendors (e.g., FreyrSCADA). Specifically, the identified vulnerabilities include 16 semantic and logic bugs that can silently disrupt industrial operations and degrade service availability.",
+    "title_zh": "AFL-ICP：通过规范引导的模糊测试增强工业控制协议的可靠性",
+    "abstract_zh": "工业控制协议（ICPs）对工业基础设施的可靠性和稳定性至关重要，但其安全性从根本上受到“规范盲区”瓶颈的制约。现代模糊测试工具受限于基于观测的推断方法，难以深入探测协议的深层状态或发现细微的语义偏差。本文提出AFL-ICP，一种开创性的以规范驱动的自动化模糊测试框架。AFL-ICP采用上下文感知的规范形式化流水线，将复杂的协议规范转化为严格可由机器执行的语法结构。在此基础上，AFL-ICP利用大语言模型（LLMs）实现协议的自动适配和种子生成，从而以极少的人工干预快速扩展至新协议。此外，该框架还集成了基于大语言模型的差分检测器，通过将实现输出与规范要求进行交叉比对，识别出现有模糊测试工具无法发现的细微语义和逻辑漏洞。我们实现了AFL-ICP，并在四种广泛使用的工业控制协议（包括开源和闭源版本）上进行了评估。实验结果表明，AFL-ICP在代码覆盖率方面显著优于当前最先进的模糊测试工具，并发现了24个此前未知的安全漏洞，相关厂商（如FreyrSCADA）已对此予以确认。其中，所发现的漏洞包含16个语义和逻辑类缺陷，可能在无明显告警的情况下破坏工业运行，导致服务可用性下降。"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "UVMarvel: an Automated LLM-aided UVM Machine for Subsystem-level RTL Verification",
+    "authors": "Junhao Ye, Dingrong Pan, Hanyuan Liu, Yuchen Hu, Jie Zhou, Ke Xu, Xinwei Fang, Xi Wang, Nan Guan, Zhe Jiang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.04704v1",
+    "source": "arXiv",
+    "abstract": "Verification presents a major bottleneck in Integrated Circuit (IC) development, consuming nearly 70% of total effort. While the Universal Verification Methodology (UVM) improves reuse through structured verification environments, constructing subsystem-level UVM testbenches and generating high-quality stimuli still require extensive manual coding, repeated EDA tool runs, and deep protocol and micro-architectural expertise. We present UVMarvel, an automated verification framework that leverages Large Language Models (LLMs) to build UVM testbenches for subsystem-level RTL.UVMarvel introduces an Intermediate Representation (IR) and a Bus Protocol Library to translate heterogeneous specifications into protocol-correct subsystem-level UVM testbenches, and employs a Signal Tracker and a Verilog Patching Library to guide LLM-based stimuli refinement. UVMarvel is the first framework capable of automatically constructing subsystem-level UVM testbenches across mainstream bus protocols, and it achieves an average code coverage of 95.65%, while reducing verification time from several human working days to a 4.5-hour automated execution.",
+    "title_zh": "UVMarvel：一种用于子系统级RTL验证的自动化LLM辅助UVM机器",
+    "abstract_zh": "验证是集成电路（IC）开发中的主要瓶颈，几乎占总工作量的70%。尽管通用验证方法学（UVM）通过结构化的验证环境提升了代码复用性，但子系统级UVM测试平台的构建以及高质量激励的生成仍需大量手动编码、反复运行EDA工具，并依赖深厚的协议和微架构专业知识。本文提出UVMarvel，一种利用大语言模型（LLMs）自动构建子系统级RTL的UVM测试平台的自动化验证框架。UVMarvel引入了一种中间表示（IR）和总线协议库，将异构规格说明转换为符合协议规范的子系统级UVM测试平台；同时采用信号追踪器（Signal Tracker）和Verilog补丁库来指导基于LLM的激励优化。UVMarvel是首个能够跨主流总线协议自动构建子系统级UVM测试平台的框架，在实现平均95.65%代码覆盖率的同时，将验证时间从人工所需的数天缩短至4.5小时的自动化执行。"
+  },
+  {
+    "date": "2026-05-06",
+    "title": "Logics for Context-free Hyperproperties",
+    "authors": "Sarah Winter, Martin Zimmermann",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.04657v1",
+    "source": "arXiv",
+    "abstract": "We introduce a novel logic for the specification of context-free hyperproperties, which capture, e.g., the flow of information in security-critical recursive systems. Intuitively, the logic extends visibly pushdown automata by quantification over traces, just like HyperLTL, the most important logic for regular hyperproperties, extends LTL by quantification over traces. Using a game-based approach, we show that model-checking is decidable for formulas with a single quantifier alternation, provided the stack height of the visibly pushdown automaton only depends on the traces bound to the variables of the first quantifier block. A single quantifier alternation suffices to express many information-flow properties studied in the literature. Complementarily, we show that model-checking is undecidable for formulas with a single quantifier alternation, if the stack behavior of the visibly pushdown automaton may depend on the second quantifier block. This also implies that model-checking is undecidable for almost all fragments with more than one quantifier alternation.",
+    "title_zh": "上下文无关超属性的逻辑",
+    "abstract_zh": "我们提出了一种用于描述上下文无关超性质的新逻辑，该逻辑能够刻画安全关键的递归系统中的信息流等行为。直观上，这种逻辑通过在轨迹上的量化扩展了可见下推自动机（visibly pushdown automata），正如HyperLTL——用于正则超性质的最重要逻辑——通过轨迹量化扩展了线性时序逻辑（LTL）一样。我们采用基于博弈的方法证明：当公式的量词仅存在一次交替，且可见下推自动机的栈高度仅依赖于第一个量词块所绑定变量对应的轨迹时，模型检测问题是可判定的。单次量词交替已足以表达文献中研究的许多信息流性质。作为补充，我们还证明：如果可见下推自动机的栈行为可能依赖于第二个量词块，则即使对于仅含一次量词交替的公式，模型检测问题也是不可判定的。这一结果进一步意味着，对于几乎所有包含多于一次量词交替的逻辑片段，其模型检测问题均为不可判定。"
+  },
+  {
+    "date": "2026-5-6",
+    "title": "QGMR: A New Quantum Mutation Testing Operator",
+    "authors": "Sanskar Shah, Sangharatna Godboley, P. Radha Krishna",
+    "publish": "2026 IEEE International Conference on Software Analysis, Evolution and Reengineering - Companion (SANER-C)",
+    "url": "https://doi.org/10.1109/saner-c67878.2026.00056",
+    "source": "IEEE",
+    "abstract": "Mutation testing is an important technique for assessing the quality of test cases and software systems. It involves introducing changes into the code and identifying those changes. In the context of quantum computing, where programs are shown as quantum circuits composed of quantum gates, the traditional mutation testing techniques face unique challenges due to the inherent complexity of quantum algorithms and operations. We propose a novel strategy for higher-order mutation testing of quantum programs. Our main objective is to enhance the reliability of the quantum program. We propose a mutator to replace quantum gates in a quantum program. It identifies the gate combinations and their syntactic equivalence. We compare circuit state vectors to identify equivalent gate combinations and present the results for efficient mutation generation.",
+    "title_zh": "QGMR：一种新的量子变异测试算子",
+    "abstract_zh": "变异测试是一种用于评估测试用例和软件系统质量的重要技术，其方法是向代码中引入变更，并识别这些变更是否能被测试用例检测到。在量子计算领域，程序通常以由量子门构成的量子电路形式表示，由于量子算法和操作本身具有高度复杂性，传统的变异测试技术在此面临独特的挑战。本文提出了一种针对量子程序的高阶变异测试新策略，旨在提高量子程序的可靠性。我们设计了一种变异器，用于替换量子程序中的量子门，该变异器能够识别门组合及其语法等价性。通过比较电路的状态向量来识别等效的门组合，并展示了有助于高效生成变异的结果。"
+  },
+  {
+    "date": "2026-5-6",
+    "title": "Cyber Physical Hardening of BLE Microsensor Systems Through Systematic VAPT and IDS Based Mitigation",
+    "authors": "Ramya K",
+    "publish": "2026 10th IEEE Electron Devices Technology &amp;amp; Manufacturing Conference (EDTM)",
+    "url": "https://doi.org/10.1109/edtm65772.2026.11497472",
+    "source": "IEEE",
+    "abstract": "BLE enabled microsensor platforms are increasingly integrated into cyber physical systems (CPS), yet their constrained architectures and wireless interfaces introduce cross-layer attack surfaces. This work presents a unified Vulnerability Assessment and Penetration Testing (VAPT) framework that evaluates the sensing element, embedded controller, and BLE telemetry as a single cyber-physical chain. A custom inkjet-printed electrochemical sensor interfaced with an ESP32-S3 BLE module is used as the experimental system and subjected to firmware, physical, and wireless-layer attacks. Results indicate that environmental and EMI disturbances induced up to ±23% variation in sensor output without triggering alarms, while controlled signal injection produced 100% acceptance of artificial values by the ADC. Firmware extraction and modification were successful via unsecured bootloader access in under 40 seconds, and BLE spoofing achieved unauthorized connection with a 92% success rate. Replay attacks consistently bypassed freshness validation with 100% packet acceptance, while BLE fuzzing induced intermittent instability in 31% of test cycles. Mitigations including secure boot, authenticated firmware updates, BLE encryption, and hardened pairing were applied, after which replay and spoofing attempts were reduced to 0% success, and firmware modification was fully blocked. These results demonstrate the need for holistic cyber-physical hardening of BLE microsensors. The proposed framework provides a repeatable methodology for securing microsensor CPS deployments.",
+    "title_zh": "通过系统化的VAPT和基于IDS的缓解措施对BLE微传感器系统进行网络物理加固",
+    "abstract_zh": "支持蓝牙低功耗（BLE）的微型传感器平台正越来越多地集成到信息物理系统（CPS）中，然而其受限的架构和无线接口引入了跨层攻击面。本文提出了一种统一的漏洞评估与渗透测试（VAPT）框架，将传感元件、嵌入式控制器和BLE遥测系统作为一个完整的信息物理链进行综合评估。实验采用一种定制的喷墨打印电化学传感器，并与ESP32-S3 BLE模块连接构成测试系统，对其实施固件层、物理层和无线层的多维度攻击。实验结果表明，环境干扰和电磁干扰（EMI）可导致传感器输出产生高达±23%的偏差，且未触发任何警报；而通过受控信号注入，可使模数转换器（ADC）以100%的接受率接收伪造数据。通过未受保护的引导加载程序接口，可在40秒内成功提取并修改固件；BLE欺骗攻击的未授权连接成功率高达92%。重放攻击在所有测试中均成功绕过新鲜度验证，数据包接收率达到100%；而BLE模糊测试在31%的测试周期中引发了间歇性系统不稳定。在部署安全启动、认证固件更新、BLE加密通信和强化配对等防护措施后，重放和欺骗攻击的成功率降至0%，固件篡改被完全阻止。实验结果表明，必须对BLE微型传感器实施整体性的信息物理安全加固。本文提出的框架为微传感器CPS的安全部署提供了一种可重复、系统化的评估方法。"
+  },
+  {
+    "date": "2026-5-6",
+    "title": "E80: An Open-Source 8-bit CPU and Toolchain based on Textbook Digital Design Theory",
+    "authors": "Panos Stokas, Vassilis Fotopoulos, Konstantinos Giannakopoulos",
+    "publish": "2026 Panhellenic Conference on Electronics &amp;amp; Telecommunications (PACET)",
+    "url": "https://doi.org/10.1109/pacet68758.2026.11498245",
+    "source": "IEEE",
+    "abstract": "Educational soft-cores often obscure hardware execution through high-level behavioral abstractions. We present the design methodology of the E80, a single-cycle 8-bit CPU developed to bridge the gap between digital design theory and computer architecture. We discuss the decision to rely on structural VHDL without arithmetic libraries, a choice that prioritizes gate-level transparency over synthesis efficiency. Furthermore, we detail the choices we made for our instruction set architecture, our assembly language and the development of a toolchain to automate the flow of the assembler, simulator, and waveform viewer in a free open-source package, to provide “one-click” hardware simulation for novices. Synthesis across three distinct platforms validates the design’s portability and quantifies the resource-performance trade-offs inherent in an implementation that impedes the inference of vendor components.",
+    "title_zh": "E80：基于教科书数字设计理论的开源8位CPU及工具链",
+    "abstract_zh": "教育类的软核通常通过高级行为抽象来掩盖硬件执行细节。本文介绍了E80的设计方法，E80是一款单周期8位CPU，旨在弥合数字设计理论与计算机体系结构之间的鸿沟。我们讨论了采用结构化VHDL设计而不依赖算术库的决策，这一选择优先考虑门级透明性而非综合效率。此外，我们详细阐述了在指令集架构、汇编语言方面的设计选择，以及开发工具链的过程，该工具链可自动化汇编器、模拟器和波形查看器的工作流程，并集成于一个免费的开源软件包中，为初学者提供“一键式”硬件仿真体验。在三种不同平台上的综合结果验证了该设计的可移植性，并量化了因抑制厂商组件推断而带来的资源与性能之间的权衡。"
+  },
+  {
+    "date": "2026-5-6",
+    "title": "Grammar-Aware Coverage-Guided Fuzzing with Grammarinator and AFL++",
+    "authors": "Renáta Hodován, Ákos Kiss",
+    "publish": "2026 IEEE International Conference on Software Analysis, Evolution and Reengineering - Companion (SANER-C)",
+    "url": "https://doi.org/10.1109/saner-c67878.2026.00055",
+    "source": "IEEE",
+    "abstract": "In recent years, program code has been produced at an unprecedented pace, particularly following the rapid adoption of generative AI technologies. Despite this increase in volume, software systems must still be tested with the same level of rigor as before. Consequently, software testing requires an increasing degree of automation. Among automated approaches, randomized test generation—commonly referred to as fuzzing—has demonstrated strong bug-finding capabilities for many years. Nowadays, the majority of fuzzing approaches are based either on coverage-guided techniques that mutate existing test cases or on grammar-driven generation methods. While early coverageguided methods relied on relatively simple metrics and bruteforce mutation strategies to uncover numerous defects, grammarbased generators have gained significant popularity due to their ability to produce syntactically valid and complex inputs. However, these grammar-driven approaches typically cannot reuse existing test cases. Grammarinator is a grammar-based test generator capable of both generating and parsing, and thus also mutating, test cases using ANTLR grammars. This work integrates Grammarinator into one of the most widely used fuzzing frameworks, AFL++, and extends it with several additional features to further improve effectiveness. Experimental results show that the integrated approach achieves significantly higher coverage and discovers more bugs than state-of-the-art fuzzers.",
+    "title_zh": "基于Grammarinator和AFL++的语法感知覆盖引导模糊测试",
+    "abstract_zh": "近年来，程序代码的生成速度前所未有地加快，尤其是在生成式人工智能技术迅速普及之后。尽管代码数量大幅增加，软件系统仍需保持与以往相同程度的严格测试。因此，软件测试对自动化的依赖日益增强。在各种自动化方法中，随机测试生成（通常称为模糊测试，fuzzing）多年来已展现出强大的缺陷发现能力。如今，大多数模糊测试方法要么基于覆盖率引导的技术，通过变异已有测试用例来生成新测试；要么采用基于语法驱动的生成方法。早期的覆盖率引导方法依赖相对简单的度量指标和暴力变异策略，便已发现大量缺陷；而基于语法的生成器则因其能够生成语法正确且结构复杂的输入而广受欢迎。然而，这些基于语法的方法通常无法重用已有的测试用例。Grammarinator 是一种基于语法的测试生成工具，具备生成和解析功能，因而也能使用 ANTLR 语法规则对测试用例进行变异。本文将 Grammarinator 集成到目前最广泛使用的模糊测试框架 AFL++ 中，并增加了多项新特性以进一步提升其有效性。实验结果表明，该集成方法相比当前最先进的模糊测试工具，能够实现显著更高的代码覆盖率并发现更多漏洞。"
+  },
+  {
+    "date": "2026-5-6",
+    "title": "Transparent Quality Assurance for Low-Code/No-Code Workflows via Explainable AI and Automated Test Generation",
+    "authors": "W. M. N. S. K. Yatigammana",
+    "publish": "2026 IEEE International Research Conference on Smart Computing and Systems Engineering (SCSE)",
+    "url": "https://doi.org/10.1109/scse70081.2026.11499780",
+    "source": "IEEE",
+    "abstract": "Low-code/no-code (LC/NC) platforms speed up application delivery through visual workflows and reusable components, but their abstraction and limited observability make rigorous quality assurance challenging, especially for boundary conditions, exception handling, and stakeholder-friendly defect diagnosis. This paper presents an AI-driven Explainable Testing Framework for systematic and transparent validation of LC/NC workflows without relying on traditional source-code-centric methods. The framework (i) extracts visual workflow logic into a platform-neutral intermediate representation, (ii) automatically generates and executes functional, boundary, and exception-oriented test cases for comprehensive path exploration, and (iii) converts execution traces into multi-modal explanations using an explainable AI reasoning engine and role-specific interfaces for citizen developers, QA engineers, and executives. A prototype implemented on Microsoft PowerApps workflows shows strong extraction reliability across <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$N=147$</tex> workflows and generates an average of 24 test cases per workflow while reducing redundant executions. The explainability module also achieves high-quality results in readability, trace fidelity, decision-point coverage, and workflow-to-visual correspondence, helping stakeholders understand not only what failed, but why. Comparative evaluation against manual and baseline scripted validation shows better defect detection, lower testing and resolution time, and improved stakeholder understanding. Overall, the approach strengthens LC/NC quality assurance by combining automated rigor with stakeholder-oriented transparency, supporting governance-aligned adoption of citizen-developed workflows in enterprise settings. In doing so, it helps bridge the gap between automated workflow validation and stakeholder interpretability, enabling more evidence-driven release readiness in LC/NC systems.",
+    "title_zh": "通过可解释人工智能与自动化测试生成实现低代码/无代码工作流的透明质量保证",
+    "abstract_zh": "低代码/无代码（LC/NC）平台通过可视化工作流和可复用组件加速了应用交付，但其高度抽象化和可观测性有限的特点使得严格的质量保证变得困难，尤其是在边界条件、异常处理以及面向利益相关者的缺陷诊断方面。本文提出了一种由人工智能驱动的可解释测试框架，用于对LC/NC工作流进行系统化且透明的验证，无需依赖传统的以源代码为中心的测试方法。该框架（i）将可视化工作流逻辑提取为一种与平台无关的中间表示形式；（ii）自动生成并执行功能测试、边界测试和异常导向的测试用例，以实现全面的路径覆盖；（iii）利用可解释AI推理引擎和面向不同角色的接口，将执行轨迹转化为多模态的解释结果，服务于公民开发者、质量保证工程师和企业管理者等不同利益相关方。\n\n基于微软PowerApps工作流实现的原型系统，在 N=147 个工作流上表现出强大的逻辑提取可靠性，平均每个工作流生成24个测试用例，同时减少了冗余执行。可解释性模块在可读性、追踪保真度、决策点覆盖率以及工作流与可视化对应关系方面均取得了高质量结果，帮助利益相关方不仅了解“哪里出错”，更理解“为何出错”。与人工测试和基于脚本的基线方法相比，本框架在缺陷检出率、测试与问题解决时间以及利益相关方的理解程度方面均有显著提升。总体而言，该方法通过结合自动化测试的严谨性与面向利益相关方的透明性，增强了LC/NC系统的质量保障能力，支持企业在治理合规的前提下采纳由公民开发者构建的工作流。该研究弥合了自动化工作流验证与利益相关方可解释性之间的鸿沟，推动LC/NC系统实现更基于证据的发布就绪评估。"
+  },
+  {
+    "date": "2026-5-6",
+    "title": "A Comparative Study of FPGA Debouncing Architectures for Emergency Stop Safety Channels",
+    "authors": "Md Towhidul Islam, Shanjida Islam, Isha Das, Chaitaly Nandi, Monjurul Islam, Tasnim Jerin Labonno",
+    "publish": "2025 28th International Conference on Computer and Information Technology (ICCIT)",
+    "url": "https://doi.org/10.1109/iccit68739.2025.11491447",
+    "source": "IEEE",
+    "abstract": "When a human hits an emergency stop, the logic must not chatter. Mechanical contacts exhibit millisecondscale bounce that can produce multiple spurious transitions. For emergency-stop (E-Stop) channels, debouncing must provide explicit guarantees on latency and single-count interpretation. This paper implements and compares two FPGA debouncers on a Cyclone IV device at 5 0 MHz: (i) a window-qualified finite-state machine (FSM) that accepts a change only after a fixed stability interval, and (ii) a cyclelevel FSM that accepts the first stable edge and enforces a lockout to bound subsequent toggles. Both designs employ two- stage synchronization and close timing with large margin. We characterize resource cost, timing, power, latency distributions, and accepted-rate envelopes under shared bounce stimuli. The windowed design offers a simple audit trail tied to an explicit qualification window; the lockout design delivers near-instantaneous response with a clear throughput contract. Results indicate that either approach can supply deterministic, auditable behavior at negligible area and power, enabling straightforward integration into certified E-Stop functions. Parameterselection guidance and diagnostics suitable for proof testing are provided.",
+    "title_zh": "紧急停止安全通道中FPGA去抖动架构的比较研究",
+    "abstract_zh": "当人为触发紧急停止时，逻辑系统不得出现抖动。机械触点会产生毫秒级的弹跳，可能导致多次虚假的状态跳变。对于紧急停止（E-Stop）通道，去抖动机制必须对延迟和单次计数解释提供明确的保障。本文在 Cyclone IV 器件上以 50 MHz 实现并比较了两种基于 FPGA 的去抖动方案：（i）一种窗口限定的有限状态机（FSM），仅在信号经过固定稳定时间间隔后才接受状态变化；（ii）一种周期级 FSM，其捕获首个稳定的边沿，并强制执行闭锁机制以限制后续的翻转。两种设计均采用两级同步机制，并具有充足的时序裕量。我们在相同的弹跳激励信号下，对资源开销、时序、功耗、延迟分布以及可接受输入率范围进行了表征。窗口式设计提供了与明确限定窗口关联的简单审计轨迹；闭锁式设计则实现了近乎即时的响应，并具备清晰的吞吐量承诺。结果表明，这两种方法均能以极小的面积和功耗开销，提供确定性且可审计的行为，便于直接集成到经认证的 E-Stop 功能中。本文还提供了适用于验证测试的参数选择指导和诊断方法。"
+  }
+]
