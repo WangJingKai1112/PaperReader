@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-5-8",
+    "title": "Optimal Pre and Post-Silicon Validation Strategy for Vision-Centric ASIC Platforms",
+    "authors": "Kranti kumar Thota",
+    "publish": "2026 IEEE 15th International Conference on Communication Systems and Network Technologies (CSNT)",
+    "url": "https://doi.org/10.1109/csnt69054.2026.11502392",
+    "source": "IEEE",
+    "abstract": "The emergence of vision-oriented ASIC platforms requires stringent validation solutions to achieve functional accuracy and performance stability to the various real world workloads. Pre- and post-silicon validation stages are both important but limited due to the costly nature of computing them, and the time-intensive nature of their process. Conventional exhaustive testing methods find it difficult to effectively model corner-case behavior in complex vision workloads causing more design cycles and slow time-to-market. This work presents best-fit validation system to combine a gated dual-branch attention (GDBAtt) mechanism with the improved groundwater flow optimization (EGFO) algorithm to focus more on the critical test scenarios and fasten coverage-based verification. The modeling workload behavior, finding instruction and data patterns, and optimizing the process of pre-silicon simulation and post-silicon test vectors selection is modeled using a deep starlike neural network (DSNN). Performance on benchmark vision workloads has shown 8x (up to) improvement in simulation and test time, and 95.8 % coverage of edge-case behaviors. The findings affirm the subset sustains operational variety and identifies functional aberration, halving verification effort, cutting design periods and enhancing ASIC reliability.",
+    "title_zh": "面向视觉为中心的ASIC平台的最佳硅前与硅后验证策略",
+    "abstract_zh": "面向视觉的专用集成电路（ASIC）平台的出现，要求必须具备严格的验证解决方案，以确保在各种真实工作负载下实现功能准确性和性能稳定性。硅前与硅后验证阶段均至关重要，但由于计算成本高昂且流程耗时，其应用受到限制。传统的穷举测试方法难以有效模拟复杂视觉工作负载中的边界情况行为，导致设计周期增加、产品上市时间延迟。本文提出了一种最优适配的验证系统，将门控双分支注意力机制（GDBAtt）与改进的地下水流动优化算法（EGFO）相结合，聚焦关键测试场景，加快基于覆盖率的验证进程。该系统采用深度星型神经网络（DSNN）对工作负载行为建模，挖掘指令与数据模式，并优化硅前仿真及硅后测试向量的选择过程。在基准视觉工作负载上的实验结果表明，仿真与测试时间最多提升了8倍，边缘情况行为的覆盖率达到95.8%。研究结果证实，该方法所选取的测试子集能够保持操作多样性，识别功能异常，使验证工作量减少一半，缩短设计周期，并提升ASIC的可靠性。"
+  },
+  {
+    "date": "2026-5-8",
+    "title": "BoTTA: Benchmarking On-device Test Time Adaptation",
+    "authors": "Michal Danilowski, Soumyajit Chatterjee, Abhirup Ghosh",
+    "publish": "Proceedings of the 2026 ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems",
+    "url": "https://doi.org/10.1145/3774906.3800498",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "BoTTA：设备端测试时适应性基准测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-5-8",
+    "title": "Joint Security Enhancement Using Parallel AES and Intelligent Anomaly Detection",
+    "authors": "Aadesh Sreenivasan, S. Ramyashree, S. Vidyashree, Parthiban I, Selvakumar J",
+    "publish": "2026 International Conference on Recent Advances in Electrical, Electronics, Ubiquitous Communication, and Computational Intelligence (RAEEUCCI)",
+    "url": "https://doi.org/10.1109/raeeucci67649.2026.11504507",
+    "source": "IEEE",
+    "abstract": "Joint security enhancement is essential in embedded systems that require both high-performance encryption and robust runtime protection. The paper presents the implementation of a parallel architecture of Advanced Encryption Standard (AES) with intelligent anomaly detection. AES core is coded at Register Transfer Level (RTL) via Verilog HDL and coded with parallel round processing and complex key expansion to deliver high throughput and less latency. To increase resistance to power and timing side-channel attacks the proposed design uses multi-mask XOR-based preprocessing scheme and architectural masking and balanced logic approaches, which provide limited data-dependent switching and better security with no impact on cryptographic correctness. In addition to cryptographic protection, a Finite State Machine (FSM)-based signature matcher identifies known control-flow and fault injection attacks, and a hardware-aware Long Short- Term Memory (LSTM) autoencoder identifies unknown or zero-day anomalies by analysing behavioural deviation. The experiment results demonstrate that the proposed architecture achieves low latency, low power consumption, and low LUT usage, while maintaining the correct functionality of the AES-128 encryption, and enables real-time simultaneous anomaly detection.",
+    "title_zh": "结合并行AES与智能异常检测的联合安全增强",
+    "abstract_zh": "联合安全增强对于需要高性能加密和强健运行时保护的嵌入式系统至关重要。本文提出了一种高级加密标准（AES）的并行架构实现方案，该方案结合了智能异常检测机制。AES核心采用Verilog HDL在寄存器传输级（RTL）进行编码，通过并行轮次处理和复杂的密钥扩展技术，实现了高吞吐量和低延迟。为增强对功耗和时序侧信道攻击的抵抗能力，所提出的架构采用了基于多掩码异或（XOR）的预处理方案、架构级掩码技术以及平衡逻辑方法，这些技术有效限制了数据依赖性开关行为，在不影响密码学正确性的前提下提升了安全性。除了密码学层面的保护外，基于有限状态机（FSM）的签名匹配器可识别已知的控制流劫持和故障注入攻击，而一种硬件感知的长短期记忆（LSTM）自编码器则通过分析行为偏差来检测未知或零日异常。实验结果表明，该架构在保持AES-128加密功能正确性的同时，实现了低延迟、低功耗和低查找表（LUT）资源占用，并支持实时并发的异常检测。"
+  },
+  {
+    "date": "2026-5-8",
+    "title": "AI-Driven Framework for Zero-Day Vulnerability Detection and Prevention in Application and Cloud Environments",
+    "authors": "Abdul Jaleel D, Krishna Sai J, Manikandan R, Dinesh K, Shankar M",
+    "publish": "2026 9th International Conference on Intelligent Computing and Control Systems (ICICCS)",
+    "url": "https://doi.org/10.1109/iciccs67901.2026.11503015",
+    "source": "IEEE",
+    "abstract": "Zero-day vulnerabilities are difficult to identify in modern software systems because exploit triggers are often novel, semantics-aware, and spread across both application logic and cloud execution contexts. This paper proposes an AI-driven autonomous discovery framework that prioritizes zero-day detection while preserving high quality forensic evidence at the moment a fault is surfaced. The framework integrates a Deep Q-Network (DQN) agent to guide semantic input exploration with an instrumented execution harness that supports hybrid monitoring and crash-resilient evidence logging. The design enables consistent analysis across local applications and cloud-hosted services, allowing vulnerability signals to be captured from heterogeneous runtime behaviors. In the implementation, the autonomous discovery engine executed 268,435,456 cycles and revealed 13 distinct logic- and memory-related failure modes, including high-severity deserialization driven faults and deep semantic gate violations.",
+    "title_zh": "面向应用和云环境中零日漏洞检测与防御的AI驱动框架",
+    "abstract_zh": "现代软件系统中的零日漏洞难以识别，因为其利用触发条件通常具有新颖性、语义敏感性，并且分布在应用程序逻辑和云执行环境之中。本文提出了一种由人工智能驱动的自主发现框架，在优先检测零日漏洞的同时，于故障出现的瞬间保留高质量的取证证据。该框架集成了一种深度Q网络（DQN）智能体，用于指导语义化输入探索，并结合一个带有插桩的执行环境，支持混合监控和抗崩溃的证据记录。该设计实现了对本地应用和云端托管服务的一致性分析，能够从异构的运行时行为中捕捉漏洞信号。在实际实现中，该自主发现引擎执行了268,435,456个周期，发现了13种不同的逻辑和内存相关故障模式，包括高危的反序列化引发的错误以及深层语义逻辑门违规问题。"
+  },
+  {
+    "date": "2026-5-8",
+    "title": "Improving Software Testing with RAG-Based LLMs and Supporting Indian Regional Languages",
+    "authors": "Carol Joanna Bright M, Kripaa P, Karishma S, Freida Judith I, Usama Abdur Rahman",
+    "publish": "2026 International Conference on Innovative Trends in Information Technology (ICITIIT)",
+    "url": "https://doi.org/10.1109/icitiit68860.2026.11499660",
+    "source": "IEEE",
+    "abstract": "Automated generation of software test cases are one of the crucial tasks in modern software engineering, while the traditional method of manually writing test cases is time-consuming, prone to making errors and often fails to achieve contextual or linguistic accuracy. This paper proposes a Retrieval-Augmented Generation based method, which integrates dynamic knowledge retrieval with LLMs to generate highly faithful and contextually grounded test cases. Unlike general fine-tuned LLMs, which require extensive retraining, the proposed RAG pipeline uses lanceDB to store domain related knowledge and SentenceTransformers to semantically retrieve knowledge from the database, thus offering more reliability with much lower computational cost. Besides this, the suggested pipeline allows multilingual test case generation done by the LLM model across English and other Indian regional languages like Hindi, Tamil, Telugu, Malayalam and Kannada making software test more inclusive for language sensitive software ecosystems. The generated test cases are observed to be semantically aligned with the retrieved context and real-world user stories thus improving factual consistency and software reliability. Experimental evaluation shows consistent faithfulness scores, showing the effectiveness of the RAG pipeline and LLMs generation. Results confirm the embeddings quality, retrieval accuracy and reasoning capability within the model. Also, the architecture can be optionally extended for user feedback-based continual learning by integrating it with QA platforms such as Jira via Model Context Protocol (MCP) which gives the possibility to modify the model as per the project requirements. Overall, this study shows that RAG based models could provide scalable, multilingual and intelligent automation in future software quality assurance.",
+    "title_zh": "利用基于RAG的大型语言模型改进软件测试并支持印度地区语言",
+    "abstract_zh": "自动化生成软件测试用例是现代软件工程中的关键任务之一，而传统的手动编写测试用例方法耗时长、容易出错，且常常难以实现上下文或语言层面的准确性。本文提出了一种基于检索增强生成（Retrieval-Augmented Generation, RAG）的方法，将动态知识检索与大语言模型（LLMs）相结合，以生成高度忠实且具有上下文依据的测试用例。与需要大量重新训练的通用微调型大语言模型不同，所提出的RAG流程采用lanceDB存储领域相关知识，并利用SentenceTransformers进行语义化知识检索，从而在显著降低计算成本的同时提升了可靠性。此外，该流程支持由大语言模型生成多语言测试用例，涵盖英语以及印地语、泰米尔语、泰卢固语、马拉雅拉姆语和卡纳达语等印度区域性语言，使软件测试在语言敏感的软件生态系统中更具包容性。实验结果表明，生成的测试用例在语义上与检索到的知识内容及真实用户场景高度一致，有效提升了事实准确性和软件系统的可靠性。评估结果显示，该方法在保真度指标上表现稳定，验证了RAG流程与大语言模型生成能力的有效性。同时，研究也证实了嵌入表示的质量、检索精度以及模型内部的推理能力。此外，该架构还可通过模型上下文协议（Model Context Protocol, MCP）与Jira等问答平台集成，选择性地扩展为基于用户反馈的持续学习系统，从而根据项目需求动态调整模型。总体而言，本研究表明，基于RAG的模型有望在未来软件质量保证中实现可扩展、多语言且智能化的自动化测试。"
+  },
+  {
+    "date": "2026-5-8",
+    "title": "A Novel Walsh Encoding Scheme for Efficient ATPG in Embedded Processors",
+    "authors": "A.Abinaya A. Abinaya, Radha N, S.Rajapriya, Babitha Lincy R, P.Malini, Jency Rubia J",
+    "publish": "2025 3rd International Conference on Sustainable Computing and Smart Systems (ICSCSS)",
+    "url": "https://doi.org/10.1109/icscss64956.2025.11501164",
+    "source": "IEEE",
+    "abstract": "Reliable in-field testing has grown more and more important due to a growing number of chip failures after deployment. This study presents an innovative method for creating software-based self-test (SBST) routines for processor cores utilizing the Walsh encoding technique. The approach leverages execution traces obtained while running training programs to streamline the mapping process and extract functional constraints for internal component ports, thereby enabling gate-level structural test generation and automatic test instruction generation (ATIG), including for hidden control logic (HCL) with applied constraints. Experimental findings show that the proposed ATIG approach attains high structural fault coverage while producing compact test programs suitable for contemporary processors.",
+    "title_zh": "一种用于嵌入式处理器中高效ATPG的新型沃尔什编码方案",
+    "abstract_zh": "由于芯片在部署后出现故障的数量日益增多，可靠的现场测试变得越来越重要。本研究提出了一种创新方法，利用Walsh编码技术为处理器核心生成基于软件的自测试（SBST）程序。该方法通过运行训练程序获取执行轨迹，以简化映射过程，并提取内部组件端口的功能约束，从而实现门级结构测试生成和自动测试指令生成（ATIG），包括针对带有约束条件的隐藏控制逻辑（HCL）的测试。实验结果表明，所提出的ATIG方法能够实现较高的结构故障覆盖率，同时生成适用于现代处理器的紧凑型测试程序。"
+  },
+  {
+    "date": "2026-5-8",
+    "title": "Systematic Analysis of Cybersecurity Attacks and Evaluation of Mitigation Strategies",
+    "authors": "Ishan Chowdhury, Somnath Sinha, Binayak Dutta",
+    "publish": "2026 IEEE 15th International Conference on Communication Systems and Network Technologies (CSNT)",
+    "url": "https://doi.org/10.1109/csnt69054.2026.11502148",
+    "source": "IEEE",
+    "abstract": "There are established frameworks in place to address the problem, such as OWASP, MITRE ATT&CK, but web applications and critical infrastructure keep suffering from a rapidly growing and increasingly complex threat. This paper shows a systematic empirical analysis on 14,133 records in total of 63 security categories, and it shows that the most frequent attack vectors are Hardware Interface Exploitation (161 cases), Wireless Attacks Advanced (95 cases), PLC Attacks (26 cases), Use-After-Free (22 cases), and Stack Overflow (20 cases). Statistical validation through chi-square testing (<tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\chi^{2}=756580,\\ p&lt;0.001$</tex>) indicates non-random attack-category relationships, in which uniform one-size-fits-all defenses are rejected. To fill in gaps in understanding, we propose two novel frameworks: the Category-Adaptive Defense Framework (CADF) that produces frequency-weighted, category-specific mitigation playbooks based upon empirical distributions, and Multi-Phase Intelligence (MPI), a closed-loop adaptive defense architecture with phases of prediction, adaptation, and response. Backtesting of the entire dataset shows efficiency improvements of <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{4 0 - 7 3 \\%}$</tex> over static controls for smaller and medium-sized businesses (SMEs) where CADF achieves a playbook coverage of 62 % vs 28 % in static OWASP controls and MPI reduces dwell time by <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{7 3 \\%}$</tex> (<tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{4 7}$</tex> to <tex xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">$\\mathbf{1 3}$</tex> days, mean dwell time).",
+    "title_zh": "网络安全攻击的系统性分析及缓解策略评估",
+    "abstract_zh": "现有的框架（如OWASP、MITRE ATT&CK）虽已建立以应对网络安全问题，但Web应用程序和关键基础设施仍持续面临日益增长且日趋复杂的威胁。本文对共计14,133条记录、涵盖63个安全类别的数据进行了系统的实证分析，结果显示最频繁的攻击向量包括：硬件接口利用（161起）、高级无线攻击（95起）、PLC攻击（26起）、释放后使用漏洞（Use-After-Free，22起）以及栈溢出（20起）。通过卡方检验进行的统计验证（χ² = 756,580，p < 0.001）表明，各类攻击之间存在非随机关联关系，从而否定了“一刀切”式防御措施的有效性。\n\n为弥补现有认知的不足，本文提出两个创新性框架：一是**类别自适应防御框架**（Category-Adaptive Defense Framework, CADF），该框架基于实证分布生成按频率加权、针对特定类别的缓解 playbook；二是**多阶段智能防御机制**（Multi-Phase Intelligence, MPI），一种包含预测、适应与响应阶段的闭环自适应防御架构。对整个数据集的回溯测试表明，相较于静态防御控制措施，新框架在中小型企业（SMEs）中展现出显著效率提升：CADF实现的playbook覆盖率达到62%，远高于传统静态OWASP控制的28%；MPI则将攻击驻留时间（dwell time）缩短了73%（平均驻留时间从47天减少至13天）。"
+  },
+  {
+    "date": "2026-5-8",
+    "title": "Short Paper: Simulation-Based Performance Characterization of Common NOR Flash File Systems",
+    "authors": "Yannick Loeck, Christian Dietrich, Ulf Kulau",
+    "publish": "Proceedings of the 2026 ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems",
+    "url": "https://doi.org/10.1145/3774906.3802793",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "短文：基于仿真的常见NOR闪存文件系统性能表征",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-5-8",
+    "title": "Advanced Low Power EDAC with a Clock Gating Design and Enhanced DFT-Compatible Design",
+    "authors": "Denisha.E, Maruvarasi.P.R, Litheesh.A",
+    "publish": "2025 3rd International Conference on Sustainable Computing and Smart Systems (ICSCSS)",
+    "url": "https://doi.org/10.1109/icscss64956.2025.11500792",
+    "source": "IEEE",
+    "abstract": "This work proposes a novel design-for-testability (DFT) compatible in-situ error detection and correction (EDAC) architecture that significantly enhances timing error resilience while achieving low power and test overhead through a clock-gating-enabled, scan-friendly design. The proposed system introduces a highly efficient scannable EDAC cell (SEDC), which operates as a latch-based timing error detection element in normal mode and seamlessly transitions to a flip-flop configuration in scan mode for testing purposes. Unlike traditional EDAC implementations that suffer from high area, power, and timing overheads, as well as test complexity due to their dependence on critical path sensitization, the SEDC leverages transistor reusability and simplified detection logic to minimize these penalties. The architecture includes a globally controllable error propagation mechanism that enables error signals to be generated and observed during shift-based test operations, thereby eliminating the need for intricate launch-on-capture patterns. This innovation facilitates both static and at-speed testing with significantly reduced pattern count and test cycles, improving test efficiency and lowering overall design complexity. Furthermore, the integration of clock gating ensures reduced dynamic power consumption by disabling inactive logic stages, making the system particularly suitable for energy-constrained applications.",
+    "title_zh": "采用时钟门控设计和增强型DFT兼容设计的先进低功耗EDAC",
+    "abstract_zh": "本文提出了一种新型的、可测试性设计（DFT）兼容的原位错误检测与纠正（EDAC）架构，该架构通过支持时钟门控且便于扫描的结构，显著增强了对时序错误的容错能力，同时实现了低功耗和低测试开销。所提出的系统引入了一种高效可扫描的EDAC单元（SEDC），该单元在正常工作模式下作为基于锁存器的时序错误检测元件运行，并可在扫描测试模式下无缝切换为触发器结构，以支持测试操作。与传统EDAC实现方案相比，后者通常因依赖关键路径敏感化而导致面积、功耗、时序开销较高以及测试复杂度大，而SEDC则通过晶体管复用和简化的检测逻辑，有效降低了这些负面影响。该架构还包含一种全局可控的错误传播机制，使得在基于移位的测试过程中能够生成并观测错误信号，从而无需复杂的“捕获时启动”测试模式。这一创新显著减少了测试向量数量和测试周期，实现了静态测试和全速测试的高效执行，提升了测试效率并降低了整体设计复杂度。此外，通过集成时钟门控技术，系统能够在非活动逻辑阶段关闭时钟，降低动态功耗，使其特别适用于能量受限的应用场景。"
+  }
+]
