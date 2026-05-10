@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-5-9",
+    "title": "GPUArmor: A Hardware-Software Co-Design for Efficient and Scalable Memory Safety on GPUs",
+    "authors": "Mohamed Tarek Ibn Ziad, Sana Damani, Mark Stephenson, Stephen Keckler, Aamer Jaleel",
+    "publish": "ACM Transactions on Architecture and Code Optimization",
+    "url": "https://doi.org/10.1145/3815783",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "GPUArmor：一种面向GPU的高效可扩展内存安全硬件-软件协同设计",
+    "abstract_zh": "None"
+  }
+]
