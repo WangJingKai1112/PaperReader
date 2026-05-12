@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2026-05-11",
+    "title": "Arcane: An Assertion Reduction Framework through Semantic Clustering and MCTS-Guided Rule Exploring",
+    "authors": "Hongqin Lyu, Yonghao Wang, Zhiteng Chao, Tiancheng Wang, Huawei Li",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.10107v1",
+    "source": "arXiv",
+    "abstract": "Assertion-based Verification (ABV) is essential for ensuring that hardware designs conform to their intended specifications. However, existing automated assertion-generation approaches, such as LLM-based frameworks, often generate large numbers of redundant assertions, which significantly degrade simulation efficiency. To mitigate the simulation overhead caused by redundant assertions, this paper proposes Arcane, an efficient assertion reduction framework. It integrates a two-tier assertion clustering approach for accurate semantic classification of large assertion sets, and employs Monte Carlo Tree Search (MCTS) to explore optimal rule-application sequences for efficient assertion reduction. The experimental results on Assertionbench [20] show that Arcane achieves a reduction of up to 76.2% in the assertion count while fully preserving formal coverage and mutation-detection ability. Further simulation studies demonstrate a speedup of 2.6x to 6.1x speedup in simulation time. The proposed framework is released at https://anonymous.4open.science/r/Arcane1-0A6F/.",
+    "title_zh": "Arcane：一种基于语义聚类与蒙特卡洛树搜索引导规则探索的断言约简框架",
+    "abstract_zh": "基于断言的验证（ABV）对于确保硬件设计符合其预期规范至关重要。然而，现有的自动化断言生成方法（例如基于大语言模型的框架）通常会生成大量冗余断言，显著降低了仿真效率。为减轻冗余断言带来的仿真开销，本文提出了Arcane——一种高效的断言约简框架。该框架结合两级断言聚类方法，实现对大规模断言集合的精确语义分类，并采用蒙特卡洛树搜索（MCTS）探索最优的规约应用序列，以高效减少断言数量。在Assertionbench [20]上的实验结果表明，Arcane在完全保持形式化覆盖率和变异检测能力的前提下，最多可将断言数量减少76.2%。进一步的仿真研究表明，仿真时间可加速2.6倍至6.1倍。所提出的框架已公开发布于 https://anonymous.4open.science/r/Arcane1-0A6F/。"
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Improving search efficiency via adaptive acquisition function selection in discrete black-box optimization",
+    "authors": "Reo Shikanai, Masayuki Ohzeki",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.10856v1",
+    "source": "arXiv",
+    "abstract": "In discrete-variable black-box optimization, the number of candidate solutions grows combinatorially, while each evaluation is often expensive. Therefore, it is important to identify promising solutions efficiently within a limited number of trials. Bayesian Optimization of Combinatorial Structures (BOCS), an existing parametric method, works effectively when only a small amount of data is available. However, as the number of observations increases, BOCS tends to repeatedly propose points that have already been evaluated, which leads to search stagnation. A random-point addition strategy has been proposed to address this issue when an evaluated point is proposed, but it cannot sufficiently exploit information from promising data obtained so far. In this study, we propose a hybrid method that uses BOCS as the main search framework and generates alternative unevaluated points using a Gaussian process only when search stagnation is detected. In the Gaussian-process-based component, multiple Lower Confidence Bound (LCB) acquisition functions are adaptively selected to dynamically control the balance between exploitation and exploration. Numerical experiments using fully connected Quadratic Unconstrained Binary Optimization (QUBO) and Higher-order Unconstrained Binary Optimization (HUBO) as black-box functions show that the proposed method finds solutions with better objective values than the conventional random-point addition method in both settings. Additional analyses show that its effectiveness comes from selecting points that promote search progress within Hamming-distance neighborhoods, rather than simply adding low-energy points near promising solutions. Experiments with sparse surrogate models for quantum annealer applications further suggest the importance of retaining near-fully connected representational capacity.",
+    "title_zh": "通过离散黑箱优化中的自适应采集函数选择提升搜索效率",
+    "abstract_zh": "在离散变量黑箱优化中，候选解的数量呈组合式增长，而每次评估通常代价高昂。因此，在有限的试验次数内高效地识别出有前景的解显得尤为重要。现有的参数化方法“组合结构贝叶斯优化”（BOCS）在数据量较小时表现良好。然而，随着观测数量的增加，BOCS 倾向于重复推荐已被评估过的点，从而导致搜索停滞。虽然已有研究提出当遇到已评估点时加入随机点的策略来缓解这一问题，但该方法无法充分挖掘迄今为止所获得的有前景数据中的信息。\n\n本研究提出一种混合方法：以 BOCS 作为主要搜索框架，并仅在检测到搜索停滞时，利用高斯过程生成新的未评估点。在基于高斯过程的组件中，自适应地选择多个下置信界（LCB）采集函数，以动态调节开发（exploitation）与探索（exploration）之间的平衡。通过将全连接的二次无约束二元优化（QUBO）和高阶无约束二元优化（HUBO）作为黑箱函数进行数值实验，结果表明，所提出的方法在两种设置下均能比传统的随机点添加方法找到目标值更优的解。进一步分析显示，其有效性源于在汉明距离邻域内选择能够推动搜索进程的点，而不仅仅是靠近有前景解添加低能量点。此外，针对量子退火器应用中稀疏代理模型的实验进一步表明，保持接近全连接的表示能力至关重要。"
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Formally Verifying Analog Neural Networks Under Process Variations Using Polynomial Zonotopes",
+    "authors": "Yasmine Abu-Haeyeh, Tobias Ladner, Matthias Althoff, Lars Hedrich",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.10474v1",
+    "source": "arXiv",
+    "abstract": "Analog neural networks are gaining attention due to their efficiency in terms of power consumption and processing speed. However, since analog neural networks are implemented as physical circuits, they are highly sensitive to manufacturing process variations, which can cause large deviations from the nominal model. We present a polynomial-based model that resembles the performance of the neuron circuit under process variations. Then, we formally verify the behavior of the circuit-level model using reachability analysis with polynomial zonotopes, thus, avoiding conventional, time-consuming Monte Carlo simulations. We evaluate our proposed verification approach on three different datasets, verifying both fully-connected and convolutional analog neural networks. Our experimental results confirm the effectiveness of our verification approach by reducing the verification time from days to seconds while enclosing 99% of the variation samples.",
+    "title_zh": "使用多项式零托体对工艺变化下的模拟神经网络进行形式化验证",
+    "abstract_zh": "由于在功耗和处理速度方面的高效性，模拟神经网络正受到越来越多的关注。然而，由于模拟神经网络是以物理电路形式实现的，因此对制造工艺变化极为敏感，可能导致其性能与标称模型产生显著偏差。本文提出了一种基于多项式的模型，用于近似神经元电路在工艺变化下的性能表现。随后，我们采用基于多项式零多面体（polynomial zonotopes）的可达性分析，对电路级模型的行为进行形式化验证，从而避免了传统耗时的蒙特卡洛仿真方法。我们在三个不同的数据集上评估了所提出的验证方法，验证对象包括全连接和卷积型模拟神经网络。实验结果表明，该验证方法有效将验证时间从数天缩短至数秒，同时覆盖了99%的工艺变异样本，验证效果显著。"
+  },
+  {
+    "date": "2026-05-11",
+    "title": "PhysEDA: Physics-Aware Learning Framework for Efficient EDA With Manhattan Distance Decay",
+    "authors": "Zetao Yang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.10547v1",
+    "source": "arXiv",
+    "abstract": "Electronic design automation (EDA) addresses placement, routing, timing analysis, and power-integrity verification for integrated circuits. Learning methods -- attention (Transformer) and reinforcement learning (RL) -- have recently emerged on EDA tasks, yet face two common bottlenecks: vanilla attention's quadratic complexity limits scaling, and data-scarce models overfit statistical noise and amplify weak long-range correlations against the underlying physics. We observe that EDA tasks share a physical prior -- pairwise electrical and routing interactions decay exponentially along Manhattan distance -- and integrate it as a unified inductive bias into both architecture and training. We propose PhysEDA, comprising two components Physics-Structured Linear Attention (PSLA) folds the separable Manhattan decay into the linear-attention kernel as a multiplicative bias, reducing complexity from quadratic to linear; Potential-Based Reward Shaping (PBRS) constructs a physical potential from the same kernel, providing dense reward signal under sparse RL while preserving the optimal policy via the policy-invariance theorem. Across three EDA scenarios -- decoupling-capacitor placement, macro placement, and IR-drop prediction -- PhysEDA improves zero-shot cross-scale transfer by 56.8% and achieves 14x inference speedup with 98.5% memory savings on 100x100 grids; PBRS adds another 10.8% in sparse-reward DPP.",
+    "title_zh": "PhysEDA：一种基于曼哈顿距离衰减的物理感知高效电子设计自动化学习框架",
+    "abstract_zh": "电子设计自动化（EDA）涉及集成电路的布局、布线、时序分析以及功耗完整性验证。近年来，注意力机制（Transformer）和强化学习（RL）方法开始应用于EDA任务，但仍面临两大常见瓶颈：标准注意力机制的二次复杂度限制了其扩展能力，而数据稀缺导致模型容易过拟合统计噪声，并放大违背物理规律的弱长程相关性。我们观察到，EDA任务具有一项共通的物理先验——电学与布线交互作用随曼哈顿距离呈指数衰减。基于此，我们将该先验作为统一的归纳偏置融入模型架构与训练过程。我们提出PhysEDA，包含两个核心组件：1）物理结构化线性注意力（Physics-Structured Linear Attention, PSLA），将可分离的曼哈顿衰减模式嵌入线性注意力核中作为乘法偏置，使计算复杂度从二次降至线性；2）基于势能的奖励塑形（Potential-Based Reward Shaping, PBRS），利用相同核函数构建物理势能，在稀疏强化学习场景下提供密集奖励信号，同时通过策略不变性定理保证最优策略不变。在去耦电容布局、宏单元布局和IR压降预测三个EDA任务中，PhysEDA实现了跨尺度零样本迁移性能提升56.8%，在100×100网格上推理速度加快14倍，内存占用减少98.5%；PBRS在稀疏奖励的DPP任务中进一步带来10.8%的性能提升。"
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Agentic Fuzzing: Opportunities and Challenges",
+    "authors": "Junyoung Park, Insu Yun",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.10074v1",
+    "source": "arXiv",
+    "abstract": "Fuzzers and static analyzers find many bugs but struggle with logic bugs in mature codebases. Triggering such a bug often requires multi-step reasoning that produces no distinctive execution feedback, and variants can appear across implementations too different for a single pattern to match. Recent LLM-assisted approaches help, but they use LLMs as auxiliaries rather than as the reasoning engine. We propose agentic fuzzing, a bug-finding approach seeded by historical bugs in which deep agents perform the reasoning directly. Given a reference bug, the agent analyzes its root cause, hypothesizes new scenarios elsewhere in the codebase that may share that cause, and verifies each hypothesis by generating and running proof-of-concept code. This lets the agent find variants that differ completely in trigger path or code structure from the reference. We identify three practical challenges in implementing agentic fuzzing: harness engineering, redundant investigations across seeds with similar root causes, and scheduling seeds in a large corpus. We address these in AFuzz through a four-stage agent pipeline, scenario coverage that deduplicates previously explored scenarios, and a DPP-MAP scheduler that orders seeds by diversity. We ran AFuzz on the V8 JavaScript engine for about one month, finding 40 bugs (including three duplicates), receiving a total $35,000 bounty, and being assigned two CVEs. AFuzz also found 19 bugs (including one duplicate) in SpiderMonkey and JavaScriptCore using the seeds from V8. However, agentic fuzzing is in its early stages with several remaining open problems we discuss in the paper. Still, we think it points to a promising direction for finding logic bugs.",
+    "title_zh": "智能体模糊测试：机遇与挑战",
+    "abstract_zh": "模糊测试和静态分析工具能够发现许多漏洞，但在处理成熟代码库中的逻辑漏洞时往往效果不佳。触发此类漏洞通常需要多步骤的推理过程，而该过程不会产生明显的执行反馈；此外，这些漏洞的变体可能出现在实现差异较大的代码中，难以通过单一模式进行匹配。尽管近期一些基于大语言模型（LLM）辅助的方法有所进展，但它们通常将LLM作为辅助工具，而非核心的推理引擎。\n\n我们提出“代理式模糊测试”（agentic fuzzing），一种以历史漏洞为种子的新型漏洞发现方法，其中深度智能代理（deep agents）直接承担推理任务。给定一个参考漏洞后，代理会分析其根本原因，推测代码库其他位置可能存在相同成因的新场景，并通过生成和运行概念验证代码来逐一验证这些假设。这种方法使代理能够发现与原始漏洞在触发路径或代码结构上完全不同的变体。\n\n我们在实现代理式模糊测试时识别出三个实际挑战：测试驱动（harness）工程、具有相似根本原因的种子导致的重复性调查，以及在大规模种子语料库中的种子调度问题。针对这些问题，我们设计了AFuzz系统，包含四个阶段的代理流水线，采用场景覆盖率机制避免已探索场景的重复分析，并引入DPP-MAP调度器，根据多样性对种子进行排序以优化调度顺序。\n\n我们将AFuzz应用于V8 JavaScript引擎约一个月时间，共发现40个漏洞（含3个重复项），获得总计35,000美元的漏洞奖励，并被分配了两个CVE编号。此外，使用来自V8的种子，AFuzz还在SpiderMonkey和JavaScriptCore中发现了19个漏洞（含1个重复项）。\n\n然而，代理式模糊测试仍处于早期发展阶段，论文中也讨论了若干尚未解决的问题。尽管如此，我们认为这一方向为发现逻辑漏洞提供了极具前景的新路径。"
+  },
+  {
+    "date": "2026-05-11",
+    "title": "Coherency through formalisations of Structured Natural Language, A case study on FRETish",
+    "authors": "Joost J. Joosten, Marina López Chamosa, Sofía Santiago Fernández",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.10462v1",
+    "source": "arXiv",
+    "abstract": "Formalisation is the process of writing system requirements in a formal language. These requirements mostly originate in Natural Language. In the field of Formal Methods, formalisation is often identified as one of the most delicate and complicated steps in the verification process. Not seldomly, formalisation tools and environments choose various levels of requirement descriptions: Natural Language, Technical Language, Diagram Representations and Formal Language, to mention a few. In the literature, there are various maxims and principles of good practice to guide the process of requirement formalisation. In this paper we propose a new guideline: Coherency through Formalisations. The guideline states that the different levels of formalisation mentioned above should roughly follow the same logical structure. The principle seems particularly relevant in the setting where LLMs are prompted to perform reasoning tasks that can be checked by formal tools using Structured Natural Language to act as an intermediate layer bridging both paradigms. In the light of coherency, we analyze NASA's Formal Requirement Elicitation Tool FRET and propose an alternative automated translation of the Controlled Natural Language FRETish to the formal language of MTL. We compare our translation to the original translation and prove equivalence using model checking. Some statistics are performed which seem to favor the new translation. As expected, the translation process yielded interesting reflections and revealed inconsistencies which we present and discuss.",
+    "title_zh": "通过结构化自然语言的形式化实现一致性：以FRETish为例的案例研究",
+    "abstract_zh": "形式化是将系统需求以形式语言进行表述的过程。这些需求大多最初来源于自然语言。在形式化方法领域，形式化常被视为验证过程中最微妙且最复杂的步骤之一。形式化工具与环境往往采用多种层次的需求描述方式，例如：自然语言、技术性语言、图示表达以及形式语言等。文献中已提出诸多关于良好实践的准则和原则，用以指导需求形式化过程。本文提出了一项新的指导原则：**形式化中的一致性（Coherency through Formalisations）**。该原则指出，上述不同层次的形式化表达应大致遵循相同的逻辑结构。这一原则在当前利用大语言模型（LLM）执行可由形式化工具验证的推理任务时显得尤为相关——此时，结构化自然语言可作为连接自然语言与形式语言两种范式的中间层。基于“一致性”原则，我们分析了美国国家航空航天局（NASA）的正式需求提取工具FRET，并提出了一种将受控自然语言FRETish自动翻译为度量时序逻辑（MTL）的新方法。我们将新翻译方案与原始翻译进行比较，并通过模型检测证明了二者之间的等价性。部分统计结果也显示出新翻译方法的优势。正如预期，该翻译过程引发了一些深入思考，并揭示出若干不一致之处，我们在文中对此进行了展示与讨论。"
+  },
+  {
+    "date": "2026-05-11",
+    "title": "On the Verification Problem of Remote Direct Memory Access programs (Extended Version with Appendix)",
+    "authors": "Parosh Aziz Abdulla, Mohamed Faouzi Atig, Govind Rajanbabu, Stephan Spengler",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2605.10631v1",
+    "source": "arXiv",
+    "abstract": "Remote Direct Memory Access (RDMA) is a technology that allows direct memory access from the memory of one computer into that of another without involving either one's operating system. This enables high-throughput, low-latency networking, which is especially useful in massively parallel computer clusters. In this paper, we study the reachability and robustness problems for RDMA programs. We show that reachability is undecidable in general, even for a restricted fragment of the model. We then focus on robustness, which asks whether a program exhibits the same behaviours under the RDMA and sequential consistency (SC) semantics, and prove that this problem is decidable. Our central technical result establishes a normal form for robustness violations, showing that any non-robust program admits a violating execution of a specific form. We then leverage this normal form to obtain a decision procedure that reduces robustness to reachability in finite-state programs with counters, yielding an EXPSPACE upper bound in the general case, and a PSPACE upper bound in the absence of poll operations. Finally, we also show that both of these bounds are optimal.",
+    "title_zh": "远程直接内存访问程序的验证问题（含附录的扩展版本）",
+    "abstract_zh": "远程直接内存访问（RDMA）是一种允许从一台计算机的内存直接访问另一台计算机内存的技术，且无需参与任一计算机的操作系统。该技术实现了高吞吐量、低延迟的网络通信，在大规模并行计算集群中尤为有用。在本文中，我们研究了RDMA程序的可达性与鲁棒性问题。我们证明了一般情况下可达性问题是不可判定的，即使对于模型的一个受限片段也是如此。随后，我们聚焦于鲁棒性问题，即判断一个程序在RDMA语义和顺序一致性（SC）语义下是否表现出相同的行为，并证明该问题是可判定的。我们的核心技术成果是建立了一种鲁棒性违规的规范形式，表明任何非鲁棒程序都存在一种特定形式的违规执行。基于此规范形式，我们设计了一个判定过程，将鲁棒性问题规约为带有计数器的有限状态程序中的可达性问题，从而在一般情况下得到EXPSPACE的上界；若不存在轮询（poll）操作，则上界为PSPACE。最后，我们还证明了这两个上界都是最优的。"
+  },
+  {
+    "date": "2026-5-11",
+    "title": "Research on Embedded Network Security Defense Mechanism Based on the Synergy of Cortex-M MPU and LwIP",
+    "authors": "Liye Zhang, Haifeng Luan, Chaoqiong Fan, Tiancheng Jiang, Haoliang Guo, Chuanbo Liu",
+    "publish": "2026 IEEE 8th International Conference on Communications, Information System and Computer Engineering (CISCE)",
+    "url": "https://doi.org/10.1109/cisce69494.2026.11504465",
+    "source": "IEEE",
+    "abstract": "As the Internet of Things (IoT) and the Industrial Internet deeply integrate, numerous resource-constrained devices based on the Cortex-M core connect to networks via the lightweight TCP/IP protocol stack (LwIP). However, the native LwIP stack, designed primarily for communication efficiency and code compactness, severely lacks defense mechanisms against common network threats such as IP spoofing, fragmentation reassembly attacks, and buffer overflows. Traditional pure software firewall solutions consume significant CPU resources, while general operating system-level isolation schemes are difficult to adapt to embedded bare-metal or lightweight RTOS environments. This paper proposes a “hardware-software synergistic” in-depth defense system: at the software level, the LwIP core is improved to implement bitmap-based fast source IP authentication and dynamic fragmentation control; at the hardware level, the Memory Protection Unit (MPU) of Cortex-M is utilized to construct a fine-grained memory isolation fence. Experimental results show that this mechanism effectively resists IP spoofing and DoS attacks while restricting buffer overflows to specific physical areas, keeping the impact on network throughput within 5%, thereby achieving a balance between security and real-time performance.",
+    "title_zh": "基于Cortex-M MPU与LwIP协同的嵌入式网络安全防御机制研究",
+    "abstract_zh": "随着物联网（IoT）与工业互联网的深度融合，大量基于Cortex-M内核的资源受限设备通过轻量级TCP/IP协议栈（LwIP）接入网络。然而，原始LwIP协议栈在设计上主要追求通信效率与代码紧凑性，缺乏对IP欺骗、分片重组攻击、缓冲区溢出等常见网络威胁的有效防御机制。传统的纯软件防火墙方案会消耗大量CPU资源，而通用操作系统级别的隔离方案又难以适配嵌入式裸机或轻量级RTOS环境。本文提出一种“软硬件协同”的纵深防御体系：在软件层面，改进LwIP核心，实现基于位图的快速源IP认证与动态分片控制；在硬件层面，利用Cortex-M的内存保护单元（MPU）构建细粒度的内存隔离屏障。实验结果表明，该机制能有效抵御IP欺骗和拒绝服务（DoS）攻击，同时将缓冲区溢出限制在特定物理区域内，对网络吞吐量的影响控制在5%以内，从而在安全性和实时性能之间实现了良好平衡。"
+  },
+  {
+    "date": "2026-5-11",
+    "title": "Real-Time Product Dispensing System with FPGA",
+    "authors": "Ch. Babaiah, P Somasundri, J Palanimeera, Rakesh Kumar, Binod Kumar, Shrikant Upadhyay",
+    "publish": "2026 IEEE International Conference for Convergence in Computing Technology (I3CTCON)",
+    "url": "https://doi.org/10.1109/i3ctcon68242.2026.11507957",
+    "source": "IEEE",
+    "abstract": "This paper presents the RTL design logic of vending machine and its implementation into FPGA zed board. FPGA technology enables faster processing, reconfigurability, and better resource efficiency for vending control. The FPGA-based approach provides a modern, adaptable, and high-performance solution for vending machine automation. The Control logic in this proposed model of vending machine includes insertion of amount, cancel operation and dispensing of candy. The proposed design is tested and simulated using Xilinx Vivado 2024 version, achieving a 69.3% of power optimization than the previous model, with further power consumption and timing analysis performed across different RTL coding styles (if-else, switch case, and while loop implementations).",
+    "title_zh": "基于FPGA的实时产品分发系统",
+    "abstract_zh": "本文介绍了售货机的RTL设计逻辑及其在FPGA Zed开发板上的实现。FPGA技术能够为售货机控制提供更快的处理速度、可重配置性以及更高的资源利用效率。基于FPGA的方法为售货机自动化提供了一种现代化、灵活且高性能的解决方案。该售货机模型的控制逻辑包括金额投入、取消操作和糖果发放等功能。所提出的方案采用Xilinx Vivado 2024版本进行测试与仿真，相较于先前模型实现了69.3%的功耗优化，并针对不同的RTL编码风格（如if-else、switch case和while循环实现）进行了进一步的功耗和时序分析。"
+  },
+  {
+    "date": "2026-5-12",
+    "title": "AutoPoC: Automated Firmware Vulnerability Verification via Environment-Aware Feedback",
+    "authors": "Yaxin Liu, Kaixiang Liu, Weidong Zhang, Limin Sun",
+    "publish": "Proceedings of the 2026 6th International Conference on Computer Network Security and Software Engineering",
+    "url": "https://doi.org/10.1145/3803633.3803640",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "AutoPoC：基于环境感知反馈的自动化固件漏洞验证",
+    "abstract_zh": "None"
+  }
+]
