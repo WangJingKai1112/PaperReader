@@ -1,0 +1,47 @@
+[2026-05-17 10:23:17] 开始执行论文搜索任务
+搜索关键词: verification
+搜索日期范围: 2026-05-16
+正在获取论文...
+arXiv 请求失败: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=lastUpdatedDate%3A%5B202605160000+TO+202605162359%5D&sortBy=relevance&sortOrder=descending&max_results=1000 (Caused by ResponseError('too many 429 error responses'))
+[ACM] 2026-5-16 | ARe you watching the road? Comparing Gaze Behaviour and Hazard Prediction between Heads-Up and Heads-Down NDRT Presentation in Augmented Reality
+[ACM] 2026-5-16 | Federated Multi-source Domain Adaptation via Contrastive Cross-domain Semantic Alignment with Adversarial Feature Augmentation
+[ACM] 2026-5-16 | Improving the Understanding of Arabic Political Text Through Emotion Analysis and Text Mining
+[ACM] 2026-5-16 | Label-Specific Feature Learning for Multi-Label Classification: A Survey
+[ACM] 2026-5-16 | Virtual Counselor Extenders: Social Cue Taxonomy, Soft Rooms, and Brief Motivational Interviewing
+[ACM] 2026-5-16 | DCHVF-GAN: Synthesizing Adversarial DeepFakes with High Visual Fidelity by Multimodality Fusion
+[ACM] 2026-5-16 | Selective 3D crypto-compression method based on Draco after quantization
+[ACM] 2026-5-16 | Visual-Guided Long Temporal Context Learning Network for Weakly-Supervised Video Anomaly Detection
+[ACM] 2026-5-16 | Multi-Granular Action Detection based on Highlighted Categories hierarchical prior-knowledge
+[ACM] 2026-5-16 | VGL-DPO: Vision-Guided Lexical Direct Preference Optimization for Mitigating Hallucination in Multimodal Large Language Models
+[ACM] 2026-5-16 | Knowledge-enhanced Hyperbolic Attention Network for Trustworthy Sequential Recommendation
+[ACM] 2026-5-16 | A Systematic Literature Review on Detecting Software Vulnerabilities with Large Language Models
+共写入 12 条记录，保存到 papers/paper2026-05-16.json。
+论文获取成功，文件路径: papers/paper2026-05-16.json
+正在筛选、翻译并发送邮件...
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 1/12 | ARe you watching the road? Comparing Gaze Behaviour and Hazard Prediction between Heads-Up and Heads-Down NDRT Presentation in Augmented Reality
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 2/12 | Federated Multi-source Domain Adaptation via Contrastive Cross-domain Semantic Alignment with Adversarial Feature Augmentation
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 3/12 | Improving the Understanding of Arabic Political Text Through Emotion Analysis and Text Mining
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 4/12 | Label-Specific Feature Learning for Multi-Label Classification: A Survey
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 5/12 | Virtual Counselor Extenders: Social Cue Taxonomy, Soft Rooms, and Brief Motivational Interviewing
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 6/12 | DCHVF-GAN: Synthesizing Adversarial DeepFakes with High Visual Fidelity by Multimodality Fusion
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 7/12 | Selective 3D crypto-compression method based on Draco after quantization
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 8/12 | Visual-Guided Long Temporal Context Learning Network for Weakly-Supervised Video Anomaly Detection
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 9/12 | Multi-Granular Action Detection based on Highlighted Categories hierarchical prior-knowledge
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 10/12 | VGL-DPO: Vision-Guided Lexical Direct Preference Optimization for Mitigating Hallucination in Multimodal Large Language Models
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 11/12 | Knowledge-enhanced Hyperbolic Attention Network for Trustworthy Sequential Recommendation
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 12/12 | A Systematic Literature Review on Detecting Software Vulnerabilities with Large Language Models
+筛选完成：共 12 篇；Yes = 0 篇；已保存到 papers/select_paper2026-05-16.json。
+邮件发送成功！
+[2026-05-17 10:25:18] 任务执行成功！
