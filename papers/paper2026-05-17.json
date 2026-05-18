@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-5-18",
+    "title": "Proceedings of the 2026 IEEE/ACM 2nd International Workshop on Neuro-Symbolic Software Engineering",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3786168",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-18",
+    "title": "Fiber-level Woven Fabric Capture from a Single Microscopic Image",
+    "authors": "Zixuan Li, Pengfei Shen, Hanxiao Sun, Zibo Zhang, Yu Guo, Ligang Liu, Lingqi Yan, Steve Marschner, Milos Hasan, Beibei Wang",
+    "publish": "ACM Transactions on Graphics",
+    "url": "https://doi.org/10.1145/3816036",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-18",
+    "title": "Tony Hoare: his path to the ACM Turing Award",
+    "authors": "Krzysztof Apt",
+    "publish": "Formal Aspects of Computing",
+    "url": "https://doi.org/10.1145/3816707",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-18",
+    "title": "ASP-Bench: From Natural Language to Logic Programs",
+    "authors": "Stefan Szeider",
+    "publish": "Proceedings of the 2026 IEEE/ACM 2nd International Workshop on Neuro-Symbolic Software Engineering",
+    "url": "https://doi.org/10.1145/3786168.3788402",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-18",
+    "title": "Climbing the Generative AI Mountain",
+    "authors": "Jenna Butler, Mara Ulloa, Margaret-Anne Storey, Christian Bird",
+    "publish": "Queue",
+    "url": "https://doi.org/10.1145/3807965",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-18",
+    "title": "Quality-driven Inference Orchestration for Multi-modality Machine Learning Systems at the Edge",
+    "authors": "Minh-Tri Nguyen, Anh-Dung Nguyen, Hong-Linh Truong",
+    "publish": "ACM Transactions on Internet of Things",
+    "url": "https://doi.org/10.1145/3816431",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-18",
+    "title": "Integrating Bayesian Reasoning and Evolutionary Search for Knowledge-Driven Team Formation",
+    "authors": "Felipe Cunha, Mirko Perkusich, Danyllo Albuquerque, Ramon Nóbrega dos Santos, Kyller Costa Gorgônio, Angelo Perkusich",
+    "publish": "Proceedings of the 2026 IEEE/ACM 2nd International Workshop on Neuro-Symbolic Software Engineering",
+    "url": "https://doi.org/10.1145/3786168.3788403",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-18",
+    "title": "A Survey of the First TinyML@ICCAD Contest for Ventricular Arrhythmia Detection by Artificial Intelligence on Low-power Microprocessor",
+    "authors": "Guoqing Li, Jingwei Zhang, Meng Zhang, Tinghuan Chen, Jun Yang",
+    "publish": "ACM Transactions on Embedded Computing Systems",
+    "url": "https://doi.org/10.1145/3816035",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-18",
+    "title": "Inferring Causality Between Entities and Events from CTI Reports",
+    "authors": "Chang-Hong Jiang, Ren-Hung Hwang, Ying-Dar Lin, Po-Ching Lin, Yuan-Cheng Lai, Eric Hsiao-Kuang Wu",
+    "publish": "ACM Transactions on Internet Technology",
+    "url": "https://doi.org/10.1145/3816038",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-5-18",
+    "title": "Exploring the Vulnerability of Basic Blocks for Control Flow Error Detection",
+    "authors": "Yang Liu, Jingjing Gu, Jingxuan Zhang, Bao Wen, Qiang Zhou, Zhiteng Dong, Yi Zhuang",
+    "publish": "ACM Transactions on Embedded Computing Systems",
+    "url": "https://doi.org/10.1145/3816034",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]

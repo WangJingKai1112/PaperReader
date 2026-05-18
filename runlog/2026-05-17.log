@@ -1,0 +1,41 @@
+[2026-05-18 12:32:59] 开始执行论文搜索任务
+搜索关键词: verification
+搜索日期范围: 2026-05-17
+正在获取论文...
+arXiv 请求失败: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=lastUpdatedDate%3A%5B202605170000+TO+202605172359%5D&sortBy=relevance&sortOrder=descending&max_results=1000 (Caused by ReadTimeoutError("HTTPSConnectionPool(host='export.arxiv.org', port=443): Read timed out. (read timeout=20)"))
+[ACM] 2026-5-18 | Proceedings of the 2026 IEEE/ACM 2nd International Workshop on Neuro-Symbolic Software Engineering
+[ACM] 2026-5-18 | Fiber-level Woven Fabric Capture from a Single Microscopic Image
+[ACM] 2026-5-18 | Tony Hoare: his path to the ACM Turing Award
+[ACM] 2026-5-18 | ASP-Bench: From Natural Language to Logic Programs
+[ACM] 2026-5-18 | Climbing the Generative AI Mountain
+[ACM] 2026-5-18 | Quality-driven Inference Orchestration for Multi-modality Machine Learning Systems at the Edge
+[ACM] 2026-5-18 | Integrating Bayesian Reasoning and Evolutionary Search for Knowledge-Driven Team Formation
+[ACM] 2026-5-18 | A Survey of the First TinyML@ICCAD Contest for Ventricular Arrhythmia Detection by Artificial Intelligence on Low-power Microprocessor
+[ACM] 2026-5-18 | Inferring Causality Between Entities and Events from CTI Reports
+[ACM] 2026-5-18 | Exploring the Vulnerability of Basic Blocks for Control Flow Error Detection
+共写入 10 条记录，保存到 papers/paper2026-05-17.json。
+论文获取成功，文件路径: papers/paper2026-05-17.json
+正在筛选、翻译并发送邮件...
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 1/10 | Proceedings of the 2026 IEEE/ACM 2nd International Workshop on Neuro-Symbolic Software Engineering
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 2/10 | Fiber-level Woven Fabric Capture from a Single Microscopic Image
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 3/10 | Tony Hoare: his path to the ACM Turing Award
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 4/10 | ASP-Bench: From Natural Language to Logic Programs
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 5/10 | Climbing the Generative AI Mountain
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 6/10 | Quality-driven Inference Orchestration for Multi-modality Machine Learning Systems at the Edge
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 7/10 | Integrating Bayesian Reasoning and Evolutionary Search for Knowledge-Driven Team Formation
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 8/10 | A Survey of the First TinyML@ICCAD Contest for Ventricular Arrhythmia Detection by Artificial Intelligence on Low-power Microprocessor
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 9/10 | Inferring Causality Between Entities and Events from CTI Reports
+判定相关性时出错： Error code: 401 - {'error': {'message': "Team not allowed to access model. Team=AI_PRD_SELF-qYEvLWAiLZhGpqUYkxAfgwRdAW22qBiHBelvsHGZmI0, Model=Qwen3-235B-A22B-Instruct-2507. Allowed team models = ['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash']", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 10/10 | Exploring the Vulnerability of Basic Blocks for Control Flow Error Detection
+筛选完成：共 10 篇；Yes = 0 篇；已保存到 papers/select_paper2026-05-17.json。
+邮件发送成功！
+[2026-05-18 12:34:41] 任务执行成功！
