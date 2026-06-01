@@ -1,0 +1,482 @@
+[2026-06-01 15:22:12] 开始执行论文搜索任务
+搜索关键词: verification
+搜索日期范围: 2026-05-31
+正在获取论文...
+arXiv 请求失败: HTTPSConnectionPool(host='export.arxiv.org', port=443): Max retries exceeded with url: /api/query?search_query=lastUpdatedDate%3A%5B202605310000+TO+202605312359%5D&sortBy=relevance&sortOrder=descending&max_results=1000 (Caused by ResponseError('too many 429 error responses'))
+[ACM] 2026-6-1 | MigMate: A VS Code Extension for LLM-based Library Migration of Python Projects
+[ACM] 2026-6-1 | Reproducibility of LLM-based Recommender Systems Research: Worrying Observations from an Initial Analysis
+[ACM] 2026-6-1 | Evaluating the Role of Context Representations in the Behavioral Fidelity of LLM-based Personas for Food Preferences
+[ACM] 2026-6-1 | Personalizing Font Size Normalization: Linguistic Background Shapes Which Font Attributes Matter
+[ACM] 2026-6-1 | GMAP 2026: 5th Workshop on Group Modeling, Adaptation and Personalization
+[ACM] 2026-6-1 | Leveraging Artist Catalogs for Cold-Start Music Recommendation
+[ACM] 2026-6-1 | Using Anti-Personas to Model Children: How to Represent User-System Mismatches
+[ACM] 2026-6-1 | Student Web Search Behaviour: A Comparative Study of AI-Assisted and Traditional Search Styles and Performance
+[ACM] 2026-6-1 | How Humans and LLMs Differ in Processing Uncertainty in Polarized Discourse
+[ACM] 2026-6-1 | Productively Wrong: How Auditing Open Profiles Enhances Interest Awareness and Reflection in Movie Recommenders
+[ACM] 2026-6-1 | User-Conditioned Personalized Side-Information in Sequential Recommendation
+[ACM] 2026-6-1 | Trustworthy and Adaptive LLMs for Mental and Physical Wellbeing in Recommendations
+[ACM] 2026-6-1 | CNnotator: LLM-Guided Memory Safety Annotation Synthesis
+[ACM] 2026-6-1 | Beyond Accuracy: Characterizing Code Comprehension Capabilities in (Large) Language Models
+[ACM] 2026-6-1 | Evaluating Persona Consistency and Emotion Understanding in Small Language Models
+[ACM] 2026-6-1 | DestiRec: User Interaction with a Travel Destination Recommender System
+[ACM] 2026-6-1 | The 14th International Workshop on News Recommendation and Analytics (INRA 2026)
+[ACM] 2026-6-1 | On the Role of Dwell Time for Implicitly Profiling Museum Visitors
+[ACM] 2026-6-1 | Towards An Agentic Conversational Approach to Group Recommender Systems
+[ACM] 2026-6-1 | WikiCoach: Scaffolding Learning for Novices in Online Apprenticeship Communities
+[ACM] 2026-6-1 | Sustained Impact of Agentic Personalisation in Marketing
+[ACM] 2026-6-1 | Cross-Domain Cold-Start Personalization via LLM-Synthesized Structured User Profiles
+[ACM] 2026-6-1 | Which Individual Differences Predict Success at an LLM-integrated Search Task?*
+[ACM] 2026-6-1 | When Many-Shot Prompting Fails: An Empirical Study of LLM Code Translation
+[ACM] 2026-6-1 | Using AI as a Chef: Users Overlook Nutritional Flaws in LLM-Generated Recipes
+[ACM] 2026-6-1 | Trust as a Situated User State in Social LLM-Based Chatbots
+[ACM] 2026-6-1 | Studying Longitudinal Effects of Recommender Systems: A Multi-Method Approach
+[ACM] 2026-6-1 | Exploring the Latitude of Acceptance over Several Recommendation Turns in a Game Setting
+[ACM] 2026-6-1 | Instructor-Centered Per-Question Adaptation for Short Answer Grading Using LLM Scores and Informative Sampling
+[ACM] 2026-6-1 | Participatory Elicitation of User Model Dimensions for Active Ageing: The EMERGE Methodology
+[ACM] 2026-6-1 | Towards a Stakeholder-Centered Auditing Framework for Assessing Fairness in (Music) Recommender Systems
+[ACM] 2026-6-1 | Evaluating Vibrotactile Feedback: Usability and User Experience in Glove vs. Non-Glove Conditions
+[ACM] 2026-6-1 | ATLAS: Adaptive Test Learning And Selection at the DeepTest 2026 Tool Competition
+[ACM] 2026-6-1 | FIRE: A Modular Framework for Prototyping and Evaluating Interactive Recommender Explanations
+[ACM] 2026-6-1 | A Context-Aware Cultural Heritage Guide Powered by LLMs
+[ACM] 2026-6-1 | Raising the Stakes: Assessing the Influence of Stakes on User Reliance Behavior in Human-AI Decision-Making
+[ACM] 2026-6-1 | DUPLet: Dynamic User Modeling for Personalized Cover Letter Generation
+[ACM] 2026-6-1 | Multi-Objective Candidate Generation for Reciprocal Recommendation at Hinge
+[ACM] 2026-6-1 | The 17th International Workshop on Personalized Access to Cultural Heritage (PATCH 2026)
+[ACM] 2026-6-1 | The AI-Therapist Duo in Virtual Reality: A Triadic Design for Immersive Exposure Digital Art Therapy
+[ACM] 2026-6-1 | PerSpect: Perspective-aware Contrastive Learning for Hybrid News Recommendation
+[ACM] 2026-6-1 | Algorithmic Audit of Personalisation Drift in Polarising Topics on TikTok
+[ACM] 2026-6-1 | Vibrotactile Preference Learning: Uncertainty-Aware Preference Learning for Personalized Vibration Feedback
+[ACM] 2026-6-1 | “As Long as It Does What I Want, I'd Be Happy to Trust It”: Exploring User Perspectives on a Scrutable Assistant for Time Management
+[ACM] 2026-6-1 | SmartDoc: A Context-Aware Agentic Method Comment Generation Plugin
+[ACM] 2026-6-1 | Can Third-Party Annotators Reliably Evaluate Conversational Recommender Systems?
+[ACM] 2026-6-1 | CALISSTA: Calibrated Candidate Retrieval Using Sparse Autoencoders and Top-k Aggregation
+[ACM] 2026-6-1 | Let Me Introduce You: Stimulating Taste-Broadening Serendipity through Song Introductions
+[ACM] 2026-6-1 | User-State Verification in Conversational Commerce: Detecting Journey Hallucinations via Trace Invariants
+[ACM] 2026-6-1 | It is relevant, but is it useful?
+[ACM] 2026-6-1 | “I’m a person–not a patient or diagnosis”: Centering the Person Living with Dementia’s Perspective on Caregiver Dynamics and Technology Design
+[ACM] 2026-6-1 | ExUM 2026 - 8th Workshop on Explainable User Modeling and Personalised Systems
+[ACM] 2026-6-1 | Community Norms in the Spotlight: Enabling Task-Agnostic Unsupervised Pre-Training to Benefit Online Social Media
+[ACM] 2026-6-1 | Who is the Fairest of Them All? Using Large Language Models for Fairness Assessments
+[ACM] 2026-6-1 | MRP-LLM: Multitask Reflective Large Language Models for Privacy-Preserving Next POI Recommendation
+[ACM] 2026-6-1 | MMGCF: Multimodal Graph Collaborative Filtering for Recommendation with Graph Convolutional Networks
+[ACM] 2026-6-1 | VOGUE: A Multimodal Dataset for Conversational Recommendation in Fashion
+[ACM] 2026-6-1 | EdgeWisePersona: A Dataset for On-Device User Profiling from Natural Language Interactions
+[ACM] 2026-6-1 | Eyes Can’t Always Tell: Fusing Eye Tracking and User Priors for User Modeling under AI Advice Conditions
+[ACM] 2026-6-1 | Optimizing an IDE for an Evolving Language Ecosystem
+[ACM] 2026-6-1 | Identifying Misinformation Spreaders through Multi-Source User Modeling
+[ACM] 2026-6-1 | Investigating Preference Elicitation Strategies in Conversational Recommender Systems
+[ACM] 2026-6-1 | Towards Student Profiles for Personalized Social Comparison in Learning Interfaces
+[ACM] 2026-6-1 | Explanation Demand as a Trait, Not a State: Implications for User Modeling in Adaptive Systems
+[ACM] 2026-6-1 | Inferential and Causal Principles for Better Understanding Interactive Systems.
+[ACM] 2026-6-1 | ParaAdapt: Parametric User Modeling &amp; Adaptation for Navigating Complex Interactive Domains
+[ACM] 2026-6-1 | Contextual Risk-Driven Input Structuring for Probing (CRISP) at the DeepTest 2026 Tool Competition
+[ACM] 2026-6-1 | The Stars Align: Modeling User Rating Calibration with Sparse Semantic Review Features
+[ACM] 2026-6-1 | User Modelling and Adaptation in Immersive Preventive Health Interventions: A Systematic Review and Evidence Map
+[ACM] 2026-6-1 | From Understanding to Anchoring: Informal Caregivers' Mental Models of Generative Artificial Intelligence-based Conversational Agents for Problem-Solving
+[ACM] 2026-6-1 | Multi-Dimensional Evaluation of Sustainable City Trips with LLM-as-a-Judge and Human-in-the-Loop
+[ACM] 2026-6-1 | In-IDE Toolkit for Developers of AI-Based Features
+[ACM] 2026-6-1 | Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments
+[ACM] 2026-6-1 | Virtual User Lab: An Interactive System for Simulating User Perspectives with AI Personas for Ideation and Evaluation
+[ACM] 2026-6-1 | Visual or Textual: Effects of Explanation Format and Personal Characteristics on the Perception of Explanations in an Educational Recommender System
+[ACM] 2026-6-1 | "Voglia di": Supporting Food Choices Through Transient Cravings
+[ACM] 2026-6-1 | CAPTURE: A Visual–Conversational Dashboard for Supporting User-Driven Explanations in a Job–Candidate Matching Algorithm
+[ACM] 2026-6-1 | AI for active learners: Applying insights from the learning sciences and human-centered AI to educational contexts
+[ACM] 2026-6-1 | What Do Your Eyes Reveal About Learning from Videos? A Dataset Demonstrating the Link Between Gaze Measures, Engagement, and Learning
+[ACM] 2026-6-1 | From emotional hooks to conspiratorial claims: A teen-focused game for reflecting on misinformation interactions
+[ACM] 2026-6-1 | Proto-ML: An IDE for ML Solution Prototyping
+[ACM] 2026-6-1 | Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents
+[ACM] 2026-6-1 | Model-Driven Legacy System Modernization at Scale
+[ACM] 2026-6-1 | It's Alive! What a Live Object Environment Changes in Software Engineering Practice
+[ACM] 2026-6-1 | Language Embeddings Meet Shallow Autoencoders
+[ACM] 2026-6-1 | OmniSim: A LLM-Powered Open-Source Simulator for Generating Personalized and Adaptive Conversational Recommendation Dialogues
+[ACM] 2026-6-1 | From Labels to Context: Context-Sensitive User Modeling of Affect with Large Language Models
+[ACM] 2026-6-1 | Causal Reasoning Augmented Agents for Adaptive and Explainable Knowledge Retrieval
+[ACM] 2026-6-1 | JMigBench: A Benchmark for Evaluating LLMs on Source Code Migration (Java 8 to Java 11)
+[ACM] 2026-6-1 | From Detection to Prevention: Explaining Security-Critical Code to Avoid Vulnerabilities
+[ACM] 2026-6-1 | Large Language Models for Secure Code Assessment: A Multi-Language Empirical Study
+[ACM] 2026-6-1 | How to Build Explainable Recommender Systems using Path Reasoning on Knowledge Graphs: A Tutorial with hopwise
+[ACM] 2026-6-1 | Match-it: Group Recommendations in the Age of Mobile Applications
+[ACM] 2026-6-1 | Toward Balanced Personalization: Bridging Short-Term Intent and Long-Term Preference
+[ACM] 2026-6-1 | Harnessing Query Context for Personalized User Intent-Aware Sequential Recommendation
+[ACM] 2026-6-1 | Forecasting Developer Environments with GenAI: A Research Perspective
+[ACM] 2026-6-1 | DeepTest Tool Competition 2026: Benchmarking an LLM-Based Automotive Assistant
+[ACM] 2026-6-1 | Game On for News: Stance-Aware Gamification in a News Aggregator to Promote Engagement with Diverse Viewpoints
+[ACM] 2026-6-1 | Modeling Relational Dynamics into Cognitive Architectures for Socially Assistive Robots
+[ACM] 2026-6-1 | LLM-Based Content Tagging at The Washington Post
+[ACM] 2026-6-1 | May the Force Be with You: Force-Aware and Explainable User Modeling for Personalized Psychomotor Support
+[ACM] 2026-6-1 | 8th UMAP Workshop on Fairness in User Modeling, Adaptation, and Personalization (FairUMAP 2026)
+[ACM] 2026-6-1 | This Is The World (Recommender Systems Made It For You)
+[ACM] 2026-6-1 | SOcial and Cultural IntegrAtion with PersonaLIZEd Interfaces (SOCIALIZE) 2026
+[ACM] 2026-6-1 | Learning Behaviorally Grounded Item Embeddings via Personalized Temporal Contexts
+[ACM] 2026-6-1 | SafeTrans: LLM-assisted Transpilation from C to Rust
+[ACM] 2026-6-1 | Knowledge Graphs and Large Language Models for Continuous Adaptation in Lifelong Learning
+[ACM] 2026-6-1 | When Preference Is Not Enough
+[ACM] 2026-6-1 | A Zero-Force Optical Sensor Interface and Fitting Protocol for Customized Assistive Technology Control
+[ACM] 2026-6-1 | Detecting UX smells in Visual Studio Code using LLMs
+[ACM] 2026-6-1 | How Personal Characteristics Influence the Use of Multi-Agent Conversational Recommender Systems for Diverse Exploration
+[ACM] 2026-6-1 | Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations
+[ACM] 2026-6-1 | Protecting Private Code in IDE Autocomplete using Differential Privacy
+[ACM] 2026-6-1 | Modeling the Sense of Agency as a Latent User State during Music Listening
+[ACM] 2026-6-1 | First International Workshop on User Modeling, Personalization, and Adaptive Systems for Sustainability and Social Good (UMAP4Good 2026)
+[ACM] 2026-6-1 | What Do Humanities Scholars Need? A User Model for Recommendation in Digital Archives
+[ACM] 2026-6-1 | Personalized Misinformation Interventions: User-Adaptive Fact-Check Explanations Through Affective Modalities
+[ACM] 2026-6-1 | Reflecti-Mate: A Conversational Agent for Adaptive Decision-Making Support Through System 1 and System 2 Thinking
+[ACM] 2026-6-1 | Uncertainty-Aware Reinforcement Learning for Conversion-Optimized Content Gating
+[ACM] 2026-6-1 | Multi-Armed Bandits for Recommendation Strategy Selection in Front Page Personalisation
+[ACM] 2026-6-1 | Differentially Private and Fair Algorithmic Hiring for Recruiters
+[ACM] 2026-6-1 | Enhancing Diversity in News Recommendations Increases Click-Through Rates: Insights from an Online Experiment and User Study
+[ACM] 2026-6-1 | LH-GSTGNN: Lag-Heterogeneity Guided Spatio-temporal Graph Neural Network
+[ACM] 2026-6-1 | Personalization Matters: Benchmarking ML, DL and LLMs for Mental Health Forecasting from Smartphone Sensing Data
+[ACM] 2026-6-1 | Latent Regularization in Generative Test Input Generation
+[ACM] 2026-6-1 | From Technical Debt to Cognitive and Intent Debt
+[ACM] 2026-6-1 | Leveraging Participatory Personas for Reflexive Co-design of Personalization in Large Language Models
+[ACM] 2026-6-1 | Supporting Children with Developmental Language Disorders through Co-Designed Adaptive Assistive Technology
+[ACM] 2026-6-1 | Balancing Guidance and Control: Nudging Users Toward Effective Dashboard Customisation
+[ACM] 2026-6-1 | Progress Feedback for Countering Selective Exposure: When Visualization Can Backfire
+[ACM] 2026-6-1 | A Case Study of Offline Reinforcement Learning for Paywall Decisioning
+[ACM] 2026-6-1 | Personalized Human–Robot Interaction through Ontology-Based Knowledge Graphs and Large Language Models
+[ACM] 2026-6-1 | Control Models for In-IDE Code Completion
+[ACM] 2026-6-1 | Warnless at the DeepTest 2026 Tool Competition
+[ACM] 2026-6-1 | Increasing Editor Trust in News Personalization Systems with Fact-checked Large Language Models
+[ACM] 2026-6-1 | Measuring the stability and plasticity of recommender systems
+[ACM] 2026-6-1 | Does Tone Matter? Exploring Context-Aware Explanations in Route Recommendations
+[ACM] 2026-6-1 | Proceedings of the 1st Workshop on Code Translation, Transformation, and Modernization
+[ACM] 2026-6-1 | Exida Test Generator at the DeepTest 2026 Tool Competition
+[ACM] 2026-6-1 | Designing Operator-Centred Recommender Systems for Knowledge Retention in Industrial Manufacturing
+[ACM] 2026-6-1 | To Explain or Not to Explain? An Empirical Investigation into Users’ Information Needs in News Recommender Systems and Its Impact on User Engagement
+[ACM] 2026-6-1 | Interface-Aware Recommender Systems
+[ACM] 2026-6-1 | Automated Refactoring of Code Smells in React.js Applications
+[ACM] 2026-6-1 | Proceedings of the 7th IEEE/ACM International Workshop on Deep Learning for Testing and Testing for Deep Learning
+[ACM] 2026-6-1 | From Modeling and Profiling to Auditing: the Evolving Role of the User in Recommender System Research
+[ACM] 2026-6-1 | Multistakeholder Impacts of Profile Portability in a Recommender Ecosystem
+[ACM] 2026-6-1 | Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization
+[ACM] 2026-6-1 | Behind the Re-Rank: Explaining Fairness in Top-N Recommendations
+[ACM] 2026-6-1 | "It's a Bit of Me": Predicting Persuasion from Writing Style and Persuader-Receiver Similarity
+[ACM] 2026-6-1 | GeneticPuzzle: a Mobile Psychoeducational Tool to Support Families Affected by 22q11.2 Deletion Syndrome
+[ACM] 2026-6-1 | Using Elo to Operationalize Modeling of Aphasia Patients' Word-Recall Practice During Recovery
+[ACM] 2026-6-1 | Beyond Centralization: User-Controlled Federated Recommendations in Practice
+[ACM] 2026-6-1 | SAGE: A Strategy-Aware Graph-Enhanced Generation Framework For Online Counseling
+[ACM] 2026-6-1 | Modelling Preference Heterogeneity for Context-Aware Decision Support During Public Transport Disruptions
+[ACM] 2026-6-1 | Investigating the Gap Between Offline Metrics and Perceived Fairness
+[ACM] 2026-6-1 | When Personalisation Becomes Exploitation: An Integrated Evaluation Methodology for Personality-Adaptive Relationship Forming AI.
+[ACM] 2026-6-1 | LLM4Good: The 2nd Workshop on Sustainable and Trustworthy Large Language Models for Personalization
+共写入 157 条记录，保存到 papers/paper2026-05-31.json。
+论文获取成功，文件路径: papers/paper2026-05-31.json
+正在筛选、翻译并发送邮件...
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 1/157 | MigMate: A VS Code Extension for LLM-based Library Migration of Python Projects
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 2/157 | Reproducibility of LLM-based Recommender Systems Research: Worrying Observations from an Initial Analysis
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 3/157 | Evaluating the Role of Context Representations in the Behavioral Fidelity of LLM-based Personas for Food Preferences
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 4/157 | Personalizing Font Size Normalization: Linguistic Background Shapes Which Font Attributes Matter
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 5/157 | GMAP 2026: 5th Workshop on Group Modeling, Adaptation and Personalization
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 6/157 | Leveraging Artist Catalogs for Cold-Start Music Recommendation
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 7/157 | Using Anti-Personas to Model Children: How to Represent User-System Mismatches
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 8/157 | Student Web Search Behaviour: A Comparative Study of AI-Assisted and Traditional Search Styles and Performance
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 9/157 | How Humans and LLMs Differ in Processing Uncertainty in Polarized Discourse
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 10/157 | Productively Wrong: How Auditing Open Profiles Enhances Interest Awareness and Reflection in Movie Recommenders
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 11/157 | User-Conditioned Personalized Side-Information in Sequential Recommendation
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 12/157 | Trustworthy and Adaptive LLMs for Mental and Physical Wellbeing in Recommendations
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 13/157 | CNnotator: LLM-Guided Memory Safety Annotation Synthesis
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 14/157 | Beyond Accuracy: Characterizing Code Comprehension Capabilities in (Large) Language Models
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 15/157 | Evaluating Persona Consistency and Emotion Understanding in Small Language Models
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 16/157 | DestiRec: User Interaction with a Travel Destination Recommender System
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 17/157 | The 14th International Workshop on News Recommendation and Analytics (INRA 2026)
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 18/157 | On the Role of Dwell Time for Implicitly Profiling Museum Visitors
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 19/157 | Towards An Agentic Conversational Approach to Group Recommender Systems
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 20/157 | WikiCoach: Scaffolding Learning for Novices in Online Apprenticeship Communities
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 21/157 | Sustained Impact of Agentic Personalisation in Marketing
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 22/157 | Cross-Domain Cold-Start Personalization via LLM-Synthesized Structured User Profiles
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 23/157 | Which Individual Differences Predict Success at an LLM-integrated Search Task?*
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 24/157 | When Many-Shot Prompting Fails: An Empirical Study of LLM Code Translation
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 25/157 | Using AI as a Chef: Users Overlook Nutritional Flaws in LLM-Generated Recipes
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 26/157 | Trust as a Situated User State in Social LLM-Based Chatbots
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 27/157 | Studying Longitudinal Effects of Recommender Systems: A Multi-Method Approach
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 28/157 | Exploring the Latitude of Acceptance over Several Recommendation Turns in a Game Setting
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 29/157 | Instructor-Centered Per-Question Adaptation for Short Answer Grading Using LLM Scores and Informative Sampling
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 30/157 | Participatory Elicitation of User Model Dimensions for Active Ageing: The EMERGE Methodology
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 31/157 | Towards a Stakeholder-Centered Auditing Framework for Assessing Fairness in (Music) Recommender Systems
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 32/157 | Evaluating Vibrotactile Feedback: Usability and User Experience in Glove vs. Non-Glove Conditions
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 33/157 | ATLAS: Adaptive Test Learning And Selection at the DeepTest 2026 Tool Competition
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 34/157 | FIRE: A Modular Framework for Prototyping and Evaluating Interactive Recommender Explanations
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 35/157 | A Context-Aware Cultural Heritage Guide Powered by LLMs
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 36/157 | Raising the Stakes: Assessing the Influence of Stakes on User Reliance Behavior in Human-AI Decision-Making
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 37/157 | DUPLet: Dynamic User Modeling for Personalized Cover Letter Generation
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 38/157 | Multi-Objective Candidate Generation for Reciprocal Recommendation at Hinge
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 39/157 | The 17th International Workshop on Personalized Access to Cultural Heritage (PATCH 2026)
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 40/157 | The AI-Therapist Duo in Virtual Reality: A Triadic Design for Immersive Exposure Digital Art Therapy
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 41/157 | PerSpect: Perspective-aware Contrastive Learning for Hybrid News Recommendation
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 42/157 | Algorithmic Audit of Personalisation Drift in Polarising Topics on TikTok
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 43/157 | Vibrotactile Preference Learning: Uncertainty-Aware Preference Learning for Personalized Vibration Feedback
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 44/157 | “As Long as It Does What I Want, I'd Be Happy to Trust It”: Exploring User Perspectives on a Scrutable Assistant for Time Management
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 45/157 | SmartDoc: A Context-Aware Agentic Method Comment Generation Plugin
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 46/157 | Can Third-Party Annotators Reliably Evaluate Conversational Recommender Systems?
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 47/157 | CALISSTA: Calibrated Candidate Retrieval Using Sparse Autoencoders and Top-k Aggregation
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 48/157 | Let Me Introduce You: Stimulating Taste-Broadening Serendipity through Song Introductions
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 49/157 | User-State Verification in Conversational Commerce: Detecting Journey Hallucinations via Trace Invariants
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 50/157 | It is relevant, but is it useful?
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 51/157 | “I’m a person–not a patient or diagnosis”: Centering the Person Living with Dementia’s Perspective on Caregiver Dynamics and Technology Design
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 52/157 | ExUM 2026 - 8th Workshop on Explainable User Modeling and Personalised Systems
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 53/157 | Community Norms in the Spotlight: Enabling Task-Agnostic Unsupervised Pre-Training to Benefit Online Social Media
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 54/157 | Who is the Fairest of Them All? Using Large Language Models for Fairness Assessments
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 55/157 | MRP-LLM: Multitask Reflective Large Language Models for Privacy-Preserving Next POI Recommendation
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 56/157 | MMGCF: Multimodal Graph Collaborative Filtering for Recommendation with Graph Convolutional Networks
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 57/157 | VOGUE: A Multimodal Dataset for Conversational Recommendation in Fashion
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 58/157 | EdgeWisePersona: A Dataset for On-Device User Profiling from Natural Language Interactions
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 59/157 | Eyes Can’t Always Tell: Fusing Eye Tracking and User Priors for User Modeling under AI Advice Conditions
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 60/157 | Optimizing an IDE for an Evolving Language Ecosystem
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 61/157 | Identifying Misinformation Spreaders through Multi-Source User Modeling
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 62/157 | Investigating Preference Elicitation Strategies in Conversational Recommender Systems
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 63/157 | Towards Student Profiles for Personalized Social Comparison in Learning Interfaces
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 64/157 | Explanation Demand as a Trait, Not a State: Implications for User Modeling in Adaptive Systems
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 65/157 | Inferential and Causal Principles for Better Understanding Interactive Systems.
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 66/157 | ParaAdapt: Parametric User Modeling &amp; Adaptation for Navigating Complex Interactive Domains
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 67/157 | Contextual Risk-Driven Input Structuring for Probing (CRISP) at the DeepTest 2026 Tool Competition
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 68/157 | The Stars Align: Modeling User Rating Calibration with Sparse Semantic Review Features
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 69/157 | User Modelling and Adaptation in Immersive Preventive Health Interventions: A Systematic Review and Evidence Map
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 70/157 | From Understanding to Anchoring: Informal Caregivers' Mental Models of Generative Artificial Intelligence-based Conversational Agents for Problem-Solving
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 71/157 | Multi-Dimensional Evaluation of Sustainable City Trips with LLM-as-a-Judge and Human-in-the-Loop
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 72/157 | In-IDE Toolkit for Developers of AI-Based Features
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 73/157 | Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 74/157 | Virtual User Lab: An Interactive System for Simulating User Perspectives with AI Personas for Ideation and Evaluation
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 75/157 | Visual or Textual: Effects of Explanation Format and Personal Characteristics on the Perception of Explanations in an Educational Recommender System
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 76/157 | "Voglia di": Supporting Food Choices Through Transient Cravings
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 77/157 | CAPTURE: A Visual–Conversational Dashboard for Supporting User-Driven Explanations in a Job–Candidate Matching Algorithm
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 78/157 | AI for active learners: Applying insights from the learning sciences and human-centered AI to educational contexts
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 79/157 | What Do Your Eyes Reveal About Learning from Videos? A Dataset Demonstrating the Link Between Gaze Measures, Engagement, and Learning
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 80/157 | From emotional hooks to conspiratorial claims: A teen-focused game for reflecting on misinformation interactions
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 81/157 | Proto-ML: An IDE for ML Solution Prototyping
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 82/157 | Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 83/157 | Model-Driven Legacy System Modernization at Scale
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 84/157 | It's Alive! What a Live Object Environment Changes in Software Engineering Practice
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 85/157 | Language Embeddings Meet Shallow Autoencoders
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 86/157 | OmniSim: A LLM-Powered Open-Source Simulator for Generating Personalized and Adaptive Conversational Recommendation Dialogues
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 87/157 | From Labels to Context: Context-Sensitive User Modeling of Affect with Large Language Models
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 88/157 | Causal Reasoning Augmented Agents for Adaptive and Explainable Knowledge Retrieval
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 89/157 | JMigBench: A Benchmark for Evaluating LLMs on Source Code Migration (Java 8 to Java 11)
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 90/157 | From Detection to Prevention: Explaining Security-Critical Code to Avoid Vulnerabilities
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 91/157 | Large Language Models for Secure Code Assessment: A Multi-Language Empirical Study
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 92/157 | How to Build Explainable Recommender Systems using Path Reasoning on Knowledge Graphs: A Tutorial with hopwise
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 93/157 | Match-it: Group Recommendations in the Age of Mobile Applications
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 94/157 | Toward Balanced Personalization: Bridging Short-Term Intent and Long-Term Preference
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 95/157 | Harnessing Query Context for Personalized User Intent-Aware Sequential Recommendation
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 96/157 | Forecasting Developer Environments with GenAI: A Research Perspective
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 97/157 | DeepTest Tool Competition 2026: Benchmarking an LLM-Based Automotive Assistant
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 98/157 | Game On for News: Stance-Aware Gamification in a News Aggregator to Promote Engagement with Diverse Viewpoints
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 99/157 | Modeling Relational Dynamics into Cognitive Architectures for Socially Assistive Robots
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 100/157 | LLM-Based Content Tagging at The Washington Post
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 101/157 | May the Force Be with You: Force-Aware and Explainable User Modeling for Personalized Psychomotor Support
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 102/157 | 8th UMAP Workshop on Fairness in User Modeling, Adaptation, and Personalization (FairUMAP 2026)
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 103/157 | This Is The World (Recommender Systems Made It For You)
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 104/157 | SOcial and Cultural IntegrAtion with PersonaLIZEd Interfaces (SOCIALIZE) 2026
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 105/157 | Learning Behaviorally Grounded Item Embeddings via Personalized Temporal Contexts
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 106/157 | SafeTrans: LLM-assisted Transpilation from C to Rust
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 107/157 | Knowledge Graphs and Large Language Models for Continuous Adaptation in Lifelong Learning
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 108/157 | When Preference Is Not Enough
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 109/157 | A Zero-Force Optical Sensor Interface and Fitting Protocol for Customized Assistive Technology Control
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 110/157 | Detecting UX smells in Visual Studio Code using LLMs
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 111/157 | How Personal Characteristics Influence the Use of Multi-Agent Conversational Recommender Systems for Diverse Exploration
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 112/157 | Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 113/157 | Protecting Private Code in IDE Autocomplete using Differential Privacy
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 114/157 | Modeling the Sense of Agency as a Latent User State during Music Listening
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 115/157 | First International Workshop on User Modeling, Personalization, and Adaptive Systems for Sustainability and Social Good (UMAP4Good 2026)
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 116/157 | What Do Humanities Scholars Need? A User Model for Recommendation in Digital Archives
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 117/157 | Personalized Misinformation Interventions: User-Adaptive Fact-Check Explanations Through Affective Modalities
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 118/157 | Reflecti-Mate: A Conversational Agent for Adaptive Decision-Making Support Through System 1 and System 2 Thinking
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 119/157 | Uncertainty-Aware Reinforcement Learning for Conversion-Optimized Content Gating
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 120/157 | Multi-Armed Bandits for Recommendation Strategy Selection in Front Page Personalisation
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 121/157 | Differentially Private and Fair Algorithmic Hiring for Recruiters
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 122/157 | Enhancing Diversity in News Recommendations Increases Click-Through Rates: Insights from an Online Experiment and User Study
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 123/157 | LH-GSTGNN: Lag-Heterogeneity Guided Spatio-temporal Graph Neural Network
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 124/157 | Personalization Matters: Benchmarking ML, DL and LLMs for Mental Health Forecasting from Smartphone Sensing Data
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 125/157 | Latent Regularization in Generative Test Input Generation
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 126/157 | From Technical Debt to Cognitive and Intent Debt
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 127/157 | Leveraging Participatory Personas for Reflexive Co-design of Personalization in Large Language Models
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 128/157 | Supporting Children with Developmental Language Disorders through Co-Designed Adaptive Assistive Technology
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 129/157 | Balancing Guidance and Control: Nudging Users Toward Effective Dashboard Customisation
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 130/157 | Progress Feedback for Countering Selective Exposure: When Visualization Can Backfire
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 131/157 | A Case Study of Offline Reinforcement Learning for Paywall Decisioning
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 132/157 | Personalized Human–Robot Interaction through Ontology-Based Knowledge Graphs and Large Language Models
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 133/157 | Control Models for In-IDE Code Completion
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 134/157 | Warnless at the DeepTest 2026 Tool Competition
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 135/157 | Increasing Editor Trust in News Personalization Systems with Fact-checked Large Language Models
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 136/157 | Measuring the stability and plasticity of recommender systems
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 137/157 | Does Tone Matter? Exploring Context-Aware Explanations in Route Recommendations
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 138/157 | Proceedings of the 1st Workshop on Code Translation, Transformation, and Modernization
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 139/157 | Exida Test Generator at the DeepTest 2026 Tool Competition
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 140/157 | Designing Operator-Centred Recommender Systems for Knowledge Retention in Industrial Manufacturing
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 141/157 | To Explain or Not to Explain? An Empirical Investigation into Users’ Information Needs in News Recommender Systems and Its Impact on User Engagement
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 142/157 | Interface-Aware Recommender Systems
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 143/157 | Automated Refactoring of Code Smells in React.js Applications
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 144/157 | Proceedings of the 7th IEEE/ACM International Workshop on Deep Learning for Testing and Testing for Deep Learning
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 145/157 | From Modeling and Profiling to Auditing: the Evolving Role of the User in Recommender System Research
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 146/157 | Multistakeholder Impacts of Profile Portability in a Recommender Ecosystem
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 147/157 | Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 148/157 | Behind the Re-Rank: Explaining Fairness in Top-N Recommendations
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 149/157 | "It's a Bit of Me": Predicting Persuasion from Writing Style and Persuader-Receiver Similarity
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 150/157 | GeneticPuzzle: a Mobile Psychoeducational Tool to Support Families Affected by 22q11.2 Deletion Syndrome
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 151/157 | Using Elo to Operationalize Modeling of Aphasia Patients' Word-Recall Practice During Recovery
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 152/157 | Beyond Centralization: User-Controlled Federated Recommendations in Practice
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 153/157 | SAGE: A Strategy-Aware Graph-Enhanced Generation Framework For Online Counseling
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 154/157 | Modelling Preference Heterogeneity for Context-Aware Decision Support During Public Transport Disruptions
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 155/157 | Investigating the Gap Between Offline Metrics and Perceived Fairness
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 156/157 | When Personalisation Becomes Exploitation: An Integrated Evaluation Methodology for Personality-Adaptive Relationship Forming AI.
+判定相关性时出错： Error code: 401 - {'error': {'message': "team not allowed to access model. This team can only access models=['PaddleOCR-VL-0.9B', 'GLM-4-Flash', 'GLM-CogView3-Flash', 'GLM-Z1-Flash', 'PaddleOCR-VL-1.5', 'GLM-4.5-Flash', 'GLM-4V-Flash', 'Intern-S2-Preview']. Tried to access Qwen3-235B-A22B-Instruct-2507", 'type': 'team_model_access_denied', 'param': 'model', 'code': '401'}}
+[NO] 157/157 | LLM4Good: The 2nd Workshop on Sustainable and Trustworthy Large Language Models for Personalization
+筛选完成：共 157 篇；Yes = 0 篇；已保存到 papers/select_paper2026-05-31.json。
+邮件发送成功！
+[2026-06-01 15:34:50] 任务执行成功！

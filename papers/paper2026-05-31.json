@@ -1,0 +1,1415 @@
+[
+  {
+    "date": "2026-6-1",
+    "title": "MigMate: A VS Code Extension for LLM-based Library Migration of Python Projects",
+    "authors": "Matthias Kebede, May Mahmoud, Mohayeminul Islam, Sarah Nadi",
+    "publish": "Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments",
+    "url": "https://doi.org/10.1145/3786151.3788598",
+    "source": "ACM",
+    "abstract": "抓取摘要失败: \n浏览器连接失败。\n地址: 127.0.0.1:9222\n提示: \n1、用户文件夹没有和已打开的浏览器冲突\n2、如为无界面系统，请添加'--headless=new'启动参数\n3、如果是Linux系统，尝试添加'--no-sandbox'启动参数\n可使用ChromiumOptions设置端口和用户文件夹路径。\n版本: 4.1.1.2"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Reproducibility of LLM-based Recommender Systems Research: Worrying Observations from an Initial Analysis",
+    "authors": "Faisal Shehzad, Dietmar Jannach",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812708",
+    "source": "ACM",
+    "abstract": "抓取摘要失败: \n浏览器连接失败，请检查9222端口是否浏览器，且已添加\"--remote-debugging-port=9222\"启动项。\n地址: 127.0.0.1:9222\n版本: 4.1.1.2"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Evaluating the Role of Context Representations in the Behavioral Fidelity of LLM-based Personas for Food Preferences",
+    "authors": "Eleonora Balloccu, Ludovico Boratto, Angelo Geninatti Cossatin, Mirko Marras, Noemi Mauro, Giacomo Medda",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806159",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Personalizing Font Size Normalization: Linguistic Background Shapes Which Font Attributes Matter",
+    "authors": "Yusra Suhail, Kushas Khadka, Borano Llana, Maedeh Hosseinpour, Shaun Wallace",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806166",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "GMAP 2026: 5th Workshop on Group Modeling, Adaptation and Personalization",
+    "authors": "Francesco Barile, Amra Delić, Ladislav Peska, Cedric Waterschoot",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802535",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Leveraging Artist Catalogs for Cold-Start Music Recommendation",
+    "authors": "Yan-Martin Tamm, Gregor Meehan, Vojtěch Nekl, Vojtech Vancura, Rodrigo Alves, Johan Pauwels, Anna Aljanaki",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806178",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Using Anti-Personas to Model Children: How to Represent User-System Mismatches",
+    "authors": "Diletta Micol Tobia, Hrishita Chakrabarti, Maria Soledad Pera, Monica Landoni",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806168",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Student Web Search Behaviour: A Comparative Study of AI-Assisted and Traditional Search Styles and Performance",
+    "authors": "Mirna Saad, Elena Battipede, Luca Botturi, Martin Hlosta, Omran Ayoub, Monica Landoni, Silvia Giordano",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812725",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "How Humans and LLMs Differ in Processing Uncertainty in Polarized Discourse",
+    "authors": "Tim Donkers, Jürgen Ziegler",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806174",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Productively Wrong: How Auditing Open Profiles Enhances Interest Awareness and Reflection in Movie Recommenders",
+    "authors": "Ruixuan Sun, Junyuan Wang, Sanjali Roy, Joseph Konstan",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806787",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "User-Conditioned Personalized Side-Information in Sequential Recommendation",
+    "authors": "Hayriye Dönmez",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803062",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Trustworthy and Adaptive LLMs for Mental and Physical Wellbeing in Recommendations",
+    "authors": "Zhu Sun, Yi Ding, Yin Leng Theng, Wei Quin Yow, Roy Ka-Wei Lee, Xun Jiang",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802524",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "CNnotator: LLM-Guided Memory Safety Annotation Synthesis",
+    "authors": "Twain Byrnes, Mike Dodds",
+    "publish": "Proceedings of the 1st Workshop on Code Translation, Transformation, and Modernization",
+    "url": "https://doi.org/10.1145/3786180.3788313",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Beyond Accuracy: Characterizing Code Comprehension Capabilities in (Large) Language Models",
+    "authors": "Felix Mächtle, Jan-Niclas Serr, Nils Loose, Thomas Eisenbarth",
+    "publish": "Proceedings of the 7th IEEE/ACM International Workshop on Deep Learning for Testing and Testing for Deep Learning",
+    "url": "https://doi.org/10.1145/3786154.3788586",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Evaluating Persona Consistency and Emotion Understanding in Small Language Models",
+    "authors": "Jason Mina, Lorenzo Zangari, Alexandre Alahi, Davide Picca, Luigi Bagnato",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806173",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "DestiRec: User Interaction with a Travel Destination Recommender System",
+    "authors": "Wolfgang Wörndl, Cem Nasit Sarica",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812724",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "The 14th International Workshop on News Recommendation and Analytics (INRA 2026)",
+    "authors": "Célina Treuillier, Andreea Iana, Vandana Yadav, Benjamin Kille, Andreas Lommatzsch, Özlem Özgöbek",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802529",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "On the Role of Dwell Time for Implicitly Profiling Museum Visitors",
+    "authors": "Alessio Ferrato, Giuseppe Sansonetti, Marko Tkalcic",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806782",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Towards An Agentic Conversational Approach to Group Recommender Systems",
+    "authors": "Esma Karahodža",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803069",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "WikiCoach: Scaffolding Learning for Novices in Online Apprenticeship Communities",
+    "authors": "Moyan Zhou, Minzhu Zhao, Loren Terveen",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806185",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Sustained Impact of Agentic Personalisation in Marketing",
+    "authors": "Olivier Jeunen, Eleanor Hanna, Schaun Wheeler",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3807908",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Cross-Domain Cold-Start Personalization via LLM-Synthesized Structured User Profiles",
+    "authors": "Manisha R, Pradeep M, Satyen Abrol",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3807905",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Which Individual Differences Predict Success at an LLM-integrated Search Task?*",
+    "authors": "Simone Calbi",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803066",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "When Many-Shot Prompting Fails: An Empirical Study of LLM Code Translation",
+    "authors": "Amirkia Rafiei Oskooei, Kaan Baturalp Cosdan, Husamettin Isiktas, Mehmet S. Aktas",
+    "publish": "Proceedings of the 1st Workshop on Code Translation, Transformation, and Modernization",
+    "url": "https://doi.org/10.1145/3786180.3788314",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Using AI as a Chef: Users Overlook Nutritional Flaws in LLM-Generated Recipes",
+    "authors": "Yelyzaveta Lysova, Christoph Trattner, Alain Dominique Starke",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806157",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Trust as a Situated User State in Social LLM-Based Chatbots",
+    "authors": "Annie Landerberg, Kari Flatmo, Alan Said",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806149",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Studying Longitudinal Effects of Recommender Systems: A Multi-Method Approach",
+    "authors": "Marlene Holzleitner",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803057",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Exploring the Latitude of Acceptance over Several Recommendation Turns in a Game Setting",
+    "authors": "Ibrahim Al-Hazwani, Nava Tintarev",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806786",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Instructor-Centered Per-Question Adaptation for Short Answer Grading Using LLM Scores and Informative Sampling",
+    "authors": "Ovide Kuichua, Michel Desmarais, Arman Bakhtiari, Chahe Nerguizian",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806189",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Participatory Elicitation of User Model Dimensions for Active Ageing: The EMERGE Methodology",
+    "authors": "Alejandra Barbarelli, Olga C. Santos, Angeles Manjarrés, Miguel Portaz, Raúl Cabestrero, Pilar Quirós, Mar Hermosilla, Maribel Abril, Simon Pickin",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806152",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Towards a Stakeholder-Centered Auditing Framework for Assessing Fairness in (Music) Recommender Systems",
+    "authors": "Valdy Wiratama",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803067",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Evaluating Vibrotactile Feedback: Usability and User Experience in Glove vs. Non-Glove Conditions",
+    "authors": "Sofie Kastelli, Napsugár Takács, Marko Tkalcic, Bruce Ferwerda",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812722",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "ATLAS: Adaptive Test Learning And Selection at the DeepTest 2026 Tool Competition",
+    "authors": "Antonio Pedro Santos Alves, Marcos Kalinowski",
+    "publish": "Proceedings of the 7th IEEE/ACM International Workshop on Deep Learning for Testing and Testing for Deep Learning",
+    "url": "https://doi.org/10.1145/3786154.3796500",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "FIRE: A Modular Framework for Prototyping and Evaluating Interactive Recommender Explanations",
+    "authors": "Ulysse Maes, Cedric Waterschoot, Francesco Barile, Nava Tintarev",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812720",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "A Context-Aware Cultural Heritage Guide Powered by LLMs",
+    "authors": "Liliana Ardissono, Fabio Ferrero, Angelo Geninatti Cossatin, Claudio Mattutino, Noemi Mauro",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812714",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Raising the Stakes: Assessing the Influence of Stakes on User Reliance Behavior in Human-AI Decision-Making",
+    "authors": "David Scott Johnson",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806657",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "DUPLet: Dynamic User Modeling for Personalized Cover Letter Generation",
+    "authors": "Tom Bovie, Bhupender Kumar Saini, Chandan Kumar, Mihai Bâce",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812726",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Multi-Objective Candidate Generation for Reciprocal Recommendation at Hinge",
+    "authors": "Dan Turkel, Dev Goyal, Frankie Lu, Sihan Chen, Eyan Yeung, Richie Mendelsohn, Behrooz Afghahi",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3807906",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "The 17th International Workshop on Personalized Access to Cultural Heritage (PATCH 2026)",
+    "authors": "Liliana Ardissono, Tsvi Kuflik, Noemi Mauro, Alan J Wecker",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802523",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "The AI-Therapist Duo in Virtual Reality: A Triadic Design for Immersive Exposure Digital Art Therapy",
+    "authors": "Bereket A. Yilma, Saravanakumar Duraisamy, Luis A. Leiva",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806182",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "PerSpect: Perspective-aware Contrastive Learning for Hybrid News Recommendation",
+    "authors": "Payam Pourashraf, Masoud Mansoury, Bamshad Mobasher",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812713",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Algorithmic Audit of Personalisation Drift in Polarising Topics on TikTok",
+    "authors": "Branislav Pecher, Adrian Bindas, Jan Jakubcik, Matus Tuna, Matus Tibensky, Simon Liska, Peter Sakalik, Andrej Suty, Matej Mosnar, Filip Hossner, Ivan Srba",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806161",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Vibrotactile Preference Learning: Uncertainty-Aware Preference Learning for Personalized Vibration Feedback",
+    "authors": "Rongtao Zhang, Xin Zhu, Masoume Pourebadi Khotbehsara, Warren Dao, Erdem Bıyık, Heather Culbertson",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806784",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "“As Long as It Does What I Want, I'd Be Happy to Trust It”: Exploring User Perspectives on a Scrutable Assistant for Time Management",
+    "authors": "Jovan Jeromela, Matt Murtagh White, Jasmina Gajcin, Alok Debnath, Dipto Barman, Owen Conlan",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806186",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "SmartDoc: A Context-Aware Agentic Method Comment Generation Plugin",
+    "authors": "Gregorio Robles, Vahid Etemadi",
+    "publish": "Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments",
+    "url": "https://doi.org/10.1145/3786151.3788601",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Can Third-Party Annotators Reliably Evaluate Conversational Recommender Systems?",
+    "authors": "Michael Müller, Amir Reza Mohammadi, Andreas Peintner, Beatriz Barroso Gstrein, Günther Specht, Eva Zangerle",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806172",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "CALISSTA: Calibrated Candidate Retrieval Using Sparse Autoencoders and Top-k Aggregation",
+    "authors": "Patrik Dokoupil, Ludovico Boratto, Ladislav Peska",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806154",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Let Me Introduce You: Stimulating Taste-Broadening Serendipity through Song Introductions",
+    "authors": "Brett Binst, Ulysse Maes, Martijn Willemsen, Annelien Smets",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806164",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "User-State Verification in Conversational Commerce: Detecting Journey Hallucinations via Trace Invariants",
+    "authors": "Diogo Carvalho, Senka Krivic, Timothy Tang, Salman Ahmad",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812704",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "It is relevant, but is it useful?",
+    "authors": "Hrishita Chakrabarti, Diletta Micol Tobia, Garrett Allen, Monica Landoni, Maria Soledad Pera",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806167",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "“I’m a person–not a patient or diagnosis”: Centering the Person Living with Dementia’s Perspective on Caregiver Dynamics and Technology Design",
+    "authors": "Hao Yuan, Kefan Xu, Rosa Arriaga, Jina Huh-Yoo",
+    "publish": "ACM Transactions on Computing for Healthcare",
+    "url": "https://doi.org/10.1145/3816696",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "ExUM 2026 - 8th Workshop on Explainable User Modeling and Personalised Systems",
+    "authors": "Cataldo Musto, Amra Delić, Marco Polignano, Amon Rapp, Giovanni Semeraro, Jürgen Ziegler",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802531",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Community Norms in the Spotlight: Enabling Task-Agnostic Unsupervised Pre-Training to Benefit Online Social Media",
+    "authors": "Liam Hebert, Lucas Kopp, Robin Cohen",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812718",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Who is the Fairest of Them All? Using Large Language Models for Fairness Assessments",
+    "authors": "Cedric Waterschoot, Nava Tintarev, Francesco Barile",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812703",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "MRP-LLM: Multitask Reflective Large Language Models for Privacy-Preserving Next POI Recommendation",
+    "authors": "Ziqing Wu, Zhu Sun, Dongxia Wang, Lu Zhang, Jie Zhang, Yew Soon Ong",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806151",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "MMGCF: Multimodal Graph Collaborative Filtering for Recommendation with Graph Convolutional Networks",
+    "authors": "Giuseppe Spillo, Cataldo Musto, Francesco Musci, Marco de Gemmis, Giovanni Semeraro",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806158",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "VOGUE: A Multimodal Dataset for Conversational Recommendation in Fashion",
+    "authors": "David Guo, Minqi Sun, Yilun Jiang, Jiazhou Liang, Scott Sanner",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806177",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "EdgeWisePersona: A Dataset for On-Device User Profiling from Natural Language Interactions",
+    "authors": "Patryk Bartkowiak, Michal Podstawski",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806788",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Eyes Can’t Always Tell: Fusing Eye Tracking and User Priors for User Modeling under AI Advice Conditions",
+    "authors": "Xin Sun, Shu Wei, Ting Pan, Yajing Wang, Jos A. Bosch, Isao Echizen, Abdallah El Ali, Saku Sugawara",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806190",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Optimizing an IDE for an Evolving Language Ecosystem",
+    "authors": "Adam Welc, Todd Nowacki, Dario Russi, Cameron Swords, Timothy A.K. Zakian",
+    "publish": "Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments",
+    "url": "https://doi.org/10.1145/3786151.3788600",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Identifying Misinformation Spreaders through Multi-Source User Modeling",
+    "authors": "Roman Chervinskyy, Antonela Tommasel",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812721",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Investigating Preference Elicitation Strategies in Conversational Recommender Systems",
+    "authors": "Ahmadou Wagne",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803059",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Towards Student Profiles for Personalized Social Comparison in Learning Interfaces",
+    "authors": "Aditya Joshi, Sergey Sosnovsky",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806170",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Explanation Demand as a Trait, Not a State: Implications for User Modeling in Adaptive Systems",
+    "authors": "Eveline Ingesson, Maria Riveiro",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806160",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Inferential and Causal Principles for Better Understanding Interactive Systems.",
+    "authors": "David Rohde",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802527",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "ParaAdapt: Parametric User Modeling &amp; Adaptation for Navigating Complex Interactive Domains",
+    "authors": "Swen Gaudl, Mark J. Nelson, Guenter Wallner",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802530",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Contextual Risk-Driven Input Structuring for Probing (CRISP) at the DeepTest 2026 Tool Competition",
+    "authors": "Selhan Berber",
+    "publish": "Proceedings of the 7th IEEE/ACM International Workshop on Deep Learning for Testing and Testing for Deep Learning",
+    "url": "https://doi.org/10.1145/3786154.3796502",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "The Stars Align: Modeling User Rating Calibration with Sparse Semantic Review Features",
+    "authors": "Rodrigo Alves, Antoine Ledent",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812702",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "User Modelling and Adaptation in Immersive Preventive Health Interventions: A Systematic Review and Evidence Map",
+    "authors": "Mark Atta Mensah, Evans Kwasi, Mohammed Abdulmawjood, Kiemute Oyibo",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806188",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "From Understanding to Anchoring: Informal Caregivers' Mental Models of Generative Artificial Intelligence-based Conversational Agents for Problem-Solving",
+    "authors": "Lu Wang",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803056",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Multi-Dimensional Evaluation of Sustainable City Trips with LLM-as-a-Judge and Human-in-the-Loop",
+    "authors": "Ashmi Banerjee, Adithi Satish, Wolfgang Wörndl, Yashar Deldjoo",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812717",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "In-IDE Toolkit for Developers of AI-Based Features",
+    "authors": "Yaroslav Sokolov, Yury Khudyakov, Lenar Sharipov, Andrei Gasparian, Parth Tiwary, Artem Trofimov",
+    "publish": "Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments",
+    "url": "https://doi.org/10.1145/3786151.3788605",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3786151",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Virtual User Lab: An Interactive System for Simulating User Perspectives with AI Personas for Ideation and Evaluation",
+    "authors": "Chandan Kumar, Christian Knecht, Jeremias Lange, Bhupender Kumar Saini, Matthias Peissner",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812731",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Visual or Textual: Effects of Explanation Format and Personal Characteristics on the Perception of Explanations in an Educational Recommender System",
+    "authors": "Qurat Ul Ain, Mohamed Amine Chatti, Nasim Yazdian Varjani, Farah Kamal, Astrid Rosenthal-von der Pütten",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806179",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "\"Voglia di\": Supporting Food Choices Through Transient Cravings",
+    "authors": "Bianca Maria Deconcini, Elisa Sorri, Federica Cena",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812723",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "CAPTURE: A Visual–Conversational Dashboard for Supporting User-Driven Explanations in a Job–Candidate Matching Algorithm",
+    "authors": "Yizhe Zhang, Robin De Croon, Maxwell Szymanski, Katrien Verbert",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812705",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "AI for active learners: Applying insights from the learning sciences and human-centered AI to educational contexts",
+    "authors": "Marie-Sophie Simon",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803070",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "What Do Your Eyes Reveal About Learning from Videos? A Dataset Demonstrating the Link Between Gaze Measures, Engagement, and Learning",
+    "authors": "Tobias Wagner, Enrico Rukzio, Teresa Hirzle",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806155",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "From emotional hooks to conspiratorial claims: A teen-focused game for reflecting on misinformation interactions",
+    "authors": "Roman Chervinskyy, Antonela Tommasel",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812727",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Proto-ML: An IDE for ML Solution Prototyping",
+    "authors": "Selin Coban, Miguel Perez, Horst Lichter",
+    "publish": "Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments",
+    "url": "https://doi.org/10.1145/3786151.3788602",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Environment-in-the-Loop: Rethinking Code Migration with LLM-based Agents",
+    "authors": "Xiang Li, Zhiwei Fei, Ying Ma, Jerry Zhang, Federica Sarro, He Ye",
+    "publish": "Proceedings of the 1st Workshop on Code Translation, Transformation, and Modernization",
+    "url": "https://doi.org/10.1145/3786180.3788315",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Model-Driven Legacy System Modernization at Scale",
+    "authors": "Tobias Böhm, Jens Guan Su Tien, Mohini Nonnenmann, Tom Schoonbaert, Bart Carpels, Andreas Biesdorf",
+    "publish": "Proceedings of the 1st Workshop on Code Translation, Transformation, and Modernization",
+    "url": "https://doi.org/10.1145/3786180.3788318",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "It's Alive! What a Live Object Environment Changes in Software Engineering Practice",
+    "authors": "Julián Grigera, Steven Costiou, Juan Cruz Gardey, Stéphane Ducasse",
+    "publish": "Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments",
+    "url": "https://doi.org/10.1145/3786151.3788607",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Language Embeddings Meet Shallow Autoencoders",
+    "authors": "Rodrigo Alves, Vojtěch Vančura, Pavel Kordík, Antoine Ledent",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806192",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "OmniSim: A LLM-Powered Open-Source Simulator for Generating Personalized and Adaptive Conversational Recommendation Dialogues",
+    "authors": "Yong Zheng, Jian Zhang",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812730",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "From Labels to Context: Context-Sensitive User Modeling of Affect with Large Language Models",
+    "authors": "Irina Nalis, Nils Klüwer, Julia Neidhardt",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812706",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Causal Reasoning Augmented Agents for Adaptive and Explainable Knowledge Retrieval",
+    "authors": "Juliano Leonardo Soares",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803064",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "JMigBench: A Benchmark for Evaluating LLMs on Source Code Migration (Java 8 to Java 11)",
+    "authors": "Nishil Amin, Zhiwei Fei, Xiang Li, Justyna Petke, He Ye",
+    "publish": "Proceedings of the 1st Workshop on Code Translation, Transformation, and Modernization",
+    "url": "https://doi.org/10.1145/3786180.3788316",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "From Detection to Prevention: Explaining Security-Critical Code to Avoid Vulnerabilities",
+    "authors": "Ranjith Krishnamurthy, Oshando Johnson, Goran Piskachev, Eric Bodden",
+    "publish": "Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments",
+    "url": "https://doi.org/10.1145/3786151.3788599",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Large Language Models for Secure Code Assessment: A Multi-Language Empirical Study",
+    "authors": "Kohei Dozono, Tiago Espinha Gasiba, Andrea Stocco",
+    "publish": "Proceedings of the 7th IEEE/ACM International Workshop on Deep Learning for Testing and Testing for Deep Learning",
+    "url": "https://doi.org/10.1145/3786154.3788584",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "How to Build Explainable Recommender Systems using Path Reasoning on Knowledge Graphs: A Tutorial with hopwise",
+    "authors": "Ludovico Boratto, Gianni Fenu, Francesca Maridina Malloci, Mirko Marras, Giacomo Medda, Alessandro Soccol",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802528",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Match-it: Group Recommendations in the Age of Mobile Applications",
+    "authors": "Ondřej Kříž, Patrik Dokoupil, Ladislav Peška",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812728",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Toward Balanced Personalization: Bridging Short-Term Intent and Long-Term Preference",
+    "authors": "Andrii Dzhoha, Egor Malykh",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3807910",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Harnessing Query Context for Personalized User Intent-Aware Sequential Recommendation",
+    "authors": "Andrii Dzhoha, Alisa Mironenko, Evgeny Labzin, Vladimir Vlasov, Maarten Versteegh, Marjan Celikik",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806781",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Forecasting Developer Environments with GenAI: A Research Perspective",
+    "authors": "Raula Gaikovina Kula, Christoph Treude, Xing Hu, Sebastian Baltes, Earl T. Barr, Kelly Blincoe, Fabio Calefato, Junjie Chen, Marc Cheong, Youmei Fan, Daniel M. German, Marco Gerosa, Jin L.C. Guo, Shinpei Hayashi, Robert Hirschfeld, Reid Holmes, Yintong Huo, Takashi Kobayashi, Michele Lanza, Zhongxin Liu, Olivier Nourry, Nicole Novielli, Denys Poshyvanyk, Shinobu Saito, Kazumasa Shimari, Igor Steinmacher, Mairieli Wessel, Markus Wagner, Annie Vella, Laurie Williams, Xin Xia",
+    "publish": "Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments",
+    "url": "https://doi.org/10.1145/3786151.3788604",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "DeepTest Tool Competition 2026: Benchmarking an LLM-Based Automotive Assistant",
+    "authors": "Lev Sorokin, Ivan Vasilev, Samuele Pasini",
+    "publish": "Proceedings of the 7th IEEE/ACM International Workshop on Deep Learning for Testing and Testing for Deep Learning",
+    "url": "https://doi.org/10.1145/3786154.3796504",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Game On for News: Stance-Aware Gamification in a News Aggregator to Promote Engagement with Diverse Viewpoints",
+    "authors": "Caroline Frössling, Uroš Sergaš, Marko Tkalcic, Bruce Ferwerda",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812712",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Modeling Relational Dynamics into Cognitive Architectures for Socially Assistive Robots",
+    "authors": "Aurora Toma",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803058",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "LLM-Based Content Tagging at The Washington Post",
+    "authors": "Meng Ling, Himanshu Jahagirdar, Janith Weerasinghe, Han Jun Yoon, Suja Thomas, Anuradha Uduwage, Eui-Hong Han",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3807909",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "May the Force Be with You: Force-Aware and Explainable User Modeling for Personalized Psychomotor Support",
+    "authors": "Miguel Portaz, Alberto Corbi, Olga C. Santos",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806162",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "8th UMAP Workshop on Fairness in User Modeling, Adaptation, and Personalization (FairUMAP 2026)",
+    "authors": "Bamshad Mobasher, Styliani Kleanthous, Robin Burke, Tsvi Kuflik, Avital Shulner-Tal",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802526",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "This Is The World (Recommender Systems Made It For You)",
+    "authors": "Robin Ungruh, Maria Soledad Pera",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806148",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "SOcial and Cultural IntegrAtion with PersonaLIZEd Interfaces (SOCIALIZE) 2026",
+    "authors": "Fabio Gasparetti, Cristina Gena, Styliani Kleanthous, Giuseppe Sansonetti",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802533",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Learning Behaviorally Grounded Item Embeddings via Personalized Temporal Contexts",
+    "authors": "Rafael T. Sereicikas, Pedro R. Pires, Gregório F. Azevedo, Tiago A. Almeida",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806187",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "SafeTrans: LLM-assisted Transpilation from C to Rust",
+    "authors": "Muhammad Farrukh, Baris Coskun, Tapti Palit, Michalis Polychronakis",
+    "publish": "Proceedings of the 1st Workshop on Code Translation, Transformation, and Modernization",
+    "url": "https://doi.org/10.1145/3786180.3788317",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Knowledge Graphs and Large Language Models for Continuous Adaptation in Lifelong Learning",
+    "authors": "Giulia Coucourde",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803063",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "When Preference Is Not Enough",
+    "authors": "Robin Ungruh, Alejandro Bellogín, Dominik Kowald, Maria Soledad Pera",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812719",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "A Zero-Force Optical Sensor Interface and Fitting Protocol for Customized Assistive Technology Control",
+    "authors": "Andrew Thompson, Brenna Argall",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812711",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Detecting UX smells in Visual Studio Code using LLMs",
+    "authors": "Andres Rodriguez, Juan Cruz Gardey, Alejandra Garrido",
+    "publish": "Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments",
+    "url": "https://doi.org/10.1145/3786151.3788606",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "How Personal Characteristics Influence the Use of Multi-Agent Conversational Recommender Systems for Diverse Exploration",
+    "authors": "Yufan Zhou, Yirui Huang, Zhao Wang, Yucheng Jin",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806181",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations",
+    "authors": "Peter Müllner, Dominik Kowald, Markus Schedl, Elisabeth Lex",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812709",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Protecting Private Code in IDE Autocomplete using Differential Privacy",
+    "authors": "Evgeny Grigorenko, David Stanojevic, David Ilic, Egor Bogomolov, Kostadin Cvejoski",
+    "publish": "Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments",
+    "url": "https://doi.org/10.1145/3786151.3788603",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Modeling the Sense of Agency as a Latent User State during Music Listening",
+    "authors": "Roberto Legaspi, Kazushi Ikeda, Akihiro Sasaki, Akihiro Miyamoto, Kae Nakajima, Nao Kobayashi, Yasushi Naruse",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806193",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "First International Workshop on User Modeling, Personalization, and Adaptive Systems for Sustainability and Social Good (UMAP4Good 2026)",
+    "authors": "Allegra De Filippo, Angelo Geninatti Cossatin, Elisabeth Lex, Noemi Mauro, Giacomo Medda, Giuseppe Spillo",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802525",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "What Do Humanities Scholars Need? A User Model for Recommendation in Digital Archives",
+    "authors": "Florian Atzenhofer-Baumgartner, Dominik Kowald",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806171",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Personalized Misinformation Interventions: User-Adaptive Fact-Check Explanations Through Affective Modalities",
+    "authors": "Filipe Altoe, Sergio M. Pinto, H. Sofia Pinto",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806156",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Reflecti-Mate: A Conversational Agent for Adaptive Decision-Making Support Through System 1 and System 2 Thinking",
+    "authors": "Morita Tarvirdians, Senthil Chandrasegaran, Hayley Hung, Catholijn M. Jonker, Catharine Oertel",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806176",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Uncertainty-Aware Reinforcement Learning for Conversion-Optimized Content Gating",
+    "authors": "Han Jun Yoon, Janith Weerasinghe, Himanshu Jahagirdar, Meng Ling, Suja Thomas, Anuradha Uduwage, Sam Han",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3807904",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Multi-Armed Bandits for Recommendation Strategy Selection in Front Page Personalisation",
+    "authors": "Dominik Freunberger, Sebastian Agerhåll, Jesper Hedlund, Jorge Ramón Letosa, Ana Sílvia C. Silva",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3807907",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Differentially Private and Fair Algorithmic Hiring for Recruiters",
+    "authors": "Stavros Davidopoulos, Dimitris Sacharidis, Panagiotis Symeonidis",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806147",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Enhancing Diversity in News Recommendations Increases Click-Through Rates: Insights from an Online Experiment and User Study",
+    "authors": "Robin Verachtert, Kim Falk, Christine Bauer",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806153",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "LH-GSTGNN: Lag-Heterogeneity Guided Spatio-temporal Graph Neural Network",
+    "authors": "Xuejiao Li, He Li, Duo Jin, Jianbin Huang, Jaesoo Yoo",
+    "publish": "ACM Transactions on Knowledge Discovery from Data",
+    "url": "https://doi.org/10.1145/3819232",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Personalization Matters: Benchmarking ML, DL and LLMs for Mental Health Forecasting from Smartphone Sensing Data",
+    "authors": "Kaidong Feng, Zhu Sun, Roy Ka-Wei Lee, Xun Jiang, Yin-Leng Theng, Yi Ding",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812715",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Latent Regularization in Generative Test Input Generation",
+    "authors": "Giorgi Merabishvili, Oliver Weissl, Andrea Stocco",
+    "publish": "Proceedings of the 7th IEEE/ACM International Workshop on Deep Learning for Testing and Testing for Deep Learning",
+    "url": "https://doi.org/10.1145/3786154.3788585",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "From Technical Debt to Cognitive and Intent Debt",
+    "authors": "Margaret-Anne Storey",
+    "publish": "Queue",
+    "url": "https://doi.org/10.1145/3807966",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Leveraging Participatory Personas for Reflexive Co-design of Personalization in Large Language Models",
+    "authors": "Kathleen W. Guan, Sarthak Giri, Mohammed Al Owayyed, Bernard J. Jansen, Gayane Sedrakyan, João Fernando Ferreira Gonçalves, Mark de Reuver, Caroline A. Figueroa",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812729",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Supporting Children with Developmental Language Disorders through Co-Designed Adaptive Assistive Technology",
+    "authors": "Aleid Oonk",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803061",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Balancing Guidance and Control: Nudging Users Toward Effective Dashboard Customisation",
+    "authors": "Hatim Alsayahani, Simon Harper, Markel Vigo",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806783",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Progress Feedback for Countering Selective Exposure: When Visualization Can Backfire",
+    "authors": "Janine Riemann, Jasmin Alt, Uroš Sergaš, Marko Tkalcic, Bruce Ferwerda",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812732",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "A Case Study of Offline Reinforcement Learning for Paywall Decisioning",
+    "authors": "Janith Weerasinghe, Han Jun Yoon, Meng Ling, Himanshu Jahagirdar, Suja Thomas, Anuradha Uduwage, Sam Han",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3807911",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Personalized Human–Robot Interaction through Ontology-Based Knowledge Graphs and Large Language Models",
+    "authors": "Aurora Toma, Davide Lofrese, Giuseppe Palestra",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806169",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Control Models for In-IDE Code Completion",
+    "authors": "Aral de Moor, Yana Hrynevich, Hleb Badzeika, Vladyslav Furda, Marko Kojic, Artem Savelev, Kostadin Cvejoski, Darya Rovdo, Ekaterina Garanina",
+    "publish": "Proceedings of the 3rd ACM/IEEE International Workshop on Integrated Development Environments",
+    "url": "https://doi.org/10.1145/3786151.3788608",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Warnless at the DeepTest 2026 Tool Competition",
+    "authors": "Qunying Song, Yuan Gao, Roberto Brusnicki, Federica Sarro",
+    "publish": "Proceedings of the 7th IEEE/ACM International Workshop on Deep Learning for Testing and Testing for Deep Learning",
+    "url": "https://doi.org/10.1145/3786154.3796503",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Increasing Editor Trust in News Personalization Systems with Fact-checked Large Language Models",
+    "authors": "Tobias Jovall Wessel, Christoph Trattner, Alain Starke",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806175",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Measuring the stability and plasticity of recommender systems",
+    "authors": "Maria João Lavoura, Robert Jungnickel, João Vinagre",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812707",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Does Tone Matter? Exploring Context-Aware Explanations in Route Recommendations",
+    "authors": "Marloes Vredenborg, Marit Bentvelzen, Christine Bauer, Judith Masthoff",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806780",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Proceedings of the 1st Workshop on Code Translation, Transformation, and Modernization",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3786180",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Exida Test Generator at the DeepTest 2026 Tool Competition",
+    "authors": "Kaan Gueney Keklikci, Dimitrij Krepis, Gaia Peressini, Lev Sorokin",
+    "publish": "Proceedings of the 7th IEEE/ACM International Workshop on Deep Learning for Testing and Testing for Deep Learning",
+    "url": "https://doi.org/10.1145/3786154.3796501",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Designing Operator-Centred Recommender Systems for Knowledge Retention in Industrial Manufacturing",
+    "authors": "Nour Ahmed Abdesselam",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803068",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "To Explain or Not to Explain? An Empirical Investigation into Users’ Information Needs in News Recommender Systems and Its Impact on User Engagement",
+    "authors": "Sophia Egbert, Stefanie M. Störtebek, Juliane A. Lischka",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806163",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Interface-Aware Recommender Systems",
+    "authors": "Santiago de Leon-Martinez, Behnam Rahdari, Robert Moro, Peter Brusilovsky, Maria Bielikova",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802534",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Automated Refactoring of Code Smells in React.js Applications",
+    "authors": "Hugo Lobo, Maykon Nunes, Carla Bezerra, Emanuel Coutinho, Paulo Henrique Maia",
+    "publish": "Proceedings of the 1st Workshop on Code Translation, Transformation, and Modernization",
+    "url": "https://doi.org/10.1145/3786180.3788319",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Proceedings of the 7th IEEE/ACM International Workshop on Deep Learning for Testing and Testing for Deep Learning",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3786154",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "From Modeling and Profiling to Auditing: the Evolving Role of the User in Recommender System Research",
+    "authors": "Lorenzo Porcaro, Erasmo Purificato",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802532",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Multistakeholder Impacts of Profile Portability in a Recommender Ecosystem",
+    "authors": "Anas Buhayh, Elizabeth McKinnie, Clement Canel, Robin Burke",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806184",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3774935",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Behind the Re-Rank: Explaining Fairness in Top-N Recommendations",
+    "authors": "Raciel Yera, Luis Martínez",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806165",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "\"It's a Bit of Me\": Predicting Persuasion from Writing Style and Persuader-Receiver Similarity",
+    "authors": "Elena Minucci, Simone Stumpf, Martin Lages",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806180",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "GeneticPuzzle: a Mobile Psychoeducational Tool to Support Families Affected by 22q11.2 Deletion Syndrome",
+    "authors": "Maxwell Szymanski, Robin De Croon, Marie Meuris, Ann Swillen, Katrien Verbert",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812716",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Using Elo to Operationalize Modeling of Aphasia Patients' Word-Recall Practice During Recovery",
+    "authors": "Rafaella Sampaio de Alencar, Michael Yudelson, Peter Brusilovsky, William S. Evans",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806183",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Beyond Centralization: User-Controlled Federated Recommendations in Practice",
+    "authors": "Manel Slokom, Alejandro Bellogin",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3812710",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "SAGE: A Strategy-Aware Graph-Enhanced Generation Framework For Online Counseling",
+    "authors": "Eliya Naomi Aharon, Meytal Grimland, Avi Segal, Loona Ben Dayan, Inbar Shenfeld, Yossi Levi Belz, Kobi Gal",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806785",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Modelling Preference Heterogeneity for Context-Aware Decision Support During Public Transport Disruptions",
+    "authors": "Anouk van Kasteren, Marloes Vredenborg, Christine Bauer, Judith Masthoff",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806191",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "Investigating the Gap Between Offline Metrics and Perceived Fairness",
+    "authors": "Angelo Geninatti Cossatin, Maria Maistro, Noemi Mauro",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3806150",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "When Personalisation Becomes Exploitation: An Integrated Evaluation Methodology for Personality-Adaptive Relationship Forming AI.",
+    "authors": "Timipado Imomotebegha",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3803065",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-1",
+    "title": "LLM4Good: The 2nd Workshop on Sustainable and Trustworthy Large Language Models for Personalization",
+    "authors": "Ahmadou Wagne, Thomas Elmar Kolb, Ashmi Banerjee, Julia Neidhardt, Yashar Deldjoo",
+    "publish": "Proceedings of the 34th ACM Conference on User Modeling, Adaptation and Personalization",
+    "url": "https://doi.org/10.1145/3774935.3802536",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]
