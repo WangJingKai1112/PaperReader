@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-6-3",
+    "title": "Cover 4",
+    "authors": "N/A",
+    "publish": "IEEE Communications Magazine",
+    "url": "https://doi.org/10.1109/mcom.2026.11550736",
+    "source": "IEEE",
+    "abstract": null,
+    "title_zh": "封面4",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "Cognitive Test Agent",
+    "authors": "Santhosh Sahaya Raj, Sundaresan Sambandan, Sreenivasa Komaramkandth",
+    "publish": "2026 12th International Conference on Communication and Signal Processing (ICCSP)",
+    "url": "https://doi.org/10.1109/iccsp68173.2026.11539403",
+    "source": "IEEE",
+    "abstract": "Writing Automated Test Cases (ATCs) consumes around 30% of a software release's effort, with each test case often taking three to five days. Most of that time is dedicated to coding, reviewing, and debugging scripts, rather than to actual testing. The proposed Cognitive Testing Agent (CTA) aims to eliminate this traditional and time-consuming testing approach. CTA understands plain-text test descriptions and executes the tests directly, without generating any code. Underneath, an LLM Multi-Agent System (LMAS) breaks each description into subtasks and delegates them to five specialized agents through Model Context Protocol (MCP) servers connected to the Access Controller. We validated this approach on a COAX broadband Device Under Test (DUT). Compared to traditional methods, the testing effort was reduced from approximately 30% of a release to around 5%.",
+    "title_zh": "认知测试智能体",
+    "abstract_zh": "编写自动化测试用例（ATC）约占软件发布工作量的30%，每个测试用例通常需要三到五天。其中大部分时间用于编写、审查和调试脚本，而非实际测试。本文提出的认知测试代理（CTA）旨在摒弃这种传统且耗时的测试方法。CTA能够理解纯文本的测试描述，并直接执行测试，无需生成任何代码。在底层，LLM多智能体系统（LMAS）将每条描述分解为子任务，并通过连接至访问控制器的模型上下文协议（MCP）服务器，将这些子任务委派给五个专用智能体。我们在一个COAX宽带被测设备（DUT）上验证了该方法。与传统方法相比，测试工作量从约占发布工作量的30%降低到了约5%。"
+  },
+  {
+    "date": "2026-6-3",
+    "title": "RTL Design and Implementation of the I\n                    <sup>3</sup>\n                    C Communication Protocol",
+    "authors": "Akella Madhav, Jayakrishnan K R, Ramesh Bhaktavatchalu",
+    "publish": "2026 9th International Conference on Trends in Electronics and Informatics (ICOEI)",
+    "url": "https://doi.org/10.1109/icoei68323.2026.11541468",
+    "source": "IEEE",
+    "abstract": "This project aims to develop and verify the Single Data Rate (SDR) mode communication core of the I3C (Improved Inter-Integrated Circuit) protocol using a Verilog HDL environment. I3C is a critical heterogeneous bus standard, offering superior speed and functional density compared to the legacy I2C protocol. The design focuses on modeling the Master controller’s functional logic, specifically to handle the complex Dynamic Address Assignment (DAA) procedure. This involved rigorous implementation and verification of the bus’s Arbitration logic to guarantee robust resolution of Process Identifier PID conflicts. A innovation within DAA is the deployment of a constrained pseudo-random address selection mechanism, ensuring the Master assigns unique Dynamic Addresses (DAs) efficiently while maintaining protocol adherence and avoiding address space collisions. The core communication sequences are successfully tested and verified against different input sets. This includes validating fundamental Broadcasting commands, the complete DAA state machine, and directed Private Read and Write transactions utilizing the newly assigned DAs and support for In-Band Interrupts. The results confirm the robust design and correct functional operation of the SDR core, establishing a stable foundation for further development of High Data Rate (HDR) modes.",
+    "title_zh": "I3C通信协议的RTL设计与实现",
+    "abstract_zh": "本项目旨在利用Verilog HDL环境开发并验证基于I3C（改进型集成电路互连）协议的单数据速率（SDR）模式通信核心。作为关键的异构总线标准，I3C相较于传统I2C协议在速度与功能密度方面优势显著。设计重点在于对主控制器功能逻辑进行建模，专门处理复杂的动态地址分配（DAA）流程。这涉及对总线仲裁逻辑的严格实现与验证，以确保能可靠地解决进程标识符（PID）冲突。DAA过程中的一项创新是部署了受约束的伪随机地址选择机制，这使得主设备能够高效地分配唯一动态地址（DA），同时保持协议兼容性并避免地址空间冲突。核心通信序列已通过不同输入集测试验证，包括对基础广播指令、完整DAA状态机以及利用新分配DA进行的定向私有读写事务及带内中断支持的确认。结果表明SDR核心设计稳健、功能操作正确，为后续高数据速率（HDR）模式的开发奠定了坚实基础。"
+  }
+]
