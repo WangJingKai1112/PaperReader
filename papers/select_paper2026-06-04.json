@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-6-4",
+    "title": "Ex-ASE 2025: The 1st International Workshop on ExplainableAutomated Software Engineering",
+    "authors": "Mersedeh Sadeghi, Livia Lestingi, Alireza Javadian Sabet, Marjan Hosseini",
+    "publish": "ACM SIGSOFT Software Engineering Notes",
+    "url": "https://doi.org/10.1145/3800646.3800654",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Ex-ASE 2025：第一届可解释自动化软件工程国际研讨会",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-4",
+    "title": "A Protocol-Aware Fuzzing Framework for Cross-Architecture Satellite Firmware",
+    "authors": "Zihao Liang, Mingliang Wang",
+    "publish": "2026 11th International Conference on Intelligent Computing and Signal Processing (ICSP)",
+    "url": "https://doi.org/10.1109/icsp69961.2026.11540576",
+    "source": "IEEE",
+    "abstract": "Spaceborne firmware typically runs on heterogeneous architectures (e.g., ARM) and relies heavily on communication protocols with strict Cyclic Redundancy Checks (CRC). Traditional fuzzing yields extremely low code coverage as it struggles to bypass front-end validation logic. Existing source-code instrumentation and heuristic state inference approaches suffer from severe code bloat and high computational overhead. This paper proposes a source-free, protocol-aware fuzzing framework. Utilizing QEMU dynamic translation for black-box cross-architecture instrumentation, the framework introduces a custom mutator to perform deterministic CRC16-CCITT recalculation and real-time overwriting before data injection. With an average throughput of 311.1 execs/s, the framework achieves a rapid jump in branch coverage to 35.8% within 1 hour, and maintains rock-solid stability over a 12-hour extended evaluation (reaching 38.2% saturation). The framework successfully triggered 7 independent crashes (including a deep Use-After-Free vulnerability), achieving precise localization via AddressSanitizer. Furthermore, we demonstrate its distinct superiority in execution throughput and setup efficiency when compared against state-of-the-art grammar-based mutators (e.g., libprotobuf-mutator). This paper provides a lightweight, quantitatively evaluated paradigm for aerospace embedded software security assessment.",
+    "title_zh": "面向跨架构卫星固件的协议感知模糊测试框架",
+    "abstract_zh": "航天器固件通常运行在异构架构（如ARM）上，并高度依赖含有严格循环冗余校验（CRC）的通信协议。传统模糊测试在绕过前端验证逻辑时困难重重，导致代码覆盖率极低。现有的源码插桩和启发式状态推断方法则存在严重的代码膨胀和高计算开销。本文提出一种无需源码、协议感知的模糊测试框架。该框架利用QEMU动态翻译实现黑盒跨架构插桩，并引入定制化变异器，在数据注入前执行确定性的CRC16-CCITT重计算及实时覆写。框架以平均311.1次执行/秒的吞吐量，在1小时内将分支覆盖率快速跃升至35.8%，并在连续12小时的长期评估中保持极佳稳定性（达到38.2%的饱和覆盖率）。框架成功触发了7个独立崩溃（包括一个深层释放后使用漏洞），并借助AddressSanitizer实现精确定位。此外，与当前最先进的基于语法的变异器（如libprotobuf-mutator）相比，本框架在执行吞吐量和部署效率方面展现出显著优势。本文为航天嵌入式软件安全评估提供了一种轻量化、可定量评估的范式。"
+  },
+  {
+    "date": "2026-6-4",
+    "title": "Proceedings of the 2026 International Conference on AI, Computer Security and Trusted Data",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3811874",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "2026年人工智能、计算机安全与可信数据国际会议论文集",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-4",
+    "title": "<i>FUZZItizer:</i>\n                    Hardware Sanitizer-Assisted Fuzzing for Automated SoC Vulnerability Detection",
+    "authors": "Rahul Kande, Mohamadreza Rostami, Chen Chen, Hareesh Khattri, Jason M. Fung, Ahmad-Reza Sadeghi, Jeyavijayan Rajendran",
+    "publish": "Proceedings of the ACM Asia Conference on Computer and Communications Security",
+    "url": "https://doi.org/10.1145/3779208.3806078",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "<i>FUZZItizer:</i> 硬件消毒器辅助模糊测试用于自动化SoC漏洞检测",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-4",
+    "title": "Summary of the 7th International Workshop on Automated and verifiable Software sYstem DEvelopment (ASYDE) co-located with the 40th IEEE/ACM ASE 2025",
+    "authors": "Marco Autili, Alessio Bucaioni, Gianluca Filippone, Lina Marsso, Gian Luca Scoccia",
+    "publish": "ACM SIGSOFT Software Engineering Notes",
+    "url": "https://doi.org/10.1145/3800646.3800651",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "第七届自动化与可验证软件系统开发国际研讨会（ASYDE）总结（与第40届IEEE/ACM ASE 2025联合举办）",
+    "abstract_zh": "无"
+  }
+]
