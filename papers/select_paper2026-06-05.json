@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-6-5",
+    "title": "Cover 2",
+    "authors": "N/A",
+    "publish": "IEEE Spectrum",
+    "url": "https://doi.org/10.1109/mspec.2026.11553280",
+    "source": "IEEE",
+    "abstract": null,
+    "title_zh": "双人安全卫防守",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-6",
+    "title": "An Automated and Scalable CNN-Based Framework for APB Error Diagnosis in SoC Designs",
+    "authors": "Ihsiang Wang, Jenwei Shih, Chengyang Tsai, Tzu-Wei Huang, Yucheng Lin, Ming-Yi Lin",
+    "publish": "Proceedings of the 2026 12th International Conference on Computing and Data Engineering",
+    "url": "https://doi.org/10.1145/3801839.3801840",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向SoC设计中APB错误诊断的自动化可扩展CNN框架",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-5",
+    "title": "Knowledge Graph-Driven Automated Generation of SystemVerilog Assertions from Design Specifications",
+    "authors": "Niraj Prasad Bhatta, Ranga Vemuri",
+    "publish": "2026 IEEE 2nd International Conference on Secure IoT, Assured and Trusted Computing (SATC)",
+    "url": "https://doi.org/10.1109/satc69565.2026.11542349",
+    "source": "IEEE",
+    "abstract": "The increasing complexity of modern hardware protocols needs scalable and reliable formal verification methodologies. Writing SystemVerilog Assertions (SVAs) manually from hardware design specifications is time-consuming, error-prone, and hard to extend across diverse protocol specifications. This paper presents an automated, end-to-end framework for generating formal assertions directly from hardware specification documents. The proposed approach extracts behavioral information from multiple specification modalities, including natural-language text, tables, formulas, and figures, and organizes the extracted semantics into a structured representation. A protocol-level knowledge graph is constructed to capture relationships among signals, states, and events, which is then used to guide assertion generation through anchor identification and behavioral path extraction. Natural-language assertions are synthesized from graph-derived behavioral paths, filtered for protocol relevance, and translated into SystemVerilog Assertions. To improve practical applicability, the framework utilizes a high-quality assertion synthesis stage with bounded temporal constraints and security-aware conditions. An RTL-aware repair stage aligns generated assertions with implementation-level signals using constrained large language model assistance, ensuring compatibility with real RTL designs. The resulting assertions are formally verified using Cadence JasperGold on UART and I2C designs. Our proposed framework produces verification-ready, non-trivial assertions while maintaining protocol independence and full automation. This work provides a scalable and specification-driven flow that bridges the gap between informal design specifications and formal RTL verification.",
+    "title_zh": "知识图谱驱动的设计规范到SystemVerilog断言的自动生成",
+    "abstract_zh": "现代硬件协议日益增加的复杂性需要可扩展且可靠的形式化验证方法。从硬件设计规范中手工编写SystemVerilog断言（SVA）不仅耗时费力、容易出错，而且难以跨不同协议规范进行扩展。本文提出了一种直接从硬件规范文档自动生成形式断言的端到端框架。该方法从多种规范模态（包括自然语言文本、表格、公式和图示）中提取行为信息，并将提取出的语义组织为结构化表示。通过构建协议级知识图谱来捕捉信号、状态和事件之间的关系，随后通过锚点识别和行为路径提取来引导断言生成。自然语言断言由图谱推导的行为路径合成，经过协议相关性过滤，最终转换为SystemVerilog断言。为提升实际应用性，该框架采用带有时序边界约束和安全感知条件的高质量断言合成阶段。RTL感知修复阶段借助约束型大语言模型辅助，将生成的断言与实现级信号对齐，确保与实际RTL设计的兼容性。最终生成的断言在UART和I2C设计上通过Cadence JasperGold进行了形式验证。该框架能够生成可验证、非简单的断言，同时保持协议独立性和全流程自动化。这项工作提供了一种可扩展且基于规范驱动的流程，弥合了非正式设计规范与形式化RTL验证之间的鸿沟。"
+  },
+  {
+    "date": "2026-6-5",
+    "title": "PickyRTL: A Static Analysis Tool for Detecting Hardware CWEs at Register-Transfer Level",
+    "authors": "John Parks, Logan Reichling, Boyang Wang",
+    "publish": "2026 IEEE 2nd International Conference on Secure IoT, Assured and Trusted Computing (SATC)",
+    "url": "https://doi.org/10.1109/satc69565.2026.11542290",
+    "source": "IEEE",
+    "abstract": "Hardware vulnerabilities pose significant security risks in modern systems. If they remain undetected, attackers can exploit them to steal sensitive data or modify critical system configurations. However, tools to automatically detect hardware vulnerabilities in Register-Transfer Level code at pre-silicon stage remain limited in their coverage of specific hardware Common Weakness Enumerations (CWEs). This paper introduces PickyRTL, a static analysis tool that automatically detects hardware CWEs in RTL code. Our algorithm first parses RTL code into an Abstract Syntax Tree and then traverses the tree to identify CWE-specific structural and semantic vulnerabilities. Our current tool support the detection of four specific CWEs (CWE-1233, CWE-226, CWE-1245, and CWE-1431), which are associated with critical vulnerabilities in Finite State Machines, security-sensitive controls, cryptographic results, and reuse of sensitive data. We evaluate PickyRTL on our dataset, which contains 39 Verilog and SystemVerilog files containing injected vulnerabilities across the targeted CWEs. Our evaluation results demonstrate that PickyRTL achieves 85.5 % precision and 73.8 % recall over the four CWEs we examine.",
+    "title_zh": "PickyRTL：在寄存器传输级检测硬件CWE的静态分析工具",
+    "abstract_zh": "硬件漏洞给现代系统带来了重大安全风险。若未被发现，攻击者可利用它们窃取敏感数据或篡改关键系统配置。然而，在硅前阶段自动检测寄存器传输级代码中硬件漏洞的工具，其对特定硬件通用弱点枚举的覆盖范围仍然有限。本文提出PickyRTL，一个可自动检测RTL代码中硬件通用弱点枚举的静态分析工具。我们的算法首先将RTL代码解析为抽象语法树，然后遍历该树以识别特定弱点分类的结构和语义漏洞。当前工具支持检测四种特定通用弱点枚举（CWE-1233、CWE-226、CWE-1245和CWE-1431），它们关联着有限状态机、安全敏感控制、加密结果以及敏感数据重用等方面的关键漏洞。我们在包含39个Verilog和SystemVerilog文件的数据集上对PickyRTL进行了评估，这些文件中注入了目标弱点枚举所对应的漏洞。评估结果表明，针对所检测的四种通用弱点枚举，PickyRTL取得了85.5%的精确率和73.8%的召回率。"
+  }
+]
