@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-6-6",
+    "title": "F-800: Agentic Fuzzing Termination via Function Clustering: Toward Smarter Early Stopping",
+    "authors": "Wenzhang Yang, Liang Ding, Yinxing Xue, Lijun Zhang",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3817058",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "F-800：基于函数聚类的代理模糊测试终止：迈向更智能的早期终止",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-6",
+    "title": "An Automated and Scalable CNN-Based Framework for APB Error Diagnosis in SoC Designs",
+    "authors": "Ihsiang Wang, Jenwei Shih, Chengyang Tsai, Tzu-Wei Huang, Yucheng Lin, Ming-Yi Lin",
+    "publish": "Proceedings of the 2026 12th International Conference on Computing and Data Engineering",
+    "url": "https://doi.org/10.1145/3801839.3801840",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向SoC设计中APB错误诊断的自动化可扩展CNN框架",
+    "abstract_zh": "无"
+  }
+]
