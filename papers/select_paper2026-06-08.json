@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-06-08",
+    "title": "Silicon Photonics Testing: Design for Testability, Fault Detection, and Manufacturing Variation Analysis in Photonic Integrated Circuits",
+    "authors": "Pratishtha Agnihotri, Priyank Kalla, Steve Blair",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.08885v1",
+    "source": "arXiv",
+    "abstract": "This paper proposes a design-for-test (DFT) methodology and architecture for testing and validation of silicon photonic integrated circuits. We describe the design of silicon photonic circuits and components that comprise the proposed DFT architecture. The designs are extensively simulated and validated as test-access and fault-detection circuitry. We demonstrate how the DFT approach can be deployed on photonic integrated circuits and how they can be tested for correct operation, in terms of signal power and phase. The application is demonstrated on two distinct types of designs -- an optical neural network comprising optical devices in a feed-forward topology, and on an optical logic circuit with feedback loops.",
+    "title_zh": "硅光子测试：光子集成电路中的可测试性设计、故障检测与制造变异分析",
+    "abstract_zh": "本文提出了一种面向测试与验证硅光子集成电路的可测试性设计(DFT)方法学及其架构。我们描述了构成所提DFT架构的硅光子电路与器件的设计，并通过广泛仿真验证了这些设计作为测试接入与故障检测电路的有效性。文中展示了如何将DFT方法部署于光子集成电路，以及如何从信号功率和相位层面测试其正确运行。该方法的应用在两个不同类型的设​​计中进行了演示：其一是由前馈拓扑结构光学器件构成的光学神经网络，其二是带有反馈回路的光逻辑电路。"
+  },
+  {
+    "date": "2026-06-08",
+    "title": "An 84-Format Numeric Catalog with Bit-Exact Conformance Vectors: A Vendor-Neutral Reference for FP8, BF16, MXFP4, and Microscaling Formats",
+    "authors": "Dmitrii Vasilev",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.09686v1",
+    "source": "arXiv",
+    "abstract": "Numeric format proliferation in machine learning hardware -- FP8 (E4M3 and E5M2), BF16, MXFP4, microscaling block formats, and dozens of research variants -- has outpaced the availability of vendor-neutral, bit-exact reference material. Engineers porting models across accelerators encounter silent divergences that are difficult to diagnose without a shared ruler. This paper describes a catalog of 84 numeric formats spanning 13 families, a suite of six bit-exact conformance packs covering GF16, MXFP4 element, BF16, FP8 E4M3, FP8 E5M2, and E8M0 block scale, and an IEEE P3109 v3.2.0 cross-walk that maps each pack to its corresponding standards-track configured format. Each pack is a self-contained JSON document with a SHA-256 fingerprint, a shared row schema, and an anchor vector that encodes 3.0 -- the identity phi^2 + 1/phi^2 = 3 -- as a cross-pack sanity check. Packs are cross-validated against ml_dtypes 0.5.4 (Google/JAX); any divergence is documented explicitly and interpreted as a spec-permitted interpretation gap rather than hidden. The work is framed as registry filling: it does not propose new formats, make model-accuracy claims, or assert superiority over any vendor's implementation. All artifacts are publicly available at https://github.com/gHashTag/t27 under an open license.",
+    "title_zh": "84种数值格式目录与比特精确一致性向量：面向FP8、BF16、MXFP4及微缩放格式的供应商中立参考",
+    "abstract_zh": "机器学习硬件中数值格式的激增——FP8（E4M3 和 E5M2）、BF16、MXFP4、微缩放块格式以及数十种研究变体——已远超供应商中立、位精确参考资料的可用性。在不同加速器之间移植模型的工程师，若缺乏统一标尺，会遭遇难以诊断的静默偏差。本文描述了一份涵盖 13 个系列共 84 种数值格式的目录，一组包含 GF16、MXFP4 元素、BF16、FP8 E4M3、FP8 E5M2 及 E8M0 块缩放共六项的位精确一致性测试包，以及一份 IEEE P3109 v3.2.0 对照表，将每个测试包映射至其对应的标准跟踪配置格式。每个测试包均为独立的 JSON 文档，附有 SHA-256 指纹、共享行模式以及一个编码了 3.0 的锚向量——以恒等式 φ² + 1/φ² = 3 作为跨包健全性检验。测试包已对照 ml_dtypes 0.5.4（Google/JAX）进行交叉验证；任何差异都明确记录，并被解释为规范允许的解释间隙，而非隐而不宣。此项工作定位为注册填充：不提出新格式，不断言模型准确性，也不声称优于任何厂商的实现。所有工件均已按开放许可证公开发布于 https://github.com/gHashTag/t27。"
+  },
+  {
+    "date": "2026-6-8",
+    "title": "Scalable Floating-Point Satisfiability via Staged Optimization",
+    "authors": "Yuanzhuo Zhang, Zhoulai Fu, Binoy Ravindran",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3808342",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于分阶段优化的可扩展浮点可满足性",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-8",
+    "title": "SAQR-QC: A Logic for Scalable but Approximate Quantitative Reasoning about Quantum Circuits",
+    "authors": "Nengkun Yu, Jens Palsberg, Thomas Reps",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3808284",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SAQR-QC: 一种用于量子电路的可扩展但近似定量推理的逻辑",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-8",
+    "title": "The Search for Constrained Random Generators",
+    "authors": "Harrison Goldstein, Hila Peleg, Cassia Torczon, Daniel Sainati, Leonidas Lampropoulos, Benjamin C. Pierce",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3808329",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "寻找受约束的随机生成器",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-8",
+    "title": "A Formally Verified Foundation for Compositional Heterogeneous Coherence",
+    "authors": "An Qi Zhang, Andrés Goens, Daniel Sorin, Vijay Nagarajan",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3808350",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "经形式化验证的组合式异构一致性基础",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-8",
+    "title": "Enumerating Ill-Typed Programs for Testing Type Analyzers",
+    "authors": "Thodoris Sotiropoulos, Zhendong Su",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3808320",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "枚举类型错误程序以测试类型分析器",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-8",
+    "title": "HF-DGF: Hybrid Feedback Guided Directed Grey-box Fuzzing",
+    "authors": "Guangfa Lyu, Zhenzhong Cao, Xiaofei Ren, Fengyu Wang",
+    "publish": "IEEE Transactions on Software Engineering",
+    "url": "https://doi.org/10.1109/tse.2026.3701683",
+    "source": "IEEE",
+    "abstract": "Directed Grey-box Fuzzing (DGF) is widely used for crash reproduction and patch testing because it can steer execution toward predefined target locations. However, existing DGF tools often rely on limited runtime feedback, which weakens both target convergence and target-state exploration. <p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">This paper presents HF-DGF, a directed grey-box fuzzing framework with hybrid feedback-guided seed scheduling. HF-DGF integrates control-flow distance, value-flow influence score, and slice coverage. For precise distance guidance, we design a backward-stepping algorithm that computes basic-block-level distances on a virtual interprocedural control-flow graph (ICFG). For deeper target-state exploration, we introduce value-flow influence and its corresponding metric, the value-flow influence score. To control the runtime cost introduced by hybrid feedback, we further adopt a selective instrumentation strategy.</p> <p xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">Evaluation on 41 real-world vulnerabilities (32 valid for comparative analysis) shows that HF-DGF consistently outperforms existing tools. On average, it reproduces crashes 5.05× faster than AFL, 50.56× faster than AFL++, 5.79× faster than AFLGo, 73.75× faster than WindRanger, 2.56× faster than DAFL, and 8.45× faster than Beacon. Notably, among cases where all fuzzers trigger the target crash, HF-DGF achieves the lowest code coverage, indicating stronger directionality. It also outperforms AFLGo, WindRanger, DAFL, and Beacon in static-analysis efficiency.</p>",
+    "title_zh": "HF-DGF：混合反馈引导的定向灰盒模糊测试",
+    "abstract_zh": "定向灰盒模糊测试（DGF）因其能将执行引导至预定义目标位置，被广泛用于崩溃重现和补丁测试。然而，现有DGF工具通常依赖有限的运行时反馈，这削弱了目标收敛性和目标状态探索。本文提出HF-DGF，一个融合混合反馈引导种子调度的定向灰盒模糊测试框架。HF-DGF集成了控制流距离、值流影响分数和切片覆盖率。为实现精确的距离引导，我们设计了一种反向步进算法，在虚拟过程间控制流图（ICFG）上计算基本块级距离。为进行更深度的目标状态探索，我们引入值流影响及其对应指标——值流影响分数。为控制混合反馈引入的运行时开销，我们进一步采用了一种选择性插桩策略。\n\n在41个真实世界漏洞（其中32个可用于对比分析）上的评估表明，HF-DGF持续优于现有工具。平均而言，它重现崩溃的速度比AFL快5.05倍，比AFL++快50.56倍，比AFLGo快5.79倍，比WindRanger快73.75倍，比DAFL快2.56倍，比Beacon快8.45倍。值得注意的是，在所有模糊测试器触发目标崩溃的案例中，HF-DGF实现了最低的代码覆盖率，表明其方向性更强。此外，它在静态分析效率方面也优于AFLGo、WindRanger、DAFL和Beacon。"
+  }
+]
