@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-06-09",
+    "title": "Beyond Coverage and Kill Scores: Empirically Measuring Test Suite Behavioural Gaps",
+    "authors": "Partha Protim Paul, Reid Holmes",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.10417v1",
+    "source": "arXiv",
+    "abstract": "Traditional test adequacy metrics measure a system's implementation, not whether it adheres to its expected behaviour. While developers rely heavily on code coverage and mutation testing to assess test suite quality, these metrics are fundamentally implementation-centric and cannot detect gaps between what the code is expected to do and what it actually does. Unfortunately, there has been no way to reliably detect these discrepancies; in this paper we introduce an automated proof-of-concept approach to investigate these gaps. The approach extracts expected method-level behaviours from natural language documentation and source code, maps them to existing test cases, and identifies gaps between expected and validated behaviours. We evaluate the approach across ten popular open-source Java libraries comprising 8,922 methods, extracting 20,729 behaviours with 93.1% precision. Our empirical analysis conservatively estimates that 17.5% of detected expected behaviours remain entirely untested, which we term as the test suite's behavioural gap. To determine if these gaps are merely an artifact of human-driven testing, we evaluate state-of-the-art automated test generators (EVOSUITE / ASTER), finding that they similarly fail to validate at least 20.6% / 27.1% of detected expected behaviours. We further demonstrate that behavioural gaps are not predicted by traditional structural metrics: the majority of untested behaviours occur in methods that already have high line coverage, and over half persist in methods with high mutation kill score. These results suggest behavioural coverage acts as an independent dimension of test suite adequacy that can complement traditional structural metrics.",
+    "title_zh": "超越覆盖率与变异杀死分数：对测试套件行为差距的实证测量",
+    "abstract_zh": "传统的测试充分性度量衡量的是系统的实现，而非其是否遵循预期行为。尽管开发者严重依赖代码覆盖率和变异测试来评估测试套件的质量，但这些度量本质上以实现为中心，无法检测代码的预期行为与实际行为之间的差距。遗憾的是，至今尚无可靠的方法来发现这些差异；本文中，我们提出了一种自动化的概念验证方法来探索这类差距。该方法从自然语言文档和源代码中提取方法级的预期行为，将其映射到现有测试用例，并识别预期行为与已验证行为之间的缺口。我们在包含8,922个方法的十个流行开源Java库上进行了评估，提取了20,729个行为，精确率达到93.1%。我们的实证分析保守估计，已检测到的预期行为中有17.5%完全未被测试，我们称之为测试套件的行为覆盖缺口。为确定这些缺口是否仅仅是人工测试的产物，我们又评估了最先进的自动化测试生成工具（EVOSUITE / ASTER），发现它们同样未能验证至少20.6% / 27.1%的已检测预期行为。我们进一步证明，行为覆盖缺口无法通过传统的结构性指标来预测：大多数未被测试的行为出现在行覆盖率已然较高的方法中，超过一半出现在变异杀死得分较高的方法中。这些结果表明，行为覆盖是测试套件充分性一个独立的维度，能够补充传统的结构性度量。"
+  },
+  {
+    "date": "2026-06-09",
+    "title": "GapFuzz: Cross-Plane Divergence Fuzzing for Distributed SDN Controllers",
+    "authors": "Moustapha Awwalou Diouf, Samuel Ouya, Jacques Klein, Tegawendé F. Bissyandé",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.11035v1",
+    "source": "arXiv",
+    "abstract": "Distributed Software-Defined Networking (SDN) clusters replicate flow state asynchronously between a master node and its backups, leaving a window during which two backup nodes can each commit a contradictory rule, the master can serialize both into the data plane, and the kernel datapath can latch onto an action that no node believes authoritative. Existing SDN fuzzers miss this fault: they confine their oracle to the control plane, target a single controller, or do not steer concurrency to provoke replication races. We present GapFuzz, a stateful concurrency fuzzer for distributed SDN clusters. GapFuzz injects pairs of contradictory Northbound requests on two non-master nodes with controlled inter-injection delay $Δt$, and reconstructs the global cross-plane state by querying every replica and the kernel-datapath action through ovs-appctl ofproto/trace. A two-phase timing search detects whether a divergence exists, then doubles and bisects on $Δt$ to bound the injection-time window; a lifetime probe labels each verdict transient or persistent and assigns it to one of four cross-plane state classes derived from the ONOS 2.7 source. On a three-node ONOS 2.7 cluster, GapFuzz produces a divergent verdict in 81.7% of attempts ($N=50$, Wilson 95% CI $[77.3, 85.4]$%); every divergence sits between the cluster's authoritative state and the kernel datapath. Phase 2 separates a 5 ms race window for one template from a doubling-cap regime ($Δt_{\\max}=10.24$ s) for six others, and 99.4% of divergences persist past 30 s. Replacing the kernel-datapath probe with the OpenFlow user-space probe used by prior fuzzers drops detection by 26.6 percentage points overall and by 46.5 points after excluding canonicalization-forced verdicts.",
+    "title_zh": "GapFuzz：面向分布式SDN控制器的跨平面分歧模糊测试",
+    "abstract_zh": "分布式软件定义网络（SDN）集群在主节点与其备份节点之间异步复制流状态，遗留了一个窗口期：在此期间，两个备份节点可各自提交一条冲突的规则，主节点能将这两条规则都序列化到数据平面，而内核数据通路最终可能锁定一个没有任何节点视为权威的动作。现有的SDN模糊测试工具无法发现这类故障：它们将验证预言局限在控制平面，只针对单个控制器，或未能引导并发以引发复制竞争。我们提出GapFuzz，一个面向分布式SDN集群的有状态并发模糊测试工具。GapFuzz在两个非主节点上注入成对的冲突北向请求，控制注入间隔延迟$Δt$，并通过`ovs-appctl ofproto/trace`查询每个副本以及内核数据通路中的动作，重建全局跨平面状态。一个两阶段的时序搜索先检测是否存在分歧，然后对$Δt$进行加倍和二分来界定注入时间窗口；一个生存期探针将每个判定标记为暂态或持久态，并将其归入四个从ONOS 2.7源码归纳出的跨平面状态类别之一。在一个三节点的ONOS 2.7集群上，GapFuzz在81.7%的尝试中产生了分歧判定（$N=50$，Wilson 95%置信区间 $[77.3, 85.4]$%）；所有分歧都位于集群的权威状态与内核数据通路之间。阶段二为某个模板分离出5毫秒的竞争窗口，而另外六个模板则处于加倍上限机制（$Δt_{\\max}=10.24$秒）下，99.4%的分歧持续超过30秒。将内核数据通路探针替换为先前模糊测试工具使用的OpenFlow用户空间探针后，整体检测率下降26.6个百分点，在排除因规范化而强制产生的判定后，更是下降46.5个百分点。"
+  },
+  {
+    "date": "2026-06-09",
+    "title": "MASTOR: A Multi-Agent Approach to Semantic Test Oracle Generation for RESTful APIs",
+    "authors": "Sida Deng, Rubing Huang, Zhenzhen Yang, Man Zhang, Xuan Xie, Rongcun Wang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.10465v1",
+    "source": "arXiv",
+    "abstract": "Existing automated RESTful API testing approaches commonly rely on simple checks (e.g., HTTP status codes, schema conformance), which are insufficient for detecting semantic faults, business logic violations, and state-dependent inconsistencies. To address this, we propose MASTOR, a Multi-Agent approach for generating Semantic Test Oracles for RESTful APIs based on implementation source code. MASTOR consists of two phases: source analysis and oracle generation. The former employs a source extraction agent to construct a source context for each endpoint operation by analyzing a transitive import closure of relevant source files. The latter employs two parallel oracle-generation paths over the collected contexts: a single-operation path producing status and field oracles per operation, and a multi-operation path generating behavioral consistency oracles for operation sequences by leveraging cross-operation semantic associations. Both paths apply a challenger-agent review, where a dedicated reviewer identifies weaknesses and issues improvement hints to guide targeted regeneration, followed by oracle normalization to filter out structurally invalid oracles. We evaluated MASTOR on a benchmark of 13 open-source RESTful API projects (296 operations, 251,303 lines of code) from the WFD and PRAB datasets. MASTOR achieved an average mutation score of 75.4%, generating 10,022 oracles. These oracles were translated into executable assertions via ToJUnit and ToPostmanAssertify, and into human-readable descriptions via ToReadable. In a baseline comparison on 50 selected operations, MASTOR outperformed Direct Prompting by 30.1 percentage points (69.9% vs. 39.8%) and SATORI by 49.4 percentage points (69.9% vs. 20.5%).",
+    "title_zh": "MASTOR：面向RESTful API语义测试预言生成的多智能体方法",
+    "abstract_zh": "现有的自动化RESTful API测试方法通常依赖于简单的检查（如HTTP状态码、模式一致性），这不足以检测语义错误、业务逻辑违规和状态相关的不一致性。为此，我们提出MASTOR，一种基于实现源代码、采用多智能体生成RESTful API语义测试预言的方法。MASTOR包含两个阶段：源码分析与预言生成。前者利用源码提取代理，通过分析相关源文件的传递导入闭包，为每个端点操作构建源码上下文。后者在收集的上下文上采用两条并行的预言生成路径：单操作路径为每个操作生成状态和字段预言，多操作路径则利用跨操作语义关联，为操作序列生成行为一致性预言。两条路径均应用挑战者代理评审，由专门的评审器识别弱点并给出改进提示，以指导有针对性的重新生成，随后进行预言规范化，过滤掉结构无效的预言。我们在来自WFD和PRAB数据集的13个开源RESTful API项目（296个操作，251,303行代码）上对MASTOR进行了评估。MASTOR平均突变评分达到75.4%，共生成了10,022条预言。这些预言通过ToJUnit和ToPostmanAssertify转换为可执行断言，并通过ToReadable转换为可读描述。在50个选定操作的基线对比中，MASTOR比直接提示方法高出30.1个百分点（69.9%对39.8%），比SATORI高出49.4个百分点（69.9%对20.5%）。"
+  },
+  {
+    "date": "2026-06-09",
+    "title": "Modular2Simple: A Tool for Modular Scenario Creation Based on the OpenSCENARIO Format",
+    "authors": "Nikolai Khriapov, Mohamed Taha Drif, Renjue Li, Cas Widdershoven",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.10851v1",
+    "source": "arXiv",
+    "abstract": "The rapid advancement of autonomous driving systems (ADS) has introduced significant challenges, particularly in the creation of realistic and complex scenarios for testing and validation. This paper introduces Modular2Simple, a tool designed to address these challenges by simplifying and enhancing the process of creating complex ADS scenarios. Modular2Simple seamlessly integrates with the CARLA simulator and is applicable to any software that supports the OpenSCENARIO format. By leveraging existing simple scenarios in the OpenSCENARIO format, the tool enables developers to create easily customizable modular scenarios through the combination of multiple simple or modular scenarios, significantly simplifying the scenario creation process while maintaining flexibility in scenario design. This approach not only facilitates the development of complex scenarios, reducing both development time and effort, but also promotes scenario reuse and customization, which leads to a significant reduction in code complexity and enhanced efficiency in scenario design and testing compared to traditional scenario development methods.",
+    "title_zh": "Modular2Simple：一款基于OpenSCENARIO格式的模块化场景创建工具",
+    "abstract_zh": "自动驾驶系统的快速发展带来了重大挑战，尤其是在创建用于测试和验证的真实复杂场景方面。本文介绍了一款名为Module2Simple的工具，旨在通过简化和增强复杂自动驾驶系统场景的创建过程来应对这些挑战。Modular2Simple可与CARLA模拟器无缝集成，并适用于任何支持OpenSCENARIO格式的软件。通过利用OpenSCENARIO格式现有的简单场景，该工具使开发者能够通过组合多个简单或模块化场景，来创建易于定制的模块化场景，从而在保持场景设计灵活性的同时，极大简化了场景创建过程。这种方法不仅推动了复杂场景的开发，减少了开发时间和精力投入，还促进了场景的重复使用与定制化，从而相较于传统场景开发方法，显著降低了代码复杂度，提升了场景设计与测试的效率。"
+  },
+  {
+    "date": "2026-6-9",
+    "title": "Zorya: Automated Concolic Execution of Single-Threaded Go Binaries",
+    "authors": "Karolina Gorna, Nicolas Iooss, Yannick Seurin, Rida Khatoun",
+    "publish": "Proceedings of the 41st ACM/SIGAPP Symposium on Applied Computing",
+    "url": "https://doi.org/10.1145/3748522.3779940",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Zorya：单线程 Go 二进制文件的自动化混合执行",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-9",
+    "title": "Earliest Failure Localization in Pipelines Via Quantum Search",
+    "authors": "Alexander Fisher, Christophe Bobda",
+    "publish": "2026 IEEE 19th Dallas Circuits and Systems Conference (DCAS)",
+    "url": "https://doi.org/10.1109/dcas69364.2026.11544612",
+    "source": "IEEE",
+    "abstract": "Debugging pipelined RTL designs is often delayed by weak localization: a failure may be observed late in a trace even when the first illegal condition occurs earlier and is later masked or overwritten. We formulate earliest-stage localization as a predicate search problem over a fixed environment model. Stage-scoped Boolean (and bounded-temporal) rules induce perstage violation predicates and an earliest-stage predicate that accepts an assignment only when a stage violates and no earlier stage violates, yielding disjoint attribution by construction. We show how to realize this predicate as a reversible compute-phase-uncompute oracle, and we cast oracle synthesis as a time-space optimization problem on the predicate's Boolean directed acyclic graph under a hard workspace budget. Our main contribution is a budgeted active-volume compilation pass that emits legal compute/uncompute schedules with peak live intermediates bounded by an ancilla budget, while minimizing a recomputation-aware unit-cost proxy. A grounded case study on an exported 41-node predicate graph demonstrates the induced workspace-recomputation tradeoff and separates exact versus heuristic scheduling behavior in the tight-budget regime.",
+    "title_zh": "通过量子搜索实现流水线中的最早失效定位",
+    "abstract_zh": "调试流水线化RTL设计时，常因定位能力弱而延误：即使最早的非法状态早已出现且随后被掩盖或改写，故障仍可能在执行轨迹的后期才被观测到。我们将最早阶段定位形式化为固定环境模型上的谓词搜索问题。按阶段界定作用域的布尔（及有界时序）规则可导出逐阶段违规谓词，以及一个最早阶段谓词——该谓词仅在某一阶段违规且无更早阶段违规时才接受赋值，由此在构造上实现了不相交的归因。我们展示了如何将该谓词实现为可逆的计算-去计算谕示，并将谕示综合建模为谓词布尔有向无环图上、受严格工作空间预算约束的时间-空间优化问题。我们的主要贡献是一个受预算约束的有效容积编译遍，它能在辅助量子比特预算限制峰值活跃中间变量数量的条件下，生成合法的计算/去计算调度，同时最小化考虑重计算的单位成本代理指标。基于一个导出的41节点谓词图的实证案例研究，揭示了由此引发的工作空间与重计算之间的折衷，并区分了紧预算条件下精确调度与启发式调度的行为差异。"
+  },
+  {
+    "date": "2026-6-9",
+    "title": "Hardware Implementation and Verification of Early Image Signal Processing Stages Using OpenISP",
+    "authors": "Muhammad Furqan, Karsen Price, Muhammad Awais Bin Altaf",
+    "publish": "2026 IEEE 19th Dallas Circuits and Systems Conference (DCAS)",
+    "url": "https://doi.org/10.1109/dcas69364.2026.11544821",
+    "source": "IEEE",
+    "abstract": "This work presents a hardware-efficient implementation of early Image Signal Processing (ISP) stages for portable devices, addressing strict area and power constraints. Four key modules, Dead Pixel Correction (DPC), Black Level Correction (BLC), Anti-Aliasing Filter (AAF), and White Balance Control (WBC), were implemented in synthesizable RTL and validated against the open-source OpenISP framework using 30 RAW images. The proposed design achieved over 99% pixel-wise accuracy, confirming functional equivalence with the software reference. These results establish a reproducible foundation for low-power ISP hardware targeting mobile, IoT, and edge-vision systems.",
+    "title_zh": "基于OpenISP的早期图像信号处理阶段的硬件实现与验证",
+    "abstract_zh": "这项工作提出了一种面向便携式设备的早期图像信号处理（ISP）阶段的硬件高效实现，以满足严格的面积和功耗限制。四个关键模块——坏点校正（DPC）、黑电平校正（BLC）、抗混叠滤波（AAF）和白平衡控制（WBC）——以可综合的RTL实现，并使用30张RAW图像对照开源的OpenISP框架进行了验证。所提出的设计实现了超过99%的逐像素精度，证实了与软件参考的功能等效性。这些结果为针对移动、物联网和边缘视觉系统的低功耗ISP硬件奠定了可复现的基础。"
+  }
+]
