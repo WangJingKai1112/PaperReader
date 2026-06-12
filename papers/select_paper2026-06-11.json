@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-06-11",
+    "title": "Entropic Generation of Binary Words",
+    "authors": "Olivier Bodini, Francis Durand",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.13157v1",
+    "source": "arXiv",
+    "abstract": "The uniform generation of k Hamming weight binary words, equivalent to sampling k-subsets from n elements, relies on random bits, which can be expensive. We introduce a novel paradigm, random bit recycling, and use it to generate such binary words in linear time while consuming as few random bits as possible. The resulting algorithm is nearly optimal in terms of random bit consumption, meaning that it closely matches the Shannon entropic lower bound coming from information theory.",
+    "title_zh": "二进制词的熵生成",
+    "abstract_zh": "均匀生成具有k汉明重量的二进制字，等价于从n个元素中采样k子集，依赖于随机比特，而这可能代价高昂。我们提出了一种新颖的范式——随机比特回收，并利用它在线性时间内生成这类二进制字，同时消耗尽可能少的随机比特。所得算法在随机比特消耗上近乎最优，即它紧密逼近源自信息论的香农熵下界。"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "DIG: Oracle-Guided Directed Input Generation for One-Day Vulnerabilities",
+    "authors": "Andrew Bao, Haochen Zeng, Peng Chen, Stephen McCamant, Pen-Chung Yew",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.13037v1",
+    "source": "arXiv",
+    "abstract": "One-day vulnerabilities pose significant risks due to delayed or incomplete patch adoption. Generating proof-of-concept (PoC) inputs is therefore essential for assessing real-world impact. The key challenge is identifying necessary constraints for triggering the vulnerability and solving them effectively. Existing directed fuzzing approaches prioritize inputs toward target locations, but neither explicitly identify necessary constraints nor solve them effectively, relying instead on target-distance feedback and random mutation. Agentic approaches show strong potential through code reasoning and structured input generation, but goal drift in long-horizon reasoning limits their effectiveness. DIG addresses this challenge by exploiting a key property of one-day vulnerabilities: patches often reveal necessary preconditions for triggering. DIG uses an LLM to analyze the patch and synthesize an oracle making these conditions explicit. The oracle supports effective PoC generation at two levels. At the high level, DIG performs oracle-guided generator evolution, where an agent infers and solves constraints to satisfy the oracle. At the low level, DIG instruments the oracle into the target program and uses branch-distance feedback to guide random mutation in directed fuzzing. Evaluation shows DIG outperforms 2 state-of-the-art agents and 10 fuzzers across 138 real-world CVEs. DIG triggers 80 vulnerabilities, surpassing prior results and outperforming the best baseline by 40% (57 vs. 80 CVEs). Notably, DIG exclusively triggers 9 vulnerabilities no existing technique can trigger. Compared to the average of other tools, DIG triggers vulnerabilities faster in 92.9% of cases, achieving over 100x speedup in 48.8% of cases, with a maximum speedup of 3,664x. Beyond one-day PoC generation, DIG uncovers 6 previously unknown vulnerabilities in widely deployed libraries, enabling zero-day discovery.",
+    "title_zh": "DIG：面向单日漏洞的预言引导定向输入生成",
+    "abstract_zh": "由于补丁采用延迟或不完整，一日漏洞带来了显著风险。因此，生成概念验证（PoC）输入对于评估实际影响至关重要。关键挑战在于识别触发漏洞所需的约束条件并有效求解。现有的定向模糊测试方法虽能将输入导向目标位置，但既未明确识别必要约束，也无法有效求解，而是依赖目标距离反馈和随机变异。基于智能体的方法通过代码推理和结构化输入生成展现出强大潜力，但长期推理中的目标漂移限制了其有效性。DIG通过利用一日漏洞的一个关键特性来应对这一挑战：补丁通常会揭示触发漏洞所需的先决条件。DIG使用大语言模型分析补丁并合成一个预言机，显式化这些条件。该预言机在两个层面支持有效的PoC生成。在高层，DIG执行预言机引导的生成器进化，智能体推断并求解约束以满足预言机。在低层，DIG将预言机植入目标程序，并使用分支距离反馈来引导定向模糊测试中的随机变异。评估表明，在138个真实CVE上，DIG优于2个最先进的智能体和10个模糊测试器。DIG触发了80个漏洞，超越了先前结果，比最佳基线提升了40%（57对80个CVE）。值得注意的是，DIG独家触发了9个现有技术无法触发的漏洞。与其他工具的平均表现相比，DIG在92.9%的案例中触发漏洞更快，在48.8%的案例中实现超过100倍的加速，最大加速达3,664倍。除了一日漏洞PoC生成外，DIG还在广泛部署的库中发现了6个此前未知的漏洞，实现了零日漏洞发现。"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "Structured Testbench Generation for LLM-Driven HDL Design and Verification-Oriented Data Curation",
+    "authors": "En-Ming Huang, Yu-Hung Kao, Ren-Hao Deng, Wei-Po Hsin, Yao-Ting Hsieh, Cheng Liang, Hsiang-Yu Tsou, Mu-Chi Chen, Yu-Kai Hung, Shao-Chun Ho, Po-Hsuang Huang, Shih-Hao Hung, H. T. Kung",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.12983v1",
+    "source": "arXiv",
+    "abstract": "Automated testbench generation has become a critical bottleneck in large language model (LLM)-driven Register Transfer Level (RTL) workflows, where large numbers of candidate designs must be verified rapidly and reliably. Existing prompt-based approaches treat testbench generation as unconstrained code synthesis, yielding stochastic outputs with high token cost, low reproducibility, and insufficient coverage. To address this gap, we present STG, a Structured Testbench Generation framework that exploits the inherent structure of hardware designs to generate deterministic testbenches. As a direct verification tool, STG runs 720x faster than an iterative LLM-based testbench generation flow and higher rate of successful compilation, achieves higher coverage, and reduces false-pass verdicts on incorrect DUTs. STG also helps identify errors in RTL generation benchmarks by exposing faulty benchmark testbenches. As a data curation engine, it is 11x faster than LLM-based filtering on a single CPU core with 127x less energy, and the resulting distilled models provide state-of-the-art performance in our multi-benchmark evaluation. As a test-time scaling oracle, it reduces node count by 14-47\\%. Our models are available at https://huggingface.co/collections/AS-SiliconMind/siliconmind-v12.",
+    "title_zh": "面向LLM驱动的HDL设计及验证导向数据管理的结构化测试平台生成",
+    "abstract_zh": "自动化测试平台生成已成为大语言模型（LLM）驱动的寄存器传输级（RTL）工作流中的关键瓶颈，该流程需要快速且可靠地验证大量候选设计。现有的基于提示的方法将测试平台生成视为无约束的代码合成，产生的输出随机、令牌成本高、可复现性低且覆盖率不足。为弥补这一差距，我们提出STG，一种结构化测试平台生成框架，它利用硬件设计的固有结构生成确定性测试平台。作为直接验证工具，STG的运行速度比迭代式LLM测试平台生成流程快720倍，成功编译率更高，覆盖率更高，并减少了在错误DUT上的误通过判定。STG还通过暴露有缺陷的基准测试平台，帮助识别RTL生成基准中的错误。作为数据整理引擎，它在单个CPU核心上的速度比基于LLM的过滤快11倍，能耗降低127倍，生成的蒸馏模型在我们的多基准评估中提供了最先进的性能。作为测试时扩展预言器，STG将节点数量减少了14-47%。我们的模型已发布于 https://huggingface.co/collections/AS-SiliconMind/siliconmind-v12。"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "Beyond Problem Solving: UOJ-Bench for Evaluating Code Generation, Hacking, and Repair in Competitive Programming",
+    "authors": "Tingqiang Xu, Hangrui Zhou, Tianle Cai, Alex Gu, Kaifeng Lyu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.12864v1",
+    "source": "arXiv",
+    "abstract": "Despite strong performance in competitive programming, the role of Large Language Models (LLMs) in supporting human learning in the same setting remains largely unexplored. In this work, we introduce UOJ-Bench, a benchmark designed to evaluate not only the problem-solving ability of LLMs, but also their ability to identify errors in human-written code -- a crucial educational activity traditionally supported by running test cases over online judge systems. UOJ-Bench consists of three distinct tasks: code generation, code hacking, and code repair, all constructed from real-world code submissions on the Universal Online Judge (UOJ) and evaluated through UOJ's native judging infrastructure. Our results show that under one-shot evaluation, even the strongest models fail to identify errors in more than 50% of a set of submissions that have been found to be incorrect by UOJ users. While test-time scaling improves success rates to above 90%, the substantial computational costs incurred from model inference limit its practicality for large-scale deployment. Despite these limitations, we find that the best-performing models under test-time scaling can uncover errors in over 5% of full-score submissions across roughly 30 problems, suggesting that frontier LLMs can already provide complementary signals beyond standard judging systems.",
+    "title_zh": "超越解题：用于评估竞赛编程中代码生成、Hack与修复的UOJ-Bench",
+    "abstract_zh": "尽管大型语言模型在竞技编程中表现强劲，但它们在相同环境下支持人类学习的作用仍未被充分探索。本研究提出UOJ-Bench基准测试，不仅评估LLM的代码生成能力，更着重考察其识别人类代码错误的能力——这项关键教育行为传统上需通过在线评测系统的测试用例运行来支持。UOJ-Bench包含三项任务：代码生成、代码破解与代码修复，均基于Universal Online Judge平台真实提交的代码构建，并通过UOJ原生评测架构进行验证。实验表明，在单次评估模式下，即使最强大的模型也无法识别出超过50%被UOJ用户标记为错误的提交代码。尽管测试时扩展技术将成功率提升至90%以上，但模型推理产生的高昂计算成本限制了其大规模部署的可行性。值得注意的是，我们发现测试时扩展表现最优的模型能在约30道题目中，发现超过5%满分提交代码中的错误，这表明前沿LLM已能提供超越传统评测系统的补充性判断信号。"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "Specifying Hardware Communication as Programs",
+    "authors": "Ernest Ng, Nikil Shyamsunder, Francis Pham, Adrian Sampson, Kevin Laeufer",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.13659v1",
+    "source": "arXiv",
+    "abstract": "To test and debug hardware modules, it is common to write two programs: a driver, which translates high-level transactions into interactions on the module's input and output signals, and a monitor, which analyzes a signal-level execution trace and recognizes a transaction. These two programs are commonly implemented separately for each hardware protocol, but this separation entails manual effort and risks inconsistencies. We advocate an alternative approach. We present a DSL in which users specify hardware communication protocols as succinct imperative programs. Crucially, the same specification can be used to both drive designs and monitor transactions. We present the design of a tool, which given a specification in our DSL and a waveform, automatically infers a transaction-level trace consistent with the waveform. We discuss plans to evaluate our DSL on real-world interconnects such as Wishbone and AXI-Stream.",
+    "title_zh": "将硬件通信指定为程序",
+    "abstract_zh": "为了测试和调试硬件模块，通常需要编写两种程序：驱动程序，它将高层事务转换为模块输入输出信号上的交互；以及监视程序，它对信号级执行轨迹进行分析并识别事务。这两种程序通常针对每种硬件协议分别实现，但这种分离需要手动工作且容易导致不一致。我们提倡一种替代方案。我们提出了一种领域特定语言（DSL），用户可以用简洁的命令式程序来指定硬件通信协议。关键的是，同一套规范可同时用于驱动设计以及监视事务。我们介绍了一个工具的设计：给定一个用我们DSL编写的规范和一个波形，该工具可自动推断出与波形一致的事务级轨迹。我们还讨论了在Wishbone和AXI-Stream等实际互连标准上评估该DSL的计划。"
+  },
+  {
+    "date": "2026-6-11",
+    "title": "Proceedings of the 15th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3814987",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "第十五届 ACM SIGPLAN 程序分析前沿技术国际研讨会论文集",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-11",
+    "title": "On the Effectiveness of Modular Testing in EvoSuite",
+    "authors": "Elizabeth Dinella",
+    "publish": "Proceedings of the 15th ACM SIGPLAN International Workshop on the State Of the Art in Program Analysis",
+    "url": "https://doi.org/10.1145/3814987.3814989",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "论EvoSuite中模块化测试的有效性",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-11",
+    "title": "SONIC: Event-Driven Gate-Level Simulator of Ternary VLSI Circuits using Delta Cycles",
+    "authors": "Steven Bos, Sondre Bitubekk, Ole Christian Moholth, Henning Gundersen",
+    "publish": "2026 IEEE 56th International Symposium on Multiple-Valued Logic (ISMVL)",
+    "url": "https://doi.org/10.1109/ismvl68998.2026.00042",
+    "source": "IEEE",
+    "abstract": "The simulation of ternary and mixed-radix very large scale integration (VLSI) circuits has largely been unaddressed in multiple-valued logic (MVL) literature. In this work we present SONIC; a zero-delay, event-driven gate-level simulator that iterates delta cycles to quiescence per stimulus. This novel and open source MVL electronic design automation (EDA) tool enables for the first time simulation of ternary integrated circuits (SONIC) with VLSI designs (eg. 10.000+ switching devices). It can automate post-synthesis verification of our REBEL-2 ternary CPU and comes with a REBEL-2 assembler to program it. We report that SONIC drastically improves the simulation speed of our Mixed Radix Circuit Synthesizer (MRCS) by 5-6 orders of magnitude (120.000x - 1.6Mx) on various benchmark circuits. The C#/.Net8 simulator features design rule checks (DRC), a benchmark suite, binary coded ternary (BCT) Verilog export to test on FPGA’ss or tape-out as ASIC, a database and a command line interface (CLI) for integration in other EDA tooling.",
+    "title_zh": "SONIC：基于Delta周期的事件驱动三值VLSI电路门级模拟器",
+    "abstract_zh": "三元及混合基数超大规模集成（VLSI）电路的仿真在多值逻辑（MVL）文献中很大程度上未曾涉及。本文我们提出SONIC；一种零延迟、事件驱动的门级仿真器，每次激励均通过迭代δ周期直至静态。这一新颖且开源的多值逻辑电子设计自动化（EDA）工具，首次实现了对具有VLSI规模设计（如10 000个以上开关器件）的三值集成电路的仿真（SONIC）。它能自动化完成我们REBEL‑2三进制CPU的综合后验证，并配套一个REBEL‑2汇编器用于编程。我们在多种基准电路上报告，SONIC将我们的混合基数电路综合器（MRCS）的仿真速度大幅提升了5至6个数量级（120 000倍至160万倍）。该C#/.NET8仿真器具备设计规则检查（DRC）、一套基准测试套件、二进制编码三值（BCT）Verilog导出（用于在FPGA上测试或作为ASIC流片），以及数据库和命令行接口（CLI），便于集成到其他EDA工具链中。"
+  },
+  {
+    "date": "2026-6-11",
+    "title": "Learn to Generate Complementary March Tests",
+    "authors": "Ruiqi Zhu, Houjun Wang, Chongtao Guo, Yindong Xiao, Zhijian Dai, Rui Wu, Wanyu Yang, Geoffrey Ye Li",
+    "publish": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "url": "https://doi.org/10.1109/tvlsi.2026.3699930",
+    "source": "IEEE",
+    "abstract": "March tests require balancing fault coverage (FC) and test length in embedded memory testing. This brief proposes a novel reinforcement-learning (RL)-based framework that learns optimal March tests by exploiting undetected fault statistics. First, we analyze March tests using a scalable state-tuple-based fault analyzer. Then, we formulate March test generation as a problem to maximize expected FC (EFC) under budget limits. By modeling this as a Markov decision process (MDP), we leverage deep Q-learning to find the optimal operation sequences in March tests, with rewards derived from the proposed fault analyzer. Experimental results demonstrate that our framework generates complementary March tests achieving complete residual FC across a broader range of fault models than the existing methods, with generation efficiency significantly improved through fault analysis completing in milliseconds.",
+    "title_zh": "学习生成互补的March测试",
+    "abstract_zh": "March测试需要在嵌入式存储器测试中平衡故障覆盖率（FC）和测试长度。本文提出了一种新型强化学习框架，该框架通过挖掘未检测故障的统计特性来学习最优March测试。首先，我们采用基于状态元组的可扩展故障分析器解析March测试。随后，将March测试生成问题转化为在预算限制下最大化预期故障覆盖率的问题。通过将其建模为马尔可夫决策过程，我们利用深度Q学习方法在March测试中寻找最优操作序列，其奖励值由所提出的故障分析器提供。实验结果表明，相较于现有方法，本框架生成的补充型March测试能在更广泛的故障模型上实现完整的残余故障覆盖率，同时故障分析耗时仅需毫秒级，显著提升了生成效率。"
+  }
+]
