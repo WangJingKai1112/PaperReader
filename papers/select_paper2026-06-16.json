@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-6-16",
+    "title": "DiCriTest: Testing Scenario Generation for Decision-Making Agents Considering Diversity and Criticality",
+    "authors": "Qitong Chu, Yufeng Yue, Danya Yao, Huaxin Pei",
+    "publish": "IEEE Transactions on Automation Science and Engineering",
+    "url": "https://doi.org/10.1109/tase.2026.3703964",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "DiCriTest：考虑多样性与关键性的决策智能体测试场景生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-16",
+    "title": "A POP\n                    <sup>⋆</sup>\n                    is Born: Formal Predictable Out-of-Order Processor Model",
+    "authors": "Lilia Rouizi, Mihail Asavoae, Benjamin Binder, Engin Ermiş, Lionel Rieg, Florian Brandner",
+    "publish": "2026 IEEE 32nd Real-Time and Embedded Technology and Applications Symposium (RTAS)",
+    "url": "https://doi.org/10.1109/rtas68450.2026.00023",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一个 POP<sup>⋆</sup> 诞生了：形式化的可预测乱序处理器模型",
+    "abstract_zh": "None"
+  }
+]
