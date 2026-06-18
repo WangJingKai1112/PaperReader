@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-06-17",
+    "title": "Code-Augur: Agentic Vulnerability Detection via Specification Inference",
+    "authors": "Zhengxiong Luo, Mehtab Zafar, Dylan Wolff, Abhik Roychoudhury",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.18619v1",
+    "source": "arXiv",
+    "abstract": "The advent of agentic vulnerability detection is already becoming a watershed moment for software security. Audits conducted entirely by autonomous LLM agents are uncovering critical vulnerabilities in fundamental software underpinning digital society. Many of these vulnerabilities remained masked for years, surfacing only now with AI agents. Yet the reasoning behind these discoveries remains alarmingly opaque and unvalidated. What assumptions did the agent make about a function's inputs when it deemed that function to be secure? Failures in reasoning and incorrect assumptions can lead to missed vulnerabilities and reduce trust in agentic analysis. We propose a security-specification-first paradigm that (1) exposes the agent's tacit assumptions explicitly as security specifications and (2) continuously refines those specifications via runtime falsification. We realize our approach in Code-Augur, a novel harness for agentic vulnerability detection. Given a codebase, Code-Augur analyzes each component of the system for vulnerable code. When it deems a component to be secure, it commits the local invariants behind that judgment as in-source assertions. In parallel, Code-Augur leverages a guided fuzzer to attempt to falsify those assumptions. When the fuzzer triggers an assertion, this either reveals a genuine vulnerability or a flawed specification to refine. In both cases, this process grounds the agent's understanding, aligning its view of code intent with how the code actually behaves. On real-world subjects, Code-Augur effectively leverages security specifications to detect more vulnerabilities than other state-of-the-art agents. Additionally, Code-Augur found 22 new vulnerabilities in key open-source projects. Compared to curated specialized models like Claude Mythos, Code-Augur offers effective agentic vulnerability detection built on widely available LLMs like Sonnet and DeepSeek.",
+    "title_zh": "Code-Augur: 基于规范推理的智能体漏洞检测",
+    "abstract_zh": "自主智能体漏洞检测的出现，已然成为软件安全领域的一个分水岭时刻。完全由自主大语言模型智能体执行的审计，正在支撑数字社会的基础软件中发现关键漏洞。这些漏洞中有许多已隐匿多年，直到如今才被AI智能体一一揭露。然而，这些发现背后的推理过程依然令人不安地不透明且未经验证。当智能体断定某个函数安全时，它对函数的输入做出了哪些假设？推理失误与错误假设可能导致漏洞被遗漏，并降低人们对自主智能体分析的信任。我们提出了安全规范优先的范式，它（1）将智能体的隐含假设显式地暴露为安全规范，并（2）通过运行时证伪不断精炼这些规范。我们在Code-Augur中实现了这一方法——这是一个面向自主智能体漏洞检测的新型工具链。给定一个代码库，Code-Augur会分析系统中的每个组件以寻找易受攻击的代码。当它认定某个组件安全时，它会把支撑这一判断的局部不变式以源代码断言的形式提交。与此同时，Code-Augur利用引导式模糊测试器尝试证伪这些假设。当模糊测试器触发一个断言时，要么揭示出一个真正的漏洞，要么暴露出一个有缺陷的规范需要修正。无论哪种情况，这个过程都夯实了智能体的理解，使其对代码意图的认知与代码的实际行为保持一致。在真实世界项目中，Code-Augur有效利用安全规范，检测出的漏洞数量超过了其他最先进的智能体。此外，Code-Augur在关键开源项目中发现了22个新漏洞。与Claude Mythos这类专门调校的模型相比，Code-Augur基于广泛可用的LLM（如Sonnet和DeepSeek），提供了有效的自主智能体漏洞检测能力。"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "OpenAnt: LLM-Powered Vulnerability Discovery Through Code Decomposition, Adversarial Verification, and Dynamic Testing",
+    "authors": "Nahum Korda, Gadi Evron",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.19149v1",
+    "source": "arXiv",
+    "abstract": "Automated vulnerability discovery in large codebases remains challenging: traditional static analysis produces high false-positive rates, while dynamic approaches such as fuzzing require substantial infrastructure and often target narrow classes of bugs. Recent advances in large language models (LLMs) enable semantic reasoning about program behavior, but applying LLMs to repository-scale security analysis introduces challenges related to context management, cost, and verification. We present OpenAnt, an open-source vulnerability discovery system that integrates static program analysis with LLM-based reasoning in a multi-stage pipeline. OpenAnt introduces three key techniques. First, codebases are decomposed into self-contained analysis units filtered by reachability from external entry points, reducing the analysis surface by up to 97% while preserving attack-relevant code. Second, candidate vulnerabilities undergo adversarial verification through constrained attacker simulation, where the model evaluates exploitability under realistic attacker capabilities. Third, findings are validated through dynamic verification, in which exploit environments are generated automatically, executed in sandboxed containers, and discarded after use. Evaluation on widely used open-source projects including OpenSSL, WordPress, and Flowise shows that this architecture can identify previously unknown vulnerabilities while maintaining manageable analysis cost and substantially reducing false positives. Our results suggest that closed-loop vulnerability discovery pipelines, combining semantic reasoning with exploit validation, provide a practical path toward scalable automated security analysis. OpenAnt is released as open source under the Apache 2.0 license at https://github.com/knostic/OpenAnt.",
+    "title_zh": "OpenAnt：基于大语言模型的漏洞发现——代码分解、对抗性验证与动态测试",
+    "abstract_zh": "在大型代码库中实现自动化漏洞发现仍然充满挑战：传统的静态分析会产生较高的误报率，而诸如模糊测试之类的动态方法则需要大量的基础设施，且通常只针对窄类漏洞。大语言模型（LLMs）的最新进展使得对程序行为进行语义推理成为可能，但将LLMs应用于存储库级别的安全分析时，会引入与上下文管理、成本和验证相关的挑战。我们提出OpenAnt，这是一个开源漏洞发现系统，它通过多阶段流水线将静态程序分析与基于LLM的推理相结合。OpenAnt引入了三项关键技术。首先，将代码库分解为独立的分析单元，并通过从外部入口点的可达性进行筛选，从而在保留攻击相关代码的同时，将分析面减少高达97%。其次，候选漏洞通过约束性攻击者模拟进行对抗性验证，模型在此过程中评估在现实攻击者能力下的可利用性。第三，通过动态验证对发现结果进行验证，其中攻击环境会自动生成，在沙盒容器中执行，并在使用后丢弃。对包括OpenSSL、WordPress和Flowise在内的广泛使用的开源项目的评估表明，这种架构可以识别出此前未知的漏洞，同时保持可管理的分析成本并大幅减少误报。我们的结果表明，结合语义推理与漏洞利用验证的闭环漏洞发现流水线，为大规模自动化安全分析提供了一条切实可行的路径。OpenAnt以Apache 2.0许可证在https://github.com/knostic/OpenAnt上开源发布。"
+  },
+  {
+    "date": "2026-6-17",
+    "title": "Type-Aware Heterogeneous Graph Network for Circuit Link Prediction",
+    "authors": "Meilin Li, Hui Li, Wenjun Tang, Qian Ma, Feng Min, Rubing Huang, He Jiang, Shikai Guo",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3821441",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向电路链路预测的类型感知异构图网络",
+    "abstract_zh": "无"
+  }
+]
