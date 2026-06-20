@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-6-19",
+    "title": "Retrieval-Augmented Unit Test Suggestion Generation",
+    "authors": "Hongyan Li, Weifeng Sun, Meng Yan",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3821423",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "检索增强的单元测试建议生成",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-19",
+    "title": "FedLLM4HW: Carbon-Aware Federated Triage of Hardware Weaknesses in LLM-Generated Verilog Code",
+    "authors": "Parsa Mirfasihi, Arthur Kim, Hariharan Ramesh, Josh Dean, Melika Akbarsharifi, Roxana Akbarsharifi, John Martin Encinas, Pratik Satam, Jyotikrishna Dass, Rozhin Yasaei, Soheil Salehi",
+    "publish": "Proceedings of the 16th ACM International Green and Sustainable Computing Conference",
+    "url": "https://doi.org/10.1145/3797248.3816055",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "FedLLM4HW: 大语言模型生成Verilog代码中硬件漏洞的碳感知联邦分诊",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-19",
+    "title": "You Don’t Know Jack About Formal Verification",
+    "authors": "Fernanda Graciolli, Nada Amin",
+    "publish": "Queue",
+    "url": "https://doi.org/10.1145/3819084",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "你对形式验证一窍不通",
+    "abstract_zh": "没有"
+  },
+  {
+    "date": "2026-6-20",
+    "title": "Proposed ARTIC: An AI-Orchestrated Testbed for Empirical Hardware Resilience Evaluation of DER Devices",
+    "authors": "Xavier Tidus Hutchinson",
+    "publish": "Proceedings of the 2026 ACM Sustainability Week",
+    "url": "https://doi.org/10.1145/3765611.3815148",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "提出的ARTIC：面向分布式能源设备硬件韧性实证评估的AI编排测试平台",
+    "abstract_zh": "无"
+  }
+]
