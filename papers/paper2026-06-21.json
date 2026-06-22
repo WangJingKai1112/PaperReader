@@ -1,0 +1,29 @@
+[
+  {
+    "date": "2026-6-22",
+    "title": "Large-Scale UAV Swarm Coordination for Sensing and Communication: A Spatiotemporal Perspective",
+    "authors": "Jirong Zha, Jiyuan Ren, Yuhan Cheng, Shiquan Yu, Geng Chen, Zuxin Li, Yanggang Xu, Zijian Xiao, Fan Dang, Yuqing Tang, Wei Ma, Guan Wang, Susu Xu, Xinlei Chen",
+    "publish": "ACM Computing Surveys",
+    "url": "https://doi.org/10.1145/3817444",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-22",
+    "title": "Named Entity Recognition in Arabic Mental Health Using Large Language Models",
+    "authors": "Abeer Alfaifi, Hassan Alhuzali, Ashwag Alasmari",
+    "publish": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "url": "https://doi.org/10.1145/3811876",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-22",
+    "title": "Enhancing Arabic Offensive Tweet Classification Using an Ensemble Approach of AraBERT, Neural Networks, and LSTM Models",
+    "authors": "Ahlam Wahdan, Mostafa Al-Emran, Khaled Shaalan",
+    "publish": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "url": "https://doi.org/10.1145/3769298",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]
