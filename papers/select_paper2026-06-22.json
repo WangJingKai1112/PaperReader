@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-06-22",
+    "title": "An Open-Source LFSR-Based Stochastic Leaky Integrate-and-Fire Neuron in SkyWater 130 nm: Design, Stochastic Characterisation, and Rate Coding",
+    "authors": "Poornima Kumaresan, Santhosh Sivasubramani",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.23532v1",
+    "source": "arXiv",
+    "abstract": "Stochastic spiking neurons trade exact arithmetic for controlled randomness, lowering area and tolerating input noise, which suits event-driven edge hardware. We present a compact, configurable stochastic leaky integrate-and-fire neuron in standard-cell CMOS on the SkyWater 130 nm process, released openly. A 16-bit configurable-polynomial linear-feedback shift register drives an eight-entry programmable activation table that sets a Bernoulli firing probability, and a saturating 16-bit leaky integrator with a programmable threshold and a refractory period of zero to seven cycles produces the spike train. All parameters are set through a sixteen-register serial interface, and the neuron runs from parallel inputs or entirely from the register file. From a model checked bit-exact against the register-transfer code, the period is 65535 states for a maximal-length polynomial and 63 for the shipped default, the eight-bit comparison value is uniform over the full period, and the per-entry firing probability equals the table value divided by 256. We also characterise a property a system-level model would not expose: the comparator output is serially correlated at short lags, with a negative lobe near lag eight, because the compared byte shifts by one bit each cycle; subsampling every sixteen cycles restores whiteness. Rate-coding sweeps show monotonic control of the output rate by the input weight and the threshold, and the refractory period caps the rate at one spike per refractory-plus-one cycles. The neuron occupies about 10,600 square micrometres at 70 per cent utilisation on a single Tiny Tapeout tile, meets 50 MHz timing with positive margin, and passes eighteen directed cocotb tests at register-transfer and gate level. All results are pre-silicon, from simulation and the open flow. The neuron is an openly released companion to a four-block neuromorphic suite reported separately.",
+    "title_zh": "基于 SkyWater 130 nm 工艺的开源 LFSR 随机泄漏积分-发放神经元：设计、随机特性表征与速率编码",
+    "abstract_zh": "随机脉冲神经元以精确运算换取受控随机性，从而降低面积并容忍输入噪声，适合事件驱动的边缘硬件。我们给出一种紧凑、可配置的随机漏积分发放神经元，基于 SkyWater 130 nm 标准单元 CMOS 工艺实现，并已公开发布。一个 16 位可配置多项式线性反馈移位寄存器驱动 8 项的程控激活表，用以设定伯努利发放概率；一个带饱和特性的 16 位漏积分器配有可编程阈值，以及 0 到 7 个时钟周期的不可期，由此产生脉冲序列。所有参数均通过 16 寄存器串行接口设置，神经元可由并行输入驱动，也可完全由寄存器文件运行。与寄存器传输级代码逐位精确校验的模型显示：采用最大长度多项式时周期为 65535 个状态，出厂默认多项式则为 63；8 位比较值在整个周期内均匀分布；每一项的发放概率等于查表值除以 256。我们还刻画了一个系统级模型难以揭示的特性：比较器输出在短滞后上表现出序列相关，并在滞后大约 8 时出现一个负峰——这是因为被比较的字节每周期移位 1 位；若每 16 个周期进行一次子采样，则可恢复白噪声特性。率编码扫描表明，输入权重和阈值能单调控制输出发放率，而不应期则将发放率锁定为每（不应期+1）个周期最多 1 个脉冲。在单个 Tiny Tapeout 瓦片上，利用率为 70% 时，该神经元面积约为 10600 平方微米；满足 50 MHz 时序要求且留有正裕量；并在寄存器传输级和门级均通过了十八项定向 cocotb 测试。所有结果均属硅前阶段，来自仿真及开源流程。该神经元作为另行报告的“四模块神经形态套件”的配套设计，一同公开发布。"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "A Set-Theoretic Approach to Detecting Logic Bugs in DBMS Inner Join Optimizations",
+    "authors": "Ce Lyu, Changzheng Wei, Yanhao Wang, Jie Liang, Li Lin, Hanghang Wu, Minghao Zhao, Ying Yan, Aoying Zho",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.23294v1",
+    "source": "arXiv",
+    "abstract": "The query optimizer is a fundamental component of database management systems that determines the most efficient execution strategy for a given query by evaluating alternative query plans. Among its tasks, join optimization plays a central role, as the order of joins in multi-table queries can significantly affect execution performance. However, due to the inherent complexity of join optimization, logical bugs are inevitable and often difficult to detect. While existing fuzzing tools have shown notable success in uncovering crash- and performance-related errors, effectively identifying logical bugs -- cases in which the system produces incorrect query results -- remains largely unresolved. In this paper, we propose a metamorphic testing approach to detect DBMS bugs related to INNER JOIN optimization through the lens of set theory. For each testing case, equivalent queries are generated based on a basic set operation -- intersection -- and three semantics-preserving transformation rules, i.e., symmetric join transformation, asymmetric difference transformation, and symmetric difference transformation, are introduced. These rules rewrite a simple NATURAL/INNER JOIN query into a more complex, yet semantically equivalent, form. We implement this design in JoinEquiv, which serves as a testing oracle to systematically uncover logical inconsistencies in DBMS query processing by comparing the results of original and transformed queries. Using JoinEquiv, we uncovered 29 previously unknown issues in mainstream DBMSs (MySQL, TiDB, DuckDB, and Percona), and 27 of them were officially confirmed. JoinEquiv reveals deep logical flaws in DBMS optimizers and executors, underscoring its value in enhancing DBMS robustness.",
+    "title_zh": "一种基于集合论的检测数据库管理系统内连接优化逻辑错误的方法",
+    "abstract_zh": "查询优化器是数据库管理系统中的基础组件，它通过评估不同的查询计划，为给定查询确定最高效的执行策略。在优化器的各项任务中，连接优化占据核心地位，因为在多表查询中，连接顺序会严重影响执行性能。然而，由于连接优化本身固有的复杂性，逻辑错误难以避免且通常不易察觉。现有的模糊测试工具虽然在发现崩溃及性能相关错误方面取得显著成效，但有效识别逻辑错误——即系统产生错误查询结果的情况——在很大程度上仍未解决。本文中，我们提出一种基于集合论的蜕变测试方法，用于检测与内连接优化相关的数据库管理系统缺陷。在每个测试用例中，我们基于基本集合操作——交集——生成等价查询，并引入三种语义保持的变换规则：对称连接变换、非对称差变换和对称差变换。这些规则将简单的自然连接/内连接查询改写为更复杂却在语义上等价的形式。我们将这一设计实现为JoinEquiv，它作为测试预言，通过比较原始查询与变换后查询的结果，系统地揭示数据库管理系统查询处理中的逻辑不一致性。使用JoinEquiv，我们在主流数据库管理系统（MySQL、TiDB、DuckDB 和 Percona）中发现了 29 个此前未知的问题，其中 27 个已得到官方确认。JoinEquiv 暴露了数据库优化器和执行器深处的逻辑缺陷，彰显了其增强数据库管理系统健壮性的价值。"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "Capable but Careless: Do Computer-Use Agents Follow Contextual Integrity?",
+    "authors": "Anmol Goel, Iryna Gurevych",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.23189v1",
+    "source": "arXiv",
+    "abstract": "Computer-use agents (CUAs) now act on a user's behalf across personal applications such as email, calendars, and to-do lists. This cross-application access is useful, but it also creates a privacy risk that has been largely overlooked: when an agent works in one context, it can pull in information from another that is inappropriate in that context. Hence, we introduce AgentCIBench, an evaluation harness that turns this risk into executable, deterministically scored scenarios. We target three common failure modes in CUAs: visual co-location, where the agent pulls in prohibited items that sit next to the task target in the UI; task-ambiguity overshare, where the agent dumps dense personal state in response to an under-specified prompt; and recipient misalignment, where the agent sends content to an addressee for whom it is inappropriate. We evaluate 15 frontier agents and find a surprisingly high failure rate: 11 of 15 leak on more than 50% of scenarios, with an average leakage of 67.9%, and the same failures persist when agents act end-to-end in the environment to complete the task. We release AgentCIBench to encourage the development of safer computer-use agents and position contextual disclosure testing as a pre-deployment safety check.",
+    "title_zh": "能干却粗心：计算机使用代理会遵循语境完整性吗？",
+    "abstract_zh": "计算机使用代理（CUA）现在可以代表用户操作各种个人应用，如电子邮件、日历和待办事项列表。这种跨应用访问虽然有用，但也带来了一个在很大程度上被忽视的隐私风险：当代理在一个上下文中工作时，它可能从另一个上下文中引入不适宜的信息。因此，我们推出了 AgentCIBench，这是一个评估框架，将这种风险转化为可执行、可确定性评分的场景。我们针对 CUA 中的三种常见失败模式：视觉共位，即代理从用户界面中任务目标旁边引入了被禁止的内容；任务模糊性过度分享，即代理在响应不明确的提示时输出大量个人状态；以及接收者错配，即代理将内容发送给了不适合接收该内容的收件人。我们对 15 个前沿代理进行了评估，发现失败率高得出奇：在超过 50% 的场景中，15 个代理中有 11 个发生了泄露，平均泄露率为 67.9%，而且当代理在环境中端到端地执行任务时，同样的失败情况依然存在。我们发布了 AgentCIBench，以鼓励开发更安全的计算机使用代理，并将上下文披露测试定位为部署前的安全检查。"
+  },
+  {
+    "date": "2026-6-22",
+    "title": "Design and Implementation of an Efficient UVM-Based Verification Framework for a PCIe Endpoint Module",
+    "authors": "Shiyi Cao, Jincheng Li",
+    "publish": "2026 5th International Conference on Electronics, Integrated Circuits and Communication Technology (EICCT)",
+    "url": "https://doi.org/10.1109/eicct69950.2026.11564572",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于UVM的高效PCIe端点模块验证框架的设计与实现",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-22",
+    "title": "An Intelligent Detection System for Digital Chips Based on Embedded Logic Control",
+    "authors": "Jiaqi Shi, Fengming Zhang, Zhipeng Wang",
+    "publish": "2026 5th International Conference on Electronics, Integrated Circuits and Communication Technology (EICCT)",
+    "url": "https://doi.org/10.1109/eicct69950.2026.11564623",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于嵌入式逻辑控制的数字芯片智能检测系统",
+    "abstract_zh": "None"
+  }
+]
