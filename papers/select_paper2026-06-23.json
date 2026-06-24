@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-06-23",
+    "title": "Distributed Quality-Diversity Search for Toxicity in Large Language Models",
+    "authors": "Onkar Shelar, Travis Desell",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.24166v1",
+    "source": "arXiv",
+    "abstract": "Large Language Models remain vulnerable to adversarial prompts that elicit harmful responses, and scaling red-teaming to cover a broad range of failure modes is constrained by the cost of text generation and evaluation. We present \\emph{ToxSearch-S}, a speciated extension of toxicity-focused evolutionary prompt search with incremental, embedding-driven niche maintenance, together with an MPI master-worker realization that centralizes population and species bookkeeping on rank~0 while offloading prompt evolution and evaluation to $n_w$ parallel workers. Under a common budget, ToxSearch-S attains peak toxicity competitive with both ToxSearch and RainbowPlus while following a measurably less toxic best-so-far trajectory, indicating lower cumulative search pressure. Diversity is non-uni-dimensional: RainbowPlus yields greater embedding-level spread, whereas ToxSearch-S partitions high-toxicity prompts into more localized behavioral pockets, reflected by a higher DBSCAN cluster count. MPI distribution delivers substantial wall-clock gains, approximately $1.8\\times$ with two workers and $3.2\\times$ with four, while leaving Best@B statistically indistinguishable from sequential execution. Four-worker runs also produce significantly larger final species cardinality and more toxicity-bearing species, without a reliable gain in global peak toxicity. These results position incremental speciation as a practical quality-diversity mechanism for AI Safety and MPI as an effective means of compressing time-to-result while preserving measured search outcomes.",
+    "title_zh": "面向大语言模型毒性的分布式质量多样性搜索",
+    "abstract_zh": "大型语言模型仍然容易受到对抗性提示的攻击，从而产生有害响应，而通过大规模红队测试覆盖广泛的故障模式则受限于文本生成和评估的成本。我们提出 ToxSearch-S，这是一种以毒性为核心的进化式提示搜索的物种化扩展，通过增量式、嵌入驱动的生态位维护实现，并且采用 MPI 主-从架构，将种群和物种的簿记集中在 rank 0 上，同时将提示进化与评估任务卸载给 \\(n_w\\) 个并行工作进程。在相同预算下，ToxSearch-S 所能达到的峰值毒性与 ToxSearch 和 RainbowPlus 相当，但其迄今为止的最佳轨迹在毒性上显著更低，表明其累积搜索压力更小。多样性并非单一维度：RainbowPlus 在嵌入层面获得更大的散布，而 ToxSearch-S 则将高毒性提示划分到更局部化的行为簇中，表现为更高的 DBSCAN 聚类数。MPI 分布式实现带来了显著的墙钟时间收益，使用两个工作进程时约加速 1.8 倍，四个工作进程时约加速 3.2 倍，同时 Best@B 指标与顺序执行在统计上不可区分。四个工作进程的运行还产生了显著更大的最终物种基数以及更多携带有毒性物种，而全局峰值毒性并无可靠提升。这些结果将增量物种化确立为 AI 安全中一种实用的质量-多样性机制，并将 MPI 视为在保持测量搜索结果不变的情况下压缩结果产出时间的有效手段。"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "Bit-Precise Conformance Testing of Simulink Model Checkers",
+    "authors": "Daisuke Ishii, Takashi Tomita, Toshiaki Aoki, Hideaki Takai",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.24719v1",
+    "source": "arXiv",
+    "abstract": "MATLAB/Simulink provides a practical modeling language and a simulation engine for the development of cyber-physical systems. To ensure the quality of the developed models, there are formal verification tools available, such as Simulink Design Verifier (SLDV) and third-party SMT-based model checkers (SmtMC). However, due to the absence of a semantics of Simulink that covers every element of models and the details of its numerical behavior, the reliability of the model checkers themselves is often doubtful, potentially analyzing models differently from the simulator. This work aims to verify the quality of the Simulink model checkers by addressing the following items. 1) Formalization of the basic block types of Simulink. It involves defining block type feature sets and the bit-precise behavior of the blocks. 2) A method for testing bit-precise conformance relations among the tools for each block type. The pass rate of our test suites measures (i) conformance of model checking results with simulation results by Simulink and (ii) conformance between the results of SmtMC and SLDV. 3) Experiment to perform tests on 10 block types. We confirmed that SmtMC efficiently passed all test cases, while SLDV achieved pass rates of only 94-96% and 80-90% for conformance (i) and (ii), respectively. We analyzed the causes of failed tests, such as errors, corner cases, and timeouts.",
+    "title_zh": "Simulink模型检查器的位精确一致性测试",
+    "abstract_zh": "MATLAB/Simulink 为信息物理系统的开发提供了实用的建模语言和仿真引擎。为确保所开发模型的质量，已有形式化验证工具可用，例如 Simulink Design Verifier (SLDV) 和第三方基于 SMT 的模型检验器 (SmtMC)。然而，由于 Simulink 缺少涵盖模型各元素及其数值行为细节的语义，这些模型检验器自身的可靠性往往值得怀疑，其分析结果可能与仿真器不一致。本研究旨在通过以下要点验证 Simulink 模型检验器的质量：1) 对 Simulink 基本模块类型进行形式化，包括定义模块类型特征集以及模块的比特精确行为。2) 提出了一种针对各模块类型测试工具间比特精确一致性关系的方法。我们的测试套件通过率衡量了（i）模型检验结果与 Simulink 仿真结果的一致性，以及（ii）SmtMC 与 SLDV 结果之间的一致性。3) 对 10 种模块类型进行测试实验。我们确认 SmtMC 高效通过了所有测试用例，而 SLDV 在一致性（i）和（ii）上仅分别达到 94-96% 和 80-90% 的通过率。我们分析了测试失败的原因，如错误、边界案例和超时。"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "PowerFuzz: Power-Based Black-Box Firmware Fuzzing",
+    "authors": "Dakshina Tharindu, Sahan Sanjaya, Philip Baptist, Prabhat Mishra",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.24692v1",
+    "source": "arXiv",
+    "abstract": "Fuzzing is widely used for software and hardware verification, offering an effective alternative to random testing. While gray-box fuzzers benefit from full visibility into the system under test and can leverage execution feedback such as branch coverage, these approaches are not applicable when verifying systems whose firmware or binaries are not publicly available. In such scenarios, obtaining coverage information for guiding the fuzzer becomes infeasible. In this paper, we introduce PowerFuzz, a statistical black-box fuzzing framework that leverages power side-channel measurements as a substitute for binary instrumentation, requiring no internal visibility into the target firmware. A central challenge in black-box firmware fuzzing is determining the executed branches during test execution. To address this challenge, we use power traces to identify branches utilizing a sliding window followed by a growing window full-trace correlation method. This approach also enables the construction of a high-level control-flow graph of the black-box firmware, which we utilize to drive the fuzzer to unexplored execution paths. Extensive evaluation using three embedded hardware platforms and ten firmware benchmarks demonstrates that PowerFuzz can provide branch coverage comparable (within 13.5%) to gray-box fuzzers while significantly outperforming (up to 22%) state-of-the-art black-box fuzzers.",
+    "title_zh": "PowerFuzz: 基于功耗的黑盒固件模糊测试",
+    "abstract_zh": "模糊测试广泛用于软件与硬件验证，是随机测试的有效替代方案。灰盒模糊测试器能够完全透视被测系统，并可利用分支覆盖率等执行反馈，但当固件或二进制文件未公开时，这类方法便不再适用。在这种情况下，获取覆盖率信息以引导模糊测试变得不可行。本文提出PowerFuzz，一种统计型黑盒模糊测试框架，利用功耗侧信道测量替代二进制插桩，无需任何目标固件内部可见性。黑盒固件模糊测试的核心挑战在于确定测试执行过程中所执行的分支。为应对这一挑战，我们采用功耗轨迹进行分支识别，先使用滑动窗口，再基于扩展窗口的全轨迹相关性方法。该方法还能构建出黑盒固件的高层控制流图，我们利用此图驱动模糊测试器探索未覆盖的执行路径。基于三种嵌入式硬件平台和十项固件基准测试的广泛评估表明，PowerFuzz可提供与灰盒模糊测试器相当的分支覆盖率（差距在13.5%以内），同时显著优于（最高提升22%）当前最先进的黑盒模糊测试器。"
+  },
+  {
+    "date": "2026-6-23",
+    "title": "Testing of Chiplet-Based Packages Based on Advanced Heterogeneous Integration",
+    "authors": "Partho Bhoumik, Dhruv Thapar, Christopher Bailey, Krishnendu Chakrabarty",
+    "publish": "IEEE Design &amp; Test",
+    "url": "https://doi.org/10.1109/mdat.2026.3706448",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于先进异构集成的芯粒封装测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-23",
+    "title": "Efficient Error Detection for NTT Using Algebraic Invariants (AIC) Checking for PQC and FHE on FPGA",
+    "authors": "Rourab Paul, Paresh Baidya, Swagata Mandal, Krishnendu Guha",
+    "publish": "ACM Transactions on Embedded Computing Systems",
+    "url": "https://doi.org/10.1145/3822512",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向FPGA上后量子密码学与全同态加密的基于代数不变量(AIC)的NTT高效错误检测",
+    "abstract_zh": "无"
+  }
+]
