@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-06-24",
+    "title": "Automated Detection of Configuration-Specific Security Vulnerabilities via Patch Analysis",
+    "authors": "Felipe de Sant'Anna Paixão, Joanna C. S. Santos, Paulo Anselmo da Mota Silveira Neto, Daniel Sadoc Menasche, Gustavo Bittencourt Figueiredo, Eduardo Santana de Almeida",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.25863v1",
+    "source": "arXiv",
+    "abstract": "We study how security patches in highly configurable C/C++ systems map onto the space of compile-time variants. We formalize the Vulnerability Impact Condition (VIC) - a Boolean predicate over configuration options that denotes all variants that contained the original flaw - and introduce PatchLens, a purely static technique that recovers VICs by aligning AST-level patch hunks with source-level presence conditions and resolving file inclusion via lightweight build system analysis. Evaluating PatchLens on 1,192 Linux kernel, 289 FFmpeg, and 100 PHP patches, we compute precise, human-readable VICs without the need to compile any system variant. The resulting predicates are compact (avg. 1.84 variables for Linux, 3.23 for FFmpeg, 1.04 for PHP) and show that only a small fraction of vulnerabilities are system-wide, which carry higher CVSS scores; meanwhile, CVE texts almost never encode the required options ($\\approx$ 1% average recall), motivating automated enrichment of CVE descriptions with VICs. PatchLens and the accompanying dataset enable immediate applications in CI (variant-aware triage and test selection), targeted sampling and fuzzing, and feature risk scoring, offering a scalable, explainable path to vulnerability assessment in highly configurable software.",
+    "title_zh": "基于补丁分析的配置特定安全漏洞自动化检测",
+    "abstract_zh": "我们研究了高度可配置的 C/C++ 系统中安全补丁如何映射到编译时变体的空间。我们形式化定义了“漏洞影响条件”（Vulnerability Impact Condition，VIC）——一个基于配置选项的布尔谓词，表示所有包含原始缺陷的变体，并提出了 PatchLens，一种纯静态技术，通过将 AST 级别的补丁块与源代码级的存在条件对齐，并借助轻量级构建系统分析解析文件包含关系，来恢复 VIC。在 1,192 个 Linux 内核补丁、289 个 FFmpeg 补丁和 100 个 PHP 补丁上评估 PatchLens 后，我们无需编译任何系统变体即可计算出精确且人类可读的 VIC。得到的谓词非常紧凑（Linux 平均 1.84 个变量，FFmpeg 平均 3.23 个，PHP 平均 1.04 个），并且表明只有一小部分漏洞是系统级的，而这些漏洞的 CVSS 评分更高；同时，CVE 文本几乎从不编码所需的配置选项（平均召回率约 $\\approx$ 1%），这促使我们利用 VIC 自动丰富 CVE 描述。PatchLens 及其伴随数据集可在持续集成（变体感知的缺陷分类与测试选择）、定向采样与模糊测试以及特性风险评分中直接应用，为高度可配置软件中的漏洞评估提供了一条可扩展、可解释的途径。"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "SafeGen: LLM-Driven Assertion Generation and Fault Criticality Evaluation for Functional Safety",
+    "authors": "Xuanyi Tan, Arjun Chaudhuri, Rubin Parekhji, Krishnendu Chakrabarty",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.25296v1",
+    "source": "arXiv",
+    "abstract": "With advances in autonomous driving and electric vehicle technologies, functional safety has become a critical requirement in automotive chip design. Traditional simulation-based fault analysis is often overly conservative at the module level and fails to accurately reflect fault criticality. This paper presents SafeGen, an LLM-driven, formal-verification-assisted framework for functional-safety-oriented fault criticality assessment. SafeGen leverages large language models (LLMs) and a document-level Hyper Knowledge Graph (HyperKG) that incorporates Failure Modes, Effects, and Diagnostic Analysis (FMEDA) guidelines to extract verifiable specifications from design and safety documents and evaluate their relevance to overall system safety. The HyperKG is further enriched with register-transfer-level (RTL) information to guide the generation of Functional Safety Assertions (FSAs) that are both semantically grounded and design-aware. Each assertion is linked to its corresponding specification, enabling traceable reasoning throughout the assessment process. A gate-to-RTL fault-mapping mechanism supporting both stuck-at and bridging faults, combined with formal property verification (FPV), enables semantic-level fault criticality grading based on specification-linked assertion violations. A digital-physical co-simulation platform for a field-oriented control (FOC) system is developed to validate SafeGen. Experimental results demonstrate that SafeGen generates higher-quality assertions than existing LLM-based assertion generation frameworks while providing greater semantic interpretability in fault criticality assessment compared with traditional simulation-based approaches.",
+    "title_zh": "SafeGen：基于大语言模型的断言生成与功能安全故障严重性评估",
+    "abstract_zh": "随着自动驾驶与电动汽车技术的不断进步，功能安全已成为汽车芯片设计中的关键要求。传统基于仿真的故障分析在模块级别往往过于保守，难以准确反映故障的关键程度。本文提出SafeGen——一个由大语言模型（LLM）驱动、结合形式化验证辅助的、面向功能安全的故障关键性评估框架。SafeGen利用大语言模型和融入失效模式、影响与诊断分析（FMEDA）指南的文档级超知识图谱（HyperKG），从设计及安全文档中提取可验证规范，并评估其与整体系统安全的相关性。该超知识图谱进一步融入寄存器传输级（RTL）信息，以指导生成兼具语义基础与设计感知的功能安全断言（FSA）。每条断言均链接至对应规范，确保评估全程具备可追溯的推理依据。一种支持固定型故障与桥接故障的门级至RTL故障映射机制，配合形式属性验证（FPV），可基于规范关联的断言违反情况，实现语义级别的故障关键性分级。为验证SafeGen，搭建了面向磁场定向控制（FOC）系统的数字-物理联合仿真平台。实验结果表明，与现有基于LLM的断言生成框架相比，SafeGen能够生成更高质量的断言；同时，在故障关键性评估中，相比传统基于仿真的方法，提供了更强的语义可解释性。"
+  },
+  {
+    "date": "2026-6-24",
+    "title": "Design and Verification of a PSFP-Based Anomaly Detector for Switch Chips",
+    "authors": "Zhen Ying, Yu Liu, Minhua Ren",
+    "publish": "2026 6th International Conference on Electronics, Circuits and Information Engineering (ECIE)",
+    "url": "https://doi.org/10.1109/ecie69549.2026.11565604",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于PSFP的交换芯片异常检测器的设计与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "Proceedings of the 7th ACM/IEEE International Conference on Automation of Software Test",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3793654",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "第七届ACM/IEEE自动化软件测试国际会议论文集",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "Improving Deep Learning Library Testing with Machine Learning",
+    "authors": "Facundo Molina, M M Abid Naziri, Feiran (Alex) Qin, Alessandra Gorla, Marcelo d'Amorim",
+    "publish": "Proceedings of the 7th ACM/IEEE International Conference on Automation of Software Test",
+    "url": "https://doi.org/10.1145/3793654.3793744",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "利用机器学习改进深度学习库测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-24",
+    "title": "A Multi-Level Dataflow Parallel Acceleration Framework for EPS-Based Equivalence Checking",
+    "authors": "Ping Zhang, Hongxue Yang, Ying Liu, Lili Lei, Yongchang Zhang",
+    "publish": "2026 6th International Conference on Electronics, Circuits and Information Engineering (ECIE)",
+    "url": "https://doi.org/10.1109/ecie69549.2026.11565719",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种基于EPS等价检查的多级数据流并行加速框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-24",
+    "title": "Adaptive Dynamic System Excitation Methods Leveraging System Response Characteristics",
+    "authors": "Xiaocheng Zhang, Wenyou Du",
+    "publish": "2026 38th Chinese Control and Decision Conference (CCDC)",
+    "url": "https://doi.org/10.1109/ccdc69976.2026.11559768",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "利用系统响应特性的自适应动态系统激励方法",
+    "abstract_zh": "None"
+  }
+]
