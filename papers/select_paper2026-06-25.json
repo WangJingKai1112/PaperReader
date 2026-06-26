@@ -1,0 +1,156 @@
+[
+  {
+    "date": "2026-06-25",
+    "title": "CLIR: Liveness-Driven and Structure-Aware Fuzzing for the Cranelift Compiler",
+    "authors": "Shangtong Cao, Tianlei Song, Qiuping Yi, Tianyu Chen, Guoai Xu, Ningyu He, Haoyu Wang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.26977v1",
+    "source": "arXiv",
+    "abstract": "Modern compilers are complex software systems that must correctly translate high-level programming languages into machine code across multiple architectures. Cranelift, a fast and modern compiler backend originally developed for WebAssembly and recently adopted as an experimental backend for Rust, has gained increasing importance due to its superior compilation speed compared to LLVM and comprehensive multi-architecture support, including x86-64, AArch64, s390x, and RISCV64. However, despite decades of development in compiler testing, testing Cranelift still presents unique challenges, including (1) constructing valid IR under the strict enforcement of SSA form, (2) generating sequences with sufficient computational density to stress backend components, and (3) balancing broad backend coverage with efficient root cause analysis across heterogeneous architectures. To address these challenges, we propose CLIR, a differential testing framework that integrates a syntax-preserving hierarchical generation strategy to guarantee SSA validity, a liveness-guided instruction refinement mechanism to maximize computational density, and a diagnosis-guided cross-architecture adaptation scheme to facilitate efficient root cause analysis across heterogeneous backends. Our comprehensive evaluation demonstrates that CLIR significantly outperforms existing state-of-the-art baselines, detecting 8x, 24x, and 8x more unique bugs than cranelift-fuzzgen, wasm-smith, and WASMaker, respectively, while RustSmith uncovered no bugs. Consequently, within 72 hours of testing, CLIR discovered 24 bugs spanning all target architectures, with 21 confirmed and 9 fixed.",
+    "title_zh": "CLIR：面向Cranelift编译器的活性驱动与结构感知模糊测试",
+    "abstract_zh": "现代编译器是复杂的软件系统，必须正确地将高级编程语言翻译为多种架构下的机器码。Cranelift作为一种快速、现代的编译器后端，最初为WebAssembly开发，近期被采纳为Rust的实验性后端，因其相比LLVM更快的编译速度以及对x86-64、AArch64、s390x和RISCV64等多架构的全面支持而愈发重要。然而，尽管编译器测试已有数十年发展，测试Cranelift仍面临独特挑战，包括：(1) 在严格遵循静态单赋值（SSA）形式的前提下构造合法中间表示（IR）；(2) 生成具有足够计算密度的指令序列以对后端组件施加压力；(3) 在异构架构间平衡广泛的后端覆盖与高效的根因分析。为应对这些挑战，我们提出CLIR，一个差分测试框架，它融合了语法保持的分层生成策略以保证SSA合法性、活性引导的指令精化机制以最大化计算密度，以及诊断引导的跨架构适配方案，从而促进异构后端间的高效根因分析。我们的全面评估表明，CLIR显著优于现有最先进的基线方法，相比cranelift-fuzzgen、wasm-smith和WASMaker分别多检测出8倍、24倍和8倍的独特缺陷，而RustSmith未发现任何缺陷。据此，在72小时测试内，CLIR发现了涵盖所有目标架构的24个缺陷，其中21个已确认，9个已修复。"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "ConcoLixir: Reactive LLM Discovery Oracles for Python Concolic Testing",
+    "authors": "Dong Chen, Chih-Duo Hong, Fang Yu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.26545v1",
+    "source": "arXiv",
+    "abstract": "Concolic testing combines concrete execution with symbolic constraint solving, but Python programs expose recurring limits. Library calls can cause symbolic variables to downgrade to concrete values. Regular expressions, checksums, parsers, and other semantic operations can be hard to solve, and exploration can plateau on already covered paths. We present ConcoLixir, a reactive LLM extension for Python concolic execution. The LLM acts as a discovery oracle, not a replacement for the solver or a correctness oracle. It generates initial seeds, proposes concrete inputs after solver failures, and targets uncovered code when coverage stalls. Each candidate is executed concolically, and only observed coverage and collected path constraints guide later exploration. Across synthetic, real-world, and library targets, ConcoLixir improves mean line coverage over the baseline concolic tester without an LLM oracle by 8.6, 15.1, and 17.0 percentage points. The gains are strongest near semantic barriers and library boundaries, and the full evaluation costs \\$1.63 in API charges. These results show that bounded LLM discovery can complement symbolic reasoning without replacing it.",
+    "title_zh": "ConcoLixir：用于Python concolic测试的反应式LLM发现预言",
+    "abstract_zh": "混合执行测试将具体执行与符号约束求解相结合，但 Python 程序显现出反复出现的局限：库调用可能导致符号变量降级为具体值；正则表达式、校验和、解析器及其他语义操作往往难以求解，探索过程也可能在已覆盖的路径上停滞。我们提出 ConcoLixir，一个用于 Python 混合执行的反应式大语言模型扩展。该 LLM 充当发现预言机，而非求解器的替代品或正确性预言机。它生成初始种子，在求解器失败后建议具体输入，并在覆盖率停滞时瞄准未覆盖代码。每个候选输入都经过混合执行，仅由观察到的覆盖率和收集的路径约束指导后续探索。在合成目标、真实世界目标及库目标上，相比于不带 LLM 预言机的基线混合执行测试工具，ConcoLixir 将平均行覆盖率分别提升了 8.6、15.1 和 17.0 个百分点。这些增益在语义壁垒和库边界附近最为显著，而整个评估的 API 开销仅为 1.63 美元。这些结果表明，受限制的 LLM 发现能够在不取代符号推理的前提下补充其能力。"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "Protocol Prying: Systematic Vulnerability Research in the Apple AirDrop and Android Quick Share Proximity Transfer Protocols",
+    "authors": "Arash Ale Ebrahim, Nils Ole Tippenhauer",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2606.26967v1",
+    "source": "arXiv",
+    "abstract": "Apple AirDrop and Google/Samsung Quick Share are proximity file-transfer protocols used by over five billion devices, yet their application-layer security properties remain largely unstudied because both stacks are proprietary and undocumented. Both protocols are reachable from wireless proximity without any prior pairing and process complex serialized content (binary plists, CPIO archives, Protocol Buffers, UKEY2 handshakes) inside privileged daemons, making them attractive zero-click targets across multiple operating systems. We perform the first cross-platform reverse engineering and protocol-aware fuzzing study of both stacks. We reconstruct AirDrop's seven-layer state machine and DVZip adaptive compression from binary analysis, build AIRFUZZ, a protocol-aware fuzzer that mutates pre-compression representations, and complement it with targeted hand-written analyses of Samsung's Quick Share service and Google's Quick Share for Windows. We discover six vulnerabilities (V1-V6): three pre-authentication issues in macOS/iOS AirDrop (V1: Swift fatalError DoS in the HTTP path router; V2: unbounded XML plist recursion in Foundation; V3: NULL dereference in Network.framework's HTTP/1.1 parser), two protocol-layer flaws in Samsung Quick Share (V4: pre-authentication OfflineFrame dispatch; V5: D2D encryption bypass for three frame types), and a heap use-after-free in Google Quick Share for Windows (V6) for which Google awarded a bounty. We responsibly disclosed all findings, and Apple, Samsung, and Google have acknowledged the reports.",
+    "title_zh": "协议窥探：苹果AirDrop与安卓Quick Share近场传输协议的系统性漏洞研究",
+    "abstract_zh": "Apple AirDrop 和 Google/Samsung Quick Share 是近距离文件传输协议，被超过五十亿台设备使用，然而其应用层安全特性在很大程度上仍未得到研究，因为这两个协议栈均属专有且无官方文档。这两种协议均可在未事先配对的情况下从无线邻近范围访问，并在特权守护进程中处理复杂的序列化内容（二进制 plist、CPIO 归档、Protocol Buffers、UKEY2 握手），使其成为跨多个操作系统的诱人零点击攻击目标。我们首次对这两个协议栈进行了跨平台逆向工程和协议感知模糊测试研究。通过二进制分析，我们重建了 AirDrop 的七层状态机和 DVZip 自适应压缩机制，构建了协议感知模糊测试工具 AIRFUZZ，它会在压缩前表示层进行变异，并辅以针对三星 Quick Share 服务及 Windows 版 Google Quick Share 的手工定向分析。我们发现了六个漏洞（V1–V6）：macOS/iOS AirDrop 中的三个预认证问题（V1：HTTP 路径路由中的 Swift fatalError 拒绝服务；V2：Foundation 中的无界 XML plist 递归；V3：Network.framework HTTP/1.1 解析器中的空指针解引用），三星 Quick Share 中的两个协议层缺陷（V4：预认证 OfflineFrame 分发；V5：三种帧类型的 D2D 加密绕过），以及 Windows 版 Google Quick Share 中的一个堆释放后使用漏洞（V6），Google 为此颁发了赏金。我们已负责任地披露了所有发现，Apple、三星和 Google 均已确认收到报告。"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "Demo Abstract: An On-Device Mobile GUI Agent System with Online Exploration",
+    "authors": "Runxi Huang, Xiaomin Ouyang",
+    "publish": "2026 ACM/IEEE International Conference on Embedded Artificial Intelligence and Sensing Systems - Posters and Demos (SenSys-Adjunct)",
+    "url": "https://doi.org/10.1109/sensys-adjunct71932.2026.00022",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "演示摘要：具备在线探索能力的设备端移动GUI代理系统",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "A Theory of Probabilistic Contracts",
+    "authors": "Anton Hampus, Mattias Nyberg",
+    "publish": "Formal Aspects of Computing",
+    "url": "https://doi.org/10.1145/3820767",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "概率合同理论",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "Proceedings of the 7th ACM/IEEE International Conference on Automation of Software Test",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3793654",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "第七届ACM/IEEE软件测试自动化国际会议论文集",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "Improving Deep Learning Library Testing with Machine Learning",
+    "authors": "Facundo Molina, M M Abid Naziri, Feiran (Alex) Qin, Alessandra Gorla, Marcelo d'Amorim",
+    "publish": "Proceedings of the 7th ACM/IEEE International Conference on Automation of Software Test",
+    "url": "https://doi.org/10.1145/3793654.3793744",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "利用机器学习改进深度学习库测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "SPTFuzz: A Fuzzing Approach Based on Spectral-Relational Fusion Transformer for Industrial Control Protocols",
+    "authors": "Zengwang Jin, Junyi Ding, Xuerao Wang, Zhiqiang Liu, Changyin Sun",
+    "publish": "IEEE Transactions on Consumer Electronics",
+    "url": "https://doi.org/10.1109/tce.2026.3707446",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "SPTFuzz：一种基于频谱-关系融合Transformer的工业控制协议模糊测试方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "Safety-Critical Interactive Scenario Generation for Autonomous Vehicles Testing Using Diffusion-Based Method",
+    "authors": "Guo Zhou, Zhongning Wang, Jicheng Chen, Hua Yao, Hui Zhang",
+    "publish": "IEEE Transactions on Industrial Electronics",
+    "url": "https://doi.org/10.1109/tie.2026.3702122",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于扩散方法的自动驾驶测试安全关键交互场景生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "APITestGenie: Generating Web API Tests from Requirements and API Specifications with LLMs",
+    "authors": "André Pereira, Bruno Lima, João Pascoal Faria",
+    "publish": "Proceedings of the 7th ACM/IEEE International Conference on Automation of Software Test",
+    "url": "https://doi.org/10.1145/3793654.3793743",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "APITestGenie：基于需求与API规范，利用大语言模型生成Web API测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "Search-Based Fuzzing For RESTful APIs That Use MongoDB",
+    "authors": "Hernan Ghianni, Man Zhang, Juan P. Galeotti, Andrea Arcuri",
+    "publish": "Proceedings of the 7th ACM/IEEE International Conference on Automation of Software Test",
+    "url": "https://doi.org/10.1145/3793654.3793747",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "针对使用MongoDB的RESTful API的基于搜索的模糊测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "ACT: Automated CPS Testing for Open-Source Robotic Platforms",
+    "authors": "Aditya A. Krishnan, Donghoon Kim, Hokeun Kim",
+    "publish": "Proceedings of the 7th ACM/IEEE International Conference on Automation of Software Test",
+    "url": "https://doi.org/10.1145/3793654.3793741",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ACT：面向开源机器人平台的自动化信息物理系统测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "Optimized system excitation for data-driven thermal modeling — a practical sim-to-real transfer investigation",
+    "authors": "Emebet G. Gedlu, Oliver Wallscheid",
+    "publish": "IEEE Open Journal of Industry Applications",
+    "url": "https://doi.org/10.1109/ojia.2026.3707601",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向数据驱动热建模的系统激励优化 —— 一项实用的仿真到现实迁移研究",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-25",
+    "title": "LLAMAFUZZ: Large Language Model Enhanced Greybox Fuzzing",
+    "authors": "Hongxiang Zhang, Yuyang Rong, Yifeng He, Hao Chen",
+    "publish": "Proceedings of the 7th ACM/IEEE International Conference on Automation of Software Test",
+    "url": "https://doi.org/10.1145/3793654.3793756",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "LLAMAFUZZ：大语言模型增强的灰盒模糊测试",
+    "abstract_zh": "无"
+  }
+]
