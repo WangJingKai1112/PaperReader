@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-6-26",
+    "title": "<scp>Dyn</scp>\n                    NPC: Finding More Violations Induced by ADS in Simulation Testing via Dynamic NPC Behavior Generation",
+    "authors": "You Lu, Yifan Tian, Kun Zhang, Dingji Wang, Bihuan Chen, Haowen Jiang, Qicai Chen, Kun Hu, Xin Peng",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3822178",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "动态NPC：通过动态NPC行为生成发掘更多自动驾驶系统违规行为",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-26",
+    "title": "Proceedings of the 2026 11th International Workshop on Testing Database Systems",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3810991",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "2026年第十一届国际数据库系统测试研讨会论文集",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-26",
+    "title": "LLM-based Intelligent Agents for Cybersecurity: A Tutorial and Survey of Automated Vulnerability Discovery",
+    "authors": "Robel Addis, Kiran Porter, Jayden Ryan, Micah Stull, Shengjie Xu, Paul Wagner, Robert Honomichl, Steven Forsyth",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3707573",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于LLM的网络安全智能体：自动化漏洞挖掘教程与综述",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-26",
+    "title": "Accelerated Safety Evaluation for Autonomous Vehicles Using Markov Chain Score Ascent-Based Adaptive Importance Sampling",
+    "authors": "Hao Wu, Yan Wu, Lifang Wang, Junzhi Zhang",
+    "publish": "IEEE Transactions on Intelligent Transportation Systems",
+    "url": "https://doi.org/10.1109/tits.2026.3704399",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于马尔可夫链得分上升自适应重要性采样的自动驾驶车辆加速安全评估",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-26",
+    "title": "Boosting DBMS Test Coverage via LLM-Driven SQL Generation",
+    "authors": "Eslam Abdelkarim, Carsten Binnig, Anupam Sanghi",
+    "publish": "Proceedings of the 2026 11th International Workshop on Testing Database Systems",
+    "url": "https://doi.org/10.1145/3810991.3811637",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "通过LLM驱动的SQL生成提升DBMS测试覆盖率",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-27",
+    "title": "POSTER: A Chip-level Monitoring Framework for Enhancing PCIe Observability",
+    "authors": "Haobin Zheng",
+    "publish": "Proceedings of the 23rd ACM International Conference on Computing Frontiers",
+    "url": "https://doi.org/10.1145/3801487.3805605",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "POSTER：一种用于增强PCIe可观测性的芯片级监控框架",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-26",
+    "title": "Instruction Error Detection with Bloom Filters: Architecture, Radiation Testing and Fault Injection",
+    "authors": "Elijah Seth Cishugi, Tijmen T. Smit, Bruno Forlin, Carlo Cazzaniga, Kuan-Hsun Chen, Marco Ottavi",
+    "publish": "IEEE Transactions on Device and Materials Reliability",
+    "url": "https://doi.org/10.1109/tdmr.2026.3707731",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于布隆过滤器的指令错误检测：架构、辐射测试与故障注入",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-26",
+    "title": "DIRT: Database-Integrated Random Testing",
+    "authors": "Alperen Keles, Ethan Chou, Harrison Goldstein, Leonidas Lampropoulos",
+    "publish": "Proceedings of the 2026 11th International Workshop on Testing Database Systems",
+    "url": "https://doi.org/10.1145/3810991.3811632",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "DIRT：数据库集成随机测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-6-27",
+    "title": "Bridging the gap between software and hardware",
+    "authors": "Lana Josipović",
+    "publish": "Proceedings of the 23rd ACM International Conference on Computing Frontiers",
+    "url": "https://doi.org/10.1145/3801487.3802806",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "弥合软件与硬件之间的鸿沟",
+    "abstract_zh": "无"
+  }
+]
