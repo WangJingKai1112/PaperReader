@@ -1,0 +1,317 @@
+[
+  {
+    "date": "2026-6-29",
+    "title": "Optimal exponents for the Schlick reflectance approximation",
+    "authors": "Nelson Max",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807917",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Reliability of Gaze Prediction for Stylized and Transformed Images",
+    "authors": "James Youngblood, Rogelio E. Cardona-Rivera",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807935",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Mobile-DDGI: Lightweight Probe-Based Global Illumination via Adaptive Budget Allocation",
+    "authors": "Taekgeun You, Woong Seo, Donghee Han, Insung Ihm",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807920",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Infinite Dungeon Generation Constrained by Sketches using Growing Graph Wave Function Collapse",
+    "authors": "Markus Eger",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807922",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "A Design Space for Federated Software Systems",
+    "authors": "David Wichter, Alexander Weinert, Michael Felderer",
+    "publish": "Proceedings of the 3rd International Workshop on Designing Software",
+    "url": "https://doi.org/10.1145/3786152.3788591",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Evolving Job Responsibilities for Better Software Design and Development - The STEADY Framework",
+    "authors": "Fayaz Suleman, David Wilson",
+    "publish": "Proceedings of the 3rd International Workshop on Designing Software",
+    "url": "https://doi.org/10.1145/3786152.3788593",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Exploring Real-Time EEG-Based Affective Responses in a Virtual Reality Horror Experience",
+    "authors": "Maryann Godje, Javier Gonzalez-Sanchez",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807924",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Proceedings of the 3rd International Workshop on Designing Software",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3786152",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Are your Designs Usable? An Empirical SUS-Scale Study on Design Patterns for Mobile Crypto wallet Applications.",
+    "authors": "Francisco Gindre, Florencia Riva, Matías Urbieta, Gustavo Rossi",
+    "publish": "Proceedings of the 3rd International Workshop on Designing Software",
+    "url": "https://doi.org/10.1145/3786152.3788596",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Semantic-Geometric Decoupling for Universal Spatial Anchoring in Extended Reality",
+    "authors": "Danila Kharitonenkov, Haichao Miao, Vuthea Chheang",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807934",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Toward Collecting Evidence of Design Work in Software Maintenance Meetings: Preliminary Results",
+    "authors": "Janet Burge, Adriana Meza Soria, André van der Hoek",
+    "publish": "Proceedings of the 3rd International Workshop on Designing Software",
+    "url": "https://doi.org/10.1145/3786152.3788597",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "The Digital Nutrition Label: A Tool for Ethical Software Design Education and Validation",
+    "authors": "Mohammad Samarah, Melissa Sahl, Abhijit Dutt, Charissa Cheah",
+    "publish": "Proceedings of the 3rd International Workshop on Designing Software",
+    "url": "https://doi.org/10.1145/3786152.3788594",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Using Generative AI in Software Design Education",
+    "authors": "Victoria Jackson, Susannah Liu, Andre van der Hoek",
+    "publish": "Proceedings of the 3rd International Workshop on Designing Software",
+    "url": "https://doi.org/10.1145/3786152.3788589",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Improving LLM-assisted code generation through the use of architectural documents and implementation plans.",
+    "authors": "Humberto Cervantes, Rick Kazman, Yuanfang Cai",
+    "publish": "Proceedings of the 3rd International Workshop on Designing Software",
+    "url": "https://doi.org/10.1145/3786152.3788588",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Weber: An Efficient and Interactive Framework for Crafting and Simulating Physics in the Web Browser",
+    "authors": "Chengguizi Han, Alon Flor, Timothy Meehan, Mridul Aanjaneya",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807927",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Design Reasoning in a Research and Development Organization: Insights from a Focus Group Study",
+    "authors": "Eriky Rodrigues, Lais Silva, Honorato Rocha, Gilberto Santos, Marcel Salvioni",
+    "publish": "Proceedings of the 3rd International Workshop on Designing Software",
+    "url": "https://doi.org/10.1145/3786152.3788592",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "An Authoring Framework for LLM-Based Drama Managers",
+    "authors": "Tiffany Wang, Yuqian Sun, Yi Wang, Melissa Roemmele, Shm Garanganao Almeda, John Joon Young Chung, Max Kreminski",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807937",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Photon-Driven Neural Radiance Caching",
+    "authors": "Julian C. Stamm, Tom Kneiphof, Reinhard Klein",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807923",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "From Framework to Practice: Designing a Real-World Telehealth Application for Palliative Care",
+    "authors": "Wei Zhou, Rashina Hoda, Andy Li, Chris Bain, Laura Bird, Emmy Trinh, Peter Poon, Teresa O’Brien, Mahima Kalla, Olivia Metcalf, Wendy Chapman, Joycelyn Ling, Sam Georgy, David Bevan",
+    "publish": "Proceedings of the 3rd International Workshop on Designing Software",
+    "url": "https://doi.org/10.1145/3786152.3788595",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Evaluation of 3D Locomotion in Cycling-Based VR Exergames",
+    "authors": "Dominik Lange-Nawka, Elliott Wen, Burkhard Claus Wuensche",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807926",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Mesh-Driven 3D Gaussian Splat Manipulation",
+    "authors": "Lander Durie, Bert Ramlot, Peter Lambert, Glenn Van Wallendael",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807921",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Entropy-Guided Graph Neural Networks for Cognitive Brain Disorder Detection from Speech Transcripts",
+    "authors": "Jannatul Ferdush, Azadeh Noori Hoshyar, Jaison Mulerikkal, Binu A, Adel Al-Jumaily",
+    "publish": "ACM Transactions on Computing for Healthcare",
+    "url": "https://doi.org/10.1145/3827607",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Scene2Scene: LLM-driven 3D Spatial Blockout for Guided AI Video Synthesis",
+    "authors": "Yutong Alison Mei, Wei Cai",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807932",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Evaluating Frontier LLMs in Answering Game-Design Questions: A Preliminary Study",
+    "authors": "Adams Castro Filho, Maria Andréia Formico Rodrigues, Nabor Mendonça",
+    "publish": "Proceedings of the 3rd International Workshop on Designing Software",
+    "url": "https://doi.org/10.1145/3786152.3788590",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Towards Field Experiments in Esports Competition",
+    "authors": "Arjun Madhusudan, Josef Spjut, Ben Boudaoud, Joohwan Kim, Benjamin Watson",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807930",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3807895",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Application of Implicit Surface and Signed Distance Field to Wellbore Data Visualization",
+    "authors": "Thibaut Andrieu, Hendrik Schroots",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807918",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Ultra Low Latency Via Integrating Renderer and Display",
+    "authors": "Evan Jonson, Aaron Fulmer, Benjamin Watson",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807936",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Dynamic Wrinkling on Coarsely-Meshed Cloth",
+    "authors": "Rupesh Kumar, Sabhya Khurana, Rahul Narain",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807919",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Pacing-Aware Level Generation with Dynamic Event Control",
+    "authors": "John Brazell, Justus Robertson",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807929",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Spiral VR: A Virtual Reality Sports Game for Studying Aim Assistance Under Pressure",
+    "authors": "Hayes Meekins, Emma Barger, Pedro Acevedo",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807925",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Is my Dependency Sustainable? A Systematic Mapping on Open Source Software Sustainability",
+    "authors": "Gabriel Silva Fontes, Vinicius dos Santos, Elisa Yumi Nakagawa",
+    "publish": "Proceedings of the 3rd International Workshop on Designing Software",
+    "url": "https://doi.org/10.1145/3786152.3788587",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Rayauth: Camera-Only Mobile Authentication of Cards via Guided Capture of Spatiotemporal Diffractive Optical Signatures",
+    "authors": "Shuichi Kurabayashi, Hiroki Hanaoka",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807933",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Stack-Aware Enemy AI in a Roguelike Deck-Builder",
+    "authors": "Tamanna Taneja, Justus Robertson",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807928",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "What Do Competitive Players Do With Their Settings? A Multi-Game Esports Configuration Survey",
+    "authors": "Ashish Rajpurohit, Arjun Madhusudan, Benjamin Watson",
+    "publish": "Companion Proceedings of the Symposium on Interactive 3D Graphics and Games",
+    "url": "https://doi.org/10.1145/3807895.3807931",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]

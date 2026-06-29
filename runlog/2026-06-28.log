@@ -1,0 +1,80 @@
+[2026-06-29 13:08:12] 开始执行论文搜索任务
+搜索关键词: verification
+搜索日期范围: 2026-06-28
+正在获取论文...
+[ACM] 2026-6-29 | Optimal exponents for the Schlick reflectance approximation
+[ACM] 2026-6-29 | Reliability of Gaze Prediction for Stylized and Transformed Images
+[ACM] 2026-6-29 | Mobile-DDGI: Lightweight Probe-Based Global Illumination via Adaptive Budget Allocation
+[ACM] 2026-6-29 | Infinite Dungeon Generation Constrained by Sketches using Growing Graph Wave Function Collapse
+[ACM] 2026-6-29 | A Design Space for Federated Software Systems
+[ACM] 2026-6-29 | Evolving Job Responsibilities for Better Software Design and Development - The STEADY Framework
+[ACM] 2026-6-29 | Exploring Real-Time EEG-Based Affective Responses in a Virtual Reality Horror Experience
+[ACM] 2026-6-29 | Proceedings of the 3rd International Workshop on Designing Software
+[ACM] 2026-6-29 | Are your Designs Usable? An Empirical SUS-Scale Study on Design Patterns for Mobile Crypto wallet Applications.
+[ACM] 2026-6-29 | Semantic-Geometric Decoupling for Universal Spatial Anchoring in Extended Reality
+[ACM] 2026-6-29 | Toward Collecting Evidence of Design Work in Software Maintenance Meetings: Preliminary Results
+[ACM] 2026-6-29 | The Digital Nutrition Label: A Tool for Ethical Software Design Education and Validation
+[ACM] 2026-6-29 | Using Generative AI in Software Design Education
+[ACM] 2026-6-29 | Improving LLM-assisted code generation through the use of architectural documents and implementation plans.
+[ACM] 2026-6-29 | Weber: An Efficient and Interactive Framework for Crafting and Simulating Physics in the Web Browser
+[ACM] 2026-6-29 | Design Reasoning in a Research and Development Organization: Insights from a Focus Group Study
+[ACM] 2026-6-29 | An Authoring Framework for LLM-Based Drama Managers
+[ACM] 2026-6-29 | Photon-Driven Neural Radiance Caching
+[ACM] 2026-6-29 | From Framework to Practice: Designing a Real-World Telehealth Application for Palliative Care
+[ACM] 2026-6-29 | Evaluation of 3D Locomotion in Cycling-Based VR Exergames
+[ACM] 2026-6-29 | Mesh-Driven 3D Gaussian Splat Manipulation
+[ACM] 2026-6-29 | Entropy-Guided Graph Neural Networks for Cognitive Brain Disorder Detection from Speech Transcripts
+[ACM] 2026-6-29 | Scene2Scene: LLM-driven 3D Spatial Blockout for Guided AI Video Synthesis
+[ACM] 2026-6-29 | Evaluating Frontier LLMs in Answering Game-Design Questions: A Preliminary Study
+[ACM] 2026-6-29 | Towards Field Experiments in Esports Competition
+[ACM] 2026-6-29 | Companion Proceedings of the Symposium on Interactive 3D Graphics and Games
+[ACM] 2026-6-29 | Application of Implicit Surface and Signed Distance Field to Wellbore Data Visualization
+[ACM] 2026-6-29 | Ultra Low Latency Via Integrating Renderer and Display
+[ACM] 2026-6-29 | Dynamic Wrinkling on Coarsely-Meshed Cloth
+[ACM] 2026-6-29 | Pacing-Aware Level Generation with Dynamic Event Control
+[ACM] 2026-6-29 | Spiral VR: A Virtual Reality Sports Game for Studying Aim Assistance Under Pressure
+[ACM] 2026-6-29 | Is my Dependency Sustainable? A Systematic Mapping on Open Source Software Sustainability
+[ACM] 2026-6-29 | Rayauth: Camera-Only Mobile Authentication of Cards via Guided Capture of Spatiotemporal Diffractive Optical Signatures
+[ACM] 2026-6-29 | Stack-Aware Enemy AI in a Roguelike Deck-Builder
+[ACM] 2026-6-29 | What Do Competitive Players Do With Their Settings? A Multi-Game Esports Configuration Survey
+共写入 35 条记录，保存到 papers/paper2026-06-28.json。
+论文获取成功，文件路径: papers/paper2026-06-28.json
+正在筛选、翻译并发送邮件...
+[NO] 1/35 | Optimal exponents for the Schlick reflectance approximation
+[NO] 2/35 | Reliability of Gaze Prediction for Stylized and Transformed Images
+[NO] 3/35 | Mobile-DDGI: Lightweight Probe-Based Global Illumination via Adaptive Budget Allocation
+[NO] 4/35 | Infinite Dungeon Generation Constrained by Sketches using Growing Graph Wave Function Collapse
+[NO] 5/35 | A Design Space for Federated Software Systems
+[NO] 6/35 | Evolving Job Responsibilities for Better Software Design and Development - The STEADY Framework
+[NO] 7/35 | Exploring Real-Time EEG-Based Affective Responses in a Virtual Reality Horror Experience
+[NO] 8/35 | Proceedings of the 3rd International Workshop on Designing Software
+[NO] 9/35 | Are your Designs Usable? An Empirical SUS-Scale Study on Design Patterns for Mobile Crypto wallet Applications.
+[NO] 10/35 | Semantic-Geometric Decoupling for Universal Spatial Anchoring in Extended Reality
+[NO] 11/35 | Toward Collecting Evidence of Design Work in Software Maintenance Meetings: Preliminary Results
+[NO] 12/35 | The Digital Nutrition Label: A Tool for Ethical Software Design Education and Validation
+[NO] 13/35 | Using Generative AI in Software Design Education
+[NO] 14/35 | Improving LLM-assisted code generation through the use of architectural documents and implementation plans.
+[NO] 15/35 | Weber: An Efficient and Interactive Framework for Crafting and Simulating Physics in the Web Browser
+[NO] 16/35 | Design Reasoning in a Research and Development Organization: Insights from a Focus Group Study
+[NO] 17/35 | An Authoring Framework for LLM-Based Drama Managers
+[NO] 18/35 | Photon-Driven Neural Radiance Caching
+[NO] 19/35 | From Framework to Practice: Designing a Real-World Telehealth Application for Palliative Care
+[NO] 20/35 | Evaluation of 3D Locomotion in Cycling-Based VR Exergames
+[NO] 21/35 | Mesh-Driven 3D Gaussian Splat Manipulation
+[NO] 22/35 | Entropy-Guided Graph Neural Networks for Cognitive Brain Disorder Detection from Speech Transcripts
+[NO] 23/35 | Scene2Scene: LLM-driven 3D Spatial Blockout for Guided AI Video Synthesis
+[NO] 24/35 | Evaluating Frontier LLMs in Answering Game-Design Questions: A Preliminary Study
+[NO] 25/35 | Towards Field Experiments in Esports Competition
+[NO] 26/35 | Companion Proceedings of the Symposium on Interactive 3D Graphics and Games
+[NO] 27/35 | Application of Implicit Surface and Signed Distance Field to Wellbore Data Visualization
+[NO] 28/35 | Ultra Low Latency Via Integrating Renderer and Display
+[NO] 29/35 | Dynamic Wrinkling on Coarsely-Meshed Cloth
+[NO] 30/35 | Pacing-Aware Level Generation with Dynamic Event Control
+[NO] 31/35 | Spiral VR: A Virtual Reality Sports Game for Studying Aim Assistance Under Pressure
+[NO] 32/35 | Is my Dependency Sustainable? A Systematic Mapping on Open Source Software Sustainability
+[NO] 33/35 | Rayauth: Camera-Only Mobile Authentication of Cards via Guided Capture of Spatiotemporal Diffractive Optical Signatures
+[NO] 34/35 | Stack-Aware Enemy AI in a Roguelike Deck-Builder
+[NO] 35/35 | What Do Competitive Players Do With Their Settings? A Multi-Game Esports Configuration Survey
+筛选完成：共 35 篇；Yes = 0 篇；已保存到 papers/select_paper2026-06-28.json。
+邮件发送成功！
+[2026-06-29 13:12:12] 任务执行成功！
