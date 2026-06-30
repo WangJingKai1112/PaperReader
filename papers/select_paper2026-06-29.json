@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-6-29",
+    "title": "MPulse: A Programmable and Autonomic Fault Detection System via Hierarchical Liveness Exchange",
+    "authors": "Di Wang, Haifeng Zhou, Zhengyan Zhou, Jiayu Luo, Xinyue Jiang, Xun Zhou, Yufei Ye",
+    "publish": "IEEE INFOCOM 2026 - IEEE Conference on Computer Communications",
+    "url": "https://doi.org/10.1109/infocom59046.2026.11571720",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "MPulse：基于分层活跃性交换的可编程自主故障检测系统",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Experimental Evaluation of Cell-Free Massive MIMO over O-RAN Using Hardware-in-the-Loop",
+    "authors": "Gonzalo J. Anaya López, Mattia Lecci, Alejandro Villena Rodríguez, Daniel Sánchez Villar, Carles Navarro Manchón, Germán Corrales Madueño",
+    "publish": "IEEE INFOCOM 2026 - IEEE Conference on Computer Communications",
+    "url": "https://doi.org/10.1109/infocom59046.2026.11571399",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于硬件在环的O-RAN无蜂窝大规模MIMO实验评估",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "PickleFuzzer: A Case Study in Fuzzing for Discrepancies Between Python Pickle Implementations",
+    "authors": "Justin Applegate, Andreas Kellas",
+    "publish": "2026 IEEE Symposium on Security and Privacy Workshops (SPW)",
+    "url": "https://doi.org/10.1109/spw72489.2026.00010",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "PickleFuzzer：针对 Python Pickle 实现间差异的模糊测试案例研究",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "Automated Construction of High-Quality Initial Seed Corpus for Network Protocol Fuzzing",
+    "authors": "Weicheng Lin, Laile Xi, Yaowen Zheng, Shenghao Lin, Jiaxing Cheng, Zhen Wang, Shizhao Tian, Yubo Li, Tianheng Qu, Hongsong Zhu",
+    "publish": "IEEE INFOCOM 2026 - IEEE Conference on Computer Communications",
+    "url": "https://doi.org/10.1109/infocom59046.2026.11571235",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向网络协议模糊测试的高质量初始种子语料库的自动化构建",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-6-29",
+    "title": "CloudPathFI: Uncovering Cross-Layer Vulnerabilities in Cloud Networks via Path-Aware Fault Injection",
+    "authors": "Yinqin Zhao, Gaoxu Guo, Chang Liu, Long Wang",
+    "publish": "IEEE INFOCOM 2026 - IEEE Conference on Computer Communications",
+    "url": "https://doi.org/10.1109/infocom59046.2026.11571766",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "CloudPathFI：通过路径感知故障注入揭示云网络中的跨层漏洞",
+    "abstract_zh": "None"
+  }
+]
