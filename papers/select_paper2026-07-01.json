@@ -1,0 +1,211 @@
+[
+  {
+    "date": "2026-07-01",
+    "title": "AutoRestTest at the SBFT 2026 Tool Competition",
+    "authors": "Tyler Stennett, Myeongsoo Kim, Saurabh Sinha, Alessandro Orso",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.01063v1",
+    "source": "arXiv",
+    "abstract": "Large input spaces and complex inter-operation dependencies make black-box REST API testing challenging. AutoRestTest combines a Semantic Property Dependency Graph, multi-agent reinforcement learning, and large language models to intelligently explore large API input spaces. In the SBFT 2026 REST League, AutoRestTest ranked first in all three evaluation categories -- fault detection, overall efficiency, and overall effectiveness -- on 11 APIs (317 operations, approximately 29 per API), averaging 67.09 unique server errors and 17.27 successfully processed operations per API under a one-hour testing budget.",
+    "title_zh": "SBFT 2026 工具竞赛中的 AutoRestTest",
+    "abstract_zh": "庞大的输入空间和复杂的操作间依赖令黑盒 REST API 测试极富挑战。AutoRestTest 融合了语义属性依赖图、多智能体强化学习与大语言模型，智能地探索庞大的 API 输入空间。在 SBFT 2026 REST 联赛中，AutoRestTest 在故障检测、整体效率和整体有效性三个评估类别上均列第一，于 11 个 API（共 317 个操作，平均每个 API 约 29 个）上，在一小时测试预算内平均每个 API 捕获 67.09 个唯一服务器错误并成功处理 17.27 个操作。"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "SWE-Doctor: Guiding Software Engineering Agents with Runtime Diagnosis from Multi-Faceted Bug Reproduction Tests",
+    "authors": "Yaoqi Guo, Yang Liu, Jie M. Zhang, Yun Ma, Yiling Lou, Zhenpeng Chen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.00990v1",
+    "source": "arXiv",
+    "abstract": "Large language model (LLM)-based software engineering agents are increasingly developed to resolve software issues by generating patches from issue reports and code repositories. Bug reproduction tests (BRTs) are an important building block for such agents and have been shown useful for patch validation. However, it remains unclear whether BRTs can also help the more central stage of patch generation. We first conduct a preliminary study and find that directly using advanced BRT generators to guide patch generation is not beneficial: fail-to-fail BRTs can mislead agents, while even fail-to-pass BRTs bring limited or negative gains. Our analysis reveals two reasons: fail-to-pass BRTs may cover only one manifestation of the reported issue, leading to partial patches, whereas fail-to-fail BRTs are unreliable as direct patch-generation targets. Motivated by these insights, we propose SWE-Doctor, a software issue resolution agent that guides patch generation with runtime diagnoses derived from multi-faceted BRT executions. SWE-Doctor first generates multi-faceted BRTs for different behavioral requirements stated in the issue, then executes and debugs these BRTs to construct runtime-grounded diagnosis records, and finally uses the diagnoses together with localization information inferred during BRT generation to guide patch generation and reduce partial patches. We evaluate SWE-Doctor on Python bug-fixing issues from the widely adopted SWE-bench Verified and SWE-bench Pro across five LLM backends. SWE-Doctor consistently outperforms existing agents across all 10 LLM-benchmark combinations, achieving average resolution rates of 75.7% on SWE-bench Verified and 59.4% on SWE-bench Pro. In particular, on the more challenging SWE-bench Pro, SWE-Doctor improves the average resolution rate by 8.0-8.9 percentage points over the baseline agents.",
+    "title_zh": "SWE-Doctor：通过多方位缺陷复现测试的运行时诊断指导软件工程代理",
+    "abstract_zh": "基于大型语言模型（LLM）的软件工程智能体日益发展，能够根据问题报告和代码仓库生成补丁以解决软件缺陷。漏洞复现测试（BRT）对此类智能体而言是一个重要的构成模块，并已被证明对补丁验证颇有助益。然而，BRT是否也能在更核心的补丁生成阶段发挥作用，目前尚不明确。我们首先进行了一项初步研究，发现直接利用先进的BRT生成器来指导补丁生成并没有带来好处：从失败到失败的BRT可能会误导智能体，而即使是从失败到通过的BRT，带来的增益也十分有限甚至为负。我们分析揭示了两个原因：从失败到通过的BRT可能只覆盖了所报告问题的一种表现，从而导致不完整的补丁；而从失败到失败的BRT作为直接的补丁生成目标并不可靠。基于这些洞察，我们提出了SWE-Doctor——一种软件问题解决智能体，它利用来自多维度BRT执行的运行时诊断来指导补丁生成。SWE-Doctor 首先针对问题中陈述的不同行为需求生成多维度BRT，然后执行并调试这些BRT以构建基于运行时证据的诊断记录，最后利用这些诊断信息以及在BRT生成过程中推断出的定位信息来指导补丁生成并减少不完整补丁的出现。我们在广泛使用的SWE-bench Verified和SWE-bench Pro上的Python缺陷修复问题中，对五种LLM后端评估了SWE-Doctor。在所有10种LLM与基准的组合中，SWE-Doctor的性能始终优于现有智能体，在SWE-bench Verified上平均解决率达到75.7%，在SWE-bench Pro上达到59.4%。特别是在更具挑战性的SWE-bench Pro上，SWE-Doctor将平均解决率相较于基线智能体提升了8.0至8.9个百分点。"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "SBFT Tool Competition 2026 – UAV Testing Track",
+    "authors": "Erdem Uysal, Ali Javadi, Prakash Aryan, Aren Babikian, Dmytro Humeniuk, Sajad Mazraehkhatiri, Sebastiano Panichella",
+    "publish": "Proceedings of the 19th ACM/IEEE International Workshop on Search-Based and Fuzz Testing",
+    "url": "https://doi.org/10.1145/3786155.3795696",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SBFT工具竞赛2026 – 无人机测试赛道",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "ICSploit: A Fuzzing Framework for Proprietary Industrial Control System Protocols Driven by Function Codes",
+    "authors": "Shen Lu, Yingxu Lai, Yutong Dang, Huimin Fang, Peng Zhao, Baoshan Xie",
+    "publish": "IEEE Transactions on Information Forensics and Security",
+    "url": "https://doi.org/10.1109/tifs.2026.3709093",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "ICSploit：一个由功能码驱动的专有工业控制系统协议模糊测试框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "PufferDoS: Efficient and Effective Attack String Generation for Regular Expression Denial of Service Vulnerabilities",
+    "authors": "Shangzhi Xu, Ziqi Ding, Xiao Cheng, Yuekang Li, Nan Sun, Benjamin Turnbull, Shuangxiang Kan, Siqi Ma",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00169",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "PufferDoS：针对正则表达式拒绝服务漏洞的高效且有效的攻击字符串生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "SBFT Tool Competition 2026: REST League",
+    "authors": "Michele Pasqua, Davide Corradini, Sofia Mari, Mariano Ceccato",
+    "publish": "Proceedings of the 19th ACM/IEEE International Workshop on Search-Based and Fuzz Testing",
+    "url": "https://doi.org/10.1145/3786155.3795704",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SBFT工具竞赛2026：REST联赛",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "Correlation-Guided Fuzz Testing for Aviation GNSS Receiver",
+    "authors": "Nina Haag, Daniel Prun, Antoine Blais, Christophe Ouzeau",
+    "publish": "Proceedings of the 19th ACM/IEEE International Workshop on Search-Based and Fuzz Testing",
+    "url": "https://doi.org/10.1145/3786155.3788583",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "针对航空GNSS接收机的相关性引导模糊测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "Web Application Vulnerability Repair Via Context-Aware Fault Localization and Directed Differential Fuzzing",
+    "authors": "Chenlin Wang, Wei Meng",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00237",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "通过上下文感知故障定位与定向差分模糊测试的Web应用漏洞修复",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "INSIGHT: Automatic Generation of Explanations for Efficient Identification of Hardware Bugs and Underspecifications",
+    "authors": "Vincent Quentin Ulitzsch, Alessandro Bertani, Peter W. Deutsch, David Langus Rodriguez, Kelly Xu, Aarti Gupta, Sharad Malik, Mengjia Yan",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00201",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "INSIGHT：自动生成解释以高效识别硬件错误与欠规范",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "Batch Me If You Can: Coverage-Guided RPKI Fuzzing at Scale",
+    "authors": "Haya Schulmann, Niklas Vogel",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00188",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "批量我如果你能：覆盖率引导的大规模RPKI模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "Reality Check: Independent Evaluation of Modern Grey-Box Fuzzing Techniques",
+    "authors": "Pavel Frolikov",
+    "publish": "Proceedings of the 2026 ACM Secure Development Conference",
+    "url": "https://doi.org/10.1145/3805773.3806004",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "现实检验：现代灰盒模糊测试技术的独立评估",
+    "abstract_zh": "没有"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "Agentic Concolic Execution",
+    "authors": "Zhengxiong Luo, Huan Zhao, Dylan Wolff, Cristian Cadar, Abhik Roychoudhury",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00003",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "智能体驱动的混合执行",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "Goldilocks and the Three P-States: Mitigating Hertzbleed with Formal Leakage Guarantees",
+    "authors": "Inwhan Chun, Christine Guo, Riccardo Paccagnella",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00167",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "金发姑娘与三个P状态：利用形式化泄漏保证缓解Hertzbleed",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "Fractal: An Operating System Designed for Microarchitecture Reverse Engineering",
+    "authors": "Joseph Ravichandran, Mengjia Yan",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00141",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Fractal：专为微架构逆向工程设计的操作系统",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "Trevex: A Black-Box Detection Framework for Data-Flow Transient Execution Vulnerabilities",
+    "authors": "Daniel Weber, Fabian Thomas, Leon Trampert, Ruiyi Zhang, Michael Schwarz",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00135",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Trevex：面向数据流瞬态执行漏洞的黑盒检测框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "One Char to Rule Them All: Systematically Exploring and Exploiting DNS Silent Vulnerabilities in Domain Name Resolution",
+    "authors": "Fasheng Miao, Xiang Li, Changqing An, Wenbin Xu, Jilong Wang",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00260",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一字驭万物：系统性探索与利用域名解析中的DNS静默漏洞",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "CAAI-ST: Constraint-Aware AI-Guided Seed Generation and Mutation for CPS-UAV System Testing",
+    "authors": "Arham Riaz, Taohong Zhu, Youcheng Sun",
+    "publish": "Proceedings of the 19th ACM/IEEE International Workshop on Search-Based and Fuzz Testing",
+    "url": "https://doi.org/10.1145/3786155.3795703",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "CAAI-ST：面向CPS-UAV系统测试的约束感知AI引导种子生成与变异",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "zkFuzz: Foundation and Framework for Effective Fuzzing of Zero-Knowledge Circuits",
+    "authors": "Hideaki Takahashi, Jihwan Kim, Suman Jana, Junfeng Yang",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00049",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "zkFuzz：零知识电路高效模糊测试的基础与框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-1",
+    "title": "PILOT: Command-Line Interface Fuzzing Via Path-Guided, Iterative Large Language Model Prompting",
+    "authors": "Momoko Shiraishi, Yinzhi Cao, Takahiro Shinagawa",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00211",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "PILOT：通过路径引导的迭代式大语言模型提示实现命令行接口模糊测试",
+    "abstract_zh": "None"
+  }
+]
