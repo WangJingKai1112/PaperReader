@@ -1,0 +1,189 @@
+[
+  {
+    "date": "2026-07-02",
+    "title": "Search-based Testing of Vision Language Models for In-Car Scene Understanding",
+    "authors": "Lev Sorokin, Chen Yang, Ken E. Friedl, Andrea Stocco",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.02300v1",
+    "source": "arXiv",
+    "abstract": "In the automotive domain, in-car scene understanding (ISU) enables the detection of safety-critical events, such as driver distraction, and supports drivers or passengers by analyzing the in-car scene and adapting the environment (e.g., ambient lighting). The industry is increasingly exploring vision-language models (VLMs) to interpret camera-recorded in-car scenes and extract information for downstream reasoning tasks. However, VLMs may generate incomplete, erroneous, or misleading scene descriptions, highlighting the need for systematic testing. Collecting real in-vehicle data is costly, difficult to scale, and often infeasible, particularly in early design stages. In this paper, we present ISU-Test, an automated testing approach that combines rendering-based scene generation with search-based testing to evaluate ISU systems. By framing testing as an optimization problem and systematically modifying scene parameters, our method generates diverse in-car scenarios and explores a wide range of configurations. We evaluate ISU-Test on both an industrial prototype and open-source VLMs across two case studies: question answering and captioning, comparing against randomized scenario generation. Results show that ISU-Test significantly outperforms the baseline, achieving up to 10 times higher failure rates and up to 3.6 times higher failure coverage.",
+    "title_zh": "基于搜索的车内场景理解视觉语言模型测试",
+    "abstract_zh": "在汽车领域，车内场景理解（ISU）能够检测诸如驾驶员分心等安全关键事件，并通过分析车内场景和调整环境（如环境照明）来辅助驾驶员或乘客。业界正越来越多地探索使用视觉语言模型（VLMs）来解读摄像头记录的车内场景，并提取信息以支持下游推理任务。然而，VLMs可能会生成不完整、错误或有误导性的场景描述，这凸显了进行系统性测试的必要性。收集真实车内数据成本高昂、难以大规模实施，且往往不可行，尤其是在早期设计阶段。本文中，我们提出了ISU-Test，这是一种将基于渲染的场景生成与基于搜索的测试相结合的自动化测试方法，用于评估车内场景理解系统。通过将测试构建为一个优化问题并系统性地修改场景参数，我们的方法能够生成多样化的车内场景，并探索广泛的配置组合。我们在工业原型和开源VLMs上对ISU-Test进行了评估，涵盖了两个案例研究：问题解答与图像描述，并与随机场景生成方法进行了对比。结果表明，ISU-Test显著优于基线方法，其故障率高出最多10倍，故障覆盖率高出最多3.6倍。"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "TestEvo-Bench: An Executable and Live Benchmark for Test and Code Co-Evolution",
+    "authors": "Jiale Amber Wang, Kaiyuan Wang, Pengyu Nie",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.02469v1",
+    "source": "arXiv",
+    "abstract": "Software tests and code evolve together: a code change should be followed by new or updated tests that record the new software behavior. Yet existing test generation and update benchmarks often isolate the test from the code change, and rely on static metadata that does not verify whether a test is executable or semantically tied to the code change. This makes it difficult to evaluate whether a test automation agent understands how a code change should propagate into the test suite. We introduce TestEvo-Bench, a benchmark of test and code co-evolution tasks mined from software repositories, with two tracks: in test generation, the agent shall write new tests to capture the new software behavior; in test update, the agent shall adapt failing existing tests to the changed software behavior. Each task is anchored to a real commit history and packaged with environment configuration to support execution-grounded metrics such as pass rate, coverage, and mutation score. TestEvo-Bench is also a live benchmark: each task records the timestamp of the test and code changes, and new tasks are periodically mined by our automated pipeline, so evaluation can be restricted to tasks postdating a model's training cutoff to reduce data leakage risk. The current snapshot contains 746 test generation and 509 test update tasks, curated from 59,950 candidate co-evolution records across 152 open-source Java projects. We experiment with four state-of-the-art agents that combine strong harnesses (Claude Code, Gemini CLI, and SWE-Agent) with strong foundation models (Claude Opus 4.7 and Gemini 3.1 Pro). Results show that they achieve up to 77.5% success rate on test generation and 74.6% on test update. However, success rate is materially lower on the most recent benchmark tasks and drops significantly under limited per-task cost.",
+    "title_zh": "TestEvo-Bench：一个可执行且动态的测试与代码协同演进基准",
+    "abstract_zh": "软件测试与代码协同演进：每次代码变更都应附带新增或更新的测试，用以记录新的软件行为。然而，现有的测试生成与更新基准往往将测试与代码变更割裂开来，并依赖静态元数据，无法验证测试是否可执行或是否在语义上与代码变更相关。这导致难以评估测试自动化代理是否理解代码变更应如何体现到测试套件中。为此，我们推出了 TestEvo-Bench，一个从软件仓库中挖掘而来、专注于测试与代码协同演进任务的基准，包含两个赛道：在测试生成任务中，代理需编写新测试来覆盖新的软件行为；在测试更新任务中，代理需将失败的现有测试适配至已改变的软件行为。每个任务都锚定在真实的提交历史上，并配备了环境配置，以支持基于执行的指标，如通过率、覆盖率和变异评分。TestEvo-Bench 还是一个持续更新的基准：每个任务都记录了测试与代码变更的时间戳，新任务由我们的自动化流水线定期挖掘，因此评估可以限定在晚于模型训练截止日期的任务上，从而降低数据泄露风险。当前的快照包含 746 个测试生成任务和 509 个测试更新任务，精选自 152 个开源 Java 项目中 59,950 条候选协同演进记录。我们使用四种结合了强大代理框架（Claude Code、Gemini CLI 和 SWE-Agent）与强大基础模型（Claude Opus 4.7 和 Gemini 3.1 Pro）的当前最优代理进行实验。结果显示，它们在测试生成任务上的成功率最高达 77.5%，在测试更新任务上最高达 74.6%。然而，对于最新的基准任务，成功率明显更低，并且在每任务有限的预算下，成功率会大幅下降。"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "SkillFuzz: Fuzzing Skill Composition for Implicit Intents Discovery in Open Skill Marketplaces",
+    "authors": "Jinwei Hu, Yi Dong, Youcheng Sun, Xiaowei Huang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.02345v1",
+    "source": "arXiv",
+    "abstract": "Large Language Model (LLM)-based agents increasingly automate software engineering tasks through reusable skills, natural-language instruction documents that guide planning and execution. Open skill marketplaces enable users to assemble agents by co-activating community-contributed skills, but marketplace operators typically audit skills in isolation. As a result, individually benign skills may interact to redirect an agent toward unintended objectives, which we term implicit intents. Detecting such intents is challenging because the effect emerges only through skill composition, execution environments are often unavailable at admission time, and the space of possible co-activations grows exponentially with marketplace size. In this paper, we formulate implicit-intent discovery as a fuzzing problem over skill compositions, where skill compositions are the unit under test, planning artifacts expose agent intent before execution, and deviations from a skill-free baseline serve as a differential oracle. Based on this formulation, we propose skillfuzz, the first execution-free testing approach that extracts structured skill contracts and uses contract-guided Monte Carlo Tree Search to prioritize potentially conflicting compositions. Across representative skill-marketplace workloads, skillfuzz discovers over 1,000 distinct implicit intents under a fixed query budget, confirms more than 80% of the highest-risk flagged compositions during execution-time validation, and identifies substantially more high-severity implicit intents than alternative search strategies while exploring only a fraction of the pairwise interaction space they require.",
+    "title_zh": "SkillFuzz: 面向开放技能市场中隐式意图发现的技能组合模糊测试",
+    "abstract_zh": "基于大语言模型（LLM）的智能体通过可复用技能（即指导规划与执行的自然语言指令文档）逐渐实现软件工程任务的自动化。开放技能市场允许用户通过共同激活社区贡献的技能来组装智能体，但市场运营方通常仅对技能进行孤立审查。因此，单独看似无害的技能在组合时可能相互作用，将智能体引导至非预期的目标，我们称其为**隐含意图**。检测此类意图极具挑战，因为其效果仅在技能组合中显现，准入时往往无法获取执行环境，且随着市场规模增长，可能的共激活空间呈指数级扩大。本文将隐含意图发现形式化为一种针对技能组合的模糊测试问题，其中技能组合为被测单元，规划工件在执行前暴露智能体意图，与无技能基准的偏离构成差分预言。基于此，我们提出 **skillfuzz**，首个无需执行的测试方法，通过提取结构化技能合约，并利用合约引导的蒙特卡洛树搜索来优先识别潜在冲突的组合。在代表性的技能市场工作负载下，skillfuzz 在固定查询预算内发现了超 1,000 种独特的隐含意图，在执行时验证中确认了超过 80% 的最高风险标记组合，并在仅探索组合搜索所需的一小部分成对交互空间的情况下，识别出远超其他搜索策略的高严重性隐含意图。"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "Prompt Coverage Adequacy",
+    "authors": "Florian Tambon, Michael Konstantinou, Cedric Richter, Charles Chenouard, Mark Harman, Mike Papadakis",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.02057v1",
+    "source": "arXiv",
+    "abstract": "In recent years, it has become increasingly evident that large language models (LLMs) and autonomous agents raise the level of abstraction in software development by shifting the focus from writing precise procedures to expressing intents and goals. This paradigm shift introduces new challenges, particularly in how testing should be guided when prompts, rather than code, become primary development artifacts. To address this challenge, we propose Prompt Coverage Adequacy, a novel coverage criterion designed to support the testing of code generated from task descriptions. Prompt Coverage Adequacy serves as an analog to traditional code coverage, but operates at the level of prompts used in LLM and agent-based programming. Specifically, it measures how well a given test suite satisfies the requirements expressed in a prompt by leveraging the attention mechanisms of LLMs. We evaluate a simple instantiation of this criterion, based on attention boosting, across two datasets and multiple LLMs. Our results demonstrate that Prompt Coverage is associated with fault-detection effectiveness and can uncover over 30+% more faults than traditional code coverage when used to guide test generation. These findings suggest that Prompt Coverage Adequacy can serve as a foundation for developing testing metrics better suited to the emerging paradigm of LLM-driven software development, addressing the limitations of classical coverage criteria in this new context.",
+    "title_zh": "提示覆盖充分性",
+    "abstract_zh": "近年来，日益清晰的现象表明，大型语言模型（LLMs）与自主代理通过将开发重心从编写精确程序转向表达意图与目标，提升了软件开发的抽象层级。这种范式转变带来了新挑战，特别是在提示词而非代码成为主要开发产物时，如何指导测试工作。为应对这一挑战，我们提出**提示覆盖率充分性**——这是一种旨在支持由任务描述生成代码的新型覆盖准则。提示覆盖率充分性类似于传统代码覆盖率，但作用于LLM及基于代理的编程中提示词层面。具体而言，它通过利用大语言模型的注意力机制，衡量给定测试套件对提示词所表达需求的满足程度。我们在两个数据集和多个大语言模型上评估了基于注意力增强的该准则简化实例。结果表明，提示覆盖率与缺陷检测有效性显著相关，且当用于指导测试生成时，可比传统代码覆盖率多发现30%以上的缺陷。这些发现表明，提示覆盖率充分性可为开发更适合LLM驱动型软件开发范式的测试度量标准奠定基础，从而解决经典覆盖准则在新语境中的局限性。"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "Knowledge Over Parameters: Evolving Smart Contract Vulnerability Detection",
+    "authors": "Yuqiang Sun, Han Liu, Ying Li, Yiran Zhang, Zong Cao, Ziyun Guo, Yang Liu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.01742v1",
+    "source": "arXiv",
+    "abstract": "Smart contract vulnerabilities are predominantly logic bugs whose detection requires structured, step-by-step procedural knowledge of attack patterns and contract semantics. Existing LLM-based methods struggle to generate this knowledge automatically: prompt-based methods rely on manually crafted detection rules, while fine-tuning requires massive labeled datasets that are inherently scarce in this domain. We present EvoVuln, an automated framework that reformulates vulnerability detection as a procedural knowledge evolution problem, synthesizing and refining detection logic using only a minimal number of labeled samples. To achieve this, EvoVuln introduces two key mechanisms. First, a Runtime with an Inversion of Control (IoC) architecture compiles detection rules into Executable Policies. This strictly decouples deterministic control flow from LLM semantic reasoning, ensuring faithful logical adherence and producing dense diagnostic telemetry for precise error localization. Second, a two-phase evolution pipeline refines the rule via abductive semantic debugging without any parameter updates: Cold Start bootstraps and stress-tests an initial rule using auto-synthesized corner cases; Few-Shot Evolving then grounds the policy in real-world semantics using only five vulnerable and five safe examples per vulnerability type. Evaluated across five real-world vulnerability types, EvoVuln achieves a 71% macro-average F1-score, outperforming all baselines. The evolved procedural knowledge is portable across models: it enables a lightweight, low-cost model to surpass a much larger zero-shot model by 19 percentage points, and transfers to other LLMs without retraining, at a one-time evolution cost under $50.",
+    "title_zh": "知识超越参数：智能合约漏洞检测的演进",
+    "abstract_zh": "智能合约漏洞主要是逻辑错误，其检测需要结构化、逐步的攻击模式程序性知识及合约语义。现有基于大语言模型的方法难以自动生成此类知识：基于提示的方法依赖人工编写的检测规则，而微调则需要大规模标注数据集，但这类数据在该领域本就稀缺。我们提出 EvoVuln，这是一个自动化框架，将漏洞检测重新定义为程序性知识演化问题，仅用极少量标注样本即可合成与精炼检测逻辑。为此，EvoVuln 引入两个关键机制。首先，基于控制反转架构的运行时将检测规则编译为可执行策略，严格分离确定性控制流与大语言模型的语义推理，确保逻辑忠实执行，并产生密集的诊断遥测数据，以实现精准错误定位。其次，一个两阶段演化管线通过外展语义调试精炼规则，而无需任何参数更新：冷启动阶段用自动合成的边界用例引导初始规则并进行压力测试；少样本演化阶段则仅使用每类漏洞五个漏洞样本与五个安全样本，将策略根植于真实语义中。在五种真实世界漏洞类型上的评估表明，EvoVuln 达到 71% 的宏平均 F1 分数，优于所有基线方法。演化后的程序性知识可跨模型移植：它使轻量级、低成本的模型比规模大得多的零样本模型高出 19 个百分点，并且无需重新训练即可迁移到其他大语言模型，单次演化成本低于 50 美元。"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "VeriChat: An Agentic Conversational AI Assistant for Hardware Security Verification",
+    "authors": "Dipayan Saha, Khan Thamid Hasan, Shams Tarek, Sujan Kumar Saha, Mark Tehranipoor, Farimah Farahmandi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.01668v1",
+    "source": "arXiv",
+    "abstract": "Hardware security verification is a multi-stage process in which engineers must navigate complex design analyses, threat considerations, and verification strategies. They often need security-focused guidance, yet current verification environments provide little structured support for such assistance. Although conversational AI could offer such on-demand assistance, directly using general-purpose chatbots like ChatGPT or Gemini is risky due to their tendency to hallucinate and their reliance on static, outdated knowledge. We present VeriChat, a domain-specialized conversational assistant designed to support, rather than replace, existing verification workflows by providing context-aware security guidance. VeriChat employs a retrieval-augmented, multi-agent workflow in which three specialized agents collaboratively minimize hallucinations while improving the transparency and reliability of the response. Beyond question answering, VeriChat integrates open-source EDA tools, including Icarus Verilog, Yosys, and SymbiYosys, to perform syntax checking, synthesis analysis, simulation, and formal verification directly on user-provided RTL designs. Evaluated using a comprehensive methodology, VeriChat achieves a Faithfulness score of 87.73%, significantly outperforming the leading proprietary models. We demonstrate the framework through a hardware Trojan detection case study on an AES S-Box IP, where VeriChat autonomously identifies, simulates, and formally proves a covert key-leakage vulnerability through a multi-turn conversational workflow.",
+    "title_zh": "VeriChat：面向硬件安全验证的代理式对话AI助手",
+    "abstract_zh": "硬件安全验证是一个多阶段流程，工程师必须在其中驾驭复杂的设计分析、威胁考量与验证策略。他们往往需要安全导向的指导，但现有的验证环境很少为此类辅助提供结构化支持。虽然对话式AI能够提供这种按需协助，但直接使用ChatGPT或Gemini等通用聊天机器人存在风险，因为它们容易生成虚假信息且依赖静态、过时的知识。我们推出了VeriChat，这是一款领域专用对话助手，旨在通过提供上下文感知的安全指导来支持而非取代现有验证工作流。VeriChat采用检索增强的多智能体工作流，其中三个专业智能体协同减少信息失真，同时提升响应的透明度和可靠性。除了问答功能，VeriChat还集成Icarus Verilog、Yosys和SymbiYosys等开源EDA工具，可直接对用户提供的RTL设计执行语法检查、综合分析、仿真和形式化验证。通过综合评估方法测定，VeriChat的忠实度评分达87.73%，显著优于主流商业模型。我们通过AES S-Box IP的硬件木马检测案例展示该框架，其中VeriChat通过多轮对话工作流，自主识别、模拟并形式化证明了一个隐蔽的密钥泄露漏洞。"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "Mastermind: Strategy-grounded Learning for Repository-Scale Vulnerability Reproduction",
+    "authors": "Mingzhe Du, Luu Anh Tuan, Tianyi Wu, Renyang Liu, Zhijiang Guo, Dong Huang, See-Kiong Ng",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.01764v1",
+    "source": "arXiv",
+    "abstract": "Repository-level vulnerability reproduction is a demanding software engineering (SE) task: an agent must inspect a codebase, infer the input grammar that reaches a vulnerable path, construct a proof-of-conceptv(PoC), and verify that the crash disappears on the patched build. Recent LLM agents can often execute these steps when the approach is correct, yet they still fail by choosing the wrong strategy. This paper argues that strategy, rather than the full action trajectory, is the right learning unit for such SE agents: it is compact enough to optimize, concrete enough to guide execution, and stable enough to store and reuse across attempts. We present Mastermind, a dual-loop framework that separates transferable strategy learning from task-specific experience. A trainable planner learns reusable vulnerability-reproduction strategies through SFT and milestone-based GRPO, while an experience loop maintains task-local strategy records that guide subsequent attempts. The planner is trained independently of the executor, allowing strategy learning to improve multiple frozen executors without modifying their action-generation capability. We evaluate Mastermind on CyberGym using 260 training tasks and 200 held-out evaluation tasks. With GPT-5.5 as the frozen executor, Mastermind achieves an 84.5% pass rate, outperforming open-book PoC context (60.0%), Best-of-8 sampling (63.0%), and iterative improvement (77.0%). The same planner also improves GPT-5.4 mini and GLM~5.1 from 45.0% and 58.5% to 60.0% and 71.0%. These results demonstrate that learning high-level strategies is an effective and transferable mechanism for improving repository-scale SE agents.",
+    "title_zh": "Mastermind：策略驱动的仓库级漏洞复现学习",
+    "abstract_zh": "仓库级别漏洞复现是一项高要求的软件工程任务：智能体必须检查代码库，推断可抵达漏洞路径的输入文法，构造概念验证（PoC），并验证崩溃在已打补丁的构建中消失。近期的大语言模型智能体在方法正确时通常能执行这些步骤，但仍会因策略选择错误而失败。本文认为，策略而非完整行动轨迹，才是此类软件工程智能体恰当的学习单元：它足够紧凑可优化，足够具体能指导执行，且足够稳定可跨尝试存储复用。我们提出Mastermind，一种将可迁移策略学习与任务特定经验分离的双环框架。可训练规划器通过监督微调和基于里程碑的分组相对策略优化学习可复用的漏洞复现策略，而经验环则维护任务局部策略记录以指导后续尝试。规划器与执行器独立训练，使策略学习能在不修改多个冻结执行器行动生成能力的情况下提升其表现。我们在CyberGym上使用260个训练任务和200个留存评估任务测试Mastermind。以GPT-5.5为冻结执行器时，Mastermind达到84.5%的通过率，优于开源PoC上下文（60.0%）、八选一采样（63.0%）和迭代改进（77.0%）。同一规划器还将GPT-5.4 mini和GLM~5.1的通过率分别从45.0%和58.5%提升至60.0%和71.0%。这些结果表明，学习高层策略是提升仓库级软件工程智能体的有效且可迁移的机制。"
+  },
+  {
+    "date": "2026-7-2",
+    "title": "AI-Assisted Semantic Modeling of Languages for Symbolic Execution Driven Unit Test Generation",
+    "authors": "Mokshith Reddy Tanguturi, Atul Kumar, Nandakishore Menon, Sridhar Chimalakonda",
+    "publish": "2026 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+    "url": "https://doi.org/10.1109/saner67736.2026.00020",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向符号执行驱动单元测试生成的AI辅助语言语义建模",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-2",
+    "title": "Leveraging Enhanced Test-Driven Development for Accurate Code Generation in LLMs",
+    "authors": "Rui Zhang, Weijie Shan, Ce Fu, Teng Long",
+    "publish": "2026 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+    "url": "https://doi.org/10.1109/saner67736.2026.00089",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "增强型测试驱动开发助力LLM精准代码生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-2",
+    "title": "Preserving Concurrency-Revealing Seeds in Fuzzing of Concurrent Programs via Tuple-Based Coverage Evaluation",
+    "authors": "Junjie Huang, Cheng Wen, Jie Su, Zhiwu Xu, Bin Yu, Shengchao Qin, Cong Tian",
+    "publish": "2026 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+    "url": "https://doi.org/10.1109/saner67736.2026.00096",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "在并发程序模糊测试中，通过基于元组的覆盖评估方法保留能揭示并发性的种子。",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-2",
+    "title": "Prioritized MC/DC Framework for Early Fault Detection in Safety-Critical Software",
+    "authors": "Alişan Aygar, Cansu Bozkurt, Mehmet Tahir Sandıkkaya",
+    "publish": "2026 15th Mediterranean Conference on Embedded Computing (MECO)",
+    "url": "https://doi.org/10.1109/meco70748.2026.11579148",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向安全关键软件早期故障检测的优先MC/DC框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-2",
+    "title": "Static Analysis Traces can Help Dynamic Symbolic Execution: a Replication Study",
+    "authors": "Sriteja Kummita, Fabian Schiebel, Eric Bodden, Miao Miao, Shiyi Wei",
+    "publish": "2026 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+    "url": "https://doi.org/10.1109/saner67736.2026.00114",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "静态分析轨迹可以帮助动态符号执行：一项复现研究",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-2",
+    "title": "Harnessing MPI mutations for AI error detection",
+    "authors": "Asia Auville, Tim Jammer, Eric Petit, Pablo de Oliveira Castro, Emmanuelle Saillard, Mihail Popov",
+    "publish": "Proceedings of the 40th ACM International Conference on Supercomputing",
+    "url": "https://doi.org/10.1145/3797905.3807863",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "利用 MPI 突变进行人工智能错误检测",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-2",
+    "title": "Temporal Requirement Formalization Using Large Language Models",
+    "authors": "Zhiyuan Hu, Wei Ma, Qiang Wang, Lingxiao Jiang, Dongsheng Li",
+    "publish": "2026 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+    "url": "https://doi.org/10.1109/saner67736.2026.00099",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "利用大型语言模型进行时序需求形式化",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-2",
+    "title": "Path-Optimal Symbolic Execution of Heap-Manipulating Programs",
+    "authors": "Pietro Braione, Giovanni Denaro, Luca Guglielmo",
+    "publish": "2026 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+    "url": "https://doi.org/10.1109/saner67736.2026.00112",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "堆操作程序的路径最优符号执行",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-2",
+    "title": "Coverage-Guided Road Selection and Prioritization for Efficient Testing in Autonomous Driving Systems",
+    "authors": "Qurban Ali, Andrea Stocco, Leonardo Mariani, Oliviero Riganelli",
+    "publish": "2026 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+    "url": "https://doi.org/10.1109/saner67736.2026.00041",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "覆盖引导的道路选择与优先级排序以实现自动驾驶系统的高效测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-2",
+    "title": "MutEval: NL-PL Prompt Mutation Framework for Robustness Evaluation of Code LLMs",
+    "authors": "Lavanya Sharma, Heer Kubadia, Anura Mantri, Shouvick Mondal",
+    "publish": "2026 IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+    "url": "https://doi.org/10.1109/saner67736.2026.00092",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "MutEval: 面向代码大语言模型鲁棒性评估的 NL-PL 提示变异框架",
+    "abstract_zh": "None"
+  }
+]
