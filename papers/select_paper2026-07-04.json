@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-7-5",
+    "title": "SecMutBench: Evaluating LLM-Generated Security Tests via Mutation-Based Vulnerability Detection",
+    "authors": "Mariam ALMutairi, Chang-Tien Lu",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814933",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SecMutBench：通过基于变异的漏洞检测评估大语言模型生成的安全测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-4",
+    "title": "Metamorphic Testing of Research Software with GeoMetaMorph",
+    "authors": "Sebastian Müller",
+    "publish": "Proceedings of the 2026 1st International Workshop on Software Engineering and Research Software",
+    "url": "https://doi.org/10.1145/3786172.3788372",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "利用GeoMetaMorph进行研究软件的蜕变测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Testing AIware Systems: A Software Engineering Survey",
+    "authors": "Karla Gonzalez, Mariam El Mezouar",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814894",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "测试AI软件系统：软件工程综述",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "TOGBench: A Developer-Written Multi-variant Dataset and Benchmark Suite for Test Oracle Generation",
+    "authors": "Tasfia Tasnim, Matthew B. Dwyer, Soneya Binta Hossain",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814927",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "TOGBench：一个由开发者编写的多变量数据集与测试预言生成基准套件",
+    "abstract_zh": "无"
+  }
+]
