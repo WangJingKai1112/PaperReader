@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-7-5",
+    "title": "Fixpad++: Automated Bug Fix Verification using LLM Agents",
+    "authors": "Mustafa Özkan İr, Mehmet Dedeler, Anıl Koyuncu, Eray Tüzün",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814915",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Fixpad++：使用LLM智能体的自动化缺陷修复验证",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "SecMutBench: Evaluating LLM-Generated Security Tests via Mutation-Based Vulnerability Detection",
+    "authors": "Mariam ALMutairi, Chang-Tien Lu",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814933",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SecMutBench：通过基于变异的漏洞检测评估LLM生成的安全测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Testing AIware Systems: A Software Engineering Survey",
+    "authors": "Karla Gonzalez, Mariam El Mezouar",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814894",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "测试AIware系统：软件工程综述",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "TOGBench: A Developer-Written Multi-variant Dataset and Benchmark Suite for Test Oracle Generation",
+    "authors": "Tasfia Tasnim, Matthew B. Dwyer, Soneya Binta Hossain",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814927",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "TOGBench：一个面向测试预言生成的、由开发者编写的多变体数据集与基准测试套件",
+    "abstract_zh": "None"
+  }
+]

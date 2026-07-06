@@ -1,0 +1,2738 @@
+[
+  {
+    "date": "2026-7-5",
+    "title": "JunoBench: A Benchmark Dataset of Crashes in Python Machine Learning Jupyter Notebooks",
+    "authors": "Yiran Wang, José Antonio Hernández López, Ulf Nilsson, Dániel Varró",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814934",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Diagnosing Debugging: The ECDM Framework for Designing Diagnostic Cases in Simulation-Based Teacher Training",
+    "authors": "Viviane Rehor, Heike Wachter, Annabel Wolf, Christian Hartmann, Maria Bannert, Tilman Michaeli",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809348",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Assessing Computing Teachers' Self-efficacy to Teach about Neural Networks in Schools in Ghana: A Quantitative Study",
+    "authors": "Salomey Afua Addo, Sue Sentance",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809356",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Exploring the AI Principles-to-Practices Gap with an Interactive AI Alignment Lab",
+    "authors": "James Weichert",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811967",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Agency for Whom and To What Ends: A Plan for Investigating Impacts of Agentic AI in Computing Education",
+    "authors": "Janice Mak, Tony Clear, Tingting Zhu, Alison Clear, Oana Andrei, Martin Goodfellow, Asanthika Imbulpitiya, Elizabeth Oladapo, Aadarsh Padiyath, Jose Antonio Pow-Sang, Rebecca Williams",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812047",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A Systematic Literature Mapping of Gender Bias Towards Instructors in Computer Science Education",
+    "authors": "Zuhal Olomi, Yuseon Jeong, Nevin Ada Çakmak, Deepti Gorrepati, Brian Harrington",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812025",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A Longitudinal Study of Students in a Work-Based Learning Program",
+    "authors": "Sebastian Dziallas, Matthew Barr",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809320",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Deterministic vs. LLM-Controlled Orchestration for COBOL-to-Python Modernization",
+    "authors": "Naing Oo Lwin, Rajesh Kumar",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814891",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Towards Improving CS Students' Generative AI Literacy",
+    "authors": "Bruno Pereira Cipriano, Olga Petrovska, Nuno Pombo, Lina Battestilli, Laura Farinetti, Richard Glassey, Maria Kasinidou, Olakunle Olayinka, Anshul Shah, Alexander Steinmaurer, Ramalakshmi Vaidhiyanathan, Weichert James",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812055",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "LiveC: A Living Curricula Framework for Agile and Responsive Computing Education",
+    "authors": "Alison Clear, Amruth N Kumar, Christian Servin, Judith Gal-Ezer",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812043",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Exploring Workforce-Informed Competency Pathways in Computing Education",
+    "authors": "Mihaela Sabin, Christian Servín, Svetlana Peltsverger, Vangel V. Ajanovski, Matthew Barr, Olga Glebova, Corinna Hörmann, Adri Jovin John Joseph, Bonnie K. MacKellar, Rajendra K. Raj, Charles Wallace, Tiffany Young",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812056",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Tikka: An Interpreter and Debugger for a Pedagogical Subset of Haskell",
+    "authors": "Alex Hobbs, Alex Dixon",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811988",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Multimodal Analogies for Learning Programming Concepts with Vision-Language Models",
+    "authors": "Sebastian Gürtl, Florian Schadner, Christian Guetl",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812022",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Club Zero: A Comprehensive Cybersecurity and Networking Fundamentals Simulator",
+    "authors": "Cesar Valenzuela, Ivan Alonso, Christian Servín",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811985",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Teaching Rendering and Modeling with AR/XR in Computer Graphics Courses",
+    "authors": "Dimitrij Mitja Hmeljak, Hardik Kotangale",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812028",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Empirical Studies on UML Sequence Diagrams in Education: A Systematic Literature Review",
+    "authors": "Sohail Alhazmi",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809381",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "The Process of Collaboratively Creating a Global Computing Education Terminology Resource with GenAI-in-the-Loop",
+    "authors": "Amruth N Kumar, Michael J Oudshoorn, Mohammed Seyam, Mor Friebroon-Yesharim, Rukiye Altin, Leonard Peter Binamungu, Karen Bradshaw, Carlos Cabrera, Nils Dyck, Malayam Parambath Gilesh, Paul He, Andreea Molnar, Jonathan Mwaura, Liviana Tudor",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812050",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Using the Potential of GenAI Tools for Accessibility",
+    "authors": "Natalie Kiesler, Bedour Alshaigy, Yasmine N. Elglaly, Ilenia Fronza, Alex Gerdes, Earl W. Huff, Sven Jacobs, Dominic Lohr, Raymond Pettit, Andreas Scholl, Sandra Schulz, David H. Smith",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812045",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Caliber: AI-Assisted Infrastructure for Mastery-Based Computer Science Education at Scale",
+    "authors": "Nikhil Kapasi, Derek Kirschbaum, Aryaman Singh, Diba Mirza",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811974",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "MiLLy: Embedding Pedagogical Agents inside Assignments",
+    "authors": "Richard Glassey, Olle Bälter, Christian Smith",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811963",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Executable but Unlearnable: Designing Code That Resists LLM-Based Learning",
+    "authors": "Viraaji Mothukuri, Reza M. Parizi",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814896",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Do Agents Dream of Root Shells? Partial-Credit Evaluation of LLM Agents in Capture the Flag Challenges",
+    "authors": "Ali Al-Kaswan, Maksim Plotnikov, Maxim Hájek, Roland Vízner, Arie van Deursen, Maliheh Izadi",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814926",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Diagram-Based Learning in Computing Education with Multimodal Language Models",
+    "authors": "Sebastian Gürtl",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811951",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Re-Engaging Near-Completion Informatics Students",
+    "authors": "Bettina Manuela Johanna Kern, Julia Kraus, Shabnam Tauböck",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812040",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A Framework for Integrating Generative AI in CS Courses",
+    "authors": "Vianey Martinez, Melina Salazar-Perez, Daniel Mejia",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811987",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Oral Examinations in CS - A Systematic Literature Map",
+    "authors": "Maria Motallebi, Iaroslav Abramov, Ahmad Zubair Alnoor, Awais Aziz, Yuxin Chen, Tianxu Kao, Zuhal Olomi, Anagha Vadarevu, Brian Harrington",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812024",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Why Near-Completion Informatics Students Do not Graduate: A Mixed-Methods Study",
+    "authors": "Bettina Manuela Johanna Kern, Julia Kraus, Shabnam Tauböck, Peter Knees",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809347",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "3DGS in Web Gaming: The Shadow of the Czar",
+    "authors": "James Clifford Kane",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812457",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "AgenticFlict: A Large-Scale Dataset of Merge Conflicts in AI Coding Agent Pull Requests on GitHub",
+    "authors": "Daniel Ogenrwot, John Businge",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814923",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Neural-Symbolic Multi-objective Optimization for Performance-Aware ORM Database Design",
+    "authors": "Sasan Azizian, Ayoub Hazrati, Artin Azizian, Elham Rastegari, Hamid Bagheri, Juan Cui",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814921",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "How Robustly Do LLMs Understand Execution Semantics?",
+    "authors": "Claudio Spiess, Prem Devanbu, Earl T. Barr",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814919",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "AI-Generated Traces for Novice Programmers: Learning Effects and Learner Differences in a Multi-Institutional Study",
+    "authors": "Yuri Noviello, Naaz Sibia, Anastasiia Birillo, Thomas Overklift Vaupel Klein, Michael Liut, Gosia Migut",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809346",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Q-Aware: A Lightweight Crosscutting Track for Preparing Quantum-Aware Software Developers",
+    "authors": "Ali Ebnenasir, Görkem Aşılıoğlü, Ruihong Zhang, Stella Otoo, Charles Wallace",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809361",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Effects of Mastery-Inspired Checkpoint Quizzes in a Large Introductory CS Course: A Mixed Methods Study",
+    "authors": "Sadia Sharmin, Paul He",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809375",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Assessing Best Practices Adherence in Software Engineering Education Through Data-Driven Compliance Analytics",
+    "authors": "Javier Fernández-Castillo, José María García, José Antonio Parejo, Armando Fox, Pablo Fernandez",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812000",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Investigating Alignment Between Computing Students' Self-Reported and Verbalized Self-Regulated Learning Behaviors",
+    "authors": "Thomas Rexin, Christina L. Hollander, John Thomas Bacher, Michael Berro, Matthew L. Bernacki, Jeffrey A. Greene, Thomas Price",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809388",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "LLM-led Socratic Dialogues on Ethics in Computing",
+    "authors": "Rachel Cardell-Oliver, Claudia Szabo, Kaie Maennel, Hamish Russell",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809325",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Smells Like Memory: Reconstructing Virtual Autobiographical Spaces Through Scent in VR",
+    "authors": "Jiaxuan Olivia Yin",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812471",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Accountable Agents in Software Engineering: An Analysis of Terms of Service and a Research Roadmap",
+    "authors": "Christoph Treude",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814889",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Zombie Agents: Detecting Semantic Livelock in Long-Horizon Autonomous Software",
+    "authors": "Simarjot Khanna",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814895",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "VeriTrans: Fine-Tuned LLM-Assisted NL→PL Translation via a Deterministic Neuro-symbolic Pipeline",
+    "authors": "Xuan Liu, Dheeraj Kodakandla, Kushagra Srivastva, Mahfuza Farooque",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814906",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Exploring Upper Elementary Students' Debugging Strategies in Scratch",
+    "authors": "Yerika Jimenez, Christina Gardner-McCune, Karen Tong, Joseph B. Wiggins",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809360",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Programming is on Fire: Can CS Education Handle the Heat?",
+    "authors": "Carlos Delgado Kloos",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809403",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Replicating the Prerequisite-Outcome Correlation Patterns",
+    "authors": "Lisa Zhang, Sophia Krause-Levy, Andrew Petersen",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812017",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Preliminary Reflections on a Situated View of Socio-Ethical Competences in Computer Science Education",
+    "authors": "Lorenzo Lin Angeli",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812030",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Investigating the Impact of Student Usage of Generative AI Tools in Computing Courses",
+    "authors": "Valeria Ramirez Osorio, Ido Ben Haim, Ahmed Ashraf, Mohammad Mahmoud, Peter Dixon, Bogdan Simion, Michael Liut, Angela Zavaleta Bernuy",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809310",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Community-Centered AI Integration with Students as Co-Designers and Co-Builders",
+    "authors": "Bryan Sturdivant, Ryan Brown, Greg L. Nelson",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809399",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Visual Instruments for Live Cinema: Turning Process into Performance",
+    "authors": "Kevin Peter He",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812467",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "AI WAR CLOUD DATABASE",
+    "authors": "Samir Ghosh, Sarah Ciston",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812462",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Fixpad++: Automated Bug Fix Verification using LLM Agents",
+    "authors": "Mustafa Özkan İr, Mehmet Dedeler, Anıl Koyuncu, Eray Tüzün",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814915",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Artifact Readiness Gates with Saturation Stop Rules and Host-Parity Admissibility for FM Release Evaluation",
+    "authors": "Yanick Kanyiki",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814901",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "The Role of Calculus I in Computer Science Education",
+    "authors": "Animesh Gurjar, Albert Lionelle, Alexander Hulpke, Craig Partridge",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809328",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Java vs. Kotlin in Introductory OOP: Effects on Student Performance and Motivation",
+    "authors": "Alexander Dobrynin, Christian Kohls",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809333",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Ethical Compliance Audit of LLMs Used as Computing Education Tools: An Evaluation Under ACM Standards",
+    "authors": "Francisco José Anillo Carrasco, Andreea M. Oprescu, María del Camen Romero Ternero",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812005",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Towards a Scoping Review of Interpretivism in Computer Science Education.",
+    "authors": "Julia Crossley, Abigail Evans, Shira Abramovich, Maja Dornbusch, Gregor Große-Bölting, Audrey Le Meur, Jeremy A. Magruder Waisome, Michael T. Rücker, Muhammad Usman",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812049",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Enhancing Computer Science Transfer Pathways with an AI Chatbot in Program Pathways Mapper",
+    "authors": "Kathy Kanemoto",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812041",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "The Neural Bridge: From Haptic Cords to Python Code  A Multi-Abstraction Instructional Sequence for Teaching Neural Networks in K-12",
+    "authors": "Frauke Ritter, Lukas Lehner, Ivo Betten, Sebastian Berk",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811980",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Artifact-Based Computing Ethics Education: Bridging Analysis and Practice",
+    "authors": "Nandini Talukdar, James Weichert",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811977",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Ancestral Craft and Emerging Technologies: Designing Futures from Place",
+    "authors": "gabriela bila advincula, Jonny Cohen",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812473",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Which Story Mode Works Best? Measuring Preference and Switching in a Quest-Based Course",
+    "authors": "Sing Chun Lee",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812011",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Student-developed Collective Coding Guides in Disciplinary Computing",
+    "authors": "Patti Hamerski, Luke Nearhood",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809395",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Data Systems Education in Finland: Aligning Higher Education with Industry Expectations",
+    "authors": "Nea Peltola, Toni Taipalus",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809334",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3799822",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Beyond One-Size-Fits-All Exercises: Personalizing Computer Science Worksheets with Large Language Models",
+    "authors": "Franco Ortiz, Runlong Ye, Michael Liut",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809330",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "AI-Assisted Programming Learning",
+    "authors": "Mubina Kamberovic",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811943",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Epistemic Programming as a Scientific Field: Building a Community of Practice and an Interaction-Based Framework",
+    "authors": "Sven Hüsing, Line Have Musaeus, Michael E. Caspersen, Carsten Schulte, Erik Barendsen, Nataša Grgurina, Matthias Hauswirth, Violetta Lonati, Murali Mani, Mattia Monga, Heidi Nobles, Scott Reckinger, Devin W. Silvia, Sören Sparmann",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812051",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Documenting K-12 CS Education Around The World",
+    "authors": "Sue Sentance, Claire Johnson, Laurie Gale",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812037",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Mapping the Research on Collaboration in Computing Courses",
+    "authors": "Yuhan Pan, Max Cui, Jamie Hvizdos, Yuseon Jeong, Yee Shun (Anson) Kwok, Maliha Lodi, Roozbeh Yadollahi, Ruhika (Rue) Sriharsha, Brian Harrington",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812029",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "To Tab or Not to Tab: Measuring Critical Engagement in AI Code Completion Tools Using Behavioral Signals and Attention Checks",
+    "authors": "Jessica Hutchison, Ian Tyler Applebaum, Kenneth Angelikas, Kush Rakesh Patel, Phuoc Nguyen, Antonio Lazaro, Nicholas Rucinski, Rahad Arman Nabid, Stephen MacNeil",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809394",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "SecMutBench: Evaluating LLM-Generated Security Tests via Mutation-Based Vulnerability Detection",
+    "authors": "Mariam ALMutairi, Chang-Tien Lu",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814933",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "REfact: Growing with Movement – A Hybrid Performance",
+    "authors": "Zelia ZZ Tan",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3820874",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Virtual Theatre: Producing Live Theatre on Virtual Stages",
+    "authors": "Joe Geigel, Stephen Butchko, Yosun Chang, Alex Coulombe, Jason Moore",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812463",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Beyond Make-and-Model: Simplifying IoT Network Management with Behavioral Metaclasses",
+    "authors": "Aleksandar Pasquini, Rajesh Vasa, Irini Logothetis, Hassan Habibi Gharakheili, Alexander Chambers, Minh Tran",
+    "publish": "ACM Transactions on Internet of Things",
+    "url": "https://doi.org/10.1145/3828665",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Chemistry Context Programming Activities for CS1",
+    "authors": "Meiying Qin, Hovig Kouyoumdjian, Jonatan Schroeder, Larry Yueli Zhang, Jade Atallah",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811955",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "A Dataset of Agentic AI Coding Tool Configurations",
+    "authors": "Matthias Galster, Seyedmoein Mohsenimofidi, Levi Böhme, Jai Lal Lulla, Muhammad Auwal Abubakar, Christoph Treude, Sebastian Baltes",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814922",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A Good Rubber Duck Does Not Quack: Designing Socratic Scaffolding in AI Tutors",
+    "authors": "Ayush Thonge, Aalok Thakkar",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809368",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Pre-Recorded 'Vivas' for Assessing Code Understanding Amidst AI-Assisted Programming",
+    "authors": "Filippos Pantekis, Olga Petrovska",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811969",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "From Fragmentation to Architecture: A Spiral Curriculum Model for Integrating Data Science into K-12 Education",
+    "authors": "Kairi Osula, Mart Laanpere",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812003",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Student Misconceptions and Strategies in Git/GitHub Processes",
+    "authors": "Lori Postner, Darci Burdge, Heidi J. C. Ellis, Stoney Jackson, Gregory W. Hislop, Wesley Shumar, Karl R. Wurst, Cam Macdonell, Grant Braught",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811998",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Co-creating Course Expectations with Students in a Computer Science Course",
+    "authors": "Daniel Cliburn",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812034",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Using LLM to Autograde Diagrams",
+    "authors": "Rafael Corsi Ferrao, Igor dos Santos Montagner, Mariana Silva, Craig Zilles",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811979",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Gendered Perceptions of Success in Computer Science",
+    "authors": "Mirela Gutica",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811990",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Failure is an Option: Growing Student Metacognition and Resilience in Undergraduate CS",
+    "authors": "Nathaly Verwaal, Marwah Ahmed, Janet Leahy, Leanne Wu",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811971",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A Virtual Lab for Learning AI Security and Adversarial Prompt Engineering",
+    "authors": "Dhanraj Jagadish Devadiga, Ievgeniia Kuzminykh, Hannah Cao, Bogdan Ghita",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809384",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "CS Undergraduate Women's Experiences in the First Year of Study",
+    "authors": "Lecia Barker, Noah Cowit",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809316",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Gender Gaps in CS1 Exams: The Role of Biased Question Framing",
+    "authors": "Aleksandr Popov, Marie A Vander Kloet, David Grellscheid",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809401",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Non-functional requirements: The issues online forum users are discussing about",
+    "authors": "Carolin Mombrey, Lara Kollikowski, Georg Herzwurm",
+    "publish": "Proceedings of the 9th ACM/IEEE International Workshop on Software-intensive Business",
+    "url": "https://doi.org/10.1145/3786158.3788559",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Scale, Concentration, and Entry Timing in the Shopify App Ecosystem",
+    "authors": "Fabrizio Assabese, Giuseppe Destefanis",
+    "publish": "Proceedings of the 9th ACM/IEEE International Workshop on Software-intensive Business",
+    "url": "https://doi.org/10.1145/3786158.3788552",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "COSETO: An Evidence-based AI Approach for Software Component Comparison",
+    "authors": "Mahdi Jaberzadeh Ansari, Ann Barcomb, Gouri Ginde, Syed Tauhid Ullah Shah",
+    "publish": "Proceedings of the 9th ACM/IEEE International Workshop on Software-intensive Business",
+    "url": "https://doi.org/10.1145/3786158.3788555",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Kubernetes Misconfigurations in the Wild: Taxonomy, Evolution, and Automated Repair with Large Language Models",
+    "authors": "Mostafa Anouar Ghorab, Ahmad Abdellatif, Mohamed Aymen Saied",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814908",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "When Performance is Not Learning: Evidence from Generative AI Use in Operating Systems Education",
+    "authors": "Daniel Silveira",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812012",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Hands-On Demonstration of Information Retrieval and Word Embeddings Using a Harry Potter Theme",
+    "authors": "Julius Gonsior, Jimmy Pöhlmann, Claudio Hartmann, Wolfgang Lehner",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811968",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Enabling Student Ownership of LLM-Use through Team Contracts",
+    "authors": "Floris Westerman, Sarah Carruthers",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811958",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Virtual Reality, Real Challenges: Lessons Learnt from a VR Deployment In-the-Wild",
+    "authors": "Ruchi Sembey, Roberto Martinez-Maldonado, John Grundy",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812008",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Teaching Theory of Computation in the STEM K-12 Curricula Through Impossibility and Undecidability Problems",
+    "authors": "Rafael del Vado Vírseda",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809304",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Impact of Instructor Gender on Student Perceptions of Coding Demonstration Videos",
+    "authors": "Deepti Gorrepati, Nevin Ada Çakmak, Yuseon Jeong, Zuhal Olomi, Brian Harrington",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809393",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Not Yet for Students: What Current Educator Prompting Practices Reveal About Pedagogical Gaps in LLM-Generated Feedback",
+    "authors": "Eyman Alyahyan, Mireilla Bikanga Ada",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809357",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Learning to Assess Software Quality: A Metric-Guided Peer Code Review Tool for Large-Scale Software",
+    "authors": "Adam Tillou, Praise O. Mayor, Scott Rixner, Rebecca Schreib",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809374",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "VR Biosecurity Surveillance Training for Indigenous Rangers",
+    "authors": "Michela Ledwidge",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812459",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "SOSecure: The Wisdom of the Crowd for Safer AI-Generated Code",
+    "authors": "Manisha Mukherjee, Vincent Josua Hellendoorn",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814903",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "AgentTelemetry: A Fault Detection Benchmark and Toolkit for LLM Agent Observability",
+    "authors": "Krishna Chaitanya Balusu",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814931",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "REBench: A Procedural, Fair-by-Construction Benchmark for LLMs on Stripped-Binary Types and Names",
+    "authors": "Jun Yeon Won, Xin Jin, Shiqing Ma, Zhiqiang Lin",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814935",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Collaborator or Assistant? How AI Coding Agents Partition Work across Pull Request Lifecycles",
+    "authors": "Young Jo Chung, Safwat Hassan",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814893",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Enhancing Engagement and Efficiency: A Co-authoring Thesis Writing Pilot in Undergraduate Education",
+    "authors": "Emilia Oikarinen, Kjell Lemström",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809301",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "ChomskyTrainer: An Interactive Learning Environment for Exercising Chomsky Normal Form Transformations",
+    "authors": "David Schmutz, Jasmin Blanchette, Sven Strickroth",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809319",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Instant Feedback for SQL Assignments using Clause-Driven Automated Grading",
+    "authors": "Benard Wanjiru, Patrick Van Bommel, Djoerd Hiemstra",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809341",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Visualizing Deterministic Finite-State Automata Minimization",
+    "authors": "David Anthony K. Fields, Andres M. Garced, Marco T Morazan",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809359",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Can We Have Both? Achieving ABET Compliance with Reduced Curricular Complexity in Computer Science Programs",
+    "authors": "Stefanie Colino, Albert Lionelle, Estelita Chen, Carla E. Brodley",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809378",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Building Digital Credential Ecosystems for Computer Science Education: Digital Credentials, Employability, and Social Impact",
+    "authors": "Carlos Alario-Hoyos, Carlos Delgado Kloos, Hector R. Amado-Salvatierra, Miguel Morales, Alexander Nussbaumer, Eduardo Véliz",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812042",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Rust Web Programming in Laboratory Sessions: A Controlled Study of an IDE Plugin for Novice Programmers",
+    "authors": "Peter ChunYu Yau",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812031",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Toward Automated Curriculum Design: Ensuring Alignment Among LLM-generated Course Components",
+    "authors": "Karthik Mittal, Jaromir Savelka",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812038",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Designing Responsible AI: a Pedagogical Blueprint for Interdisciplinary Reflection and Applied Ethics Competencies",
+    "authors": "Amanda M Horzyk, Jacqueline Rowe, Benedetta Catanzariti, Fabio Tollon, Osman Batur Ince, Cyndie Demeocq, Hannah Rohde, James Garforth",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811983",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Criminal Minds: A Plagiarism Study about Getting Away With It (for Science)",
+    "authors": "Robin Maisch, Larissa Schmid, Richard Glassey",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812035",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Authentic Assessment in Discrete Mathematics: Real-World Modelling Using Logic and Set Theory",
+    "authors": "Jack Roberts, Olga Petrovska",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811976",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Bridging Academia and Industry: A Structured Model for Running a Successful Computer Engineering Capstone Program",
+    "authors": "Yogananda Isukapalli, Nikhil Kapasi",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812006",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "GenAI as a Learning Companion: Interactive Patterns for Supporting Higher-Order Thinking in Computer Science Education",
+    "authors": "Zu Heng Khoo",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811938",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Flashover: Spatial Storytelling of Wildfire from Memory to Spatial Experience",
+    "authors": "Phillip Wilkinson, Robert Ellis Walton, SeungWon Jeong, Taehyun Rhee",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812458",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Ideation Driven Teaching of Software Engineering in an Industry-Integrated Learning Environment",
+    "authors": "Jaejoon Lee, Stuart Nicholson, Kay Bond",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809344",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Exploring Satisfiability -- Bringing Theoretical Informatics to Schools",
+    "authors": "Annika Vielsack, Beatrice Deutschmann",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809351",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Collaborative Peer-Review Workshops with Paired Student Teams in Software Metrics Education",
+    "authors": "Nayla Nasir, Muhammad Usman, Umar Iftikhar",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809366",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Accessible Keyboard Controls for Block Ordering Problems",
+    "authors": "Peter Fowles, Andreas Stefik, Brianna Blaser, David H. Smith, Seth Poulsen",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809324",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Board Games for Blockchain: The Right Time to Unplug",
+    "authors": "Rupert Gehrlein, Andreas Dengel",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809300",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Exploring the Impact of Gen-AI on Team-Based Computing Capstone Projects",
+    "authors": "Asma Shakil, Marie Devlin, KellyAnn Fitzpatrick, Sarah Carruthers, Mirela Gutica, Ronnie Howard, Stoney Jackson, Chris Johnson, Edward Latorre, Tyler Menezes, Joseph Mertz, Tominiyi Olupitan, Alex Potanin, Floris Westerman",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812046",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Improving Effectiveness of Automata Theory Teaching Using Computational Thinking",
+    "authors": "Dariusz W. Brzeziński",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812039",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Mapping Research on Student Self-Efficacy in Computer Science",
+    "authors": "Nevin Ada Çakmak, Zuhal Olomi, Arina Azmi, Deepti Gorrepati, Luoyuan Gu, Yuseon Jeong, Maria Motallebi, Kayna Mufidah, Zupaash Naveed, Khushal Rawat, Nihar Samant, Ishika Vithani, Brian Harrington",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812026",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Genius-Coin: A Deployable Crypto Reward System for Student Engagement",
+    "authors": "Elliott Wen, Jun O Seo, Yousong Sun, Yu-Cheng Tu, Paul Denny, Giovanni Russello",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811965",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Ask, Code, Review: A Three-Module Framework for AI in Programming Labs",
+    "authors": "Gnaneswar Villuri, Hashmath Shaik, Bilal Eljamal, Alex Doboli",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811959",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Accessible AI Literacy for Adult Learners: An Unplugged Collaborative Learning Experience to Teach Clustering",
+    "authors": "Shahrzad Shashaani, Bettina M. J. Kern, Peter Knees",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812009",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Behind the Scenes at The New York Times R&amp;D: Spatial Storytelling",
+    "authors": "Nick Bartzokas, A.J. Chavar",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812468",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "SWE-Bench+: Enhanced LLM Coding Benchmark",
+    "authors": "Haoran Xue, Reem Aleithan, Nafid Enan, Gias Uddin, Song Wang",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814924",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Museum Game Jams as Community-Engaged Design and Computer Science Education",
+    "authors": "Emily Q. Wang, Emily R. French, Dan-Ha Le, Hannah Wirta Kinney",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809340",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "'Let's learn together!': Developing PCK for Physical Computing in Primary Schools",
+    "authors": "Sue Sentance, Jessie Durk",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809342",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Transforming Code Patterns into Procedural Abstractions: An Empirical Study of De-com-po-si-tion",
+    "authors": "Georgiana Haldeman, Claus Brabrand, Paul Denny",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809385",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Trustworthy AI and Discretion-Based Decision Making in Case Processing: Perceptions for the Future",
+    "authors": "Jo E. Hannay",
+    "publish": "Proceedings of the 9th ACM/IEEE International Workshop on Software-intensive Business",
+    "url": "https://doi.org/10.1145/3786158.3788557",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Understanding Cross-Language Programming Knowledge Transfer as a Regulated Learning Process",
+    "authors": "Gul-e-Fatima Kiani",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811942",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Verification and Ownership: How Professional Engineers Navigate the GenAI Coding Frontier",
+    "authors": "Alice Guth, Nicole Abdullaeva, Lina Battestilli, Veronica Cateté",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811995",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "From Assistance to Agency: Rethinking Autonomy and Control in CI/CD Pipelines",
+    "authors": "Marcus Emmanuel Barnes, Taher A. Ghaleb, Safwat Hassan",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814897",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "VISOR: A Vision-Language Model-Based Test Oracle for Testing Robots",
+    "authors": "Prasun Saurabh, Pablo Valle, Aitor Arrieta, Shaukat Ali, Paolo Arcaini",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814910",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Co-located Tests, Better AI Code: How Test Syntax Structure Affects Foundation Model Code Generation",
+    "authors": "Éric Jacopin",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814912",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Detecting Unsoundness in Neural Network Verifiers via Concrete–Abstract Consistency",
+    "authors": "Kaijie Liu, Yulei Sui",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814900",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Using Mutation-Analysis to Examine an LLM's Ability to Summarize Code",
+    "authors": "Lara Khatib, Michael Pu, Bogdan Vasilescu, Meiyappan Nagappan",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814892",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "QueryPRIMM: A PRIMM-Based Tool for Learning SQL",
+    "authors": "Abdulhafith Ahmed, Martin Goodfellow, Lee Clift, Damien Anderson",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811960",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Doing the Work? Student Perspectives on AI Tools in Computing Education",
+    "authors": "Stephanie J. Lunn, Ashmita Thapaliya, Elodie V. Billionniere, Farzana Rahman",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809389",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Say What? Examining Text and Voice Input Modalities for Prompt-Based Programming in Computing Education",
+    "authors": "Kaitlin Riegel, Yan Cathy Hua, Paul Denny, Victor-Alexandru Pădurean, Juho Leinonen, James Prather, Adish Singla",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809397",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Proposing Threshold Concepts in Machine Learning",
+    "authors": "Lisa Zhang, Gosia Migut, Jesse H. Krijthe",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809311",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Inside the Show: A Live VR Performance and the Backstage Systems Behind It",
+    "authors": "Deirdre V. Lyons, Stephen Butchko, Rick Treweek, Christopher Lane Davis, Whitton Frank",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812465",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Beyond Translation Accuracy: Addressing False Failures in LLM-Based Code Translation",
+    "authors": "Fazle Rabbi, Soumit Kanti Saha, Jinqiu Yang",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814890",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Quantifying Student Mistakes and Misconceptions of the Run-Time Memory Layout of Java Programs",
+    "authors": "Michelle Le Pham, Rebecca Schreib",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809331",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Interaction Patterns With Data Science AI Tutor In Project-Based Learning",
+    "authors": "Yannik Langer, Leon Ciechanowski, Matteo Casserini, Kinga Skorupska, Arkadiusz Modzelewski, Carsten Lanquillon, Adam Wierzbicki",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809369",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Teaching Debugging in Cloud-Native Application Development: A Course Intervention Study",
+    "authors": "Michael Sambou, Can Kultur, Christopher Bogart, Jaromir Savelka",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812002",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Exploring Fairness Perceptions in AI Grading Policies",
+    "authors": "Chenyan Zhao, Mariana Silva",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812033",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Exploring AI for Golden Agers: From Mystery to Mastery",
+    "authors": "Taras Panskyi, Anna Firych-Nowacka, Ewa Korzeniewska",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812020",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Using Small Explanatory Interpreters Inspired by Programming Language Education to Teach Operating Systems",
+    "authors": "Aamod Sane, Prajish Prasad",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809398",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Confidence Outpaces Interest: Upper Elementary AI Attitudes in a Science-Integrated Unit",
+    "authors": "Jessica Vandenberg, Bradford Mott, Srijita Chakraburty, Anne Leftwich, Cindy Hmelo-Silver, Krista Glazewski, James Lester",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812014",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A no-code Machine Learning Dashboard for Practice-based Personalized Learning",
+    "authors": "Tim Gorter, Murat Firat, Ebrahim Rahimi",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812004",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Non-Native English Speakers in CS1: Expectancy, Value, and Belonging",
+    "authors": "Naaz Sibia, Jessica Wen, Bogdan Simion, Andrew Petersen, Angela Zavaleta Bernuy, Michael Liut",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809308",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Make a Wish: Culturally-Responsive Contexts for Programming Tasks",
+    "authors": "Isabella Graßl, Svana Esche",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809354",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Bridging the Gap: Understanding the Structure and Scope of Bridge-to-Computing Master's Programs",
+    "authors": "Caitlin J. Kidder, Anu G. Bourgeois, Natalie Grillo, Alex S. Duncan, Mohamed Farag, Julie Johnson, Eileen Kraemer, Jong Kwan Lee, Albert Lionelle",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809353",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Supporting\n                    <i>Problem Solvers:</i>\n                    An Oral Problem-Solving Assessment Track in Large Undergraduate CS Courses",
+    "authors": "Giulia Alberini",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809370",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "How Students Focus their Studying when Offered Exam Re-takes",
+    "authors": "Lucas Flygare, David H. Smith, Geoffrey Herman, Max Fowler, Craig Zilles",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809349",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "ClassEval-Pro: A Cross-Domain Benchmark for Class-Level Code Generation",
+    "authors": "Yeheng Chen, Chaoxiang Xie, Yuling Shi, Wenhao Zeng, Yongpan Wang, Hongyu Zhang, Xiaodong Gu",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814925",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Towards AI as a Collaborative Partner: A Taxonomy of AI Agent Behavior in Software Engineering",
+    "authors": "Tao Dong, Sherry Shi, Harini Sampath, Andrew Macvean",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814913",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Towards Migrating Neural Network Implementations",
+    "authors": "Nadia Daoudi, Iván Alfonso, Jordi Cabot",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814917",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Connecting Calculus to Computing Education A Conceptual Mapping Tool to Support Disciplinary Applications",
+    "authors": "Lei Liu, Ou Lydia Liu, Field Watts",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812013",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Brachetti's Restaurant: An Operating Systems Unplugged Activity",
+    "authors": "Renzo Davoli, Michael Goldweber",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811966",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "From SQL Struggles to Visual Insights: Revealing Transformations for Data Science Education",
+    "authors": "Tobias Antensteiner",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811954",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Simulation-First Probability for Computing Students: A Giant-Waves Case Study",
+    "authors": "Francisco Javier Soto Sánchez, Lucía Cavada de la Riva",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811994",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "From Students Struggles to Teachers Insights: A Dashboard of Student-AI Interactions in ML Practical Assignments",
+    "authors": "Boyun Zhang, Ilinca Rentea, Gosia Migut",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811981",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Interleaving Natural Language Prompting with Code Editing for Solving Programming Tasks with Generative AI Models",
+    "authors": "Victor-Alexandru Pădurean, Alkis Gotovos, Ahana Ghosh, Paul Denny, Juho Leinonen, Andrew Luxton-Reilly, James Prather, Adish Singla",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809312",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Blockchain Education Demystified: Blended Learning as an Equity Lever in Computer Science Education",
+    "authors": "Rupert Gehrlein, Andreas Dengel",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809326",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "SSDVis: Teaching Students Modern OS Concepts in a Flash",
+    "authors": "Maksym Woychyshyn, Stephen Clark, Naaz Sibia, Michael Liut, Bogdan Simion",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809309",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A National Competency Framework for AI Skills across Education and the Workforce",
+    "authors": "Matthew Forshaw, Clementina Ramirez, Tahira Suleman, Vera Matser",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809337",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "RustBuildEq: A Benchmark for Binary Equivalence under Build Variability",
+    "authors": "Elliott Wen, Chenye Ni, Valerio Terragni, Jens Dietrich",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814930",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Testing AIware Systems: A Software Engineering Survey",
+    "authors": "Karla Gonzalez, Mariam El Mezouar",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814894",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "CrossCommitVuln-Bench: A Dataset of Multi-commit Python Vulnerabilities Invisible to Per-Commit Static Analysis",
+    "authors": "Arunabh Majumdar",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814928",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "How Can Accessibility in Computing Education Be Improved Through HCI Research?",
+    "authors": "Dr. David Santandreu Calonge, Linda Smail, Firuz Kamalov, Dima Yousef, Melody Sylvain",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809299",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Teaching Data Science without the Programming Barrier: Design and Evaluation of an Integrated Learning Platform",
+    "authors": "Xumin Liu, Erik Golen",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809345",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "SQL Beyond Querying: Enhancing SQL Learning with Schema and Data Management",
+    "authors": "Naaz Sibia, Jessica Wen, Zeling Zhang, Runlong Ye, Joshua D. A. Jung, Ilya Musabirov, Bogdan Simion, Carlos Aníbal Suárez, Paul Vrbik, Andrew Petersen, Angela Zavaleta Bernuy, Michael Liut",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809307",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Correcting Transcripts: Student Interactions with VLM Graders",
+    "authors": "Jacob Levine, Mariana Silva",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812001",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Constructing 3D-Models and Utilizing Workbooks to Teach Hardware: A Mixed-Media Approach",
+    "authors": "Daniel Unro, Andreas Dengel",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812036",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "When There Is No Right Answer: How Computing Students Navigate Open-Ended Problems through Collaborative Discussion and Peer Evaluation",
+    "authors": "Ishika Tarin, Rebecca Marie Williams, Sanorita Dey",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809372",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Configuring Agentic AI Coding Tools: An Exploratory Study",
+    "authors": "Matthias Galster, Seyedmoein Mohsenimofidi, Jai Lal Lulla, Muhammad Auwal Abubakar, Christoph Treude, Sebastian Baltes",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814887",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Is Artificial Intelligence an Elixir to the Software Engineering Community? An Empirical Study among Managers",
+    "authors": "Xin Zhao, Brian Vu, Sitesh Pattanaik",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814907",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "When Code Authors Are Agents: A Large-Scale Study of Human–Agent Collaboration in Pull Requests",
+    "authors": "Anthonia Oluchukwu Njoku, Zohreh Sharafi, Foutse Khomh",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814909",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Co-creation of Real-World Educational Technologies as a Constructionist AI Literacy Curriculum",
+    "authors": "Rayo Verweij",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811953",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Challenges and Opportunities in Introductory Computer Science Education",
+    "authors": "David Kerschbaumer",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811940",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Towards a Comprehensive Understanding of Replication in Computing Education",
+    "authors": "Rita Garcia, Angela Zavaleta Bernuy, Dennis Bouvier, Sarah Heckman, Bettina M. J. Kern, Sophia Krause-Levy, Michael Liut, Usman Nasir, Yuhan Pan, Juliane Sperling",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812048",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Towards Prioritized and Actionable Programming Misconceptions",
+    "authors": "Corinna List, Moritz Müller, Michael Kipp",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811999",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Writing Blog Posts Helps Students Connect Experiential Learning to the Workplace",
+    "authors": "Utsab Saha, Lola Egherman, Ramiz Rahman, Mohd Toukir Khan, Kevin Wang, Tyler Menezes",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809313",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Erratum: Navigating Posit Arithmetic: A Comprehensive Survey of Principles, Hardware, and Applications",
+    "authors": "David Mallasén, Raul Murillo, Guillermo Botella, Alberto Antonio Del Barrio",
+    "publish": "ACM Computing Surveys",
+    "url": "https://doi.org/10.1145/3820485",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "A Preliminary Study on Explaining Risk of Code Changes using LLM-Based Prediction Models",
+    "authors": "Yalin Liu, Kosay Jabre, Rui Abreu, Zachariah J. Carmichael, Vijayaraghavan Murali, Akshay Patel, Jun Ge, Weiyan Sun, Cong Zhang, Audris Mockus, David Khavari, Peter C. Rigby, Nachiappan Nagappan",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814916",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "'I can't read your mind': A Study of Neurodivergent Computing Students' Experiences with Collaborative Active Learning",
+    "authors": "Cynthia Zastudil, Srishty Muthusekaran, Rayhona Nasimova, Stephen MacNeil",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809386",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Towards a Shared Framework for Selection, Design, and Evaluation of Mastery Learning Models in Computing Education",
+    "authors": "Claudia Szabo, Miranda C. Parker, Judithe Sheard, Giulia Alberini, Andrew Luxton-Reilly, Stephanos Matsumoto, Fiona McNeill, Charlotte Pierce, Naaz Sibia, Jan Vahrenhold, Craig Zilles",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812052",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Multi-sensory Learning of Data Structures for Blind Students Using 3D Printing",
+    "authors": "Lucas Brown, Daniel Zingaro, Andrew Petersen, Mike Serafin, Tingting Zhu",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809305",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Participatory Design of Educational Tools with Teachers to Address Children's AI Misconceptions",
+    "authors": "Maria Kasinidou, Styliani Kleanthous, Jahna Otterbacher",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809338",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Relational Thinking Meets NoSQL: Challenges in Learning MongoDB and Cassandra",
+    "authors": "Nea Peltola, Hilkka Grahn, Mikko Nurminen, Katriina Vartiainen, Bingxiang Chen, Toni Taipalus",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809335",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Cheap and Cheerful: Low-Fidelity Prototyping for Spatial Stories",
+    "authors": "Ethan Shaftel",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812472",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Operationalizing Ethics for AI Agents: How Developers Encode Values into Repository Context Files",
+    "authors": "Christoph Treude, Sebastian Baltes, Marc Cheong",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814899",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "When AI Coding Assistants Leak Training Data: A Study of LLM Memorization in Code Generation",
+    "authors": "Xiaoyu Cheng, Kundi Yao, Pengyu Nie, Weiyi Shang",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814902",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Voice-Controlled S\n                    <scp>cratch</scp>\n                    for Children with (Motor) Disabilities",
+    "authors": "Elias Goller, Gordon Fraser, Isabella Graßl",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809355",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Designing Scalable, Context-Adapted CS Placement Exams: An IRT-Based Approach",
+    "authors": "Nikhil Kapasi, Sai Vamsi Alisetti, Cindy Zhao, Diba Mirza",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809365",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Does This Even Matter in the Real World? Real World Problems in Foundational Theory Courses",
+    "authors": "Anna Kuznetsova, Robbie Weber",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809380",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Play, Explore, Reward: Introducing Reinforcement Learning Concepts through Game-Based Learning in Middle School",
+    "authors": "Veronica Cateté, Deniz Ozturk, Claire Aguiar, Jessica Vandenberg, Wookhee Min, Bradford Mott",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809383",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A Large-scale Analysis of Workplace Discussions on StackExchange",
+    "authors": "Natasha Grech, Md Farhad Hossain, Omar Alam",
+    "publish": "Proceedings of the 9th ACM/IEEE International Workshop on Software-intensive Business",
+    "url": "https://doi.org/10.1145/3786158.3788556",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Proceedings of the 9th ACM/IEEE International Workshop on Software-intensive Business",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3786158",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Collaborative Sensemaking of Unplugged AI in K-2 Language Arts: A Teacher Case Study",
+    "authors": "Jessica Vandenberg, Bradford Mott, Treshonda Rutledge, Cecilia Xuning Zhang, Joseph P. Wilson",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812015",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Social Media and the Construction of Computer Science Occupational Identity",
+    "authors": "Andrea Watkins",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811947",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A Configurable Gomoku Framework for Learning Heuristics",
+    "authors": "Bryce Kille, Stian du Preez, Risa B Myers",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811997",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Pedagogical Content Knowledge in Database Education",
+    "authors": "Mahsa Sadeghi Ghahroudi, Eric Mayhew",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812027",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Purplex: An Integrated Platform for Natural Language Programming and Code Comprehension Activities",
+    "authors": "David H. Smith, Paul Denny, Kaitlin Riegel",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811973",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Global-Scale Photorealism with Google Immersive View XR",
+    "authors": "Se-Joon Chung, Chun-Po Wang, John Bates, Daniel Filip, Azin Mehrnoosh, Dominik Käser",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812469",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Dog Walk: Narrating Human-AI Alignment through Companion Robots",
+    "authors": "Robert Twomey, Jesse Fleming",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812464",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Auditing Who Appears to Belong: A Large-Scale Empirical Study of Bias in Deployed Text-to-Image Systems for Software Engineering",
+    "authors": "Mohamad Kassab",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814918",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Perfecting Partnerships: Employers' Impact through Situated Learning During Computing Internships",
+    "authors": "Nimmi Arunachalam, Stephanie J. Lunn, Mark Weiss, Jason Liu, Giri Narasimhan",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809363",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "From Alienation and Culturally-relevant Context to Empowerment: Harnessing Adversarial Thinking Through a Sense of Belonging and Culturally-relevant Contexts",
+    "authors": "Christian Servín, Nadia V. Karichev",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809364",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Surveying Dropouts from a Finnish CS Bachelor's Programme",
+    "authors": "Leo Leppänen, Nea Pirttinen, Kjell Lemström",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809317",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Beyond Understandability: Which Code Quality Defects Do Instructors Identify Frequently in Novice Programs?",
+    "authors": "Sigrid L. Klinger, Sven Strickroth",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809318",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Integrating a CS+Linguistics Project into High School English",
+    "authors": "Salma El Otmani, Isabella Marquez, Katherine Calder, Daphane Hammer, Weronika Trzaska, Kathleen Isenegger, Max Fowler, Raya Hegeman-Davis, Leonard Pitt, Yael Gertner",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809321",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Boundary Crossing in Computing: Investigating Students' Internship Experiences and Role of Industry Mentors",
+    "authors": "Nimmi Arunachalam",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811952",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "TriORM: Workload-Aware Neural-Symbolic Multi-objective Optimization for ORM Mapping Design",
+    "authors": "Sasan Azizian, Ayoub Hazrati, Artin Azizian, Elham Rastegari",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814920",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Wink: Recovering from Misbehaviors in Coding Agents",
+    "authors": "Rahul Nanda, Chandra Maddila, Smriti Jha, Euna Mehnaz Khan, Matteo Paltenghi, Satish Chandra",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814911",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "From Gamification to Insights: Predicting Student Success in an Introductory Programming Course",
+    "authors": "Mubina Kamberovic, Zeljko Juric, Senka Krivic",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809377",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Hopfield Networks in CS1",
+    "authors": "Michael Guerzhoy",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811984",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "The Algorithmic Thinking Gap: Teachers' Self-Assessed Competence in Programming and Algorithms",
+    "authors": "Corinna Hörmann, Marina Unterweger, Eva Schmidthaler",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812023",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Beyond the Classroom: Designing an Interdisciplinary AI Innovation Challenge at a Minority-Serving Institution",
+    "authors": "Mohammad Q. Azhar, Sam Karasik",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809396",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "From Correctness to Consistency: Redefining Reliability for the Agentware Era",
+    "authors": "Xue Qin, Maurício Gruppi",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814904",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Beginning, Now, Ever More: Thirty years: ITiCSE and Computing Education",
+    "authors": "Lillian (Boots) Cassel",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809350",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "From Global Models to Local Realities: AI Literacy, Education Policy, and Governance in Ghana",
+    "authors": "Dodzi Koku Hattoh, Salomey Afua Addo, Abigail Oppong, Xavier Palmer",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809358",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Nudging Better Version Control Behavior",
+    "authors": "Richard Glassey",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809373",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Do Students Plan to Improve What They Struggle With? An Analysis of Programming Reflections",
+    "authors": "Kevin Alvarenga, Matthew Zahn, Sarah Heckman, Lina Battestilli",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812018",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Sustainability as an Integral Aspect of Computing Education",
+    "authors": "Simone Opel",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812016",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "PyGuide: A Visual Studio Code Extension Providing Diagnostics for Possible Misconceptions",
+    "authors": "Abigail Evans, Josh Hunter",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811962",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "When to Check In?: Identifying Early Signs of Student Struggle at Various Cut-Points in CS1 Course Data",
+    "authors": "Abigail Liu, Sammy Alashoush, Austin Cory Bart, Teomara Rutherford, Nazim Karaca, John Aromando, Matthew Louis Mauriello",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809327",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Creative Exploration Meets Time Constraints: Academic and Professional Approaches to Adversarial Thinking",
+    "authors": "Aadarsh Padiyath, Brooke Compton, Barbara Ericson, Mark Guzdial",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809323",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "An Empirical Study of Reasoning Steps in Thinking Code LLMs",
+    "authors": "Haoran Xue, Gias Uddin, Song Wang",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814905",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Finding Waldo: The Hidden Curriculum of Computing Education",
+    "authors": "Jeremy A. Magruder Waisome, Pedro Guillermo Feijóo-García, Atayliya Irving, Jhonathan Sora-Cardenas, Samantha Englehart, Idalis Villanueva Alarcón",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812044",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Biology Context Programming Activities for CS1",
+    "authors": "Meiying Qin, Jade Atallah, Jonatan Schroeder, Larry Yueli Zhang, Hovig Kouyoumdjian",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811970",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Student Perceptions of Alternative Evaluation in an Introductory Programming Course",
+    "authors": "Brian Harrington, Katherine Lambert, Leon Lee, Rohita Nalluri, Seyed Sadra Setarehdan, Anagha Vadarevu, Angela Zavaleta Bernuy",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809352",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A Qualitative Examination of Undergraduate CS Students' Self-Regulated Learning",
+    "authors": "John Bacher, Christina L Hollander, Michael Berro, Julia Y. Choi, Thomas Price, Jeffrey Greene, Matthew Bernacki",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809376",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Spatial Skills Training Effects Throughout a Computer Science Degree",
+    "authors": "Miranda C. Parker, Jack Parkinson, Andrew Petersen",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809298",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "BREAK-IT: Understanding Novice Approaches to an Attack Challenge Task",
+    "authors": "Michelle Jensen, Matthew Berland, Rahul Chatterjee",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809379",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3803400",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Perceived Product Management Priorities in Software Startups.",
+    "authors": "Frédéric Pattyn, Peter Goetz",
+    "publish": "Proceedings of the 9th ACM/IEEE International Workshop on Software-intensive Business",
+    "url": "https://doi.org/10.1145/3786158.3788553",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Beyond the Pipeline: Understanding Women's Pathways into Doctoral Education",
+    "authors": "Atayliya Natasha Irving",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811946",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Understanding and Supporting Computing Education in the Digital Humanities",
+    "authors": "Anna Sollazzo",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811939",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Quality and Security Signals in AI-Generated Python Refactoring Pull Requests",
+    "authors": "Mohamed Almukhtar, Anwar Ghammam, Hua Ming",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814886",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "OUT OF THE ASHES: A Work-In-Progress Immersive Documentary about the Human Cost of Climate Change",
+    "authors": "Nonny de la Peña, Rory Mitchell",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812470",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Pre-Service Computer Science Teachers' Perspectives on AI Education in a Teaching-Learning Lab",
+    "authors": "Julius Alexander Einstmann, Gia Minh Vo, Tobias Bahr, Nils Pancratz",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811991",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Google's Original Secret Sauce: The PageRank Algorithm",
+    "authors": "Raja Sooriamurthi",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811972",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Designing a Hardware Reverse Engineering Course: Lessons from Eight Years in a Rapidly Evolving Tech Domain",
+    "authors": "Zehra Karadağ, René Walendy, Carina Wiesen, Christof Paar, Nikol Rummel, Steffen Becker",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809322",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A Competitive Platform for Automated Evaluation of Optimization Algorithms in Computing Education",
+    "authors": "Sergio Cavero, Javier Yuste, J. Manuel Colmenar, Eduardo G. Pardo",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809336",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Using Peer Code Reviews to Scale a Brownfield Software Engineering Course",
+    "authors": "Anshul Shah, Thomas Rexin, Andrew Smithwick, Almog Bar-Yossef, Joshua Kave, William G Griswold, Adalbert Gerald Soosai Raj",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809371",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Naming Variables is Hard – Assessing Names Need Not Be: An Inductive Taxonomy for Grading Variable Names",
+    "authors": "Henry Hickman, Siyu Qiu, Hammond Pearce",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809382",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Teaching Responsible AI From the Borders of Computer Science: An Experience Report",
+    "authors": "Michael Ross McCarrin",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809391",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "SecVulEval: Context-Aware Benchmarking of LLMs for Vulnerability Detection",
+    "authors": "Md Basim Uddin Ahmed, Nima Shiri Harzevili, Jiho Shin, Hung Viet Pham, Song Wang",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814932",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "C/x86 Emulator: A Web-Based Interactive Tool for Understanding x86-64 Assembly and Visualizing C Program State",
+    "authors": "Giovani Abuaitah, Pratik Rajbhandari, Chloe Belletti, Preston Buterbaugh, Madilyn Coulson, Foster Yeboah, Isabella Hall",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809402",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "App-solutely Vulnerable: Learning Mobile Security through Build, Fortify, and Attack",
+    "authors": "Jun O Seo, Elliott Wen, Yu-Cheng Tu",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809390",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Impacts of Stress During CS Learning: Physiological Insights for Adaptive Education",
+    "authors": "Maliha Mian, Muhammad Arkaan Izhraqi, Nadine Marcus, Gelareh Mohammadi",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809332",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Applying the Traffic Light Assessment Framework to an AI-Integrated Coursework",
+    "authors": "Ramalakshmi Vaidhiyanathan",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811964",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Teamwork in Computing Education: Skills, Values, and Virtues",
+    "authors": "Stephanie J. Lunn, Maíra Marques Samary, Stephen Frezza, Priscilla Jimenez-Pazmino, Sanaz Nikfalazar, Janice L. Pearce, Daniel Prol, Shanon Reckinger, Michael James Scott, Carolin Wortmann, Batya Zamansky",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812054",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "ACM2Y: Supporting Computing Educators in Two-Year Programs",
+    "authors": "Cara Tang, Ripal D Ranpara",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812021",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Embedding External Partner Code Reviews into Mobile Application Development Coursework",
+    "authors": "Lee Clift, Donna Brawley, Robert Greer, Damien Anderson, Alasdair Lambert",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811982",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "The Ghost in the Machine: AI in Software Ecosystems",
+    "authors": "Jan Bosch, Helena Holmström Olsson",
+    "publish": "Proceedings of the 9th ACM/IEEE International Workshop on Software-intensive Business",
+    "url": "https://doi.org/10.1145/3786158.3788560",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Towards a Readiness Framework for Agentic AI in 6G Software Businesses: Challenges and Adoption Pathways",
+    "authors": "Muhammad Zohaib, Muhammad Azeem Akbar, Sami Hyrynsalmi",
+    "publish": "Proceedings of the 9th ACM/IEEE International Workshop on Software-intensive Business",
+    "url": "https://doi.org/10.1145/3786158.3788561",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Public IS procurement stakeholders' views on success – A Delphi study",
+    "authors": "Sanni Marjanen, Samuli Pekkola, Tommi Mikkonen",
+    "publish": "Proceedings of the 9th ACM/IEEE International Workshop on Software-intensive Business",
+    "url": "https://doi.org/10.1145/3786158.3788554",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "An Experience Report: What Students Say Could be Done to Promote Dispositions",
+    "authors": "Tammy VanDeGrift, Mihaela Sabin, Amruth N. Kumar, Bonnie K. Mackellar, Renée McCauley, Stephanos Matsumoto",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809303",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Oral Exams at Scale in Introductory Computing: Student Outcomes and Perceptions",
+    "authors": "Shannon E. Ellis, Alex Chao, Annapurna Vadaparty, Pranav Reddy Bussannagari",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809302",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Self-Regulated Personal Contracts as a Harm Reduction Approach to Generative AI in Undergraduate Programming Education",
+    "authors": "Aadarsh Padiyath, Jessica Shen, Barbara Ericson",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809314",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "TOGBench: A Developer-Written Multi-variant Dataset and Benchmark Suite for Test Oracle Generation",
+    "authors": "Tasfia Tasnim, Matthew B. Dwyer, Soneya Binta Hossain",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814927",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Can LLMs Really Reason about Code? Studying How Well LLMs Understand the Relation between Input, Code, and Output",
+    "authors": "Norman Becker, Tural Mammadov, Andreas Zeller",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814888",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Interactive Cybersecurity Education for Upper Secondary School",
+    "authors": "Sven Grübel, Daniele Lain, Dennis Komm",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809400",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Work-Integrated Learning Meets Program Outcomes and Student Needs",
+    "authors": "Bethany R. Edmunds, Miguel Fuentes-Cabrera, Alvaro Monge",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811978",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Perspectives on Progression within Engineering and Computer Science Degrees",
+    "authors": "Camilla Björn",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811950",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Fostering Cybersecurity Awareness in a Diverse Primary School",
+    "authors": "Taras Panskyi, Ewa Korzeniewska, Anna Firych-Nowacka",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812019",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Personalized and Representational Scaffolding to Foster Teachers' Diagnostic and Intervention Skills in Debugging",
+    "authors": "Viviane Rehor",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811941",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Effective Use of Large Language Models for Social Constructivism in Computer Science Education",
+    "authors": "Nickolas Falkner, Leo Leppänen, Juho Leinonen",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809392",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "The Electrified Black Box—Children's Preconceptions About Hardware Components and Their Functions",
+    "authors": "Jonas Maurer, Andreas Dengel, Chiara Quattropani",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809343",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "C\n                    <scp>onjuror</scp>\n                    : A GenAI-Powered Tool to Support Teachers Customizing a Scratch Curriculum",
+    "authors": "Minh Tran, David Gonzalez-Maldonado, Diana Franklin",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809362",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A Correctness-First Introduction to Computer Science",
+    "authors": "Vaani Goenka, Aalok Thakkar",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809367",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3803401",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Computing Science Education on the AI Innovation Landscape",
+    "authors": "Ouldooz Baghban Karimi, Rebecca Robinson, Trevor Bonjour, Hannan Azhar, Mai Dahshan, Anuja Dharmaratne, Palak Halvadia, Elham E Khoda, Joyce Nakatumba Nabende, Syed Waqar Nabi, Andrea Salgian, Cigdem Sengul, Raja Sooriamurthi",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812053",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Introducing Undergraduate Students to Computing Education",
+    "authors": "Sue Sentance, Maria Kallia",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811993",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Exploring Language-Based Differences in Student Reflection",
+    "authors": "Muniya Fallah, Nicholas Ching, Jessica Wen, Naaz Sibia, Andrew Petersen, Michael Liut, Angela Zavaleta Bernuy",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812032",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A Simple Interactive Tool for Bridging Discrete Math and Computer Science",
+    "authors": "Ting Zhao, Murali Mani, Mehrdad Simkani, A.K.M. Ehsanul Haque",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811975",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "What a Middle Grades Concept Inventory Reveals about Programming Understanding in Pre-Service Teachers: Error Prevalence, Misconceptions, and Psychometric Validity",
+    "authors": "Nils Pancratz",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809306",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "The Instrument Is the Story: Ten Years of Spatial Music-Making with Paradiddle",
+    "authors": "Emre Tanirgan",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3812461",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Code Quality Catalog for Embedded-Systems (Doctoral Consortium)",
+    "authors": "Rafael Corsi Ferrao",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811949",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "A Glossary-Based Learning Platform to Support Novice Learners in IT Literacy",
+    "authors": "Erica Perseghin, Gian Luca Foresti",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811992",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "'If You Don't Know, Just Ask': How New Graduates Demonstrate Non-Technical Skills and Behaviours in the Workplace",
+    "authors": "Rita Garcia, Brian Harrington, Angela Zavaleta Bernuy",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809315",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Peer Networks and Instructor Resources as Complementary Support Systems in Six CS Classrooms",
+    "authors": "Noah Ravetch, Naomi Nayman, Jack Herberger, Theresa Migler, Ayaan M. Kazerouni",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809329",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Teamwork for Computer Scientists in Education and Practice",
+    "authors": "Merel Steenbergen, Maria Soledad Pera, Efthimia Aivaloglou",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809339",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3805760",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "From Code Review to Spec-Driven Contracts: A Vision for Auditable AIWare Systems",
+    "authors": "Mohammad Hamdaqa, Moataz Chouchen",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814898",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Understanding Student Learning in Introductory Programming in the Age of AI: Misconceptions, AI Use, and Socio-Cultural Influences",
+    "authors": "Palak Halvadia",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811944",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "DREAM: Educating Future App Developers with a Child Rights Approach",
+    "authors": "Fabio Sartori, Daria Crimella, Mirko Pagani",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811989",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "SYNAPTICON",
+    "authors": "Albert Barque-Duran, Ada Llaurado-Crespo, Jesus Vaquerizo-Serrano, Ton Cortiella-Valls",
+    "publish": "Proceedings of the Special Interest Group on Computer Graphics and Interactive Techniques Conference Spatial Storytelling",
+    "url": "https://doi.org/10.1145/3799822.3820875",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "Understanding Conversational Patterns in Multi-agent Programming: A Case Study on Fibonacci Game Development",
+    "authors": "Srijita Basu, Viktor Kjellberg, Simin Sun, Bengt Haraldsson, Md. Abu Ahammed Babu, Wilhelm Meding, Farnaz Fotrousi, Miroslaw Staron",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814914",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-5",
+    "title": "HEJ-Robust: A Robustness Benchmark for LLM-Based Automated Program Repair",
+    "authors": "Fazle Rabbi, Jinqiu Yang",
+    "publish": "Proceedings of the 3rd ACM International Conference on AI-Powered Software",
+    "url": "https://doi.org/10.1145/3805760.3814929",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "VR immersion: An Experiential approach to teach Accessibility and Inclusion in Computing Education",
+    "authors": "Ruchi Sembey, Roberto Martinez-Maldonado, John Grundy, Andrew Junor, Sadia Nawaz",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811957",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Training CS Students to Elicit Requirements Using a GenAI-based ChatBot - An Experience Report",
+    "authors": "Pedro Alves, Bruno Pereira Cipriano",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3812007",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Integration of Virtual Reality into Computing Education",
+    "authors": "Ruchi Sembey",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811937",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Anti-remedial Interventions Indicate Future CS Success",
+    "authors": "Ria Stevens, Stian du Preez, Cecilia Fernandez, Risa B Myers",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 2",
+    "url": "https://doi.org/10.1145/3803401.3811996",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Confounding Components: Problems with Cognitive Load Surveys in Introductory Computer Science",
+    "authors": "Andrea Watkins, Amber Settle, Craig S. Miller",
+    "publish": "Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education V. 1",
+    "url": "https://doi.org/10.1145/3803400.3809387",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Digital Product Passports for Advancing the Circular Economy: A Research Agenda",
+    "authors": "Sarah Merz, Carolin Mombrey, Kim Stuber, Olivia Dörrstein, Georg Herzwurm",
+    "publish": "Proceedings of the 9th ACM/IEEE International Workshop on Software-intensive Business",
+    "url": "https://doi.org/10.1145/3786158.3788558",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]
