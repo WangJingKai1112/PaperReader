@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-07-06",
+    "title": "Is Three the Magic Number? An Empirical Evaluation of LLM-Based Repair Loops",
+    "authors": "Tobias Kiecker, Eik Reichmann, Hosung Kang, Gabin An, Lars Grunske",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.05197v1",
+    "source": "arXiv",
+    "abstract": "Iterative repair loops have become a core design pattern in LLM-based software engineering systems. These workflows repeatedly generate, validate, and repair artifacts using feedback such as compiler errors or test failures. Despite their widespread use, the impact of repair-loop iteration limits remains poorly understood, as most prior work adopts fixed, often arbitrary, repair budgets. We study repair-loop effectiveness across multiple software engineering tasks, including code generation, test generation, and code translation. Across several representative workflows, datasets, and contemporary low-cost LLMs, we observe a consistent pattern of diminishing returns: the first three to four repair iterations account for most achievable gains, while later iterations contribute only marginal improvements. We further find that repair behavior is influenced more strongly by workflow orchestration and feedback design than by the underlying model itself. These results suggest that repair budgets should be treated as an explicit experimental variable, as they directly affect evaluation outcomes, computational cost, runtime, and reproducibility in LLM-based software engineering research.",
+    "title_zh": "三是一个魔法数字吗？基于LLM的修复循环的实证评估",
+    "abstract_zh": "迭代式修复循环已成为基于大语言模型（LLM）的软件工程系统中的核心设计模式。这类工作流通过编译器报错或测试失败等反馈机制，反复生成、验证和修正制品。尽管修复循环被广泛采用，但其迭代次数限制的影响尚未得到充分研究——多数既有工作采用固定且常显随意的修复预算。我们针对代码生成、测试生成和代码翻译等多项软件工程任务，研究了修复循环的有效性。在多个代表性工作流、数据集和当代低成本LLM的实验中，我们观察到一致的边际效益递减规律：前三到四次修复迭代贡献了大部分可实现的改进，而后续迭代仅带来微弱增益。研究进一步发现，修复行为更受工作流编排策略与反馈设计的影响，而非底层模型本身。这些结果表明，修复预算应被视为明确的实验变量，因其直接影响LLM软件工程研究中的评估结果、计算成本、运行时间和可复现性。"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "E-CoDrive: A Co-Simulation Framework for Testing Energy-Critical Driving Scenarios",
+    "authors": "Manfredi Napolitano, Alessandra Somma, Alessio Gambi, Andrea Stocco, Nicola Mazzocca",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.04803v1",
+    "source": "arXiv",
+    "abstract": "Autonomous driving research has largely focused on safety while giving limited attention to non-functional aspects such as energy consumption and sustainability. As Autonomous Electric Vehicles (AEVs) become increasingly common in urban traffic, understanding how complex traffic dynamics influence their energy consumption is paramount to test whether AEVs can complete trips before battery depletion. To support energy-aware scenario-based testing of AEVs, we present E-CoDrive, a framework for reproducible closed-loop driving co-simulations that integrates an energy consumption model, a micro-traffic simulator, and a high-fidelity driving simulator to test AEV software stacks in urban scenarios. This tool paper describes the architecture of E-CoDrive and demonstrates its applicability by testing an Autoware-based AEV stack. Our evaluation shows that varying traffic conditions produce substantial differences in vehicle energy consumption. The artifact is publicly available at https://doi.org/10.6084/m9.figshare.32244783, and a screencast showing the tool is available at https://youtu.be/yX9fWHqCvgc.",
+    "title_zh": "E-CoDrive：用于测试能量关键驾驶场景的协同仿真框架",
+    "abstract_zh": "自动驾驶研究主要集中在安全性上，而对能耗和可持续性等非功能方面的关注有限。随着自动驾驶电动汽车（AEV）在城市交通中日益普及，理解复杂的交通动态如何影响其能耗，对于测试AEV能否在电池耗尽前完成行程至关重要。为了支持对AEV进行基于场景的、考虑能耗的测试，我们提出了E-CoDrive框架。该框架旨在实现可复现的闭环联合驾驶仿真，集成了能耗模型、微观交通模拟器和高保真驾驶模拟器，以在城市场景中测试AEV软件栈。本文作为工具论文，描述了E-CoDrive的架构，并通过测试一个基于Autoware的AEV软件栈展示了其适用性。我们的评估表明，不同的交通条件会导致车辆能耗产生显著差异。相关工件可在https://doi.org/10.6084/m9.figshare.32244783公开获取，展示该工具的录屏视频可通过https://youtu.be/yX9fWHqCvgc观看。"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "FusionSeed: Seed Generation for Protocol Fuzzing via Knowledge Fusion and PCSG-Guided LLM",
+    "authors": "Yifan Zhang, Kailong Zhu, Qian Chen, Zixiong Li, Yuliang Lu, Zhaoqi Hu, Jie Peng",
+    "publish": "2026 29th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+    "url": "https://doi.org/10.1109/cscwd68734.2026.11582580",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "FusionSeed：基于知识融合与PCSG引导大语言模型的协议模糊测试种子生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "CCML: Fuzzing with Cross-Course Mutation Strategy Learning",
+    "authors": "Yongyue Li, Yige Chen, Qizhen Xu, Ningning Cui, Yingying Du, Ruibang You",
+    "publish": "2026 29th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+    "url": "https://doi.org/10.1109/cscwd68734.2026.11581523",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "CCML：基于跨课程变异策略学习的模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Target-Guided Multi-Agent System for Collaborative Fuzz Driver Generation",
+    "authors": "Haoran Fang, Yunjia Min, Yuanyuan Zhang",
+    "publish": "2026 29th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+    "url": "https://doi.org/10.1109/cscwd68734.2026.11581696",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向协同模糊驱动生成的目标引导多智能体系统",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "Cover 2",
+    "authors": "N/A",
+    "publish": "IEEE Spectrum",
+    "url": "https://doi.org/10.1109/mspec.2026.11595928",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "双人深区防守",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-6",
+    "title": "ShadowPen: Synergizing Human Strategy with Proactive Shadow Agent for XSS Testing",
+    "authors": "Jianguo Wu, Yakai Li, Kexin Hao, Zhaojing Yuan, Luping Ma, Weijuan Zhang, Yi Su, Qingjia Huang",
+    "publish": "2026 29th International Conference on Computer Supported Cooperative Work in Design (CSCWD)",
+    "url": "https://doi.org/10.1109/cscwd68734.2026.11582013",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "ShadowPen：协同人类策略与主动影子代理进行XSS测试",
+    "abstract_zh": "None"
+  }
+]
