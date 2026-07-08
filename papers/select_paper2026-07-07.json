@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-07-07",
+    "title": "LogicHunter: Testing LLM Agent Frameworks with an Agentic Oracle",
+    "authors": "Minghui Long, Yanjie Zhao, Haoyu Wang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.06195v1",
+    "source": "arXiv",
+    "abstract": "Large Language Model (LLM) agent frameworks such as LangChain, LlamaIndex, and CrewAI have become critical infrastructure powering production AI systems, yet they remain severely under-tested due to fundamental challenges in automated testing. Unlike traditional software, where crashes serve as reliable oracles, defects in these pure Python frameworks manifest as ordinary exceptions or silent semantic failures, creating profound oracle ambiguity. This problem is exacerbated by strict type governance through Pydantic schemas and complex protocol requirements that cause existing fuzzers to generate overwhelming invalid inputs, while traditional test generators produce only trivial cases with weak regression assertions. We present LogicHunter, a fuzzing framework that addresses both the generation and oracle challenges through active specification-aware testing. LogicHunter employs specification-driven generation that systematically fuses formal type constraints with authentic usage patterns from real-world repositories, synthesizing inputs that are valid by construction yet semantically extreme, equipped with behavioral probes to expose silent failures. To resolve oracle ambiguity, we introduce the Agentic Oracle, which transcends passive classification by actively retrieving documentation, navigating source code, and inspecting runtime states through a ReAct-based architecture with Dual-Layer State Management and Dual-Stream Memory. Evaluated on three widely deployed frameworks, LogicHunter discovered 40 previously unknown bugs with 30 confirmed and 26 fixed by developers, while state-of-the-art baselines reported no bugs as final findings. The Agentic Oracle achieves 91.17% precision, surpassing the best passive approach at 29.27% by 61 percentage points.",
+    "title_zh": "LogicHunter：通过代理式预言机测试LLM智能体框架",
+    "abstract_zh": "大型语言模型（LLM）智能体框架，如LangChain、LlamaIndex和CrewAI，已然成为驱动生产级AI系统的关键基础设施，但由于自动化测试面临根本性挑战，它们仍严重缺乏测试。与传统软件中崩溃可作为可靠测试预言不同，这些纯Python框架中的缺陷表现为普通异常或沉默的语义失效，造成了深刻的预言模糊性问题。这一问题因严格的类型治理（通过Pydantic模式）和复杂的协议要求而加剧，导致现有模糊测试工具产生大量无效输入，而传统的测试生成器只能生成琐碎用例，回归断言能力薄弱。我们提出LogicHunter——一个通过主动的规范感知测试来同时应对生成和预言挑战的模糊测试框架。LogicHunter采用规范驱动的生成方法，系统地将形式化类型约束与来自真实仓库的真实使用模式相融合，合成出构造上合法但在语义上极端的输入，并配备行为探针以暴露沉默失效。为解决预言模糊性，我们引入了Agentic Oracle，它通过基于ReAct架构的双层状态管理和双流记忆，主动检索文档、导航源代码并检查运行时状态，从而超越了被动分类。在三个广泛部署的框架上评估后，LogicHunter发现了40个此前未知的缺陷，其中30个被确认、26个已被开发者修复，而最先进的基线方法最终未报告任何缺陷。Agentic Oracle的精确率达到91.17%，领先最佳被动方法（29.27%）61个百分点。"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Collaborative Multi-Agent Testing for Emergent Failure Discovery in Autonomous Driving Systems",
+    "authors": "Ruizhen Gu, Konstantinos Koufos, Donghwan Shin, Vahid Garousi, Mehrdad Dianati",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.06078v1",
+    "source": "arXiv",
+    "abstract": "Autonomous Driving Systems (ADS) can fail because of faults within individual modules as well as from interactions across perception, planning, and control. Yet existing ADS testing research often treats key testing functions, such as perturbation generation, behavioural assessment, and test case selection and exploration, as loosely coupled steps rather than coordinated roles for discovering such failures. We present CREAD, a collaborative multi-agent testing framework for testing ADS that organises perturbation generation, behavioural validation, and search coordination through a shared blackboard and an orchestrator. In the current work-in-progress instantiation, the framework focuses on perception-oriented perturbation generation, while remaining extensible to other ADS modules, including planning and control. It currently comprises a Perception Fuzzer Agent, a Metamorphic Validator Agent, and an Orchestrator Agent. Respectively, they generate perturbations, assess behavioural consistency across related scenario pairs, and coordinate further exploration. Experiments in HighwayEnv simulator show that the collaborative configuration improves failure discovery in the highway environment and remains competitive in the roundabout setting. Across the two environments, it yields about 2.1x as many failures per 100 scenarios as the single-agent baseline on average, while gains over a non-collaborative two-agent baseline vary across environments. These results suggest that collaborative multi-agent testing is a promising research direction for emergent ADS behaviour discovery.",
+    "title_zh": "面向自动驾驶系统涌现故障发现的协同多智能体测试",
+    "abstract_zh": "自动驾驶系统（ADS）的故障可能源于单个模块内部的缺陷，也可能由感知、规划和控制模块间的交互所引发。然而，现有的ADS测试研究往往将扰动生成、行为评估、测试用例选择与探索等关键测试功能视为松耦合的步骤，而非协同发现此类故障的角色。我们提出CREAD，这是一个用于测试ADS的协作式多智能体测试框架，通过共享黑板和编排器来组织扰动生成、行为验证与搜索协调。在当前的工作进展实例中，该框架侧重于面向感知的扰动生成，同时保持可扩展至规划和控制等其他ADS模块的潜力。目前，它由感知模糊测试智能体、蜕变验证智能体和编排器智能体组成，分别负责生成扰动、评估相关场景对间的行为一致性，以及协调进一步的探索。在HighwayEnv仿真器中的实验表明，该协作配置在高速公路环境中提高了故障发现能力，并在环岛场景中保持竞争力。在这两类环境中，平均每100个场景发现的故障数量约为单智能体基线的2.1倍，而相较于非协作的双智能体基线的增益则因环境而异。这些结果表明，协作式多智能体测试是一种有前景的研究方向，可用于发现ADS的涌现行为。"
+  },
+  {
+    "date": "2026-7-7",
+    "title": "2026 30th International Symposium on Asynchronous Circuits and Systems (ASYNC)",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/async69614.2026",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "2026年第30届国际异步电路与系统研讨会（ASYNC）",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-7",
+    "title": "A Test Architecture for Bundled-Data Asynchronous NoC Switches Using Commercial ATPG Tools",
+    "authors": "Iordana Gaisidou, Giuseppe Chessa, Giannis Giannoulas, Artur Jutman, Davide Bertozzi, Christos Sotiriou",
+    "publish": "2026 30th International Symposium on Asynchronous Circuits and Systems (ASYNC)",
+    "url": "https://doi.org/10.1109/async69614.2026.00015",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "使用商用ATPG工具的捆绑数据异步片上网络交换器测试架构",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-7",
+    "title": "A Low-Cost Open-Access FPGA-Based HIL Solution for Real-Time Emulation of Back-to-Back Three-Phase Converters Using Associated Discrete Circuit Modeling",
+    "authors": "Jean Sawma, Gabriel Khoury, Flavia Khatounian, Eric Monmasson",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3710846",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种低成本、开源的基于FPGA的硬件在环解决方案，用于采用关联离散电路建模的背靠背三相变换器的实时仿真",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-7",
+    "title": "A-ATPG: A Graph-based Automatic Test Pattern Generation Method for the DfT Architecture of Asynchronous Bundled-data Circuits",
+    "authors": "Xuanyu Zhang, Jilin Zhang, Hong Chen",
+    "publish": "2026 30th International Symposium on Asynchronous Circuits and Systems (ASYNC)",
+    "url": "https://doi.org/10.1109/async69614.2026.00014",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "A-ATPG：一种用于异步捆绑数据电路DfT架构的基于图的自动测试模式生成方法",
+    "abstract_zh": "None"
+  }
+]
