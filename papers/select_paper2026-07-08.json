@@ -1,0 +1,156 @@
+[
+  {
+    "date": "2026-07-08",
+    "title": "Finding and Understanding Miscompilation Bugs in the Solidity Compiler",
+    "authors": "Bhargava Shastry",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.07217v1",
+    "source": "arXiv",
+    "abstract": "Smart contract compilers are critical to ensuring the correctness of public blockchains whose defining characteristics are open-source and immutable code. We created SolSmith, a semantics-aware differential fuzz testing tool, to improve the quality of the Solidity compiler -- the most popular compiler for the Ethereum blockchain -- and spent over three years finding compiler defects that produce incorrect code. We call these defects miscompilation bugs. During this time period, we have discovered 25 miscompilation bugs that went unnoticed, some for multiple years. Our first contribution is to make compiler testing more rigorous. SolSmith achieves this goal by generating valid test programs that are likely to stress test code generation and optimization components. This helps SolSmith find bugs missed during routine testing that could potentially have serious implications for smart contracts and their users. Our second contribution is a qualitative and quantitative analysis of miscompilation bugs that we found in the Solidity compiler. We classify miscompilation bugs found by SolSmith based on their nature, root-causes, and impact on end-users. This sheds light on some pitfalls of optimizing compilers.",
+    "title_zh": "Solidity 编译器误编译缺陷的发现与理解",
+    "abstract_zh": "智能合约编译器对于确保公共区块链的正确性至关重要，而公共区块链的定义特征在于其代码开源且不可更改。我们创建了 SolSmith——一款语义感知的差异化模糊测试工具，旨在提升 Solidity 编译器（以太坊区块链上最流行的编译器）的质量，并耗时三年多寻找那些导致生成错误代码的编译器缺陷。我们将这类缺陷称为误编译错误。在此期间，我们发现了 25 个此前被忽视的误编译错误，其中一些已潜伏数年。我们的第一个贡献是让编译器测试更为严谨。SolSmith 通过生成可能对代码生成和优化组件施加压力的有效测试程序来实现这一目标，从而帮助发现常规测试中遗漏、却可能对智能合约及其用户产生严重影响的错误。第二个贡献是对 Solidity 编译器中的误编译错误进行定性和定量分析。我们依据误编译错误的性质、根本原因及对最终用户的影响，对 SolSmith 发现的错误进行分类，这揭示了优化编译器存在的一些陷阱。"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "A quantum model for synchronizing finite state transition systems",
+    "authors": "Martin Lukac, Khaled El-Fakih, Uraz Turker",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.06953v1",
+    "source": "arXiv",
+    "abstract": "We propose a quantum model for finding a resetting input sequence (RS) which can take a finite state transition system (FA), to particular state independent of its current state. The complexity of finding such sequences for various types of FA can be NP-Hard or even PSPACE-Complete. To this end, we represent the FA states, inputs, and transition function in quantum space. Accordingly, we propose a model to represent the execution of an input sequence of a particular length $l$ starting form an initial FA state. The model is extended considering the application in superposition of all input sequences of length $l$ to an initial state of the FA. The model is further extended considering the application of all input sequences to all initial states of the FA capturing for every input sequence the collection (ordered list) of states reached by applying the sequence to all states of the FA. The amplitude amplification algorithm is then used as it combines similar collections of reached states while preserving all input sequences that reach these collections. A Grover search for a reached collection where its elements correspond to the same FA state provides a RS for the FA. Our approach offers a quadratic gain over the exponential complexity of traditional brute-force method, which is the only method that can be applied to a general FA class. As a proof of concept we provide results of several simulated FAs on a quantum simulator.",
+    "title_zh": "同步有限状态转移系统的量子模型",
+    "abstract_zh": "我们提出了一种量子模型，用于寻找能将有限状态转换系统（FA）重置到某个特定状态（无论其当前状态如何）的重置输入序列（RS）。针对不同类型的FA，寻找此类序列的复杂度可能为NP-Hard甚至PSPACE-Complete。为此，我们在量子空间中表示FA的状态、输入和转换函数。基于此，我们构建了一个模型来表示从某一初始FA状态开始、执行特定长度$l$的输入序列的过程。随后，该模型被扩展，以考虑将所有长度为$l$的输入序列以叠加态形式作用于FA的一个初始状态。进一步扩展后，模型能够将所有输入序列作用于FA的全部初始状态，从而为每个输入序列捕获其作用于FA所有状态后所到达状态的集合（有序列表）。接着，采用振幅放大算法，将相似的到达状态集合并，同时保留所有能抵达这些集合的输入序列。通过对一个其元素均对应于同一FA状态的集合执行Grover搜索，就能得到该FA的重置输入序列。与只能应用于一般FA类的传统暴力穷举法相比，我们的方法在其指数复杂度之上实现了二次加速。作为概念验证，我们展示了在量子模拟器上对若干FA仿真的结果。"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "Miter-Aware LUT Mapping: Aligning Structure and Solvability for Efficient Logic Equivalence Checking",
+    "authors": "Jiaying Zhu, Zhengyuan Shi, Mengxia Tao, Kezhi Li, Min Li, Qiang Xu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.07164v1",
+    "source": "arXiv",
+    "abstract": "Logic Equivalence Checking (LEC), a fundamental hardware verification task, is often bottlenecked by synthesis-induced structural perturbations and XOR-dense regions that degrade SAT solver performance. We contend that the modeling of the miter is as critical as the SAT solver itself. To this end, we introduce a miter-aware mapping framework that strategically formulates the problem before solving. By constructing a LUT-based miter -- instead of a traditional, flat netlist -- our approach preserves critical structural correspondence between the two designs while making high-level logic relations explicit. Our framework uniquely integrates three techniques: equivalence-preserving mapping to structurally align the two circuits, Gaussian-guided XOR modeling to algebraically simplify dense arithmetic, and solver-oriented LUT selection to generate a representation optimized for efficient SAT reasoning. Evaluated on comprehensive datasets, our method achieves up to a \\textbf{92.1\\%} reduction across state-of-the-art SAT solvers. This demonstrates that a solver-aware modeling paradigm, which unifies structural mapping with SAT reasoning, can fundamentally enhance LEC efficiency.",
+    "title_zh": "面向Miter电路的LUT映射：结构对齐与可解性兼顾，实现高效逻辑等价性检查",
+    "abstract_zh": "逻辑等价性检查（LEC）是硬件验证的一项基础任务，常因综合引入的结构扰动和异或密集区域导致SAT求解器性能下降，成为瓶颈。我们认为，异或比较电路（miter）的建模与SAT求解器本身同等关键。为此，我们提出一种感知miter的映射框架，在求解前对问题进行策略性建模。通过构建基于查找表（LUT）的miter，而非传统的扁平网表，我们的方法在保留两个设计间关键结构对应关系的同时，显式地呈现了高层逻辑关联。该框架独特地融合了三种技术：保持等价性的映射以在结构上对齐两个电路，高斯引导的异或建模以代数化简密集算术，以及面向求解器的LUT选择，生成优化SAT推理的表示。在综合数据集上的评估表明，我们的方法在主流SAT求解器上实现了最高\\bold{92.1\\%}的缩减。这证明，将结构映射与SAT推理相统一的求解器感知建模范式，能够从根本上提升LEC的效率。"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "Separation Logic for Memory Conflict Detection in High-Level Synthesis",
+    "authors": "Yeonseok Lee",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.07126v1",
+    "source": "arXiv",
+    "abstract": "High-Level Synthesis leverages loop unrolling and array partitioning, but scheduling concurrent accesses is challenging when indices contain non-affine arithmetic. Conventional polyhedral frameworks systematically over-approximate these non-linear transformations, forcing conservative serialization that degrades performance. To minimize this bottleneck, we present a spatial verification framework operating at the LLVM Intermediate Representation (IR) level. By extracting flat arithmetic expressions from \"getelementptr\" instructions, it models memory banks as polymorphic spatial predicates to handle non-affine terms. Structural safety is enforced via a Conflict-Free Unrolling condition using Separation Logic's separating conjunction; concurrent operations targeting the same bank trigger an automatic spatial contradiction. This disjointness requirement is reduced to a matrix of pairwise inequalities over immutable Static Single Assignment (SSA) variables for a Satisfiability Modulo Theories (SMT) oracle. To guarantee safety against undecidable non-linear arithmetic, we implement a deterministic sequential fallback. Finally, a theorem of soundness bridges algebraic SMT verification with Register Transfer Level trace safety, ensuring physical hardware immune to structural memory collisions.",
+    "title_zh": "用于高层次综合中内存冲突检测的分离逻辑",
+    "abstract_zh": "高层次综合利用循环展开和数组划分，但当索引包含非仿射算术运算时，调度并发访问极具挑战性。传统多面体框架系统性地过度近似这些非线性变换，强制采用保守的串行化，导致性能下降。为缓解这一瓶颈，我们提出一个在LLVM中间表示（IR）层级运行的空间验证框架。通过从“getelementptr”指令中提取平坦算术表达式，它将存储体建模为多态空间谓词，以处理非仿射项。结构安全性通过基于分离逻辑的分离合取的无冲突展开条件来强制保证；针对同一存储体的并发操作会自动触发空间矛盾。该不相交性要求被归约为一个基于不可变的静态单赋值（SSA）变量的成对不等式矩阵，供可满足性模理论（SMT）求解器使用。为保证安全以应对不可判定的非线性算术，我们实现了一个确定性的顺序回退机制。最后，一个正确性定理将代数SMT验证与寄存器传输级轨迹安全性联系起来，确保物理硬件免受结构性内存冲突的影响。"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "Reward-Adaptive Iterative Discovery: A Case Study on Automated Game Testing for NHL26",
+    "authors": "Florian Fuchs, Jessy Gosselin-Grant, Boris Skuin, Michele Petteni, Alessandro Sestini, Joakim Bergdahl, Amir Baghi, Linus Gisslén",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.07498v1",
+    "source": "arXiv",
+    "abstract": "Testing is a major effort for the gaming industry, requiring a significant part of development budget and people power. We present a case study on a development version of the ice hockey game EA SPORTS NHL 26, for which human playtesters test the goalie AI for behavioral exploits. To reduce the effort of re-testing the goalie AI after every game or behavior modification in the development phase, we propose Reward-Adaptive Iterative Discovery (RAID), a novel approach to automatically find exploits using an iterative Reinforcement Learning (RL) approach that trains a population of goal scoring agents. While previous approaches can already successfully find exploits, RL algorithms tend to overfit to a single solution. We introduce a simple extension on top of existing RL algorithms, such that they find multiple diverse high-quality solutions. For our first deployment of this approach, within a single experiment we were able to find six hockey scoring exploit strategies that were qualitatively similar to those that playtesters had found in hours-long manual testing sessions.",
+    "title_zh": "奖励自适应迭代发现：NHL26自动化游戏测试案例研究",
+    "abstract_zh": "测试是游戏行业的一项重大工作，需要占用开发预算和人力资源的很大一部分。我们针对冰球游戏《EA SPORTS NHL 26》的开发版本开展了一项案例研究，其中人工游戏测试员会对守门员 AI 的行为漏洞进行测试。为了减少开发阶段每次修改游戏或行为后重新测试守门员 AI 的工作量，我们提出了奖励自适应迭代发现（RAID）这种方法，它通过采用迭代强化学习（RL）方法来训练一群进球智能体，从而自动发现漏洞。虽然以往的方法已经能够成功找到漏洞，但强化学习算法往往会过拟合到单一解决方案。我们在现有强化学习算法的基础上引入了一个简单的扩展，使它们能够找到多个多样化的高质量解决方案。在首次部署该方法的一次实验中，我们就成功发现了六种冰球得分漏洞策略，这些策略在性质上与游戏测试员在长达数小时的手动测试中发现的策略相似。"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "LLM Assisted Verification Assertion Generation: Challenges and Future Directions",
+    "authors": "Bhabesh Mali, Chandan Karfa",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.07444v1",
+    "source": "arXiv",
+    "abstract": "Assertion-based Verification (ABV) plays a critical role in the Design Verification (DV) process. However, ABV requires substantial manual effort in generating assertion from specification by verification engineers, making it a time-consuming stage in the chip design flow. With the recent development of Large Language Models (LLMs), researchers have started exploring their use as an assistance in the ABV process, particularly for generating SystemVerilog Assertions (SVAs) from design specification. In this paper, we provide an overview of recent works, highlighting the different methods used to generate SVAs. In particular, we investigate LLM-based SVA generation and ask a central question: How can LLM-based assertion generation be made systematic and quality-aware? While addressing this key question, we provide Key Takeaways at the end of each challenge, summarizing the important methodological insights, and also provide guidelines and directions in solving those challenges that can help generate a high-quality set of assertions using LLMs.",
+    "title_zh": "LLM辅助的验证断言生成：挑战与未来方向",
+    "abstract_zh": "基于断言的验证（Assertion-based Verification, ABV）在设计验证（Design Verification, DV）过程中起着至关重要的作用。然而，ABV需要验证工程师依据规范手动生成断言，这大量耗费人力，使其成为芯片设计流程中耗时较长的阶段。随着近期大型语言模型（Large Language Models, LLMs）的发展，研究人员已开始探索将其作为ABV流程中的辅助工具，特别是用于从设计规范生成SystemVerilog断言（SystemVerilog Assertions, SVAs）。本文概述了近期相关工作，重点介绍了生成SVA的不同方法。我们特别研究了基于LLM的SVA生成，并提出了一个核心问题：**如何使基于LLM的断言生成实现系统化并具备质量感知？** 在探讨这一关键问题的过程中，我们在每个挑战的结尾提供了“关键要点”，总结重要的方法论见解，同时给出了解决这些挑战的指导方针和方向，以帮助使用LLM生成一组高质量的断言。"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "Evaluating Endpoint Detection Robustness Against Genetic Algorithm Driven Code Transformations",
+    "authors": "Alvina Rwaichi Minja, Jema David Ndibwile",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.07191v1",
+    "source": "arXiv",
+    "abstract": "Post-compromise test variants are widely used in controlled security evaluation and endpoint robustness benchmarking. However, modern Antivirus (AV) and Endpoint Detection and Response (EDR) systems increasingly combine signature- and behavior-based detection, challenging the reliability of conventional detection pipelines under adaptive variation. This study introduces ShellForge, a Genetic Algorithm (GA)-driven framework that evolves post-compromise variants representative of remote command execution to generate functionally equivalent variants for systematic detection evaluation. ShellForge applies syntactic transformations, encoding schemes, and structural permutations guided by a multi-objective fitness function informed by AV and EDR detection feedback. We compare ShellForge against representative baseline transformation frameworks under identical sandbox configurations. Our findings highlight measurable robustness gaps in baseline signature- and behavior-oriented detection pipelines under controlled variant generation. In addition, we propose a reproducible benchmark for endpoint detection robustness evaluation, motivating the need for robustness-aware defensive monitoring and behavioral correlation.",
+    "title_zh": "评估端点检测对遗传算法驱动的代码变换的鲁棒性",
+    "abstract_zh": "入侵后测试变体广泛用于受控安全评估和端点鲁棒性基准测试。然而，现代防病毒（AV）和端点检测与响应（EDR）系统日益结合基于签名和行为的检测，在适应性变体下对传统检测管道的可靠性提出了挑战。本研究介绍了 ShellForge，一个由遗传算法（GA）驱动的框架，该框架演化出代表远程命令执行的入侵后变体，以生成功能等效的变体，用于系统化的检测评估。ShellForge 应用语法变换、编码方案和结构置换，并由基于 AV 和 EDR 检测反馈的多目标适应度函数引导。我们在相同的沙箱配置下将 ShellForge 与代表性的基线转换框架进行比较。研究发现，在受控变体生成下，基线基于签名和行为导向的检测管道存在可衡量的鲁棒性差距。此外，我们提出了一种可复现的端点检测鲁棒性评估基准，从而激发了对面向鲁棒性的防御监控和行为关联的需求。"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "Rethinking Code Performance Benchmarks for LLMs",
+    "authors": "Nhat Minh Le, Yisen Xu, Zhijie Wang, Tse-Hsun, Chen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.07619v1",
+    "source": "arXiv",
+    "abstract": "Many function-level performance benchmarks have been proposed to evaluate whether large language models (LLMs) can generate efficient programs. However, results on these benchmarks often show that LLM-generated implementations have little or no execution-time difference from canonical solutions. In this paper, we revisit four popular benchmarks: EffiBench, Enamel, EvalPerf, and Mercury. We evaluate 1,538 tasks under more rigorous setting by running each task 30 times and assessing the runtime differences between the canonical solutions and benchmark-provided performant implementations with statistical testing. With the benchmark-provided test suites, only 6.11% of the performant implementations are significantly faster than the canonical solutions. In a manual analysis of 308 non-significant tasks, 99 performant implementations contain no meaningful performance change, while 209 contain potential performance improvements that are not exposed by the original tests. These results suggest that the main limitation is not only the evaluation method, but also the limited sufficiency of the benchmark-provided performance tests. To address this limitation, we propose an LLM-based multi-agent framework to generate performance-oriented tests that expose runtime differences more effectively than the original tests. The framework uses three separate agents to generate, diagnose, and repair deterministic tests that preserve functional correctness while better exposing performance differences. Across 1,345 benchmark tasks for which the original tests found no significant performance difference, tests generated by our framework with DeepSeek-v3.1 and GPT-4o reveal statistically significant improvements in 24.01% and 25.43% of the tasks, respectively, outperforming the SOTA LLM-based performance test generation method.",
+    "title_zh": "重新思考大语言模型的代码性能基准",
+    "abstract_zh": "目前已有多个函数级性能基准被提出，用于评估大型语言模型（LLMs）能否生成高效程序。但这些基准测试的结果通常表明，LLM生成的实现在执行时间上与规范解法差异极小甚至无差异。本文重新审视了四个主流基准：EffiBench、Enamel、EvalPerf和Mercury。我们在更严格的设定下评估了1538项任务——每项任务运行30次，并通过统计检验评估规范解法与基准测试提供的高性能实现之间的运行时差异。结果显示，在基准配套的测试套件下，仅有6.11%的高性能实现显著快于规范解法。通过对308项未达显著差异的任务进行人工分析发现，其中99项高性能实现未包含实质性性能改进，而209项虽存在潜在性能提升却未被原始测试暴露。这些结果表明，主要局限不仅在于评估方法，更在于基准测试所提供的性能测试充分性不足。针对该局限，我们提出基于LLM的多智能体框架，用于生成比原始测试更有效暴露运行时差异的性能导向测试。该框架通过三个独立智能体分别生成、诊断和修复确定性测试，在保持功能正确性的同时更显著地暴露性能差异。在原始测试未发现显著性能差异的1345个基准任务中，我们基于DeepSeek-v3.1和GPT-4o的框架生成的测试分别揭示了24.01%和25.43%的任务存在统计显著改进，性能优于当前最优的基于LLM的性能测试生成方法。"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "Mining Workflow Graphs for Black-Box Boundary Testing of Conversational LLM Agents",
+    "authors": "Liting Lin, Boxi Yu, Yuzhong Zhang, Lionel Briand, David-Paul Niland, Emir Muñoz",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.06873v1",
+    "source": "arXiv",
+    "abstract": "Conversational LLM agents can cause real-world harm when their internal workflows fail, such as completing a transaction without confirmation. Testing these state-dependent failures is difficult because critical boundaries, such as identity checks and confirmation gates, are hidden behind multi-turn conversational prerequisites, rendering them inaccessible to standard tests. We present AgentEval, a black-box testing framework that discovers and stresses these stateful boundaries. AgentEval interacts with an agent to mine a \\emph{conversational workflow graph}, a model of its behavior. Instead of prompting blindly, AgentEval uses this graph's structure to enumerate specific guards and prerequisites as test targets, replaying the conversational path to a boundary before applying a perturbation. AgentEval then executes each test, determining whether it passes or fails using only the conversation turns. We benchmark AgentEval against a privileged, white-box auditor with access to the agent's underlying source code, which AgentEval never sees. On four $τ^3$-bench agents, AgentEval successfully generates tests covering $23$--$38$ distinct boundaries per agent; ablation studies attribute the gain to the graph's structure: $23$ distinct boundaries versus $12$ with a prompt-only baseline, at lower duplicate and false-alarm rates.",
+    "title_zh": "面向对话式LLM智能体黑盒边界测试的工作流图挖掘",
+    "abstract_zh": "对话型大语言模型（LLM）智能体在内部工作流发生故障时可能造成现实世界的危害，例如未经确认就完成交易。对这些状态依赖型故障的测试十分困难，因为身份检查、确认关卡等关键边界隐藏在多轮对话的先决条件之后，导致标准测试方法难以触及。我们提出 AgentEval，一个黑盒测试框架，用于发现并对这些有状态边界施加压力。AgentEval 通过与智能体交互来挖掘其“对话工作流图”——一种对其行为进行建模的结构。AgentEval 并非盲目地进行提示，而是利用图的结构枚举出特定的守卫条件和先决条件作为测试目标，重新执行通往边界的对话路径，然后再施加扰动。随后，AgentEval 执行每项测试，并仅依据对话轮次判断测试是否通过。我们将 AgentEval 与拥有智能体底层源代码访问权限的白盒审计工具进行基准对比，而 AgentEval 从未接触源代码。在四个 $\\tau^3$-bench 智能体上，AgentEval 成功生成了覆盖每个智能体 23 至 38 个不同边界的测试；消融研究将这一增益归因于图的结构：相比仅使用提示的基线方法发现的 12 个不同边界，图结构能发现 23 个，且重复率和误报率更低。"
+  },
+  {
+    "date": "2026-7-8",
+    "title": "Experimental Analysis of Pseudorandom Number Generators Considering Sequence Quality and Energy Consumption",
+    "authors": "M. Gulić, P. Turkalj, M. Valčić, N. Grubišić",
+    "publish": "2026 49th MIPRO ICT and Electronics Convention (MIPRO)",
+    "url": "https://doi.org/10.1109/mipro70003.2026.11591948",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "考虑序列质量与能耗的伪随机数生成器实验分析",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-8",
+    "title": "FORCE Keynote",
+    "authors": "N/A",
+    "publish": "2026 56th Annual IEEE International Conference on Dependable Systems and Networks Workshops (DSN-W)",
+    "url": "https://doi.org/10.1109/dsn-w70714.2026.00019",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "FORCE 主题演讲",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-8",
+    "title": "Automated Resilience Assessment for Autonomous Systems Using System-on-Chip Architectures",
+    "authors": "Abigail Butka, Brian Butka",
+    "publish": "2026 56th Annual IEEE International Conference on Dependable Systems and Networks Workshops (DSN-W)",
+    "url": "https://doi.org/10.1109/dsn-w70714.2026.00052",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于片上系统架构的自主系统自动化弹性评估",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-8",
+    "title": "A Novel Initial Assignment Strategy Based on Johnson's Algorithm for MaxSAT Problem",
+    "authors": "Chao Xu, Zuxi Yang",
+    "publish": "2026 3rd International Conference on Electronic Engineering and Information Systems (EEISS)",
+    "url": "https://doi.org/10.1109/eeiss69782.2026.11584620",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于Johnson算法的MaxSAT问题初始赋值新策略",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-8",
+    "title": "Code Wars: Adversarial Self-Play for Evolving Software Validation Tools",
+    "authors": "Merve Astekin, Sagar Sen, Arda Göknil, Hasan Sözer",
+    "publish": "Proceedings of the IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3786582.3786831",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "代码之战：对抗性自博弈以演化软件验证工具",
+    "abstract_zh": "无"
+  }
+]
