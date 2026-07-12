@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-7-11",
+    "title": "Vision Language Model-based Testing of Industrial Autonomous Mobile Robots",
+    "authors": "Jiahui Wu, Chengjie Lu, Aitor Arrieta, Shaukat Ali, Thomas Peyrucain",
+    "publish": "Proceedings of the IEEE/ACM 48th International Conference on Software Engineering: Software Engineering in Practice",
+    "url": "https://doi.org/10.1145/3786583.3786920",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于视觉语言模型的工业自主移动机器人测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-11",
+    "title": "CAST: Automated Resilience Testing for Production Cloud Service Systems",
+    "authors": "Zhuangbin Chen, Zhiling Deng, Kaiming Zhang, Yang Liu, Cheng Cui, Jinfeng Zhong, Zibin Zheng",
+    "publish": "Proceedings of the IEEE/ACM 48th International Conference on Software Engineering: Software Engineering in Practice",
+    "url": "https://doi.org/10.1145/3786583.3786867",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "CAST：生产云服务系统的自动化韧性测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-11",
+    "title": "Fixing Security Vulnerabilities with Agentic AI in OSS-Fuzz",
+    "authors": "Yuntong Zhang, Jiawei Wang, Dominic Berzin, Martin Mirchev, Abhik Roychoudhury",
+    "publish": "Proceedings of the IEEE/ACM 48th International Conference on Software Engineering: Software Engineering in Practice",
+    "url": "https://doi.org/10.1145/3786583.3786880",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "利用Agentic AI修复OSS-Fuzz中的安全漏洞",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-11",
+    "title": "On the Flakiness of LLM-Generated Tests for Industrial and Open-Source Database Management Systems",
+    "authors": "Alexander Berndt, Thomas Bach, Rainer Gemulla, Marcus Kessel, Sebastian Baltes",
+    "publish": "Proceedings of the IEEE/ACM 48th International Conference on Software Engineering: Software Engineering in Practice",
+    "url": "https://doi.org/10.1145/3786583.3786919",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "论LLM生成的测试在工业与开源数据库管理系统中的不稳定性",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-11",
+    "title": "Automated Software Test Generation at Industry Scale Using a Multi-Agent Architecture and Workflow Integration",
+    "authors": "Matas Rastenis, Ben Chou, Shauvik Roy Choudhary, René Just",
+    "publish": "Proceedings of the IEEE/ACM 48th International Conference on Software Engineering: Software Engineering in Practice",
+    "url": "https://doi.org/10.1145/3786583.3786918",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "采用多智能体架构与工作流集成的工业级自动化软件测试生成",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-11",
+    "title": "AutoOracle: High-Quality C++ Test Oracle Generation via Data Quality-Driven and Filtering-Enabled LLMs",
+    "authors": "Cong Li, Jong-In Jang, Yuqi Zhang, Nakwon Lee, Bin Wang, Yinghua Zhang, Chanwook Kim, Jia Zhang, HyunSeok Kim, Xing He, Kangho Roh, Seongjun Ahn",
+    "publish": "Proceedings of the IEEE/ACM 48th International Conference on Software Engineering: Software Engineering in Practice",
+    "url": "https://doi.org/10.1145/3786583.3786868",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "AutoOracle：利用数据质量驱动且具备过滤能力的大语言模型生成高质量C++测试预言",
+    "abstract_zh": "无"
+  }
+]
