@@ -1,0 +1,92 @@
+[
+  {
+    "date": "2026-7-13",
+    "title": "Performance Evaluation of a Lightweight Threshold-Based Distributed Encryption Architecture for IoT Data Offloading",
+    "authors": "Yosra Ben Saied",
+    "publish": "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
+    "url": "https://doi.org/10.1145/3815183",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-13",
+    "title": "Speeding Up Write-Read Orders in Disaggregated Storage",
+    "authors": "Shaoxun Zeng, Xiaojian Liao, Hao Guo, Jiwu Shu, Youyou Lu",
+    "publish": "ACM Transactions on Storage",
+    "url": "https://doi.org/10.1145/3829363",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-13",
+    "title": "Performance and Security in Userspace NVM File Systems through State Separation",
+    "authors": "Diyu Zhou, VOJTECH ASCHENBRENNER, Tao Lyu, Jian Zhang, Sudarsun Kannan, Sanidhya Kashyap",
+    "publish": "ACM Transactions on Computer Systems",
+    "url": "https://doi.org/10.1145/3828543",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-13",
+    "title": "A CNN-Based Technique to Assist Layout-to-Generator Conversion for Analog Circuits",
+    "authors": "Sungyu Jeong, Minsu Kim, Byungsub Kim",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3830471",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-13",
+    "title": "Survey of GPU Acceleration in Acoustics and Audio Signal Processing",
+    "authors": "André Carvalho, Aleksandar Ilic, Leonel Sousa",
+    "publish": "ACM Computing Surveys",
+    "url": "https://doi.org/10.1145/3830900",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-13",
+    "title": "Accurate Models of NVIDIA Tensor Cores",
+    "authors": "Faizan Khattak, Mantas Mikaitis",
+    "publish": "ACM Transactions on Architecture and Code Optimization",
+    "url": "https://doi.org/10.1145/3830409",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-13",
+    "title": "Managing the Epistemic Fairness Paradox in AI-Augmented Research",
+    "authors": "Arun Rai",
+    "publish": "ACM Transactions on Management Information Systems",
+    "url": "https://doi.org/10.1145/3827965",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-13",
+    "title": "Optimizing Multilinear Polynomial Representations of Boolean Functions for Neural Network Synthesis",
+    "authors": "Joshua Russell, Ignacio Gavier, Edward Rietman, Hava Siegelmann",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3830474",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-13",
+    "title": "Introduction to the Special Issue on SIGSPATIAL 2024",
+    "authors": "Yao-Yi Chiang, Ahmed Eldawy, Peer Kroger",
+    "publish": "ACM Transactions on Spatial Algorithms and Systems",
+    "url": "https://doi.org/10.1145/3821403",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-13",
+    "title": "Surfacing the Invisible: AI and the IS Discipline",
+    "authors": "Ritu Agarwal, Balaji Padmanabhan, Yizhi Liu",
+    "publish": "ACM Transactions on Management Information Systems",
+    "url": "https://doi.org/10.1145/3828556",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]

@@ -1,0 +1,30 @@
+[2026-07-13 12:07:23] 开始执行论文搜索任务
+搜索关键词: verification
+搜索日期范围: 2026-07-12
+正在获取论文...
+[ACM] 2026-7-13 | Performance Evaluation of a Lightweight Threshold-Based Distributed Encryption Architecture for IoT Data Offloading
+[ACM] 2026-7-13 | Speeding Up Write-Read Orders in Disaggregated Storage
+[ACM] 2026-7-13 | Performance and Security in Userspace NVM File Systems through State Separation
+[ACM] 2026-7-13 | A CNN-Based Technique to Assist Layout-to-Generator Conversion for Analog Circuits
+[ACM] 2026-7-13 | Survey of GPU Acceleration in Acoustics and Audio Signal Processing
+[ACM] 2026-7-13 | Accurate Models of NVIDIA Tensor Cores
+[ACM] 2026-7-13 | Managing the Epistemic Fairness Paradox in AI-Augmented Research
+[ACM] 2026-7-13 | Optimizing Multilinear Polynomial Representations of Boolean Functions for Neural Network Synthesis
+[ACM] 2026-7-13 | Introduction to the Special Issue on SIGSPATIAL 2024
+[ACM] 2026-7-13 | Surfacing the Invisible: AI and the IS Discipline
+共写入 10 条记录，保存到 papers/paper2026-07-12.json。
+论文获取成功，文件路径: papers/paper2026-07-12.json
+正在筛选、翻译并发送邮件...
+[NO] 1/10 | Performance Evaluation of a Lightweight Threshold-Based Distributed Encryption Architecture for IoT Data Offloading
+[NO] 2/10 | Speeding Up Write-Read Orders in Disaggregated Storage
+[NO] 3/10 | Performance and Security in Userspace NVM File Systems through State Separation
+[NO] 4/10 | A CNN-Based Technique to Assist Layout-to-Generator Conversion for Analog Circuits
+[NO] 5/10 | Survey of GPU Acceleration in Acoustics and Audio Signal Processing
+[NO] 6/10 | Accurate Models of NVIDIA Tensor Cores
+[NO] 7/10 | Managing the Epistemic Fairness Paradox in AI-Augmented Research
+[NO] 8/10 | Optimizing Multilinear Polynomial Representations of Boolean Functions for Neural Network Synthesis
+[NO] 9/10 | Introduction to the Special Issue on SIGSPATIAL 2024
+[NO] 10/10 | Surfacing the Invisible: AI and the IS Discipline
+筛选完成：共 10 篇；Yes = 0 篇；已保存到 papers/select_paper2026-07-12.json。
+邮件发送成功！
+[2026-07-13 12:08:54] 任务执行成功！
