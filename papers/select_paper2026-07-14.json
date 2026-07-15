@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-07-14",
+    "title": "Detecting Rendering Bugs in Imperative Data Visualization Libraries via Equivalent Mutations",
+    "authors": "Weiqi Lu, Yongqiang Tian",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.12363v1",
+    "source": "arXiv",
+    "abstract": "Imperative data visualization libraries construct plots through a sequence of stateful API calls that incrementally create and update graphic elements. Rendering bugs in these libraries often manifest as incorrect visual outputs rather than crashes or exceptions, making them difficult to detect automatically. A fundamental challenge is the lack of an oracle that specifies the expected rendering of an arbitrary plotting script. Furthermore, an update to one graphic element may inadvertently affect other elements or properties, leading to subtle inconsistencies in the final rendered image. This paper presents VIZDETOUR, an automated testing approach for detecting rendering bugs in imperative data visualization libraries via equivalent mutations. The key idea is to transform the oracle problem into an equivalence-checking problem. Starting from a seed plotting script, VIZDETOUR appends a short sequence of semantically equivalent API calls that temporarily modify the visualization state and then restore it to its original state. Although these mutations exercise different execution paths, they should preserve the final rendering. Any visual discrepancy between the original and mutated scripts therefore indicates a rendering bug. To generate such mutations, VIZDETOUR constructs a render tree from the seed script, identifies traceable graphic elements and mutable properties, and synthesizes endpoint-preserving mutation sequences. It then compares the rendered outputs using perceptual hashing. We evaluate VIZDETOUR on matplotlib, bokeh, and plotly using scripts collected from their official example galleries. VIZDETOUR discovers 47 previously unknown bugs, of which 39 are confirmed and 18 are fixed.",
+    "title_zh": "通过等效变异检测命令式数据可视化库中的渲染缺陷",
+    "abstract_zh": "命令式数据可视化库通过一系列有状态的API调用来构建图表，逐步创建并更新图形元素。这些库中的渲染错误通常表现为不正确的视觉输出，而非程序崩溃或异常，因而难以被自动检测。一个根本性的挑战在于缺少能够指定任意绘图脚本预期渲染效果的测试预言。此外，对一个图形元素的更新可能无意中影响其他元素或属性，导致最终渲染图像中出现细微的不一致性。本文提出VIZDETOUR，一种基于等价变异的自动化测试方法，用于检测命令式数据可视化库中的渲染错误。其核心思路是将预言问题转化为等价性检查问题。从一个种子绘图脚本出发，VIZDETOUR附加一小段语义等价的API调用，这些调用临时修改可视化状态，随后再将其恢复至原始状态。虽然这些变异会执行不同的代码路径，但它们应当保持最终渲染结果不变。因此，原始脚本与变异脚本之间的任何视觉差异都意味着存在渲染错误。为生成这类变异，VIZDETOUR从种子脚本构建渲染树，识别可追踪的图形元素和可变的属性，并合成保持端点状态的变异序列。随后，它利用感知哈希对渲染输出进行比较。我们使用从matplotlib、bokeh和plotly官方示例库中收集的脚本对VIZDETOUR进行评估。VIZDETOUR发现了47个此前未知的错误，其中39个已得到确认，18个已修复。"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "Automatic Testing of Interacting Autonomous Vehicles",
+    "authors": "Fabio Cavaleri, Alessio Gambi, Paolo Arcaini, Dejan Ničković, Mauro Pezzè",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.12452v1",
+    "source": "arXiv",
+    "abstract": "Autonomous vehicles (AVs) must be thoroughly tested to meet high safety standards and avoid endangering both AV passengers and road users. Scenario-based testing implements driving scenarios in virtual simulation environments as a cost-effective alternative to field testing. Common scenario-based testing approaches set the environment and the surrounding traffic and test a single AV. Recent studies show that the approaches that test single AVs miss critical behaviors that emerge from interactions among multiple AVs. Effective approaches to test scenarios that emerge from n-way interactions must address the combinatorial explosion that the presence of multiple AVs further exacerbates. In this paper, we propose EVITA, an approach that leverages multi-objective optimization to generate scenarios that trigger multiple and diverse AVs interactions, while minimizing the complexity of the generated scenarios, to effectively test multiple interacting AVs and reveal safety-critical scenarios that current approaches overlook. The experimental results that we discuss in this paper confirm that EVITA triggers a higher variety of AVs interactions than state-of-the-art approaches, thus improving the likelihood to reveal safety-critical behaviors.",
+    "title_zh": "交互式自动驾驶车辆自动测试",
+    "abstract_zh": "为确保自动驾驶汽车（AV）达到高安全标准，避免对乘客及其他道路使用者造成危害，必须对其进行全面测试。基于场景的测试在虚拟仿真环境中执行驾驶场景，作为实地测试的经济高效替代方案。常见的基于场景的测试方法通常设定环境和周围交通，并只测试单一AV。近期研究表明，仅测试单一AV的方法会遗漏多个AV之间交互所产生的关键行为。针对n方交互所涌现的测试场景的有效方法，必须应对因多AV存在而进一步加剧的组合爆炸问题。本文提出EVITA方法，利用多目标优化生成能够引发多种且多样的AV交互的场景，同时最小化所生成场景的复杂度，从而有效测试相互作用的多个AV，揭示当前方法所忽略的安全关键场景。我们讨论的实验结果证实，与现有先进方法相比，EVITA能触发更多样化的AV交互，因而提升了揭示安全关键行为的可能性。"
+  },
+  {
+    "date": "2026-7-14",
+    "title": "Beyond Clustering: A Hybrid Framework for Target Generation in Sparse IPv6 Networks",
+    "authors": "Wei Zhang, Gang Ren, Xia Yin, Lin He, Haoxiang Yang",
+    "publish": "ICC 2026 - IEEE International Conference on Communications",
+    "url": "https://doi.org/10.1109/icc59461.2026.11586870",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "超越聚类：一种面向稀疏IPv6网络目标生成的混合框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-14",
+    "title": "Self-Evolving AI Agents with Dual Memory for Automated Software Testing and Bug Localization",
+    "authors": "Tianjun Mo, Changhao Zhang, Jitong Zou, Zixuan Guo, Minjae Rhee",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3713401",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "具有双重记忆的自我进化AI智能体，用于自动化软件测试和缺陷定位",
+    "abstract_zh": "None"
+  }
+]
