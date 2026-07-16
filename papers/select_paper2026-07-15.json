@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-7-15",
+    "title": "Design Methodology and Verification of Standard Cell Libraries for Scalable ASIC Implementation of Inverter and Inverter Delay Circuit",
+    "authors": "Sahana, Lavanya B L, Durga Prasad",
+    "publish": "2025 9th International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC)",
+    "url": "https://doi.org/10.1109/i-smac65734.2025.11597710",
+    "source": "IEEE",
+    "abstract": "抓取摘要失败: HTTPSConnectionPool(host='ieeexplore.ieee.org', port=443): Max retries exceeded with url: /document/11597710/ (Caused by ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer')))",
+    "title_zh": "用于可扩展ASIC实现的反相器与反相器延迟电路标准单元库的设计方法与验证",
+    "abstract_zh": "抓取摘要失败：HTTPS连接池（主机='ieeexplore.ieee.org'，端口=443）：对URL '/document/11597710/' 的重试次数已达上限（原因：协议错误（'连接中止'，连接重置错误（104，'对方重置连接'）））"
+  },
+  {
+    "date": "2026-7-15",
+    "title": "Retraction Notice: Implementation of Efficient Test Case Optimization Technique Using Meta-Heuristic Algorithm",
+    "authors": "Sajal Gupta, Shivali Chopra, Mohit Arora",
+    "publish": "2021 9th International Conference on Reliability, Infocom Technologies and Optimization (Trends and Future Directions) (ICRITO)",
+    "url": "https://doi.org/10.1109/icrito51393.2021.11611147",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "撤稿通知：基于元启发式算法的高效测试用例优化技术的实现",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-15",
+    "title": "CHAPATI: End-to-End Methodology to Conduct Multi-Faults Injection Campaigns",
+    "authors": "Antoine Gicquel, Ludovic Claudepierre, Damien Hardy, Karine Heydemann, Erven Rohou",
+    "publish": "2026 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+    "url": "https://doi.org/10.1109/host68814.2026.11604848",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "CHAPATI：进行多故障注入活动的端到端方法论",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-15",
+    "title": "A 57-67 GHz+14 dBm 4-Channel Transmitter with 7-Bit Phase Shifter and Built-in Self-Test for Doppler-Offset Doppler Division Multiplexing Fmcw Radar",
+    "authors": "Jeff Shih-Chieh Chien, Samrat Dey, Ying Chen, Mingyuan Li, Ivan Siu-Chuang Lu, Tienyu Chang, Wanghua Wu, Joonhoi Hur",
+    "publish": "2026 IEEE Radio Frequency Integrated Circuits Symposium (RFIC)",
+    "url": "https://doi.org/10.1109/rfic70222.2026.11602347",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种用于多普勒偏移多普勒分复用FMCW雷达的57-67 GHz +14 dBm 4通道发射机，带有7位移相器和内置自测试",
+    "abstract_zh": "None"
+  }
+]
