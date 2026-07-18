@@ -1,0 +1,167 @@
+[
+  {
+    "date": "2026-7-17",
+    "title": "AI Secured Simulation of Wireline Blueprints",
+    "authors": "Sumalatha Aradhya, Usha Desai",
+    "publish": "2026 Third International Conference on Innovations in Cybersecurity and Data Science (ICICDS)",
+    "url": "https://doi.org/10.1109/icicds70526.2026.11604755",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "AI安全的有线蓝图仿真",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "AI-Driven Test Case Generation Using Retrieval-Augmented Enterprise Knowledge",
+    "authors": "Rajesh Kumar, Shweta Rani Padhy",
+    "publish": "2026 4th Cognitive Models and Artificial Intelligence Conference (AICCONF)",
+    "url": "https://doi.org/10.1109/aicconf69182.2026.11600637",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于检索增强企业知识的AI驱动测试用例生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "TestAgent: A Multi-Agent LLM Framework for Repository-Level Unit Test Generation",
+    "authors": "Ye Shang, Quanjun Zhang, Zhengyu Zhan, Ke Huang, Chunrong Fang, Zhenyu Chen",
+    "publish": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+    "url": "https://doi.org/10.1145/3803437.3806428",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "TestAgent：面向仓库级单元测试生成的多智能体 LLM 框架",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "SV2 Analyzer: Open-Source Large Language Model-Based Framework for Accelerating Digital Circuits Verification Flow",
+    "authors": "Mohamed Khaled",
+    "publish": "2026 IEEE International Conference on Smart Sustainable Systems for Computer and Engineering Applications (3SCEA)",
+    "url": "https://doi.org/10.1109/3scea68071.2026.11602718",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "SV2 Analyzer：基于开源大语言模型的数字电路验证流程加速框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "MIMIC-Py: An Extensible Tool for Personality-Driven Automated Game Testing with Large Language Models",
+    "authors": "Yifei Chen, Sarra Habchi, Lili Wei",
+    "publish": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+    "url": "https://doi.org/10.1145/3803437.3806414",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "MIMIC-Py：一款可扩展的、基于人格驱动的、利用大型语言模型的自动化游戏测试工具",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "Dynamic Cogeneration of Bug Reproduction Test in Agentic Program Repair",
+    "authors": "Runxiang Cheng, Michele Tufano, Jose Cambronero, Renyao Wei, Sherry Shi, Grant Uy, Pat Rondon, Franjo Ivancic",
+    "publish": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+    "url": "https://doi.org/10.1145/3803437.3805237",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "智能体程序修复中错误复现测试的动态协同生成",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "A Differential Fuzzing-Based Evaluation of Functional Equivalence in LLM-Generated Code Refactorings",
+    "authors": "Simantika Bhattacharjee Dristi, Matthew B. Dwyer",
+    "publish": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+    "url": "https://doi.org/10.1145/3803437.3806717",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于差分模糊测试的LLM生成代码重构功能等价性评估",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "HarnessForge: Automated Extraction of Verification Tasks from Industry-Scale Software Projects",
+    "authors": "Dirk Beyer, Po-Chun Chien, Bo-Yuan Huang, Nian-Ze Lee, Thomas Lemberger",
+    "publish": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+    "url": "https://doi.org/10.1145/3803437.3806420",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "HarnessForge: 从工业规模软件项目中自动提取验证任务",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "A Practical Fuzzer for the Python Runtime System",
+    "authors": "Wen Li, Haipeng Cai",
+    "publish": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+    "url": "https://doi.org/10.1145/3803437.3806417",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向Python运行时系统的实用模糊测试工具",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "Shark2Pit: Automated Test Template Generation for Protocol Fuzzing Based on Packet Parser",
+    "authors": "Yulai Fu, Yuanliang Chen, Fuchen Ma, Changjian Liu, Wanli Chen, Dalong Shi, Qiang Fu, Heyuan Shi",
+    "publish": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+    "url": "https://doi.org/10.1145/3803437.3806407",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Shark2Pit：基于数据包解析器的协议模糊测试自动测试模板生成",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "Declarative Test-Native Software Fault Injection",
+    "authors": "Matthew MacRae-Bovell",
+    "publish": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+    "url": "https://doi.org/10.1145/3803437.3804442",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "声明式测试原生软件故障注入",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "TraceSynth: Generating Production-Quality Kernel Traces with Constraint-Guided Diffusion Models",
+    "authors": "Yuvraj Sehgal, Sneh Patel, Mahsa Panahandeh, Naser Ezzati-Jivan, Francois Tetreault",
+    "publish": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+    "url": "https://doi.org/10.1145/3803437.3805222",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "TraceSynth: 基于约束引导扩散模型生成生产级内核追踪",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "Automated Diagnosis and Testing of Game Compatibility Layers",
+    "authors": "Hanzheng Dai",
+    "publish": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+    "url": "https://doi.org/10.1145/3803437.3804876",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "游戏兼容层的自动化诊断与测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "Understanding and Mitigating Hallucinations in Industrial LLM-based Unit Test Generation",
+    "authors": "Yanlun Tu, Ziyue Zhou, Cheng Xu, Jingling Sun, Shuai Feng, Chengyu Zhang",
+    "publish": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+    "url": "https://doi.org/10.1145/3803437.3805260",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "理解并缓解工业场景下基于大语言模型的单元测试生成幻觉",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-17",
+    "title": "LLM-based Specification-Driven Test Oracle Enhancement",
+    "authors": "Ruifeng Fu, Yingquan Zhao, Meng Wang, Zan Wang, Junjie Chen",
+    "publish": "Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering",
+    "url": "https://doi.org/10.1145/3803437.3805616",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于大语言模型的规范驱动测试判定增强",
+    "abstract_zh": "没有"
+  }
+]
