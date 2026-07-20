@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-7-20",
+    "title": "Maneuver Sequence Coverage of Scenarios for Autonomous Driving System",
+    "authors": "Yulin Jin, Ajitha Rajan",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794883",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "自动驾驶系统场景机动序列覆盖",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "EvoDriver: Novelty-Search Driven Evolution of Behavioral Test Suites for Autonomous Vehicles",
+    "authors": "Sol Zilberman, Kenneth H. Chan, Betty H.C. Cheng",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794885",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "EvoDriver: 新颖性搜索驱动的自动驾驶车辆行为测试套件演化",
+    "abstract_zh": "无"
+  }
+]

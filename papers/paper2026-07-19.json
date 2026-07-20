@@ -1,0 +1,326 @@
+[
+  {
+    "date": "2026-7-20",
+    "title": "Reasoning About Hidden Hybrid Assumptions in Assured Temporal Missions",
+    "authors": "Juan Felipe Perdomo, Víctor A. Braberman, Sebastian Uchitel, Sebastián Zudaire",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794878",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Ripple: A Long-Sighted Self-Adaptation Approach to Retrain Machine Learning-Enabled Systems",
+    "authors": "Maria Casimiro, Valentim Romão, Paolo Romano, Luís Rodrigues, David Garlan",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794867",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Using Context-Role-Oriented Programming for Swarms to Alleviate the Micro-Macro Problem",
+    "authors": "Sebastian Goetz, Christian Gutsche, Adrian Scholze, Uwe Assmann",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794871",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "CRAFTER: Causality-based Self-Adaptation for Autonomous IoT Systems",
+    "authors": "Houssam Hajj Hassan, Ajay Kattepur, Denis Conan, Georgios Bouloukakis",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794868",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "A Process to Enforce Ethical Requirements of Autonomous Systems at Runtime",
+    "authors": "Martina De Sanctis, Gianluca Filippone, Paola Inverardi, Raffaela Mirandola, Sara Pettinari, Patrizia Scandurra",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794876",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Adaptive Toggling of Architectural Patterns for Federated Learning",
+    "authors": "Luciano Baresi, Ivan Compagnucci, Livia Lestingi, Catia Trubiani",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794873",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Ubi-AAL: A Self-Adaptive Ubiquitous Computing System Problem Exemplar in Ambient Assisted Living",
+    "authors": "Javier Cámara, Ilias Gerostathopoulos, Livia Lestingi, Michele Loreti, Hiroyuki Nakagawa, Marjan Sirjani, Kenji Tei",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794942",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Maneuver Sequence Coverage of Scenarios for Autonomous Driving System",
+    "authors": "Yulin Jin, Ajitha Rajan",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794883",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Context-Aware Inlining: Using Call-Stack Profiles for Fast and Smaller Binaries",
+    "authors": "Maja Vukasović, Petar Đekanović, Boris Spasojević, Aleksandar Prokopec",
+    "publish": "ACM Transactions on Architecture and Code Optimization",
+    "url": "https://doi.org/10.1145/3830016",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "EvoDriver: Novelty-Search Driven Evolution of Behavioral Test Suites for Autonomous Vehicles",
+    "authors": "Sol Zilberman, Kenneth H. Chan, Betty H.C. Cheng",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794885",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Software Self-Extension with SelfEvolve: an Agentic Architecture for Runtime Code Generation",
+    "authors": "Md Asif Iqbal Fahim, Oluwadamilola Adebayo, Alessio Ferrari",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794870",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3788550",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Mind the Prompt: Self-adaptive Generation of Task Plan Explanations via LLMs",
+    "authors": "Gricel Vazquez, Alexandros Evangelidis, Sepeedeh Shahbeigi, Radu Calinescu, Simos Gerasimou",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794879",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Runtime Self-Optimization Through Knowledge-Driven Design Space Reduction",
+    "authors": "Luca Brodo, Giuseppe Scalora, Stefan Henkler",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794861",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Balancing Multiple Objectives in Urban Traffic Control with Reinforcement Learning from AI Feedback",
+    "authors": "Chenyang Zhao, Vinny Cahill, Ivana Dusparic",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794864",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "RAMNA: A Resource-Aware Algorithm for Maximizing Availability in Flying Ad-Hoc Networks",
+    "authors": "Luis Pinto, Miguel Catarro, Alan Oliveira de Sá",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794862",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Leveraging Low-Parameter LLMs for Self-Healing in Kubernetes-Based Container Orchestration",
+    "authors": "Yann Wiesinger, Marcus Engelhardt, Roman Laas",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794882",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Harmonica: A Self-Adaptation Exemplar for Sustainable MLOps",
+    "authors": "Ananya Halgatti, Shaunak Biswas, Hiya Bhatt, Srinivasan Rakhunathan, Karthik Vaidhyanathan",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794941",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Robust Exploration in Directed Controller Synthesis via Mixture-of-Experts Reinforcement Learning",
+    "authors": "Toshihide Ubukata, Mingyue Zhang, Zhiyao Wang, Nianyu Li, Jialong Li, Kenji Tei",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794866",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Dynamic Agent Generation for Self-Adaptive Root Cause Analysis",
+    "authors": "Brell Sanwouo Chekam, Paul Temple, Clement Quinton",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794865",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Grammar-Constrained Refinement of Safety Operational Rules Using Language in the Loop: What Could Go Wrong",
+    "authors": "Khouloud Gaaloul, Zaid Ghazal, Madhu Latha Pulimi, Sam Emmanuel Kathiravan",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794884",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "FactorySim: An Interactive Testbed for Adaptive Multi-Objective Production Scheduling",
+    "authors": "Ali Torbati, Stanislaw Matis, Verena Klös",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794940",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "SEAMS 2026 Community Debate: How Ethical Can an Ethics-Aware Controller Be? Can we Trust it?",
+    "authors": "Genaína Nunes Rodrigues, Betty H.C. Cheng, David Garlan, Paola Inverardi, Jeff Kramer, Sol Zilberman",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3795539",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "POLARIS: Is Multi-Agentic Reasoning the Next Wave in Engineering Self-Adaptive Systems?",
+    "authors": "Divyansh Pandey, Vyakhya Gupta, Prakhar Singhal, Karthik Vaidhyanathan",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794881",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "CALM: A Self-Adaptive Orchestration Approach for QoS-Aware Routing in Small Language Model based Systems",
+    "authors": "Hemang Jain, Divyansh Pandey, Karthik Vaidhyanathan",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794880",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Artifact of Dynamic Agent Generation for Self-Adaptive Root Cause Analysis",
+    "authors": "Brell Sanwouo, Paul Temple, Clément Quinton",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794938",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Towards Assured Mission Adaptation of Multi-Robot Systems",
+    "authors": "Vicente Romeiro, Ricardo Caldas, Gianluca Filippone, Patrizio Pelliccione, Thorsten Berger, Genaina Nunes Rodrigues",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794875",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "A Self-Adaptive Digital Twin Architecture for Dynamic Resource Management",
+    "authors": "Riccardo Sieve, Paul Kobialka, Andrea Pferscher, Nelly Bencomo, Silvia Lizeth Tapia Tarifa, Buster Salomon Rasmussen, Einar Broch Johnsen",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794872",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-19",
+    "title": "EviCare: Enhancing Diagnosis Prediction with Deep Model-Guided Evidence for In-Context Reasoning",
+    "authors": "Hengyu Zhang, Xuyun Zhang, Pengxiang Zhan, Linhao Luo, Hang Lv, Yanchao Tan, Shirui Pan, Carl Yang",
+    "publish": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1",
+    "url": "https://doi.org/10.1145/3770854.3780257",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Formally Guaranteed Control Adaptation for ODD-Resilient Autonomous Systems",
+    "authors": "Gricel Vázquez, Calum Imrie, Sepeedeh Shahbeigi, Nawshin Mannan Proma, Tian Gan, Victoria J Hodge, John Molloy, Simos Gerasimou",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794869",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "ASTL: An Adaptive Serving Stack for LLMs to Balance Utilization and Tail Latency",
+    "authors": "Farhoud Jafari Kaleibar, Marin Litoiu",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794877",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "iFogSim-Placement: A Simulation Framework for Edge Service Placement",
+    "authors": "Joseph Poon, Christian Cabrera, Neil David Lawrence",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794939",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "MAPER: Extending MAPE-K with LLM-Based Reasoning to Manage Unanticipated Situations in Self-Adaptive Systems",
+    "authors": "Lucas Alves, Gabriel Luiz Barros De Oliveira, Matheus Chagas, Alan Bandeira, Paulo Henrique Maia, Cleilton Rocha",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794886",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Verify, Augment, Improve: Self-Adaptation Repair via Automated Knowledge Augmentation from Mistakes",
+    "authors": "Pietro Benecchi, Luigi Cardone, Matteo Camilli, Livia Lestingi, Raffaela Mirandola",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794874",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Detecting and Characterizing the Hidden Collaborative Network Supporting Ethereum Scams",
+    "authors": "Bofeng Pan, Andrei Natadze, Enrico Branca, Jadyn Kimber, Natalia Stakhanova",
+    "publish": "ACM Transactions on Internet Technology",
+    "url": "https://doi.org/10.1145/3830012",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "Optimized Deployment of Data Intermediation Services",
+    "authors": "Vasileios Karagiannis",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794863",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]

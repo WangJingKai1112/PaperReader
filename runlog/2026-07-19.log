@@ -1,0 +1,82 @@
+[2026-07-20 11:46:05] 开始执行论文搜索任务
+搜索关键词: verification
+搜索日期范围: 2026-07-19
+正在获取论文...
+[ACM] 2026-7-20 | Reasoning About Hidden Hybrid Assumptions in Assured Temporal Missions
+[ACM] 2026-7-20 | Ripple: A Long-Sighted Self-Adaptation Approach to Retrain Machine Learning-Enabled Systems
+[ACM] 2026-7-20 | Using Context-Role-Oriented Programming for Swarms to Alleviate the Micro-Macro Problem
+[ACM] 2026-7-20 | CRAFTER: Causality-based Self-Adaptation for Autonomous IoT Systems
+[ACM] 2026-7-20 | A Process to Enforce Ethical Requirements of Autonomous Systems at Runtime
+[ACM] 2026-7-20 | Adaptive Toggling of Architectural Patterns for Federated Learning
+[ACM] 2026-7-20 | Ubi-AAL: A Self-Adaptive Ubiquitous Computing System Problem Exemplar in Ambient Assisted Living
+[ACM] 2026-7-20 | Maneuver Sequence Coverage of Scenarios for Autonomous Driving System
+[ACM] 2026-7-20 | Context-Aware Inlining: Using Call-Stack Profiles for Fast and Smaller Binaries
+[ACM] 2026-7-20 | EvoDriver: Novelty-Search Driven Evolution of Behavioral Test Suites for Autonomous Vehicles
+[ACM] 2026-7-20 | Software Self-Extension with SelfEvolve: an Agentic Architecture for Runtime Code Generation
+[ACM] 2026-7-20 | Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems
+[ACM] 2026-7-20 | Mind the Prompt: Self-adaptive Generation of Task Plan Explanations via LLMs
+[ACM] 2026-7-20 | Runtime Self-Optimization Through Knowledge-Driven Design Space Reduction
+[ACM] 2026-7-20 | Balancing Multiple Objectives in Urban Traffic Control with Reinforcement Learning from AI Feedback
+[ACM] 2026-7-20 | RAMNA: A Resource-Aware Algorithm for Maximizing Availability in Flying Ad-Hoc Networks
+[ACM] 2026-7-20 | Leveraging Low-Parameter LLMs for Self-Healing in Kubernetes-Based Container Orchestration
+[ACM] 2026-7-20 | Harmonica: A Self-Adaptation Exemplar for Sustainable MLOps
+[ACM] 2026-7-20 | Robust Exploration in Directed Controller Synthesis via Mixture-of-Experts Reinforcement Learning
+[ACM] 2026-7-20 | Dynamic Agent Generation for Self-Adaptive Root Cause Analysis
+[ACM] 2026-7-20 | Grammar-Constrained Refinement of Safety Operational Rules Using Language in the Loop: What Could Go Wrong
+[ACM] 2026-7-20 | FactorySim: An Interactive Testbed for Adaptive Multi-Objective Production Scheduling
+[ACM] 2026-7-20 | SEAMS 2026 Community Debate: How Ethical Can an Ethics-Aware Controller Be? Can we Trust it?
+[ACM] 2026-7-20 | POLARIS: Is Multi-Agentic Reasoning the Next Wave in Engineering Self-Adaptive Systems?
+[ACM] 2026-7-20 | CALM: A Self-Adaptive Orchestration Approach for QoS-Aware Routing in Small Language Model based Systems
+[ACM] 2026-7-20 | Artifact of Dynamic Agent Generation for Self-Adaptive Root Cause Analysis
+[ACM] 2026-7-20 | Towards Assured Mission Adaptation of Multi-Robot Systems
+[ACM] 2026-7-20 | A Self-Adaptive Digital Twin Architecture for Dynamic Resource Management
+[ACM] 2026-7-19 | EviCare: Enhancing Diagnosis Prediction with Deep Model-Guided Evidence for In-Context Reasoning
+[ACM] 2026-7-20 | Formally Guaranteed Control Adaptation for ODD-Resilient Autonomous Systems
+[ACM] 2026-7-20 | ASTL: An Adaptive Serving Stack for LLMs to Balance Utilization and Tail Latency
+[ACM] 2026-7-20 | iFogSim-Placement: A Simulation Framework for Edge Service Placement
+[ACM] 2026-7-20 | MAPER: Extending MAPE-K with LLM-Based Reasoning to Manage Unanticipated Situations in Self-Adaptive Systems
+[ACM] 2026-7-20 | Verify, Augment, Improve: Self-Adaptation Repair via Automated Knowledge Augmentation from Mistakes
+[ACM] 2026-7-20 | Detecting and Characterizing the Hidden Collaborative Network Supporting Ethereum Scams
+[ACM] 2026-7-20 | Optimized Deployment of Data Intermediation Services
+共写入 36 条记录，保存到 papers/paper2026-07-19.json。
+论文获取成功，文件路径: papers/paper2026-07-19.json
+正在筛选、翻译并发送邮件...
+[NO] 1/36 | Reasoning About Hidden Hybrid Assumptions in Assured Temporal Missions
+[NO] 2/36 | Ripple: A Long-Sighted Self-Adaptation Approach to Retrain Machine Learning-Enabled Systems
+[NO] 3/36 | Using Context-Role-Oriented Programming for Swarms to Alleviate the Micro-Macro Problem
+[NO] 4/36 | CRAFTER: Causality-based Self-Adaptation for Autonomous IoT Systems
+[NO] 5/36 | A Process to Enforce Ethical Requirements of Autonomous Systems at Runtime
+[NO] 6/36 | Adaptive Toggling of Architectural Patterns for Federated Learning
+[NO] 7/36 | Ubi-AAL: A Self-Adaptive Ubiquitous Computing System Problem Exemplar in Ambient Assisted Living
+[YES] 8/36 | Maneuver Sequence Coverage of Scenarios for Autonomous Driving System
+[NO] 9/36 | Context-Aware Inlining: Using Call-Stack Profiles for Fast and Smaller Binaries
+[YES] 10/36 | EvoDriver: Novelty-Search Driven Evolution of Behavioral Test Suites for Autonomous Vehicles
+[NO] 11/36 | Software Self-Extension with SelfEvolve: an Agentic Architecture for Runtime Code Generation
+[NO] 12/36 | Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems
+[NO] 13/36 | Mind the Prompt: Self-adaptive Generation of Task Plan Explanations via LLMs
+[NO] 14/36 | Runtime Self-Optimization Through Knowledge-Driven Design Space Reduction
+[NO] 15/36 | Balancing Multiple Objectives in Urban Traffic Control with Reinforcement Learning from AI Feedback
+[NO] 16/36 | RAMNA: A Resource-Aware Algorithm for Maximizing Availability in Flying Ad-Hoc Networks
+[NO] 17/36 | Leveraging Low-Parameter LLMs for Self-Healing in Kubernetes-Based Container Orchestration
+[NO] 18/36 | Harmonica: A Self-Adaptation Exemplar for Sustainable MLOps
+[NO] 19/36 | Robust Exploration in Directed Controller Synthesis via Mixture-of-Experts Reinforcement Learning
+[NO] 20/36 | Dynamic Agent Generation for Self-Adaptive Root Cause Analysis
+[NO] 21/36 | Grammar-Constrained Refinement of Safety Operational Rules Using Language in the Loop: What Could Go Wrong
+[NO] 22/36 | FactorySim: An Interactive Testbed for Adaptive Multi-Objective Production Scheduling
+[NO] 23/36 | SEAMS 2026 Community Debate: How Ethical Can an Ethics-Aware Controller Be? Can we Trust it?
+[NO] 24/36 | POLARIS: Is Multi-Agentic Reasoning the Next Wave in Engineering Self-Adaptive Systems?
+[NO] 25/36 | CALM: A Self-Adaptive Orchestration Approach for QoS-Aware Routing in Small Language Model based Systems
+[NO] 26/36 | Artifact of Dynamic Agent Generation for Self-Adaptive Root Cause Analysis
+[NO] 27/36 | Towards Assured Mission Adaptation of Multi-Robot Systems
+[NO] 28/36 | A Self-Adaptive Digital Twin Architecture for Dynamic Resource Management
+[NO] 29/36 | EviCare: Enhancing Diagnosis Prediction with Deep Model-Guided Evidence for In-Context Reasoning
+[NO] 30/36 | Formally Guaranteed Control Adaptation for ODD-Resilient Autonomous Systems
+[NO] 31/36 | ASTL: An Adaptive Serving Stack for LLMs to Balance Utilization and Tail Latency
+[NO] 32/36 | iFogSim-Placement: A Simulation Framework for Edge Service Placement
+[NO] 33/36 | MAPER: Extending MAPE-K with LLM-Based Reasoning to Manage Unanticipated Situations in Self-Adaptive Systems
+[NO] 34/36 | Verify, Augment, Improve: Self-Adaptation Repair via Automated Knowledge Augmentation from Mistakes
+[NO] 35/36 | Detecting and Characterizing the Hidden Collaborative Network Supporting Ethereum Scams
+[NO] 36/36 | Optimized Deployment of Data Intermediation Services
+筛选完成：共 36 篇；Yes = 2 篇；已保存到 papers/select_paper2026-07-19.json。
+邮件发送成功！
+[2026-07-20 11:51:22] 任务执行成功！
