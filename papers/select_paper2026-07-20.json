@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-07-20",
+    "title": "BTOR2-Based C Program Verification via Hardware Model Checking",
+    "authors": "Xinyu Zhang, Runxuan Fang, Ziqun Bao, Yechuan Xia, Jianwen Li, Geguang Pu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.17622v1",
+    "source": "arXiv",
+    "abstract": "Program verification tools often rely on specific intermediate representations and analysis backends, limiting the reuse of verification algorithms and model checkers across frameworks. In contrast, hardware model checking has developed a mature backend ecosystem, where standard formats such as BTOR2 support reusable algorithms for counterexample search and inductive safety proving. Applying these capabilities to C requires translating assertion-based programs into transition systems that hardware model checkers can directly process. We present C2Btor, a method for encoding such verification tasks into BTOR2 models. C2Btor uses a program counter to capture control transfers, represents data states and memory objects with bit-vectors and arrays, and maps assumptions and assertion checks into BTOR2 constraints and bad-state properties. We evaluate C2Btor on SV-COMP C ReachSafety benchmarks and a curated assertion-category benchmark suite, comparing it with representative program verification tools. C2Btor correctly solves 263 tasks, 101 more than CBMC configured with bounded model checking, and is especially effective on bit-vector benchmarks, where it solves 75.5% of the tasks with no wrong verdicts. These results show that the BTOR2 route allows C program verification to benefit from advances in hardware model-checking backends, expanding the available capability for counterexample search, inductive safety proving, and word-level transition-system reasoning.",
+    "title_zh": "通过硬件模型检查的基于BTOR2的C程序验证",
+    "abstract_zh": "程序验证工具通常依赖特定的中间表示和分析后端，这限制了验证算法和模型检查器在不同框架之间的复用。相比之下，硬件模型检查已发展出成熟的后端生态系统，其中诸如BTOR2这样的标准格式支持可复用的反例搜索与归纳安全性证明算法。要将这些能力应用于C语言程序，需要将基于断言的程序转换为硬件模型检查器可直接处理的转换系统。我们提出C2Btor方法，用于将此类验证任务编码为BTOR2模型。C2Btor使用程序计数器来捕获控制转移，用位向量和数组表示数据状态与内存对象，并将假设和断言检查映射为BTOR2的约束条件及坏状态属性。我们在SV-COMP C ReachSafety基准集和一组精心选取的断言类别基准套件上评估C2Btor，并将其与代表性的程序验证工具进行对比。C2Btor正确求解了263个任务，比配置了限界模型检查的CBMC多出101个，尤其是在位向量基准上表现突出，在无需误判的情况下完成了75.5%的任务。这些结果表明，通过BTOR2这一路径，C程序验证能够受益于硬件模型检查后端的进步，从而在反例搜索、归纳安全性证明以及字级转换系统推理方面扩展了可用能力。"
+  },
+  {
+    "date": "2026-07-20",
+    "title": "KernelDiag: Agent-Based Root Cause Diagnosis for Kernel Crashes",
+    "authors": "Weijing Wang, Zan Wang, Dong Wang, Haichi Wang, Junjie Chen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.17722v1",
+    "source": "arXiv",
+    "abstract": "The Linux kernel is one of the most complex software systems, where automated fuzzing continuously exposes thousands of crashes, yet root-cause diagnosis remains a manual and time-consuming bottleneck. Existing LLM-based root cause analysis (RCA) techniques, effective for distributed systems, do not readily generalize to kernel debugging due to sparse low-level artifacts, heterogeneous diagnostic evidence (e.g., syscalls, logs, and crash reports), and complex non-linear fault propagation that demands fine-grained method-level reasoning. To address these challenges, we propose KernelDiag, an agent-based framework for kernel root-cause diagnosis via structured causal reasoning. KernelDiag first aligns heterogeneous diagnostic artifacts through log-to-code mapping, and then employs artifact-specialized agents to iteratively reason over source-level program semantics and crash-specific kernel configurations. The inferred causal dependencies are incrementally organized into structured Evidence Graphs, enabling accurate faulty-method localization and causal explanations. We evaluate KernelDiag on the real-world KGYM benchmark. KernelDiag consistently outperforms state-of-the-art localization approaches at both file and method levels, achieving significant improvements in Top@k accuracy, including up to 4x and 2x gains in challenging settings without explicit hints. Furthermore, both human and LLM-assisted evaluations show that KernelDiag generates accurate, coherent, and actionable diagnostic explanations. Overall, this work lays the foundation for automated kernel root-cause diagnosis by bridging low-level diagnostic evidence with source-level causal reasoning.",
+    "title_zh": "KernelDiag：基于代理的内核崩溃根因诊断",
+    "abstract_zh": "Linux 内核是最复杂的软件系统之一，自动化模糊测试持续暴露出数以千计的崩溃事件，但根因诊断仍是一项依赖人工且耗时的瓶颈工作。现有的基于大语言模型（LLM）的根因分析方法虽然在分布式系统中表现有效，却难以直接推广至内核调试，原因在于底层工件稀疏、诊断证据异构（如系统调用、日志与崩溃报告），以及复杂的非线性故障传播要求精细的方法级推理。针对这些挑战，我们提出 KernelDiag，一个基于智能体（agent）的内核根因诊断框架，通过结构化因果推理解决该问题。KernelDiag 首先通过日志到代码的映射对齐异构诊断工件，然后借助为各种工件专门设计的智能体，迭代推理源代码级的程序语义和与崩溃相关的内核配置。推断出的因果依赖关系逐步组织成结构化的证据图，从而能够精准定位故障方法并给出因果解释。我们在真实世界的 KGYM 基准上评估了 KernelDiag。实验结果表明，KernelDiag 在文件级和方法级定位上始终优于当前最优（SOTA）方法，在 Top@k 准确率上取得了显著提升，尤其是在缺乏明确提示的挑战性场景下，分别提升了高达 4 倍和 2 倍。此外，人工评估和 LLM 辅助评估均显示，KernelDiag 能生成准确、连贯且可操作的诊断解释。总体而言，这项工作通过连接底层诊断证据与源代码级因果推理，为内核根因自动诊断奠定了基础。"
+  },
+  {
+    "date": "2026-07-20",
+    "title": "Importance Sampling and PCA for Finding Failures in Commercial Autonomous Vehicles",
+    "authors": "Hailey Warner, Duncan Eddy, Shreya Parjan, Caroline Cahilly, Harrison Delecki, Matthias Kleinstauber, Chaitanya Shinde, Jerry Lopez, Mykel J. Kochenderfer",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.18106v1",
+    "source": "arXiv",
+    "abstract": "Methods for discovering rare failures in autonomous systems have so far been demonstrated almost exclusively in simulations with simple, academic driving stacks, leaving open whether they generalize to the more robust planners used in commercial systems. We address this gap by applying two rare-event discovery algorithms to a commercial autonomous trucking stack. Adaptive stress testing (AST) uses reinforcement learning to search for the most likely noise trajectories leading to a simulated collision, while diffusion-based failure sampling (DiFS) trains a denoising diffusion model to sample a diverse set of failures. We show that both algorithms find simulated collisions during merge and cut-in maneuvers where traditional Monte Carlo simulation does not. To make these failures actionable, we introduce a statistical analysis based on principal component analysis (PCA) that classifies failures into common modes and identifies the timesteps that most influence the outcome. We cluster the principal components and invert the PCA transform to recover generalized noise trajectories, and show that these trajectories reproduce failures in identical and similar scenarios. This provides a path from failure discovery to systematic diagnosis of perception-level flaws.",
+    "title_zh": "重要性采样和主成分分析用于发现商用自动驾驶车辆中的故障",
+    "abstract_zh": "到目前为止，用于发现自主系统中罕见故障的方法几乎全部是在简单的学术驾驶栈仿真中演示的，这导致其能否推广到商用系统中更稳健的规划器仍悬而未决。我们通过在商用自动驾驶卡车栈上运用两种稀有事件发现算法来填补这一空白。自适应压力测试（AST）利用强化学习搜索最可能导致仿真碰撞的噪声轨迹，而基于扩散的失败采样（DiFS）则训练一个去噪扩散模型来采样多样化的失败案例。实验表明，在并线和切入操作中，这两种算法都能发现传统蒙特卡洛仿真无法发现的仿真碰撞。为了使这些失败案例可被采取行动，我们引入了一种基于主成分分析（PCA）的统计方法，将失败案例归类为常见模式，并识别对结果影响最大的时间步。我们对主成分进行聚类，再逆向应用PCA变换以恢复广义噪声轨迹，并展示这些轨迹能够在相同和相似场景中重现失败。这为从故障发现走向感知层缺陷的系统性诊断提供了一条路径。"
+  },
+  {
+    "date": "2026-07-20",
+    "title": "Testing Retrieval-Augmented Generation Systems with Chunk Coverage",
+    "authors": "Jinhan Kim, Samuele Pasini, Paolo Tonella",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.18155v1",
+    "source": "arXiv",
+    "abstract": "Retrieval-Augmented Generation (RAG)-based systems\\footnote{For brevity, RAG-based systems are referred to as RAG systems throughout this paper.} are increasingly deployed in high-stakes settings where correct behaviour depends not only on the language model but also on the retrieval component that selects external documents at inference time. While existing RAG evaluation metrics assess retrieval and generation quality on a per-query basis, typically relying on query-level test oracles such as reference answers or relevance annotations, they provide limited insight into whether a test suite adequately exercises the retrieval behaviour of the system as a whole. In this paper, we introduce Chunk Coverage (CC), an oracle-independent test adequacy criterion for testing the retrieval component of RAG systems. CC measures the fraction of corpus chunks that are retrieved at least once across a test suite, providing a structural view of which parts of the retrieval space have been exercised. We further show how CC can be used to guide test selection and generation by prioritising queries that expand coverage of previously unexercised retrieval regions. We evaluate CC on clinical and financial RAG system scenarios. CC-guided testing reaches 50% of attainable coverage 1.7x faster than random selection and 4.2x faster than redundancy-biased strategies. Moreover, CC improves fault detection effectiveness (APFD) by 10% to 25% over random, indicating earlier discovery of distinct retrieval faults. These results show that CC captures retrieval diversity relevant to effective testing without requiring test oracles.",
+    "title_zh": "使用块覆盖率测试检索增强生成系统",
+    "abstract_zh": "基于检索增强生成（RAG）的系统\\footnote{为简洁起见，本文中提到的RAG系统均指基于检索增强生成的系统。}正越来越多地被部署在高风险场景中，在这些场景下，系统的正确行为不仅取决于语言模型，还依赖于在推理时选择外部文档的检索组件。现有RAG评估指标通常按查询逐一衡量检索和生成质量，并依靠查询级测试预言（如参考答案或相关性标注）进行评估，但这些指标对测试套件是否充分锻炼了系统整体的检索行为提供的洞察有限。本文提出了一种无需预言的测试充分性准则——文档块覆盖率（Chunk Coverage, CC），用于测试RAG系统的检索组件。CC衡量在整个测试套件中至少被检索过一次的语料库文档块的比例，从而从结构视角揭示检索空间的哪些部分已被覆盖。我们进一步展示了如何利用CC指导测试选择与生成，通过优先采用能够扩展先前未被覆盖检索区域覆盖率的查询来实现。我们在临床和金融领域的RAG系统场景下对CC进行了评估。基于CC驱动的测试，达到可达到覆盖率50%的速度比随机选择快1.7倍，比冗余偏向策略快4.2倍。此外，与随机方法相比，CC将故障检测有效性（APFD）提高了10%到25%，表明能够更早发现独特的检索故障。这些结果表明，CC在无需测试预言的情况下，捕捉到了对有效测试至关重要的检索多样性。"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "EvoDriver: Novelty-Search Driven Evolution of Behavioral Test Suites for Autonomous Vehicles",
+    "authors": "Sol Zilberman, Kenneth H. Chan, Betty H.C. Cheng",
+    "publish": "Proceedings of the 21st International Conference on Software Engineering for Adaptive and Self-Managing Systems",
+    "url": "https://doi.org/10.1145/3788550.3794885",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "EvoDriver: 新颖性搜索驱动的自动驾驶汽车行为测试套件演化",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-20",
+    "title": "DeepChatAFL: Research on Protocol Fuzz Testing Method Assisted by Large Models",
+    "authors": "Ziyan Xiao, Kechang Qian, Dapeng Xiong, Yu Wang, Huang Yan",
+    "publish": "2026 2nd International Conference on Communication, Remote Sensing and Information Technology (CRSIT)",
+    "url": "https://doi.org/10.1109/crsit69981.2026.11605347",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "DeepChatAFL: 大型模型辅助的协议模糊测试方法研究",
+    "abstract_zh": "None"
+  }
+]
