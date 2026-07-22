@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-07-21",
+    "title": "Formal Verification of an Out-of-Order Multiprocessor against an In-Order Weak-Memory ISA",
+    "authors": "Janggun Lee, Jeehoon Kang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.18727v1",
+    "source": "arXiv",
+    "abstract": "Out-of-order multiprocessor is a critical piece of modern hardware, and their verification must solve the following challenges. First, inter-core interleaving, in which the order their reads and writes reach shared memory is unrestricted. Second, intra-core out-of-order execution, in which instructions fire out of program order. The combination of the two yields weak outcomes, which no sequential execution explains, and modern ISA allows such behaviors to account for them. However, the microarchitecture even exhibits excess out-of-order executions, temporarily entering states forbidden by the ISA. While discarded later, such states complicate reasoning about the core in full-system verification. Prior works verify a range of processor designs, while none have performed unbounded verification for out-of-order multiprocessor exhibiting such weak outcomes. We present the first formal verification of an out-of-order multiprocessor against an in-order, weak-memory ISA. Our key idea is a well-designed core specification, which captures the essence of excess executions in a single list of instructions. Building upon this, we decompose the proof into two steps. The first is a core refinement, proving a core implementation against this specification, abstracting away every microarchitectural state except those necessary to reason about excess executions and the core interface. The second is a system inclusion, serializing the out-of-order memory executions and inter-core interleaving into the ISA, easily removing excess executions thanks to the core specification. All of our proofs are mechanized in Rocq, heavily utilizing large language model (LLM) agents to write proofs automatically.",
+    "title_zh": "以顺序弱内存指令集架构为参照的乱序多处理器形式化验证",
+    "abstract_zh": "乱序多处理器是现代硬件的关键组成部分，其验证必须解决以下挑战。首先，核间交织——各核心的读写操作到达共享内存的顺序不受限制。其次，核内乱序执行——指令的执行顺序可能偏离程序顺序。两者结合会导致无法用任何顺序执行解释的弱结果，而现代指令集架构（ISA）允许此类行为以适配实际硬件。然而，微架构甚至会出现过度乱序执行，临时进入 ISA 所禁止的状态。这些状态虽最终会被丢弃，但在全系统验证中会增加核心推理的复杂性。现有工作验证了多种处理器设计，但尚无一种能对呈现出此类弱结果的乱序多处理器进行无界验证。本文首次针对顺序、弱内存一致性的指令集架构，对乱序多处理器进行形式化验证。我们的核心思路是精心设计一个核心规范，通过单一指令列表捕捉过度执行的本质。基于此，我们将证明分解为两步：第一步是核心精化，证明核心实现满足该规范，并抽象掉所有微架构状态，仅保留推理过度执行和核心接口所必需的部分；第二步是系统包含，将乱序内存执行和核间交织序列化为 ISA 行为，借助核心规范轻松消除过度执行。所有证明均在 Rocq 中机械化实现，并大量利用大语言模型（LLM）代理自动编写证明。"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "LLM-Based Invariant Testing for Software Functional Bugs",
+    "authors": "Ruogu Yang, Yifeng He, Yundi Xu, Yuqing Wei, Hao Chen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.18711v1",
+    "source": "arXiv",
+    "abstract": "Manually writing unit tests to uncover functional bugs in software libraries is not only time-consuming but also requires a deep understanding of the intended semantics of the APIs. Heuristic-based test generation methods suffer from low usability because they cannot reason about program semantics or interpret source code and documentation as humans do. Traditional fuzzing techniques like OSS-Fuzz often rely on crashes to detect bugs, but functional bugs do not always cause crashes. To overcome these limitations, we present LISA, a novel LLM-based invariant testing framework for software functional bugs. LISA iteratively generates API sequences and program invariants guided by API n-gram feedback, achieving higher bug-detection rates and competitive code coverage compared with both fuzzing and prior LLM-based test generation approaches, and reporting each finding as a high-confidence bug candidate for developer confirmation.",
+    "title_zh": "基于大语言模型的软件功能缺陷不变量测试",
+    "abstract_zh": "手动编写单元测试以发现软件库中的功能错误不仅耗时，还需要对API的预期语义有深刻理解。基于启发式的测试生成方法由于无法像人类那样推理程序语义或解读源代码与文档，导致其可用性较低。传统的模糊测试技术（如OSS-Fuzz）通常依赖程序崩溃来检测错误，但功能错误并不总会引发崩溃。为克服这些局限，我们提出了LISA，一种新颖的基于LLM的不变式测试框架，用于检测软件功能错误。LISA在API n-gram反馈的引导下迭代生成API序列与程序不变式，与模糊测试及以往的基于LLM的测试生成方法相比，不仅实现了更高的错误检测率，还取得了有竞争力的代码覆盖率，并将每个发现报告为高置信度的错误候选，供开发者确认。"
+  },
+  {
+    "date": "2026-7-21",
+    "title": "Exploring the Potential of Large Language Models in Simulink-Stateflow Mutant Generation",
+    "authors": "Pablo Valle, Shaukat Ali, Aitor Arrieta",
+    "publish": "Proceedings of the 2026 IEEE/ACM Third International Conference on AI Foundation Models and Software Engineering",
+    "url": "https://doi.org/10.1145/3793655.3793737",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "探索大语言模型在Simulink-Stateflow变异体生成中的潜力",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-21",
+    "title": "Type-aware LLM-based Test Generation for Python Programs",
+    "authors": "RunLin Liu, Zhe Zhang, Yunge Hu, Yuhang Lin, Xiang Gao, Hailong Sun",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3830083",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "类型感知的LLM驱动的Python程序测试生成",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-21",
+    "title": "Configuration-Driven RTL Port Initialization with LLM-Assisted Inference",
+    "authors": "Praveen Kumar Vagala",
+    "publish": "IEEE Design &amp; Test",
+    "url": "https://doi.org/10.1109/mdat.2026.3715577",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "配置驱动的RTL端口初始化与LLM辅助推理",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-21",
+    "title": "ML and Adaptive Pseudorandom Pattern Generator Based on LFSR for Built-In Self-Test",
+    "authors": "Praveena Kakarla, Ambavaram Sravani, Veluru Urmika, Chodavaram Pavan, Kaipa Lokeswara Reddy",
+    "publish": "2026 International Conference on Cognitive Computing and Networking Systems (ICC-CNS)",
+    "url": "https://doi.org/10.1109/icc-cns70518.2026.11606133",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "用于内建自测试的基于LFSR的机器学习与自适应伪随机模式生成器",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-21",
+    "title": "Proceedings of the 2026 IEEE/ACM Third International Conference on AI Foundation Models and Software Engineering",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3793655",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "2026年IEEE/ACM第三届人工智能基础模型与软件工程国际会议论文集",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-21",
+    "title": "LLM-Based Directed Input Generation for Repositories",
+    "authors": "Chuyang Xu, Jordan Samhi, Zhongxin Liu",
+    "publish": "IEEE Transactions on Software Engineering",
+    "url": "https://doi.org/10.1109/tse.2026.3715497",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于LLM的代码仓库定向输入生成",
+    "abstract_zh": "None"
+  }
+]
