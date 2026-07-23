@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-07-22",
+    "title": "SafeGen: Goal-Conditioned Video Diffusion of Safety-Critical Scenarios for VLM-Based Autonomous Driving",
+    "authors": "Jiangfan Liu, Zexuan Cui, Tianyuan Zhang, Zonglei Jing, Zonghao Ying, Yaoyuan Zhang, Jiakai Wang, Xiaoqi Jiang, Aishan Liu, Xianglong Liu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.19701v1",
+    "source": "arXiv",
+    "abstract": "VLMs are increasingly deployed in AD systems, creating an urgent need for rigorous safety evaluation under rare yet safety-critical scenarios. Among these, interactions with vulnerable road users represent a major source of real-world failures. However, existing safety-critical scenario generation methods predominantly rely on simulator-based pipelines, which suffer from a substantial sim-to-real gap and often fail to capture realistic, diverse, and unforeseen human-vehicle interaction dynamics. We present SafeGen, a goal-conditioned diffusion framework for safety-critical scenario generation in VLMADs. Our key insight is to formulate scenario generation as a goal-conditioned diffusion process, where a predefined catastrophic end-state serves as a strong supervisory signal, guiding the generation of temporally coherent video trajectories that naturally evolve toward safety-critical outcomes. Building on this formulation, we introduce Context Grounded End State Reasoning, which leverages VLMs to analyze benign driving contexts and infer latent vulnerabilities in human-vehicle interactions, producing structured end-state specifications that induce high-risk scenarios. Conditioned on these targets, we further propose End State Conditioned Video Evolution, which grounds semantic threats into physically plausible visual dynamics. Specifically, we instantiate high-risk agents within the scene via depth-aware geometric projection, followed by boundary-conditioned diffusion to generate intermediate frames with consistent motion patterns and temporal coherence. Extensive experiments across 3 VLMADs demonstrate that SafeGen increases the Judge Overall Score, a metric using a VLM judge to evaluate VLMADs' understanding and decision-making, by 24.25% on average compared to SoTA baselines. Furthermore, fine-tuning a VLMAD improves performance in real-world driving scenes by an average of 15.9%.",
+    "title_zh": "SafeGen：面向基于VLM的自动驾驶的目标条件安全关键场景视频扩散",
+    "abstract_zh": "视觉语言模型（VLMs）正越来越多地部署于自动驾驶系统，引发了对罕见但危及安全场景下严格安全评估的迫切需求。其中，与脆弱道路使用者的交互是导致真实世界失效的主要来源。然而，现有的安全关键场景生成方法主要依赖基于仿真器的流程，存在显著的仿真到真实差距，且往往难以捕获真实、多样且难以预见的人车交互动态。我们提出了SafeGen，一个面向视觉语言模型自动驾驶系统的目标条件扩散框架，用于生成安全关键场景。我们的核心思路是将场景生成建模为目标条件扩散过程，其中预定义的灾难性终态作为强监督信号，引导生成在时间上连贯的视频轨迹，使其自然演变至安全关键结果。基于这一形式化，我们引入了上下文锚定的终点状态推理，利用VLMs分析无害驾驶上下文，推断人车交互中的潜在脆弱点，并生成结构化的终点状态规格，从而诱导高风险场景。以这些目标为条件，我们进一步提出终点状态条件化视频演化，将语义层面的威胁落实到物理上合理的视觉动态中。具体而言，我们通过深度感知几何投影在场景中实例化高风险智能体，并利用边界条件扩散生成具有一致运动模式和时间连贯性的中间帧。在3个VLMAD上的大量实验表明，与当前最优基线方法相比，SafeGen使“裁判总体评分”（一种利用VLM裁判评估VLMAD理解和决策能力的指标）平均提高了24.25%。此外，微调VLMAD后，在真实驾驶场景中的性能平均提升了15.9%。"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "Context Matters: Improving the Practical Reliability of LLM-Based Unit Test Generation",
+    "authors": "Junjie Chen, Ziqi Wang, Lin Yang, Chen Yang, Xiao Chu, Jianyi Zhou, Guangtai Liang, Qianxiang Wang, Dong Wang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.19682v1",
+    "source": "arXiv",
+    "abstract": "Automated unit test generation has recently benefited from advances in large language models (LLMs), yet our industrial deployments reveal a persistent gap between promising research results and practical usability. In real-world projects with complex frameworks and cross-file dependencies, LLM-generated tests frequently fail to compile, require costly manual repair, or provide unstable coverage improvements. This paper reports our experience in designing, deploying, and evaluating CATGen, a context-aware workflow for LLM-based unit test generation, informed by repeated industrial failures and refinements. Rather than relying on LLMs to infer incomplete project context, we found that compilation robustness critically depends on making project-level dependencies explicit, stabilizing test class scaffolding, and replacing iterative LLM-based repair with lightweight static analysis. These experience-driven insights shaped CATGen's multi-stage design, which combines structured context retrieval, deterministic test skeleton construction, and program analysis-based post-processing. We evaluate CATGen on real-world complex focal methods from proprietary industrial projects and additionally on the Defects4J benchmark to assess generalizability. Across both settings, CATGen substantially improves compilation success and structural coverage while significantly reducing generation time and token consumption compared to existing LLM-based approaches. Our results demonstrate that reliable LLM-based unit test generation in practice depends less on prompt engineering alone and more on systematic engineering support grounded in real-world development constraints.",
+    "title_zh": "上下文很关键：提升基于LLM的单元测试生成的实用可靠性",
+    "abstract_zh": "近年来，大型语言模型（LLMs）的进步为自动化单元测试生成带来了新的可能，然而我们在工业部署中却发现，令人期待的研究成果与实际可用性之间仍存在持续差距。在具有复杂框架和跨文件依赖的现实项目中，LLM 生成的测试经常无法编译，需要高昂的人工修复成本，或只能带来不稳定的覆盖率提升。本文总结了我们设计、部署并评估 CATGen 的经验——这是一种基于 LLM 的上下文感知单元测试生成工作流，其形成源自多次工业实践中的失败与改进。我们发现，编译的鲁棒性关键并不在于让 LLM 去推断不完整的项目上下文，而在于显式地暴露项目级依赖、稳定测试类的脚手架结构，并用轻量级静态分析替代迭代式的 LLM 修复。这些来自实践的经验塑造了 CATGen 的多阶段设计，它结合了结构化上下文检索、确定性测试骨架构建以及基于程序分析的后处理。我们在来自商业项目的真实复杂被测方法上对 CATGen 进行了评估，并在 Defects4J 基准上检验了其泛化能力。在这两种场景下，与现有基于 LLM 的方法相比，CATGen 显著提升了编译成功率和结构覆盖率，同时大幅缩短了生成时间并减少了 token 消耗。我们的结果表明，在实践中实现可靠的基于 LLM 的单元测试生成，并不仅仅依赖于提示工程本身，而更多地取决于扎根于真实开发约束的系统性工程支撑。"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "SenWorld: A Digital-Twin Simulation for Generating Context-Rich Evaluation Data",
+    "authors": "Zenghui Zhou, Xiaoyang Li, Xiaoxuan Qiao, Zhilang Wei, Tianming Lei",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.19949v1",
+    "source": "arXiv",
+    "abstract": "Smartphone personal assistants reason over longitudinal personal data, yet evaluating them requires context-rich evaluation data whose correct answers are known, and real device traces are too privacy-sensitive to share. To address this challenge, we present SenWorld, a physically grounded, deterministic, event-sourced digital-twin simulation that generates such data with ground truth fixed by construction. In SenWorld, personas live through a full day in a world built from real map, weather, holiday, and network data; every observable signal is archived in full-system snapshots; and each evaluation case is labeled by a pointer to an existing record rather than by post-hoc annotation or a large language model (LLM) judge. We evaluate this method with 16 personas in Beijing. The generated data closely matches the held-out real-user benchmark in category distribution (Jensen--Shannon divergence (JSD) 0.070) and in the daily rhythm of communication records (JSD below 0.1), though generated records remain shorter than real ones. Without scripted interaction, personas form a fully reciprocated dialogue subgraph and differentiated behavioral repertoires. Projected into 717 evaluation cases, the generated data exposes 78 failures in a production smartphone assistant, concentrating on call and Short Message Service (SMS) records while contacts, schedules, and alarms never fail. The snapshot pointer confirms each failure as an assistant-side retrieval error, with no LLM judge involved. Overall, SenWorld offers a privacy-safe, reproducible, and distribution-checked path to evaluation data whose labels are fixed by construction.",
+    "title_zh": "SenWorld：用于生成上下文丰富评估数据的数字孪生仿真系统",
+    "abstract_zh": "智能手机个人助理对纵向个人数据进行推理，但评估它们需要上下文丰富的评估数据，且正确答案必须已知，而真实设备轨迹因隐私敏感性过高而无法共享。为应对这一挑战，我们提出了SenWorld，一个基于物理、确定性、事件溯源的数字孪生仿真系统，通过构造方式固定基准真相，从而生成此类数据。在SenWorld中，角色在由真实地图、天气、节假日和网络数据构建的世界中度过一整天；每个可观测信号均以全系统快照形式存档；每个评估案例都通过指向现有记录的指针进行标注，而非依赖事后注释或大型语言模型（LLM）评判。我们使用16个北京角色评估了该方法。生成的数据在类别分布（Jensen-Shannon散度（JSD）为0.070）和通信记录的每日节奏（JSD低于0.1）上与留出的真实用户基准高度吻合，但生成记录仍比真实记录短。在无脚本交互的情况下，角色形成了完全互惠的对话子图，并展现出差异化的行为模式。映射到717个评估案例后，生成的数据揭示了生产环境中智能手机助手的78处失败，这些失败集中于通话和短信（SMS）记录，而联系人、日程和闹钟从未出现失败。快照指针确认了每处失败均为助手端的检索错误，且不涉及LLM评判。总体而言，SenWorld提供了一条隐私安全、可复现且经过分布验证的路径，用于获取标签由构造方式固定的评估数据。"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "Beyond Fail-to-Pass: Iterative Hardening of Co-Generated Bug Reproduction Tests and Fixes",
+    "authors": "Yuhao Tan, Zhibang Yang, Fangkai Yang, Yuan Yao, Yu Kang, Lu Wang, Pu Zhao, Xin Zhang, Xiaoxing Ma, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.19843v1",
+    "source": "arXiv",
+    "abstract": "Large language models (LLMs) have made automated program repair (APR) increasingly practical for real-world bugs, but repairing directly from bug reports remains underconstrained. Bug reproduction tests (BRTs) help close this gap by turning a bug report into an executable, bug-specific signal that can guide repair and validate candidate patches. Existing work has therefore studied BRT generation as a core subproblem in APR and mainly evaluates a generated BRT using the fail-to-pass (F->P) criterion, which requires the test to fail on the buggy code but pass on the golden fix. We show that F->P alone is insufficient when the goal of a BRT is to improve downstream repair. In particular, some F->P BRTs are lax, reproducing the observed symptom yet still admitting plausible-but-incorrect patches. We formalize this missing quality dimension by separating F->P BRTs into rigorous and lax ones, and show empirically that only the former consistently improve repair success. We further find that co-generation introduces test--fix error coupling, where the in-trajectory fail-to-pass (F->P) check can pass even when both the generated patch and generated test are wrong. Based on these findings, we propose CoHarden, a co-generation framework that uses the Lax signal as an in-loop convergence criterion. CoHarden first generates a test before any fix, then iteratively hardens the test and fix against surviving mutation patches until the generated test no longer admits Lax regressions. Experiments show that CoHarden reaches 69.4% Resolved and 78.9% F->P on SWE-bench Verified, outperforming the strongest fix-only and cogeneration baselines by +9.6 and +7.9 percentage points in Resolved, respectively, with consistent gains across LLM backbones and benchmarks.",
+    "title_zh": "超越失败-通过：协同生成的错误复现测试与修复的迭代强化",
+    "abstract_zh": "大型语言模型（LLMs）使自动程序修复（APR）在处理真实缺陷时愈发实用，但直接依赖缺陷报告进行修复仍存在诸多约束不足的问题。缺陷复现测试（BRTs）通过将缺陷报告转化为可执行的、针对特定缺陷的信号，能够指导修复并验证候选补丁，从而有效弥补这一差距。因此，现有研究将BRT生成视为APR中的核心子问题，并主要通过失败转通过（F->P）标准评估生成的BRT，即要求测试在缺陷代码上失败，但能在正确修复后通过。我们表明，当BRT的目标是改进下游修复时，仅靠F->P标准是不够的。特别是，有些F->P BRT较为宽松，虽能复现观测到的缺陷现象，却仍容忍看似合理但实际错误的补丁。我们将这一缺失的质量维度形式化，将F->P BRT区分为严格型与宽松型，并通过实验证明仅前者能持续提升修复成功率。我们进一步发现，协同生成会引入测试-修复误差耦合，即当生成的补丁和测试均错误时，轨迹内的失败转通过（F->P）检查仍可能通过。基于这些发现，我们提出了CoHarden，一个以宽松信号作为循环内收敛准则的协同生成框架。CoHarden首先生成测试再生成修复，随后针对存活的变异补丁逐步强化测试与修复，直至生成的测试不再导致宽松回归。实验表明，在SWE-bench Verified基准上，CoHarden实现了69.4%的已解决率和78.9%的F->P通过率，相较最优的纯修复和协同生成基准，在已解决问题上分别提升9.6和7.9个百分点，且在不同LLM骨干和基准上均取得一致性提升。"
+  },
+  {
+    "date": "2026-7-22",
+    "title": "MARVEL: Multi-Agent RTL Vulnerability Extraction using Large Language Models",
+    "authors": "Luca Collini, Baleegh Ahmad, Joey Ah-kiow, Ramesh Karri",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3832325",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "MARVEL：利用大语言模型的多智能体RTL漏洞提取",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-22",
+    "title": "Configuration-Driven RTL Port Initialization with LLM-Assisted Inference_supp1-3715577.pdf",
+    "authors": "praveen kumar vagala",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/mdat.2026.3715577/mm1",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "配置驱动的RTL端口初始化与LLM辅助推理_补充1-3715577.pdf",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-22",
+    "title": "Fade to Gray: From Black-Box to AI-Antagonistic Audits",
+    "authors": "Erwan Le Merrer, Gilles Tredan",
+    "publish": "Communications of the ACM",
+    "url": "https://doi.org/10.1145/3780103",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "渐入灰境：从黑箱到AI对抗性审计",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-22",
+    "title": "An FPGA-Based Programmable ALPG Platform with Hardware Loop Profiling and a Fully Custom PHY for DRAM Fault Diagnosis",
+    "authors": "Sunyoung Park, Saeyeon Kim, Jiyoung Lee, Nahyeon Kim, Ji-Hoon Kim",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3716016",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于FPGA的可编程ALPG平台，配备硬件循环剖析功能和用于DRAM故障诊断的全定制PHY",
+    "abstract_zh": "None"
+  }
+]
