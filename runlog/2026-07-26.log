@@ -1,0 +1,62 @@
+[2026-07-27 12:24:30] 开始执行论文搜索任务
+搜索关键词: verification
+搜索日期范围: 2026-07-26
+正在获取论文...
+[ACM] 2026-7-27 | Deep-Learning Reconstruction Method of Discrete Sparse Spectra with Hybrid Physical-Constraint Loss and Asymmetric Pooling
+[ACM] 2026-7-27 | The Energy-Balanced Improved Protocol Based on Cluster Head Selection in the LEACH Protocol
+[ACM] 2026-7-27 | A Structured Application Database and Fast Evaluation Method for Civil Aircraft Crew Alerting Systems
+[ACM] 2026-7-27 | Prevalent but Fragmented: Understanding the Scattered URL Navigation Interventions in Modern Web Clients
+[ACM] 2026-7-27 | Enhancing Text-Based Emotion Detection in Turkish and English: A Sentence-Level Enrichment Approach Using BERT and DistilBERT
+[ACM] 2026-7-27 | Efficient Ciphertext-Policy Attribute-Based SearchableEncryption Supporting LSSS Access Structures
+[ACM] 2026-7-27 | A Human-in-the-Loop LLM Agent Framework with LoRA Domain Adaptation for DO-330 TQL-1 Tool Qualification
+[ACM] 2026-7-27 | Hierarchical Reinforcement Learning Approach for Joint Trajectory Planning and Task Offloading in Multi-UAV-Assisted MEC
+[ACM] 2026-7-27 | Intelligent Wheelchair LAN Communication Architecture Based on Multi-UnitCollaboration: Protocol Optimization and Outdoor Interference ResistanceVerification
+[ACM] 2026-7-27 | SilentDNS: Acoustic Side-Channel-Assisted Inference for Device Fingerprinting and State Detection under Encrypted Network Traffic
+[ACM] 2026-7-27 | Target Radar Cross Section Prediction Method Based on Improved Generative 3D Model
+[ACM] 2026-7-27 | Method for Measuring Power of Target Simulation Type Pulsed Light Source and Evaluation of Power Uncertainty
+[ACM] 2026-7-27 | Non-Destructive Measurement of Fused Multi-fiber Taper Fiber Devices for Optical Communications
+[ACM] 2026-7-27 | Research on Construction Method of Evaluation Dataset for Civil Aircraft Onboard Software Large Language Models
+[ACM] 2026-7-27 | A Beam-Controllable Reflectarray
+[ACM] 2026-7-27 | Drift-Aware Compressed Sparse Fault Diagnosis and Self-Calibration forAntenna Arrays
+[ACM] 2026-7-27 | DeckerPlus: Whole Program Attack Surface Reduction via Compiler Analysis  and Transformations
+[ACM] 2026-7-27 | Efficient Offset Mesh Generation with Preserved Features and Boundaries
+[ACM] 2026-7-27 | Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology
+[ACM] 2026-7-27 | An Improved Transformer and Adversarial Transfer Learning Fault Diagnosis Method for Water-Lubricated Stern Bearings
+[ACM] 2026-7-27 | Overcoming Processing Bottlenecks in Network Intrusion Detection: A High-Speed Optimizable Tree Approach with Minimum Redundancy Maximum Relevance
+[ACM] 2026-7-27 | MATT: Cycle-Aware Parallel Regression Testing for Model-Generated Embedded Software
+[ACM] 2026-7-27 | LISHARK: Lightweight Side Channel Protected Secure Hardware Extension with Re-keying
+[ACM] 2026-7-27 | BBR-PP: Accelerating Slow Start for Congestion Control in LEO Satellite Networks
+[ACM] 2026-7-27 | Joint Short-Cycle and ACE Statistics in LDPC Tanner Graphs via Fast Message Passing
+[ACM] 2026-7-27 | Research on Massive MIMO Ultraviolet Laser Non-Line-of-Sight Communication System Based on SAMP Algorithm
+共写入 26 条记录，保存到 papers/paper2026-07-26.json。
+论文获取成功，文件路径: papers/paper2026-07-26.json
+正在筛选、翻译并发送邮件...
+[NO] 1/26 | Deep-Learning Reconstruction Method of Discrete Sparse Spectra with Hybrid Physical-Constraint Loss and Asymmetric Pooling
+[NO] 2/26 | The Energy-Balanced Improved Protocol Based on Cluster Head Selection in the LEACH Protocol
+[NO] 3/26 | A Structured Application Database and Fast Evaluation Method for Civil Aircraft Crew Alerting Systems
+[NO] 4/26 | Prevalent but Fragmented: Understanding the Scattered URL Navigation Interventions in Modern Web Clients
+[NO] 5/26 | Enhancing Text-Based Emotion Detection in Turkish and English: A Sentence-Level Enrichment Approach Using BERT and DistilBERT
+[NO] 6/26 | Efficient Ciphertext-Policy Attribute-Based SearchableEncryption Supporting LSSS Access Structures
+[NO] 7/26 | A Human-in-the-Loop LLM Agent Framework with LoRA Domain Adaptation for DO-330 TQL-1 Tool Qualification
+[NO] 8/26 | Hierarchical Reinforcement Learning Approach for Joint Trajectory Planning and Task Offloading in Multi-UAV-Assisted MEC
+[NO] 9/26 | Intelligent Wheelchair LAN Communication Architecture Based on Multi-UnitCollaboration: Protocol Optimization and Outdoor Interference ResistanceVerification
+[NO] 10/26 | SilentDNS: Acoustic Side-Channel-Assisted Inference for Device Fingerprinting and State Detection under Encrypted Network Traffic
+[NO] 11/26 | Target Radar Cross Section Prediction Method Based on Improved Generative 3D Model
+[NO] 12/26 | Method for Measuring Power of Target Simulation Type Pulsed Light Source and Evaluation of Power Uncertainty
+[NO] 13/26 | Non-Destructive Measurement of Fused Multi-fiber Taper Fiber Devices for Optical Communications
+[NO] 14/26 | Research on Construction Method of Evaluation Dataset for Civil Aircraft Onboard Software Large Language Models
+[NO] 15/26 | A Beam-Controllable Reflectarray
+[NO] 16/26 | Drift-Aware Compressed Sparse Fault Diagnosis and Self-Calibration forAntenna Arrays
+[NO] 17/26 | DeckerPlus: Whole Program Attack Surface Reduction via Compiler Analysis  and Transformations
+[NO] 18/26 | Efficient Offset Mesh Generation with Preserved Features and Boundaries
+[NO] 19/26 | Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology
+[NO] 20/26 | An Improved Transformer and Adversarial Transfer Learning Fault Diagnosis Method for Water-Lubricated Stern Bearings
+[NO] 21/26 | Overcoming Processing Bottlenecks in Network Intrusion Detection: A High-Speed Optimizable Tree Approach with Minimum Redundancy Maximum Relevance
+[NO] 22/26 | MATT: Cycle-Aware Parallel Regression Testing for Model-Generated Embedded Software
+[NO] 23/26 | LISHARK: Lightweight Side Channel Protected Secure Hardware Extension with Re-keying
+[NO] 24/26 | BBR-PP: Accelerating Slow Start for Congestion Control in LEO Satellite Networks
+[NO] 25/26 | Joint Short-Cycle and ACE Statistics in LDPC Tanner Graphs via Fast Message Passing
+[NO] 26/26 | Research on Massive MIMO Ultraviolet Laser Non-Line-of-Sight Communication System Based on SAMP Algorithm
+筛选完成：共 26 篇；Yes = 0 篇；已保存到 papers/select_paper2026-07-26.json。
+邮件发送成功！
+[2026-07-27 12:27:42] 任务执行成功！

@@ -1,0 +1,236 @@
+[
+  {
+    "date": "2026-7-27",
+    "title": "Deep-Learning Reconstruction Method of Discrete Sparse Spectra with Hybrid Physical-Constraint Loss and Asymmetric Pooling",
+    "authors": "Yiwen Li, Ruiying Yang, Mengyu Chen, Xinyi Tian, Sitong Zhou",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821176",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "The Energy-Balanced Improved Protocol Based on Cluster Head Selection in the LEACH Protocol",
+    "authors": "Zexuan Wei",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821174",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "A Structured Application Database and Fast Evaluation Method for Civil Aircraft Crew Alerting Systems",
+    "authors": "Yaxin Pan, Meiqiang She, Yidan Ding, Linghui Wang, Supeng Wu, Jinghua Sun",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821167",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Prevalent but Fragmented: Understanding the Scattered URL Navigation Interventions in Modern Web Clients",
+    "authors": "Qingyin Tan, Yan Jia, Yijing Liu, Xingyu Lu, Zheli Liu",
+    "publish": "ACM Transactions on the Web",
+    "url": "https://doi.org/10.1145/3833378",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Enhancing Text-Based Emotion Detection in Turkish and English: A Sentence-Level Enrichment Approach Using BERT and DistilBERT",
+    "authors": "Senem Kumova Metin, Hande Aka Uymaz",
+    "publish": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "url": "https://doi.org/10.1145/3833411",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Efficient Ciphertext-Policy Attribute-Based SearchableEncryption Supporting LSSS Access Structures",
+    "authors": "Dilxat Ghopur, Abdugeni Abduxkur, Ling Yuan, Bo Zhang, Marhaba Mamtimin, Nurmamat Helil",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821179",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "A Human-in-the-Loop LLM Agent Framework with LoRA Domain Adaptation for DO-330 TQL-1 Tool Qualification",
+    "authors": "Yidan Ding, Linghui Wang, Yaxin Pan, Dehao Lu, Supeng Wu",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821169",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Hierarchical Reinforcement Learning Approach for Joint Trajectory Planning and Task Offloading in Multi-UAV-Assisted MEC",
+    "authors": "Tan Chen, Kaili Wang, Fuxing Tan, Xin Xiong, Xingtian Ren",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3822152",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Intelligent Wheelchair LAN Communication Architecture Based on Multi-UnitCollaboration: Protocol Optimization and Outdoor Interference ResistanceVerification",
+    "authors": "Wenyang Xiao, Sicheng Ye, Xiaohong Lan",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821164",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "SilentDNS: Acoustic Side-Channel-Assisted Inference for Device Fingerprinting and State Detection under Encrypted Network Traffic",
+    "authors": "Haozhe Zhou, Hang Lei, Feng Hong, Yuegang Pu, Nan Deng, Tao Li, Maolin Yang",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3822300",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Target Radar Cross Section Prediction Method Based on Improved Generative 3D Model",
+    "authors": "Hengliang Zhou, Xiang Lu, Huaxing Kuang, Jian Wang, Qing Shen, Jing Tian, Wei Cui",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821163",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Method for Measuring Power of Target Simulation Type Pulsed Light Source and Evaluation of Power Uncertainty",
+    "authors": "Lei Yu, Ming Xia, Yuan Jiang, Junwen Xia, Jianqiang Gao, Yunling Wang",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821175",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Non-Destructive Measurement of Fused Multi-fiber Taper Fiber Devices for Optical Communications",
+    "authors": "Chao Wang, Li Pei, Jianshuai Wang, Zhouyi Hu",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821173",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Research on Construction Method of Evaluation Dataset for Civil Aircraft Onboard Software Large Language Models",
+    "authors": "Shuqin Yan, Yijiu Zou, Jinghua Sun, Yige Zhao, Rongtai Yang, Kexi Huang",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821178",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "A Beam-Controllable Reflectarray",
+    "authors": "Tengyuan Liu, Bing Jiang, Yehui Wang, Hengliang Zhou, Xin Zhou",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821180",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Drift-Aware Compressed Sparse Fault Diagnosis and Self-Calibration forAntenna Arrays",
+    "authors": "Yuhua Han, Fei Hu",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821170",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "DeckerPlus: Whole Program Attack Surface Reduction via Compiler Analysis  and Transformations",
+    "authors": "Alexandra Hussar, Sharjeel Khan, Christopher Porter, Santosh Pande",
+    "publish": "ACM Transactions on Privacy and Security",
+    "url": "https://doi.org/10.1145/3833877",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Efficient Offset Mesh Generation with Preserved Features and Boundaries",
+    "authors": "Canjia Huang, Juan Cao, Bailin Deng, Jiangbo Huang, Ge Yin, Zhonggui Chen",
+    "publish": "ACM Transactions on Graphics",
+    "url": "https://doi.org/10.1145/3832781",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1145/3821162",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "An Improved Transformer and Adversarial Transfer Learning Fault Diagnosis Method for Water-Lubricated Stern Bearings",
+    "authors": "Xiao-dong Wang, Xiao-wei Wang, Huan-Jie Wang, Ze-Hui Liu, Jie Zhang, Xiao-Nan Wang",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821243",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Overcoming Processing Bottlenecks in Network Intrusion Detection: A High-Speed Optimizable Tree Approach with Minimum Redundancy Maximum Relevance",
+    "authors": "Adisak Raksalam, Sunantha Sodsee",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821171",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "MATT: Cycle-Aware Parallel Regression Testing for Model-Generated Embedded Software",
+    "authors": "Dehao Lu, Yidan Ding, Linghui Wang, Yaxin Pan, Supeng Wu",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821168",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "LISHARK: Lightweight Side Channel Protected Secure Hardware Extension with Re-keying",
+    "authors": "Soumi Chatterjee, Siddhartha Chowdhury, Urbi Chatterjee, Debdeep Mukhopadhyay",
+    "publish": "ACM Transactions on Embedded Computing Systems",
+    "url": "https://doi.org/10.1145/3834776",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "BBR-PP: Accelerating Slow Start for Congestion Control in LEO Satellite Networks",
+    "authors": "Yongji Liu, Chenglong Li, Anwen Huang",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821172",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Joint Short-Cycle and ACE Statistics in LDPC Tanner Graphs via Fast Message Passing",
+    "authors": "Xiang Li, Xuan He",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821166",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Research on Massive MIMO Ultraviolet Laser Non-Line-of-Sight Communication System Based on SAMP Algorithm",
+    "authors": "Dajiang Ge, Huilin Ma, Feng Kang, Fabo Peng",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3822153",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]
