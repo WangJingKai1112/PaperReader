@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-07-27",
+    "title": "RESTOR: Automated Test Oracle Generation for RESTful APIs via Reinforcement Learning",
+    "authors": "Xun Zhou, Zhen Dong, Mingyu Ren, Qiang Li, JunJie Li, Sifan Wang, Xiaolong Yu, Chaofeng Sha, Xin Peng",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.23963v1",
+    "source": "arXiv",
+    "abstract": "Modern REST API testing faces a critical challenge in defining reliable test oracles, particularly in agile industrial environments where formal specifications (e.g., OpenAPI) are frequently missing or outdated, and historical execution logs are unavailable for newly deployed endpoints. In this paper, we present Restor (Reinforcement Enhanced Single-Traffic Oracle generator for REST APIs), a framework that generates executable test assertions from a single observed request-response pair in a black-box setting. Unlike existing approaches that rely on rule-based templates or massive training logs, Restor utilizes a novel data augmentation pipeline to fine-tune a lightweight Large Language Model (LLM) via Group Relative Policy Optimization (GRPO). This training process enables the model to internalize testing \"common sense\" by optimizing a reward function that jointly encourages: (i) the selection of stable, semantically meaningful fields for validation and the avoidance of dynamic noise (e.g., timestamps or trace IDs); (ii) the generation of robust assertions that withstand logic variations. We evaluate Restor on an industrial dataset comprising over 2,300 API traces across 246 real-world services. Comprehensive experiments demonstrate that Restor significantly outperforms prompt-engineered baselines and generalist models, achieving a superior $F_1$ score of 85.42% in key field identification and increasing the proportion of semantically accurate assertions. Furthermore, deployment in a production CI/CD workflow at ByteDance confirms its practical value: the system raised the adoption rate of automatically generated test cases from 74.1% to over 96%, substantially reducing manual Quality Assurance (QA) effort while ensuring high execution stability.",
+    "title_zh": "RESTOR：基于强化学习的RESTful API自动化测试预言生成",
+    "abstract_zh": "现代 REST API 测试面临一个关键挑战：如何定义可靠的测试预言，尤其是在敏捷工业环境中，形式化规范（如 OpenAPI）常常缺失或过时，且新部署的端点没有可用的历史执行日志。为此，本文提出 Restor（Reinforcement Enhanced Single-Traffic Oracle generator for REST APIs），一种基于强化增强的单流量测试预言生成框架，能够在黑盒场景下仅凭单次观测到的请求-响应对生成可执行的测试断言。与依赖规则模板或大量训练日志的现有方法不同，Restor 采用一种新颖的数据增强流水线，通过组相对策略优化（GRPO）对轻量级大语言模型（LLM）进行微调。该训练过程通过优化奖励函数，使模型内化测试“常识”，同时鼓励：（i）选择稳定且语义有意义的字段进行验证，并规避动态噪声（如时间戳或跟踪 ID）；（ii）生成能够承受逻辑变化的健壮断言。我们在涵盖 246 个真实服务、超过 2300 条 API 跟踪数据的工业数据集上评估了 Restor。综合实验表明，Restor 显著优于基于提示工程的基线和通用模型，在关键字段识别中取得了 85.42% 的 F1 分数，并提升了语义准确断言的比例。此外，在字节跳动生产环境 CI/CD 流程中的部署证实了其实用价值：自动生成测试用例的采用率从 74.1% 提升至 96% 以上，大幅减少了人工质量保证（QA）工作量，同时保证了高执行稳定性。"
+  },
+  {
+    "date": "2026-07-27",
+    "title": "Industrial Practice of LLM-Based Test Case Carving and Assertion Generation (Experience Paper)",
+    "authors": "Haozhen You, Zhen Dong, Jingjing Wang, Qiang Li, Xin Peng",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.24000v1",
+    "source": "arXiv",
+    "abstract": "Enterprise regression testing for microservice systems is often constrained by incomplete or outdated documentation. In practice, QA engineers frequently rely on real execution traffic to reconstruct business scenarios; however, turning raw traffic into replayable regression tests with stable validation logic remains labor-intensive and error-prone. This paper presents NL2Test, an end-to-end approach and tool that generates executable API regression tests from (i) a natural-language scenario description and (ii) a traffic capture recorded while executing the scenario. NL2Test addresses two coupled tasks: test case carving, which extracts a minimal replayable request sequence and reconstructs data dependencies so that dynamic values are bound from their responses rather than hard-coded; and assertion generation, which produces assertions aligned with business intent while avoiding non-deterministic fields and hallucinated paths. To improve reliability, NL2Test uses LLMs for semantic interpretation and constrained code synthesis, and uses deterministic algorithms for request filtering, dependency confirmation via value consistency, and assertion-path validation. We evaluate NL2Test on 51 industrial regression scenarios extracted from a large consumer-facing Internet company. NL2Test achieves an exact-match rate of 82.4% (42/51), and produces a functionally usable draft in 98.0% (50/51) of scenarios when allowing minor post-edits. In a 9-month production deployment starting in March 2025, NL2Test generated 3,196 test cases with an overall code adoption rate of 85.4%. These results indicate that traffic-grounded generation with deterministic guardrails can substantially reduce manual effort while improving regression automation in complex microservice environments.",
+    "title_zh": "基于大语言模型的测试用例雕刻与断言生成工业实践（经验论文）",
+    "abstract_zh": "面向微服务系统的企业回归测试常常受限于不完整或过时的文档。实践中，QA 工程师经常依赖真实执行流量来还原业务场景；然而，将原始流量转化为具有稳定验证逻辑的可重放回归测试，仍然是一项劳动密集且易出错的工作。本文提出 NL2Test，一种端到端的方法和工具，它从（i）自然语言场景描述和（ii）执行该场景时录制的流量捕获中生成可执行的 API 回归测试。NL2Test 解决两个耦合任务：测试用例雕刻，即提取最小可重放请求序列并重建数据依赖，使动态值从它们的响应中绑定而非硬编码；以及断言生成，生成符合业务意图的断言，同时避免非确定性字段和幻觉路径。为提高可靠性，NL2Test 利用大语言模型（LLM）进行语义解释和受约束的代码合成，并使用确定性算法进行请求过滤、通过值一致性进行依赖确认，以及断言路径验证。我们在从一家大型面向消费者的互联网公司提取的 51 个工业回归场景上评估了 NL2Test。NL2Test 的精确匹配率达到 82.4%（42/51），在允许少量后期编辑的情况下，98.0%（50/51）的场景生成了功能可用的草稿。在 2025 年 3 月开始的为期 9 个月的生产部署中，NL2Test 生成了 3,196 个测试用例，整体代码采纳率为 85.4%。这些结果表明，基于流量的生成结合确定性护栏，可以大幅减少人工工作量，同时提升复杂微服务环境中的回归自动化水平。"
+  },
+  {
+    "date": "2026-07-27",
+    "title": "Evaluating Fuzz Testing for Reinforcement Learning Agents",
+    "authors": "Zhibin Kang, Hanmo You, Dong Wang, Haiming Zheng, Junjie Chen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.24577v1",
+    "source": "arXiv",
+    "abstract": "Reinforcement Learning (RL) agents are increasingly deployed in safety-critical domains such as robotics, autonomous driving, and drone control, where unexpected behaviors may lead to severe real-world consequences. Fuzz testing has recently emerged as a promising method for exploring the vast state spaces of RL agents and exposing crashes. Although numerous RL fuzzing methods have been proposed, existing studies often differ in evaluation settings, baselines, and metrics, making it difficult to draw reliable conclusions about their relative effectiveness and practical usefulness. To address this gap, we present the first comprehensive empirical study that systematically evaluates RL fuzzing methods from four complementary perspectives: effectiveness, diversity, efficiency, and practical utility. We benchmark five state-of-the-art methods alongside random testing under unified configurations across three environments of increasing complexity (MountainCar, BipedalWalker, and CARLA), and further assess the downstream usefulness of detected crashes for agent robustness improvement and safety monitoring. Our results reveal several key insights. For instance,throughput-oriented methods like MDPFuzz demonstrate superior effectiveness and efficiency in crash discovery, while methods explicitly designed to encourage exploration like SeqDivFuzz excel at uncovering diverse crash behaviors. We also show that fuzzing-generated crashes can meaningfully improve agent robustness and enable accurate safety monitoring with strong cross-method generalization. Beyond these empirical findings, we distill actionable guidance for both researchers and practitioners, highlighting the benefits of combining complementary fuzzing strategies and adopting multi-level diversity analysis to achieve more comprehensive and practical RL testing.",
+    "title_zh": "评估强化学习智能体的模糊测试",
+    "abstract_zh": "强化学习（RL）智能体正越来越多地部署于机器人、自动驾驶和无人机控制等安全关键领域，在这些领域中，意外行为可能导致严重的现实后果。模糊测试近期已成为探索RL智能体庞大状态空间并暴露崩溃的一种有前景的方法。尽管已有众多RL模糊测试方法被提出，但现有研究在评估设置、基线方法和评价指标上往往存在差异，难以对其相对有效性和实际可用性得出可靠结论。为弥补这一不足，我们首次开展了一项全面的实证研究，从有效性、多样性、效率和实际效用四个互补视角系统性地评估RL模糊测试方法。我们在统一配置下，于三个复杂度递增的环境（MountainCar、BipedalWalker和CARLA）中对五种前沿方法以及随机测试进行了基准评测，并进一步评估了检测出的崩溃对智能体鲁棒性改进和安全监控的下游实用性。实验结果揭示了若干关键发现：例如，面向吞吐量的方法（如MDPFuzz）在崩溃发现的效率和效果上表现优异，而明确设计用于鼓励探索的方法（如SeqDivFuzz）则擅长发掘多样化的崩溃行为。我们还表明，模糊测试生成的崩溃能够显著提升智能体的鲁棒性，并能实现高精度的安全监控，且具有强大的跨方法泛化能力。除这些实证发现外，我们为研究人员和从业者提炼了可操作的指导，强调将互补的模糊测试策略结合起来，并采用多层多样性分析方法，以实现更全面和实用的RL测试。"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Leveraging Large Language Model Agents for Autonomous Software Testing and Intelligent Automation",
+    "authors": "Rama Krishna Reddy Arumalla",
+    "publish": "2026 5th International Conference on Computer Networks, Big Data and IoT (ICCBI)",
+    "url": "https://doi.org/10.1109/iccbi68589.2026.11619891",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "利用大语言模型智能体实现自主软件测试与智能自动化",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "FIGAN: Diversity-Oriented Traffic Generation for Industrial Protocol Format Inference",
+    "authors": "Ping He, Yu Yao, Xu Li, Yao Hu, Wei Yang",
+    "publish": "IEEE Transactions on Network and Service Management",
+    "url": "https://doi.org/10.1109/tnsm.2026.3717268",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "FIGAN：面向多样性的工业协议格式推断流量生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "LPGSim: A Lightweight Parallel GPU Simulator Maximizing Speed with Trustworthy Simulation",
+    "authors": "Hyunwoo Nam, Jay Hwan Lee, Yeonsoo Kim, Mengzhao Zhang, Jeonggeun Kim, Bernd Burgstaller",
+    "publish": "ACM SIGMETRICS Performance Evaluation Review",
+    "url": "https://doi.org/10.1145/3820171.3806915",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "LPGSim：一种通过可信仿真实现速度最大化的轻量级并行GPU模拟器",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "Search-Based Test Case Generation for Unfairness Detection in Multi-Layer Perceptron-Based Systems: A Genetic Algorithm Approach and Empirical Evaluation",
+    "authors": "Roa Alharbi, Noureddine Abbadeni",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3717516",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向基于多层感知器系统的不公平性检测的搜索式测试用例生成：一种遗传算法方法与实证评估",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-27",
+    "title": "MATT: Cycle-Aware Parallel Regression Testing for Model-Generated Embedded Software",
+    "authors": "Dehao Lu, Yidan Ding, Linghui Wang, Yaxin Pan, Supeng Wu",
+    "publish": "Proceedings of the 2026 5th International Conference on Networks, Communications and Information Technology",
+    "url": "https://doi.org/10.1145/3821162.3821168",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "MATT：面向模型生成嵌入式软件的周期感知并行回归测试",
+    "abstract_zh": "无"
+  }
+]
