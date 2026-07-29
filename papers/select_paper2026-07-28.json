@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2026-07-28",
+    "title": "KQFuzz: Knowledge-Guided Fuzzing for Quantum Libraries via Large Language Models",
+    "authors": "Fuyuan Xia, Qixin Zhang, Chenhao Ying, Haojin Zhu, Shuai Wang, Yuan Luo, Pingchuan Ma, Yuxuan Du",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.25647v1",
+    "source": "arXiv",
+    "abstract": "As quantum computing continually improves, ensuring the reliability and correctness of quantum libraries has become increasingly critical. To this end, many LLM-based fuzzing approaches towards quantum libraries have been proposed to uncover potential bugs. However, these methods still suffer from limitations such as insufficient flexibility and low efficiency, which hinder the progress of the quantum computing field. To address these challenges, we propose KQFuzz, a novel knowledge-guided fuzzer for quantum libraries. It leverages comprehensive codebase knowledge to ground LLM-based test generation, synergizing this with fitness-guided evaluation and two-level mutations to explore complex execution paths and trigger potential bugs. Firstly, KQFuzz introduces a novel prompting scheme tailored to quantum programs, which strategically incorporates knowledge of the codebase to efficiently generate high-quality quantum seed programs. Moreover, we develop evaluation and mutation strategies to handle the generated seed programs, facilitating efficient fuzzing execution while further enriching the diversity of the resulting test cases. We implement KQFuzz and conduct fuzzing on three popular quantum libraries, including Qiskit, PennyLane, and Cirq. Experimental results demonstrate that our approach significantly outperforms other state-of-the-art methods, with coverage improved by up to 18.44%. During the development of KQFuzz, we discovered 13 bugs, all of which have been confirmed and 12 have already been fixed by the developers.",
+    "title_zh": "KQFuzz：基于大语言模型的知识引导量子库模糊测试",
+    "abstract_zh": "随着量子计算的不断进步，确保量子库的可靠性和正确性变得愈发关键。为此，许多基于大语言模型的量子库模糊测试方法被提出，以发现潜在缺陷。然而，这些方法仍存在灵活性不足、效率低下等局限，阻碍了量子计算领域的发展。为应对这些挑战，我们提出了KQFuzz——一种新颖的知识引导量子库模糊测试器。它利用全面的代码库知识支撑基于大语言模型的测试生成，并将其与适应度引导的评估和两级变异相结合，以探索复杂执行路径并触发潜在缺陷。首先，KQFuzz引入了一种专为量子程序定制的提示方案，策略性地融入代码库知识，从而高效生成高质量的量子种子程序。此外，我们开发了评估与变异策略来处理生成的种子程序，在促进高效模糊执行的同时，进一步丰富所得测试用例的多样性。我们实现了KQFuzz，并在包括Qiskit、PennyLane和Cirq在内的三个主流量子库上进行了模糊测试。实验结果表明，我们的方法显著优于其他先进方法，覆盖率最高提升18.44%。在KQFuzz的开发过程中，我们发现了13个缺陷，全部已得到确认，其中12个已被开发者修复。"
+  },
+  {
+    "date": "2026-07-28",
+    "title": "Demystifying Deep Learning Compiler Frontend Bugs: An LLM-Aided Empirical Study",
+    "authors": "Xinyi Yuan, Wei Chen, Jinyi Liu, Pengyu Chen, Jun Wei, Guoquan Wu, Jiaxin Zhu, Tao Huang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.25651v1",
+    "source": "arXiv",
+    "abstract": "Deep learning compilers (DLCs) are designed to translate deep learning programs into optimized, hardware-specific code. Typically, DLC frontends translate programs into graph-based intermediate representations (IRs) to enable optimizations. Defects introduced during this stage (termed \\emph{fBug}s) are severe yet understudied, as prior work predominantly focuses on low-level APIs and operators or treats DLCs as monolithic entities. To bridge this gap, we conduct the first systematic empirical study of \\emph{fBug}s in TorchDynamo, the default DLC frontend for PyTorch 2, the most popular DL framework. Leveraging a domain-knowledge-enhanced LLM-aided methodology, we analyze 123 \\emph{fBug}s and construct a taxonomy comprising 7 root cause categories and 15 subcategories. Our findings provide actionable insights for DLC development and testing. Furthermore, we leverage the LLM to generate targeted, root cause-aware test cases to detect new bugs. We uncovered 23 previously unknown \\emph{fBug}s in recent releases (15 confirmed) across eight (sub)categories, demonstrating the efficacy of our methodology in testing and hardening DLC frontends.",
+    "title_zh": "揭秘深度学习编译器前端缺陷：一项LLM辅助的实证研究",
+    "abstract_zh": "深度学习编译器（DLC）旨在将深度学习程序转换为针对特定硬件优化的代码。通常，DLC前端会将程序转换为基于图的中间表示（IR），以便进行优化。在此阶段引入的缺陷（称为\\emph{fBug}）十分严重却研究不足，因为以往工作主要关注底层API和算子，或将DLC视为整体。为弥补这一空白，我们对PyTorch 2（最流行的深度学习框架）的默认DLC前端TorchDynamo中的\\emph{fBug}进行了首次系统性实证研究。借助领域知识增强的大语言模型（LLM）辅助方法，我们分析了123个\\emph{fBug}，构建了包含7个根因类别和15个子类别的分类体系。我们的发现为DLC开发和测试提供了可操作的见解。此外，我们利用LLM生成针对性的、根因感知的测试用例，以检测新缺陷。我们在近期版本中发现了23个以前未知的\\emph{fBug}（其中15个已确认），涵盖八个（子）类别，证明了我们的方法在测试和强化DLC前端方面的有效性。"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "Fault Injection and Out-of-Bound Access Detection in the SPI Protocol Using UVM",
+    "authors": "Tikesh Prajapati, Udit K Gohil, Devesh Yadav, Maitri Patel, Bhavesh Soni",
+    "publish": "2026 6th International Conference on Intelligent Technologies (CONIT)",
+    "url": "https://doi.org/10.1109/conit69683.2026.11620701",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于UVM的SPI协议故障注入与越界访问检测",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "DriftBench: Detecting LLM Coding Agent Cheating via Specification-Level Constraint Drift Mutation",
+    "authors": "Fang Hao",
+    "publish": "2026 6th International Conference on Artificial Intelligence, Big Data and Algorithms (CAIBDA)",
+    "url": "https://doi.org/10.1109/caibda70336.2026.11621849",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "DriftBench: 通过规范级约束漂移变异检测LLM编码代理作弊",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "Autonomous GenAI-Driven Quality Engineering Framework for Healthcare Systems",
+    "authors": "Dhavalkumar Thakar",
+    "publish": "2026 6th International Conference on Intelligent Technologies (CONIT)",
+    "url": "https://doi.org/10.1109/conit69683.2026.11620764",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向医疗保健系统的自主GenAI驱动质量工程框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "<scp>JSTestCraft</scp>\n                    : Addressing Context Deficits in JavaScript Unit Test Generation via Agentic Multi-Level Contextual Analysis",
+    "authors": "Yiyang Liu, Yanjie Zhao, Haoyu Wang",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3828725",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "<scp>JSTestCraft</scp>：通过代理式多层次上下文分析，解决 JavaScript 单元测试生成中的上下文缺失问题",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "Functional Verification of a 10G Ethernet MAC Using a UVM-Based VIP with Error Injection and Coverage Analysis",
+    "authors": "Tikesh Prajapati, Udit K Gohil, Maitri Patel, Bhavesh Soni",
+    "publish": "2026 6th International Conference on Intelligent Technologies (CONIT)",
+    "url": "https://doi.org/10.1109/conit69683.2026.11620753",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于UVM VIP（含错误注入与覆盖率分析）的10G以太网MAC功能验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "<scp>ExplorIt</scp>\n                    : Simulation-based Fuzzing for Autonomous Driving Systems via Multi-Agent Interaction Modeling",
+    "authors": "Bufan Gao, Zongan Huang, Jiarun Dai, Kairui Yang, Yixing Luo, Yingjie Fu, Yuan Zhang, Min Yang, Tao Xie",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3832778",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "<scp>ExplorIt</scp>: 基于仿真的自动驾驶系统模糊测试——多智能体交互建模方法",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "Routing-Aware In Situ Diagnosis of PDN- and Configuration-Induced Delay Signatures in SRAM-Based FPGAs",
+    "authors": "Mostafa Darvishi",
+    "publish": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "url": "https://doi.org/10.1109/tvlsi.2026.3703714",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "路由感知的基于SRAM FPGA中PDN和配置诱发延迟特征的原位诊断",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "Applying Grover’s Algorithm to Synergy: Quantum Resource Estimates",
+    "authors": "Honghan Yan",
+    "publish": "2026 6th International Conference on Artificial Intelligence, Big Data and Algorithms (CAIBDA)",
+    "url": "https://doi.org/10.1109/caibda70336.2026.11621700",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "将Grover算法应用于协同效应：量子资源估算",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "Framework-Adaptive Agentic Pipelines for API Knowledge Extraction and Test Generation",
+    "authors": "Peng Zhao, John Blake, Evgeny Pyshkin",
+    "publish": "2026 IEEE International Conference on Industry 4.0, Artificial Intelligence, and Communications Technology (IAICT)",
+    "url": "https://doi.org/10.1109/iaict71158.2026.11620949",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "用于API知识提取与测试生成的框架自适应智能体流水线",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-28",
+    "title": "A Computing-in-TCAM SAT Solver With Graph-Coloring-Based Variable Update and Dynamic Variable-Aware Clause Evaluation",
+    "authors": "Renlong Li, Qiaoyi Fu, Qinchao Cai, Zhonghua Wang, Chao Jiang, Zhuojun Chen",
+    "publish": "IEEE Transactions on Circuits and Systems I: Regular Papers",
+    "url": "https://doi.org/10.1109/tcsi.2026.3715856",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种基于TCAM内计算的SAT求解器，结合基于图着色的变量更新与动态变量感知的子句评估",
+    "abstract_zh": "None"
+  }
+]
