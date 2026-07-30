@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-07-29",
+    "title": "Not In My Git Yard: Catching Backdoors at Commit and Release Time",
+    "authors": "Dimitri Kokkonis, Michaël Marcozzi, Stefano Zacchiroli",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.26719v1",
+    "source": "arXiv",
+    "abstract": "Code-level backdoors-stealthy code changes that grant hidden privileges via secret triggers-pose a persistent threat to opensource software. Known attempts to inject such backdoors into widely used projects through malicious commits, tampered release packages, or compromised third-party dependencies, were stopped only by luck and manual review. Existing Continuous Integration (CI) pipelines cannot detect these attacks, and downstream binary analysis tools require substantial manual effort. In this work, we present Lily, an automated approach that strengthens open-source development and release processes against backdoor injection. Lily integrates a backdoor detection mechanism into (1) CI pipelines to block malicious commits, and (2) release vetting workflows to prevent tampered releases or compromised dependencies from entering large ecosystems, such as Linux distributions. Lily offers two key contributions. First, it enhances CI-compatible fuzzing with the capability to detect triggers of suspicious behavior based on historical and current software executions. This enables fast, precise backdoor detection suitable for both CI and update validation workflows. Second, it combines code change analysis with fuzzing data to precisely point maintainers to backdoor-revealing code regions, even when release updates modify millions of lines of code. We also outline five strategies attackers could use to evade Lily, and evaluate corresponding defenses. Our experiments across hundreds of benign and backdoored commits and releases show that Lily achieves high detection accuracy with low false alarm rates, reliably identifies malicious code, resists adversarial attempts, and would have prevented real-world backdoor incidents.",
+    "title_zh": "别在我的Git后院：在提交与发布时捕获后门",
+    "abstract_zh": "代码层面的后门——通过秘密触发器授予隐藏权限的隐蔽代码修改——对开源软件构成了持续威胁。已知的通过恶意提交、被篡改的发布包或受感染的第三方依赖项将此类后门注入广泛使用项目的尝试，仅凭运气和人工审查才得以阻止。现有的持续集成（CI）流水线无法检测到这些攻击，而下游的二进制分析工具则需要大量的人工投入。在本工作中，我们提出了Lily，这是一种自动化方法，旨在强化开源软件开发与发布流程以抵御后门注入。Lily将后门检测机制集成到：(1) CI流水线中，以阻止恶意提交；(2) 发布审查工作流中，以防止被篡改的发布包或受感染的依赖项进入大型生态系统（例如Linux发行版）。Lily提供了两大关键贡献。第一，它增强了与CI兼容的模糊测试，使其能够基于历史和当前的软件执行来检测可疑行为的触发器。这使得快速、精确的后门检测适用于CI和更新验证工作流。第二，它将代码变更分析与模糊测试数据相结合，能够精确地将维护者导向揭示后门的代码区域，即使发布更新修改了数百万行代码亦能胜任。我们还概述了攻击者可能用来规避Lily的五种策略，并评估了相应的防御措施。我们在数百个良性和带有后门的提交及发布版本上的实验表明，Lily实现了高检测准确率和低误报率，能够可靠地识别恶意代码，抵御对抗性尝试，并且原本可以阻止真实世界中的后门事件。"
+  },
+  {
+    "date": "2026-7-29",
+    "title": "Image Rejection and Interference Sensitivity Testing via BER Degradation of Digital Transceivers",
+    "authors": "Attila Hilt, Andrea Farkasvölgyi",
+    "publish": "2025 14th International Conference on Networks, Communication and Computing (ICNCC)",
+    "url": "https://doi.org/10.1109/icncc68912.2025.00029",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "通过数字收发器误码率劣化进行镜像抑制和干扰灵敏度测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-29",
+    "title": "Automated Test Suite Enhancement Using Large Language Models with Few-shot Prompting",
+    "authors": "Alex Chudic, Gül Calikli",
+    "publish": "Proceedings of the 2026 34th IEEE/ACM International Conference on Program Comprehension",
+    "url": "https://doi.org/10.1145/3794763.3794828",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于少样本提示的大型语言模型的自动化测试套件增强",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-29",
+    "title": "Verilog-Based Verification and Analysis of a Two-Step Nonlinear ADC",
+    "authors": "Ziyue Chen, Chuansen Yao, Yuanao Wang, Yang Peng, Xiangliang Jin",
+    "publish": "2025 International Conference on Computer Science and Artificial Intelligence Applications (CSAIA)",
+    "url": "https://doi.org/10.1109/csaia65930.2025.11623797",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于Verilog的两步式非线性ADC验证与分析",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-29",
+    "title": "Budget-aware Test-Sufficient Context Selection for Java Unit Test Generation",
+    "authors": "Yifu Wang, Dong Guo, Lu Lu",
+    "publish": "2026 7th International Conference on Big Data &amp; Artificial Intelligence &amp; Software Engineering (ICBASE)",
+    "url": "https://doi.org/10.1109/icbase70763.2026.11619515",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向Java单元测试生成的预算感知测试充分上下文选择",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-29",
+    "title": "Leak-Free Machine Learning for Hardware Trojan Detection at RTL",
+    "authors": "Raj Kumar, Ananya Jyoti Mahanta, Shyamapada Mukherjee",
+    "publish": "2026 9th International Conference on Computing Methodologies and Communication (ICCMC)",
+    "url": "https://doi.org/10.1109/iccmc69250.2026.11624696",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向RTL级硬件木马检测的无泄漏机器学习",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-29",
+    "title": "A Code Ranking Framework with Human-Inspired Agent-Based Tests Generation",
+    "authors": "Liuwen Cao, Jiaxi Liang, Jiexin Wang, Yi Cai",
+    "publish": "Proceedings of the 2026 34th IEEE/ACM International Conference on Program Comprehension",
+    "url": "https://doi.org/10.1145/3794763.3794820",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "采用受人类启发的基于代理的测试生成的代码排名框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-29",
+    "title": "Ensemble Fuzzing with Dynamic Resource Scheduling and Multidimensional Seed Evaluation",
+    "authors": "Yukai Zhao, Shaohua Wang, Jue Wang, Xing Hu, Xin Xia",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3834771",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "集成模糊测试与动态资源调度和多维种子评估",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-29",
+    "title": "Search-Based Test Case Generation for Unfairness Detection in Multi-Layer Perceptron-Based Systems: A Genetic Algorithm Approach and Empirical Evaluation_supp1-3717516.pdf",
+    "authors": "Roa Alharbi",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/access.2026.3717516/mm1",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于搜索的测试用例生成用于多层感知器系统中不公平性检测：一种遗传算法方法与实证评估_supp1-3717516.pdf",
+    "abstract_zh": "None"
+  }
+]
