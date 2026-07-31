@@ -1,0 +1,211 @@
+[
+  {
+    "date": "2026-07-30",
+    "title": "Change2Task: From Repository Changes to Executable Coding Agent Tasks and Environments",
+    "authors": "Haomin Qi, Xingliang Wang, Xuanqi Gao, Baihui Sang, Xin Zhang, Minghua Ma, Pengfei Gao, Yu Kang, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang, Qi Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.28591v1",
+    "source": "arXiv",
+    "abstract": "Scaling coding agents requires a continuing supply of executable data for training, benchmarking, and continuous evaluation. Each task must couple a realistic software state with a specification, development tools, and reliable verification. To expand this supply, we present Change2Task, a system grounded in repository history that converts merged pull requests into verified tasks on healthy modern revisions of the same repository. It aligns historical evidence with evolved code, reconstructs task states through Patch Reversal, Code Mapping, or Agent Reconstruction, and validates the lifecycle from a healthy base to a task state and a restored state. By deriving multiple tasks grounded in developer evidence from maintained environments, Change2Task provides executable data for coding agent training and evaluation while reducing repeated environment setup, storage, and task construction effort. We evaluate the system through five common and widely adopted coding agent task families: Bug Fix, Feature Addition, Test Generation, Application Programming Interface Migration, and Security Repair. Starting from 1,130 source changes eligible for construction, Change2Task achieves 79.6% verified task construction success across these task families. On a matched candidate set, it recovers 29.2% more verified tasks than a construction baseline based on pull requests. Historical and reconstructed cases achieve up to 98.0% matched outcome agreement under agent evaluation, while reuse of modern bases reduces measured expenditure across the complete pipeline by 10.8%.",
+    "title_zh": "Change2Task：从仓库变更到可执行的编码智能体任务与环境",
+    "abstract_zh": "扩展编码智能体需要持续供应可执行数据，用于训练、基准测试和持续评估。每项任务都必须将真实的软件状态与规范、开发工具和可靠验证相结合。为了扩大这一供应，我们提出了 Change2Task，一个基于仓库历史的系统，它能够将已合并的拉取请求转换为同一仓库健康现代修订版本上的已验证任务。它将历史证据与演进后的代码对齐，通过补丁反转、代码映射或智能体重建来重构任务状态，并验证从健康基线到任务状态再到恢复状态的完整生命周期。通过从受维护环境中提取基于开发者证据的多种任务，Change2Task 为编码智能体的训练和评估提供了可执行数据，同时减少了重复的环境设置、存储和任务构建工作。我们通过五种常见且广泛采用的编码智能体任务类型来评估该系统：缺陷修复、功能添加、测试生成、应用程序编程接口迁移和安全修复。从 1,130 个符合构建条件的源变更出发，Change2Task 在这些任务类型上实现了 79.6% 的已验证任务构建成功率。在匹配的候选集上，它比基于拉取请求的构建基线多恢复了 29.2% 的已验证任务。在智能体评估下，历史案例和重建案例实现了高达 98.0% 的匹配结果一致性，而现代基线的复用使整个流水线的测量开销减少了 10.8%。"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "Not as Sweet by Another Name: An Empirical Study of Format Robustness in LLM Document Workflows",
+    "authors": "Xiaoyu Zhang, Xianyun Cheng, Tianlin Li, Yuwei Zheng, Yue Yang, Yang Liu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.27648v1",
+    "source": "arXiv",
+    "abstract": "LLM-driven software systems are rapidly evolving from plain-text conversations to document-centric end-to-end workflows, where the same semantic content can be delivered in diverse document formats (e.g., CSV) through file upload interfaces. Yet existing testing work focuses on the robustness and reliability of models and systems whose input is a single prompt string, leaving a critical question unanswered: Can these document workflows maintain robust behaviors when the same content arrives in a different document format? To fill the gap, in this paper, we propose a format-aware metamorphic testing framework with three metamorphic relations to comprehensively evaluate the format robustness of end-to-end LLM document workflows. Based on this framework, we conduct a large-scale empirical study spanning four representative LLM workflows, four real-world tasks, and four document formats, comprising a total of 48,000 workflow executions. Our findings reveal that format variation poses a systematic and serious threat. Merely switching formats can cause accuracy to drop by up to 53.63% and trigger decision drifts in over 41% of instances. We further design lightweight mitigation strategies from the users' perspective that recover up to 44.21% of format-induced decision drift without model retraining. Our study demonstrates that document format is not a neutral wrapper but a critical factor affecting the reliability of LLM software systems, calling for corresponding testing and safeguards in the deployment in real-world high-stakes scenarios.",
+    "title_zh": "以其他名称命名并不甜美：LLM文档工作流中格式鲁棒性的实证研究",
+    "abstract_zh": "大语言模型驱动的软件系统正迅速从纯文本对话演变为以文档为中心的端到端工作流，在此类工作流中，相同的语义内容可以通过文件上传接口以多种文档格式（如CSV）交付。然而，现有的测试工作聚焦于输入为单一提示字符串的模型和系统的鲁棒性与可靠性，留下了一个关键问题尚未解答：当相同内容以不同文档格式呈现时，这些文档工作流能否保持鲁棒的行为？为填补这一空白，本文提出了一种面向格式的蜕变测试框架，包含三个蜕变关系，以全面评估端到端大语言模型文档工作流的格式鲁棒性。基于该框架，我们开展了一项大规模实证研究，涵盖四个代表性的大语言模型工作流、四个真实世界任务和四种文档格式，共计48,000次工作流执行。我们的研究结果表明，格式变化构成了系统性且严重的威胁。仅切换格式即可导致准确率下降高达53.63%，并在超过41%的实例中触发决策漂移。我们进一步从用户视角设计了轻量级缓解策略，可在无需模型重新训练的情况下恢复高达44.21%的格式引发的决策漂移。我们的研究表明，文档格式并非中立的包装载体，而是影响大语言模型软件系统可靠性的关键因素，这呼吁在真实世界高风险场景的部署中采取相应的测试和保障措施。"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "CHARGE: Leveraging CWE Hierarchies for Hardware Security SystemVerilog Assertion Generation",
+    "authors": "Xiao Tan, Cynthia Sturton",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2607.27776v1",
+    "source": "arXiv",
+    "abstract": "This paper presents CHARGE, an automated framework for generating security properties for unverified RTL modules using CWEs and large language models (LLMs). The hallmark is a reasoning process that leverages the hierarchical nature of CWE entries to improve accuracy when identifying security-critical assets in unverified RTL modules. As a result, the approach can infer expected security behaviors and generate properties from identified assets and CWE semantics, avoiding the need for trusted design specifications and reducing manual engineering effort. We evaluate the framework on the Hack@DAC18, 19, and 21 open source SoC designs using OpenAI's GPT-4.1. CHARGE detects 27 of 42 known bugs in these designs. For Hack@DAC21 OpenPiton SoC, 89% of the generated SVAs run in Cadence JasperGold FPV, and 92.2% are non-vacuous. We compare to an open-source, manually written set of properties for these designs and find that CHARGE correctly writes properties for three bugs in which the manually written properties were incorrect. In addition, CHARGE-generated properties identify a new bug in the Hack@DAC21 OpenPiton SoC that was not previously identified.",
+    "title_zh": "CHARGE：利用CWE层次结构进行硬件安全SystemVerilog断言生成",
+    "abstract_zh": "本文介绍了CHARGE，一个利用通用弱点枚举（CWE）和大语言模型（LLM）为未经验证的RTL模块自动生成安全属性的框架。其标志性特征是一个推理过程，该过程利用CWE条目的层次结构来提高在未经验证的RTL模块中识别安全关键资产的准确性。因此，该方法能够从已识别的资产和CWE语义中推断预期的安全行为并生成属性，无需依赖可信的设计规范，同时减少了人工工程投入。我们使用OpenAI的GPT-4.1在Hack@DAC18、19和21的开源SoC设计上对该框架进行了评估。CHARGE在这些设计中检测到了42个已知漏洞中的27个。对于Hack@DAC21 OpenPiton SoC，89%的生成SVA可在Cadence JasperGold FPV中运行，其中92.2%为非空泛断言。我们将其与为这些设计手工编写的开源属性集进行了比较，发现CHARGE正确地为三个手工编写属性有误的漏洞编写了属性。此外，CHARGE生成的属性还在Hack@DAC21 OpenPiton SoC中识别出一个此前未被发现的新漏洞。"
+  },
+  {
+    "date": "2026-7-30",
+    "title": "Foundation CAN LM: A Pretrained Language Model For Automotive CAN Data",
+    "authors": "Akiharu Esashi, Pawissanutt Lertpongrujikorn, Justin Makino, Yuibi Fujimoto, Mohsen Amini Salehi",
+    "publish": "2026 IEEE Intelligent Vehicles Symposium (IV)",
+    "url": "https://doi.org/10.1109/iv66570.2026.11623984",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基础CAN语言模型：用于汽车CAN数据的预训练语言模型",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-30",
+    "title": "ARVO: Atlas of Reproducible Vulnerabilities for Open-Source Software",
+    "authors": "Xiang Mei, Jordi Del Castillo, Pulkit Singh Singaria, Haoran Xi, Abdelouahab Benchikh, Tiffany Bao, Ruoyu Wang, Yan Shoshitaishvili, Adam Doupé, Hammond Pearce, Brendan Dolan-Gavitt",
+    "publish": "2026 IEEE 11th European Symposium on Security and Privacy (EuroS&amp;P)",
+    "url": "https://doi.org/10.1109/eurosp68448.2026.00060",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "ARVO：开源软件可复现漏洞图谱",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-30",
+    "title": "ScenicRules: An Autonomous Driving Benchmark with Multi-Objective Specifications and Abstract Scenarios",
+    "authors": "Kevin Kai-Chun Chang, Ekin Beyazit, Alberto Sangiovanni-Vincentelli, Tichakorn Wongpiromsarn, Sanjit A. Seshia",
+    "publish": "2026 IEEE Intelligent Vehicles Symposium (IV)",
+    "url": "https://doi.org/10.1109/iv66570.2026.11623942",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "ScenicRules：一个具有多目标规范与抽象场景的自动驾驶基准",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-30",
+    "title": "Towards Deployable VCFI: Architectural Analysis and Cache-Optimized Verification",
+    "authors": "Pinghai Yuan, Hao Jiang, Zhixiang Lu, Fulong Chen, Zhenjiang Qian",
+    "publish": "2026 IEEE 11th European Symposium on Security and Privacy (EuroS&amp;P)",
+    "url": "https://doi.org/10.1109/eurosp68448.2026.00082",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "迈向可部署的VCFI：架构分析与缓存优化的验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-30",
+    "title": "EC-Detector: AI Assisted Edge Case Discovery for AV/ADAS Vehicle Testing",
+    "authors": "Gaurav Pokharkar, Siddhi Baravkar, Zheng Song",
+    "publish": "2026 IEEE Intelligent Vehicles Symposium (IV)",
+    "url": "https://doi.org/10.1109/iv66570.2026.11624140",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "EC-Detector：面向自动驾驶车辆与先进驾驶辅助系统测试的人工智能辅助边缘案例发现\n\nAlternatively more concise:\nEC-Detector：AI辅助的AV/ADAS车辆测试边缘场景发现",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-31",
+    "title": "Testing with AI Agents: An Empirical Study of Test Generation Frequency, Quality, and Coverage",
+    "authors": "Suzuka Yoshimoto, Shun Fujita, Kosei Horikawa, Daniel Feitosa, Yutaro Kashiwa, Hajimu Iida",
+    "publish": "Proceedings of the 23rd International Conference on Mining Software Repositories",
+    "url": "https://doi.org/10.1145/3793302.3793620",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "使用AI代理进行测试：关于测试生成频率、质量和覆盖率的实证研究",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-30",
+    "title": "ARISE – Adaptive Refinement and Iterative Scenario Engineering",
+    "authors": "Konstantin Poddubnyy, Igor Vozniak, Ivan Burmistrov, Nils Lipp, Davit Hovhannisyan, Christian Müller, Philipp Slusallek",
+    "publish": "2026 IEEE Intelligent Vehicles Symposium (IV)",
+    "url": "https://doi.org/10.1109/iv66570.2026.11623826",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "ARISE – 自适应细化与迭代场景工程",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-30",
+    "title": "SandVenture: Escaping JavaScript Sandboxes with Objective-driven Input Generation",
+    "authors": "Mingi Jung, Hyeon Heo, Seongil Wi",
+    "publish": "2026 IEEE 11th European Symposium on Security and Privacy (EuroS&amp;P)",
+    "url": "https://doi.org/10.1109/eurosp68448.2026.00077",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "SandVenture：基于目标驱动的输入生成实现JavaScript沙箱逃逸",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-30",
+    "title": "Secure Time Synchronization in Power Grids and Network HIL Synchrophasor Testing",
+    "authors": "Yuru Wu, Mohammed Olama, Chris Cooper, Amir Osman, Carter Christopher",
+    "publish": "2026 5th International Conference on Smart Grid Synchronized Measurements and Analytics (SGSMA)",
+    "url": "https://doi.org/10.1109/sgsma65955.2026.11618807",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "安全时间同步在电网与网络HIL同步相量测试中的应用",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-30",
+    "title": "From Code to Road: A Vehicle-in-the-Loop and Digital Twin-Based Framework for Central Car Server Testing in Autonomous Driving",
+    "authors": "Chengdong Wu, Sven Kirchner, Nils Purschke, Axel Torschmied, Norbert Kroth, Yinglei Song, André Schamschurko, Erik Leo Haß, Kuo-Yi Chao, Yi Zhang, Nenad Petrovic, Alois C. Knoll",
+    "publish": "2026 IEEE Intelligent Vehicles Symposium (IV)",
+    "url": "https://doi.org/10.1109/iv66570.2026.11623897",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "从代码到道路：基于车辆在环和数字孪生的自动驾驶中央车载服务器测试框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-30",
+    "title": "A Multi-Phase Diagnostic Flow Combining Scan-Based Refinement and Targeted Functional Tests for Automotive SoCs",
+    "authors": "Giusy Iaria, Gabriele Filipponi, Tommaso Foscale, Claudia Bertani, Giuseppe Garozzo, Vincenzo Tancorre, Paolo Bernardi",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3718146",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向汽车SoC的融合基于扫描精化与定向功能测试的多阶段诊断流程",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-31",
+    "title": "An Empirical Study of Tests in Agentic Pull Requests",
+    "authors": "Sabrina Haque, Sarvesh Ingale, Christoph Csallner",
+    "publish": "Proceedings of the 23rd International Conference on Mining Software Repositories",
+    "url": "https://doi.org/10.1145/3793302.3793604",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Agentic拉取请求中测试的实证研究",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-30",
+    "title": "Multi-Fidelity Bayesian Optimization for Simulation Based Autonomous Driving Systems Testing",
+    "authors": "Olek Osikowicz, Phil McMinn, Wei Xing, Donghwan Shin",
+    "publish": "2026 IEEE Intelligent Vehicles Symposium (IV)",
+    "url": "https://doi.org/10.1109/iv66570.2026.11623850",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向基于仿真的自动驾驶系统测试的多保真度贝叶斯优化",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-31",
+    "title": "Learning Compiler Fuzzing Mutators from Historical Bugs",
+    "authors": "Lingjun Liu, Feiran (Alex) Qin, Owolabi Legunsen, Marcelo d'Amorim",
+    "publish": "Proceedings of the 23rd International Conference on Mining Software Repositories",
+    "url": "https://doi.org/10.1145/3793302.3793374",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "从历史缺陷中学习编译器模糊测试变异器",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-30",
+    "title": "Themis: Context-Aware Grey-box Fuzzing for WordPress Plugins",
+    "authors": "Matteo Leonelli, David Jannis Dewes, Thorsten Holz",
+    "publish": "2026 IEEE 11th European Symposium on Security and Privacy (EuroS&amp;P)",
+    "url": "https://doi.org/10.1109/eurosp68448.2026.00076",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Themis: 上下文感知的WordPress插件灰盒模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-31",
+    "title": "Are Coding Agents Generating Over-Mocked Tests? An Empirical Study",
+    "authors": "Andre Hora, Romain Robbes",
+    "publish": "Proceedings of the 23rd International Conference on Mining Software Repositories",
+    "url": "https://doi.org/10.1145/3793302.3793362",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "编码智能体是否在生成过度模拟的测试？一项实证研究",
+    "abstract_zh": "无"
+  }
+]
