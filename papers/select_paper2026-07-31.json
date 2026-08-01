@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-7-31",
+    "title": "HORATIO: Bridging Management and Analysis of Traces at Scale",
+    "authors": "Ray A. O. Sinurat, William Nixon, Haryadi S. Gunawi, Nikoli Dryden, Hariharan Devarajan",
+    "publish": "Proceedings of the 38th International Conference on Scalable Scientific Data Management",
+    "url": "https://doi.org/10.1145/3828820.3828825",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "HORATIO：大规模连接痕迹管理与分析",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-31",
+    "title": "High-Level Modeling of Stuck-at Faults in Approximate Multipliers for Enhanced Test Quality",
+    "authors": "Ardalan Najafi, Goerschwin Fey, Alberto García-Ortiz",
+    "publish": "2026 15th International Conference on Modern Circuits and Systems Technologies (MOCAST)",
+    "url": "https://doi.org/10.1109/mocast70204.2026.11626490",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向增强测试质量的近似乘法器固定故障高层建模",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-7-31",
+    "title": "Testing with AI Agents: An Empirical Study of Test Generation Frequency, Quality, and Coverage",
+    "authors": "Suzuka Yoshimoto, Shun Fujita, Kosei Horikawa, Daniel Feitosa, Yutaro Kashiwa, Hajimu Iida",
+    "publish": "Proceedings of the 23rd International Conference on Mining Software Repositories",
+    "url": "https://doi.org/10.1145/3793302.3793620",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "使用AI代理进行测试：测试生成频率、质量与覆盖率的实证研究",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-31",
+    "title": "Unsatisfiable Core Guided Constraint Solving in Symbolic Execution",
+    "authors": "Ziqi Shuai, Zhenbang Chen, Yufeng Zhang, Hengbiao Yu, Ji Wang, Jifeng Xuan",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3836766",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "不可满足核引导的符号执行中的约束求解\n\n（注：\"Unsatisfiable Core\" 译为\"不可满足核\"，是SMT/SAT求解器中的术语；\"Symbolic Execution\" 译为\"符号执行\"，是程序分析领域的标准译法。）",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-31",
+    "title": "AndroT: A Dataset of Android Apps with Tests",
+    "authors": "Hovhannes Muradyan, Mattia Fazzini",
+    "publish": "Proceedings of the 23rd International Conference on Mining Software Repositories",
+    "url": "https://doi.org/10.1145/3793302.3793315",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "AndroT：包含测试的Android应用数据集",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-31",
+    "title": "ACT: An Adaptive Combinatorial Testing Framework at Scale",
+    "authors": "Yingying Chen, Amitabh Nag, Josh Moore",
+    "publish": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.1",
+    "url": "https://doi.org/10.1145/3770854.3783948",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ACT：一种大规模自适应组合测试框架",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-7-31",
+    "title": "IDEAS: C-to-Rust Translation Using Improved Large Language Model Decoding and Automated Equivalence Testing",
+    "authors": "Cory Cornelius, Marcela S. Melara, Weilin Xu, Marius Arvinte, Marius Momeu, Jingxuan He, Koushik Sen, Dawn Song",
+    "publish": "IEEE Security &amp; Privacy",
+    "url": "https://doi.org/10.1109/msec.2026.3710126",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "IDEAS：使用改进的大型语言模型解码与自动化等价性测试实现 C 到 Rust 的翻译",
+    "abstract_zh": "None"
+  }
+]
