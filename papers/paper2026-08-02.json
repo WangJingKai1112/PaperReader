@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-8-3",
+    "title": "Fail-Slow Hardware Failure Bug Analysis and Detection for Cloud Systems",
+    "authors": "Gen Dong, Yu Hua, Yongle Zhang, Zhangyu Chen, Menglei Chen",
+    "publish": "ACM Transactions on Computer Systems",
+    "url": "https://doi.org/10.1145/3838187",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-2",
+    "title": "Indirected Reality",
+    "authors": "Jim Waldo",
+    "publish": "Queue",
+    "url": "https://doi.org/10.1145/3819081",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "Configuring Industrial Wireless Mesh Networks via Multi-Source Domain Adaptation and Feature Masking",
+    "authors": "Xia Cheng, Aitian Ma, Dong Chen, Mo Sha",
+    "publish": "ACM Transactions on Sensor Networks",
+    "url": "https://doi.org/10.1145/3830406",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "Architecture-Aware Multi-Scale Modeling with Self- and Cross-Attention for Dynamic IR Drop Analysis",
+    "authors": "Xianjing Zhu, Shikai Guo, Sihang Zhang, Wenjun Tang, Feng Min, Furui Zhan, Qian Ma, Ning Wang, Hui Li, He Jiang",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3837865",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "Collab-REC: An LLM-based Agentic Framework for Balancing Recommendations in Tourism",
+    "authors": "Ashmi Banerjee, Adithi Satish, Fitri Nur Aisyah, Wolfgang Wörndl, Yashar Deldjoo",
+    "publish": "ACM Transactions on Recommender Systems",
+    "url": "https://doi.org/10.1145/3837862",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "Enhancing Myanmar Sign Language Translation Through Transfer Learning, Self-training, and Error Correction",
+    "authors": "Hlaing Myat Nwe, Kiyoaki Shirai, Natthawut Kertkeidkachorn, Ye Thu, Thanaruk Theeramunkong, Thepchai Supnithi",
+    "publish": "ACM Transactions on Asian and Low-Resource Language Information Processing",
+    "url": "https://doi.org/10.1145/3837853",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-2",
+    "title": "Where to Draw the Line",
+    "authors": "Craig A. N. Soules",
+    "publish": "Queue",
+    "url": "https://doi.org/10.1145/3834784",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]
