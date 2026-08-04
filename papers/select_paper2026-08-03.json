@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2026-08-03",
+    "title": "Octopus: Practical Equivalence Checking of P4 Packet Parsers",
+    "authors": "Jort van Leenen, Tobias Kappé",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.01982v1",
+    "source": "arXiv",
+    "abstract": "P4 is a domain-specific language for programming protocol-independent packet processors, where packet parsers describe how incoming bit-streams are structured into headers and fields. Building on work by Doenges et al. (2022), we present Octopus, a tool that translates P4 packet parsers into automata and then attempts to (symbolically) check their equivalence. Octopus produces evidence, either in the form of a bisimulation demonstrating equivalence, or a counterexample bit-stream witnessing a behavioral difference between the two parsers. In contrast with earlier work, our tool can check equivalence between non-trivial parsers within minutes, on consumer hardware. We report on the tool's implementation and evaluate its usability in networking contexts.",
+    "title_zh": "Octopus：P4数据包解析器的实用等价性检查",
+    "abstract_zh": "P4是一种用于编程协议无关数据包处理器的领域特定语言，其中数据包解析器描述传入的比特流如何被结构化为头部和字段。基于Doenges等人（2022）的工作，我们提出了Octopus，一种将P4数据包解析器转换为自动机，然后尝试（符号化地）检查其等价性的工具。Octopus产生证据，要么以证明等价性的双模拟形式，要么以证明两个解析器之间行为差异的反例比特流形式。与早期工作相比，我们的工具可以在消费级硬件上几分钟内检查非平凡解析器之间的等价性。我们报告了该工具的实现，并评估其在网络环境中的可用性。"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "Coding Agents as Test-Suite Auditors: Finding What Official Suites Miss While Approaching What They Catch",
+    "authors": "Shuyang Xie, Shuxiao Xie, Feng Zhu, Yanli Ji, Wangmeng Zuo",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.01715v1",
+    "source": "arXiv",
+    "abstract": "Online-judge verdicts and the datasets and benchmarks built on them are treated as ground truth for evaluating and training large language models for code. Yet prior audits have sounded a warning: official suites accept buggy submissions. These audits, however, stop at the warning and offer no practical remedy. Our remedy has two parts: an off-the-shelf coding agent, serving as a test-suite auditor, both builds adversarial test suites to expose what official suites miss and supplies these suites where no official suite exists; a certification chain determines whether each agent-flagged submission is genuinely buggy without relying on the official judge: multiple independently written accepted solutions agree on the expected output for every test, brute-force solutions settle disagreements, and a per-problem validator certifies each failing input legal. One such agent identifies 589 verified accepted-but-buggy submissions among AtCoder's 20,375 audited accepted submissions; extending the same certification to all five agents yields a union floor of 906 such submissions. Five agents, scored separately, each stay within 1.7pp of official-suite coverage on logic bugs those suites catch. On post-cutoff Codeforces problems with no available official suites, the same test-building method leads all five reproduced baselines at every tested input budget. Where an official suite exists, the agent audits suite adequacy instead of assuming it; where none exists, agent suites catch the most buggy submissions among methods we reproduced and tested.",
+    "title_zh": "编码智能体作为测试套件审计者：发现官方套件遗漏之处，同时逼近其捕获能力",
+    "abstract_zh": "在线评测系统的评判结果，以及基于这些评判结果构建的数据集和基准，被当作评估和训练面向代码的大型语言模型的“金标准”。然而，之前的审计工作已经发出警告：官方测试集会接受有 bug 的提交。但这些审计止步于警告，并未提供切实可行的补救措施。我们的补救方案包含两部分：一是使用一个现成的编码智能体作为测试套件审计器，既能构建对抗性测试集来暴露官方测试集遗漏的问题，也能在不存在官方测试集的地方提供测试集；二是一条认证链，在不依赖官方评测系统的情况下判断每个被智能体标记的提交是否确实有 bug：多个独立编写的通过解法在每个测试上都对预期输出达成一致，暴力解法解决分歧，并且每个问题配有验证器，证明每个导致失败的输入都是合法的。这样一个智能体在 AtCoder 的 20,375 个被审计的通过提交中，识别出 589 个经证实的“通过但有 bug”的提交；将相同的认证扩展到全部五个智能体后，得到此类提交的并集下限为 906 个。五个智能体分别评分时，在官方测试集能捕获的逻辑 bug 覆盖率上，每个都与官方测试集相差不超过 1.7 个百分点。在没有可用官方测试集的截止日期后 Codeforces 问题上，相同的测试构建方法在所有测试过的输入预算下都领先我们复现的所有五个基线。在存在官方测试集的地方，智能体会审计测试集的充分性，而不是直接假定其充分；在不存在官方测试集的地方，智能体生成的测试集在我们复现并测试的方法中捕获了最多的有 bug 提交。"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "Understanding and Detecting Android R8 Compiler Bugs",
+    "authors": "Zifan Xie, Ming Wen, Shiyu Qiu, Maolin Sun, Hai Jin",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3837762",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "理解并检测Android R8编译器缺陷",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "Fully Automated, Scalable and Robust Generation of Testbenches for Simulation and Optimization of Amplifier Circuits",
+    "authors": "Markus Leibl, Filipe Azevedo, Helmut Graeb, Ricardo Martins",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3719421",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向放大器电路仿真与优化的全自动、可扩展且鲁棒的测试平台生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "UPDFuzz: A UEFI Protocol Directed Fuzzer based on High-fidelity Environment Reconstruction",
+    "authors": "Yilin Zhou, Kai Liu, Xiuzhang Yang, Sangsha Fang, Jianming Fu, Guojun Peng",
+    "publish": "IEEE Internet of Things Journal",
+    "url": "https://doi.org/10.1109/jiot.2026.3719687",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "UPDFuzz：基于高保真环境重构的UEFI协议定向模糊测试工具",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "A Clone Selection-Based Algorithm for Railway Control Systems Checking Sequence Generation",
+    "authors": "Yuchu Liao, Li He, Krishnan Guruvayur Venkateswaran, Yingcen Tee, Nicolas Dumler, Dimantha Gunawardana, Lei Chen",
+    "publish": "IEEE Transactions on Intelligent Transportation Systems",
+    "url": "https://doi.org/10.1109/tits.2026.3678428",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种基于克隆选择算法的铁路控制系统检查序列生成方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "Fuzzifying the Operational Design Domain: A Scalable Situation Hyperspace Generation",
+    "authors": "Nawshin Mannan Proma, Hasan Bin Firoz, Colin Paterson, Richard Hawkins, Victoria Hodge, Rob Alexander",
+    "publish": "2026 IEEE International Conference on Fuzzy Systems (FUZZ-IEEE)",
+    "url": "https://doi.org/10.1109/fuzz69877.2026.11626420",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "模糊化运行设计域：一种可扩展的态势超空间生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "TAIC PART Collaborators",
+    "authors": "N/A",
+    "publish": "Testing: Academic &amp; Industrial Conference - Practice And Research Techniques (TAIC PART'06)",
+    "url": "https://doi.org/10.1109/ieeeconf12058.2006.1691661",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "TAIC PART 合作伙伴",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "A Survey of Intelligent Testing Technologies for Aerospace Applications",
+    "authors": "Tianzhe Qi, Yiwen Wang",
+    "publish": "2026 12th International Symposium on System Security, Safety, and Reliability (ISSSR)",
+    "url": "https://doi.org/10.1109/isssr69973.2026.00021",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "航空航天应用智能测试技术综述",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "Formal Verification of Quantum Arithmetic Circuits in Maude",
+    "authors": "Naoto Sato, Tsubasa Takagi",
+    "publish": "2026 12th International Symposium on System Security, Safety, and Reliability (ISSSR)",
+    "url": "https://doi.org/10.1109/isssr69973.2026.00019",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Maude中的量子算术电路形式化验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "ADTest: Leveraging Large Language Models and Scenario Prediction for Efficient and Rational Adversarial Testing of Autonomous Driving",
+    "authors": "Yukuan Yang, Zepeng Wu, Lina Lai, Qian Dong, Lingzhong Meng",
+    "publish": "2026 12th International Symposium on System Security, Safety, and Reliability (ISSSR)",
+    "url": "https://doi.org/10.1109/isssr69973.2026.00020",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "ADTest：利用大语言模型与场景预测实现自动驾驶的高效合理对抗性测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-3",
+    "title": "Using Ontologies for Testing",
+    "authors": "Franz Wotawa",
+    "publish": "2026 12th International Symposium on System Security, Safety, and Reliability (ISSSR)",
+    "url": "https://doi.org/10.1109/isssr69973.2026.00011",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "利用本体进行测试",
+    "abstract_zh": "None"
+  }
+]
