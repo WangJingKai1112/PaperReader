@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2026-08-04",
+    "title": "From Bug Reports to Browser-Executable Procedures: An LLM-Driven Agent for Web GUI Bug Reproduction",
+    "authors": "Cunming Zhang, Yu Pei, Michail Papadakis",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.03598v1",
+    "source": "arXiv",
+    "abstract": "Reproducing web GUI bugs from natural-language bug reports is critical for software maintenance, but remains difficult because reports often lack prerequisites such as dependencies and input files. Existing bug reproduction techniques mainly target code units or mobile applications and lack end-to-end visual execution and validation for web GUIs. We present ReBug, a context-aware agent system that reconstructs, executes, and validates browser-level reproduction procedures from web GUI bug reports by driving a real browser. ReBug separates reproduction into two stages. In the preparation stage, ReBug reconstructs missing prerequisites from the report and available artifacts, and it produces a high-level reproduction plan. In the execution stage, it performs tool-mediated interactions in the browser, maintains structured summaries of page state and action history, and validates the final state against expectations derived from the report. We evaluate ReBug on 667 real-world bug reports from four open-source web applications. On controlled current deployments, ReBug outperforms both baselines, achieving an average RSR of 49.96%, a mean task completion rate of 74.96%, and a mean action execution success rate of 86.54%. Our results show that explicit context reconstruction and state-aware browser execution effectively support report-derived browser reproduction, while historical replay shows that successful procedures often expose the original bug-present behavior on restored buggy versions.",
+    "title_zh": "从缺陷报告到浏览器可执行流程：用于Web GUI缺陷复现的LLM驱动智能体",
+    "abstract_zh": "从自然语言缺陷报告中复现Web GUI缺陷对软件维护至关重要，但由于报告往往缺少依赖项和输入文件等前提条件，这一任务仍具挑战性。现有的缺陷复现技术主要针对代码单元或移动应用，缺乏对Web GUI的端到端可视化执行与验证。我们提出了ReBug——一种上下文感知的智能体系统，通过驱动真实浏览器，从Web GUI缺陷报告中重建、执行并验证浏览器级别的复现流程。ReBug将复现分为两个阶段：在准备阶段，ReBug从报告和现有工件中重建缺失的前提条件，并生成高层级的复现计划；在执行阶段，它在浏览器中执行工具介导的交互，维护页面状态和操作历史的结构化摘要，并根据报告推导出的预期结果验证最终状态。我们在来自四个开源Web应用的667个真实缺陷报告上评估了ReBug。在受控的当前部署环境中，ReBug优于两个基线，平均RSR（重现成功率）达到49.96%，平均任务完成率为74.96%，平均操作执行成功率为86.54%。我们的结果表明，显式的上下文重建和状态感知的浏览器执行能有效支持基于报告的浏览器复现，而历史回放则表明，成功的复现流程往往能在恢复的缺陷版本上暴露出原始的缺陷行为。"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "Adversarial Stress Testing of Role-Playing Language Agents using Multi-Agent Evaluation",
+    "authors": "Saqib Shouqi, Abdullah Nazly, Januki Wanniarachchi, Ravisha De Alwis",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.03166v1",
+    "source": "arXiv",
+    "abstract": "Role-Playing Language Agents (RPLAs) are increasingly deployed in high-stakes applications such as healthcare assistance, customer support, and education, where maintaining consistent personas, ethical constraints, and behavioral coherence under adversarial pressure is critical. Existing evaluation approaches rely on static benchmarks or isolated single-turn prompts that fail to capture cumulative behavioral failures emerging over extended interactions. We present a modular multi-agent platform for adversarially stress-testing RPLAs through structured, multi-turn dialogue. The system coordinates three agents: a strategy-driven Interrogator Agent that applies six progressive adversarial strategies, a Target Agent representing the RPLA under evaluation, and an automated Judging Agent that scores behavior across role fidelity, drift, ethical deviation, and consistency dimensions. Through experiments across three personas and three LLM families, we demonstrate that multi-strategy adversarial evaluation reveals failure modes invisible to single-strategy testing, reducing overall robustness scores by 0.17--0.20 points on average. Cross-model validation confirms consistent degradation patterns across Llama-3.3-70B, GPT-4o-mini, and Claude-3.5-Haiku, with Authority Challenge and Emotional Manipulation emerging as the most effective attack strategies. Automated judging achieves strong human alignment ($r = 0.82$, Fleiss' $κ= 0.71$). This work is released as an open-source platform to support AI safety and reproducible RPLA benchmarking. While the framework enables systematic discovery of failure modes, we acknowledge potential ethical risks associated with adversarial testing methodologies and emphasize responsible usage for improving AI safety.",
+    "title_zh": "基于多智能体评估的角色扮演语言智能体对抗性压力测试",
+    "abstract_zh": "角色扮演语言智能体（RPLAs）越来越多地部署在高风险应用中，如医疗辅助、客户支持和教育，在这些场景中，保持一致的角色设定、伦理约束以及在对抗性压力下的行为连贯性至关重要。现有的评估方法依赖于静态基准或孤立的单轮提示，无法捕捉在扩展交互中出现的累积性行为失败。我们提出了一个模块化的多智能体平台，通过结构化的多轮对话对RPLAs进行对抗性压力测试。该系统协调三个智能体：一个策略驱动的质询者智能体，应用六种渐进式对抗策略；一个目标智能体，代表被评估的RPLA；以及一个自动化评判智能体，在角色保真度、漂移、伦理偏离和一致性维度上对行为进行评分。通过在三个角色和三个LLM系列上的实验，我们证明多策略对抗性评估能够揭示单策略测试无法发现的失败模式，使整体鲁棒性评分平均降低0.17–0.20分。跨模型验证确认了Llama-3.3-70B、GPT-4o-mini和Claude-3.5-Haiku之间一致的退化模式，其中权威挑战和情感操控是最有效的攻击策略。自动化评判实现了与人类的高度一致性（r = 0.82，Fleiss' κ = 0.71）。本工作以开源平台形式发布，以支持AI安全和可复现的RPLA基准测试。虽然该框架能够系统地发现失败模式，但我们承认对抗性测试方法可能带来的伦理风险，并强调应负责任地使用以改善AI安全。"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "DiffPower: GPU-Accelerated Differentiable Switching Power Analysis and Optimization",
+    "authors": "Isaac Jacobson, Zheng Zhao, Rashmi Mehrotra, Guanglei Zhou, Vineet Rashingkar, Yiran Chen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.03778v1",
+    "source": "arXiv",
+    "abstract": "Accurate and scalable switching power analysis remains a critical bottleneck in modern physical design, often forcing a trade-off between computational speed and modeling fidelity. We present DiffPower, a GPU-accelerated framework for differentiable power analysis and optimization. DiffPower translates design netlists into a PDK-agnostic bytecode representation, enabling analytical gradient computation via reverse-mode automatic differentiation, achieving up to a $1{,}002\\times$ speedup over single-threaded CPU propagation on the largest evaluated design, with the GPU advantage growing with design scale. A hybrid propagation methodology fusing analytical modeling with parallel simulation achieves a median toggle-rate correlation of $r{=}0.96$ across ten industrial and benchmark designs. The resulting \\emph{power gradients}, computed up to $904\\times$ faster than CPU finite-difference methods with near-perfect rank agreement, enable two downstream applications: (1) gradient-weighted cell sizing, which achieves up to $2.98\\times$ improvement over local-power heuristics on industrial designs, with even stronger advantages at the 117K-cell scale where competing methods plateau; and (2) power virus generation via gradient ascent, which yields up to $2.13\\times$ higher transition-weighted power, replacing a search process that traditionally requires hours.",
+    "title_zh": "DiffPower：GPU加速的可微分开关功耗分析与优化",
+    "abstract_zh": "准确且可扩展的开关功耗分析仍是现代物理设计中的关键瓶颈，通常需要在计算速度与建模保真度之间进行权衡。我们提出了DiffPower——一个用于可微分功耗分析与优化的GPU加速框架。DiffPower将设计网表转换为与PDK无关的字节码表示，通过反向模式自动微分实现解析梯度计算，在最大评估设计上相比单线程CPU传播实现了高达1002倍的加速，且GPU优势随设计规模增长而扩大。一种融合解析建模与并行仿真的混合传播方法，在十个工业与基准设计上实现了中位翻转率相关性r=0.96。由此得到的功率梯度，其计算速度比CPU有限差分方法快达904倍，且具有近乎完美的秩一致性，从而支撑两个下游应用：（1）梯度加权单元尺寸调整，在工业设计上相比局部功耗启发式算法实现了最高2.98倍的改进，在竞争方法陷入停滞的117K单元规模下优势更为显著；（2）通过梯度上升生成功率病毒，产生的翻转加权功耗最高提升2.13倍，取代了传统上需要数小时的搜索过程。"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "The Frontier LLM Trap in Network Automation",
+    "authors": "Minhao Jin, Sean Wang, Aarti Gupta, Maria Apostolaki",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.03080v1",
+    "source": "arXiv",
+    "abstract": "Large LLMs are powerful tools for network automation, but they are expensive, slow to serve, hard to audit, poorly tailored to individual networks, and create long-term dependencies on a small number of AI providers. Existing alternatives fall short: small open-source models are cheaper but unreliable, while deterministic scripts and verification are controllable but hard to build and maintain. We propose a middle ground. An offline loop composed of fuzzing and validation discovers the recurring mistakes small models make, then resulting networking knowledge is expressed as explicit logic rules. In production, these rules guide a small model on tasks such as configuration translation, yielding automation that is cheaper, lower-latency, auditable, and easier to adapt to a specific network. More critically, network knowledge and operational experience stay and are accumulated where they belong, the network itself, not a rented service.",
+    "title_zh": "网络自动化中的前沿大语言模型陷阱",
+    "abstract_zh": "大型LLM是网络自动化的强大工具，但它们成本高昂、服务响应慢、难以审计、难以针对特定网络进行定制，并且会对少数AI提供商产生长期依赖。现有的替代方案也存在不足：小型开源模型更便宜但可靠性差，而确定性脚本和验证虽然可控，却难以构建和维护。我们提出一种折中方案。通过由模糊测试和验证组成的离线循环，发现小模型反复出现的错误，再将由此获得的网络知识表达为显式逻辑规则。在生产环境中，这些规则引导小模型完成配置翻译等任务，从而实现更便宜、延迟更低、可审计且更易于适配特定网络的自动化。更为关键的是，网络知识和运维经验得以留存并积累在它们本就该归属的地方——网络本身，而非租用的服务。"
+  },
+  {
+    "date": "2026-8-4",
+    "title": "Interpretable GNNs for Fault Detection in Circuits",
+    "authors": "Rupesh Raj Karn, Johann Knechtel, Ozgur Sinanoglu",
+    "publish": "2026 IEEE 32nd International Symposium on On-Line Testing and Robust System Design (IOLTS)",
+    "url": "https://doi.org/10.1109/iolts69666.2026.11633627",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "可解释的图神经网络在电路故障检测中的应用",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-4",
+    "title": "SSBench: Automated Characterization of Memory Dependence Predictors on Modern CPUs",
+    "authors": "Chang Liu, Yu Jin, Yuchen Fan, Tianrui Xiao, Lingfeng Yin, Trevor E. Carlson, Shuwen Deng, Dongsheng Wang",
+    "publish": "2026 ACM/IEEE 53rd Annual International Symposium on Computer Architecture (ISCA)",
+    "url": "https://doi.org/10.1109/isca66397.2026.00127",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "SSBench：现代CPU上内存依赖预测器的自动化特性描述",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-4",
+    "title": "Helium: Quantifying Microarchitectural Side-Channel Leakage with Probabilistic Guarantees",
+    "authors": "Samantha Archer, Mohammad Rahmani Fadiheh, Caroline Trippel",
+    "publish": "2026 ACM/IEEE 53rd Annual International Symposium on Computer Architecture (ISCA)",
+    "url": "https://doi.org/10.1109/isca66397.2026.00045",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Helium：以概率保证量化微架构侧信道泄露",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-4",
+    "title": "QED: Scalable Consistency Verification of Memory Instruction Reordering in Hardware",
+    "authors": "Gokulan Ravi, Xiaokang Qiu, Mithuna Thottethodi, T. N. Vijaykumar",
+    "publish": "2026 ACM/IEEE 53rd Annual International Symposium on Computer Architecture (ISCA)",
+    "url": "https://doi.org/10.1109/isca66397.2026.00156",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "QED：硬件中内存指令重排序的可扩展一致性验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-4",
+    "title": "2026 IEEE 32nd International Symposium on On-Line Testing and Robust System Design (IOLTS)",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/iolts69666.2026",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "2026年IEEE第32届国际在线测试与鲁棒系统设计研讨会（IOLTS）",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-4",
+    "title": "Evaluation of FPGA Delay Injection Mechanisms for Small Delay Fault Analysis",
+    "authors": "Tijmen T. Smit, David Postema, Pieter Paasman, Marco Ottavi",
+    "publish": "2026 IEEE 32nd International Symposium on On-Line Testing and Robust System Design (IOLTS)",
+    "url": "https://doi.org/10.1109/iolts69666.2026.11633697",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向小延迟故障分析的FPGA延迟注入机制评估",
+    "abstract_zh": "None"
+  }
+]
