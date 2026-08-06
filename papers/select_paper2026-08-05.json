@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-08-05",
+    "title": "ExeCRE: Execution-Consistency Guided Reliability Estimation for Self-Correcting Code Generation",
+    "authors": "Yiru Dong, Richong Zhang, Fanshuang Kong, Si Chen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.04439v1",
+    "source": "arXiv",
+    "abstract": "Large language models (LLMs) have made notable progress in code generation, but they still struggle on challenging tasks that require sophisticated algorithms or complex implementations. Recent methods increasingly use code execution as feedback, especially in self-correction pipelines that construct verification signals from generated code. However, these pipelines often depend on supervision signals whose reliability is unknown, which can introduce misleading feedback, unnecessary revisions, and incorrect final answers. To address this issue, we propose ExeCRE, an Execution-Consistency guided code Reliability Estimation framework. Instead of judging candidate code by tests or LLM feedback, ExeCRE estimates code reliability by statistically analyzing consistency patterns in execution outputs over a large number of randomly generated inputs. It collects execution outputs over generated inputs, projects them into consistency signals, and applies the Dawid-Skene model to infer latent code reliability. We integrate ExeCRE into self-correction for code generation. Experiments show that ExeCRE consistently improves both effectiveness and stability, while substantially reducing misleading correction signals. Under GPT-5.2 on LiveCodeBench, the average number of misleading feedback cases on already correct code drops from 113.2 with a representative self-correction baseline to 14.0 with ExeCRE. As an additional study, we apply the same reliability estimation strategy to code-based mathematical reasoning and observe similar benefits. These results suggest that ExeCRE enables more reliable use of generated code in execution-based pipelines.",
+    "title_zh": "ExeCRE：执行一致性引导的自校正代码生成可靠性评估",
+    "abstract_zh": "大语言模型（LLMs）在代码生成方面取得了显著进展，但在需要复杂算法或复杂实现的高难度任务上仍然表现不佳。近期方法越来越多地将代码执行作为反馈，尤其是在自校正流程中，通过生成的代码构建验证信号。然而，这些流程往往依赖于可靠性未知的监督信号，这可能引入误导性反馈、不必要的修改以及错误的最终答案。为解决这一问题，我们提出了ExeCRE——一种执行一致性引导的代码可靠性估计框架。ExeCRE不通过测试或LLM反馈来评判候选代码，而是通过对大量随机生成的输入上的执行输出进行统计分析来估计代码可靠性。它收集生成输入上的执行输出，将其投影为一致性信号，并应用Dawid-Skene模型推断潜在代码可靠性。我们将ExeCRE集成到代码生成的自校正中。实验表明，ExeCRE一致地提升了有效性和稳定性，同时大幅减少了误导性修正信号。在LiveCodeBench上使用GPT-5.2时，对于已正确代码的平均误导性反馈案例数从代表性自校正基线的113.2降至ExeCRE的14.0。作为额外研究，我们将相同的可靠性估计策略应用于基于代码的数学推理，并观察到类似的益处。这些结果表明，ExeCRE使得在基于执行的流程中更可靠地使用生成的代码成为可能。"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities in Verilog Designs",
+    "authors": "Ethen Santana, Gabriel Gyaase, Hao Zheng",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.04907v1",
+    "source": "arXiv",
+    "abstract": "Hardware designs, like software, are susceptible to bugs that can introduce security vulnerabilities and create opportunities for malicious exploitation. Unlike software vulnerabilities, however, hardware flaws become permanently embedded in silicon after fabrication, making them difficult or impossible to patch. Many of these weaknesses are categorized under the Common Weakness Enumeration (CWE) framework and include improper access control, exposure of sensitive information, and unintended privilege escalation. To improve the detection of such vulnerabilities, we propose a methodology that leverages a Large Language Model (LLM) to identify potential hardware CWEs directly from hardware designs in Verilog. The proposed approach is evaluated iteratively on a dataset of single-module Verilog designs to assess its effectiveness in detecting hardware security weaknesses. Our results demonstrate the potential of LLMs to augment traditional hardware security analysis by providing automated, scalable assistance for identifying security vulnerabilities during the hardware design process.",
+    "title_zh": "LLM辅助的Verilog设计硬件安全漏洞检测与修复",
+    "abstract_zh": "硬件设计与软件一样，容易受到缺陷的影响，这些缺陷可能引入安全漏洞，并为恶意利用创造机会。然而，与软件漏洞不同，硬件缺陷在制造后会永久嵌入硅片中，使其难以甚至无法修补。这些弱点中的许多被归类在通用缺陷枚举（CWE）框架下，包括不当的访问控制、敏感信息泄露以及非预期的权限提升。为了改进此类漏洞的检测，我们提出了一种方法，利用大语言模型（LLM）直接从Verilog硬件设计中识别潜在的硬件CWE。该方法在单模块Verilog设计数据集上进行了迭代评估，以检验其在检测硬件安全弱点方面的有效性。我们的结果表明，LLM有潜力通过提供自动化、可扩展的辅助手段，在硬件设计过程中识别安全漏洞，从而增强传统硬件安全分析。"
+  },
+  {
+    "date": "2026-8-5",
+    "title": "Automating Situational Judgment Tests from Likert Scales: A Multi-Agent LLM Framework for Literacy Assessment_supp1-3720406.docx",
+    "authors": "Fucheng Guo",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tlt.2026.3720406/mm1",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "将 Likert 量表的情境判断测试自动化：一种用于素养评估的多智能体 LLM 框架_supp1-3720406.docx",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-5",
+    "title": "Industry Corner Live With STIMIT CEO Ronja Mueller",
+    "authors": "Chad Andresen",
+    "publish": "IEEE Pulse",
+    "url": "https://doi.org/10.1109/mpuls.2026.3700213",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Industry Corner 直播：STIMIT 首席执行官 Ronja Mueller 专访",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-5",
+    "title": "Penetration Testing of XSS Attack with Damn Vulnerable Web Application",
+    "authors": "Mariyana Dimitrova, Ivan Ivanov",
+    "publish": "2026 61st International Scientific Conference on Information, Communication and Energy Systems and Technologies (ICEST)",
+    "url": "https://doi.org/10.1109/icest71230.2026.11623594",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "使用Damn Vulnerable Web Application进行XSS攻击的渗透测试",
+    "abstract_zh": "None"
+  }
+]
