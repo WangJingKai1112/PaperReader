@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-8-6",
+    "title": "HG-Probe: A Safety-Bounded Evidence Layer for LLM-Guided Web/API Security Testing",
+    "authors": "Jimin Yang",
+    "publish": "2026 Seventeenth International Conference on Ubiquitous and Future Networks (ICUFN)",
+    "url": "https://doi.org/10.1109/icufn69619.2026.11628084",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "HG-Probe：一种安全受限的LLM引导Web/API安全测试证据层",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-6",
+    "title": "CluBS: Clustering Behavioural Similarity",
+    "authors": "Peter Zdankin, Arne Kummerow, Torben Weis",
+    "publish": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "url": "https://doi.org/10.1145/3770855.3817875",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "CluBS：聚类行为相似性",
+    "abstract_zh": "无"
+  }
+]
