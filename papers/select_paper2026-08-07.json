@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-8-7",
+    "title": "Input-Complete Finite State Machines with Explicit Failure States: A Verification-Oriented Approach for ROPS Control Systems\n                    <sup>*</sup>",
+    "authors": "Del Prete Ernesto, Gattamelata Davide, Puri Daniele, Vita Leonardo, Failla Francesco, Pera Fabio",
+    "publish": "2026 12th International Conference on Control, Decision and Information Technologies (CoDIT)",
+    "url": "https://doi.org/10.1109/codit70676.2026.11631062",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "输入完备的带显式故障状态的有限状态机：一种面向ROPS控制系统验证的方法<sup>*</sup>",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-7",
+    "title": "A Hybrid Machine Learning Approach for Scalable VLSI Testing",
+    "authors": "Mamatha Kancharla, KNiranjan Reddy, RadhaKrishna Karne, B RaviKumar, L Suneel",
+    "publish": "2026 IEEE Global Symposium on Emerging and Communication Technologies (GSEACT)",
+    "url": "https://doi.org/10.1109/gseact68539.2026.11620178",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种用于可扩展超大规模集成电路测试的混合机器学习方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-7",
+    "title": "Towards Quantum Program Bug Datasets and Benchmarking",
+    "authors": "Tingting Li, Jiongchi Yu, Zhikang Fan, Junqing Wang, Yao Zhai, Shenglong Zhang, Yu Peng, Yuhan Chen, Junyu Chen, Fanqi Kong, Zhaoxuan Li, Xiaofei Yue, Ziming Zhao, Jianwei Yin",
+    "publish": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+    "url": "https://doi.org/10.1145/3770855.3817560",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向量子程序缺陷数据集与基准测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-8-7",
+    "title": "Cover 3",
+    "authors": "N/A",
+    "publish": "IEEE Spectrum",
+    "url": "https://doi.org/10.1109/mspec.2026.11644895",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "三分区防守（Cover 3，美式橄榄球中一种区域防守战术，指后场分为三个深区进行防守）",
+    "abstract_zh": "None"
+  }
+]
