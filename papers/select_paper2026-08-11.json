@@ -1,0 +1,123 @@
+[
+  {
+    "date": "2026-8-11",
+    "title": "HMM-Based Framework for Proactive Web Application Vulnerability Detection",
+    "authors": "A. Moshika, N. Poongavanam, Gnanajeyaraman Rajaram",
+    "publish": "2026 11th International Conference on Applying New Technology in Green Buildings (ATiGB)",
+    "url": "https://doi.org/10.1109/atigb70203.2026.11628445",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于HMM的主动式Web应用漏洞检测框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-11",
+    "title": "Fabric-Native Hardware Assurance for AI Infrastructure",
+    "authors": "Franck Courbon, Tristan Martin",
+    "publish": "Proceedings of the ACM SIGCOMM 2026 Conference",
+    "url": "https://doi.org/10.1145/3789240.3829349",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向AI基础设施的架构原生硬件保障",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-8-11",
+    "title": "Design and Implementation of a Self-Closed-Loop Stimulus-Response Test System for Unknown Circuits with Circuit Classification",
+    "authors": "Jing Ma, Li Zhang, Gang Zhou, Jiong Zheng, Guohong Zheng",
+    "publish": "2026 IEEE 27th China Conference on System Simulation Technology and its Applications (CCSSTA)",
+    "url": "https://doi.org/10.1109/ccssta69471.2026.11635360",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "带电路分类功能的未知电路自闭环激励-响应测试系统的设计与实现",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-11",
+    "title": "Progressive Knowledge-Driven Defect Detection Based on Invariants",
+    "authors": "Semen Pobrodilin, Jakub Perdek",
+    "publish": "2026 Information Technology Scientific Research Conference (IIT.SRC)",
+    "url": "https://doi.org/10.1109/iit.src67760.2026.11628949",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "渐进式基于不变式的知识驱动缺陷检测",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-11",
+    "title": "IntentP4: Bridging P4 Temporal Specifications and Executable Network Tests",
+    "authors": "Ruonan Feng, Mingming Zhang, Yu Jiang, Shijie Gao, Yaping Liu, Shuo Zhang",
+    "publish": "Proceedings of the ACM SIGCOMM 2026 Conference",
+    "url": "https://doi.org/10.1145/3789240.3822363",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "IntentP4：桥接P4时间规范与可执行的网络测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-8-11",
+    "title": "A Large-Language-Model-Oriented Dual-Channel Agent Framework for Intelligent Generation of Simulation Scenarios",
+    "authors": "Lei Wang, Zhiqiang Fan, Yikang Song, Jinghua Zhang, Xiaoming Li, Xing Chen",
+    "publish": "2026 IEEE 27th China Conference on System Simulation Technology and its Applications (CCSSTA)",
+    "url": "https://doi.org/10.1109/ccssta69471.2026.11635569",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向大语言模型的双通道智能体框架，用于仿真场景的智能生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-11",
+    "title": "R2F: A Practical DRL Framework to Improve Fuzzing Scheduling Policy",
+    "authors": "Shaojie Yang, Shaojing Fu, Yongjun Wang, Haoran Xu, Yongxin Chen, Fangliang Xu",
+    "publish": "IEEE Transactions on Dependable and Secure Computing",
+    "url": "https://doi.org/10.1109/tdsc.2026.3722713",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "R2F：一种改进模糊测试调度策略的实用深度强化学习框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-11",
+    "title": "Research on an Integrated Verification System for Satellite Camera FPGA software",
+    "authors": "Qi Liu, Xinying Guo, Jingwei Chen, Shufang Geng",
+    "publish": "2026 8th International Conference on Electronic Engineering and Informatics (EEI)",
+    "url": "https://doi.org/10.1109/eei70303.2026.11640468",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "卫星相机FPGA软件一体化验证系统研究",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-11",
+    "title": "Energy Storage System Installation Game Between Conventional and Renewable Generators_supp1-3721861.docx",
+    "authors": "Zujun Ma",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tem.2026.3721861/mm1",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "传统与可再生能源发电机之间的储能系统安装博弈_supp1-3721861.docx",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-11",
+    "title": "VeriLucid: A Verification-aware Data-plane Programming Language",
+    "authors": "John Sonchack, Pamela Zave, Jennifer Rexford",
+    "publish": "Proceedings of the ACM SIGCOMM 2026 Conference",
+    "url": "https://doi.org/10.1145/3789240.3829171",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "VeriLucid：一种面向验证的数据平面编程语言",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-8-11",
+    "title": "MRPO: An Evolutionary Game-based Multiple Round Probabilistic Oracle for BIoV",
+    "authors": "Dengcheng Hu, Jianrong Wang, Yiwei Cai, Xiulong Liu, Hao Xu, Haipeng Yao, Bin Xiao, Liehuang Zhu, Wenyu Qu",
+    "publish": "IEEE Transactions on Mobile Computing",
+    "url": "https://doi.org/10.1109/tmc.2026.3722469",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "MRPO：面向BIoV的基于演化博弈的多轮概率预言机",
+    "abstract_zh": "None"
+  }
+]
