@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-08-12",
+    "title": "Video2Track: From Real-World Interaction Videos to Steerable Adversarial Closed-Track Testing for Automated Driving Systems",
+    "authors": "Mengjie Tian, Xinrui Zhang, Tianyu Li, Peizhi Zhang, Guirong Zhou, Haojie Feng, Junpeng Huang, Qixiang Zhang, Lu Xiong",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.11592v1",
+    "source": "arXiv",
+    "abstract": "Closed-track testing plays a fundamental role in the verification and validation of automated driving systems (ADS), particularly for safety-critical scenarios, by enabling reproducible evaluation under controlled conditions. However, most existing approaches still rely on standardized protocols or predefined trajectories, leading to overly scripted interactions and limited ability to reproduce the natural complexity of public-road traffic. To address this limitation, we propose Video2Track, a framework that transfers real-world interactive driving scenarios from videos into steerable adversarial closed-track testing. The framework consists of two tightly coupled modules. The first is a scenario semantic mapping module, which extracts structured semantics from driving videos using a vision-language model and grounds them onto a closed-track topology library via retrieval-augmented generation, thereby identifying compatible map segments and interaction anchors. The second is a dynamic interactive testing module, which conditions on the grounded topology and anchors to generate diverse multi-agent trajectories through a conditional diffusion model, while regulating interaction intensity via a Stackelberg game with a parameterized adversarial objective. Closed-track experiments demonstrate that the proposed framework can faithfully reproduce representative real-world interaction scenarios and generate executable scenario variants with controllable risk levels and interaction styles, providing a scalable approach for realistic and steerable ADS validation.",
+    "title_zh": "Video2Track：从真实世界交互视频到自动驾驶系统可操控的对抗性闭环赛道测试",
+    "abstract_zh": "封闭场地测试在自动驾驶系统（ADS）的验证与确认中发挥着基础性作用，尤其是在安全关键场景下，它能够在受控条件下实现可复现的评估。然而，现有方法大多仍依赖标准化协议或预设轨迹，导致交互过程过度脚本化，难以再现公共道路交通的自然复杂性。为解决这一局限，我们提出了 Video2Track，一个将真实世界交互驾驶场景从视频转化为可操控的对抗性封闭场地测试的框架。该框架由两个紧密耦合的模块组成。第一个是场景语义映射模块，它利用视觉-语言模型从驾驶视频中提取结构化语义，并通过检索增强生成将其映射到封闭场地拓扑库上，从而识别兼容的地图片段和交互锚点。第二个是动态交互测试模块，它以映射后的拓扑和锚点为条件，通过条件扩散模型生成多样化的多智能体轨迹，同时借助带参数化对抗目标的斯坦伯格博弈来调节交互强度。封闭场地实验表明，所提出的框架能够忠实复现具有代表性的真实世界交互场景，并生成具有可控风险水平和交互风格的可执行场景变体，为真实且可操控的ADS验证提供了一种可扩展的方法。"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "Testing Deep Learning Library APIs via Cross-Framework Differential Fuzzing",
+    "authors": "Bin Duan, Ruican Dong, Naipeng Dong, Dan Dongseong Kim, Guowei Yang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.11886v1",
+    "source": "arXiv",
+    "abstract": "Deep learning libraries underpin many safety- and reliability-critical applications, yet existing API-level testing techniques often rely on intra-library properties or CPU--GPU differential oracles and may miss defects that behave consistently across hardware backends. We present Xamt, a cross-framework differential fuzzing approach for deep learning library APIs. Xamt constructs and tests execution-validated groups of APIs intended to implement equivalent operations across seven libraries. It uses explicit API aliases and parameter-role normalization to construct candidate correspondences and validates them through pairwise execution and a group-level behavioral check on canonical ordinary inputs. The resulting groups are explored using variance-guided differential fuzzing with ordinary, boundary, and non-finite inputs. Crash and inconsistency oracles flag executions exhibiting abnormal termination or inconsistent outputs for subsequent reproduction and analysis. Across the seven libraries, Xamt constructs 676 execution-validated groups containing 2,563 matched APIs. Among these, Xamt identifies 72 independently reproduced discrepancy cases, including 4 crash cases and 68 output inconsistencies. Among the 72 developer reports, 25 have been confirmed, including 23 that have been fixed.",
+    "title_zh": "通过跨框架差分模糊测试深度学习库API",
+    "abstract_zh": "深度学习库支撑着许多安全关键型和可靠性关键型应用，然而现有的API级测试技术通常依赖库内属性或CPU-GPU差分预言，可能会遗漏那些在不同硬件后端上表现一致的缺陷。我们提出Xamt，一种面向深度学习库API的跨框架差分模糊测试方法。Xamt构建并测试跨七个库的、旨在实现等效操作的、经执行验证的API组。它利用显式API别名和参数角色规范化来构建候选对应关系，并通过成对执行以及在典型普通输入上的组级行为检查来验证这些关系。随后，使用方差引导的差分模糊测试，结合普通、边界和非有限输入，对生成的组进行探索。崩溃和不一致预言器会标记表现出异常终止或不一致输出的执行，以供后续复现和分析。在这七个库中，Xamt构建了676个经执行验证的组，包含2,563个匹配的API。其中，Xamt识别出72个独立复现的差异案例，包括4个崩溃案例和68个输出不一致。在72份开发者报告中，25份已获确认，其中23份已修复。"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "Inferring Empirical Sound Resource Bounds via Symbolic Execution and Linear Programming (Extended Version)",
+    "authors": "Samuel Frontull, Manuel Meitinger, Georg Moser",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.11833v1",
+    "source": "arXiv",
+    "abstract": "Existing approaches to resource analysis of programs can be classified into two main paradigms: static analysis and dynamic analysis methods. The former allow for formal guarantees but are inherently incomplete; the latter are widely applicable but may miss rare but characteristic (worst-case) scenarios and thus lack soundness. Hybrid approaches attempt to combine the strengths of both paradigms, thereby enabling the analysis of programs that are either too complex for purely static techniques or where dynamic approaches suffer from combinatorial explosion. In this paper, we present a novel hybrid approach that systematically derives upper bounds for the worst-case resource consumption of functional programs. Our method combines dynamic symbolic execution to exhaustively explore all possible computation paths within a constrained input space with mixed-integer linear programming to derive empirically sound upper bounds. We have implemented the methodology in a prototype tool, dubbed CompAS, which we made available on Zenodo.",
+    "title_zh": "基于符号执行与线性规划的实证可靠资源界限推断（扩展版）",
+    "abstract_zh": "现有的程序资源分析方法可分为两大范式：静态分析和动态分析方法。前者能够提供形式化保证，但本质上是不完备的；后者适用范围广泛，但可能遗漏罕见但具有代表性的（最坏情况）场景，因而缺乏可靠性。混合方法试图结合两种范式的优势，从而能够分析那些要么对纯静态技术来说过于复杂、要么动态方法会遭遇组合爆炸的程序。在本文中，我们提出了一种新颖的混合方法，系统性地推导函数式程序最坏情况资源消耗的上界。我们的方法将动态符号执行（用于在受限输入空间内穷尽探索所有可能的计算路径）与混合整数线性规划相结合，以推导出经验上可靠的上界。我们已在原型工具 CompAS 中实现了该方法，并将其发布在 Zenodo 上。"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "Harnessing LLMs for Document-Guided Fuzzing of Python Libraries",
+    "authors": "Bin Duan, Tarek Mahmud, Meiru Che, Yan Yan, Naipeng Dong, Dan Dongseong Kim, Guowei Yang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.11744v1",
+    "source": "arXiv",
+    "abstract": "Python libraries underpin deep learning, scientific computing, data analysis, and computer vision, making their reliability critical to downstream applications. Testing their APIs requires inputs that satisfy both per-parameter constraints and dependencies among parameters. Existing approaches either leave such constraints implicit in generated programs or rely on library-specific parsing rules. This paper introduces VistaFuzz, a document-guided fuzzing technique that uses a locally served open-sourced LLM to extract parameter specifications from API documents and generate inputs that satisfy both parameter constraints and inter-parameter dependencies. We evaluate VistaFuzz on 7,718 APIs across twelve Python libraries. Inter-parameter relationships occur in 40.1\\% of tested APIs, and disabling their resolution reduces the valid generation rate on those APIs from above 95\\% to 31.6\\%--52.8\\%. VistaFuzz reports 74 issues, of which 43 have been confirmed by developers and 29 have been fixed.",
+    "title_zh": "利用大语言模型对Python库进行文档引导的模糊测试",
+    "abstract_zh": "Python 库是深度学习、科学计算、数据分析和计算机视觉的基础，其可靠性对下游应用至关重要。测试这些库的 API 需要满足单个参数约束以及参数之间依赖关系的输入。现有方法要么在生成的程序中将此类约束隐式化，要么依赖特定于库的解析规则。本文介绍了 VistaFuzz，一种文档引导的模糊测试技术，它使用本地部署的开源大语言模型从 API 文档中提取参数规范，并生成同时满足参数约束和参数间依赖关系的输入。我们在十二个 Python 库的 7,718 个 API 上评估了 VistaFuzz。参数间关系出现在 40.1% 的被测 API 中，而禁用对这些关系的解析会使这些 API 的有效生成率从 95% 以上降至 31.6%–52.8%。VistaFuzz 报告了 74 个问题，其中 43 个已获开发者确认，29 个已修复。"
+  },
+  {
+    "date": "2026-8-12",
+    "title": "A Set-Theoretic Approach to Detecting Logic Bugs in DBMS Inner Join Optimizations",
+    "authors": "Ce Lyu, Changzheng Wei, Yanhao Wang, Jie Liang, Li Lin, Hanghang Wu, Minghao Zhao, Ying Yan, Aoying Zhou",
+    "publish": "2026 IEEE 42nd International Conference on Data Engineering (ICDE)",
+    "url": "https://doi.org/10.1109/icde65706.2026.00224",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种基于集合论的方法，用于检测数据库管理系统中内连接优化的逻辑缺陷",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-12",
+    "title": "Zigbee Network Communication Analysis and Security Vulnerability Evaluation",
+    "authors": "Xian Wang, Shuang Hao",
+    "publish": "IEEE Transactions on Reliability",
+    "url": "https://doi.org/10.1109/tr.2026.3723186",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Zigbee网络通信分析与安全漏洞评估",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-12",
+    "title": "Automatic Unit-Test Generation Based on Symbolic Execution",
+    "authors": "Tigran Avagyan, Hovhannes Movsisyan, Hayk Aslanyan",
+    "publish": "2026 6th International Conference on Electrical, Computer and Energy Technologies (ICECET)",
+    "url": "https://doi.org/10.1109/icecet65726.2026.11632856",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于符号执行的自动化单元测试生成",
+    "abstract_zh": "None"
+  }
+]
