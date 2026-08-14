@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-8-13",
+    "title": "A Genetic Algorithm for Output-Boundary Value Analysis",
+    "authors": "Byron DeVries, Erik M. Fredericks",
+    "publish": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+    "url": "https://doi.org/10.1145/3795101.3814649",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "一种用于输出边界值分析的遗传算法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-13",
+    "title": "SEPIV-IDS: A Structured Evaluation Pipeline for In-Vehicle Intrusion Detection Systems",
+    "authors": "Lucas Melo da Silva Alves, Alexandre dos Santos Roque, Edison Pignaton de Freitas",
+    "publish": "2026 International Conference on Computer, Information and Telecommunication Systems (CITS)",
+    "url": "https://doi.org/10.1109/cits70307.2026.11637341",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "SEPIV-IDS：车载入侵检测系统的结构化评估流水线",
+    "abstract_zh": "None"
+  }
+]
