@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-8-14",
+    "title": "A RankNet-Inspired Surrogate-Assisted Hybrid Metaheuristic for Expensive Coverage Optimization_supp1-3716527.pdf",
+    "authors": "Chen Chen",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/tsmc.2026.3716527/mm1",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向昂贵覆盖优化的受RankNet启发的代理辅助混合元启发式算法_补充材料1-3716527.pdf",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-14",
+    "title": "Efficient Input Minimization for Kernel Fuzzing via Relation- and Type-Guided Optimization",
+    "authors": "Hui Guo, Hao Sun, Huang Shan, Ting Su, Geguang Pu, Shaohua Li",
+    "publish": "ACM Transactions on Computer Systems",
+    "url": "https://doi.org/10.1145/3840388",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于关系和类型引导优化的内核模糊测试高效输入最小化",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-8-14",
+    "title": "A Bridge IC With Programmable DQS/WCK Pattern Generation and RDQS Error Detection for Next-Generation Mobile Memory Interface Testing",
+    "authors": "Jaekwang Yun, Chan-Ho Kye",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3723799",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种用于下一代移动内存接口测试的、具有可编程DQS/WCK模式生成与RDQS错误检测功能的桥接IC",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-14",
+    "title": "AI-Assisted Test Case Generation and Management System",
+    "authors": "Diana Julie D, Thanigasri S, Nakshathra T, Rasiq Fareeth S",
+    "publish": "2026 4th International Conference on Sustainable Computing and Smart Systems (ICSCSS)",
+    "url": "https://doi.org/10.1109/icscss69635.2026.11645931",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "AI辅助测试用例生成与管理系统",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-14",
+    "title": "Design and Verification of AXI Arbiter",
+    "authors": "Anushri Laxmeshwar, Gayathri R. Bhat, Bhagyashree Babshetty, Prajna. K B",
+    "publish": "2026 5th International Conference on Distributed Computing and Electrical Circuits and Electronics (ICDCECE)",
+    "url": "https://doi.org/10.1109/icdcece68961.2026.11645615",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "AXI仲裁器的设计与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-14",
+    "title": "Pynguin-MVP: Automated Test Generation for Lightweight Architectural Validation",
+    "authors": "Anuja Sawant, Muhammad Abdul Basit Ur Rahim",
+    "publish": "2026 IEEE 23rd International Conference on Software Architecture Companion (ICSA-C)",
+    "url": "https://doi.org/10.1109/icsa-c68850.2026.00080",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Pynguin-MVP：用于轻量级架构验证的自动化测试生成",
+    "abstract_zh": "None"
+  }
+]
