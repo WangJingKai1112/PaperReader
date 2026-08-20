@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-08-19",
+    "title": "Code Health in LLM-Based Test Generation: Effectiveness and Token Efficiency",
+    "authors": "Freya Wirdemann, Markus Borg, Nadim Hagatulah, Adam Tornhill",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.18645v1",
+    "source": "arXiv",
+    "abstract": "Coding agents powered by Large Language Models (LLMs) are now prominent in software engineering. Previous work has shown that AI tools perform better on high-quality source code that is easy to maintain. In this study, we investigate how the effectiveness of LLM-generated unit tests varies across maintainability levels measured by CodeScene's CodeHealth (CH). We assess test effectiveness using traditional coverage metrics and mutation score across Python, Java, and C++. Moreover, we study how code with different levels of CH translates into input tokens using common industrial tokenizers. Our results suggest that CH provides a weak but consistent signal of LLM-generated test effectiveness and is negatively correlated with input-token count. These findings provide further evidence for a relationship between maintainability and LLM-based software development.",
+    "title_zh": "代码健康度在基于LLM的测试生成中的有效性与令牌效率",
+    "abstract_zh": "由大型语言模型（LLMs）驱动的编码智能体如今在软件工程领域已十分突出。已有研究表明，AI工具在易于维护的高质量源代码上表现更好。在本研究中，我们探讨了由CodeScene的CodeHealth（CH）所衡量的可维护性水平如何影响LLM生成单元测试的有效性。我们使用传统覆盖率指标和变异得分来评估测试有效性，涵盖Python、Java和C++。此外，我们还研究了不同CH水平的代码如何通过常见工业分词器转换为输入token。我们的结果表明，CH为LLM生成的测试有效性提供了一个微弱但一致的信号，并且与输入token数量呈负相关。这些发现为进一步证明可维护性与基于LLM的软件开发之间的关系提供了证据。"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "OdinEval: A Reproducible Benchmark for LLM-Based Program Repair in the Odin Programming Language",
+    "authors": "Bang Xie, Hao Liu, Zhiyuan Peng, Xin Yin, Senjian Zhang, Yuan Luo, Chenhao Ying, Haiming Jin, Wei Chen, Shaocong Long, Zhenyu Shi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.18595v1",
+    "source": "arXiv",
+    "abstract": "Repository-level repair benchmarks still center on a few mainstream languages, leaving systems languages such as Odin largely untested. We present OdinEval, a reproducible benchmark built from documented defects in public Odin repositories. Each instance binds an issue to base and fix commits, a gold patch, an issue-specific regression test, a historical toolchain, and execution records. Admission requires the test to fail on the base revision and pass after the gold fix. When no usable developer test exists, a black-box test is reviewed independently by three instances of the same model, executed in both historical states, and revised from recorded feedback under a versioned Test Writing Skill. We evaluate six language models on 168 filtered instances under one shared protocol. Kimi-K3 records the highest Resolved score at 66.7%, while Qwen3.8-Max has the highest Repro score at 96.4%. The release includes frozen data, source archives, containers, validators, model patches, and audit manifests.",
+    "title_zh": "OdinEval：Odin编程语言中基于大语言模型的程序修复的可复现基准",
+    "abstract_zh": "现有的仓库级修复基准仍集中于少数主流语言，使得 Odin 等系统级语言在很大程度上未被测试。我们提出了 OdinEval，这是一个基于公共 Odin 仓库中记录在案的缺陷构建的可复现基准。每个实例将一个问题与基线提交和修复提交、黄金补丁、问题专属回归测试、历史工具链及执行记录绑定。准入要求为测试在基线版本上失败，并在黄金修复后通过。当没有可用的开发者测试时，黑盒测试由同一模型的三个实例独立审查，在两个历史状态下执行，并在版本化的测试编写技能指导下根据记录的反馈进行修订。我们在统一协议下，对 168 个经筛选的实例评估了六个语言模型。Kimi-K3 以 66.7% 的成绩获得了最高 Resolved 分数，而 Qwen3.8-Max 以 96.4% 的成绩获得了最高 Repro 分数。发布内容包括冻结数据、源代码归档、容器、验证器、模型补丁及审计清单。"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "Coverage-Driven RTL Assertion Generation with Formal Exploration and Neuro-Symbolic Refinement",
+    "authors": "Zhiyuan Yan, Ziyue Zheng, Hongce Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.18482v1",
+    "source": "arXiv",
+    "abstract": "Hardware functional verification relies on high-quality assertions to expose design bugs and establish confidence in Register Transfer Level (RTL) designs. Yet existing assertion mining methods still struggle to produce complete and reliable assertion sets: random or limited traces fail to cover hard-to-reach behaviors, and one-shot generation provides little feedback about what remains unverified or how the assertion set should be improved. As a result, critical design behaviors can remain uncovered even when many assertions are generated. We present NeuroAssertion, a coverage-driven assertion generation framework that combines formal trace generation, syntax-guided synthesis (SyGuS), and an agent-inspired refinement process within a unified framework. Our framework first converts hard-to-reach control-flow conditions into formal reachability objectives, uses model checking to generate behaviorally diverse traces, and mines initial assertions from these traces with SyGuS. It then performs targeted agent-inspired refinement under verification feedback: one LLM first proposes candidate assertions for uncovered regions, and if a candidate fails formal checking, a second LLM generates a repair grammar that guides constrained symbolic synthesis in a neuro-symbolic repair procedure. Experimental results show that this framework delivers around 2X more assertions and about 2X higher mutation coverage than traditional assertion mining methods.",
+    "title_zh": "覆盖率驱动的RTL断言生成，结合形式化探索与神经符号细化",
+    "abstract_zh": "硬件功能验证依赖于高质量的断言来暴露设计缺陷，并建立对寄存器传输级（RTL）设计的信心。然而，现有的断言挖掘方法仍然难以生成完整且可靠的断言集：随机或受限的轨迹无法覆盖难以触达的行为，而一次性生成几乎无法提供关于哪些部分仍未验证或应如何改进断言集的反馈。因此，即使生成了大量断言，关键的设计行为仍可能未被覆盖。我们提出了 NeuroAssertion，一个覆盖驱动的断言生成框架，它将形式化轨迹生成、语法引导综合（SyGuS）和受智能体启发的细化过程统一在一个框架中。该框架首先将难以触达的控制流条件转化为形式化可达性目标，使用模型检验来生成行为多样化的轨迹，并利用 SyGuS 从这些轨迹中挖掘初始断言。随后，框架在验证反馈下执行有针对性的、受智能体启发的细化：一个大语言模型首先针对未覆盖区域提出候选断言，如果候选断言未通过形式化检验，第二个大语言模型生成一个修复语法，以指导约束符号综合，从而完成神经符号修复过程。实验结果表明，与传统断言挖掘方法相比，该框架生成的断言数量约为其 2 倍，变异覆盖率约为其 2 倍。"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "\\textsc{TestifAI}: Tomography-Based Testing for Deep Learning Systems",
+    "authors": "Arooj Arif, Tobias Hartung, Elena Botoeva, Alexandros Koliousis",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.18900v1",
+    "source": "arXiv",
+    "abstract": "As AI systems are increasingly deployed in safety-critical application domains (e.g., autonomous driving), associated risks increase too. Deep learning models underlying modern AI systems, therefore, must undergo thorough testing to ensure their correct behaviour. A single robustness test involves thousands of inferences to empirically verify if a model's outputs remain stable under a bounded perturbation of its inputs. However, existing testing frameworks lack the means to systematically explore and summarise robustness across a combinatorial space of perturbations. We propose TestifAI, a deep learning testing framework for efficient and accurate estimation of robustness against combinations of perturbations. TestifAI enables users to specify operational conditions as structured spaces of semantic input perturbations (e.g., image blur, brightness and zoom) and discrete severity levels (e.g., low, medium and high). Users can query model robustness for any combination (e.g., \"low blur, high brightness, and medium zoom\"). To achieve efficiency and accuracy, TestifAI introduces partial model tomography, a novel approach to reconstructing model behaviour in a multi-perturbation space from tests that apply only a small number of perturbations (lower-order projections). To estimate robustness against at least three perturbations, TestifAI trains an auxiliary model on the results of tests involving up to two perturbations only, avoiding execution of an exponential number of tests. Our experiments on five image and language classification tasks show that TestifAI can predict higher-order (3 and 4 perturbations) test outcomes from low-order (1 and 2 perturbations) observations with an aggregate robustness estimation error of less than 7%, while reducing the number of inferences by 60-80%.",
+    "title_zh": "\\textsc{TestifAI}：基于断层扫描的深度学习系统测试方法",
+    "abstract_zh": "随着人工智能系统越来越多地部署在安全关键的应用领域（例如自动驾驶），相关风险也随之增加。因此，作为现代人工智能系统基础的深度学习模型必须经过全面测试，以确保其行为正确。单次鲁棒性测试涉及数千次推理，用于实证验证模型在输入受到有界扰动时其输出是否保持稳定。然而，现有的测试框架缺乏系统探索和总结跨扰动组合空间的鲁棒性的手段。我们提出了 TestifAI，一个用于高效且准确估计对扰动组合鲁棒性的深度学习测试框架。TestifAI 使用户能够将运行条件指定为由语义输入扰动（例如图像模糊、亮度和缩放）和离散严重级别（例如低、中、高）构成的结构化空间。用户可以查询任意组合下的模型鲁棒性（例如“低模糊、高亮度、中等缩放”）。为了实现高效和准确，TestifAI 引入了部分模型层析（partial model tomography），这是一种新颖的方法，通过仅应用少量扰动的测试（低阶投影）来重建多扰动空间中的模型行为。为了估计对至少三种扰动的鲁棒性，TestifAI 仅利用涉及至多两种扰动的测试结果训练一个辅助模型，从而避免执行指数数量的测试。我们在五个图像和语言分类任务上的实验表明，TestifAI 能够从低阶（1 和 2 种扰动）观察中预测高阶（3 和 4 种扰动）测试结果，总体鲁棒性估计误差小于 7%，同时将推理次数减少 60-80%。"
+  },
+  {
+    "date": "2026-8-19",
+    "title": "Automated Generation of Microservice Authorization Tests Using Large Language Models",
+    "authors": "Md Arfan Uddin, Shakthi Weerasinghe, Connor Wojtak, Tomas Cerny, Deuslirio Silva-Junior, Mateus Eduardo S. Ribeiro, Manoel Veríssimo Dos Santos Neto, Valdemar V. Graciano-Neto, Arlindo Galvão, Amr S. Abdelfattah",
+    "publish": "2026 International Conference on Service-Oriented System Engineering (SOSE)",
+    "url": "https://doi.org/10.1109/sose71128.2026.00014",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "使用大语言模型自动生成微服务授权测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-19",
+    "title": "SNIPTEST: Fuzzing Multi-Level Code Slices for Validating Vulnerabilities",
+    "authors": "Aniruddhan Murali, Noble Saji Mathews, Mahmoud Alfadel, Meng Xu, Meiyappan Nagappan",
+    "publish": "IEEE Transactions on Software Engineering",
+    "url": "https://doi.org/10.1109/tse.2026.3725696",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "SNIPTEST：对多级代码切片进行模糊测试以验证漏洞",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-19",
+    "title": "Deriving Symbolic AET Using Locality Identity Equation",
+    "authors": "Fangzhou Liu, Yifan Zhu, Chen Ding, Yekai Pan, Yanghui Wu",
+    "publish": "2026 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)",
+    "url": "https://doi.org/10.1109/ipdpsw71298.2026.00044",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "使用局部性恒等式推导符号化AET",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-19",
+    "title": "Challenges and Opportunities of Automated Vulnerability Assessment in Industry 4.0",
+    "authors": "João Videira, André Souto, José Cecílio",
+    "publish": "2026 IEEE International Workshop on Metrology for Industry 4.0 &amp; IoT (MetroInd4.0 &amp; IoT)",
+    "url": "https://doi.org/10.1109/metroind4.0iot69397.2026.11653076",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "工业4.0中自动化漏洞评估的挑战与机遇",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-19",
+    "title": "Addressing Unpredictable Behaviours in Post-Silicon Validation: Thermal and Clock Throttling for PCIe-Based MPSoCs",
+    "authors": "Khushboo Singh, Seema Kumari, Ajay Kumar, Basudeba Behera",
+    "publish": "2026 Fifth International Conference on Power, Control and Computing Technologies (ICPC2T)",
+    "url": "https://doi.org/10.1109/icpc2t68221.2026.11646271",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "应对后硅验证中的不可预测行为：基于PCIe的多处理器片上系统的热与时钟节流\n\n---\n\n**翻译说明：**\n- **Post-Silicon Validation** 译为「后硅验证」，是芯片设计流程中的标准术语，指芯片流片后在实际硬件上的验证阶段。\n- **Thermal and Clock Throttling** 译为「热与时钟节流」，其中 \"throttling\" 在硬件/芯片领域指通过降低频率或暂停时钟来限制功耗和温度的技术手段，「节流」为惯用译法。\n- **MPSoCs** 全称 Multi-Processor System-on-Chips，译为「多处理器片上系统」，符合中文技术文献习惯。\n- 标题使用冒号结构，前半部分点明要解决的问题（不可预测行为），后半部分给出应对手段（热与时钟节流），保持了原文的学术论文标题风格。",
+    "abstract_zh": "None"
+  }
+]
