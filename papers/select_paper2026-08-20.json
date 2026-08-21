@@ -1,0 +1,167 @@
+[
+  {
+    "date": "2026-08-20",
+    "title": "A Fully Automated, Deployment-Aware Testing Pipeline for IoT-Based Automotive Applications",
+    "authors": "Denesa Zyberaj, Roman Vintonyak, Pascal Hirmer, Marco Aiello",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.19752v1",
+    "source": "arXiv",
+    "abstract": "Testing embedded software in modern vehicles is challenging due to system complexity, decentralized architectures, and strict safety and performance constraints. In this work, we present an end-to-end, deployment-aware testing pipeline for IoT-based automotive applications. The pipeline combines requirement-driven test and code generation with large language model (LLM) and vision-language model (VLM) assistance, and human-in-the-loop curation to reduce manual effort and improve consistency. Using Eclipse openDuT, it supports flexible, distributed deployment across geographically separated cyber-physical and IoT infrastructures, optimizing for node availability and cross-organizational coordination. For validation, we conduct a case study using a Child Presence Detection System (CPDS), achieving full functional requirement coverage across all 9 requirements and 100% Gherkin generation accuracy on the controlled requirement set. Distributed test execution across geographically separated ECUs via Eclipse openDuT confirms the pipeline's applicability to OEM--supplier testing workflows.",
+    "title_zh": "面向基于物联网的汽车应用的完全自动化部署感知测试流水线",
+    "abstract_zh": "在现代汽车中测试嵌入式软件颇具挑战，这主要归因于系统复杂性、去中心化架构以及严格的安全与性能约束。本文提出了一种面向物联网汽车应用的端到端、部署感知型测试流水线。该流水线融合了需求驱动的测试与代码生成、大语言模型（LLM）与视觉语言模型（VLM）辅助，以及人在回路的干预与筛选机制，旨在降低人工成本并提升结果的一致性。依托Eclipse openDuT，该流水线支持在跨地域的信息物理系统与物联网基础设施之间进行灵活、分布式的部署，以优化节点可用性及跨组织协调效率。为验证其有效性，我们以儿童存在检测系统（CPDS）为例开展了案例研究，实现了对全部9项功能需求的完整覆盖，并在受控需求集上达到了100%的Gherkin生成准确率。通过Eclipse openDuT在地理位置分散的电子控制单元（ECU）间执行的分布式测试，进一步证实了该流水线在主机厂与供应商测试工作流中的适用性。"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "TESTNAV: Pareto-Guided Search for Compositional Robustness Testing",
+    "authors": "Arooj Arif, Tobias Hartung, Elena Botoeva, Alexandros Koliousis",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.19882v1",
+    "source": "arXiv",
+    "abstract": "Deep learning models remain vulnerable to real-world input perturbations, especially when multiple corruptions co-occur in the same input (e.g., brightness shifts and motion blur). Compositional testing reveals these interaction effects but introduces two challenges: combinatorial growth of the perturbation space as dimensions and severity levels increase, and uneven diagnostic value-many combinations yield unrealistically degraded inputs with limited practical relevance. We present TESTNAV, 1 a Pareto-guided robustness testing framework for efficiently exploring discrete, compositional perturbation spaces when only a limited number of perturbation configurations can be evaluated. TESTNAV prioritises severe yet realistic failures by formulating robustness testing as bi-objective optimisation: maximise performance degradation while preserving input fidelity measured by modality-specific metrics (e.g., SSIM and KID for vision; chrF and BERT-F1 for language and code). It uses NSGA-II to approximate the bi-objective Pareto front. Across four benchmarks spanning vision, natural language, and code generation, TESTNAV recovers Pareto fronts up to 2.15x faster than search-based baselines, using 35.8%-89.3% of the discrete perturbation space defined by four perturbation dimensions with six levels each.",
+    "title_zh": "TESTNAV：用于组合鲁棒性测试的帕累托引导搜索",
+    "abstract_zh": "深度学习模型在面对现实场景中的输入扰动时依然脆弱，尤其是在多种扰动于同一输入中共现的情况下（例如亮度变化与运动模糊同时存在）。组合测试虽能揭示此类交互效应，却面临两大挑战：一是随着维度与严重程度等级的增加，扰动空间呈组合爆炸式增长；二是诊断价值分布不均——大量组合会导致输入过度失真，缺乏实际参考价值。为此，我们提出了TESTNAV，这是一种帕累托导向的鲁棒性测试框架，旨在仅需评估有限扰动配置的前提下，高效探索离散的组合扰动空间。TESTNAV将鲁棒性测试转化为双目标优化问题，以优先定位严重但符合实际的失效模式：即在利用模态专属指标（如视觉领域的SSIM与KID，语言及代码领域的chrF与BERT-F1）保障输入保真度的同时，最大化模型的性能下降幅度。该框架借助NSGA-II算法来逼近双目标帕累托前沿。在涵盖视觉、自然语言与代码生成的四项基准测试中，TESTNAV构建帕累托前沿的速度较基于搜索的基线方法最高提升2.15倍，且仅利用了由四个扰动维度（各含六个等级）所构成的离散扰动空间的35.8%至89.3%。"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "BreakGuard: Towards Detecting Dependency Breaking Changes with LLM-Generated Tests",
+    "authors": "Rachna Raj, Benoit Baudry, Diego Elias Costa",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.20167v1",
+    "source": "arXiv",
+    "abstract": "Open-source libraries play an important role in software development by providing reusable features that expedite the development process. As libraries evolve, they release new versions that add features, fix bugs, or apply security patches. In this process, they may break the contract established with their clients by introducing breaking changes (BCs) that alter the runtime behavior and break client applications. Client-side test suites often fail to detect these BCs because of limited library coverage that does not exercise all library methods used in the client's codebase. We propose BreakGuard, an approach that generates a test suite to detect breaking changes in clients. BreakGuard statically extracts every client method (focal method) that invokes the target library method (call site), then generates tests per focal method. A test detects a BC if it passes on the pre-breaking version and fails on the breaking version. We evaluate our approach on 89 real-world breaking changes from the BUMP dataset, using 3 LLMs (GPT4o, Qwen3-coder-480B, GPT-OSS-120B) and three context levels: minimal, method, and class. Using the best-performing configuration, BreakGuard detects 30.3% of breaking changes (27 of 89) at a mean cost of roughly $0.90 USD per detected breaking change. We successfully detected BCs from different library categories (e.g., JSON libraries, logging, parsing), but we find LLM-generated tests to be more reliable for detecting crash-type breaking changes as opposed to behavioural BCs.",
+    "title_zh": "BreakGuard：基于大语言模型生成测试的依赖破坏性变更检测",
+    "abstract_zh": "开源库在软件开发中扮演着重要角色，通过提供可复用的功能组件，有效加速了开发流程。随着库的不断演进，其新版本会持续引入新功能、修复缺陷或更新安全补丁。在此过程中，它们可能会通过引入破坏性变更（Breaking Changes, BCs）而破坏与调用方之间既定的契约；这些变更会改变程序的运行时行为，进而导致客户端应用程序失效。由于现有测试套件对库的覆盖范围有限，未能充分执行客户端代码中所调用的全部库方法，因此往往难以检测出这些破坏性变更。为此，我们提出了 BreakGuard 方法，旨在自动生成测试套件以检测客户端中的破坏性变更。BreakGuard 首先静态提取所有调用目标库方法的客户端方法（即“焦点方法”及其对应的“调用点”），随后针对每个焦点方法生成相应的测试用例。若某测试用例在变更前的旧版本上运行通过，但在引入变更的新版本上运行失败，则判定该测试成功捕获了一次破坏性变更。我们在 BUMP 数据集包含的 89 个真实破坏性变更案例上对我们的方法进行了评估，实验采用了三种大语言模型（GPT-4o、Qwen3-coder-480B、GPT-OSS-120B）以及三种不同的上下文信息层级（最小化、方法级、类级）。在性能最优的配置下，BreakGuard 成功检测出 30.3% 的破坏性变更（共 27/89 例），平均每检测出一例变更的成本约为 0.90 美元。实验表明，该方法能有效检测涵盖不同类别的库（如 JSON 处理、日志记录、语法解析等）中的破坏性变更；但我们也发现，由大语言模型生成的测试用例在检测“崩溃型”破坏性变更时更为可靠，而在检测“行为型”变更时效果相对较弱。"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Petri Net Description of Biological Neural Circuits for Fast Hardware Prototyping",
+    "authors": "Carlo daCunha, Rodrigo Pena, Marcos Turqueti",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.20147v1",
+    "source": "arXiv",
+    "abstract": "Current approaches to simulating biological neural circuits, whether on general-purpose hardware or dedicated neuromorphic platforms, remain constrained by fixed-timestep numerical integration, hardware-imposed precision limits, and an inability to guarantee timing correctness for event-driven spiking dynamics under real-time constraints. Here, we propose a Petri net description of biological neural circuits that overcomes these limitations by modeling neurons, synapses, and spike events as a T-timed Petri net with formally verifiable timing semantics, enabling deadline-guaranteed real-time execution and analytically tractable correspondence to continuous-time leak-integrate-and-fire dynamics, independent of the underlying integration timestep. To test the model, we present the results of three simulated microcircuits: feedback inhibition, lateral inhibition, and hierarchical feature detector. The Petri neuron reproduces the expected dynamical signatures of each circuit while providing formally bounded timing guarantees throughout, with worst-case response times matching analytical predictions across all three cases.",
+    "title_zh": "面向快速硬件原型设计的生物神经环路佩特里网描述",
+    "abstract_zh": "目前，无论采用通用硬件还是专用神经形态平台，模拟生物神经回路的现有方法仍受限于固定时间步长的数值积分、硬件施加的精度限制，以及在实时约束下无法保证事件驱动型脉冲动力学时序正确性的问题。为此，本文提出了一种基于佩特里网的生物神经回路描述方法。该方法将神经元、突触及脉冲事件建模为具有形式化可验证时序语义的T-时间佩特里网，从而克服了上述局限。该模型不仅支持具有截止时间保障的实时执行，还能与连续时间漏积分放电（LIF）动力学建立可进行解析推导的对应关系，且该对应关系独立于底层积分时间步长。为验证该模型，我们展示了三种模拟微回路的测试结果：反馈抑制、侧向抑制以及层次特征检测器。结果表明，该佩特里神经元成功复现了各微回路的预期动力学特征，并在整个运行过程中提供了形式化有界的时序保证；在所有三种案例中，其最坏情况响应时间均与理论解析预测完全吻合。"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Auditing and Decomposing Feedback-Driven Evolution in LLM Test Generation under the Oracle Problem",
+    "authors": "Yunhao Liang, Chengguang Gan, Ruixuan Ying, Hanjun Wei, Zhe Cui, Shiwen Ni",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.19626v1",
+    "source": "arXiv",
+    "abstract": "Execution feedback is often treated as a self-verifying signal for improving LLM-generated tests. However, when generated inputs are executed on a single accepted program and its outputs are used as ground truth, invalid or underspecified inputs can create spurious fault detections and apparent evolutionary gains. We audit this failure mode in feedback-driven test generation using 142 development tasks, 114 locked external tasks, and 138 held-out tasks, with two code models, three seeds, and fault-cross-fitted real submissions. On external inputs for which three accepted implementations agree, generated outputs match the panel on only 27.79% and 50.12% of cases. A single-reference oracle inflates the measured gain from evolution by 9.46-14.85 percentage points; after auditing, equal-budget independent resampling outperforms mutation-based evolution by 6.01-18.83 points. We further compare a genuine three-round feedback loop with a density-matched placebo. External Real-Placebo differences are +0.13 and -0.50 points, while held-out differences are +1.99 and +0.28 points and do not provide robust evidence of fine-grained feedback benefit. A blinded semantic audit by two software engineering doctoral students classifies 94.41% of panel-disconfirmed inputs as invalid but 3.60% as valid, showing that panel disagreement is informative but not semantic proof. We propose an audit-and-placebo protocol that separates verifier artifacts, interaction scaffolding, and grounded feedback credit in evaluations of self-evolving test generators.",
+    "title_zh": "预言机问题背景下大语言模型测试生成中反馈驱动演进的审计与分解",
+    "abstract_zh": "执行反馈通常被视为改进大语言模型（LLM）生成测试的自验证信号。然而，当生成的输入在单个已接受程序上执行，并将其输出作为基准事实时，无效或未充分指定的输入会导致虚假的故障检测与表观的进化增益。我们利用142个开发任务、114个锁定外部任务和138个预留任务，结合两个代码模型、三个随机种子以及跨故障拟合的真实提交，对该反馈驱动测试生成中的这一失效模式进行了审计。对于三个已接受实现达成一致的外部输入，生成输出仅在27.79%和50.12%的情况下与专家小组的判断相符。单一参考预言机使测得的进化增益虚增了9.46至14.85个百分点；经审计后，等预算独立重采样方法的表现优于基于变异的进化方法，领先幅度达6.01至18.83个点。我们进一步将真实的三轮反馈循环与密度匹配的安慰剂对照组进行比较。外部任务的真实组与安慰剂组差异分别为+0.13和-0.50个点，而预留任务的差异为+1.99和+0.28个点，这些结果并未为细粒度反馈的收益提供有力证据。两名软件工程博士生的盲态语义审计将94.41%被专家小组否决的输入判定为无效，但仍有3.60%被认定为有效，这表明专家分歧虽具参考价值，却不足以构成语义层面的确证。为此，我们提出一种“审计与安慰剂”协议，旨在评估自进化测试生成器时，将验证器引入的假象、交互辅助结构与实质性的反馈贡献明确区分开来。"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "Escaping the Quicksand: A Call to Arms",
+    "authors": "Peter Sewell, Jean Pichon-Pharabod",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.19674v1",
+    "source": "arXiv",
+    "abstract": "Computing has been an astonishing success - but the accumulated technical debt exposes us all to huge costs in business and societal risk. For 75 years, we've built systems to prose specifications with test-and-debug development. That works well enough for industry to thrive, but it's an expensive and ineffective feedback loop, and leaves everyone relying on shaky foundations. Now, AI-enabled engineering is amplifying the success by reducing coding costs, but also amplifies the risks, by rapidly increasing technical debt, and by automating detection of the vulnerabilities therein. How can we do better? Research has long pursued mathematical proof of correctness, which, unlike testing, can cover all cases. This too has advanced massively, but it remains hard to apply, both technically and because of a deep-seated cultural disconnect. Instead, we argue for a pragmatic approach to flexible combinations of testing, *specification*, and proof, that provides more effective feedback loops for both AI and human development. Most simply, one can incrementally co-develop executable-as-test-oracle partial specifications alongside conventional prose descriptions, code, and tests. This clarifies design and makes testing much more discriminating. Developers can and should do it today. Or, even better, one can use specifications that support the full gamut of testing, property-based testing, symbolic execution, and proof. This enables a range of intertwined feedback loops, again both for AI and humans, from cheap testing to more expensive proof. However, making it really practical needs *semantics infrastructure*: specifications and tooling for the main programming languages and other abstractions, which we now more-or-less know how to build, but which is not yet in place. We call the community to arms to create and deploy it - to enable a future built on firmer ground.",
+    "title_zh": "逃离流沙：战斗的号召",
+    "abstract_zh": "计算领域取得了令人瞩目的成就，但日益累积的技术债务却让我们所有人暴露在巨大的商业成本与社会风险之中。过去75年间，我们一直依赖“测试与调试”的开发模式，按照文字形式的规格说明来构建系统。这种模式虽足以支撑行业的繁荣，却构成了一个昂贵且低效的反馈循环，使整个生态都建立在摇摇欲坠的基础之上。如今，AI赋能的工程在降低编码成本、放大既有成功的同时，也在迅速加剧技术债务，并自动化地检测其中的漏洞，从而进一步放大了相关风险。我们如何才能做得更好？\n\n学术界早已致力于通过数学证明来确保程序的正确性，与测试不同，这种方法能够穷尽所有情况。尽管该领域已取得长足进展，但由于技术门槛高以及深层的文化认知隔阂，其实际应用依然困难重重。为此，我们主张采取一种务实的路径：灵活组合测试、*规格说明*与证明，从而为AI与人工协同开发构建更高效的反馈闭环。最简捷的做法是，在编写传统文字描述、代码和测试用例的同时，逐步协同开发“可作为测试预言机（test oracle）的可执行部分规格说明”。此举不仅能厘清系统设计，还能大幅提升测试的鉴别力。开发者完全有能力且应当立即着手实践。更进一步而言，若能采用能够全面支撑常规测试、基于属性的测试、符号执行及形式化证明的规格说明，效果将更为理想。这将打通一系列相互交织的反馈闭环，兼顾AI与人工开发，实现从低成本测试到高成本证明的梯度验证。\n\n然而，要让这一理念真正落地，亟需构建*语义基础设施*——即为主流编程语言及其他抽象层提供配套的规格说明与工具链。我们目前已基本掌握其构建方法，但相关体系尚未建立。我们号召业界同仁携手攻坚，加速研发与部署该基础设施，从而为软件工程的未来奠定更加坚实的基石。"
+  },
+  {
+    "date": "2026-8-20",
+    "title": "VKB-Hunter: Vulnerability Knowledge Base Based Black-box Protocol Fuzzer for IoT Devices",
+    "authors": "Zhijin Chen, Le Yu, Jiemin Wan, Guozi Sun",
+    "publish": "2026 IEEE 50th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "url": "https://doi.org/10.1109/compsac69091.2026.00182",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "VKB-Hunter：基于漏洞知识库的物联网设备黑盒协议模糊测试工具",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-20",
+    "title": "From Architectural Descriptions to Executable Software Models with Environmental and Scenario Dynamics",
+    "authors": "Tales Viglioni, Jair Leite, Thais Batista, Flavio Oquendo, Everton Cavalcante, Éder Xavier",
+    "publish": "2026 IEEE 50th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "url": "https://doi.org/10.1109/compsac69091.2026.00063",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "从架构描述到具备环境与场景动态特性的可执行软件模型",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-20",
+    "title": "Large Language Model for Verilog Code Generation: Literature Review and the Road Ahead",
+    "authors": "Guang Yang, Wei Zheng, Dong Liang, Peng Hu, Yukui Yang, Shaohua Peng, Zhenghan Li, Jiahui Feng, Xiao Wei, Kexin Sun, Deyuan Ma, Haotian Cheng, Yiheng Shen, Xiang Chen, Xing Hu, Terry Yue Zhuo, David Lo",
+    "publish": "ACM Computing Surveys",
+    "url": "https://doi.org/10.1145/3841636",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向Verilog代码生成的大语言模型：文献综述与未来展望",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-8-20",
+    "title": "CovCraft: LLM-Guided Intelligent Framework for Constraint-Based Testing of Deep Learning Compiler Pipelines",
+    "authors": "Yifei He, Fangyuan Yang, Ting Su, Yueling Zhang, Geguang Pu",
+    "publish": "2026 IEEE 50th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "url": "https://doi.org/10.1109/compsac69091.2026.00470",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "CovCraft：面向深度学习编译器流水线的基于约束测试的大语言模型引导智能框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-20",
+    "title": "Beyond Test Presence: Assessing the Quality and Robustness of Agent-Generated Tests in Open-Source Projects",
+    "authors": "Preet Jhanglani, Zeel Kaushal Desai, Vidhi Kansara, Eman Abdullah AlOmar",
+    "publish": "2026 IEEE 50th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "url": "https://doi.org/10.1109/compsac69091.2026.00059",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "超越测试存在：评估开源项目中智能体生成测试的质量与鲁棒性",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-20",
+    "title": "ASFuzz: Detecting Linux Kernel Asynchronous Concurrency Bugs via\n                    <i>Asynchronous Shadow Fuzzing</i>",
+    "authors": "Jianzhou Zhao, Yangyang Geng, Jingyi Wang, Yuqi Chen, Haowen Chen, Yunfeng Wang, Qiang Wei",
+    "publish": "IEEE Transactions on Information Forensics and Security",
+    "url": "https://doi.org/10.1109/tifs.2026.3725562",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "ASFuzz：通过异步影子模糊测试检测 Linux 内核异步并发缺陷",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-20",
+    "title": "Toward Standardized Evaluation of Metamorphic Relations: A Structured Rubric and Human-LLM Comparison",
+    "authors": "Yifan Zhang, Dave Towey, Matthew Pike, Quang-Hung Luu, Huai Liu, Tsong Yueh Chen",
+    "publish": "2026 IEEE 50th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "url": "https://doi.org/10.1109/compsac69091.2026.00027",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "迈向蜕变关系标准化评估：结构化评分标准与人工-大语言模型对比",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-20",
+    "title": "Effective Fuzzing within CI/CD Pipelines",
+    "authors": "Arindam Sharma, Cristian Cadar, Jonathan Metzman",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3841630",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "CI/CD 流水线中的高效模糊测试",
+    "abstract_zh": "无"
+  },
+  {
+    "date": "2026-8-20",
+    "title": "LTL in the Wild: A Decade of Specifying Edge/IoT System Behaviors",
+    "authors": "Angeliki Pantiora, Roman Bögli, Timo Kehrer, Christos Tsigkanos",
+    "publish": "2026 IEEE 50th Annual Computers, Software, and Applications Conference (COMPSAC)",
+    "url": "https://doi.org/10.1109/compsac69091.2026.00178",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "真实场景中的LTL：十年来对边缘/物联网系统行为的规范",
+    "abstract_zh": "None"
+  }
+]
