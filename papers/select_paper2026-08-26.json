@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-8-26",
+    "title": "DECODE: Decision Tree Capturing Opaque Decisions via Coverage-Driven Synthetic Sampling",
+    "authors": "José Cação, José Paulo Santos, Mário Antunes",
+    "publish": "2026 13th International Conference on Future Internet of Things and Cloud (FiCloud)",
+    "url": "https://doi.org/10.1109/ficloud70576.2026.00064",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "解码：通过覆盖率驱动的合成采样捕获不透明决策的决策树",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-26",
+    "title": "TE-TCP-Net: Parallel Transformer-Encoders for Test Case Prioritization",
+    "authors": "Osama Saad, Mohamed Abdelkarim, Reem ElAdawi",
+    "publish": "2026 IEEE International Conference on Artificial Intelligence Testing (AITest)",
+    "url": "https://doi.org/10.1109/aitest70988.2026.00026",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "TE-TCP-Net：用于测试用例优先级的并行Transformer编码器",
+    "abstract_zh": "None"
+  }
+]
