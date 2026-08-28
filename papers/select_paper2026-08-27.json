@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-08-27",
+    "title": "HOLMES: In-Context Failure-Center Localization for High-Dimensional Yield Estimation",
+    "authors": "Wei W. Xing, Xixi Zhou, Kaiqi Huang, Jiaye Pan, Hong Qiu, Xin Wang, Shan Shen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.26758v1",
+    "source": "arXiv",
+    "abstract": "Importance sampling for high-sigma yield estimation requires locating the failure center from a severely imbalanced sample set. Existing surrogate-assisted methods rely on iterative gradient-based training, ill-posed under extreme class imbalance; model errors propagate into the estimator, causing accuracy collapse in high dimensions. We recast failure-center localization as few-shot binary classification: a prior-fitted tabular foundation model performs gradient-free in-context inference in a single forward pass, eliminating the ill-posed training loop. \\textbf{HOLMES} (High-sigma Optimal Localization via Manifold Estimation and Sampling) pairs this with an SVD-based anisotropic proposal that captures the local geometry of the failure manifold, and a hit-rate-driven adaptive mixing scheme that stabilizes importance weights where conventional adaptation collapses. On 6T SRAM benchmarks spanning $D = 108$ to $D = 1{,}152$, full-dimensional baselines exhibit accuracy collapse at some dimension, with the strongest baseline reaching 25.8\\% relative error; PCA+MNIS is additionally evaluated at the two largest dimensions. HOLMES remains within 5.9\\% across all five configurations with up to $58.8\\times$ speedup over Monte Carlo. The code is available on \\href{https://github.com/IceLab-JCIE/ICE006-Yield-Holmes}",
+    "title_zh": "HOLMES：基于上下文的高维产量估计故障中心定位",
+    "abstract_zh": "高西格玛产量估计的重要性采样需要从严重不平衡的样本集中定位失效中心。现有的代理辅助方法依赖于迭代基于梯度的训练，在极端类别不平衡情况下存在不适定性问题；模型误差会传播到估计器中，导致在高维情况下精度崩溃。我们将失效中心定位重新表述为少样本二元分类问题：一个预先拟合的表格基础模型在单次前向传递中进行无需梯度的上下文推理，消除了不适定的训练循环。\\textbf{HOLMES}（基于流形估计和采样实现高西格玛最优定位）将此与基于SVD的各向异性提议分布配对，该提议分布能够捕获失效流形的局部几何结构，以及一个命中率驱动的自适应混合方案，该方案在传统自适应方法失效的地方稳定了重要性权重。在跨越$D = 108$到$D = 1{,}152$的6T SRAM基准测试中，全维度基线在某些维度上表现出精度崩溃，最强的基线达到25.8%的相对误差；PCA+MNIS还在两个最大维度上进行了额外评估。HOLMES在所有五种配置中均保持在5.9%的误差范围内，比蒙特卡洛方法快达58.8倍。代码可在\\href{https://github.com/IceLab-JCIE/ICE006-Yield-Holmes}获取。"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "An Empirical Evaluation of Using Large Language Models for Automated Model-Based Test Generation",
+    "authors": "Hafize Sanli, Onur Kilincceker, Cihat Cetinkaya",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.27094v1",
+    "source": "arXiv",
+    "abstract": "Large language models have shown strong potential for software engineering tasks, particularly software testing. Model-based testing (MBT) is a software testing technique. To address the broad scalability challenge for industrial adoption of MBTs, our paper presents an empirical evaluation of Large Language Models (LLMs) for automated model-based test generation, compared with a state-of-the-art model-based testing tool (GraphWalker) and its built-in algorithms (random and quick random for edge and vertex coverage settings). Our evaluation indicates strong potential to optimize and shorten test paths and step sizes using the recent five state-of-the-art LLMs (GPT-5.1, GPT-5.2, Claude Opus 4.5, Claude Sonnet 4.5, and Gemini 2.5 Pro) against four GraphWalker models (two web applications (Parabank and Testinium) and two hardware applications (TLC and RISC-V) ) of escalating complexity.",
+    "title_zh": "基于大型语言模型的自动化模型测试生成的实证评估",
+    "abstract_zh": "大型语言模型在软件工程任务，特别是软件测试方面展现出巨大潜力。基于模型的测试(MBT)是一种软件测试技术。为解决MBT在工业应用中广泛的可扩展性挑战，我们的论文对大型语言模型(LLMs)在自动化基于模型的测试生成方面进行了实证评估，并将其与最先进的基于模型的测试工具(GraphWalker)及其内置算法(针对边和顶点覆盖设置的随机和快速随机算法)进行了比较。我们的评估表明，使用最近五种最先进的LLM(GPT-5.1、GPT-5.2、Claude Opus 4.5、Claude Sonnet 4.5和Gemini 2.5 Pro)针对四个复杂度递增的GraphWalker模型(两个Web应用程序(Parabank和Testinium)和两个硬件应用程序(TLC和RISC-V))，能够优化和缩短测试路径和步骤大小，展现出巨大潜力。"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "AgentDV: Closed-Loop Agentic AI for Hardware Design Verification",
+    "authors": "Navya Goli, Junzhe Liu, Zhenge Jia, Umamaheswara Rao Tida",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.27148v1",
+    "source": "arXiv",
+    "abstract": "Register-transfer level (RTL) verification consumes a major part of modern system-on-chip (SoC) development effort. Yet, recent LLM-based verification-code generation often fails to produce runnable, design-consistent, and coverage-producing testbenches. We present AgentDV, a closed-loop agentic AI framework for automated RTL verification environment generation. AgentDV transforms single-shot LLM testbench generation into a tool-grounded verification pipeline by combining LLM-guided analysis, testbench construction, simulation, coverage measurement, and iterative refinement. The framework introduces three key ideas: 1) runnability filtering to reject invalid generated environments, 2) CSR-grounded checking to reduce hallucinated signals and incorrect expected behavior, and 3) coverage-guided iteration to regenerate tests based on measured verification gaps. We evaluate AgentDV using three LLMs on challenge DUTs and public OpenTitan peripheral and security IP blocks. From our analysis, we observed that direct single-shot prompting fails to produce a valid coverage-producing environment on benchmarks. AgentDV achieves 100% pass rate on four DUTs and an average of 80.9% pass rate on all DUTs using Claude Sonnet 4.6. Similarly, an average of 58.7% and 60.6% pass rate is achieved for Llama and Qwen models, respectively. In addition, an average of 74.5%, 69.1%, and 64.9% of line coverage and 88.4%, 82.3%, and 76.7% of branch coverage for the benchmarks under consideration for Claude Sonnet 4.6, Llama, and Qwen models, respectively.",
+    "title_zh": "AgentDV：用于硬件设计验证的闭环智能体AI",
+    "abstract_zh": "寄存器传输级(RTL)验证占现代片上系统(SoC)开发工作的主要部分。然而，最近基于大型语言模型(LLM)的验证代码生成往往无法产生可运行、与设计一致且能产生覆盖率的测试平台。我们提出了AgentDV，这是一个用于自动RTL验证环境生成的闭环智能体AI框架。AgentDV通过结合LLM引导的分析、测试平台构建、仿真、覆盖率测量和迭代改进，将单次LLM测试平台生成转变为基于工具的验证流程。该框架引入了三个关键理念：1)可运行性过滤，以拒绝无效的生成环境；2)基于CSR的检查，以减少幻觉信号和错误预期的行为；3)覆盖率引导的迭代，根据测量的验证差距重新生成测试。我们使用三个LLM在挑战性DUT和公开的OpenTitan外设及安全IP块上评估了AgentDV。根据我们的分析，我们观察到直接的单次提示无法在基准测试中产生有效的产生覆盖率的测试环境。使用Claude Sonnet 4.6，Agent在四个DUT上实现了100%的通过率，在所有DUT上平均达到80.9%的通过率。同样，对于Llama和Qwen模型，分别实现了平均58.7%和60.6%的通过率。此外，对于Claude Sonnet 4.6、Llama和Qwen模型，在考虑的基准测试中，分别实现了平均74.5%、69.1%和64.9%的行覆盖率，以及88.4%、82.3%和76.7%的分支覆盖率。"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "FaultLens: Learning Compact Behavioral Test Suites for Generated Operational Programs",
+    "authors": "Zeming Liu, Hang Lyu, Jingtao Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.26746v1",
+    "source": "arXiv",
+    "abstract": "Generated operational programs are often validated with either a few hand-written examples or exhaustive regression suites. The former can miss sparse boundary and interaction faults, while the latter can be unnecessarily expensive. We introduce FaultLens, a method for learning compact behavioral test suites while preserving an auditable connection to executed evidence. It executes a rich probe domain once, stores the fault-probe kill relation as a sparse outcome cache, and learns probe orderings only from earlier program generations. A fault-driven greedy component exploits known kill structure, while a mutation-independent diversity component covers probe families, cases, templates, and temporal bins. Their alternating hybrid remains useful when a new program contains a fault mechanism absent from ordering construction. We evaluate twenty generated operational policies across four environments, ten execution seeds, 1,200 measured run summaries, 2,160 controlled program transformations, and 4,120,200 executed program-probe pairs. Of 1,960 intended faulty transformations, 1,779 alter a contract or output somewhere in the finite audit domain; 200 additional controls preserve behavior. A 32-probe hybrid learned on generations 1-3 covers 576/582 (99.0%) dynamically killable faults in generations 4-5 using 1.2-2.0% of the exhaustive domain. With an entire fault family withheld from training, diversity raises scenario-family macro coverage from 84.6% to 94.9%. In a downstream deployment study, a conservative admission rule reduces severe tail regressions from 15/20 program-environment groups to 0/20. FaultLens provides a prioritized evidence mechanism, not a proof of correctness, and makes its budget, evidence source, generalization split, and misses explicit.",
+    "title_zh": "FaultLens：学习生成式操作程序的紧凑行为测试套件",
+    "abstract_zh": "生成的操作程序通常通过少量手写示例或详尽的回归测试套件进行验证。前者可能会忽略稀有的边界和交互故障，而后者则可能不必要地昂贵。我们介绍了FaultLens，一种在学习紧凑行为测试套件的同时保持与执行证据可审计连接的方法。它执行一次丰富的探测域，将故障-探测消除关系存储为稀疏结果缓存，并仅从早期的程序生成中学习探测排序。一个故障驱动的贪婪组件利用已知的消除结构，而一个与变异无关的多样性组件覆盖探测族、案例、模板和时间区间。它们的交替混合在新程序包含一个在排序构建中不存在的故障机制时仍然有用。我们在四个环境中评估了二十个生成的操作策略，十个执行种子，1,200个测量的运行摘要，2,160个受控的程序转换，以及4,120,200个执行的程序-探测对。在1,960个预期的故障转换中，1,779个在有限审计域内的某处改变了合约或输出；200个额外的控制保持了行为。在1-3代上学习的32个探测混合版本使用详尽域的1.2-2.0%覆盖了4-5代中576/582(99.0%)的动态可消除故障。当整个故障族被排除在训练之外时，多样性将场景族宏覆盖率从84.6%提高到94.9%。在下游部署研究中，一个保守的准入规则将严重尾部回归从20个程序-环境组中的15个减少到0/20。FaultLens提供了一个优先级证据机制，而不是正确性的证明，并明确其预算、证据来源、泛化划分和遗漏。"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Unsaid, Unsafe? Implicit Security Obligations in LLM-Based RTL Code Generation",
+    "authors": "Guang Yang, Xing Hu, Xiang Chen, Xin Xia",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.26588v1",
+    "source": "arXiv",
+    "abstract": "Large Language Models (LLMs) generate register-transfer-level (RTL) code with rapidly improving functional correctness. Security of LLM-generated code, however, has been studied mainly for software, where flaws can still be patched after deployment. Insecure RTL offers no such remedy once taped out into silicon. We construct SECRTL-GEN, a multi-language resource-access security benchmark grounded in real SoC IP: 392 tasks over five CWE families and four HDLs (Verilog, SystemVerilog, VHDL, and Python), each with black-box functional and security testbenches. Functional specifications intentionally omit security obligations, matching how obligations are often kept out of functional docs in practice. An empirical study of five frontier LLMs shows a sharp gap: under vanilla prompts they pass functional tests in about 73-79% of cases but security tests in only 14-35%, and stronger functional models are not safer. Adding CWE knowledge raises security, while unaided self-thinking helps less and both security-oriented prompts cut functional pass rates, showing that the bottleneck is missing weakness awareness in the specification, not an inability to write defensive RTL. We present RTL-Obliger, a neuro-symbolic framework that infers these implicit obligations. An LLM extracts a functional-semantic graph from the specification; a symbolic engine then matches it against a CWE pattern ontology to surface mitigation-evidence gaps and signal-level obligations; the LLM finally revises RTL under those obligations in a functionality-preserving two-stage generation. Across five models and four languages, RTL-Obliger raises mean all-pass from 49.6-51.4% (SecV/RESCUE) to 61.6%, with higher security and functional rates than these secure-generation baselines.",
+    "title_zh": "未言明，不安全？基于LLM的RTL代码生成中的隐含安全义务",
+    "abstract_zh": "大型语言模型(LLMs)生成的寄存器传输级(RTL)代码的功能正确性正在迅速提高。然而，LLM生成代码的安全性研究主要集中在软件领域，因为软件中的缺陷仍可以在部署后修复。不安全的RTL代码一旦被制成硅芯片，就无法进行此类修复。我们构建了SECRTL-GEN，这是一个基于真实SoC IP的多语言资源访问安全基准：包含392个任务，涵盖五个CWE家族和四种硬件描述语言(HDLs)(Verilog、SystemVerilog、VHDL和Python)，每种语言都配备黑盒功能和安全测试平台。功能规范有意省略安全义务，这与实践中义务常被排除在功能文档之外的情况相符。对五个前沿LLM的实证研究表明存在明显差距：在普通提示下，它们在约73-79%的案例中通过功能测试，但在安全测试中仅通过14-35%，且更强的功能模型并不更安全。添加CWE知识可以提高安全性，而无辅助的自我思考帮助较小，且两种安全导向的提示都会降低功能通过率，这表明瓶颈在于规范中缺少弱点意识，而非无法编写防御性RTL的能力。我们提出了RTL-Obliger，一个神经符号框架，用于推断这些隐含义务。LLM从规范中提取功能语义图；然后符号引擎将其与CWE模式本体进行匹配，以揭示缓解证据差距和信号级义务；最后，LLM在功能保持的两阶段生成下根据这些义务修订RTL。在五个模型和四种语言中，RTL-Obliger将平均全部通过率从49.6-51.4%(SecV/RESCUE)提高到61.6%，其安全性和功能率均高于这些安全生成基线。"
+  },
+  {
+    "date": "2026-08-27",
+    "title": "Challenging Benchmarks for Diagrammatic Equivalence of Circuits in TPTP and SMT-LIB",
+    "authors": "Julie Cailler, Noé Delorme, Sophie Tourret",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.27087v1",
+    "source": "arXiv",
+    "abstract": "We introduce a new family of benchmarks for the problem of diagrammatic equivalence between circuits. Three variants of this problem are considered, ranging from basic to challenging, and benchmarks are generated for each variant. We provide first-order encodings in both TPTP and SMT-LIB formats, together with scripts that automatically generate benchmark instances, and evaluate these benchmarks on state-of-the-art automated theorem provers and SMT solvers.",
+    "title_zh": "TPTP和SMT-LIB中电路图等价性的挑战性基准",
+    "abstract_zh": "我们为电路图等价问题引入了一个新的基准测试系列。该问题考虑了三个变体，从基础到具有挑战性不等，并为每个变体生成了基准测试。我们提供了TPTP和SMT-LIB格式的一阶编码，以及自动生成基准测试实例的脚本，并在最先进的自动定理证明器和SMT求解器上评估了这些基准测试。"
+  },
+  {
+    "date": "2026-8-27",
+    "title": "Triosecuris: Formally Verified Protection Against Speculative Control-Flow Hijacking",
+    "authors": "Jonathan Baumann, Yonghyun Kim, Yan Farba, Căatăalin Hriţcu, Julay Leatherman-Brooks",
+    "publish": "2026 IEEE 39th Computer Security Foundations Symposium (CSF)",
+    "url": "https://doi.org/10.1109/csf68417.2026.00036",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Triosecuris：经过形式化验证的，针对推测控制流劫持的保护",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-8-27",
+    "title": "C-PathGen: An Efficient CPU-Parallel Critical Path Generation Algorithm",
+    "authors": "Che Chang, Boyang Zhang, Cheng-Hsiang Chiu, Dian-Lun Lin, Yi-Hua Chung, Wan-Luan Lee, Zizheng Guo, Yibo Lin, Tsung-Wei Huang",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3844513",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "C-PathGen：一种高效的CPU并行关键路径生成算法",
+    "abstract_zh": "None"
+  }
+]
