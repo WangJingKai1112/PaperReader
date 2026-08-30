@@ -1,0 +1,191 @@
+[
+  {
+    "date": "2026-8-29",
+    "title": "DAPart: An Online DRL-based Adaptive Partition Framework for DNN Inference Acceleration and Energy Conservation in Edge Computing",
+    "authors": "Shubin Zhang, Jun Ma, Kaikai Chi, Jiajia Liu, Zhiguo Shi",
+    "publish": "ACM Transactions on Sensor Networks",
+    "url": "https://doi.org/10.1145/3838798",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "EHEIR: Efficient Homomorphic Encrypted Inference via Architectural Redesign",
+    "authors": "Reeshav Chowdhury, Anoop Mishra, Deepak Khazanchi, Ayantika Chatterjee",
+    "publish": "ACM Transactions on Internet Technology",
+    "url": "https://doi.org/10.1145/3843768",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-30",
+    "title": "Motif Counting in Complex Networks: A Comprehensive Survey",
+    "authors": "Haozhe Yin, Kai Wang, Wenjie Zhang, Yizhang He, Ying Zhang, Xuemin Lin",
+    "publish": "ACM Computing Surveys",
+    "url": "https://doi.org/10.1145/3844607",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "Commodity WiFi Can Capture Your Respiration Even the Motion Interference Exists",
+    "authors": "Meng Wang, Jinyang Huang, Xiang Zhang, Zhi Liu, Meng Li, Peng Zhao, Xinyu Li, Yuanhao Feng, Fusang Zhang",
+    "publish": "ACM Transactions on Sensor Networks",
+    "url": "https://doi.org/10.1145/3842662",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "Compositional Shape Analysis with Shared Abduction and Biabductive Loop Acceleration",
+    "authors": "Florian Sextl, Adam Rogalewicz, Tomáš Vojnar, Florian Zuleger",
+    "publish": "ACM Transactions on Programming Languages and Systems",
+    "url": "https://doi.org/10.1145/3844730",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "Model-Based Learning of Whittle indices",
+    "authors": "Joël Charles-Rebuffé, Nicolas Gast, Bruno Gaujal",
+    "publish": "ACM Transactions on Modeling and Performance Evaluation of Computing Systems",
+    "url": "https://doi.org/10.1145/3844508",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "FAIR-SHEPHERD: Fairness beyond Statistical Parity toward Structural Alignment",
+    "authors": "Shubham Mohole, Hongjun Choi, Christian Schroeder, Wesam Sakla, Christine Klymko, Ruben Glatt, Sainyam Galhotra",
+    "publish": "ACM Journal on Responsible Computing",
+    "url": "https://doi.org/10.1145/3844729",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "Putting the Human Back in the Loop: A Review of Interactive Bayesian Optimization",
+    "authors": "John Dudley, Antti Oulasvirta, Liwei Chan, Per Ola Kristensson",
+    "publish": "ACM Computing Surveys",
+    "url": "https://doi.org/10.1145/3805804",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "Three tiers of computation in transformers and in brain architectures",
+    "authors": "Emma Graham, Richard Granger",
+    "publish": "ACM Transactions on Intelligent Systems and Technology",
+    "url": "https://doi.org/10.1145/3844612",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-30",
+    "title": "From Solo Post to Shared Space: How a Public LLM Agent Reshapes Human-to-Human Conversation Structure on a Social Platform",
+    "authors": "Dandan Liu, Lihu Pan, Aznul Qalid Md Sabri, Guangrui Fan",
+    "publish": "ACM Transactions on Social Computing",
+    "url": "https://doi.org/10.1145/3844666",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "Human Being, Robot Body: Hybrid Identity Expression in Teleoperated Robots",
+    "authors": "Andy Elliot Ricci, Malte F. Jung",
+    "publish": "ACM Transactions on Human-Robot Interaction",
+    "url": "https://doi.org/10.1145/3844722",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-30",
+    "title": "A Scalable Hyperparameter-Guided Synchronization Framework for Population-Informed Trajectory Generation",
+    "authors": "Salman Ahmed Shaikh, Komal Mariam, Kitagawa Hiroyuki, Akiyoshi Matono",
+    "publish": "ACM Transactions on Spatial Algorithms and Systems",
+    "url": "https://doi.org/10.1145/3844615",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "A Machine-based Decision-maker Toward Benchmarking Interactive Multi-criterion Decision-making Procedures",
+    "authors": "Deepanshu Yadav, Kalyanmoy Deb",
+    "publish": "ACM Transactions on Evolutionary Learning and Optimization",
+    "url": "https://doi.org/10.1145/3844613",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-30",
+    "title": "Rethinking Cache Eviction: Low-Overhead and Precise Learning-based Design",
+    "authors": "Qian Wang, Chang Xu, Wenbin Zhou, Juan Fang, Yongqiang Xiong, Zhixiong Niu",
+    "publish": "ACM Transactions on Computer Systems",
+    "url": "https://doi.org/10.1145/3839232",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "Cambricon-FlexLLM: A Flexible Chiplet-Based Hybrid Architecture for On-Device 70B LLM Inference",
+    "authors": "Tianyun Ma, Qian Wang, Shengwen Liang, Yunke Cai, Ziyuan Nan, Di Huang, Xinkai Song, Yifan Hao, Jie Zhang, Tian Zhi, Yongwei Zhao, Zidong Du, Xing Hu, Qi Guo, Tianshi Chen",
+    "publish": "ACM Transactions on Architecture and Code Optimization",
+    "url": "https://doi.org/10.1145/3844618",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "JR4CE: Job Recommendation for Career Exploration",
+    "authors": "Yosuke Saito, Kazunari Sugiyama",
+    "publish": "ACM Transactions on Recommender Systems",
+    "url": "https://doi.org/10.1145/3844504",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-30",
+    "title": "DistSpMM: Accelerating Sparse Matrix Dense Matrix Multiplication on GPUs",
+    "authors": "Junyu Gu, Jue Wang, Zhikuang Xin, Chunbao Zhou, Zhiqiang Liang, Yuchen Pang, Rongqiang Cao, Zongguo Wang, Fang Liu, Jing Wang, Yangang Wang",
+    "publish": "ACM Transactions on Architecture and Code Optimization",
+    "url": "https://doi.org/10.1145/3841478",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "Valérie Issarny: The Mark She Left on Science and on Us",
+    "authors": "Amel Bennaceur",
+    "publish": "ACM Transactions on Autonomous and Adaptive Systems",
+    "url": "https://doi.org/10.1145/3841483",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "Auditing Artificial Intelligence Systems: A Survey of Current Frameworks, Principles and Approaches",
+    "authors": "Usman Shahbaz, Amin Beheshti, Babak Abedin, David Orsmond, Yuankai Qi",
+    "publish": "ACM Computing Surveys",
+    "url": "https://doi.org/10.1145/3844500",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-29",
+    "title": "Task Offloading with Temporal Awareness in Heterogeneous Cloud–Edge–Ground Systems",
+    "authors": "Chenyang Wang, Qi Han",
+    "publish": "ACM Transactions on Internet Technology",
+    "url": "https://doi.org/10.1145/3844610",
+    "source": "ACM",
+    "abstract": "None"
+  },
+  {
+    "date": "2026-8-30",
+    "title": "A Survey on Transformer-Based Long-Range Dependency Modeling in Intelligent Document Understanding",
+    "authors": "Xumu Jiang, Yu Zhang, Alireza Abbasi",
+    "publish": "ACM Computing Surveys",
+    "url": "https://doi.org/10.1145/3844505",
+    "source": "ACM",
+    "abstract": "None"
+  }
+]
