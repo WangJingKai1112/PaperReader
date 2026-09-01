@@ -1,13 +1,57 @@
 [
   {
-    "date": "2026-8-31",
-    "title": "SpiceDiff Agent Simulation Efficient LLM Guided Planning for Specification Driven Analog Circuit Netlist Repair",
-    "authors": "Zhe Feng, Yutong Ye, Jianxun Zhou, Wenbin Guo, Lihua Xu, Wendong Lu, Yunlai Zhu, Zuyu Xu, Zuheng Wu, Yuehua Dai",
-    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
-    "url": "https://doi.org/10.1109/tcad.2026.3729375",
+    "date": "2026-08-31",
+    "title": "Lie to Me: Finding Bugs in ZK DSL Toolchains with Adversarial Witness Injection",
+    "authors": "Sebastian Watzinger, Christoph Hochrainer, Valentin Wüstholz, Maria Christakis",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.30648v1",
+    "source": "arXiv",
+    "abstract": "Zero-knowledge domain-specific language (ZK DSL) toolchains compile programs into constraint systems and generate witnesses for cryptographic proofs. Bugs in these toolchains can leave the enforced constraints weaker than the source-program semantics, admitting proofs for invalid executions. Such soundness bugs may remain invisible to valid-execution testing because all valid executions still behave correctly. We present Liezz, a testing framework that generates ZK DSL programs and exposes these bugs through adversarial witness injection. For each generated deterministic program, Liezz executes two public input assignments with different outputs and splices their witnesses, combining the input of one execution with the output of the other. The resulting witness is invalid by construction. A correct toolchain must reject it; acceptance exposes a soundness bug. Controlled divergence and multiple witness-splicing strategies preserve enough consistency to expose missing constraints. Liezz also generates parameterized standard-library calls to reach complex functionality. Liezz supports Circom, Corset, Gnark, and Noir. It finds 13 bugs, including seven with soundness impact. Several are reachable only through generated standard-library calls. Under the same testing budget, a valid-execution baseline does not expose any of the soundness failures revealed by accepted injected witnesses, showing that adversarial witness injection reaches failures missed by valid-execution testing.",
+    "title_zh": "《对我说谎：通过对抗性见证注入发现ZK DSL工具链中的漏洞》",
+    "abstract_zh": "零知识领域特定语言（ZK DSL）工具链将程序编译为约束系统，并为密码学证明生成见证。这些工具链中的错误可能使 enforced 约束弱于源程序语义，从而允许对无效执行进行证明。这类正确性错误在有效执行测试中可能仍然不可见，因为所有有效执行仍然表现正确。我们提出了 Liezz，一个测试框架，它生成 ZK DSL 程序并通过对抗性见证注入来暴露这些错误。对于每个生成的确定性程序，Liezz 执行两个具有不同输出的公共输入分配，并拼接它们的见证，将一个执行的输入与另一个执行的输出相结合。根据设计，生成的见证是无效的。正确的工具链必须拒绝它；接受它则暴露了正确性错误。受控的分歧和多种见证拼接策略保留了足够的一致性以暴露缺失的约束。Liezz 还生成参数化的标准库调用以实现复杂功能。Liezz 支持 Circom、Corset、Gnark 和 Noir。它发现了 13 个错误，其中包括 7 个具有正确性影响的错误。有些错误只能通过生成的标准库调用才能到达。在相同的测试预算下，有效执行的基线没有揭示任何被接受的注入见证所揭示的正确性失败，这表明对抗性见证注入能够发现有效执行测试所遗漏的失败。"
+  },
+  {
+    "date": "2026-08-31",
+    "title": "LLM-based Hardware Development with Hierarchical IRs and End-to-End Multi-Agent Workflow",
+    "authors": "Chenyang Yin, Agasthi Haputhanthri, Aditya Anirudh Jonnalagadda, Zhenyu Bai, Yuanming Song, Saranyu Chattopadhyay, Mohammad Fadiheh, Tom Zelazny, Subhasish Mitra, Tulika Mitra",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.30659v1",
+    "source": "arXiv",
+    "abstract": "Large language models (LLMs) are increasingly used in software development, but their use in complex hardware design remains limited. This gap stems from both the scarcity of public hardware training data and the fundamentally different methodologies used in hardware design. In particular, applying LLMs to hardware requires more than direct RTL generation: the model must understand module boundaries, inter-module connections, and verification requirements. In this paper, we present an LLM-based hardware development framework with hierarchical intermediate representations (IRs) and an end-to-end multi-agent workflow. The core idea is to provide an abstraction of hardware design to LLMs through two structured IRs: Architectural Sketch, which captures module topology and interconnection, and Operational Specification, which defines per-module functionality and interfaces. Our framework uses these IRs to decompose a complex design into sub-modules, specify the per-block functionality, and derive how each module should be tested and verified. We incorporate a multi-agent debug loop in the framework, allowing agents to get the error feedback and control the debug details such as the signals to be probed for simulation. We evaluate our framework on Verilog-Eval benchmark, achieving a pass@5 rate of 95.5%, which surpasses current state-of-the-art LLM generation frameworks. To better assess performance on complex, realistic designs, we introduce a new case study spanning applications from general-purpose processors to digital signal processing systems. Experimental results indicate that such complex designs exceed the capabilities of existing approaches, whereas our framework is the only one capable of producing functional end-to-end design. Our generated RTL follows all industry-standard design rules, is lint-clean, functionally correct and fully synthesizable.",
+    "title_zh": "基于LLM的硬件开发：分层中间表示与端到端多智能体工作流",
+    "abstract_zh": "大型语言模型(LLMs)在软件开发中日益广泛应用，但在复杂硬件设计中的应用仍然有限。这一差距源于公共硬件训练数据的稀缺以及硬件设计中使用的根本不同的方法论。特别是，将LLMs应用于硬件不仅需要直接的RTL生成：模型还必须理解模块边界、模块间连接和验证要求。在本文中，我们提出了一种基于LLM的硬件开发框架，该框架采用分层中间表示(IR)和端到端多代理工作流。核心思想是通过两种结构化的IR为LLMs提供硬件设计的抽象：架构草图(Architectural Sketch)，用于捕获模块拓扑和互连；以及操作规范(Operational Specification)，用于定义每个模块的功能和接口。我们的框架使用这些IR将复杂设计分解为子模块，指定每个块的功能，并推导出每个模块应如何进行测试和验证。我们在框架中集成了一个多代理调试循环，允许代理获取错误反馈并控制调试细节，例如在仿真中需要探测的信号。我们在Verilog-Eval基准测试上评估了我们的框架，实现了95.5%的pass@5率，超过了当前最先进的LLM生成框架。为了更好地评估在复杂、真实设计上的性能，我们引入了一个新的案例研究，涵盖了从通用处理器到数字信号处理系统的应用。实验结果表明，这类复杂设计超出了现有方法的能力范围，而我们的框架是唯一能够生成功能完整的端到端设计的方案。我们生成的RTL遵循所有行业标准设计规则，无lint错误，功能正确且完全可综合。"
+  },
+  {
+    "date": "2026-08-31",
+    "title": "Scalable AXI4 Transaction Monitoring for Mixed-Criticality SoCs: From Phase-Level Precision to ID-Level Efficiency",
+    "authors": "Chaoqun Liang, Thomas Benz, Alessandro Ottaviano, Michael Rogenmoser, Luca Benini, Angelo Garofalo, Davide Rossi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2608.30435v1",
+    "source": "arXiv",
+    "abstract": "Mixed-criticality Systems-on-Chip (SoCs) with on-chip interconnects based on the AXI4 open standard protocol lack a protocol-level timeout mechanism, exposing systems to deadlocks and missed real-time deadlines when subordinate devices or managers fail or stall due to hardware faults, radiation-induced upsets, or software errors. This work presents a configurable hardware intellectual property (IP), non-intrusive in fault-free operation, that detects AXI4 protocol violations and timing faults at runtime and restores interconnect liveness through a cut-and- drain isolation mechanism. To address the fundamental trade-off between monitoring granularity and area cost, we introduce three designs at decreasing monitoring granularity: Phase-Level Track-ing (PLT), which provides cycle-accurate fault localization across individual protocol phases; Channel-Level Tracking (CLT), which coalesces per-phase monitors into channel-level supervision; and ID-Level Tracking (ILT), which achieves sub-linear area scaling by monitoring only per-ID transaction boundaries. Synthesized in GlobalFoundries 12 nm technology, CLT reduces area by 36.7% relative to PLT while preserving worst-case detection bounds at a minimal detection latency overhead, whereas ILT achieves an 89.2% area reduction suitable for tightly constrained deployments at the cost of a 3.7x higher median detection latency with coarser fault localization. Fault injection campaigns on a RISC-V SoC across 1.2 million scenarios confirm that no fault manifesting as an AXI4 protocol or liveness violation escaped detection, with observed detection latencies consistently bounded by theoretical worst-case predictions.",
+    "title_zh": "可扩展的AXI4事务监控用于混合关键性SoC：从阶段级精度到ID级效率",
+    "abstract_zh": "基于AXI4开放标准协议的片上互连的混合关键性片上系统(SoCs)缺乏协议级别的超时机制，这使得系统在面对从设备或管理器因硬件故障、辐射引起的扰动或软件错误而故障或停滞时，容易陷入死锁和错过实时截止期限。本文提出了一种可配置的硬件知识产权(IP)，在无故障操作中是非侵入式的，能够在运行时检测AXI4协议违规和时序故障，并通过切断和隔离机制恢复互连的活跃性。为了解决监控粒度与面积成本之间的基本权衡，我们引入了三种监控粒度递减的设计：阶段级跟踪(PLT)，它提供跨单个协议阶段的周期精确故障定位；通道级跟踪(CLT)，它将每阶段监控器合并为通道级监督；以及ID级跟踪(ILT)，它通过仅监控每个ID的事务边界来实现亚线性面积扩展。在GlobalFoundries 12 nm技术中综合后，CLT相对于PLT减少了36.7%的面积，同时保留了最坏情况检测边界，且检测延迟开销最小；而ILT实现了89.2%的面积减少，适用于严格受限的部署，但代价是3.7倍更高的中位检测延迟和更粗粒度的故障定位。在RISC-V SoC上针对120万个场景的故障注入实验证实，没有表现为AXI4协议或活跃性违规的故障能够逃脱检测，观察到的检测延迟始终被理论上的最坏情况预测所限制。"
+  },
+  {
+    "date": "2026-9-1",
+    "title": "How Do BMC Formulas Evolve? An Empirical Study of SAT Feature Dynamics During Incremental Unrolling",
+    "authors": "Satyam Shubham, Ansuman Banerjee",
+    "publish": "IEEE Embedded Systems Letters",
+    "url": "https://doi.org/10.1109/les.2026.3729346",
     "source": "IEEE",
     "abstract": "",
-    "title_zh": "SpiceDiff Agent Simulation: Efficient LLM Guided Planning for Specification Driven Analog Circuit Netlist Repair\n\n中文翻译：\nSpiceDiff 代理仿真：基于规格驱动的模拟电路网表修复的高效 LLM 指导规划",
+    "title_zh": "BMC公式如何演变？增量展开过程中SAT特征动态的实证研究",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-1",
+    "title": "ConFluxFuzz: Control-Flow Restructuring and Freshness-Decayed Scheduling for Processor Fuzzing",
+    "authors": "Ruomin Fang, He Wang, Xu Chen, Wenhao Cui, Ningning Cui, Liwei Chen, Gang Shi, Dan Meng",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2026.3729908",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "ConFluxFuzz：面向处理器模糊测试的控制流重构与新鲜度衰减调度",
     "abstract_zh": "None"
   }
 ]
