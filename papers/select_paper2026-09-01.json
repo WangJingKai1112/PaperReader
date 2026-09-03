@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-09-01",
+    "title": "A Version Space Approach for Digital Circuit Analysis",
+    "authors": "Mitchell A. Thornton",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.00609v1",
+    "source": "arXiv",
+    "abstract": "Many questions about a digital circuit take the same form. A hidden object is consistent with a set of observations, and one wants to know how many remain consistent and which observation to make next. The set of surviving candidates is the version space, and its size, on a logarithmic scale, measures how much the observations have settled. This paper develops the version-space view as one method and applies it to two circuit-analysis problems usually treated as unrelated. The first is probabilistic combinational equivalence checking, where the candidates are Boolean functions and the observations are modified-Haar spectral coefficients. A method proposed in 2002 posed this counting problem and solved only two special cases, leaving the general case an enumeration exponential in the number of observations. We close it. A reparameterization onto block sums turns the dependence among nested coefficients into locality, a sum--product recursion counts the surviving functions exactly in time polynomial in the truth-table size, closed forms follow for a single coefficient, a coefficient pair, and every ancestor-closed set, and the error of the independence approximation the 2002 work resorted to equals a computable lattice index. Every formula is checked against exhaustive enumeration and reproduces the 2002 tables. The second application is key counting for logic-locked netlists, where the candidates are keys and the observations are oracle responses. The same recursion, run over the gate-level factor graph, computes the number of keys still consistent with a set of queries; across seventy instances of the TrustHub obfuscation release the surviving entropy falls below the advertised key length every time. The two applications are one method: a witness supplies observations, each removes candidates, and the version space is counted exactly.",
+    "title_zh": "一种用于数字电路分析的版本空间方法",
+    "abstract_zh": "许多关于数字电路的问题具有相同的形式。一个隐藏对象与一组观测结果一致，人们想知道有多少个对象仍然保持一致，以及下一个应该进行哪种观测。幸存候选对象的集合称为版本空间(version space)，其对数尺度的大小衡量了观测结果的确定性程度。本文将版本空间观点作为一种方法，并将其应用于两个通常被视为无关的电路分析问题。第一个是概率组合等价性检查(probabilistic combinational equivalence checking)，其中候选对象是布尔函数，观测结果是修改的Haar谱系数。2002年提出的一种方法提出了这个计数问题，但只解决了两个特殊情况，使得一般情况下的枚举复杂度随观测数量呈指数增长。我们解决了这个问题。通过重新参数化为块求和，将嵌套系数之间的依赖关系转化为局部性，一种求积递归方法可以在真值表大小的多项式时间内精确计算幸存函数的数量，对于单个系数、系数对以及每个祖先封闭集，可以得到闭合形式，而2002年工作中依赖的独立性近似误差等于一个可计算的格指数。每个公式都经过穷举枚举验证，并重现了2002年的表格。第二个应用是逻辑锁定网表(logic-locked netlists)的密钥计数，其中候选对象是密钥，观测结果是oracle响应。相同的递归方法在门级因子图上运行，可以计算与一组查询仍然一致的密钥数量；在TrustHub混淆发布的七十个实例中，幸存熵每次都低于宣传的密钥长度。这两个应用是同一种方法：一个观测结果提供证据，每个观测结果都会消除候选对象，版本空间被精确计数。"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "JENGA: Exploiting Counter-Based RowHammer Countermeasures to Break Real-Time Predictability",
+    "authors": "Valentin Abgrall, Marcello Traiola, Ruben Salvador, Maria Méndez Real, Alessandro Palumbo, Angeliki Kritikakou",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.01077v1",
+    "source": "arXiv",
+    "abstract": "Safety-critical real-time systems must satisfy multiple dependability requirements, notably time predictability and security. In such systems, tasks must complete within bounded and known execution times, typically characterised through Worst-Case Execution Time (WCET) analysis. At the same time, DRAM-based platforms are increasingly sensitive to the RowHammer read-disturbance security vulnerability, which has motivated the development of numerous hardware and software countermeasures in both academia and industry. However, the impact of these defences is generally evaluated in terms of average-case performance, a metric that is insufficient for safetycritical real-time systems, where worst-case behaviour is the primary concern. In this paper, we study the impact of RowHammer countermeasures based on hardware counters on the timing behaviour of real-time systems. We use a Per-Row-Activation-Counter (PRAC) countermeasure as a case study, standardised for recent DDR5 memories, and show that it can introduce significant timing variations. Based on this observation, we introduce JENGA, an attack in which an attacker-controlled task manipulates the internal state of the RowHammer countermeasure mechanism to increase the execution time of a victim real-time task beyond its expected WCET. We implement JENGA in a gem5 and Ramulator 2.0 simulation environment and evaluate its impact on TACLeBench workloads. We show that such an attack can delay tasks up to 200% of their WCET, making the initial timesafety assumptions unsafe. To address this issue, we derive a safe analytical bound that accounts for mitigation-induced delays in WCET analysis for DRAM systems protected by hardware countermeasures, such as PRAC-N.",
+    "title_zh": "JENGA：利用基于计数器的RowHammer缓解措施打破实时可预测性",
+    "abstract_zh": "安全关键实时系统必须满足多项可靠性要求，特别是时间可预测性和安全性。在这样的系统中，任务必须在有界且已知的执行时间内完成，通常通过最坏情况执行时间(WCET)分析来表征。同时，基于DRAM的平台对RowHammer读取干扰安全漏洞越来越敏感，这促使学术界和工业界开发了大量的硬件和软件对策。然而，这些防御措施的影响通常基于平均情况性能进行评估，这一指标对于安全关键实时系统来说是不充分的，因为最坏情况行为是主要关注点。在本文中，我们研究了基于硬件计数器的RowHammer对策对实时系统时间行为的影响。我们使用每行激活计数器(PRAC)对策作为案例研究，该对策已针对最新的DDR5内存标准化，并表明它可以引入显著的时间变化。基于这一观察，我们引入了JENGA攻击，其中攻击者控制的任务操纵RowHammer对策机制的内部状态，使受害实时任务的执行时间超过其预期的WCET。我们在gem5和Ramulator 2.0仿真环境中实现了JENGA，并评估了它对TACLeBench工作负载的影响。我们表明，这种攻击可以将任务的延迟时间延长到其WCET的200%，使得最初的时间安全假设变得不安全。为了解决这个问题，我们推导出一个安全分析边界，该边界考虑了DRAM系统中由硬件对策(如PRAC-N)引起的延迟，并在WCET分析中加以考虑。"
+  },
+  {
+    "date": "2026-09-01",
+    "title": "GlitchLab: A Hardware-in-the-Loop Optimizer for Physical Fault Injection",
+    "authors": "Tanvir Hossain, Abhinav Mahadevan, Jasper Van Woudenberg, Rajesh Velegalati, Arindam Bhattacharyya",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.00502v1",
+    "source": "arXiv",
+    "abstract": "Physical fault injection can turn brief hardware disturbances into security failures such as key recovery, authentication bypass, and unintended control flow. Finding effective faults is difficult because many interacting parameters create a large search space, successful settings are sparse and target-dependent, and each hardware attempt provides limited feedback. Under fixed testing time, efficient search is therefore critical for assessing fault sensitivity. We present GlitchLab, an online hardware-in-the-loop platform that treats delay as a timing gate, voltage and pulse duration as severity controls, and hardware outcomes as structured feedback. It implements RL-Q (Q-learning-based reinforcement learning), a structured bandit for discovery, and Structured-Outcome-Based Adaptive Search (SOBAS), a model-based policy for fault reproduction. Both policies find a target fault in every AES, password, and control-flow campaign. On AES and control flow, they require 2-85x fewer attempts and 26-1,237x less time than the baselines; on password, both succeed while the baselines fail within 5,000 attempts. After discovery, SOBAS reproduces faults 7.3-21x more often, while RL-Q identifies 30% more distinct AES settings.",
+    "title_zh": "GlitchLab：一种用于物理故障注入的硬件在环优化器",
+    "abstract_zh": "物理故障注入可以将短暂的硬件干扰转变为安全故障，如密钥恢复、身份验证绕过和非预期的控制流。由于许多相互作用的参数创造了巨大的搜索空间，成功的设置稀疏且依赖于目标，并且每次硬件尝试提供的反馈有限，因此找到有效的故障很困难。在固定的测试时间内，高效的搜索对于评估故障敏感性至关重要。我们提出了GlitchLab，一个在线硬件在环平台，它将延迟视为时序门，电压和脉冲持续时间视为严重性控制，并将硬件结果视为结构化反馈。它实现了RL-Q（基于Q学习的强化学习），一种用于发现的带结构化赌博机算法，以及基于结构化结果的自适应搜索（SOBAS），一种用于故障复制的基于模型的策略。这两种策略在每次AES、密码和控制流活动中都能找到目标故障。在AES和控制流方面，它们需要的尝试次数比基线少2-85倍，时间少26-1,237倍；在密码方面，两者都能成功，而基线在5,000次尝试内失败。发现后，SOBAS能以7.3-21倍的频率重现故障，而RL-Q能识别出多30%的不同AES设置。"
+  },
+  {
+    "date": "2026-9-1",
+    "title": "How Do BMC Formulas Evolve? An Empirical Study of SAT Feature Dynamics During Incremental Unrolling",
+    "authors": "Satyam Shubham, Ansuman Banerjee",
+    "publish": "IEEE Embedded Systems Letters",
+    "url": "https://doi.org/10.1109/les.2026.3729346",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "BMC公式如何演变？增量展开过程中SAT特征动态的实证研究",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-1",
+    "title": "ConFluxFuzz: Control-Flow Restructuring and Freshness-Decayed Scheduling for Processor Fuzzing",
+    "authors": "Ruomin Fang, He Wang, Xu Chen, Wenhao Cui, Ningning Cui, Liwei Chen, Gang Shi, Dan Meng",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2026.3729908",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "ConFluxFuzz：面向处理器模糊测试的控制流重构与新鲜度衰减调度",
+    "abstract_zh": "None"
+  }
+]
