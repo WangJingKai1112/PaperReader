@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-09-03",
+    "title": "Extending concurrent separation logic to the hardware level to verify the xv6 OS kernel on RISC-V with AI agents",
+    "authors": "M. Frans Kaashoek, Nickolai Zeldovich",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.04043v1",
+    "source": "arXiv",
+    "abstract": "MachCSL is a framework for verifying systems software, such as an OS kernel, on top of low-level semantics of a RISC-V computer, based on the Sail RISC-V semantics. The key idea behind MachCSL is to adapt concurrent separation logic, based on Iris, to reasoning about low-level hardware execution at the sub-instruction level: page-table translation, TLB, privilege levels, configuration registers, instruction fetch/decode/execute, traps and interrupts, DMA, shared memory, power failures, etc. Reasoning at this level of detail ensures that the system software correctly manages all of the hardware details. Verifying software at this low level of abstraction is tedious, but LLM-based agents are capable of reasoning about such low-level details. As a case study, we verify the xv6 OS kernel (6,593 lines of C and assembly code), which provides a traditional Unix system call interface (processes, file system, file descriptors, and preemptive scheduling) and has substantial internal concurrency (multi-core support with fine-grained locking, shared memory, interrupts, DMA, etc.). In the verification process, we uncovered nine bugs in the xv6 implementation, as well as one bug in the Sail RISC-V semantics. The verification effort took us 77 days, including the time to develop the MachCSL framework.",
+    "title_zh": "将并发分离逻辑扩展到硬件级别，通过AI代理验证RISC-V上的xv6操作系统内核",
+    "abstract_zh": "MachCSL 是一个用于验证系统软件（如操作系统内核）的框架，它基于 RISC-V 计算机的底层语义，并建立在 Sail RISC-V 语义之上。MachCSL 的核心思想是基于 Iris 适配并发分离逻辑，用于推理子指令级别的低级硬件执行：页表转换、TLB、特权级别、配置寄存器、指令获取/解码/执行、陷阱和中断、DMA、共享内存、电源故障等。在这种详细级别上进行推理可以确保系统软件正确管理所有硬件细节。在这种低抽象级别上验证软件是繁琐的，但基于大型语言模型（LLM）的代理能够推理这些低级细节。作为案例研究，我们验证了 xv6 操作系统内核（6,593 行 C 语言和汇编代码），该内核提供了传统的 Unix 系统调用接口（进程、文件系统、文件描述符和抢占式调度），并具有大量的内部并发性（多核支持与细粒度锁、共享内存、中断、DMA 等）。在验证过程中，我们在 xv6 实现中发现了九个错误，在 Sail RISC-V 语义中发现了一个错误。验证工作花费了我们 77 天的时间，包括开发 MachCSL 框架的时间。"
+  },
+  {
+    "date": "2026-9-3",
+    "title": "Verifying Interrupt-driven Programs Efficiently via Heuristic and Reduced Partial-order Constraints",
+    "authors": "Bin Yu, Xu Lu, Yuanzhe Liu, Zixuan Yuan, Letian Wang, Meng Wang, Chu Chen, Yansong Dong",
+    "publish": "ACM Transactions on Embedded Computing Systems",
+    "url": "https://doi.org/10.1145/3845803",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "通过启发式和简化偏序约束高效验证中断驱动程序",
+    "abstract_zh": "None"
+  }
+]
