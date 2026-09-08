@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-9-7",
+    "title": "An Optimisation Methodology for Functional Verification of Quantum Circuits Employing Symbolic Bit-Vector Abstractions",
+    "authors": "Arun Govindankutty",
+    "publish": "2026 IEEE International Conference on Electro Information Technology (eIT)",
+    "url": "https://doi.org/10.1109/eit68936.2026.11670440",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种基于符号位向量抽象的量子电路功能验证优化方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-8",
+    "title": "FlowFixer-EDA: A Tool-Feedback-Augmented Large Language Model Agent for Automated Diagnosis and Repair of Open-Source RTL-to-GDS Design Flow Failures",
+    "authors": "Ke Dong, Ruidong Wang, Fang Yuan, Baichun An, Xia Zhang",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3730896",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "FlowFixer-EDA：一种工具反馈增强型大语言模型智能体，用于开源RTL到GDS设计流程故障的自动诊断与修复",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-8",
+    "title": "Enter, Exit, Page Fault, Leak ${ }^{\\ddagger}$: Testing Isolation Boundaries for Microarchitectural Leaks",
+    "authors": "Oleksii Oleksenko, Flavien Solt, Cedric Fournet, Jana Hofmann, Boris Kopf, Stavros Volos",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00007",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "进入，退出，页面错误，泄漏$^{\\ddagger}$：测试微架构泄漏的隔离边界",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-8",
+    "title": "Deterministic Fault Pattern Library: Bridging RTL Accuracy and High-Level Simulation Efficiency for Systolic Arrays",
+    "authors": "Vu Dang Nguyen Trinh, Ayoub Fellouh, Otmane Ait Mohamed, Fakhreddine Ghaffari",
+    "publish": "2026 24nd IEEE Interregional NEWCAS Conference (NEWCAS)",
+    "url": "https://doi.org/10.1109/newcas64543.2026.11673974",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "确定性故障模式库：连接RTL精度与脉动阵列高层仿真效率",
+    "abstract_zh": "None"
+  }
+]
