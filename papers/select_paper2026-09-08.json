@@ -1,0 +1,222 @@
+[
+  {
+    "date": "2026-09-08",
+    "title": "Towards Standardized Evaluation of GPU Memory Safety with GMSBench",
+    "authors": "Saurabh Singh, Jaewon Lee, Seonjin Na, Hyesoon Kim",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.08871v1",
+    "source": "arXiv",
+    "abstract": "As GPUs become increasingly integral to high-performance computing and machine learning, ensuring memory safety in GPU programs has become crucial for reliable and secure execution. However, evaluating GPU memory safety techniques remains challenging due to the lack of comprehensive and standardized benchmarks. In this paper, we present GMSBench, a GPU memory safety benchmark designed to evaluate a broad range of memory safety violations across different GPU memory spaces and execution scenarios. GMSBench comprises 149 self-contained CUDA tests spanning spatial, temporal, and concurrency errors. The suite provides a standardized foundation for the evaluation and comparative analysis of GPU memory safety mechanisms and helps expose gaps in their detection coverage. We demonstrate the utility of GMSBench by evaluating Compute Sanitizer, a widely used GPU memory error detection tool across multiple GPU architectures.",
+    "title_zh": "GMSBench：GPU内存安全标准化评估",
+    "abstract_zh": "随着GPU在高性能计算和机器学习中变得越来越重要，确保GPU程序中的内存安全对于可靠和安全的执行变得至关重要。然而，由于缺乏全面和标准化的基准测试，评估GPU内存安全技术仍然具有挑战性。在本文中，我们提出了GMSBench，这是一个GPU内存安全基准测试，旨在评估不同GPU内存空间和执行场景中的广泛内存安全违规。GMSBench包含149个独立的CUDA测试，涵盖了空间、时间和并发错误。该套件为评估和比较分析GPU内存安全机制提供了标准化的基础，并有助于揭示其检测覆盖范围的不足。我们通过评估Compute Sanitizer（一种广泛使用的GPU内存错误检测工具）在多种GPU架构上的应用，展示了GMSBench的实用性。"
+  },
+  {
+    "date": "2026-09-08",
+    "title": "Application of curiosity driven exploration methods for hardware interference identification",
+    "authors": "Ludovic Matar, Clement Moulin-Frier, Pierre-Yves Oudeyer",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.08729v1",
+    "source": "arXiv",
+    "abstract": "The transition from single-core to multi-core architectures in safety-critical embedded systems introduces significant challenges due to inter-core interference caused by contention for shared hardware resources. Such interference affects execution times and complicates the verification of strict temporal requirements, particularly in domains such as avionics where standards require comprehensive identification of interference sources. Existing interference analysis approaches, whether manual or model-based, struggle to capture the full range of behaviors arising from the complex interactions among micro-architectural components. In this paper, we frame multi-core interference analysis as the exploration of a complex system behavior space. We propose the use of curiosity-driven exploration algorithms from artificial intelligence to systematically and efficiently cover the space of possible interference behaviors. Using a simulator-based environment, we show that the proposed approach achieves broader and more uniform behavioral coverage within a limited experimental budget compared to traditional pseudo-random program generation methods.",
+    "title_zh": "基于好奇心驱动探索方法的硬件干扰识别应用",
+    "abstract_zh": "在安全关键嵌入式系统中，从单核到多核架构的过渡引入了显著挑战，这是由于对共享硬件资源的争用导致的核间干扰。这种干扰影响执行时间，并使严格时间要求的验证复杂化，特别是在航空电子等领域，这些领域的标准要求全面识别干扰源。现有的干扰分析方法，无论是手动还是基于模型的，都难以捕捉微架构组件间复杂交互产生的全部行为范围。在本文中，我们将多核干扰分析视为复杂系统行为空间的探索。我们提出使用人工智能中的好奇心驱动探索算法，以系统且高效地覆盖可能的干扰行为空间。基于模拟器的环境实验表明，与传统伪随机程序生成方法相比，所提出的方法在有限的实验预算内实现了更广泛且更均匀的行为覆盖。"
+  },
+  {
+    "date": "2026-09-08",
+    "title": "DJPlus: Generating minimal test suites for strong coverage criteria in graph models",
+    "authors": "Yavuz Köroğlu, Mutlu Beyazıt, Onur Kılınççeker, Serge Demeyer, Franz Wotawa",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.08953v1",
+    "source": "arXiv",
+    "abstract": "Automated test generation from graph models is essential to model-based testing. In this type of testing, graph coverage ensures test suite strength but also results in long test cases that take time to execute on the system under test. We propose a novel optimization-driven method, DJPlus, which generates reduced test suites while satisfying given graph-based test requirements. We implement DJPlus and show the feasibility of edge-pair criterion, a stronger coverage criterion than vertex or edge criteria, on four realistic systems, while prime path criterion poses scalability issues. Our evaluation reveals that the alternative methods generate 2 to 26 times more redundant test steps than DJPlus and DJPlus decreases test execution times by reducing the number of test steps. These results show that DJPlus is a positive step towards tackling the challenges of model-based testing at an industrial scale.",
+    "title_zh": "DJPlus：针对图模型中强覆盖标准生成最小测试套件",
+    "abstract_zh": "从图模型自动生成测试用例对基于模型的测试至关重要。在这种测试类型中，图覆盖确保了测试套件的强度，但也会导致测试用例过长，在待测系统上执行耗时。我们提出了一种新颖的优化驱动方法DJPlus，它在满足给定的基于图的测试要求的同时生成精简的测试套件。我们实现了DJPlus，并在四个真实系统上证明了边对标准的可行性，这是一种比顶点或边标准更强的覆盖标准，而素数路径标准则存在可扩展性问题。我们的评估显示，替代方法生成的冗余测试步骤比DJPlus多2到26倍，而DJPlus通过减少测试步骤数量降低了测试执行时间。这些结果表明，DJPlus在应对工业规模基于模型的测试挑战方面迈出了积极的一步。"
+  },
+  {
+    "date": "2026-9-8",
+    "title": "FlowFixer-EDA: A Tool-Feedback-Augmented Large Language Model Agent for Automated Diagnosis and Repair of Open-Source RTL-to-GDS Design Flow Failures",
+    "authors": "Ke Dong, Ruidong Wang, Fang Yuan, Baichun An, Xia Zhang",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3730896",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "FlowFixer-EDA：一种工具反馈增强型大语言模型代理，用于开源RTL到GDS设计流程故障的自动诊断与修复",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Bridging the Final Gap: Fuzzing Template Generation from Protocol Reverse Engineering",
+    "authors": "Wenlong Zhang, Fuchen Ma, Yongjun Xie, Yuanliang Chen, Dalong Shi, Dongyi Yu, Heyuan Shi",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3774748.3787609",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "弥合最终差距：从协议逆向工程生成模糊测试模板",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Configurable RTL Code Generation for AMBA AXI Bus Architecture with UVM-Based Verification",
+    "authors": "Shaik Sumiya Begum, Gannera Mamatha",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11682962",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于UVM验证的可配置RTL代码生成器，用于AMBA AXI总线架构",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "A Modular UVM-Based Scoreboard Architecture for Protocol-Aware Verification of Non-FLIT PCIe Transactions",
+    "authors": "Varsha Kuruba, P. Ramana Reddy",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11683072",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种基于模块化UVM的架构，用于非FLIT PCIe事务的协议感知验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Design and Verification of a High-Performance Quad Serial Peripheral Interface (QSPI) Controller",
+    "authors": "U.Vijay Kumar, V. Sumalatha",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11683090",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "高性能四串行外设接口(QSPI)控制器的设计与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-8",
+    "title": "Enter, Exit, Page Fault, Leak ${ }^{\\ddagger}$: Testing Isolation Boundaries for Microarchitectural Leaks",
+    "authors": "Oleksii Oleksenko, Flavien Solt, Cedric Fournet, Jana Hofmann, Boris Kopf, Stavros Volos",
+    "publish": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/sp63933.2026.00007",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "进入，退出，页面错误，泄漏$^{\\ddagger}$：测试微架构泄漏的隔离边界",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Visualization-Guided Debug Methodology for Verification of GPU Fixed-Function Pipelines Under Stall Scenarios",
+    "authors": "Chirag Tripathi, R.K. Sharma",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11683216",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "GPU停滞场景下固定功能流水线的可视化引导调试验证方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Design And Verification of SRAM Controller With AXI Interface Using ECC",
+    "authors": "Lakshmi Narayani Kachana, Mamatha K, Sreedhar M",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11683029",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于AXI接口并采用ECC的SRAM控制器设计与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Reinforcement Learning from Testing Targets for Effective SLM Test Generation",
+    "authors": "Kevin Céspedes-Arancibia",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3774748.3787638",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于测试目标的强化学习用于有效SLM测试生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Design and Verification of Hybrid BIST Architecture for DRAM and SRAM Based PiM Systems",
+    "authors": "K.Shravani Reddy, C.V. Giriraja, C. Paramasivam",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11683019",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于PiM系统的DRAM和SRAM混合BIST架构设计与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "What Do We Really Need? Identifying Minimal Sufficient Temporal Properties via Refinement",
+    "authors": "Luca Brodo, Giuseppe Scalora, Stefan Henkler",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3774748.3795661",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "我们真正需要什么？通过精炼识别最小充分时间属性",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Explainable AI-Driven Fault Prediction in Nanoscale VLSI Circuits Using Hybrid Graph Neural Networks",
+    "authors": "Vanmala, Vishnu Lakkamraju, Pradeep Kachakayala, Prajakta Zade, Arshdeep Kaur, Tiyas Sarkar",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11683121",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于混合图神经网络的纳米级VLSI电路可解释AI驱动故障预测",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Bug Relevant Test Generation for Better Fault Localization",
+    "authors": "Ashrit Reddy Yarava",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3774748.3787749",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "针对更好故障定位的 Bug 相关测试生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-8",
+    "title": "Deterministic Fault Pattern Library: Bridging RTL Accuracy and High-Level Simulation Efficiency for Systolic Arrays",
+    "authors": "Vu Dang Nguyen Trinh, Ayoub Fellouh, Otmane Ait Mohamed, Fakhreddine Ghaffari",
+    "publish": "2026 24nd IEEE Interregional NEWCAS Conference (NEWCAS)",
+    "url": "https://doi.org/10.1109/newcas64543.2026.11673974",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "确定性故障模式库：连接RTL精度与高等级模拟效率的脉动阵列",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-8",
+    "title": "CRYPTIC: CRYptographic FPGA Targeting through Intelligent Corruption",
+    "authors": "Christopher Josiah Stance, Mani Rupak Gurram, Daniel Ifeoluwa Idowu, Akshay “Ak” Raghavendra Kulkarni",
+    "publish": "NAECON 2026 - IEEE National Aerospace and Electronics Conference",
+    "url": "https://doi.org/10.1109/naecon70028.2026.11675719",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "加密：通过智能破坏针对加密FPGA",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "RTL Design and Verification of Optimized Elliptic Curve Cryptography (ECC)",
+    "authors": "P. Ramani, G. Mamatha",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11683037",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "优化椭圆曲线密码学(ECC)的RTL设计与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Performance Improvement of Automated Test Input Data Generation by Using Value Concretization",
+    "authors": "Toshiaki Yasue, Kouichi Ono, Atul Kumar, Diptikalyan Saha, Fumiko Satoh",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3774748.3795664",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "通过使用值具体化改进自动化测试输入数据生成的性能",
+    "abstract_zh": "None"
+  }
+]
