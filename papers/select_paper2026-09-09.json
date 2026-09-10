@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2026-09-09",
+    "title": "CertiFlash: A Formal Verification Framework for Flash Translation Layers in Computational Solid State Drives",
+    "authors": "Harshita Gupta, Mayank Kabra, Rakesh Nadig, Nika Mansouri Ghiasi, Sahand Divsalar, F. Nisa Bostanci, Ataberk Olgun, Konstantinos Kanellopoulos, Jisung Park, Haiyu Mao, Abdullah Giray Yaglikci, Mohammad Sadrosadati, Onur Mutlu",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.10347v1",
+    "source": "arXiv",
+    "abstract": "Data-intensive applications move large amounts of data from storage to the compute unit, incurring significant data movement overhead. Storage-centric computing reduces this overhead by moving computation near or inside solid-state drives (SSDs). Enabling it requires modifying SSD policies, e.g., address translation and garbage collection, which are part of the Flash Translation Layer (FTL), the SSD's firmware. Modifying the FTL is error-prone. Because FTL logic has direct access to security-critical device components, even a functionally correct FTL can leak data between tenants, drop integrity tags, or assign a flash block to the wrong tenant. We show that a faulty FTL can corrupt the device state at five surfaces inside the SSD, and demonstrate them on a DaisyPlus OpenSSD. Prior work verifies individual FTL designs, but has two limitations. (1) It establishes only functional correctness, so a modified FTL can violate isolation, integrity, and ownership and still pass verification. (2) It is tied to a single FTL design, so every modification requires redoing every proof. We propose CertiFlash, a formal verification framework for FTLs, mechanized in the Rocq proof assistant, that gives designers a machine-checked proof of security and correctness. CertiFlash models an FTL as a deterministic state machine with a single global invariant over mapping, isolation, integrity, ownership, and allocation. We prove once, over a general FTL model, that (i) every FTL operation preserves the invariant and (ii) the model refines an idealized block device. For a new design, a designer discharges five hypotheses about its own operations instead of redoing either proof. Across four case studies, a designer adds 27 to 3,231 lines against a 16,489-line framework, significantly reducing the verification effort. CertiFlash is open source.",
+    "title_zh": "CertiFlash：计算固态硬盘闪存转换层的形式化验证框架",
+    "abstract_zh": "数据密集型应用将大量数据从存储传输到计算单元，产生了显著的数据移动开销。以存储为中心的计算通过将计算移动到固态驱动器(SSD)内部或附近来减少这种开销。实现这一点需要修改SSD策略，例如地址转换和垃圾回收，这些是闪存转换层(FTL)的一部分，也是SSD的固件。修改FTL容易出错。因为FTL逻辑可以直接访问安全关键的设备组件，即使功能正确的FTL也可能在租户之间泄露数据、删除完整性标签或将闪存块分配给错误的租户。我们展示了一个有故障的FTL可以在SSD内部的五个层面损坏设备状态，并在DaisyPlus OpenSSD上进行了演示。先前的工作验证了单个FTL设计，但有两个局限性。(1)它只建立了功能正确性，因此修改后的FTL可能违反隔离性、完整性和所有权，但仍能通过验证。(2)它依赖于单一的FTL设计，因此每次修改都需要重新完成每个证明。我们提出了CertiFlash，一个用于FTL的形式化验证框架，在Rocq证明助手上实现，为设计师提供机器检查的安全性和正确性证明。CertiFlash将FTL建模为具有单一全局不变量的确定性状态机，该不变量涵盖映射、隔离性、完整性、所有权和分配。我们在一个通用FTL模型上证明一次：(i)每个FTL操作都保持不变量，(ii)该模型细化了一个理想化的块设备。对于新设计，设计师只需为其操作提出五个假设，而不是重新完成任何证明。在四个案例研究中，设计师针对16,489行的框架添加了27到3,231行代码，显著减少了验证工作量。CertiFlash是开源的。"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "AutoTrans: AI-Assisted Automatic Translation of Security Assertions for RISC-V Processors",
+    "authors": "Sharjeel Imtiaz, Uljana Reinsalu, Tara Ghasempouri",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.10057v1",
+    "source": "arXiv",
+    "abstract": "Reusing a set of verified security assertions across RISC-V processor targets remains one of the most expensive bottlenecks in hardware security verification. Manual translation takes hours per assertion. Raw LLM translation is fast but unreliable, introducing signal hallucination, where the model invents port names absent from the target RTL and produces outputs that may vary across model updates or even within the same model version. This paper presents AutoTrans, an automated framework that addresses the above shortcomings. First, a new lightweight Regular Expression-based System Verilog signal extractor is proposed to identify the signals for generating security assertions. This step is necessary to prevent signal hallucination. Second, a template is introduced to create prompt and pinned inference parameters that guarantee a byte-identical prompt assembly on every run, making the pipeline output resilient to model updates. Moreover, the introduced template for LLM prompting is capable of generating security assertions from English-only security descriptions of RISC-V processors, with no manual authoring. Third, a formal verification process (JasperGold FPV) is integrated, which guarantees that the generated security assertions verify the security of the RISC-V processor rather than silently entering the result set. The workflow is applied on Deepseek V4 to translate security assertions from one RISC-V to another (e.g., for IBEX from NS31A RISC-V). The experiment shows that AutoTrans achieves 78\\% Auto Translation Acceptance Rate (TAR) automatically and without human intervention and 100\\% Final TAR after refinement by humans.",
+    "title_zh": "AutoTrans：面向RISC-V处理器的安全断言AI辅助自动翻译",
+    "abstract_zh": "在RISC-V处理器目标中重用一组经过验证的安全断言仍然是硬件安全验证中最昂贵的瓶颈之一。手动翻译每个断言需要花费数小时时间。原始的LLM翻译速度快但不可靠，会产生信号幻觉，即模型会编造出目标RTL中不存在的端口名称，并且生成的输出可能会随着模型更新甚至在同一模型版本中发生变化。本文提出了AutoTrans，一个解决上述缺点的自动化框架。首先，提出了一种新的基于正则表达式的轻量级SystemVerilog信号提取器，用于识别生成安全断言所需的信号。这一步对于防止信号幻觉是必要的。其次，引入了一个模板来创建提示和固定的推理参数，确保每次运行时提示的组装完全一致，使管道输出对模型更新具有鲁棒性。此外，引入的LLM提示模板能够仅使用RISC-V处理器的英文安全描述来生成安全断言，无需手动编写。第三，集成了一个形式化验证过程（JasperGold FPV），确保生成的安全断言能够验证RISC-V处理器的安全性，而不是默默地进入结果集。该工作流程应用于Deepseek V4，将安全断言从一个RISC-V处理器翻译到另一个处理器（例如，从NS31A RISC-V的IBEX）。实验表明，AutoTrans能够自动且无需人工干预地实现78%的自动翻译接受率（TAR），并在人工完善后达到100%的最终TAR。"
+  },
+  {
+    "date": "2026-09-09",
+    "title": "Towards Tackling Application Logic Flaws through Autonomous Formal-Logic Modeling and Automated Reasoning",
+    "authors": "Yiwei Fang, Yichen Liu, Ze Jin, Haoqiang Wang, Qixu Liu, Luyi Xing",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.10537v1",
+    "source": "arXiv",
+    "abstract": "Logic flaws pose significant challenges in the design and implementation of modern, semantically rich systems and applications, impacting security, privacy, and trust. These flaws are inherently tied to business-specific semantics and threat models, making their discovery and reasoning difficult and hard to scale. Real-world systems often exhibit diverse application features, complex protocol logic, and domain-specific threat models, necessitating substantial human effort and domain expertise for effective security analysis. In this paper, we introduce LL-Verifier, a novel, automated framework for identifying logic vulnerabilities built on (1) large language models for autonomous modeling, and (2) logic model checkers for rigorous reasoning. LL-Verifier processes natural language inputs, in particular protocol descriptions and security goals, to automatically generate formal logic models and properties expressed in a new logic language built on a generic logic language Maude, optimized for modeling arbitrary application-level semantics. These formal models are then converted into logical state machines, enabling exhaustive, rigorous verification through logic level model checking. This approach streamlines the analysis of diverse, application-level protocols deployed in real-world scenarios, offering automated, exhaustive, and precise reasoning within their logical constraints. We evaluated the high effectiveness, efficiency, and practicality of LL-Verifier by applying it to 27 access control protocols of widely used IoT devices, which come with vendor-specific logic flows and semantics. While LL-verifier tackles a hard problem in application security, i.e., automatic logic flaws discovery, our analysis uncovers a range of sophisticated logic vulnerabilities in IoT protocols and devices with serious security and privacy implications.",
+    "title_zh": "通过自主形式化建模和自动推理解决应用逻辑缺陷",
+    "abstract_zh": "逻辑缺陷在现代语义丰富的系统和应用程序的设计与实现中构成了重大挑战，影响了安全性、隐私和信任。这些缺陷本质上与特定的业务语义和威胁模型相关联，使得它们的发现和推理变得困难且难以扩展。现实世界中的系统通常展现出多样化的应用功能、复杂的协议逻辑和领域特定的威胁模型，这需要大量的人力投入和领域专业知识来进行有效的安全分析。在本文中，我们介绍了LL-Verifier，这是一个新颖的自动化框架，用于识别逻辑漏洞，其构建基础包括：(1)用于自主建模的大型语言模型，和(2)用于严格推理的逻辑模型检查器。LL-Verifier处理自然语言输入，特别是协议描述和安全目标，以自动生成形式化逻辑模型和属性，这些模型和属性使用一种基于通用逻辑语言Maude构建的新逻辑语言表达，该语言针对建模任意应用级语义进行了优化。这些形式化模型随后被转换为逻辑状态机，通过逻辑级模型检查实现全面、严格的验证。这种方法简化了对现实场景中部署的多样化应用级协议的分析，在其逻辑约束内提供自动化、全面和精确的推理。我们通过将LL-Verifier应用于27种广泛使用的物联网设备的访问控制协议（这些协议具有供应商特定的逻辑流程和语义）来评估其高效性、效率和实用性。虽然LL-Verifier解决了应用安全中的一个难题，即自动逻辑缺陷发现，但我们的分析揭示了物联网协议和设备中一系列复杂的逻辑漏洞，这些漏洞具有严重的安全和隐私影响。"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Bridging the Final Gap: Fuzzing Template Generation from Protocol Reverse Engineering",
+    "authors": "Wenlong Zhang, Fuchen Ma, Yongjun Xie, Yuanliang Chen, Dalong Shi, Dongyi Yu, Heyuan Shi",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3774748.3787609",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "弥合最终差距：从协议逆向工程生成模糊测试模板",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Configurable RTL Code Generation for AMBA AXI Bus Architecture with UVM-Based Verification",
+    "authors": "Shaik Sumiya Begum, Gannera Mamatha",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11682962",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于UVM验证的可配置RTL代码生成：针对AMBA AXI总线架构",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "A Modular UVM-Based Scoreboard Architecture for Protocol-Aware Verification of Non-FLIT PCIe Transactions",
+    "authors": "Varsha Kuruba, P. Ramana Reddy",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11683072",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种基于模块化UVM的架构，用于非FLIT PCIe事务的协议感知验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Design and Verification of a High-Performance Quad Serial Peripheral Interface (QSPI) Controller",
+    "authors": "U.Vijay Kumar, V. Sumalatha",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11683090",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "高性能四串行外设接口(QSPI)控制器的设计与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Design And Verification of SRAM Controller With AXI Interface Using ECC",
+    "authors": "Lakshmi Narayani Kachana, Mamatha K, Sreedhar M",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11683029",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于AXI接口并采用ECC的SRAM控制器设计与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Visualization-Guided Debug Methodology for Verification of GPU Fixed-Function Pipelines Under Stall Scenarios",
+    "authors": "Chirag Tripathi, R.K. Sharma",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11683216",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "GPU停滞场景下固定功能流水线的可视化引导调试验证方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Reinforcement Learning from Testing Targets for Effective SLM Test Generation",
+    "authors": "Kevin Céspedes-Arancibia",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3774748.3787638",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于测试目标的强化学习用于有效SLM测试生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "Design and Verification of Hybrid BIST Architecture for DRAM and SRAM Based PiM Systems",
+    "authors": "K.Shravani Reddy, C.V. Giriraja, C. Paramasivam",
+    "publish": "2026 1st International Conference on VLSI Circuits and Systems (ICVCS)",
+    "url": "https://doi.org/10.1109/icvcs69586.2026.11683019",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于PiM系统的DRAM和SRAM混合BIST架构设计与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-9",
+    "title": "What Do We Really Need? Identifying Minimal Sufficient Temporal Properties via Refinement",
+    "authors": "Luca Brodo, Giuseppe Scalora, Stefan Henkler",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3774748.3795661",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "我们真正需要什么？通过精炼识别最小充分时间属性",
+    "abstract_zh": "None"
+  }
+]
