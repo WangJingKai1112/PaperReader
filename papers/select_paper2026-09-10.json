@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-09-10",
+    "title": "Taming Bitwise Behavior in GPU Kernels with Tensor Core: Black-Box Reconstruction, Compiler Enforcement, and Static Verification",
+    "authors": "Ziteng Yang, Nicholas J. Riasanovsky, Warren Deng, Vivek Sarkar",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.11356v1",
+    "source": "arXiv",
+    "abstract": "Determinism and numerical reproducibility are increasingly required of GPU kernels in machine learning systems, yet deterministic implementations of the same kernel can still differ bit for bit. Floating-point reduction order is the primary cause, alongside partial-sum precision, fused multiply-add operations, and rounding placement. These choices may be hand-coded, selected by a block-level language such as Triton, or hidden inside a closed-source library such as cuBLAS or rocBLAS. A tile shape chosen for performance therefore also determines the arithmetic, potentially breaking batch invariance. Preserving a fixed order can cost up to 20 percent, while an autotuner cannot identify which configurations are bitwise equivalent. We characterize the factors determining the bitwise behavior of reductions and general matrix multiplication (GEMM). First, we introduce a descriptor of GEMM reduction order, including the partitioning of K in split-K GEMM. Using it, we perform the first black-box reconstruction of a closed-source library's arithmetic for bit-level correctness. Our family of Triton GEMMs matches NVIDIA cuBLAS in all tested cases on Blackwell and Hopper. For realistic LLM shapes with fused epilogues, it matches or exceeds torch.compile performance. Second, we enforce balanced-tree reduction during Triton lowering and introduce a data-layout optimization that brings 19 of 27 kernels on GB300 and H100 within 10 percent of free-order performance. Third, we develop sound static checkers for bitwise equivalence between compiled GPU kernels, including the first checker spanning NVIDIA PTX and AMD GCN. Integrated into Triton's autotuner, the checker restricts search to a single bit-equivalence class.",
+    "title_zh": "使用张量核心驯化GPU内核中的按位行为：黑盒重构、编译器强制执行和静态验证",
+    "abstract_zh": "在机器学习系统中，GPU内核的确定性和数值可重复性日益受到重视，然而同一内核的确定性实现仍可能存在逐位差异。浮点归约顺序是主要原因，此外还有部分和精度、融合乘加操作和舍入位置的选择。这些选择可能是手动编码的，由块级语言（如Triton）选择，或隐藏在闭源库（如cuBLAS或rocBLAS）中。因此，为性能选择的块形状也决定了算术运算，可能破坏批处理不变性。保持固定顺序可能导致高达20%的性能损失，而自动调优器无法识别哪些配置是逐位等效的。我们确定了影响归约和通用矩阵乘法（GEMM）逐位行为的因素。首先，我们介绍了一种GEMM归约顺序的描述符，包括split-K GEMM中K的分区。利用该描述符，我们首次对闭源库的算术进行了黑盒重构，确保位级正确性。我们的Triton GEMM系列在Blackwell和Hopper上测试的所有情况下均与NVIDIA cuBLAS匹配。对于具有融合后处理的现实LLM形状，其性能与或超过torch.compile。其次，我们在Triton降级过程中强制执行平衡树归约，并引入了一种数据布局优化，使GB300和H100上的27个内核中有19个的性能达到自由顺序性能的10%以内。第三，我们开发了用于检查已编译GPU内核间逐位等效性的静态检查器，包括首个跨NVIDIA PTX和AMD GCN的检查器。集成到Triton的自动调优器后，该检查器将搜索限制在单个位等效类中。"
+  },
+  {
+    "date": "2026-09-10",
+    "title": "Extending SMT Solving with Non-Ground Clause Learning",
+    "authors": "Yasmine Briefs, Christoph Weidenbach",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.11509v1",
+    "source": "arXiv",
+    "abstract": "Quantifier instantiation is currently the main approach to non-ground SMT solving: solvers generate ground instances and solve the resulting ground SMT problems with CDCL(T)-style reasoning. When a conflict is found, conflict analysis learns only a ground clause, even though the conflict comes from instances of non-ground clauses. Yet non-ground reasoning can give exponentially shorter proofs than purely ground reasoning. We propose a calculus that consists of ground instantiations, CDCL(T)-style rules, and non-ground conflict analysis. The solver reasons on ground instances, but the resolution steps of conflict analysis are performed on their original non-ground clauses. This produces learned clauses that are typically more general than the ground conflict. With a suitable strategy, the learned clauses are even non-redundant. We also show how chronological backtracking can be included in SMT solving. Our calculus gives a common setting for CDCL(T)-style SMT solving, a range of instantiation-based procedures, and non-ground clause learning, and we prove that it simulates CDCL, SCL(FOL), SCL(T), and even Resolution.",
+    "title_zh": "通过非子句学习扩展SMT求解能力",
+    "abstract_zh": "量词实例化目前是非 ground SMT 求解的主要方法：求解器生成 ground 实例，并使用 CDCL(T) 风格的推理解决 resulting ground SMT 问题。当发现冲突时，冲突分析仅学习一个 ground 子句，尽管冲突来自非 ground 子句的实例。然而，非 ground 推理可以比纯 ground 推理提供指数级更短的证明。我们提出一种包含 ground 实例化、CDCL(T) 风格规则和非 ground 冲突分析的演算系统。求解器在 ground 实例上进行推理，但冲突分析的解析步骤在其原始非 ground 子句上执行。这产生的学习子句通常比 ground 冲突更一般化。通过适当的策略，学习子句甚至可以是非冗余的。我们还展示了如何将回溯包含在 SMT 求解中。我们的演算系统为 CDCL(T) 风格的 SMT 求解、基于实例化的各种程序以及非 ground 子句学习提供了通用框架，我们证明了它可以模拟 CDCL、SCL(FOL)、SCL(T) 甚至 Resolution。"
+  },
+  {
+    "date": "2026-9-11",
+    "title": "HarnessLLM: Rust Verification Harness Generation with Large Language Models",
+    "authors": "Minghua Wang, Yuwei Liu, Lin Huang",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3744916.3773122",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "HarnessLLM：使用大型语言模型进行Rust验证工具生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-11",
+    "title": "Issue2Test: Generating Reproducing Test Cases from Issue Reports",
+    "authors": "Noor Nashid, Islem Bouzenia, Michael Pradel, Ali Mesbah",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3744916.3773129",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Issue2Test：从问题报告生成重现测试用例",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-11",
+    "title": "Cobblestone: A Divide-and-Conquer Approach for Automating Formal Verification",
+    "authors": "Saketh Ram Kasibatla, Arpan Agrawal, Yuriy Brun, Sorin Lerner, Talia Ringer, Emily First",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3744916.3773178",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "鹅卵石：一种用于自动化形式验证的分治方法",
+    "abstract_zh": "None"
+  }
+]
