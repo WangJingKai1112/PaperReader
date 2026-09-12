@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-9-11",
+    "title": "HarnessLLM: Rust Verification Harness Generation with Large Language Models",
+    "authors": "Minghua Wang, Yuwei Liu, Lin Huang",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3744916.3773122",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "HarnessLLM：使用大型语言模型生成Rust验证工具",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-11",
+    "title": "Cobblestone: A Divide-and-Conquer Approach for Automating Formal Verification",
+    "authors": "Saketh Ram Kasibatla, Arpan Agrawal, Yuriy Brun, Sorin Lerner, Talia Ringer, Emily First",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3744916.3773178",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "鹅卵石：一种用于自动化形式验证的分治方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-11",
+    "title": "Issue2Test: Generating Reproducing Test Cases from Issue Reports",
+    "authors": "Noor Nashid, Islem Bouzenia, Michael Pradel, Ali Mesbah",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3744916.3773129",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Issue2Test：从问题报告生成重现测试用例",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-11",
+    "title": "Context-Free Property Oriented Fuzzing",
+    "authors": "Jiaqiang Yao, Meixi Liu, Zhenbang Chen, Yongchao Xing, Jinjian Luo, Yunlai Luo, Guofeng Zhang, Yufeng Zhang, Ji Wang",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3744916.3773273",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "面向上下文无关属性的模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-11",
+    "title": "Configuration-Sensitive Linux Kernel Fuzzing",
+    "authors": "Yuheng Shen, Jianzhong Liu, Yuhan Chen, Yifei Chu, Qiang Zhang, Guoyu Yin, Heyuan Shi, Yu Jiang",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3744916.3773136",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "配置敏感的Linux内核模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-11",
+    "title": "Uncovering Failures in Cyber-Physical System State Transitions: A Fuzzing-Based Approach Applied to sUAS",
+    "authors": "Theodore Chambers, Arturo Miguel Russell Bernal, Michael Vierhauser, Jane Cleland-Huang",
+    "publish": "Proceedings of the 2026 IEEE/ACM 48th International Conference on Software Engineering",
+    "url": "https://doi.org/10.1145/3744916.3787797",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "揭示网络物理系统状态转换中的故障：一种应用于小型无人机的模糊测试方法",
+    "abstract_zh": "None"
+  }
+]
