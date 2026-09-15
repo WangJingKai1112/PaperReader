@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-9-13",
+    "title": "PIM-Forge: Toward Autonomous PIM Kernel Synthesis through Constraint-Guided Hardware Exploration",
+    "authors": "Yixing Du, Qingyun Tang, Lixiao Cui, Yusen Li, Gang Wang, Xiaoguang Liu",
+    "publish": "Proceedings of the 55th International Conference on Parallel Processing",
+    "url": "https://doi.org/10.1145/3832810.3832867",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "PIM-Forge：通过约束引导的硬件探索实现自主PIM内核合成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-14",
+    "title": "A Lightweight Dynamic ROI Generation Algorithm for Pure CPU Edge Devices",
+    "authors": "Junxia Zhao, Ang Li, Kejing Wei, Xiuli Huang",
+    "publish": "2026 3rd International Conference on Intelligent Systems and Robotics (CISR)",
+    "url": "https://doi.org/10.1109/cisr70722.2026.11680440",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种面向纯CPU边缘设备的轻量级动态ROI生成算法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-14",
+    "title": "All Your Assembly Belongs to Rust: Automated Lifting for Uniform Testing and Verification",
+    "authors": "Charly Castes, Gurvan Debaussart, Thomas Bourgeat",
+    "publish": "Proceedings of the 14th Workshop on Programming Languages and Operating Systems",
+    "url": "https://doi.org/10.1145/3831586.3838148",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "你的汇编都属于Rust：自动化提升用于统一测试与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-14",
+    "title": "Formal Specification of Linux eBPF Instruction Set Architecture in Sail",
+    "authors": "Yazhou Tang, Shenghao Yuan, Jean-Pierre Talpin, Mingshuai Chen",
+    "publish": "Proceedings of the 4th Workshop on eBPF and Kernel Extensions",
+    "url": "https://doi.org/10.1145/3837779.3838167",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "在Sail形式化规范中描述Linux eBPF指令集架构",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-14",
+    "title": "A Software-Driven Hardware/Software Co-Design Framework for Efficient RISC-V Customization and Early-Stage Architectural Optimization",
+    "authors": "Himabindhu Jala, Shaik Karimullah",
+    "publish": "2026 5th MEC International Conference on Advanced Data Analytics and Artificial Intelligence for Sustainable Smart Cities (ICADAAI)",
+    "url": "https://doi.org/10.1109/icadaai64945.2026.11679155",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种高效的RISC-V定制和早期架构优化的软件驱动型硬件/软件协同设计框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-14",
+    "title": "SMT-based Deductive Verification of Device Drivers using the Pancake-to-Viper Transpiler",
+    "authors": "Samuel Tyler, Alessandro Legnani, Junming Zhao, Zhewen Shen, Rihui Wu, Miki Tanaka, Gernot Heiser",
+    "publish": "Proceedings of the 14th Workshop on Programming Languages and Operating Systems",
+    "url": "https://doi.org/10.1145/3831586.3838153",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于SMT的设备驱动程序演绎验证：使用Pancake到Viper的转译器",
+    "abstract_zh": "None"
+  }
+]
