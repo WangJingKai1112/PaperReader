@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-09-14",
+    "title": "LLM-enabled Behavior Driven Development Workflow for Formally Verified Hardware Designs",
+    "authors": "Luca Müller, Qian Liu, Rolf Drechsler",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.15318v1",
+    "source": "arXiv",
+    "abstract": "Recently, the use of Large Language Models (LLMs) for different tasks in the Electronic Design Automation (EDA) life-cycle has been studied extensively, but an integrated view is lacking. Specifications are the foundation of this life-cycle, but they suffer from ambiguity when written in natural language, which especially affects the quality of LLM output. Formal specifications mitigate these ambiguities, but they come with their own challenges. On the other hand, Controlled Natural Language (CNL) specifications can serve as a middle-ground, reducing ambiguity while retaining interpretability. In this work, we propose an integrated view on the use of LLMs for EDA and establish an LLM-enabled behavior driven hardware development workflow. We introduce and define Formal Verification Gherkin Scenarios (FV Gherkin Scenarios), unlocking CNL specifications as the foundation for formally verified hardware designs via Formal Property Verification (FPV). Experimental evaluation shows that our workflow is able to outperform other established LLM-based methods by 2.48x in functional correctness of generated Register Transfer Level (RTL) designs and by 2.54x in formal coverage of generated assertions for FPV.",
+    "title_zh": "基于大语言模型的行为驱动开发工作流程，用于形式化验证的硬件设计",
+    "abstract_zh": "最近，大型语言模型（LLMs）在电子设计自动化（EDA）生命周期不同任务中的应用已被广泛研究，但缺乏一个整合的视角。规范是这个生命周期的基石，但当用自然语言编写时，它们存在歧义问题，这特别影响了LLM输出的质量。形式规范可以缓解这些歧义，但它们也带来了自身的挑战。另一方面，受控自然语言（CNL）规范可以作为一种折中方案，在减少歧义的同时保持可解释性。在这项工作中，我们提出了一个关于LLM在EDA中应用的整合视角，并建立了一个基于LLM的行为驱动硬件开发工作流程。我们引入并定义了形式验证Gherkin场景（FV Gherkin场景），通过形式属性验证（FPV）将CNL规范作为形式验证硬件设计的基础。实验评估表明，我们的工作流程在生成寄存器传输级（RTL）设计的功能正确性方面比其他既有的基于LLM的方法高出2.48倍，在为FPV生成断言的形式覆盖率方面高出2.54倍。"
+  },
+  {
+    "date": "2026-09-14",
+    "title": "Efficient Branch-and-Bound Testing and Verification of zkVMs",
+    "authors": "Hideaki Takahashi, Suman Jana, Junfeng Yang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.15020v1",
+    "source": "arXiv",
+    "abstract": "Zero-knowledge virtual machines (zkVMs) enable verifiable execution of general-purpose programs by translating virtual machine semantics into algebraic constraints over execution traces. The correctness of these constraints is critical: a single incorrect constraint can admit forged proofs (under-constrained) or reject valid executions (over-constrained). Existing approaches do not provide meaningful guarantees at production scale: fuzzers and unit tests often miss bugs, SMT solvers struggle with the size and nonlinearity of constraints, and theorem provers require substantial manual effort. We present ZEBRA, a fully automated verification and bug-detection framework: for a given program and input, the constraint must admit exactly one valid execution trace - no more and no fewer. This reduces zkVM verification to a solution-set cardinality problem over a canonical trace space, where redundancies such as null-row padding and non-deterministic permutations are eliminated prior to counting. To compute cardinality tractably, ZEBRA lifts analysis from finite-field witnesses to an integer interval lattice, exploiting a structural sparsity property of zkVM constraints: across 5 real-world zkVMs, constraints utilize only 14.0% of their theoretical connectivity capacity on average. This sparsity enables tight interval propagation with limited approximation error. ZEBRA performs a parallel branch-and-bound search that either produces a concrete counter-example or certifies the absence of violations within a bounded region. We evaluate ZEBRA on five real-world zkVMs. ZEBRA discovers 11 zero-day bugs; 6 have already been independently confirmed and 3 have been fixed by developers. Compared to SMT-based verification, ZEBRA is 51.5x faster, verifies 16.5 percentage point more instances, and its range verification provides up to 63x efficiency gain over repeated single-input verification.",
+    "title_zh": "高效的zkVMs分支限界测试与验证",
+    "abstract_zh": "零知识虚拟机（zkVMs）通过将虚拟机语义转换为执行轨迹上的代数约束，实现通用程序的可验证执行。这些约束的正确性至关重要：单个错误的约束可能导致接受伪造的证明（约束不足）或拒绝有效的执行（约束过度）。现有方法在生产规模上无法提供有意义的保证：模糊测试和单元测试经常遗漏错误，SMT求解器难以处理约束的规模和非线性，而定理证明器需要大量的人工工作。我们提出了ZEBRA，一个全自动的验证和错误检测框架：对于给定的程序和输入，约束必须恰好接受一个有效的执行轨迹——不多也不少。这将zkVM验证简化为规范轨迹空间上的解集基数问题，其中在计数前消除了冗余，如空行填充和非确定性排列。为了可计算地确定基数，ZEBRA将分析从有限域见证提升到整数区间格，利用zkVM约束的结构稀疏性：在5个真实世界的zkVMs中，约束平均仅利用其理论连通能力的14.0%。这种稀疏性使得在有限近似误差下能够实现紧密的区间传播。ZEBRA执行并行分支限界搜索，要么产生具体的反例，要么证明在有限区域内没有违规。我们在五个真实世界的zkVMs上评估了ZEBRA。ZEBRA发现了11个零日漏洞；其中6个已被独立确认，3个已被开发者修复。与基于SMT的验证相比，ZEBRA速度快51.5倍，验证的实例多16.5个百分点，并且其范围验证比重复的单输入验证效率高多达63倍。"
+  },
+  {
+    "date": "2026-09-14",
+    "title": "The Future of Safety for SaMD",
+    "authors": "Rhea Malhotra, Tanya Sharma, Krisha Patel, Satvika Sharma, Heena Purkait, Mehak Nehal Makhija, Aellison Cassimiro, Everett Hildenbrandt, Palina Tolmach, Jaidev Shastri",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.15438v1",
+    "source": "arXiv",
+    "abstract": "An artificial organ carries failure consequences on the scale of an aircraft or a reactor, but the software driving it is rarely held to the same standard. Teams building them rely on testing, which only reaches the failure modes someone thought of in advance. In a pump or controller that runs inside a patient for months, the dangerous cases are the ones nobody anticipated. Formal verification closes that gap. Applied to the device's software, it proves the code meets its specification for every execution that specification allows, and where a proof fails, it returns the exact input sequence that breaks it. The same methods already protect rail, aviation, and nuclear control systems, and they extend the IEC 62304 lifecycle that a manufacturer already follows rather than replacing it. In this paper, we explore how to apply formal verification to artificial organs, stage by stage, and what each technique actually guarantees about the device.",
+    "title_zh": "医疗器械软件(SaMD)的未来安全",
+    "abstract_zh": "人造器官的故障后果堪比飞机或核反应堆，但驱动它的软件却很少被要求达到同样的标准。开发这些系统的团队依赖测试，而测试只能覆盖到预先设想到的故障模式。对于在患者体内运行数月的泵或控制器来说，真正危险的是那些无人预料到的情况。形式验证填补了这一空白。将其应用于设备的软件，可以证明代码在其规范允许的每次执行中都满足规范要求，并且在证明失败时，会返回导致故障的确切输入序列。相同的方法已经用于保护铁路、航空和核控制系统，它们扩展了制造商已经遵循的IEC 62304生命周期，而不是取代它。在本文中，我们探讨了如何分阶段将形式验证应用于人造器官，以及每种技术实际上能对设备提供什么保证。"
+  },
+  {
+    "date": "2026-9-14",
+    "title": "A Lightweight Dynamic ROI Generation Algorithm for Pure CPU Edge Devices",
+    "authors": "Junxia Zhao, Ang Li, Kejing Wei, Xiuli Huang",
+    "publish": "2026 3rd International Conference on Intelligent Systems and Robotics (CISR)",
+    "url": "https://doi.org/10.1109/cisr70722.2026.11680440",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种面向纯CPU边缘设备的轻量级动态ROI生成算法",
+    "abstract_zh": "None"
+  }
+]
