@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-09-15",
+    "title": "SpecLens: LLM-Based Verilog Generation with Specification-Derived Constraints via Behavioral Divergence",
+    "authors": "Wen Bing, Bing Li",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.16729v1",
+    "source": "arXiv",
+    "abstract": "Large language models (LLMs) have recently shown promise in Verilog generation, but producing functionally correct RTL directly from natural-language specifications remains a highly challenging task. Existing approaches improve LLM-based Verilog generation mainly with retrieval-augmented generation (RAG), self-planning, or few-shot prompting. However, these methods focus primarily on external or generic forms of enhancement rather than strengthening the specification with task-specific constraints. In this work, we propose SpecLens, an automated framework for LLM-based Verilog generation that derives specification-driven constraints by analyzing behavioral divergence among multiple candidate implementations, using the original specification as the only external semantic source during generation. On the VerilogEval v2.0 spec-to-RTL benchmark, SpecLens achieves a functional pass@1 ratio of 86.2\\% with o3-mini-medium and 89.4\\% with o3-mini-high. This corresponds to a 3.6 percentage-point gain over the SOTA prompting method with o3-mini-medium and a 3.8 percentage-point gain over the SOTA behavioral divergence method with o3-mini-high. In addition, on RTLLM v1.1 and v2.0, analysis shows that SpecLens is more specification-faithful and less prone to benchmark-aligned priors. SpecLens achieves 100\\% syntactic correctness on VerilogEval v2.0, 86.2\\% on RTLLM v1.1, and 88\\% on RTLLM v2.0, even without using costly compile-repair loops to revise generated code iteratively. The code is open source and available at https://anonymous.4open.science/r/SpecLens-4632/readme.md.",
+    "title_zh": "SpecLens：基于大语言模型的Verilog生成，通过行为差异实现规范衍生约束",
+    "abstract_zh": "大型语言模型（LLMs）最近在Verilog生成方面显示出潜力，但从自然语言规范直接生成功能正确的RTL（寄存器传输级）代码仍然是一项极具挑战性的任务。现有方法主要通过检索增强生成（RAG）、自我规划或少样本提示来改进基于LLM的Verilog生成。然而，这些方法主要关注外部或通用形式的增强，而不是通过任务特定约束来加强规范。在这项工作中，我们提出了SpecLens，一个基于LLM的Verilog生成自动化框架，它通过分析多个候选实现之间的行为差异来推导规范驱动的约束，并在生成过程中仅使用原始规范作为外部语义源。在VerilogEval v2.0规范到RTL基准测试中，SpecLens使用o3-mini-medium实现了86.2%的功能通过率@1，使用o3-mini-high实现了89.4%的功能通过率。与最先进的提示方法相比，使用o3-mini-medium提高了3.6个百分点；与最先进的行为差异方法相比，使用o3-mini-high提高了3.8个百分点。此外，在RTLLM v1.1和v2.0上的分析表明，SpecLens更加忠实于规范，且不易受基准对齐的先验影响。即使不使用昂贵的编译-修复循环来迭代修改生成的代码，SpecLens在VerilogEval v2.0上实现了100%的语法正确性，在RTLLM v1.1上实现了86.2%，在RTLLM v2.0上实现了88%。代码已开源，可在https://anonymous.4open.science/r/SpecLens-4632/readme.md获取。"
+  }
+]
