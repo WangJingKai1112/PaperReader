@@ -1,0 +1,13 @@
+[
+  {
+    "date": "2026-9-18",
+    "title": "DIFCVerilog: Decoupling Capabilities and Taints for Fine-Grained Information Flow in Hardware",
+    "authors": "Yubo Shi, Zhi Yang, Shuyuan Jin, Bingren Wu",
+    "publish": "IEEE Transactions on Computers",
+    "url": "https://doi.org/10.1109/tc.2026.3734491",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "DIFCVerilog：用于硬件中细粒度信息流的解耦能力与污点分析",
+    "abstract_zh": "None"
+  }
+]
