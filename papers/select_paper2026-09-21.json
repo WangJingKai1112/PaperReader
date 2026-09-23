@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-09-21",
+    "title": "State-Aware Fuzzing of JavaScript Engines with LLM-Guided Instrumentation",
+    "authors": "Wai Kin Wong, Dongwei Xiao, Anthony Cheuk Tung Lai, Ping Fan Ke, Shuai Wang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.24550v1",
+    "source": "arXiv",
+    "abstract": "The security of the modern web depends on the correctness of JavaScript (JS) engines, yet these complex systems remain vulnerable to high-impact bugs. A critical limitation of state-of-the-art fuzzers is the coverage plateau: once a fuzzer saturates the control-flow graph, edge coverage loses its ability to guide discovery. Because complex engine behaviors, such as JIT optimization tiers and hidden class transitions, often share identical edge coverage, standard coverage metrics are blind to the distinct internal states required to trigger deep errors. To bridge this gap, we present StateLens, a framework that employs Large Language Models (LLM) to automate the discovery of deep internal states. Blindly placing instrumentation probes at all states is infeasible due to the vast state space and the high runtime overhead. StateLens introduces a novel agent-based reasoning pipeline that emulates the intuition of a security researcher. By iteratively traversing code and developer comments, our agents intelligently select high-value instrumentation targets, effectively separating logic-driving state variables from irrelevant data. This results in synthesizable, high-signal feedback probes that map the engine's hidden configurations. This instrumentation feeds a dual-feedback mechanism, effectively guiding the fuzzer toward unexplored engine semantics. Our evaluation confirms that StateLens significantly outperforms state-of-the-art fuzzers and uncovering 68 new bugs.",
+    "title_zh": "基于大语言模型引导插桩的JavaScript引擎状态感知模糊测试",
+    "abstract_zh": "现代网络的安全性依赖于JavaScript(JS)引擎的正确性，然而这些复杂系统仍然容易受到高影响漏洞的攻击。最先进模糊测试工具的一个关键局限是覆盖平台期：一旦模糊测试工具饱和了控制流图，边覆盖就失去了引导发现的能力。由于复杂的引擎行为（如JIT优化层级和隐藏类转换）通常具有相同的边覆盖，标准覆盖指标无法触发深层错误所需的独特内部状态。为了弥合这一差距，我们提出了StateLens，一个利用大型语言模型(LLM)自动发现深层内部状态的框架。由于状态空间庞大和运行时开销高，在所有状态下盲目放置检测探针是不可行的。StateLens引入了一种新颖的基于代理的推理管道，模拟安全研究人员的直觉。通过迭代遍历代码和开发者注释，我们的智能代理能够智能地选择高价值的检测目标，有效地将驱动逻辑的状态变量与无关数据分离开来。这产生了可合成的、高信号反馈探针，映射出引擎的隐藏配置。这种检测支持双反馈机制，有效地引导模糊测试工具探索未知的引擎语义。我们的评估证实，StateLens显著优于最先进的模糊测试工具，发现了68个新的漏洞。"
+  },
+  {
+    "date": "2026-9-21",
+    "title": "Using Retrieval Augmented Large Language Model for Test Scenario Generation with Input from Use Case",
+    "authors": "Johannes Simatupang, Yulyani Arifin, Meiliana, Widodo Budiharto",
+    "publish": "2026 5th International Conference on Artificial Intelligence, Internet of Things and Cloud Computing Technology (AIoTC)",
+    "url": "https://doi.org/10.1109/aiotc71250.2026.11689580",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于用例输入使用检索增强大语言模型进行测试场景生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-22",
+    "title": "Radiation Hardened Latch Designs With FPGA-Based Verifications for Aerospace Applications",
+    "authors": "Aibin Yan, Jing Li, Liwei Wu, Ran Song, Zhenmin Li, Deng Luo, Xiaolei Wang, Xiaoqing Wen, Patrick Girard, Avinash Malik, Zoran Salcic",
+    "publish": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "url": "https://doi.org/10.1109/tvlsi.2026.3732369",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向航空航天应用的抗辐射锁存器设计与基于FPGA的验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-21",
+    "title": "Modified Condition/Decision Coverage (MC/DC) Test Cases Generator Using Fossa Optimization Algorithm",
+    "authors": "Muhammad Harith Bin Zulhairi, Kamal Z Zamli",
+    "publish": "2026 IEEE 1st International Conference on Artificial Intelligence Implementation &amp; Applications (ICAIIA)",
+    "url": "https://doi.org/10.1109/icaiia70172.2026.11691679",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于FOSSA优化算法的修改条件/判定覆盖率测试用例生成器",
+    "abstract_zh": "None"
+  }
+]
