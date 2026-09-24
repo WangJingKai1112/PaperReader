@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-09-22",
+    "title": "Testing and Learning Symbolic Finite State Machines",
+    "authors": "Wen-ling Huang, Jan Peleska",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.25603v1",
+    "source": "arXiv",
+    "abstract": "Symbolic finite state machines (SFSMs) describe input/output behaviour using guards and output assignments with possibly infinite data domains. We study deterministic and completely specified SFSMs whose guards and output assignments depend only on the current input. We define finite representative input sets that contain witnesses for relevant guard overlaps and separating witnesses for output assignments that differ on those overlaps. Our main theorem shows that language equivalence of the finite instantiations implies language equivalence over the full input domain. This result transfers complete testing methods for deterministic finite state machines (DFSMs) to SFSMs, provided finite sets of admissible guards and output assignments and an upper bound on the number of distinguishable reachable states are known. Under these assumptions, a DFSM learner with complete testing can learn a finite instantiation, which is then lifted to an equivalent SFSM. We establish a bound on the size of representative input sets and give an SMT construction whose correctness and termination hold under stated solver assumptions.",
+    "title_zh": "测试和学习符号有限状态机",
+    "abstract_zh": "符号有限状态机(SFSMs)使用守卫和输出赋值来描述输入/输出行为，这些守卫和输出赋值可能涉及无限数据域。我们研究确定性的且完全指定的SFSMs，其守卫和输出赋值仅依赖于当前输入。我们定义了有限的代表性输入集，这些输入集包含相关守卫重叠的见证者，以及在这些重叠上不同的输出赋值的分离见证者。我们的主要定理表明，有限实例的语言等价性意味着在整个输入域上的语言等价性。这一结果将确定性有限状态机(DFSMs)的完全测试方法转移到了SFSMs上，前提是已知可接受守卫和输出赋值的有限集合，以及可区分可达状态数量的上限。在这些假设下，具有完全测试能力的DFSM学习器可以学习一个有限实例，然后将其提升为等价的SFSM。我们建立了代表性输入集大小的界限，并给出了一个SMT构造，其正确性和终止性在给定的求解器假设下成立。"
+  },
+  {
+    "date": "2026-09-22",
+    "title": "Evaluating Coding Agents on Kernel Exploit Generation",
+    "authors": "Junyoung Jang, Gwanhyun Lee, Hwiwon Lee, Kyuheon Kim, Jongseong Kim, Jinho Jung, Lingming Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.25591v1",
+    "source": "arXiv",
+    "abstract": "Coding agents now find real vulnerabilities in production software. However, bug discovery results do not measure whether agents can construct exploit primitives. We introduce KEX-bench, a benchmark for evaluating coding agents on exploit primitive generation against real operating-system kernels. KEX-bench contains 45 task instances across 40 Linux and Windows CVEs, covering kernel address leak, instruction-pointer control, heap read, heap write, and arbitrary address write. Each task runs in an isolated virtual machine, exposes controlled tools, and uses a deterministic verifier to check primitive-specific success. We evaluate state-of-the-art coding agents paired with frontier and open-weight models under fixed tool-call budgets. Without a reference proof of concept (PoC), the strongest configuration solves 1 of 20 Windows tasks (5.0%) and 14 of 25 Linux tasks (56.0%). With a reference PoC, the strongest configuration solves 31 of 45 tasks (68.9%). This highlights the gap where agents reach kernel crashes but fail to shape kernel state into exploit primitives. We release KEX-bench for reproducible research on AI-assisted exploitation at https://kex-bench.github.io.",
+    "title_zh": "评估编码代理在内核漏洞利用生成方面的表现",
+    "abstract_zh": "编码代理现在能够在生产软件中发现真实的安全漏洞。然而，漏洞发现结果并不能衡量代理是否能够构建利用原语。我们引入了KEX-bench，这是一个用于评估编码代理针对真实操作系统内核生成利用原语的基准测试。KEX-bench包含40个Linux和Windows CVE中的45个任务实例，涵盖了内核地址泄露、指令指针控制、堆读取、堆写入和任意地址写入。每个任务都在隔离的虚拟机中运行，提供受控工具，并使用确定性验证器来检查特定原语的成功情况。我们在固定的工具调用预算下，评估了最先进的编码代理与前沿和开放权重模型的组合。在没有参考概念验证(PoC)的情况下，最强配置解决了20个Windows任务中的1个(5.0%)和25个Linux任务中的14个(56.0%)。在有参考PoC的情况下，最强配置解决了45个任务中的31个(68.9%)。这突显了代理能够导致内核崩溃但无法将内核状态塑造成利用原语之间的差距。我们在https://kex-bench.github.io上发布了KEX-bench，以支持可复现的AI辅助利用研究。"
+  },
+  {
+    "date": "2026-09-22",
+    "title": "Dynamic Conformance Testing of WebGPU Through Specification-Driven Mutation",
+    "authors": "Mahya Samdaliri, Zhihao Yao, Kasthuri Jayarajah",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.25520v1",
+    "source": "arXiv",
+    "abstract": "WebGPU is a low-level graphics and compute API that exposes modern GPU functionality to web applications. While the official WebGPU Conformance Test Suite (CTS) focuses on well-formed usage under the WebGPU specification, it is not designed to stress implementations with semantic edge cases or adversarial inputs. General-purpose fuzzers, in contrast, struggle with WebGPU because of its complex graphics stack and multi-process architecture. We introduce LANTERN, a specification-guided dynamic conformance testing framework that mutates CTS tests using constraints extracted from the WebGPU specification. LANTERN extracts explicit syntactic API rules from WebIDL definitions and recovers semantic constraints, such as command ordering and object lifetimes, from natural-language specification text. Selected rules guide AST-located textual transformations that generate both valid and intentionally invalid CTS variants. We execute the resulting tests at scale on AddressSanitizer-instrumented Chromium to discover bugs. Our evaluation discovers three reproducible bugs, including a heap corruption, in Chromium versions current at the time of study. These results demonstrate that syntactically seeded, semantics-aware mutation of conformance tests provides a way to uncover browser bugs during WebGPU testing.",
+    "title_zh": "基于规范驱动的变异的WebGPU动态一致性测试",
+    "abstract_zh": "WebGPU 是一种底层图形和计算 API，它将现代 GPU 功能暴露给 Web 应用程序。虽然官方的 WebGPU 一致性测试套件 (CTS) 专注于 WebGPU 规范下的正确使用形式，但它并非旨在通过语义边界情况或对抗性输入来测试实现的极限。相比之下，通用模糊测试工具难以处理 WebGPU，因为其复杂的图形堆栈和多进程架构。我们引入了 LANTERN，一种规范引导的动态一致性测试框架，它使用从 WebGPU 规范中提取的约束条件来变异 CTS 测试。LANTERN 从 WebIDL 定义中提取显式的语法 API 规则，并从自然语言规范文本中恢复语义约束，如命令排序和对象生命周期。选定的规则引导 AST 定位的文本转换，生成有效和故意无效的 CTS 变体。我们在大规模上使用 AddressSanitizer 修饰的 Chromium 执行生成的测试，以发现漏洞。我们的评估发现了三个可重现的漏洞，包括堆损坏，这些漏洞存在于研究时的 Chromium 版本中。这些结果表明，在一致性测试中进行语法引导、语义感知的变异，是发现 WebGPU 测试过程中浏览器漏洞的一种有效方法。"
+  },
+  {
+    "date": "2026-09-22",
+    "title": "A Deeper Look at Depth: Stable Generation Accounting for Quantifier Reasoning",
+    "authors": "Can Cebeci, Nikolaj Bjørner, George Candea, Clément Pit-Claudel",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.26345v1",
+    "source": "arXiv",
+    "abstract": "SMT solvers make automated verification convenient. At the same time, solvers suffer from instability, whereby seemingly inconsequential changes to the input may cause a previously quickly produced proof to fail or time out. This paper addresses a common cause of outcome instability (i.e., unsat/unknown fluctuations) in the context of program verification. We demonstrate that the generation (i.e., depth) accounting used to make quantifier instantiation practical and implemented in multiple state-of-the-art SMT solvers is non-confluent (i.e., prone to divergence), and that this leads to instability. We then address this deficiency and develop a new accounting method that is stable. The new method is justified using a sequence of refinements from an abstract, confluent solver model all the way to our implementation in Z3. Our empirical evaluation demonstrates that our implementation reduces outcome instability by 94% in the unstable core of the Mariposa benchmark without leading to performance regressions.",
+    "title_zh": "深度之深层审视：考虑量词推理的稳定生成",
+    "abstract_zh": "SMT求解器使自动验证变得便捷。同时，求解器存在不稳定性问题，即输入的看似微不足道的改变可能导致先前快速生成的证明失败或超时。本文针对程序验证中结果不稳定性（即unsat/unknown波动）的一个常见原因展开研究。我们证明，在多个最先进的SMT求解器中，为使量词实例化实用而采用的生成（即深度）计算方法是非汇聚的（即容易发散），这导致了不稳定性。随后，我们解决了这一缺陷，并开发了一种新的稳定计算方法。我们通过从抽象的汇聚求解器模型到在Z3中的实现的一系列改进过程，对新方法进行了合理性论证。我们的经验评估表明，在不稳定的Mariposa基准测试核心部分，我们的实现将结果不稳定性降低了94%，且没有导致性能下降。"
+  },
+  {
+    "date": "2026-09-22",
+    "title": "EquivSVA: A Formally Verified Dataset of Behavioral Assertions Across Equivalent RTL Implementations",
+    "authors": "FNU Aditi",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.26751v1",
+    "source": "arXiv",
+    "abstract": "Large language models are increasingly used to generate SystemVerilog Assertions from natural-language specifica- tions and register-transfer-level designs. Existing datasets and benchmarks support important goals such as large- scale training, formal evaluation, specification-to-assertion generation, and mutation-based testing. A complemen- tary need is to study whether a generated assertion cap- tures externally observable behavior or depends on inci- dental details of one RTL implementation. We present EquivSVA, a formally verified dataset organized around behavior families. Each family contains four structurally distinct RTL implementations of the same externally ob- servable behavior, shared interface-level gold properties, three controlled mutants, and formal-validation evidence. EquivSVA contains 120 behavior families across 12 cat- egories, 480 reference RTL implementations, 914 gold properties, and 360 mutants. Every final family passes a fixed 17-job validation suite covering RTL equivalence, gold-property proofs, property reachability, mutant dis- tinguishability, and gold-property checks on mutants. We also provide fixed family-safe train, development, and test splits. As a small demonstration of the analyses en- abled by the dataset, we evaluate the publicly released, Apache-2.0-licensed Qwen2.5-Coder-7B-Instruct model on the held-out test split. Of 293 interface-only generated properties, 93 are formally sound, and the number of sound properties varies across equivalent implementations for 14 of 24 test families. These results illustrate how behavior-family organization can support controlled stud- ies of assertion-generation robustness without requiring changes in intended functionality. The dataset, generators, validation scripts, and case-study artifacts are publicly released at https://github.com/aditigupta96/EquivSVA.",
+    "title_zh": "EquivSVA：一个跨等价RTL实现的经过形式验证的行为断言数据集",
+    "abstract_zh": "大型语言模型正越来越多地用于从自然语言规范和寄存器传输级(RTL)设计中生成SystemVerilog断言。现有的数据集和基准支持大规模训练、形式化评估、规范到断言的生成以及基于变异的测试等重要目标。一个互补的需求是研究生成的断言是否捕获了外部可观察的行为，或者依赖于某个RTL实现的偶然细节。我们提出了EquivSVA，这是一个围绕行为家族组织的经过形式化验证的数据集。每个家族包含四种相同外部可观察行为的结构不同的RTL实现、共享的接口级黄金属性、三个受控变异体和形式化验证证据。EquivSVA包含12个类别下的120个行为家族、480个参考RTL实现、914个黄金属性和360个变异体。每个最终家族都通过一个固定的17项作业验证套件，该套件涵盖RTL等价性、黄金属性证明、属性可达性、变异体可区分性和变异体上的黄金属性检查。我们还提供了固定的家族安全的训练、开发和测试划分。作为对数据集所支持分析的一个小型演示，我们在保留的测试划分上评估了公开发布的、采用Apache-2.0许可的Qwen2.5-Coder-7B-Instruct模型。在293个仅接口生成的属性中，93个是形式上正确的，并且在24个测试家族中的14个家族中，正确属性的数量在不同等价实现之间有所不同。这些结果说明了行为家族组织如何能够支持对断言生成鲁棒性的受控研究，而无需改变预期功能。该数据集、生成器、验证脚本和案例研究工件已在https://github.com/aditigupta96/EquivSVA公开发布。"
+  },
+  {
+    "date": "2026-09-22",
+    "title": "SLED-IFV: Solver-Validated LLM-Guided Decomposition for Scalable Hardware Information-Flow Verification",
+    "authors": "Liangtao Dai, Yimin Gao, Melika Morsali, Mircea Stan",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.25637v1",
+    "source": "arXiv",
+    "abstract": "Formal hardware information-flow verification (IFV) provides strong guarantees against secret-dependent timing and control behavior, but often scales poorly on realistic RTL. We identify two recurring proof barriers in self-composed IFV: implementation complexity, where proof-hard datapath logic dominates even though the property needs only a compact boundary relation, and relational inductive complexity, where the proof depends on cross-copy public-control facts that the backend prover does not infer efficiently. To address them, we introduce two semantic proof decomposition forms: functional simplification, which replaces a proof-hard RTL region with a validated over-approximate summary, and relational strengthening, which exposes and proves the cross-copy relations needed for induction. We further present SLED-IFV, a solver-validated LLM-guided flow that automates the selection of these forms and their concrete targets. Given a self-composed miter and an oracle-free decision sheet, the LLM proposes a decomposition, then materializes it into proof artifacts under controller checks. The controller compiles the checked artifacts into proof obligations, and the formal verification backend remains the sole authority for acceptance. Across nine nontrivial benchmarks constructed from real RTL, SLED-IFV achieves up to 603x solver-only speedup and converts two 12-hour timeouts into completed proofs. The closed-loop flow produces verifier-accepted decompositions for all cases.",
+    "title_zh": "SLED-IFV：基于求解器验证的LLM引导分解，用于可扩展的硬件信息流验证",
+    "abstract_zh": "形式化的硬件信息流验证(IFV)能够对依赖于秘密的时序和控制行为提供强有力的保证，但在实际的RTL上往往扩展性不佳。我们在自组合IFV中发现了两个重复出现的证明障碍：实现复杂性，即证明困难的datapath逻辑占主导地位，尽管属性只需要一个紧凑的边界关系；以及关系归纳复杂性，证明依赖于跨副本的公共控制事实，而后端证明器无法高效推断这些事实。为解决这些问题，我们引入了两种语义证明分解形式：功能简化，用经过验证的过度近似摘要替换证明困难的RTL区域；以及关系强化，暴露并证明归纳所需的跨副本关系。我们进一步提出了SLED-IFV，这是一种经过求解器验证的LLM引导流程，可自动选择这些形式及其具体目标。给定一个自组合的miter和一个无需oracle的决策表，LLM提出一种分解方案，然后在控制器检查下将其具体化为证明工件。控制器将检查过的工件编译为证明义务，形式化验证后端仍然是接受的唯一权威。在九个从真实RTL构建的非平凡基准测试中，SLED-IFV实现了高达603倍的仅求解器加速，并将两个12小时的超时转换为完成的证明。闭环流程为所有情况生成了验证器接受的分解方案。"
+  },
+  {
+    "date": "2026-9-22",
+    "title": "Radiation Hardened Latch Designs With FPGA-Based Verifications for Aerospace Applications",
+    "authors": "Aibin Yan, Jing Li, Liwei Wu, Ran Song, Zhenmin Li, Deng Luo, Xiaolei Wang, Xiaoqing Wen, Patrick Girard, Avinash Malik, Zoran Salcic",
+    "publish": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "url": "https://doi.org/10.1109/tvlsi.2026.3732369",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向航空航天应用的抗辐射锁存器设计与基于FPGA的验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-23",
+    "title": "A Synthetic Benchmark Generator for Evaluating FPGA Incremental Tools",
+    "authors": "Elmira Nezamfar, Steven J.E. Wilton",
+    "publish": "2026 IEEE 37th International Conference on Application-specific Systems, Architectures and Processors (ASAP)",
+    "url": "https://doi.org/10.1109/asap71856.2026.00018",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "用于评估FPGA增量工具的综合基准测试生成器",
+    "abstract_zh": "None"
+  }
+]
