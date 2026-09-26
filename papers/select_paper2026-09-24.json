@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-09-24",
+    "title": "Enhancing Word-Level Property Directed Reachability with LLM-Driven Semantic Guidance",
+    "authors": "Guangyu Hu, Mingkai Miao, Zhiyuan Yan, Xiaofeng Zhou, Wei Zhang, Hongce Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.30131v1",
+    "source": "arXiv",
+    "abstract": "Property Directed Reachability (PDR) is a prominent algorithm for hardware formal verification. However, bit-level PDR often struggles with datapath-heavy designs because bit-blasting obscures high-level semantics. While word-level PDR addresses this by reasoning over bit-vector and array theories, its performance remains bottlenecked by discovering proof-relevant word-level relations. We propose LLM4PDR, a framework leveraging Large Language Models (LLMs) to guide word-level PDR search through three mechanisms: (1) Predicate Generation, extracting state relationships as candidate predicates during inductive generalization; (2) Clause Generation, producing candidate frame lemmas to accelerate convergence after formal validation; and (3) Assertion Generation, synthesizing helper assertions that strengthen the target property under counterexample-guided refinement. We implement LLM4PDR in the Pono model checker and evaluate it on arithmetic micro-benchmarks, HLS-generated pipelines, open-source RTL components, and hardware model checking competition (HWMCC) instances. Results show LLM-generated guidance improves both solved instances and runtime on datapath-heavy and control-plus-datapath designs. The strongest configuration solves 28 of 33 arithmetic benchmarks, compared to 13 for vanilla Pono and 11 for AVR. On HLS pipelines and open-source RTL, different modes provide complementary speedups: clause guidance is effective for deep pipelines and predicate guidance for bus and memory-controller designs. On HWMCC benchmarks, benefits are instance-dependent, demonstrating notable speedups and timeout avoidance on hard cases. These results suggest that LLM-generated, verifier-checked semantic hints can serve as a practical complement to conventional word-level PDR.",
+    "title_zh": "利用LLM驱动的语义指导增强词级属性可达性",
+    "abstract_zh": "属性可达性(PDR)是硬件形式验证中的一种 prominent 算法。然而，位级PDR通常难以处理数据路径密集型设计，因为位级展开(bit-blasting)掩盖了高级语义。虽然字级PDR通过对位向量和数组理论进行推理解决了这一问题，但其性能仍然受限于发现证明相关的字级关系。我们提出了LLM4PDR，这是一个利用大型语言模型(LLMs)通过三种机制指导字级PDR搜索的框架：(1) 谓词生成，在归纳泛化过程中提取状态关系作为候选谓词；(2) 子句生成，在形式验证后生成候选框架引理以加速收敛；(3) 断言生成，合成辅助断言以在反例引导的细化下加强目标属性。我们在Pono模型检查器中实现了LLM4PDR，并在算术微基准测试、HLS生成的流水线、开源RTL组件和硬件模型检查竞赛(HWMCC)实例上对其进行了评估。结果表明，LLM生成的指导改善了数据路径密集型和控制加数据路径设计上的已解决问题数量和运行时间。最强配置解决了33个算术基准测试中的28个，而普通Pono解决13个，AVR解决11个。在HLS流水线和开源RTL上，不同模式提供了互补的加速：子句指导对深流水线有效，而谓词指导对总线和内存控制器设计有效。在HWMCC基准测试上，益处取决于具体实例，在困难案例上显示出显著的加速和超时避免。这些结果表明，LLM生成且经过验证器检查的语义提示可以作为传统字级PDR的实用补充。"
+  },
+  {
+    "date": "2026-09-24",
+    "title": "DueList: A Theory of Lists with Combinators for SMT Solvers",
+    "authors": "Pierre Goutagny, Aymeric Fromherz, Raphaël Monat",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.29962v1",
+    "source": "arXiv",
+    "abstract": "Formal verification tools commonly rely on SMT solvers to automatically reason about programs, leveraging a range of logical theories, e.g., linear integer arithmetic, arrays, or strings, to encode program constructs and verification conditions. Despite recent advances, such solvers still struggle when reasoning about recursive data structures such as lists, which are pervasive in modern functional languages. Additionally, lists are commonly used in conjunction with higher-order combinators to, e.g., generically apply a function to all elements of the list. In this work, we provide first-class support for reasoning about lists within SMT solvers. We focus on lists of arbitrary size that, following the map-reduce paradigm, can be manipulated exclusively through a set of abstract combinators. To this end, we introduce DueList, an abstraction-refinement approach geared towards list reasoning, which we implement on top of off-the-shelf SMT solvers. To evaluate the efficiency of our approach, we assemble a diverse set of 752 benchmarks curated from previous works and real-world programs, and compare DueList against state-of-the-art solvers such as Z3 and CVC5. Our experimental evaluation shows that DueList extends reasoning facilities of existing solvers, allowing to conclude about the (un)satisfiability of a larger range of problems, while outperforming existing solvers in the vast majority of previously supported cases.",
+    "title_zh": "DueList：面向SMT求解器的具有组合子的列表理论",
+    "abstract_zh": "形式化验证工具通常依赖SMT求解器来自动推理程序，利用一系列逻辑理论（如线性整数算术、数组或字符串）来编码程序结构和验证条件。尽管最近取得了进展，但这类求解器在推理递归数据结构（如列表）时仍然存在困难，而列表在现代函数式语言中无处不在。此外，列表常与高阶组合子结合使用，例如泛化地将函数应用于列表的所有元素。在这项工作中，我们为SMT求解器中对列表的推理提供了一流的支持。我们专注于任意大小的列表，遵循map-reduce范式，可以通过一组抽象组合子进行操作。为此，我们引入了DueList，这是一种面向列表推理的抽象-精化方法，我们将其构建在现成的SMT求解器之上。为了评估我们方法的效率，我们从先前工作和实际程序中汇编了一个包含752个基准测试的多样化集合，并将DueList与最先进的求解器（如Z3和CVC5）进行比较。我们的实验评估表明，DueList扩展了现有求解器的推理能力，能够解决更大范围的问题的可满足性（或不可满足性），并且在绝大多数先前支持的案例中表现优于现有求解器。"
+  },
+  {
+    "date": "2026-09-24",
+    "title": "Formal Model Construction Guided by Model-Based Proof Sketches",
+    "authors": "Hongshu Wang, Xinyue Zuo, Yufan Cai, Neeraj Kumar Singh, Yamine Ait Ameur, Jin Song Dong",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2609.29870v1",
+    "source": "arXiv",
+    "abstract": "Formal modeling provides strong guarantees about system correctness, but developing and repairing formal models remains labor-intensive and requires substantial expertise in logic and formal reasoning. Recent LLM-based autoformalization agents seek to reduce this burden by generating candidate formal models and revising them using feedback from formal tools. However, the existing approaches follow a generate-and-repair paradigm, in which repairs are driven by verification failures of the generated model and therefore depend heavily on both the granularity of the feedback and the LLM's repair capability. As a consequence, a repair targeting one level of verification may invalidate properties at another level, which requires reasoning over the complete set of event guards. To address these limitations, we propose Proof-Sketch-Guided Formal Model Synthesis (ProGS), an autoformalization method centered on model-based proof sketches. A model-based proof sketch represents the proof structure of the target formal system as a tree. Internal nodes capture case splits and inductive reasoning steps, while leaf nodes correspond to concrete state-transition events that realize individual subgoals. ProGS uses LLMs to generate and repair these sketches, with verification failures mapped back to specific nodes and subtrees to provide structured guidance for iterative repair. Our evaluation on a benchmark of 27 formal systems shows that ProGS improves over state-of-the-art agentic formal modeling approaches in syntactic validity, deductive verifiability, and behavioral correctness, demonstrating the benefit of organizing formal model construction around hierarchical proof sketches.",
+    "title_zh": "基于模型证明草图引导的形式化模型构建",
+    "abstract_zh": "形式化建模为系统正确性提供了强有力的保证，但开发和修复形式化模型仍然劳动密集，且需要逻辑和形式推理方面的专业知识。最近基于大型语言模型(LLM)的自动形式化代理试图通过生成候选形式化模型并利用形式化工具的反馈来修复它们，以减轻这一负担。然而，现有方法遵循生成-修复范式，其中修复由生成模型的验证失败驱动，因此严重依赖于反馈的粒度和LLM的修复能力。因此，针对某一验证级别的修复可能会使另一级别的属性失效，这需要对完整的事件守集进行推理。为解决这些限制，我们提出了基于证明草图引导的形式化模型合成(ProGS)，这是一种以基于模型的证明草为中心的自动形式化方法。基于模型的证明草图将目标形式化系统的证明结构表示为树。内部节点捕获情况分割和归纳推理步骤，而叶节点对应于实现单个子目标的具体状态转换事件。ProGS使用LLM生成和修复这些草图，将验证失败映射回特定节点和子树，为迭代修复提供结构化指导。我们在包含27个形式化系统的基准测试中的评估表明，ProGS在语法有效性、演绎可验证性和行为正确性方面优于最先进的代理形式化建模方法，证明了围绕分层证明草图组织形式化模型构建的益处。"
+  },
+  {
+    "date": "2026-9-24",
+    "title": "Effective Fuzzing-based Prototype Pollution Detection via Forced Execution and Template Synthesis",
+    "authors": "Dezhen Kong, Peisen Yao, Jiakun Liu, Lingfeng Bao",
+    "publish": "ACM Transactions on Software Engineering and Methodology",
+    "url": "https://doi.org/10.1145/3848632",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于强制执行和模板合成的有效模糊测试原型污染检测",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-24",
+    "title": "Functionally Possible Activation Conditions for Path Delay Faults",
+    "authors": "Irith Pomeranz",
+    "publish": "IEEE Access",
+    "url": "https://doi.org/10.1109/access.2026.3736321",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "路径延迟故障的功能性可能激活条件",
+    "abstract_zh": "None"
+  }
+]
