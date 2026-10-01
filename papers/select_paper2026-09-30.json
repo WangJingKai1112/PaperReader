@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-9-30",
+    "title": "Optimizing Test Case Sequencing for Regression Testing using the Hybrid Metaheuristic Algorithm",
+    "authors": "Vitaliy Mezhuyev, Kamal Z Zamli",
+    "publish": "Proceedings of the 2026 15th International Conference on Software and Computer Applications",
+    "url": "https://doi.org/10.1145/3801619.3801620",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "使用混合元启发式算法优化回归测试的测试用例序列",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-9-30",
+    "title": "CREQ (C-to-Rust EQuivalence): Cross-Language Semantic Verification via LLVM IR and Symbolic Execution",
+    "authors": "A A Fathima, C Raseek",
+    "publish": "2026 Student Multidisciplinary Innovation and Research Conference (SMIRC)",
+    "url": "https://doi.org/10.1109/smirc70459.2026.11706683",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "CREQ (C到Rust等价性)：通过LLVM IR和符号执行实现跨语言语义验证",
+    "abstract_zh": "None"
+  }
+]
