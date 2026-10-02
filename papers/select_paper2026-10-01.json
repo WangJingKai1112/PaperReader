@@ -1,0 +1,178 @@
+[
+  {
+    "date": "2026-10-1",
+    "title": "Delay-Fault Modeling and Validation of Timing-Induced Silent Data Corruption",
+    "authors": "Jingxuan Huangfu, Xin Chen, Yinxuan Lyu, Hongfei Wang",
+    "publish": "2026 IEEE International Test Conference in Asia (ITC-Asia)",
+    "url": "https://doi.org/10.1109/itc-asia71864.2026.11710879",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "时序诱导的静默数据故障的延迟故障建模与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "Fusion: A Fold and Unfold Annotation Synthesis Tool for Viper-Based Verification",
+    "authors": "Joonghoon Lee, Nicolas Klose, Seokhyun Lee, Peter Müller, Hakjoo Oh",
+    "publish": "Companion Proceedings of the 2026 ACM SIGPLAN International Conference on Systems, Programming, Languages, and Applications: Software for Humanity",
+    "url": "https://doi.org/10.1145/3837729.3840481",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "融合：一种基于Viper验证的折叠与展开注释合成工具",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "A Survey on Pre-Silicon Automated Vulnerability Discovery for Processors",
+    "authors": "Haodong Sun, Jiliang Zhang",
+    "publish": "2026 IEEE International Test Conference in Asia (ITC-Asia)",
+    "url": "https://doi.org/10.1109/itc-asia71864.2026.11710955",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "处理器预硅自动化漏洞发现研究综述",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "Fuzzing FPGA Synthesis and Simulation Tools via LLM-Generated Syntax-Valid HDL Codes",
+    "authors": "He Jiang, Wen Zhao, Shikai Guo, Zhihao Xu, Xiaochen Li, Rubing Huang",
+    "publish": "Proceedings of the ACM on Software Engineering",
+    "url": "https://doi.org/10.1145/3832160",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "通过大语言模型生成的语法有效的HDL代码对FPGA综合与仿真工具进行模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "SVAN-FSM: Static Analysis of Finite State Machines in SystemVerilog",
+    "authors": "Andrei Viazovtsev, Yan Churkin, Arman Yeghiazaryan, Ruben Buchatskiy, Alexander Kamkin, Artem Kotsynyak",
+    "publish": "2026 IEEE International Test Conference in Asia (ITC-Asia)",
+    "url": "https://doi.org/10.1109/itc-asia71864.2026.11710845",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "SVAN-FSM：SystemVerilog中有限状态机的静态分析",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "SimiFuzz: Seed–Worker Scheduling for Parallel Fuzzing via Contextual Bandits",
+    "authors": "Yijia Guo, Zhiguo Ding, Hong Liang, Ming Zhong, Dandan Zhao, Xuhong Zhang, Bo Zhang, Shouling Ji, Hao Peng",
+    "publish": "Proceedings of the ACM on Software Engineering",
+    "url": "https://doi.org/10.1145/3832107",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SimiFuzz：基于上下文多臂老虎机的并行模糊测试种子-工作者调度",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "CPCRFuzz: Adaptive Security-Critical Path and Control-Register Guided Fuzzing for Processor Vulnerability Detection",
+    "authors": "Lei Peng, Aijiao Cui, Yier Jin",
+    "publish": "2026 IEEE International Test Conference in Asia (ITC-Asia)",
+    "url": "https://doi.org/10.1109/itc-asia71864.2026.11710838",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "CPCRFuzz：面向处理器漏洞检测的自适应安全关键路径与控制寄存器引导模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "Towards Understanding the Bugs in Verilator, a Hardware Description Language Compiler",
+    "authors": "Songyan Jiang, Maolin Sun, Kang Chen, Qingyang Li, Yibiao Yang, Yuming Zhou",
+    "publish": "Proceedings of the ACM on Software Engineering",
+    "url": "https://doi.org/10.1145/3832226",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "理解Verilator硬件描述语言编译器中的错误",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "Sakura: An Approach for Generating Complex Tests from Natural Language Test Descriptions",
+    "authors": "Tyler Stennett, Rangeet Pan, Bridget McGinn, Alessandro Orso, Saurabh Sinha",
+    "publish": "Proceedings of the ACM on Software Engineering",
+    "url": "https://doi.org/10.1145/3832112",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "樱花：一种从自然语言测试描述生成复杂测试的方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "PropCov: Effective Coverage Reporting for Property-Based Testing",
+    "authors": "Jesse Coultas, Joseph Wiseman, Luís Pina",
+    "publish": "Proceedings of the ACM on Software Engineering",
+    "url": "https://doi.org/10.1145/3832128",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "PropCov：基于属性测试的有效覆盖率报告",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "STARS: Static Analysis-Guided Assertion Synthesis using Large Language Models",
+    "authors": "Jialun Cao, Haoyu Wang, Haoran Yan, Ming Wen, Michael Pradel",
+    "publish": "Proceedings of the ACM on Software Engineering",
+    "url": "https://doi.org/10.1145/3832283",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "STARS：基于静态分析引导使用大型语言模型的断言合成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "ZSafe: Proving the Safety of Proprietary Hardware Designs in Zero Knowledge",
+    "authors": "Zhaoxiang Liu, James Parker, Ning Luo",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3839517",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ZSafe：在零知识证明中证明专有硬件设计的安全性",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "VanishOracle: An Effective Differential Oracle for Processor via Vanishing Architectural State Capture",
+    "authors": "Muxin Xu, Haoran Xu, Yijie Wang, Yongjun Wang, Renzhe Li, Jizhe Li, Pengzhi Zhu",
+    "publish": "2026 IEEE International Test Conference in Asia (ITC-Asia)",
+    "url": "https://doi.org/10.1109/itc-asia71864.2026.11710839",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "VanishOracle：一种通过消失架构状态捕获实现的有效处理器差异查询器",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "Coverage-Driven Power Scenario Construction and Quantitative Evaluation for RISC-V Processors",
+    "authors": "Fan Wang, Zhongli Liu, Yang Chen, Jianqun Yang, Wei Yang, Xingji Li",
+    "publish": "2026 6th International Conference on Mechanical, Electronics and Electrical and Automation Control (METMS)",
+    "url": "https://doi.org/10.1109/metms70800.2026.11706662",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向RISC-V处理器的覆盖驱动型功耗场景构建与定量评估",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "ContextFuzz: A Framework for Discovering Speculative Fetch Attacks",
+    "authors": "Shan Li, Yirana He, Haihua Shen, Huawei Li",
+    "publish": "2026 IEEE International Test Conference in Asia (ITC-Asia)",
+    "url": "https://doi.org/10.1109/itc-asia71864.2026.11710822",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "ContextFuzz：一种用于发现推测性获取攻击的框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-1",
+    "title": "Revisiting Path Coverage Tracing from a Node-Centric View",
+    "authors": "Heqing Huang, Zhendong Su",
+    "publish": "Proceedings of the ACM on Programming Languages",
+    "url": "https://doi.org/10.1145/3839464",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "从节点中心视角重新审视路径覆盖追踪",
+    "abstract_zh": "None"
+  }
+]
