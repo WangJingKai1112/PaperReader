@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-10-2",
+    "title": "Verification of Protocol Compliance by Symbolic Execution",
+    "authors": "Xing-Hua Peng, Pai H. Chou",
+    "publish": "Proceedings of the 1st International Workshop on Firmware Testing and Analysis",
+    "url": "https://doi.org/10.1145/3842651.3843180",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "通过符号执行验证协议合规性",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-2",
+    "title": "RuSMT: An Executable Semantics as Conformance Oracle and Test Suite Synthesizer",
+    "authors": "Mehrad Haghshenas, Meng Xu",
+    "publish": "Proceedings of the 1st International Workshop on Specification-Driven Development Life Cycle",
+    "url": "https://doi.org/10.1145/3842652.3843196",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "RuSMT：一种作为一致性规范和测试套件生成器的可执行语义",
+    "abstract_zh": "None"
+  }
+]
