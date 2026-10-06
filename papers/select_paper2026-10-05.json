@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-10-5",
+    "title": "Constraining Behavioural Modelling to Enable Model-Based Verification",
+    "authors": "Felipe Xavier, Loek Cleophas, Michel Chaudron",
+    "publish": "Proceedings of the ACM/IEEE 29th International Conference on Model Driven Engineering Languages and Systems",
+    "url": "https://doi.org/10.1145/3837062.3839050",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "约束行为建模以实现基于模型的验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-5",
+    "title": "Digital Twins Modeling, and Formal Verification and Validation: an Approach based on SysML v2",
+    "authors": "Christian Koumlah Mbey",
+    "publish": "Proceedings of the ACM/IEEE 29th International Conference on Model Driven Engineering Languages and Systems",
+    "url": "https://doi.org/10.1145/3837062.3839553",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "数字孪生建模，以及形式化验证与验证：一种基于SysML v2的方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-5",
+    "title": "Continuous Verification of Evolving Architecture Models: A Testing Framework for MontiArc",
+    "authors": "Tom Bursch, Adrian Marin, Bernhard Rumpe, David Schmalzing",
+    "publish": "Proceedings of the ACM/IEEE 29th International Conference on Model Driven Engineering Languages and Systems",
+    "url": "https://doi.org/10.1145/3837062.3840373",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "演化的架构模型的持续验证：MontiArc的测试框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-5",
+    "title": "IEEE Trial-Use Standard for Automatic Test Markup Language (ATML) for Exchanging Automatic Test Information via XML: Exchanging Test Station Information",
+    "authors": "N/A",
+    "publish": "N/A",
+    "url": "https://doi.org/10.1109/ieeestd.2013.8700686",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "IEEE试用标准：用于通过XML交换自动测试信息的自动测试标记语言(ATML)：交换测试站信息",
+    "abstract_zh": "None"
+  }
+]
