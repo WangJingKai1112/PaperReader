@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-10-6",
+    "title": "RTL Design and Verification of a Fixed-Point Two-Layer Neural Network with Adam Optimizer Using a Diagonal Systolic Array Core",
+    "authors": "Sneha Balakrishnan",
+    "publish": "2026 30th International Symposium on VLSI Design and Test (VDAT)",
+    "url": "https://doi.org/10.1109/vdat72243.2026.11704649",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于对角线脉动阵列核心的Adam优化器定点双层神经网络设计与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-6",
+    "title": "Closing the Loop on LLM-Generated RTL Assertions with Quality-Aware Formal Verification",
+    "authors": "Ramesh Krishnamurthy, Danial Chitnis, Themis Prodromakis",
+    "publish": "2026 39th SBC/SBMicro/IEEE Symposium on Integrated Circuits and Systems Design (SBCCI)",
+    "url": "https://doi.org/10.1109/sbcci69725.2026.11706772",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于质量感知的形式验证闭合LLM生成的RTL验证断言",
+    "abstract_zh": "None"
+  }
+]
