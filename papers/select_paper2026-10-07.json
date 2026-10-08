@@ -1,0 +1,112 @@
+[
+  {
+    "date": "2026-10-7",
+    "title": "Generating Loop Invariants for Deductive Verification using Iterator Profiles",
+    "authors": "Keisuke Nishimura, Jean-Pierre Lozi, Julia Lawall",
+    "publish": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
+    "url": "https://doi.org/10.1145/3832783.3837530",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "使用迭代器档案进行演绎验证的循环不变式生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-7",
+    "title": "Adaptive Parallel Testing for Floating-Point Branch Coverage",
+    "authors": "Yunxiang Wu",
+    "publish": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
+    "url": "https://doi.org/10.1145/3832783.3844561",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "自适应浮点分支覆盖并行测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-7",
+    "title": "DynCA: An Effective Algorithm for 3-Wise Combinatorial Interaction Testing in Highly Configurable Systems",
+    "authors": "Ruizhi Shi, Shuangyu Lyu, Renyu Yang, Wei Wu, Chanjuan Liu, Chunming Hu, Chuan Luo",
+    "publish": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
+    "url": "https://doi.org/10.1145/3832783.3834349",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "DynCA：一种用于高度可配置系统中三-wise组合交互测试的有效算法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-7",
+    "title": "PELSE: Asymmetric-Evidence-Guided MCU Peripheral Model Synthesis",
+    "authors": "Guohao Wu, Chunlin Wang, Rui Yao, Feng Hong, Hongliang Liang, Qiuping Yi",
+    "publish": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
+    "url": "https://doi.org/10.1145/3832783.3837541",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "PELSE: 非对称证据引导的MCU外设模型合成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-7",
+    "title": "Beyond the First Crash: Interaction-Aware Multi-fault Fuzzing",
+    "authors": "Omar I. Al-Bataineh",
+    "publish": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
+    "url": "https://doi.org/10.1145/3832783.3834538",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "超越首次崩溃：交互感知的多故障模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-7",
+    "title": "Orbis: Guiding Symbolic Execution Techniques to Maximize Option-Related Branch Coverage",
+    "authors": "Minjong Kim, Sungjae Hwang, Sooyoung Cha",
+    "publish": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
+    "url": "https://doi.org/10.1145/3832783.3837526",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Orbis：引导符号执行技术以最大化选项相关分支覆盖率",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-7",
+    "title": "Hybrid Fuzzing in Input Generation Logic",
+    "authors": "Siwei Wei, Shihao Zhu, Ruijie Meng, Yan Cai",
+    "publish": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
+    "url": "https://doi.org/10.1145/3832783.3834412",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "混合模糊测试在输入生成逻辑中的应用",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-7",
+    "title": "Computing Exact Signal Probability Under Input Constraints Using Model Counting Techniques",
+    "authors": "Henrik Jansson Valter, Carl-Johan H. Seger",
+    "publish": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+    "url": "https://doi.org/10.1109/tcad.2026.3741488",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "使用模型计数技术在输入约束下计算精确信号概率",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-7",
+    "title": "ProofPulse: Interactive Proof Coverage Analysis for Dafny",
+    "authors": "Álvaro F. Silva, Ruben Martins, Alexandra Mendes",
+    "publish": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
+    "url": "https://doi.org/10.1145/3832783.3834600",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ProofPulse：针对Dafny的交互式证明覆盖率分析",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-7",
+    "title": "SpecFSM: Extracting and Repairing Finite State Machines from Protocol Specification Documents",
+    "authors": "Xiangdong Li, DaWei Huang, Jingjing Guan, Hui Li",
+    "publish": "Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering",
+    "url": "https://doi.org/10.1145/3832783.3834331",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SpecFSM：从协议规范文档中提取和修复有限状态机",
+    "abstract_zh": "None"
+  }
+]
