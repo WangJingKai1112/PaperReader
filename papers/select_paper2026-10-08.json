@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-10-8",
+    "title": "Can Open-Weight LLMs Predict Test Outcomes from Traces? A Cross-Subject Boundary Study on Tests4Py",
+    "authors": "Giuliano Ricardo Rasper, Tural Mammadov, Marius Smytzek, Andreas Zeller",
+    "publish": "Proceedings of the 1st International Workshop on Trustworthy and Responsible aUtonomous SysTems",
+    "url": "https://doi.org/10.1145/3843782.3844663",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "开放权重大语言模型能否从追踪数据预测测试结果？一项关于Tests4Py的跨学科边界研究",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-8",
+    "title": "Bug Composition: Triggering Multiple Bugs with Agentic Driver Generation",
+    "authors": "Vishva Arasan, Mahima Chaudhary, Wendy Contreras Martinez, Md Shafiuzzaman, Achintya Desai, Tevfik Bultan",
+    "publish": "Proceedings of the 1st International Workshop on Agentic AI for Next-Generation Software Development",
+    "url": "https://doi.org/10.1145/3843282.3844434",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Bug Composition: 通过智能体驱动生成触发多个漏洞",
+    "abstract_zh": "None"
+  }
+]
