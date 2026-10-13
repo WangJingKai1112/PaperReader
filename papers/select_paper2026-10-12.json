@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-10-12",
+    "title": "HSAP: Safety Artifact Integration for Automotive Processor IP",
+    "authors": "Sandeep Kumar Bomthapalli",
+    "publish": "IEEE Design &amp; Test",
+    "url": "https://doi.org/10.1109/mdat.2026.3742207",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "HSAP：汽车处理器IP的安全工件集成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "A Feature-Driven and Critical Path-Oriented Circuit Pruning Method for Hardware Trojan Detection",
+    "authors": "Yirui Liang, Maoyuan Qin, Jiaqi Yan, Yizhuo Zhang, Zishuai Hao, Meng Wang",
+    "publish": "2026 9th International Conference on Computer Network, Electronic and Automation (ICCNEA)",
+    "url": "https://doi.org/10.1109/iccnea70678.2026.11722088",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种面向硬件木马检测的特征驱动与关键路径导向的电路剪枝方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "A Hybrid GAT-GIN Deep Learning Framework for VLSI Circuit Fault Detection Using Fuzzy Min-Max and SVM Classifiers",
+    "authors": "M. Maria Rubiston, C.Arunachalaperumal, Sundar Saravanan N, Karuppasamy Arun K",
+    "publish": "2026 International Conference on Smart Systems for Electrical, Electronics, Communication and Computer Engineering (ICSSEECC)",
+    "url": "https://doi.org/10.1109/icsseecc69062.2026.11722105",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于模糊最小-最大和SVM分类器的VLSI电路故障检测混合GAT-GIN深度学习框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Digital Twin Assisted Root Cause Analysis and Reinforcement Learning Based Test Optimization for 6T SRAM Validation using Confidence Aware Matryoshka Quantization",
+    "authors": "Amrithaa S R, Jayanthi Sree S",
+    "publish": "2026 International Conference on Smart Systems for Electrical, Electronics, Communication and Computer Engineering (ICSSEECC)",
+    "url": "https://doi.org/10.1109/icsseecc69062.2026.11722077",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于置信度感知的俄罗斯套娃量化的6T SRAM验证：数字孪生辅助的根因分析与基于强化学习的测试优化",
+    "abstract_zh": "None"
+  }
+]
