@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-10-13",
+    "title": "A Unified Delay-Based Chiplet Interconnect Test Architecture Supporting Postbond Testing and Runtime Monitoring",
+    "authors": "Dayoung Kim, Sooryeong Lee, Seungtae Kim, Sung Kyu Lim, Sungho Kang",
+    "publish": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+    "url": "https://doi.org/10.1109/tvlsi.2026.3740075",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "支持键合后测试和运行时监控的统一延迟芯片互连测试架构",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-13",
+    "title": "HammerWatch: Standing Watch Against Rowhammer",
+    "authors": "Martin Herrmann, Oussama Draissi, Christian Niesler, Ahmad-Reza Sadeghi, Lucas Davi",
+    "publish": "2026 IEEE Conference on Communications and Network Security (CNS)",
+    "url": "https://doi.org/10.1109/cns69863.2026.11720886",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "HammerWatch：防范Rowhammer攻击的警戒",
+    "abstract_zh": "None"
+  }
+]
