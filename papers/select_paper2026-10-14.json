@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-10-14",
+    "title": "Mission (Im)Possible: Towards Autonomous Discovery of Autopilot Logic Flaws in Open-Source Drone Frameworks",
+    "authors": "Ziyi Liang, Zichuan Li, Bin Yuan, Deqing Zou, Luyi Xing",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.19566v1",
+    "source": "arXiv",
+    "abstract": "Autonomous drones are increasingly deployed in safety-critical tasks, yet their autopilot software can still contain subtle logic flaws that lead to unsafe behaviors. These flaws are difficult to discover with existing techniques because they often depend on semantic relationships across modules, commands, and runtime state, and rarely manifest as crashes or detectable failures. With recent advances in LLMs, we observe that, when equipped with essential domain knowledge and carefully crafted context, LLMs demonstrate strong capabilities in understanding the high-level semantics of autopilot systems, making them suitable for logic flaw discovery. However, LLMs are limited by their context and can be biased to the vulnerabilities frequently occurs in training dataset, while logic flaws often require higher-level semantic bug oracles to identify their existence. To bridge the gap, we present Impossible Mission Finder (IMF), a multi-agent system combining static analysis, dynamic execution and log analysis, that supports fully automated identify, test, and validate logic flaws in autonomous vehicles. IMF primarily contains three LLM agents, it first uses the auditor agent to propose logic flaw hypothesis based on carefully-crafted program slicing, then it launches tester agents to write and execute test cases for each candidate, and finally it spawns the log analyzer agent to validate the execution log against the flaw hypothesis. This enables IMF dynamically validate bug oracles in a case-by-case manner, making it suitable for discovering logic flaws that do not have a unified pattern. We evaluated IMF on two widely used open-source autopilot systems, PX4 and Ardupilot, leading to 105 previously unknown logic flaws, that can cause unsafe behaviors including mission interruption failures, invalid actions, entering into restricted fly zones etc.",
+    "title_zh": "任务（不）可能：开源无人机框架中自动驾驶逻辑缺陷的自主发现",
+    "abstract_zh": "自主无人机越来越多地被部署在安全关键任务中，但其自动驾驶软件仍可能包含微妙的逻辑缺陷，导致不安全行为。这些缺陷难以通过现有技术发现，因为它们通常依赖于模块、命令和运行时状态之间的语义关系，并且很少表现为崩溃或可检测的故障。随着最近大型语言模型(LLM)的进展，我们观察到，当配备必要的领域知识和精心构建的上下文时，LLM能够展现出理解自动驾驶系统高层语义的强大能力，使其适合用于逻辑缺陷发现。然而，LLM受限于其上下文，并且可能偏向于训练数据集中频繁出现的漏洞，而逻辑缺陷通常需要更高级的语义缺陷预言机来识别其存在。为了弥合这一差距，我们提出了\"不可能任务查找器\"(IMF)，这是一个结合静态分析、动态执行和日志分析的多智能体系统，支持对自动驾驶车辆中的逻辑缺陷进行全自动识别、测试和验证。IMF主要包含三个LLM智能体：首先，它使用审计智能体基于精心构建的程序切片提出逻辑缺陷假设；然后，它启动测试智能体为每个候选缺陷编写并执行测试用例；最后，它生成日志分析智能体，根据缺陷假设验证执行日志。这使得IMF能够针对每个案例动态验证缺陷预言机，使其适合发现没有统一模式的逻辑缺陷。我们在两个广泛使用的开源自动驾驶系统PX4和Ardupilot上评估了IMF，发现了105个先前未知的逻辑缺陷，这些缺陷可导致不安全行为，包括任务中断故障、无效操作、进入限制飞行区域等。"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "A Practical Framework for Incremental Testing and Technology Maturation of Spacecraft Autonomy",
+    "authors": "Kerianne Hobbs, Ben Bycroft, Pamela Wood, Mathew W. Bissonnette, M. J. Durst, Kimberly Sover, Alexandra Mangel, Gabriel Behrendt, Upneet Singh, Juan Rodriguez, Lukas Dillingham, Zeve Akerling, Nicholas Oune, Daniel Thomlinson, Evan N. Sperber, Denise Burrell, Phaedrus Leeds, Brian Hardy, Nathaniel Hamilton, Raul Santos, Arturo de la Barcena, Kyle Dunlap",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.20433v1",
+    "source": "arXiv",
+    "abstract": "This paper addresses the \"trust gap\" in deploying AI-enabled spacecraft autonomy through an integrated verification framework combining offline ground testing with online flight monitoring. The offline phase progresses systematically through simulation studies, processor-in-the-loop (PIL), hardware-in-the-loop (HIL), and robotic emulation testing, culminating in flight validation. The online phase employs AI watchdog systems for performance monitoring and safety guardrails for real-time constraint enforcement. Key contributions include: (1) systematic organization of verification techniques emphasizing closed-loop behavioral testing at each phase, (2) integration of AI watchdogs with runtime assurance, and (3) demonstration of the framework through a reinforcement learning-based attitude control case study. This approach integrates mature technologies to provide a viable pathway for safe deployment of AI-enabled autonomy in high-consequence space operations while addressing simulation-to-reality transfer challenges.",
+    "title_zh": "航天器自主性渐进式测试与技术成熟度实用框架",
+    "abstract_zh": "本文通过结合离线地面测试与在线飞行监控的综合验证框架，解决了部署人工智能航天器自主性中的\"信任差距\"问题。离线阶段通过仿真研究、处理器在环(PIL)、硬件在环(HIL)和机器人仿真测试系统推进，最终进行飞行验证。在线阶段采用人工智能监控系统进行性能监控，并设置安全防护措施以实时执行约束。主要贡献包括：(1)系统组织验证技术，强调在每个阶段进行闭环行为测试；(2)将人工智能监控系统与运行时保证相结合；(3)通过基于强化学习的姿态控制案例研究展示该框架。该方法整合成熟技术，为在高风险太空操作中安全部署人工智能自主系统提供了可行途径，同时解决了仿真到现实的迁移挑战。"
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Scalable Verification for Dot-Product Architectures Using Symbolic Computer Algebra",
+    "authors": "Lennart Weingarten, Kamalika Datta, Rolf Drechsler",
+    "publish": "2026 Forum on Specification &amp; Design Languages (FDL)",
+    "url": "https://doi.org/10.1109/fdl71572.2026.11724695",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "使用符号计算机代数对点积架构进行可扩展验证",
+    "abstract_zh": "None"
+  }
+]
