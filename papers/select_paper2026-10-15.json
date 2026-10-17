@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-10-15",
+    "title": "Compositional Automata Learning of Timed Synchronous Systems",
+    "authors": "Hanyue Chen, Chang Liu, Miaomiao Zhang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.21237v1",
+    "source": "arXiv",
+    "abstract": "Active model learning is a crucial technique for automatically constructing formal models of black-box timed systems. However, existing learning approaches typically construct a single monolithic automaton for a timed system with multiple synchronous components, obscuring its component structure and hindering component-level analysis. We propose a compositional learning approach that constructs a deterministic real-time automaton (RTA) for each component with access only to the target system as a whole. Upon termination, the learned RTAs form a network that exhibits exactly the same timed behaviors as the target system. Within the respective resource limits, our implementation terminates successfully on 213 of the 240 (88.8%) randomly generated benchmark instances and all six adapted case-study benchmarks, and requires less learning time than monolithic approaches on some instances.",
+    "title_zh": "定时同步系统的组合自动机学习",
+    "abstract_zh": "主动模型学习是自动构建黑盒定时系统形式化模型的关键技术。然而，现有的学习方法通常为具有多个同步组件的定时系统构建一个单一的整体自动机，掩盖了其组件结构并阻碍了组件级分析。我们提出了一种组合学习方法，为每个组件构建一个确定性实时自动机（RTA），且仅能访问整个目标系统。在学习完成后，所学习的RTAs形成一个网络，其表现出的定时行为与目标系统完全相同。在各自的资源限制内，我们的实现在240个随机生成的基准实例中的213个（88.8%）和所有6个改编的案例研究基准实例上成功终止，并且在某些实例上比整体学习方法所需的学习时间更少。"
+  },
+  {
+    "date": "2026-10-15",
+    "title": "Scaling up statistical model checking of cyber-physical systems via algorithm ensemble and parallel simulations over HPC infrastructures",
+    "authors": "Leonardo Picchiami, Maxime Parmentier, Axel Legay, Toni Mancini, Enrico Tronci",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.21772v1",
+    "source": "arXiv",
+    "abstract": "Model-based formal verification of industry-relevant Cyber-Physical Systems (CPSs) is often a computationally prohibitive task. In most cases, the complexity of the models precludes any prospect of symbolic analysis, leaving numerical simulation as the only viable option. Unfortunately, exhaustive simulation of a CPS model over the entire set of plausible operational scenarios is rarely possible in practice, and alternative strategies such as Statistical Model Checking (SMC) must be used instead. In this article, we show that the number of model simulations (samples) required by SMC techniques to converge can be significantly reduced by considering multiple (an ensemble of) Adaptive Stopping Algorithms (SAs) at once, and that the simulations themselves (by far the most expensive step of the entire workload) can be efficiently sped up by exploiting massively parallel platforms. With three industry-scale CPS models, we experimentally show that the use of an ensemble of two state-of-the-art SAs (AA and EBGStop) may require dozens of millions fewer samples when compared to running a single algorithm, with reductions in sample size of up to 78%. Furthermore, we show that our implementation, by massively parallelizing system model simulations on a HPC infrastructure, yields speed-ups for the completion time of the verification tasks which are practically linear with respect to the number of computational nodes, thus achieving an efficiency of virtually 100%, even on very large platforms. This makes it possible to complete tasks of model-based SMC verification for complex CPSs in a matter of hours or days, whereas a naïve sequential execution would require from months to many years.",
+    "title_zh": "基于高性能计算基础设施的算法集成与并行仿真提升网络物理系统统计模型检查的可扩展性",
+    "abstract_zh": "基于模型的工业相关物理信息系统(CPS)形式验证通常是一项计算上非常繁重的任务。在大多数情况下，模型的复杂性排除了任何符号分析的可能性，使得数值模拟成为唯一可行的选择。不幸的是，在实践中，几乎不可能对CPS模型在整个合理操作场景集合上进行穷举模拟，因此必须采用替代策略，如统计模型检测(SMC)。在本文中，我们表明，通过同时考虑多个(一组)自适应停止算法(SAs)，可以显著减少SMC技术收敛所需的模型模拟次数(样本数量)，并且通过利用大规模并行平台，可以高效加速模拟本身(整个工作流程中迄今为止最昂贵的步骤)。通过三个工业规模的CPS模型，我们实验性地证明，与运行单个算法相比，使用两种最先进的SA(AA和EBGStop)的组合可能需要减少数千万个样本，样本数量最多可减少78%。此外，我们证明，通过在高性能计算(HPC)基础设施上大规模并行化系统模型模拟，我们的实现实现了验证任务完成时间的加速，这种加速与计算节点数量几乎呈线性关系，从而实现了接近100%的效率，即使在非常大的平台上也是如此。这使得在几小时或几天内完成复杂CPS的基于模型的SMC验证任务成为可能，而简单的顺序执行则需要数月甚至数年时间。"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Proven: A Graphical Tool for Model-Checking Function Block Diagrams",
+    "authors": "Antti Pakonen, Miro Eklund, Tuukka Lehtonen",
+    "publish": "2026 IEEE 31st International Conference on Emerging Technologies and Factory Automation (ETFA)",
+    "url": "https://doi.org/10.1109/etfa68377.2026.11725160",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "已验证：一种用于功能块图模型检查的图形工具",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Execution-Synchronized and Bandwidth-Optimized Stateless Fuzzing for Soft-PLCs in Constrained OT Networks",
+    "authors": "Nobutaka Kawaguchi, Mayuko Tanaka, Ashokkumar Chettymani, Minako Toba, Satoshi Misaka, Hiromi Isokawa",
+    "publish": "2026 IEEE 31st International Conference on Emerging Technologies and Factory Automation (ETFA)",
+    "url": "https://doi.org/10.1109/etfa68377.2026.11724946",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "针对受限OT网络中软PLC的执行同步与带宽优化的无状态模糊测试",
+    "abstract_zh": "None"
+  }
+]
