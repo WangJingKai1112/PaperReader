@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-10-16",
+    "title": "A Scalable Software-in-the-Loop Test Methodology for Early Integration Testing Using Virtual ECUs",
+    "authors": "Fatima Kavgic, Okan Ecin, Alexander Jesser",
+    "publish": "2026 IEEE 31st International Conference on Emerging Technologies and Factory Automation (ETFA)",
+    "url": "https://doi.org/10.1109/etfa68377.2026.11724816",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种基于虚拟ECU的可扩展软件在环测试方法，用于早期集成测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Proven: A Graphical Tool for Model-Checking Function Block Diagrams",
+    "authors": "Antti Pakonen, Miro Eklund, Tuukka Lehtonen",
+    "publish": "2026 IEEE 31st International Conference on Emerging Technologies and Factory Automation (ETFA)",
+    "url": "https://doi.org/10.1109/etfa68377.2026.11725160",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "已验证：一种用于功能块图模型检查的图形工具",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Execution-Synchronized and Bandwidth-Optimized Stateless Fuzzing for Soft-PLCs in Constrained OT Networks",
+    "authors": "Nobutaka Kawaguchi, Mayuko Tanaka, Ashokkumar Chettymani, Minako Toba, Satoshi Misaka, Hiromi Isokawa",
+    "publish": "2026 IEEE 31st International Conference on Emerging Technologies and Factory Automation (ETFA)",
+    "url": "https://doi.org/10.1109/etfa68377.2026.11724946",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "针对受限OT网络中软PLC的执行同步与带宽优化的无状态模糊测试",
+    "abstract_zh": "None"
+  }
+]
