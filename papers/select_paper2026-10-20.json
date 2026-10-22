@@ -1,0 +1,90 @@
+[
+  {
+    "date": "2026-10-20",
+    "title": "Privacy-Preserving Robustness-Guided Testing",
+    "authors": "Charles Koll, Houssam Abbas, Mike Rosulek",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.27441v1",
+    "source": "arXiv",
+    "abstract": "In industries like semi-conductors and aerospace, it is common for the design company to contract out part of the testing process to a Testing-as-a-Service (TaaS) company. In such a setup, both parties want to keep their intellectual property private (i.e. unknown to the other party): namely the design and its output traces for the designer, and the detailed correctness specifications for the tester. We demonstrate a practical way for conducting provably private TaaS using a cryptographically secure multi-party computation protocol. We do so for the common setup where the specification is in Signal Temporal Logic, and testing is done using robustness-guided falsification. Our implementation carefully separates the steps of falsification, and manages to be $\\textit{maximally secure}$, in the sense that the parties learn the absolutely minimum necessary for falsification. For up to a 100-dimensional input search space, the generation of one test takes less than 80 msec, and the overhead of the privacy-preserving protocol is less than 6x. These numbers mean that privacy-preserving TaaS is practical, thus enabling TaaS in security-sensitive industries.",
+    "title_zh": "隐私保护鲁棒性引导测试",
+    "abstract_zh": "在半导体和航空航天等行业，设计公司通常会将部分测试过程外包给测试即服务(TaaS)公司。在这种设置下，双方都希望保持其知识产权的私密性（即对另一方保密）：对于设计方而言，是其设计和输出轨迹；对于测试方而言，是其详细的正确性规范。我们展示了一种实用的方法，使用密码学安全的多方计算协议来执行可证明私密的TaaS。我们针对规范采用信号时序逻辑(Signal Temporal Logic)、测试采用鲁棒性引导的 falsification 的常见设置进行了演示。我们的实现仔细分离了 falsification 的步骤，并实现了最大安全性，即各方仅学习 falsification 所必需的最少信息。对于高达100维的输入搜索空间，生成一个测试所需时间少于80毫秒，而隐私保护协议的开销小于6倍。这些数字意味着隐私保护的TaaS是实用的，从而能够在安全敏感的行业中实现TaaS。"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Raise or Check? Predicting the Necessity of Additional Fuzzing for Continuous Fuzzing",
+    "authors": "Riku Kato, Tatsuya Shirai, Olivier Nourry, Yutaro Kashiwa, Kenji Fujiwara, Yasutaka Kamei, Hajimu Iida",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.27828v1",
+    "source": "arXiv",
+    "abstract": "Continuous fuzzing is used for vulnerability detection in Open Source Software (OSS). Large-scale services such as Google's OSS-Fuzz fuzz over 1,300 projects and have revealed more than 10,000 vulnerabilities. Despite this, a considerable time lag often exists between when a vulnerability is introduced and when it is detected (i.e., the window of exposure). Given the computational cost of additional fuzzing, we aim to allocate fuzzing resources efficiently using vulnerability-risk estimates. We propose RAISE (Risk-Aware Intensive Supplemental Execution Framework), a Just-In-Time (JIT) framework that prioritizes additional fuzzing for high-risk project-days. RAISE performs binary classification at the project-day granularity to estimate whether a vulnerability is introduced on a given day. We construct a dataset combining vulnerability-introducing commits from the OSV database with daily coverage and change metrics from OSS-Fuzz, covering 15 C/C++ projects and 15,210 project-days, of which 347 (2.28%) are vulnerability-introducing. In a cross-project validation setting, our best model, a Random Forest combining VCCFinder-based static features with dynamic fuzzing features, achieves a ROC-AUC of 0.74, substantially outperforming a random baseline; coverage metrics, led by PatchCoverage, are the most important features. In a simulation over 968 vulnerabilities comparing five allocation strategies, Simple-Regression was significantly more cost-efficient than the prediction-agnostic heuristics, spending 91.60 additional fuzzing sessions per detected vulnerability, roughly half the cost of the Median heuristic (171.89). RAISE shows that JIT vulnerability prediction with coverage-aware fuzzing features can effectively guide risk-aware allocation of continuous fuzzing resources.",
+    "title_zh": "加注还是过牌？预测持续模糊测试中额外模糊测试的必要性",
+    "abstract_zh": "持续模糊测试用于开源软件(OSS)中的漏洞检测。谷歌的OSS-Fuzz等大规模服务对超过1,300个项目进行了模糊测试，并发现了超过10,000个漏洞。尽管如此，漏洞被引入到被检测之间通常存在相当大的时间间隔（即暴露窗口）。考虑到额外模糊测试的计算成本，我们旨在利用漏洞风险评估来有效分配模糊测试资源。我们提出了RAISE（风险感知密集补充执行框架），这是一个即时(JIT)框架，优先对高风险项目日进行额外模糊测试。RAISE在项目日粒度上进行二元分类，以估计给定日期是否引入了漏洞。我们构建了一个数据集，结合了来自OSV数据库的漏洞引入提交和来自OSS-Fuzz的每日覆盖率及变更指标，涵盖了15个C/C++项目和15,210个项目日，其中347个(2.28%)是漏洞引入的。在跨项目验证设置中，我们最好的模型是一个结合了基于VCCFinder的静态特征和动态模糊测试特征的随机森林模型，达到了0.74的ROC-AUC，显著优于随机基线；覆盖率指标（以PatchCoverage为首）是最重要的特征。在针对968个漏洞比较五种分配策略的模拟中，简单回归比无预测的启发式方法更具成本效益，每检测到一个漏洞需要额外91.60次模糊测试会话，大约是中位数启发式方法(171.89)的一半成本。RAISE表明，具有覆盖率感知模糊测试特征的即时漏洞预测可以有效指导连续模糊测试资源的风险感知分配。"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "What Do RTL Repair Benchmarks Actually Measure?",
+    "authors": "Yeyin Eva Zhu, Rishabh Ranawat",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.28595v1",
+    "source": "arXiv",
+    "abstract": "RTL repair benchmarks should measure whether a model can fix broken RTL given a specification. To this end, we construct and hash-bind RTLRepairDataset, 5,784 (broken, fixed) training pairs; RTLRepairBench, 459 held-out cases with 374 syntactic and 85 behavioral mutations; and an evaluation harness supporting simulation and formal equivalence. We then use this infrastructure to identify two measurement confounds. First, simulation and formal scoring give opposite signs for the apparent effect of providing a specification in one evaluated cohort; reset-aware rescoring attributes almost all of the simulation-formal disagreement to reset and first-cycle comparison semantics. Second, on 274 mined model failures, the specification-only minus specification-conditioned recovery point estimate ranges from -8.5 to +18.3 percentage points across six models. Thus, a conventional repair score need not isolate whether the model used the faulty RTL. We translate these findings into evaluation controls: report initialization, reset, first-cycle, and unknown-value semantics; disclose oracle coverage and undecided cases; and include a specification-only baseline. Together, the resources and audit provide both a benchmark for behavioral repair and a protocol for diagnosing what contributes to its measured score. We release the benchmark, the training set, construction code, sanitized aggregate evidence, and reproduction materials at https://github.com/Evaaaz/RTLRepairBench.",
+    "title_zh": "RTL修复基准测试实际测量什么？",
+    "abstract_zh": "RTL修复基准应衡量模型能否根据规范修复损坏的RTL。为此，我们构建并哈希绑定了RTLRepairDataset，包含5,784个(损坏,修复)训练对；RTLRepairBench，包含459个保留案例，其中有374个语法突变和85个行为突变；以及一个支持模拟和形式等价性的评估工具。然后，我们使用这个基础设施确定了两个测量混淆因素。首先，在一个评估队列中，模拟和形式评分对提供规范的影响给出了相反的符号；重置感知的重新评分将几乎所有模拟-形式不一致归因于重置和第一周期比较语义。其次，在274个挖掘的模型失败案例中，仅规范与规范条件化恢复点的估计值在六个模型中从-8.5到+18.3个百分点不等。因此，常规的修复分数不一定能隔离模型是否使用了有缺陷的RTL。我们将这些发现转化为评估控制：报告初始化、重置、第一周期和未知值语义；披露oracle覆盖率和未决案例；并包含仅规范基线。总之，这些资源和审计既提供了行为修复的基准，也提供了诊断测量分数构成因素的协议。我们在https://github.com/Evaaaz/RTLRepairBench发布了基准、训练集、构建代码、清理后的汇总证据和复现材料。"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Racer: Hunting GPU Kernel Bugs with Symbolic Equivalence Checking",
+    "authors": "Tuan Truong Vu, Cheng Tan",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.28429v1",
+    "source": "arXiv",
+    "abstract": "GPU kernels are critical to the performance of today's AI services, yet the same operators are rewritten repeatedly: for each GPU generation, numeric format, serving regime, and kernel language. Every rewrite must preserve the function computed by the implementation it replaces. Today, this obligation depends almost entirely on differential testing: run the new kernel and a trusted reference on randomly sampled tensors, then compare their outputs within a tolerance. This approach has blind spots that additional test cases cannot eliminate. For example, a logical bug may produce an error smaller than the tolerance required to accommodate a correct optimized kernel. We propose symbolic equivalence checking, which executes a kernel and its reference on symbolic inputs, turning each output cell into an exact algebraic expression, and then checks whether the paired expressions agree for all inputs. Because these expressions are exact, symbolic equivalence checking distinguishes floating-point error from logical bugs, while a single check covers the entire input space. We implement Racer, a PTX-level symbolic equivalence checking engine, with three techniques that make this approach practical for production kernels: (1) Shape Reduction to control checking cost, (2) a lockstep CTA scheduler to handle concurrency, and (3) idiom templates with exact numeric refutation for otherwise inconclusive results. Across 2,408 production kernels from 41 collection targets, Racer found 82 real bugs in 23 libraries, including 76 previously unknown bugs and 41 confirmed so far.",
+    "title_zh": "赛车手：使用符号等价检查来查找GPU内核错误",
+    "abstract_zh": "GPU内核对当今AI服务的性能至关重要，然而相同的算子却需要反复重写：针对每一代GPU、数值格式、服务模式和内核语言。每次重写都必须保留被替换实现所计算的功能。如今，这一责任几乎完全依赖于差异测试：运行新内核和受信任的参考实现，在随机采样的张量上执行，然后比较它们的输出是否在容差范围内。这种方法存在盲点，即使增加更多测试用例也无法消除。例如，逻辑错误可能产生的误差小于正确优化内核所需的容差。我们提出符号等价性检查，它对符号输入执行内核和其参考实现，将每个输出单元转换为精确的代数表达式，然后检查成对的表达式是否对所有输入都一致。由于这些表达式是精确的，符号等价性检查能够区分浮点错误和逻辑错误，而单次检查即可覆盖整个输入空间。我们实现了Racer，一个PTX级别的符号等价性检查引擎，采用三种技术使这种方法对生产内核变得实用：(1) 形状缩减以控制检查成本，(2) 锁步CTA调度器以处理并发，(3) 模式模板与精确数值反驳以处理其他情况下无法确定的结果。在来自41个收集目标的2,408个生产内核中，Racer在23个库中发现了82个真实错误，包括76个先前未知的错误和41个已确认的错误。"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Beyond Experience: Knowledge-Guided Evolution for NPU Kernel Generation",
+    "authors": "Xi Chen, Ming Shen, Haotian Yan, Ruoyu Sun, Tianjun Yao",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.27588v1",
+    "source": "arXiv",
+    "abstract": "LLM agents have become capable kernel engineers on mainstream GPU stacks, but they struggle on emerging accelerators such as Ascend NPUs, whose programming model is barely represented in pretraining data. Recent NPU agents address this gap largely through experience: they accumulate memory from their own generation and optimization trials and reuse it on later tasks. We argue that experience alone is not enough for kernel generation. An agent can only remember what it has tried, and it rarely tries a mechanism it does not know. As a result, such memory offers little help when a new operator calls for a different mechanism, and even familiar operators raise unseen situations as optimization proceeds. We present ASCENDEVOLVE, which grounds every step of an evolutionary kernel search in a large external knowledge base built from platform documentation, toolkit headers, and operator repositories. Because this corpus far exceeds any context window, ASCENDEVOLVE indexes it and routes each agent to a small, task-specific slice of evidence instead of the corpus itself. The retrieved knowledge seeds diverse implementation strategies, guides repair when a candidate fails, and constrains how strong candidates are recombined. On 53 Ascend C operators from CANN-Bench spanning four difficulty levels, ASCENDEVOLVE achieves an overall score of 71.39, improving over Reflexion and OpenEvolve by 11.6% and 17.2%.",
+    "title_zh": "超越经验：知识引导的NPU内核生成",
+    "abstract_zh": "大语言模型(LLM)代理已成为主流GPU堆栈上能够胜任的内核工程师，但在新兴加速器（如昇腾NPU）上表现不佳，因为这些加速器的编程模型在预训练数据中几乎没有代表性。最近的NPU代理主要通过经验来弥补这一差距：它们从自身的生成和优化试验中积累记忆，并在后续任务中重复使用。我们认为，仅凭经验对于内核生成是不够的。代理只能记住它已经尝试过的内容，而很少尝试它不了解的机制。因此，当新算子需要不同的机制时，这种记忆提供的帮助有限，即使在优化过程中，熟悉的算子也会出现未见过的情境。我们提出了ASCENDEVOLVE，它将进化内核搜索的每一步都构建在一个大型外部知识库上，该知识库基于平台文档、工具包头文件和算子仓库构建。由于这个语料库远超任何上下文窗口，ASCENDEVOLVE对其进行索引，并将每个代理引导至一小部分特定于任务的证据，而不是整个语料库。检索到的知识为多样化的实现策略提供种子，在候选方案失败时指导修复，并约束如何重组强候选方案。在CANN-Bench中涵盖四个难度级别的53个Ascend C算子上，ASCENDEVOLVE取得了71.39的总体得分，比Reflexion和OpenEvolve分别提高了11.6%和17.2%。"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "MIMOS-Tools: An Integrated Toolchain for Model-Based Design of Embedded Systems",
+    "authors": "Wang Yi, Chengzi Huang, Behnam Khodabandeloo, Duc Anh Nguyen",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.27826v1",
+    "source": "arXiv",
+    "abstract": "Despite decades of progress in model-based methods and tools for embedded real-time systems, there is still no integrated environment that supports the entire development lifecycle. This paper presents MIMOS-Tools, a comprehensive toolchain spanning the key phases of development, including modeling, simulation, formal verification, real-time scheduling, schedulability and end-to-end latency analysis, and code generation for heterogeneous multicore platforms. All phases are grounded in a single, coherent, and deterministic model of computation, the MIMOS model, for which we present a formal operational semantics and establish both functional and timing determinism. This semantic foundation ensures that properties verified at the model level are preserved throughout the development process and in the generated implementation. A distinguishing feature of MIMOS-Tools is its support for not only deterministic but also modular, compositional design. Unlike synchronous design environments such as SCADE and Simulink, which rely on a global base clock and offline static scheduling, MIMOS-Tools supports time-triggered asynchronous communication together with flexible real-time scheduling of computation. This removes the tight global coupling of the synchronous paradigm: components can be added, modified, or updated without recomputing a system-wide schedule, enabling scalable and incremental design and dynamic updates throughout the system lifecycle. However, MIMOS-Tools also supports Simulink models when the deadlines of tasks are set to zero to emulate the zero-time semantics of synchronous design. The toolchain is available at uu-mimos.github.io.",
+    "title_zh": "MIMOS-Tools：嵌入式系统模型化设计的集成工具链",
+    "abstract_zh": "尽管在嵌入式实时系统的基于模型的方法和工具方面已经取得了数十年的进展，但仍没有支持整个开发生命周期的集成环境。本文介绍了MIMOS-Tools，这是一个全面的工具链，涵盖了开发的关键阶段，包括建模、仿真、形式化验证、实时调度、可调度性和端到端延迟分析，以及针对异构多核平台的代码生成。所有阶段都基于一个单一的、连贯的、确定性的计算模型——MIMOS模型，我们为该模型提出了形式化操作语义，并建立了功能和时间确定性。这种语义基础确保在模型级别验证的属性在整个开发过程和生成的实现中得到保留。MIMOS-Tools的一个显著特点是它不仅支持确定性设计，还支持模块化、组合式设计。与SCADE和Simulink等同步设计环境不同（这些环境依赖于全局基础时钟和离线静态调度），MIMOS-Tools支持时间触发的异步通信以及计算的灵活实时调度。这消除了同步范式的紧密全局耦合：组件可以添加、修改或更新而无需重新计算系统范围的调度，从而实现了可扩展的增量设计和系统生命周期内的动态更新。然而，当任务的截止时间设置为零以模拟同步设计的零时间语义时，MIMOS-Tools也支持Simulink模型。该工具链可在uu-mimos.github.io获取。"
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Toward Agentic AI for the 6G Physical Layer: From Algorithm Discovery to Verified Baseband Silicon",
+    "authors": "Eric Mittag, Lukas Brechtel, Maximilian Stark, Hans D. Schotten",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.27797v1",
+    "source": "arXiv",
+    "abstract": "6G will be designed faster than it can be built: AI-driven search already proposes physical-layer algorithms at machine speed, while carrying a single one onto embedded baseband silicon remains specialist work. That silicon imposes hard memory and numeric limits, but also exposes cost structures a GPU lacks, and a design flow that never runs on the target sees neither. We present an agentic workflow in which an LLM coding agent implements algorithms on a commercial baseband SoC, optimizes them down to agent-written vector assembly, and validates them on silicon. The agent is guided by a knowledge base of measured platform facts, checked at every step against evaluators it is instructed never to edit, and metered per phase. We showcase the workflow on an AI-discovered orthogonal time frequency space (OTFS) detector portfolio on the open 6G4All platform. It yields twelve kernels that run cycle-exactly on silicon, their optimized versions at 18k-405k cycles (30-660 $μ$s) per frame. It also yields a new detector shaped by the chip's measured costs that needs 13.9% fewer cycles than the port of the discovered detector while matching its error rate, with a measured edge our evaluation cannot statistically resolve, a structure that a hardware-blind search objective had no reason to find. What is not specific to OTFS is the workflow: an LLM agent exploring an implementation space under real hardware limits, with the cost of every choice measured rather than assumed.",
+    "title_zh": "面向6G物理层的智能体AI：从算法发现到验证基带硅芯片",
+    "abstract_zh": "6G的设计速度将超过其建设速度：AI驱动的搜索已经能够以机器速度提出物理层算法，而将单个算法移植到嵌入式基带硅片上仍然是专业工作。这种硅片 imposes 严格的内存和数值限制，但也暴露了GPU所不具备的成本结构，而从未在目标硬件上运行的设计流程则无法看到这些限制。我们提出了一种代理工作流程，其中LLM编码代理在商用基带SoC上实现算法，将其优化为代理编写的向量汇编，并在硅片上验证。该代理由一个测量平台事实的知识库指导，在每个步骤中根据指示从不编辑的评估器进行检查，并按阶段进行计量。我们在开放的6G4All平台上展示了该工作流程，应用于AI发现的正交时频空间(OTFS)检测器组合。它产生了十二个在硅片上精确运行的内核，其优化版本每帧需要18k-405k个周期（30-660微秒）。它还产生了一个由芯片测量成本塑造的新检测器，比移植的发现检测器少13.9%的周期，同时匹配其错误率，具有我们的评估无法统计解析的测量优势，这种结构是硬件盲目的搜索目标没有理由找到的。OTFS特定的不是工作流程，而是LLM代理在真实硬件限制下探索实现空间，对每个选择的成本进行测量而非假设。"
+  },
+  {
+    "date": "2026-10-21",
+    "title": "Demo: RaceCert: Exact Certificates for Two-Path Races",
+    "authors": "Huaijin Ran, Haoyi Zhang",
+    "publish": "Proceedings of the 32nd Annual International Conference on Mobile Computing and Networking",
+    "url": "https://doi.org/10.1145/3795866.3848465",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "演示：RaceCert：双路径比赛的精确证书",
+    "abstract_zh": "None"
+  }
+]
