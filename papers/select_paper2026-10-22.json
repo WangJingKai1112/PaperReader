@@ -1,0 +1,167 @@
+[
+  {
+    "date": "2026-10-22",
+    "title": "ConQEC: Concolic Testing for Quantum Error-Correcting Code Implementations",
+    "authors": "Zihao Li, Ji Guan, Mingsheng Ying",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.31443v1",
+    "source": "arXiv",
+    "abstract": "Quantum error-correcting code (QECC) implementations are hybrid software-control systems: measured syndromes drive decoder dispatch, recovery actions, and logical checks. Existing QECC verification techniques can prove formal obligations, and general quantum testing can expose final failures, but developers still lack a scalable testing workflow that generates concrete faults and explains where a QECC repair path first diverges. This paper presents ConQEC, to our knowledge the first concolic testing framework for QECC implementations. By combining concrete (Pauli) fault replay with symbolic repair-path constraints, ConQEC generates tests that expose not only final logical failures but also fault--syndrome--decoder--recovery (FSDR) diagnostics: the injected fault, observed syndrome, decoder decision, recovery action, oracle result, and earliest divergent stage. Its symbolic encoding of Pauli faults, syndrome predicates, decoder and recovery relations, and oracle checks enables this diagnostic workflow to scale beyond exponentially increasing amplitude-level quantum-state reasoning. We implemented ConQEC and evaluated it on generated source-level QECC families and public QECC artifacts with up to thousands of qubits. ConQEC detects the seeded bug in every experimental case and reports a replay-valid, fault-localizing FSDR witness for each.",
+    "title_zh": "ConQEC：量子纠错码实现的符号执行测试",
+    "abstract_zh": "量子纠错码(QECC)实现是混合软件控制系统：测量综合征驱动解码器调度、恢复操作和逻辑检查。现有的QECC验证技术可以证明形式化义务，通用量子测试可以暴露最终故障，但开发者仍然缺乏一种可扩展的测试工作流程，能够生成具体故障并解释QECC修复路径首次出现偏差的位置。本文介绍了ConQEC，据我们所知，这是首个针对QECC实现的符号执行测试框架。通过结合具体(Pauli)故障重放与符号修复路径约束，ConQEC生成的测试不仅能暴露最终逻辑故障，还能提供故障-综合征-解码器-恢复(FSDR)诊断信息：注入的故障、观察到的综合征、解码器决策、恢复操作、oracle结果以及最早出现偏差的阶段。其对Pauli故障、综合征谓词、解码器和恢复关系以及oracle检查的符号编码，使得这种诊断工作流程能够扩展到指数增长的振幅级量子态推理之外。我们实现了ConQEC，并在生成的源级QECC家族和包含多达数千个量子位的公开QECC工件上对其进行了评估。在所有实验案例中，ConQEC都检测到了植入的bug，并为每个案例报告了一个可重放、能定位故障的FSDR见证。"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Typed Template Fuzzing",
+    "authors": "Lu Maltsis, Dominik Winterer",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.31342v1",
+    "source": "arXiv",
+    "abstract": "Fuzzing software with complex inputs has been a longstanding challenge. Traditionally, fuzzers either programmatically encode language constraints, requiring significant engineering effort, or rely on users to declare grammars and constraints. Recent LLM-based fuzzers address these drawbacks but introduce new issues. Some use LLMs for test generation, sacrificing throughput and producing invalid inputs when the LLM makes mistakes. Others rely on language-specific parsers, static analysis, and AST manipulation libraries. We introduce Typed Template Fuzzing (TTF), a lightweight LLM-based fuzzing methodology. The key idea is to use LLMs in a preprocessing step to transform seeds into typed templates. The typed templates then enable semantically aware, mutation-based fuzzing without language-specific parsers, type checkers, or further LLM queries during fuzzing. By exploiting the correspondence between seeds and templates, TTF can moreover repair LLM mistakes. We have implemented TTF in our tool Typos, which we evaluate across 21 input languages, including C, C++, Go, Rust, SystemVerilog, Scala, and Java, as well as libraries such as PyTorch and Qiskit. In a six-month fuzzing campaign, we reported 135 bugs, 128 of which were previously unknown. Perhaps most notably, on average 96% of Typos's mutants are valid, coming close to the validity rates of domain-specific fuzzers. Our evaluation further shows Typos's benefits over the state of the art.",
+    "title_zh": "模板化模糊测试",
+    "abstract_zh": "使用复杂输入进行模糊测试软件一直是一个长期存在的挑战。传统上，模糊测试工具要么通过编程方式编码语言约束，需要大量的工程努力，要么依赖用户声明语法和约束。最近基于大型语言模型(LLM)的模糊测试工具解决了这些缺点，但引入了新问题。一些使用LLM进行测试生成，牺牲了吞吐量，并在LLM出错时产生无效输入。另一些则依赖于特定语言的解析器、静态分析和AST操作库。我们引入了类型模板模糊测试(TTF)，一种轻量级的基于LLM的模糊测试方法。关键思想是在预处理步骤中使用LLM将种子转换为类型模板。这些类型模板随后能够在不依赖特定语言解析器、类型检查器或在模糊测试过程中进一步查询LLM的情况下，实现语义感知的基于变异的模糊测试。通过利用种子与模板之间的对应关系，TTF还可以修复LLM的错误。我们在工具Typos中实现了TTF，并在21种输入语言上对其进行了评估，包括C、C++、Go、Rust、SystemVerilog、Scala和Java，以及PyTorch和Qiskit等库。在为期六个月的模糊测试活动中，我们报告了135个漏洞，其中128个是之前未知的。最值得注意的是，Typos的变异平均有96%是有效的，接近特定领域模糊测试工具的有效率。我们的评估进一步显示了Typos相比当前最先进技术的优势。"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Breaking the Coupling: Efficient Concurrency Fuzzing for Linux Kernel Data Race Detection",
+    "authors": "Cen Zhang, Jia-Ju Bai, Zi-Yu Zhang, Zuming Jiang",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.30813v1",
+    "source": "arXiv",
+    "abstract": "Detecting data races in the Linux kernel requires exploring both the input space and the thread-interleaving space. Existing kernel concurrency fuzzers couple these two searches by exploring interleavings during fuzzing, often spending substantial scheduling effort on inputs with little potential to trigger real races. In this paper, we present a new concurrency fuzzing paradigm that decouples concurrent-input generation from thread-interleaving exploration, enabling expensive scheduling to focus on promising inputs. To identify inputs that warrant targeted scheduling, we introduce May Race Pairs (MRPs), which represent conflicting memory-access pairs observed within a dynamically determined time threshold. Our framework first generates and executes concurrent syscall groups without controlled scheduling, collecting MRPs to guide further input mutation and identify schedule-worthy inputs. It then uses a separate scheduling instance to explore targeted interleavings and confirm real data races. To improve the effectiveness of both stages, we incorporate LLM-assisted semantic mutation for generating diverse syscall groups, backpressure-guided dynamic threshold control for balancing candidate production and scheduling consumption, and history-aware context recovery, context-aware interleaving scheduling, and candidate MRP prioritization for efficient race confirmation. We implement our framework for the Linux kernel and evaluate it on eight common kernel modules in Linux 6.17. It discovers 187 unique real-world data races, including 59 harmful races. Under the same testing budget, our approach detects substantially more data races than existing kernel concurrency fuzzers, including SegFuzz and CONZZER. These results demonstrate the effectiveness of decoupling concurrent-input generation from interleaving exploration and concentrating scheduling effort on promising candidates.",
+    "title_zh": "打破耦合：针对Linux内核数据竞争检测的高效并发模糊测试",
+    "abstract_zh": "检测Linux内核中的数据竞争需要探索输入空间和线程交错空间。现有的内核并发模糊测试器通过在模糊测试过程中探索交错来耦合这两种搜索，通常在潜在触发真实竞争的输入上花费大量的调度努力。在本文中，我们提出了一种新的并发模糊测试范式，该范式将并发输入生成与线程交错探索解耦，使昂贵的调度能够专注于有前景的输入。为了识别值得进行目标调度的输入，我们引入了\"可能竞争对\"(MRPs)，这些对表示在动态确定的时间阈值内观察到的冲突内存访问对。我们的框架首先生成并执行没有控制调度的并发系统调用组，收集MRPs以指导进一步的输入变异并识别值得调度的输入。然后，它使用单独的调度实例来探索目标交错并确认真实的数据竞争。为了提高两个阶段的有效性，我们集成了LLM辅助的语义变异来生成多样化的系统调用组，基于背压引导的动态阈值控制来平衡候选生成和调度消耗，以及历史感知的上下文恢复、上下文感知的交错调度和候选MRP优先级排序，以高效地确认竞争。我们在Linux内核上实现了我们的框架，并在Linux 6.17的八个常见内核模块上对其进行了评估。它发现了187个独特的真实世界数据竞争，其中包括59个有害竞争。在相同的测试预算下，我们的方法比现有的内核并发模糊测试器（包括SegFuzz和CONZZER）检测到更多的数据竞争。这些结果证明了将并发输入生成与交错探索解耦并将调度精力集中在有前景的候选者上的有效性。"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "From Natural Language to Verified C: Verification-Guided Generation with ACSL Specifications",
+    "authors": "Zian Wang, Qin Li, Weisong Sun, Haibin Cai",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.30725v1",
+    "source": "arXiv",
+    "abstract": "AI-assisted code generation amplifies the demand for automated formal verification. Generated programs must not only be executable but also accompanied by machine-checkable evidence of correctness. Existing approaches can synthesize functionally plausible code or plausible-looking specifications from natural-language prompts; however, they do not explicitly co-design the implementation and specification as a unified artifact optimized for verification. Consequently, automated verifiers often fail to discharge proof obligations. Typical failure modes include missing or implicit proof anchors, program structures that are hostile to automated reasoning, and inconsistencies between code-level state and specification-level requirement facts arising from the independent generation of code and specifications. Even when verification succeeds, it may only establish weak specifications that omit requirement-critical behavior. This paper introduces VeriGen-C, a formal-verification-friendly framework for the joint synthesis of C programs and ACSL specifications from natural-language requirements. Code generation and repair are constrained to expose proof-relevant state, to streamline control flow for deductive verification, and to eliminate implementation patterns that hinder automated proof search. Specification generation and refinement are similarly constrained to mitigate verification timeouts and to ensure alignment with the user requirements. Empirical evaluations on HumanEval-X, FM-Bench, and LiveCodeBench Lite demonstrate that VeriGen-C substantially improves the rate of verified and requirement-aligned solutions relative to an interface-compatible baseline, from 5.5% to 44.5%, from 44.3% to 80.0%, and from 6.5% to 58.7%, respectively.",
+    "title_zh": "从自然语言到验证过的C语言：基于ACSL规范的验证引导生成",
+    "abstract_zh": "AI辅助的代码生成增强了自动化形式验证的需求。生成的程序不仅要可执行，还需要附带正确性的机器可检查证据。现有方法可以从自然语言提示中合成功能上合理的代码或看似合理的规范；然而，它们并没有将实现和规范作为针对验证优化的统一工件进行共同设计。因此，自动化验证器通常无法完成证明义务。典型的失败模式包括缺失或隐含的证明锚点、对自动推理不友好的程序结构，以及由于代码和规范的独立生成而导致的代码级状态与规范级需求事实之间的不一致性。即使验证成功，它可能也只建立了弱规范，这些规范省略了需求关键的行为。本文介绍了VeriGen-C，这是一个从自然语言需求联合生成C程序和ACSL规范的、对形式验证友好的框架。代码生成和修复被限制为暴露与证明相关的状态，简化控制流以进行演绎验证，并消除阻碍自动证明搜索的实现模式。规范生成和细化同样受到限制，以减少验证超时并确保与用户需求的一致性。在HumanEval-X、FM-Bench和LiveCodeBench Lite上的实证评估表明，与接口兼容的基线相比，VeriGen-C显著提高了已验证且符合需求的解决方案的比例，分别从5.5%提高到44.5%，从44.3%提高到80.0%，从6.5%提高到58.7%。"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "LAST-V2X: Language-Driven Adaptive Scenario Synthesis and Testing for Communication-Induced Failures in V2X Safety Applications",
+    "authors": "Keshu Wu, Hao Zhang, Rui Gan, Pei Li, Jiwan Jiang, Yang Zhou",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2610.30979v1",
+    "source": "arXiv",
+    "abstract": "Vehicle-to-everything (V2X) communication enables connected vehicles to make safety-critical decisions, but delayed, missing, or incorrect information can compromise driving safety. Systematically testing such failures is challenging because traffic interactions, communication conditions, and application responses must be jointly configured to produce meaningful scenarios. This paper presents LAST-V2X, a language-driven, adaptive framework for automated scenario synthesis and safety testing of V2X applications. LAST-V2X leverages large language models (LLMs) to translate natural-language test descriptions into executable scenarios grounded in roadway geometry, V2X communication semantics, and vehicle behavior. The framework integrates physical traffic simulation with spatially aware communication modeling and message-level fault injection to evaluate how information degradation affects vehicle decisions. To establish whether an observed safety failure is caused by communication rather than the underlying traffic conditions, LAST-V2X employs matched executions under degraded and ground-truth information. Furthermore, an execution-guided refinement mechanism combines parameter search and LLM self-reflection to identify ineffective test configurations, improve scenario effectiveness, and produce minimal reproducible failure cases. Experiments across diverse CARLA environments and V2X safety applications demonstrate the framework's ability to generate reliable scenarios, distinguish communication-induced failures from unrelated safety violations, and substantially improve failure discovery through adaptive refinement. These results establish LAST-V2X as a systematic approach to language-driven, causally verified, and adaptive safety testing for connected vehicle systems.",
+    "title_zh": "LAST-V2X：面向V2X安全应用中通信故障的语言驱动自适应场景合成与测试",
+    "abstract_zh": "车对万物（V2X）通信使联网车辆能够做出安全关键决策，但延迟、缺失或错误的信息可能会危及驾驶安全。系统地测试此类故障具有挑战性，因为必须联合配置交通交互、通信条件和应用程序响应，以产生有意义场景。本文介绍了LAST-V2X，这是一个基于语言驱动的自适应框架，用于V2X应用的自动化场景合成和安全测试。LAST-V2X利用大型语言模型（LLMs）将自然语言测试描述转换为可执行场景，这些场景基于道路几何、V2X通信语义和车辆行为。该框架将物理交通模拟与空间感知通信建模和消息级故障注入相结合，以评估信息降级如何影响车辆决策。为了确定观察到的安全故障是由通信问题而非底层交通条件引起的，LAST-V2X采用在降级信息和真实信息下的匹配执行。此外，执行引导的细化机制结合参数搜索和LLM自我反思，以识别无效的测试配置，提高场景有效性，并产生最小可复现的故障案例。在多样化CARLA环境和V2X安全应用上的实验证明了该框架能够生成可靠场景，区分通信引起的故障与其他无关安全违规，并通过自适应细化显著提高故障发现能力。这些结果确立了LAST-V2X作为联网系统语言驱动、因果验证和自适应安全测试的系统性方法。"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "ChipModeler: LLM-Aided Reference Model Design for Agile Hardware Verification",
+    "authors": "Jianmin Ye, Yifan Zhang, Tianyang Liu, Qi Tian, Shengchu Su, Lik Tung Fu, Nan Guan, Zhe Jiang, Xi Wang",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804315",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ChipModeler：基于大型语言模型的敏捷硬件验证参考模型设计",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Beyond Fuzzer Islands: CPU Fuzzing via Smart Coordination",
+    "authors": "Yuchen Hu, Jialin Sun, Yushu Du, Renshuang Jiang, Ning Wang, Weiwei Shan, Xinwei Fang, Xi Wang, Nan Guan, Zhe Jiang",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804351",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "超越模糊测试岛屿：通过智能协调进行CPU模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "vTen: Tensor-Centric Verification Framework for Domain-Specific Accelerators",
+    "authors": "Chanmin Baek, Keehyuk Lee, Mincheol Cha, Somi Hong, Xuan Truong Nguyen, Hyuk-Jae Lee",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804323",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "vTen：面向领域特定加速器的以张量为中心的验证框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Late Breaking Results: QUBO Approaches to Logic Equivalence Checking and Testing",
+    "authors": "Tao-Chun Huang, Hao-Yu Tsai, You-Cheng Lin, Yi-Ting Li, Wuqian Tang, Yung-Chih Chen, Jian-Meng Yang, Chun-Yao Wang",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3807713",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "最新研究成果：基于QUBO的逻辑等价性检查与测试方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "ReflectBench: An Agentic Framework for Generating System-Level Design Testbench via Consensus and Reflection",
+    "authors": "Junzhe Liu, Chao Li, Puyuan Zhang, Jinheng Wang, Xiaowei Chen, Zhuorui Zhao, Zhaoyan Shen, Mengying Zhao, Zheyu Yan, Zhenge Jia",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804231",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ReflectBench：一种通过共识和反思生成系统级设计测试平台的智能体框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-23",
+    "title": "NLArchTest: From Natural Language Blueprints to Architecture Compliance Checks",
+    "authors": "Lei Sang, Wuxia Jin, Shi Liu, Jinchi Guo, Shanyan Chen, Yi Jiang, Ting Liu",
+    "publish": "IEEE Transactions on Software Engineering",
+    "url": "https://doi.org/10.1109/tse.2026.3746716",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "NLArchTest：从自然语言蓝图到架构合规性检查",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Lyra: A Hardware-Accelerated RISC-V Verification Framework with Generative Model-Based Processor Fuzzing",
+    "authors": "Juncheng Huo, Yunfan Gao, Xinxin Liu, Sa Wang, Yungang Bao, Xitong Gao, Kan Shi",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3803956",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Lyra：一种基于生成模型的硬件加速RISC-V验证框架与处理器模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "RL4HDL: Code Diversity Guided FPGA Logic Synthesis Compiler Testing Via Reinforcement Learning",
+    "authors": "Zhihao Xu, Hui Zeng, Hui Li, Qian Ma, Furui Zhan, Shikai Guo",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804224",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "RL4HDL：基于代码多样性的FPGA逻辑综合编译器强化学习测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "STELLAR: Structure-guided LLM Assertion Retrieval and Generation for Formal Verification",
+    "authors": "Saeid Rajabi, Chengmo Yang, Satwik Patnaik",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804431",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "STELLAR：面向形式化验证的结构化大语言模型断言检索与生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-22",
+    "title": "SVACoder: Training Specialized LLMs for Hardware Assertion Generation via RTL-Grounded Bidirectional Data Synthesis",
+    "authors": "Yutong Wu, Chenrui Cao, Pengwei Jin, Di Huang, Rui Zhang, Xishan Zhang, Zidong Du, Qi Guo, Xing Hu",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804326",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "SVACoder：通过RTL基础的双向数据合成训练硬件断言生成的专用大语言模型",
+    "abstract_zh": "None"
+  }
+]
