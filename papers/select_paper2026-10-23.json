@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-10-23",
+    "title": "NLArchTest: From Natural Language Blueprints to Architecture Compliance Checks",
+    "authors": "Lei Sang, Wuxia Jin, Shi Liu, Jinchi Guo, Shanyan Chen, Yi Jiang, Ting Liu",
+    "publish": "IEEE Transactions on Software Engineering",
+    "url": "https://doi.org/10.1109/tse.2026.3746716",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "NLArchTest：从自然语言蓝图到架构合规性检查",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-24",
+    "title": "Parameter-Efficient Fine-Tuning for Functional RTL Debugging with Large Language Models",
+    "authors": "Chin-Yun Yang, Wei-Kuan Chiang, Ming-Yi Lin, Yu-Cheng Lin",
+    "publish": "Proceedings of the 9th International Conference on Machine Learning and Machine Intelligence",
+    "url": "https://doi.org/10.1145/3841358.3841407",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于大型语言模型的参数高效微调在功能RTL调试中的应用",
+    "abstract_zh": "None"
+  }
+]
