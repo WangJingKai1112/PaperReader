@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-10-28",
+    "title": "HaVen-Agent: Enhancing Hallucination-Mitigated Verilog Code Generation Aligned with HDL Engineers through Code Repair and Multi-Agent Orchestration",
+    "authors": "Yiyao Yang, Fu Teng, Pengju Liu, Mengnan Qi, Cheng Zou, Shuo Yang, Ruitong An, Chen Nie, Xuhong Zhang, zhezhi he",
+    "publish": "ACM Transactions on Design Automation of Electronic Systems",
+    "url": "https://doi.org/10.1145/3856825",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "HaVen-Agent：通过代码修复和多智能体编排，增强与硬件描述语言工程师对齐的减轻幻觉的Verilog代码生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-28",
+    "title": "FactorEQ: A Materialization-Free Hardware Architecture for Equality Polynomial Generation in SumCheck",
+    "authors": "Jingren Wei, Radu Teodorescu",
+    "publish": "Proceedings of the 15th International Workshop on Hardware and Architectural Support for Security and Privacy",
+    "url": "https://doi.org/10.1145/3857307.3857315",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "FactorEQ：一种无需具体化的SumCheck等式多项式生成硬件架构",
+    "abstract_zh": "None"
+  }
+]
