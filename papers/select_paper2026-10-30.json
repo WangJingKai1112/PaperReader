@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-10-30",
+    "title": "RefEvo: Agentic Design with Co-Evolutionary Verification for Agile Reference Model Generation",
+    "authors": "Yifan Zhang, Jianmin Ye, Jiahao Yang, Xi Wang",
+    "publish": "2026 International Symposium of Electronics Design Automation (ISEDA)",
+    "url": "https://doi.org/10.1109/iseda70083.2026.11751415",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "RefEvo：用于敏捷参考模型生成的协同进化验证智能体设计",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "Agentic Requirement-to-Test Pipeline: Automating Test Generation via Language Models",
+    "authors": "Kiran Paul Kanikaram",
+    "publish": "2026 10th International Conference on I-SMAC (IoT in Social, Mobile, Analytics and Cloud) (I-SMAC)",
+    "url": "https://doi.org/10.1109/i-smac70384.2026.11747568",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "智能需求到测试流水线：通过语言模型自动化测试生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-10-30",
+    "title": "An LLM-Assisted Fuzzing Framework for Vehicle ECU Vulnerability Discovery",
+    "authors": "Quanrui Huo, Yuqiao Ning, Shiyu Mu, Dongqing Sun",
+    "publish": "2026 International Conference on Electronic Engineering, Communications and Computer Technology (EECCT)",
+    "url": "https://doi.org/10.1109/eecct71142.2026.11746521",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种用于车辆ECU漏洞发现的LLM辅助模糊测试框架",
+    "abstract_zh": "None"
+  }
+]
