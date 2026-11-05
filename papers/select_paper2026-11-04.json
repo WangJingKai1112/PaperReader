@@ -1,0 +1,68 @@
+[
+  {
+    "date": "2026-11-4",
+    "title": "HIL Test Case Generation Based on Knowledge Graph-Enhanced LLM with Graph RAG",
+    "authors": "Shuai Liu, Yang Liu, Ran Bo, QingLiang Shang",
+    "publish": "2026 8th International Conference on Intelligent Autonomous Systems (ICoIAS)",
+    "url": "https://doi.org/10.1109/icoias71675.2026.11755281",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于知识图谱增强的LLM与图RAG的HIL测试用例生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-4",
+    "title": "A Bounded-Regret Observation-Point Selection Method for Fault Identifiability in Digital Circuits",
+    "authors": "Yuanfa Ji, Qiqi Li, Furong Jiang, Youjun Xiao",
+    "publish": "IEEE Transactions on Reliability",
+    "url": "https://doi.org/10.1109/tr.2026.3750366",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种用于数字电路故障可识别性的有界遗憾观测点选择方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-4",
+    "title": "EoSS: Exploring SASS - A Systematic Framework to Explore NVIDIA's ISA",
+    "authors": "Cesar Avalos Baddouh, Mathias Payer, Timothy G. Rogers",
+    "publish": "Proceedings of the 32nd ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1",
+    "url": "https://doi.org/10.1145/3845814.3850082",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "EoSS：探索SASS - 探索NVIDIA ISA的系统化框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-4",
+    "title": "ChronoShear: Breaking Loop-Carried Dependencies in RTL Simulation via Microarchitectural Oracles",
+    "authors": "Chuanqi Cong, Yi Liu, Rui Wang, Zidong Du, Depei Qian",
+    "publish": "Proceedings of the 32nd ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1",
+    "url": "https://doi.org/10.1145/3845814.3850044",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ChronoShear：通过微结构预言器打破RTL仿真中的循环依赖",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-4",
+    "title": "HammerSim: A System-Level Tool to Model RowHammer",
+    "authors": "Kaustav Goswami, Ayaz Akram, Hari Venugopalan, Jason Lowe-Power",
+    "publish": "2026 IEEE International Symposium on Workload Characterization (IISWC)",
+    "url": "https://doi.org/10.1109/iiswc71020.2026.00021",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "HammerSim：一个用于模拟RowHammer的系统级工具",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-4",
+    "title": "Focaccia: Semantic Validation for CPU Emulators",
+    "authors": "Theofilos Augoustis, Sebastian Reimers, Christian Krinitsin, Redha Gouicem, Dennis Sprokholt, Pramod Bhatotia",
+    "publish": "Proceedings of the 32nd ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 1",
+    "url": "https://doi.org/10.1145/3845814.3850076",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "Focaccia：CPU模拟器的语义验证",
+    "abstract_zh": "None"
+  }
+]
