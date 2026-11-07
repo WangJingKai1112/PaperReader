@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-11-6",
+    "title": "Automated Discovery, Classification, and Systematic Security Verification Methodology for Undocumented Instructions",
+    "authors": "Yooseok Lee, Junho Jo, Hanjoon Kim, Wonjun Song",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804387",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "未记录指令的自动发现、分类和系统性安全验证方法",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-6",
+    "title": "CircuitDiff: Bridging Netlist Knowledge with RTL based on Graph Denoising Diffusion",
+    "authors": "Ning Wang, Zichong Deng, Bingkun Yao, Jie Zhou, Yuchen Hu, Xi Wang, Zhe Jiang, Nan Guan",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804385",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "CircuitDiff：基于图去噪扩散的网表知识与RTL桥接",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-6",
+    "title": "EARL: Entropy-Aware RL Alignment of LLMs for Reliable RTL Code Generation",
+    "authors": "Jiahe Caroline Shi, Zhengqi Gao, Ching-Yun Ko, Duane Boning",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804198",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "EARL：面向可靠RTL代码生成的熵感知RL对齐大语言模型",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-6",
+    "title": "Test Point Insertion with ATPG-Free Self-Supervised Learning",
+    "authors": "Tae-Min Park, Sung-Hyuk Cho, Jeongyeol Lee, Jiwhan Kim, Nur A Touba, Joon-Sung Yang",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804251",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于ATPG-Free自监督学习的测试点插入",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-6",
+    "title": "CHiRM-DSE: CodeLLM-based Hierarchical and Rule-Mining Guided DSE for FPGA accelerators",
+    "authors": "Shi Chao, Teng Wang, Zhu Qinggang, Qianyu Cheng, Jing Wu, Wenqi Lou, Lei Gong, Zhou Xuehai",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804272",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "CHiRM-DSE：基于CodeLLM的分层规则挖掘引导FPGA加速器设计空间探索",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-6",
+    "title": "GPU-Fuzz: Finding Memory Errors in Deep Learning Frameworks",
+    "authors": "Zihao Li, Hongyi Lu, Yanan Guo, Zhenkai Zhang, Shuai Wang, Fengwei Zhang",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804266",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "GPU-Fuzz：在深度学习框架中查找内存错误",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-6",
+    "title": "RISCSmith: Finding RISC-V CPU Bugs via Rich Instruction Construction and On-the-fly Differential Analysis",
+    "authors": "Xudong Zhang, Yuanliang Chen, Zehong Yu, Zhen Yan, Fuchen Ma, Dalong Shi, Yu Jiang",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3803916",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "RISCSmith：通过丰富指令构建和即时差异分析发现RISC-V CPU漏洞",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-6",
+    "title": "Debug Like a Human: Scaling LLM-based Fault Localization to Processor Design via Block-Level Instruction-Oriented Slicing",
+    "authors": "Zizhen Liu, Xiaoguang Mao, Deheng Yang, Jiayu He, Yihao Qin, Guangda Zhang, Yan Lei, Jianjun Xu, Jiang Wu",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804145",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "像人类一样调试：基于LLM的故障定位在处理器设计中的块级指令导向切片扩展",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-6",
+    "title": "Leveraging Invariants for Scalable Verification of RISC-V Cryptography Extensions",
+    "authors": "Kim Fahrni, Katharina Ceesay-Seitz, Denis Zuppiger, Kaveh Razavi",
+    "publish": "Proceedings of the 63rd ACM/IEEE Design Automation Conference",
+    "url": "https://doi.org/10.1145/3770743.3804151",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "利用不变量进行RISC-V密码扩展的可扩展验证",
+    "abstract_zh": "None"
+  }
+]
