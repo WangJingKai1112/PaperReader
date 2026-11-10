@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-11-9",
+    "title": "LLM-Assisted Seed Generation for Coverage-Guided Greybox Fuzzing of Programs with Structured Textual Languages",
+    "authors": "Hamidreza Maneshti, Alireza Manashty, Quentin Stiévenart",
+    "publish": "2026 IEEE International Conference on Source Code Analysis &amp; Manipulation (SCAM)",
+    "url": "https://doi.org/10.1109/scam71261.2026.00026",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于结构化文本语言的程序覆盖率引导灰盒模糊测试的LLM辅助种子生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-9",
+    "title": "Extending Reinforcement Learning-Based Protocol Fuzzing for 5G Core Network Attack Dataset Generation",
+    "authors": "Nikolaos Vakakis, Antonios Lalas, Konstantinos Votis",
+    "publish": "2026 IEEE International Conference on Cyber Security and Resilience (CSR)",
+    "url": "https://doi.org/10.1109/csr69374.2026.11759920",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "扩展基于强化学习的协议模糊测试以生成5G核心网络攻击数据集",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-9",
+    "title": "A Neuro-Symbolic Fuzzy BDI Multi-Agent Architecture for Automated Unit Test Generation",
+    "authors": "Muhammad Asaf, Angelo Mendicelli, Francesco Scarcello",
+    "publish": "2026 IEEE Smart World Congress (SWC)",
+    "url": "https://doi.org/10.1109/swc69865.2026.11764032",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "一种用于自动化单元测试生成的神经符号模糊BDI多智能体架构",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-9",
+    "title": "Towards Robust LLM-Enabled Fuzzing: Enhancing Test Generation Prompts via Execution Feedback",
+    "authors": "Marie Louise Uwibambe, Qinghua Li, Yanjun Pan",
+    "publish": "2026 IEEE International Conference on Cyber Security and Resilience (CSR)",
+    "url": "https://doi.org/10.1109/csr69374.2026.11759914",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向鲁棒的LLM赋能模糊测试：通过执行反馈增强测试生成提示",
+    "abstract_zh": "None"
+  }
+]
