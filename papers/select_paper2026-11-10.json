@@ -1,0 +1,145 @@
+[
+  {
+    "date": "2026-11-10",
+    "title": "Design and Reliability Analysis of a Fault-Tolerant Pipelined RISC-V Processor with Instruction Cache",
+    "authors": "Wesley Grignani, Douglas A. Santos, Douglas R. Melo, Frédéric Wrobel, Luigi Dilillo",
+    "publish": "2026 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+    "url": "https://doi.org/10.1109/dft70440.2026.11763250",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "具有指令缓存的容错流水线RISC-V处理器设计与可靠性分析",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "SafeTCLS: Fast Error Recovery for a RISC-V Triple-Core Lockstep Realization",
+    "authors": "Ahlame El-Afghani, Sergi Alcaide, Juan Carlos Rodriguez, Jaume Abella",
+    "publish": "2026 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+    "url": "https://doi.org/10.1109/dft70440.2026.11763300",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "SafeTCLS：面向RISC-V三核锁步实现的快速错误恢复",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Runtime Pattern Identification and Ranked Fault Narrowing in SBST for RISC-V Processors",
+    "authors": "Ashwin Santhosh, Endri Kaja, Artur Jutman, Jad Al Halabi, Maksim Jenihhin, Wolfgang Ecker",
+    "publish": "2026 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+    "url": "https://doi.org/10.1109/dft70440.2026.11763214",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向RISC-V处理器的SBST中运行时模式识别与排序故障缩小",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "AI-Enabled Self-Healing Framework for System-Level Testing and Autonomous Validation of Communication Peripherals in SoCs",
+    "authors": "Raghu. K, Govindhasamy Sudhagar",
+    "publish": "2026 International Conference on Recent Innovation in Science, Engineering and Technology (ICRISET)",
+    "url": "https://doi.org/10.1109/icriset69660.2026.11759524",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "用于SoC通信外设系统级测试和自主验证的AI自愈框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "SAISEI: Streamed Automated IC Test Sequence Execution Interface",
+    "authors": "Zhenzhe Chen, Takashi Sato",
+    "publish": "2026 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+    "url": "https://doi.org/10.1109/dft70440.2026.11763212",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "SAISEI: 流式自动化集成电路测试序列执行接口",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Poster Abstract: Interpretable and Learning-Driven Falsification of Cyber-Physical Systems",
+    "authors": "Sauvik Gon, Atanu Kundu, Rajarshi Ray",
+    "publish": "Proceedings of the 29th ACM International Conference on Hybrid Systems: Computation and Control",
+    "url": "https://doi.org/10.1145/3801146.3807413",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "海报摘要：可解释且学习驱动的物理信息系统验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Formal-Aided Reliability Assessment for Systolic Array-Based DNN Accelerators",
+    "authors": "Vu Dang Nguyen Trinh, Ayoub Fellouh, Otmane Ait Mohamed, Fakhreddine Ghaffari",
+    "publish": "2026 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+    "url": "https://doi.org/10.1109/dft70440.2026.11763169",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于脉动阵列的DNN加速器的形式化辅助可靠性评估",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "On the Acceleration of Multiple Target Test Generation Using Extended Test Cubes",
+    "authors": "Toshinori Hosokawa, Tao Sawada, Masayoshi Yoshimura, Yusuke Matsunaga, Masayuki Arai",
+    "publish": "2026 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+    "url": "https://doi.org/10.1109/dft70440.2026.11763230",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "使用扩展测试立方体加速多目标测试生成的生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Shifted-Scheduling Interleaved Multi-Threading for Hard-Fault Detection in a RISC-V Microprocessor",
+    "authors": "Andrea Marcelli, Marcello Barbirotta, Marco Angioli, Antonio Mastrandrea, Francesco Menichelli, Mauro Olivieri",
+    "publish": "2026 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+    "url": "https://doi.org/10.1109/dft70440.2026.11763259",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "用于RISC-V微处理器硬故障检测的移位调度交错多线程",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Structure-Aware and Multi-Objective Test Generation for Digital Computing-In Memories with MAC Function",
+    "authors": "Wei-Hung Lin, Yu-Guang Chen, Ya-Chun Chang, Jin-Fu Li, Chun-Lung Hsu, Shih-Hsu Huang",
+    "publish": "2026 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+    "url": "https://doi.org/10.1109/dft70440.2026.11763167",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "具有MAC功能的数字计算存储器的结构感知和多目标测试生成",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Exploiting Systolic Array Dataflow to Perform Functional Parallel Test &amp; Diagnosis",
+    "authors": "Lila Ammoura, Alberto Bosio",
+    "publish": "2026 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+    "url": "https://doi.org/10.1109/dft70440.2026.11763220",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "利用脉动阵列数据流进行功能并行测试与诊断",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Design for Test Observability of an AMBA-AXI Network Interface for Reliable MPSoCs",
+    "authors": "Thiago H. Rausch, Wesley Grignani, Douglas A. Santos, Luigi Dilillo, Douglas R. Melo",
+    "publish": "2026 IEEE International Symposium on Defect and Fault Tolerance in VLSI and Nanotechnology Systems (DFT)",
+    "url": "https://doi.org/10.1109/dft70440.2026.11763237",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向可靠MPSoC的AMBA-AXI网络接口的可测试性观测设计",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-10",
+    "title": "An AI-Driven Test Pattern Generation Framework for Resilient and Secure Built-in Self-Test (BIST) Architectures",
+    "authors": "Vanithamani P, Sudhagar G",
+    "publish": "2026 International Conference on Recent Innovation in Science, Engineering and Technology (ICRISET)",
+    "url": "https://doi.org/10.1109/icriset69660.2026.11759508",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "面向弹性与安全内置自测试(BIST)架构的AI驱动测试模式生成框架",
+    "abstract_zh": "None"
+  }
+]
