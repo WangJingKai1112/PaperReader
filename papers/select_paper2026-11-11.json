@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-11-11",
+    "title": "Pluto: A Benchmark for Evaluating Efficiency of LLM-generated Hardware Code",
+    "authors": "Manar Abdelatty, Maryam Nouh, Jacob Rosenstein, Sherief Reda",
+    "publish": "2026 IEEE International Conference on LLM-Aided Design (ICLAD)",
+    "url": "https://doi.org/10.1109/iclad71857.2026.00023",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Pluto：评估大语言模型生成硬件代码效率的基准",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "LACE: Large Language Model Aided Multi-Agent Framework for Agile RISC-V Instruction Extension",
+    "authors": "Pingqing Zheng, Jiayin Qin, Fuqi Zhang, Zishen Wan, Shang Wu, Yu Kevin Cao, Caiwen Ding, Yang Katie Zhao",
+    "publish": "2026 IEEE International Conference on LLM-Aided Design (ICLAD)",
+    "url": "https://doi.org/10.1109/iclad71857.2026.00008",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "LACE：基于大型语言模型辅助的多智能体框架，用于敏捷RISC-V指令扩展",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Inference-Time Scaling in Agentic Hardware Verification Workflows: A Multi-Strategy Characterization Across Protocol Complexity",
+    "authors": "Vikash Kumar",
+    "publish": "2026 IEEE International Conference on LLM-Aided Design (ICLAD)",
+    "url": "https://doi.org/10.1109/iclad71857.2026.00026",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "代理硬件验证工作流中的推理时扩展：跨协议复杂性的多策略表征",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-11",
+    "title": "CircuitLM: A Multi-Agent LLM-Aided Design Framework for Generating Circuit Schematics from Natural Language Prompts",
+    "authors": "Khandakar Shakib Al Hasan, Syed Rifat Raiyan, Hasin Mahtab Alvee, Wahid Sadik",
+    "publish": "2026 IEEE International Conference on LLM-Aided Design (ICLAD)",
+    "url": "https://doi.org/10.1109/iclad71857.2026.00014",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "CircuitLM：一种基于多智能体大语言模型的设计框架，用于从自然语言提示生成电路图",
+    "abstract_zh": "None"
+  }
+]
