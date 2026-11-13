@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-11-12",
+    "title": "SafeRTL: IP-Preserving Verilog Optimization via Principle-Guided Local-Cloud LLM Framework",
+    "authors": "Jing Wang, Zheng Li, Lei Li, Fan He, Liyu Lin, Yao Lai, Jiafei Yao, Yan Li, Xiaoyang Zeng, Yufeng Guo",
+    "publish": "2026 IEEE 8th International Conference on Artificial Intelligence Circuits and Systems (AICAS)",
+    "url": "https://doi.org/10.1109/aicas69579.2026.11762107",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "SafeRTL：基于原则引导的本地云大语言模型框架的IP保护型Verilog优化",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Cyber-FIE: A Software-Induced Memory Fault Injection Framework for Evaluating AES-256 Resilience on ESP32",
+    "authors": "Ali E. Takieldeen, Ziad A. Mashaly, Mohamed H. El Sherbini, Haitham M. Attia, Sayed H. Hagag, Eslam A. Takieldeen",
+    "publish": "2026 International Telecommunications Conference (ITC-Egypt)",
+    "url": "https://doi.org/10.1109/itc-egypt70422.2026.11765755",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "Cyber-FIE：一种用于评估ESP32上AES-256抗性的软件诱导内存故障注入框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "DEMO:\n                    <scp>aIRQFuzz</scp>\n                    : Directed Wireless Fuzzing Through Emulation",
+    "authors": "Zewen Shang",
+    "publish": "Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security",
+    "url": "https://doi.org/10.1145/3830454.3846401",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "<aIRQFuzz</a>: 通过模拟进行定向无线模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "From Fault to Oracle: Breaking Google Pixel TPU Hardware Memory Isolation via Trusted Deserialization Faults",
+    "authors": "Minghao Lin, Guanxing Wen, Haoxuan Xu, Yuzhou Fang, Nanzi Yang, Xiaokuan Zhang, Yanan Guo, Zhuo Zhang, Mengyuan Li",
+    "publish": "Proceedings of the 2026 ACM SIGSAC Conference on Computer and Communications Security",
+    "url": "https://doi.org/10.1145/3830454.3846589",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "从故障到预言：通过可信反序列化故障破坏谷歌Pixel TPU硬件内存隔离",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Bypassing IoT Cryptography: Key Extraction and Fuzzing",
+    "authors": "Michael O'Malley, Thomas S Cerruti, Proyash Podder",
+    "publish": "2026 Interdisciplinary Conference on Electrics and Computer (INTCEC)",
+    "url": "https://doi.org/10.1109/intcec70253.2026.11764745",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "绕过物联网密码学：密钥提取与模糊测试",
+    "abstract_zh": "None"
+  }
+]
