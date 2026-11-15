@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-11-14",
+    "title": "EvoFuzz: IR-Aware Fuzzing for JIT Compilers through the Lens of Node Evolution",
+    "authors": "Jinze Si, Yuchen Sun, Mingyu Wu, Haibo Chen",
+    "publish": "Proceedings of the 2026 ACM SIGOPS Annual Technical Conference",
+    "url": "https://doi.org/10.1145/3828523.3857114",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "EvoFuzz：通过节点进化的视角实现面向JIT编译器的感知IR模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "EBFuzz: Fuzzing Hidden Structural Assumptions in Compilers with Extended Inline Assembly",
+    "authors": "Jiangchang Wu, Yibiao Yang",
+    "publish": "Proceedings of the 2026 ACM SIGOPS Annual Technical Conference",
+    "url": "https://doi.org/10.1145/3828523.3857139",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "EBFuzz：使用扩展内联汇编对编译器中的隐藏结构假设进行模糊测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "MBCheck: Practical Static Analysis Framework for Detecting Memory Ordering Violations under WMM",
+    "authors": "Jaidev Shastri, Binoy Ravindran",
+    "publish": "Proceedings of the 2026 ACM SIGOPS Annual Technical Conference",
+    "url": "https://doi.org/10.1145/3828523.3857079",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "MBCheck：在内存模型下检测内存排序违规的实用静态分析框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-14",
+    "title": "Fuzz Testing on IPC Based OS Services with Resource State Awareness",
+    "authors": "Yuheng Shen, Yifei Chu, Fan Ding, Jianzhong Liu, Qiang Zhang, Heyuan Shi, Yu Jiang",
+    "publish": "Proceedings of the 2026 ACM SIGOPS Annual Technical Conference",
+    "url": "https://doi.org/10.1145/3828523.3857101",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "基于资源状态感知的IPC操作系统服务模糊测试",
+    "abstract_zh": "None"
+  }
+]
