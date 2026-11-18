@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2026-11-17",
+    "title": "FPGA Implementation and Verification of a Batch-Normalization-Folded Fixed-Point CNN",
+    "authors": "Yasemin Yilmazoğlu, Sezen Bal",
+    "publish": "2026 Innovations in Intelligent Systems and Applications Conference (ASYU)",
+    "url": "https://doi.org/10.1109/asyu71790.2026.11772432",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "批归一化折叠定点CNN的FPGA实现与验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "CONTEXTA: An LLM-Assisted Framework for Structured Test Case Generation from Software Artifacts",
+    "authors": "Cem Bağlum, Metin Yılmaz, Uğur Yayan",
+    "publish": "2026 Innovations in Intelligent Systems and Applications Conference (ASYU)",
+    "url": "https://doi.org/10.1109/asyu71790.2026.11772252",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "CONTEXTA：一种从软件工件生成结构化测试用例的LLM辅助框架",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Binary Classification of Fault Injection Outcomes at the Function Level Using Hardware Performance Counters",
+    "authors": "Sanem Arslan",
+    "publish": "2026 Innovations in Intelligent Systems and Applications Conference (ASYU)",
+    "url": "https://doi.org/10.1109/asyu71790.2026.11772341",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "使用硬件性能计数器进行函数级故障注入结果的二元分类",
+    "abstract_zh": "None"
+  }
+]
