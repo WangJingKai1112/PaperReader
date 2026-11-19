@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-11-18",
+    "title": "Cooperative LLM and Genetic Programming for Automated RISC-V Verification and Testing",
+    "authors": "Reza Khoshzaban, Sandro Marghella, Piero Bevilacqua, Asma Rastgou, Matteo Sonza Reorda, Riccardo Cantoro",
+    "publish": "2026 IEEE 39th International System-on-Chip Conference (SOCC)",
+    "url": "https://doi.org/10.1109/socc71045.2026.11773808",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于协同大语言模型与遗传编程的RISC-V自动验证与测试",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Learning Structural Manipulability in Gate-Level Netlists Using Graph Neural Networks",
+    "authors": "Rupesh Raj Karn, Ozgur Sinanoglu",
+    "publish": "2026 IEEE 39th International System-on-Chip Conference (SOCC)",
+    "url": "https://doi.org/10.1109/socc71045.2026.11773856",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "使用图神经网络学习门级网表的结构可操纵性",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Accelerated Design Verification of NoC Trace Processing Unit using AI Based VIP Integration",
+    "authors": "Sanjoy Saha, Shreya Jayateerth Joshi, Poonam M. Shettar, Rajesh C, Alok Kumar, Garima Srivastava",
+    "publish": "2026 IEEE 39th International System-on-Chip Conference (SOCC)",
+    "url": "https://doi.org/10.1109/socc71045.2026.11773842",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "基于AI的VIP集成加速NoC trace处理单元的设计验证",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-18",
+    "title": "From Transistors to SystemVerilog: A GNN-ML Framework for the Automated Behavioral Modeling of Integrated Circuits",
+    "authors": "Karim Osama, Amr Wael, Kareem Atef, Kareem Abdelraof, Hana Maged, Mariam Ahmed, Mostafa Waseem, Ramy Raafat, Mohamed Abd El Ghany",
+    "publish": "2026 IEEE 39th International System-on-Chip Conference (SOCC)",
+    "url": "https://doi.org/10.1109/socc71045.2026.11773866",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "从晶体管到SystemVerilog：用于集成电路自动化行为建模的GNN-ML框架",
+    "abstract_zh": "None"
+  }
+]
