@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-11-21",
+    "title": "LiveFuzz: Detecting Exploitable Library Vulnerabilities from Client Programs via Directed Greybox Fuzzing",
+    "authors": "Yukai Zhao, Menghan Wu, Xing Hu, Shaohua Wang, Meng Luo, Xin Xia",
+    "publish": "Proceedings of the 17th International Conference on Internetware",
+    "url": "https://doi.org/10.1145/3834680.3834685",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "LiveFuzz：通过有向灰盒模糊测试从客户端程序检测可利用的库漏洞",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-21",
+    "title": "ACSLAgent: Generation and Synthesis of Formal Specifications for C programs via LLM-based Agent",
+    "authors": "Lezhi Ma, Han Wang, Shangqing Liu, Lei Bu",
+    "publish": "Proceedings of the 17th International Conference on Internetware",
+    "url": "https://doi.org/10.1145/3834680.3834731",
+    "source": "ACM",
+    "abstract": "None",
+    "title_zh": "ACSLAgent：基于大语言模型代理的C程序形式化规范生成与合成",
+    "abstract_zh": "None"
+  }
+]
