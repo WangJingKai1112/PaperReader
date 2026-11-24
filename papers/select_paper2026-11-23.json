@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2026-11-23",
+    "title": "Open-Source End-to-End-Verified CHI E.b Coherent Requester Interface",
+    "authors": "Abdesattar Kalache, Teemu Rinne, Joonas Multanen, Uffke Drechsler, Pekka Jääskeläinen",
+    "publish": "2026 IEEE Nordic Circuits and Systems Conference (NorCAS)",
+    "url": "https://doi.org/10.1109/norcas71164.2026.11790953",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "开源端到端验证的CHI E.b 一致请求者接口",
+    "abstract_zh": "None"
+  },
+  {
+    "date": "2026-11-23",
+    "title": "DADS: A Dual-Dimension Adaptive Sampling Debugging System for FPGAs",
+    "authors": "Yanjun Lu, Matthias Nickel, Jin Yuan, Lester Kalms, Diana Göhringer",
+    "publish": "2026 IEEE Nordic Circuits and Systems Conference (NorCAS)",
+    "url": "https://doi.org/10.1109/norcas71164.2026.11791152",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "DADS：一种面向FPGA的双维度自适应采样调试系统",
+    "abstract_zh": "None"
+  }
+]
