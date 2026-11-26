@@ -1,0 +1,46 @@
+[
+  {
+    "date": "2026-11-25",
+    "title": "SentryWard: Formal Verification of Warp-Specialized GPU Kernels",
+    "authors": "Mengdi Wu, Sreeram Vennam, Stephen Mell, Ziwei Zhou, Advay Kadam, Xinhao Cheng, Francois Costa, Alex Aiken, Oded Padon, Zhihao Jia",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2611.33817v1",
+    "source": "arXiv",
+    "abstract": "Modern GPU kernels overlap asynchronous data movement, computation on general-purpose cores (e.g., CUDA cores), and computation on specialized cores (e.g., tensor cores) using warp specialization. These asynchronous-overlap optimizations introduce complex synchronization requirements, where incorrect ordering of asynchronous operations can lead to data races, premature resource reuse, and incorrect results. Testing alone cannot guarantee correctness because such errors are nondeterministic and may only manifest in rare execution schedules, and existing GPU formal verification techniques have limited support for warp-specialized kernels. We present SentryWard, a framework for formally verifying warp-specialized GPU kernels. SentryWard integrates synchronization verification, data-race and resource-lifetime analysis, and functional equivalence checking. The key idea is to establish that synchronization induces the same ordering constraints across all possible execution schedules. SentryWard extends this well-synchronization analysis to modern GPU barriers with asynchronous transaction tracking and derives a schedule-independent happens-before graph. It then uses this graph to verify memory safety and construct symbolic output expressions for functional equivalence checking. While SentryWard generally assumes tensor shapes and kernel launch configurations are given and unrolls loops, it uses compact representations of repeated structures across threads and tensor computations to improve scalability. SentryWard is publicly available at https://github.com/gpu-verifier/sentryward.",
+    "title_zh": "SentryWard：针对Warp专用GPU内核的形式化验证",
+    "abstract_zh": "现代GPU内核通过warp专业化技术，重叠异步数据传输、通用核心（如CUDA核心）上的计算以及专用核心（如张量核心）上的计算。这些异步重叠优化引入了复杂的同步需求，其中异步操作的不当排序可能导致数据竞争、资源过早重用和错误结果。仅靠测试无法保证正确性，因为此类错误具有非确定性，可能仅在罕见的执行调度中显现，且现有的GPU形式验证技术对warp专业化内核的支持有限。我们提出了SentryWard，一个用于形式验证warp专业化GPU内核的框架。SentryWard集成了同步验证、数据竞争和资源生命周期分析以及功能等价性检查。其核心思想是建立同步在所有可能的执行调度中诱导相同的排序约束。SentryWard将这种良好的同步分析扩展到具有异步事务跟踪的现代GPU屏障，并导出与调度无关的happens-before图。然后，该框架使用此图验证内存安全性，并构建符号输出表达式以进行功能等价性检查。虽然SentryWard通常假设张量形状和内核启动配置已给定且展开循环，但它使用跨线程和张量计算的重复结构的紧凑表示来提高可扩展性。SentryWard可在https://github.com/gpu-verifier/sentryward公开获取。"
+  },
+  {
+    "date": "2026-11-25",
+    "title": "REFORGE: LLM-Assisted RTL Bug Repair with Structured Context and Verification Feedback",
+    "authors": "Tanvir Hossain, Sudipta Paria, Aidan Gleason Myers, Swarup Bhunia, Tamzidul Hoque",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2611.33748v1",
+    "source": "arXiv",
+    "abstract": "Large language models (LLMs) can write and repair RTL, but successful compilation or testbench execution does not establish defect removal, behavioral preservation, security, or implementation feasibility. Existing LLM-based RTL repair methods often report a single repair rate without retaining separate evidence for these properties, limiting reproducible comparison and integration into hardware design flows. We present REFORGE, which, to our knowledge, is the first LLM-assisted RTL repair framework that maintains and accumulates structured repair evidence across iterations, allowing it to generate fixes that satisfy multiple objectives simultaneously, including functionality, behavioral equivalence, security, and cost efficiency. REFORGE profiles buggy RTL, identifies structural and security-relevant features, localizes failing behavior, and uses verification-guided diagnosis to generate complete RTL repair variants. Each variant undergoes syntax checking, simulation, formal analysis, off-trigger preservation, security re-scan, and synthesis-based power, performance, and area analysis. We implement REFORGE as a backend-independent repair-and-verification flow and evaluate it in 288 runs across three LLM backends and three benchmark suites. On CirFix, the proposed context and diagnosis increase runs delivering a checked repair from 32/63 to 51/63, while every configuration repairs the Hack@DAC OpenTitan defect. Evidence records also show that a testbench-only criterion reports 3.9 times more repairs than the full set of applicable checks, security-clean outputs may lack functional verification, and different RTL repairs can implement equivalent hardware. These results show that LLM-generated RTL repairs require explicit multi-stage verification evidence rather than a single pass/fail outcome.",
+    "title_zh": "REFORGE：基于结构化上下文和验证反馈的LLM辅助RTL Bug修复",
+    "abstract_zh": "大型语言模型（LLMs）能够编写和修复RTL（寄存器传输级），但成功的编译或测试台执行并不能证明缺陷已被移除、行为得到保留、安全性或实现可行性。现有的基于LLM的RTL修复方法通常只报告单一的修复率，而没有保留这些属性的独立证据，这限制了可复现的比较以及与硬件设计流程的集成。我们提出了REFORGE，据我们所知，这是第一个LLM辅助的RTL修复框架，能够在迭代过程中维护和积累结构化的修复证据，使其能够生成同时满足多个目标的修复方案，包括功能性、行为等效性、安全性和成本效率。REFORGE对有缺陷的RTL进行分析，识别结构和安全相关特征，定位失败行为，并使用验证引导的诊断方法生成完整的RTL修复变体。每个变体都经过语法检查、仿真、形式化分析、触发器保留、安全重新扫描以及基于合成的功耗、性能和面积分析。我们将REFORGE实现为一个后端独立的修复和验证流程，并在三个LLM后端和三个基准测试套件上进行了288次运行评估。在CirFix上，所提出的上下文和诊断将提供已检查修复的运行次数从32/63增加到51/63，而每个配置都修复了Hack@DAC OpenTitan缺陷。证据记录还显示，仅基于测试台的标准报告的修复次数比全套适用检查多3.9倍，安全清洁的输出可能缺乏功能验证，并且不同的RTL修复可以实现等效的硬件。这些结果表明，LLM生成的RTL修复需要明确的多阶段验证证据，而不是单一的通过/失败结果。"
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Kolpona: An Agentic Framework with Gradient-Free Neuron Programming for RTL Generation",
+    "authors": "Musa Tur Farazi, Md Nasir Uddin, Soumik Bhattacharjee, Tishna Sabrina, Chowdhury Mohammad Rakin Haider",
+    "publish": "arXiv",
+    "url": "https://arxiv.org/abs/2611.33973v1",
+    "source": "arXiv",
+    "abstract": "Open-weight large language models (LLMs) for register-transfer level (RTL) design are usually improved by fine-tuning on curated Verilog corpora, which needs large sets of verified designs and GPU training. We present Kolpona, an agentic framework that improves such models without gradient training. Its first component is neuron programming, a new form of weight-space programming (WSP) that writes single neurons in closed form into the weights to remove failure habits found on practice tasks, and keeps each edit only when testbench results on fresh tasks favour it. At inference time, tool-using agents propose designs, and a label-free selection stage delivers one design per task from the specification, the candidates and their simulations alone. On Qwen3.5-4B, edits to 16 neurons raise the VerilogEval v2 pass@1 of the model alone from 31.7% to 55.4%, and the full framework reaches 77.6%. On Qwen3.8-27B, Kolpona lifts pass@1 from 73.1% to 94.9% on VerilogEval v2 and from 66.0% to 92.0% on RTLLM v2.1 on a single 32 GB GPU, above every published system in our comparison. The RTL edits also carry over to Python and raise the pass@1 of the 4B model alone from 84.8% to 91.5% on HumanEval+ and from 67.7% to 77.5% on MBPP+.",
+    "title_zh": "Kolpona：一种用于RTL生成的无梯度神经元编程智能体框架",
+    "abstract_zh": "用于寄存器传输级(RTL)设计的开源大型语言模型(LLMs)通常通过精心挑选的Verilog语料库进行微调来改进，这需要大量经过验证的设计和GPU训练。我们提出了Kolpona，一个智能体框架，可以在不进行梯度训练的情况下改进此类模型。其第一个组件是神经元编程，这是一种新型的权重空间编程(WSP)，它将单个神经元以闭式形式写入权重中，以去除在实际任务中发现的失败习惯，并且只有在测试任务的结果支持时才保留每次编辑。在推理时，使用工具的智能体提出设计方案，无标签选择阶段仅根据规范、候选方案及其仿真结果为每个任务交付一个设计。在Qwen3.5-4B上，对16个神经元的编辑将模型单独在VerilogEval v2上的pass@1从31.7%提高到55.4%，而完整框架达到77.6%。在Qwen3.8-27B上，Kolpona在VerilogEval v2上将pass@1从73.1%提高到94.9%，在RTLLM v2.1上从66.0%提高到92.0%，仅需单个32 GB GPU，高于我们比较中发布的所有系统。RTL编辑也可迁移到Python，将4B模型单独在HumanEval+上的pass@1从84.8%提高到91.5%，在MBPP+上从67.7%提高到77.5%。"
+  },
+  {
+    "date": "2026-11-25",
+    "title": "Coverage-Based Data Informativity for Boolean Control Networks*",
+    "authors": "Xingyu Ge, Yinyu Wang, Christopher H. Fok, Jie Zhong",
+    "publish": "2026 IEEE International Conference on Systems, Man, and Cybernetics (SMC)",
+    "url": "https://doi.org/10.1109/smc63593.2026.11788434",
+    "source": "IEEE",
+    "abstract": "",
+    "title_zh": "布尔控制网络基于覆盖的数据信息量*",
+    "abstract_zh": "None"
+  }
+]
